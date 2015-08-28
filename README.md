@@ -1,7 +1,7 @@
-French Localization 1.0
-=======================
+French Localization
+===================
 
-French Localization compatible with the Flarum Forum Software 0.1.
+French localization for the [Flarum] (http://flarum.org/) Forum Software.
 
 Version
 -------
@@ -12,4 +12,4 @@ Version
 
 License
 -------
-The French Localization is released under the [MIT License] (http://opensource.org/licenses/MIT).
+Released under the MIT License. Please see the [LICENSE] (https://github.com/maelsoucaze/flarum/blob/master/LICENSE) file.
