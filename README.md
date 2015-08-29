@@ -9,17 +9,14 @@
 
 ### Compatibility
 
-- [Flarum] 0.1.0-beta (https://github.com/flarum/core)
-- [Likes] 0.1.0-beta (https://github.com/flarum/likes)
-- [Lock] 0.1.0-beta (https://github.com/flarum/lock)
-- [Mentions] 0.1.0-beta (https://github.com/flarum/mentions)
-- [Pusher] 0.1.0-beta (https://github.com/flarum/pusher)
-- [Sticky] 0.1.0-beta (https://github.com/flarum/sticky)
-- [Subscriptions] 0.1.0-beta (https://github.com/flarum/subscriptions)
-- [Tags] 0.1.0-beta (https://github.com/flarum/tags)
-
-### License
-Released under the MIT License. Please see the [LICENSE] (https://github.com/maelsoucaze/flarum/blob/master/LICENSE) file.
+- [Flarum] (https://github.com/flarum/core) 0.1.0-beta (Core)
+- [Likes] (https://github.com/flarum/likes) 0.1.0-beta
+- [Lock] (https://github.com/flarum/lock) 0.1.0-beta
+- [Mentions] (https://github.com/flarum/mentions) 0.1.0-beta
+- [Pusher] (https://github.com/flarum/pusher) 0.1.0-beta
+- [Sticky] (https://github.com/flarum/sticky) 0.1.0-beta
+- [Subscriptions] (https://github.com/flarum/subscriptions) 0.1.0-beta
+- [Tags] (https://github.com/flarum/tags) 0.1.0-beta
 
 ## Documentation
 
@@ -44,3 +41,7 @@ Once the updated compressed localization downloaded, you will need to extract th
 Using [FTP] (http://en.wikipedia.org/wiki/File_Transfer_Protocol), you will need to browse into your Flarum root (which contains the config.php file). You have to access to your *extensions/* repository, and to the *french/* repository. Inside this repository, upload the new files by replacing the old ones.
 
 Your French localization extension is now updated. But you have to clear the cache of your forum. Using [FTP] (http://en.wikipedia.org/wiki/File_Transfer_Protocol), you will need to browse into your Flarum root and to locate the *assets/* repository. Inside the repository, you will see a *forum-fr-XYZ.js*, with XYZ as random letters and numbers. Please delete this file.placing the old files by the new ones. That's it, congratulations!
+
+## License
+
+Released under the MIT License. Please see the [LICENSE] (https://github.com/maelsoucaze/flarum/blob/master/LICENSE) file.
