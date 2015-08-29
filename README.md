@@ -28,9 +28,9 @@ Click [here] (https://github.com/maelsoucaze/flarum/archive/master.zip) or on th
 
 Once the compressed extension downloaded, you will need to extract the archive.
 
-Using [FTP] (http://en.wikipedia.org/wiki/File_Transfer_Protocol), you will need to browse into your Flarum root (which contains the config.php file). You will see an *extensions/* repository. Inside this repository, you have to create a *french/* repository. Then, upload the content of the previous extracted archive inside the *french/* repository.
+Using [FTP] (http://en.wikipedia.org/wiki/File_Transfer_Protocol), you will need to browse into your Flarum root (which contains the *config.php* file). You will see an *extensions/* repository. Inside this repository, you have to create a *french/* repository. Then, upload the content of the previous extracted archive inside the *french/* repository.
 
-Now that the extension is uploaded to your server, you will have to install it. Log-in to your forum and click on your username at the top right of the screen. You will see a pop-up, and you have to click on **Administration** link. Once in the administration page, you will have to click on *Extensions*. Then, once in the extensions page, you will see the grey tinted *French* extension, with an icon of the Earth and a blue background. Hover the extension and you will see a dotted vertical menu. Click on the vertical menu and click on *Enable*.
+Now that the extension is uploaded to your server, you will have to install it. Log-in to your forum and click on your username at the top right of the screen. You will see a pop-up, and you have to click on *Administration* link. Once in the administration page, you will have to click on *Extensions*. Then, once in the extensions page, you will see the grey tinted *French* extension, with an icon of the Earth and a blue background. Hover the extension and you will see a dotted vertical menu. Click on the vertical menu and click on *Enable*.
 
 Your French extension is now installed. Congratulations! You and your users can select the language via a dropdown menu located in the header, at the right of the search box.
 
