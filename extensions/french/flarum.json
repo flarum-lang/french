@@ -1,0 +1,26 @@
+{
+    "name": "french",
+    "title": "French",
+    "description": "Localize Flarum and its extensions into French.",
+    "keywords": [""],
+    "version": "0.1.0",
+    "author": {
+        "name": "Maël Soucaze",
+        "email": "maelsoucaze@gmail.com",
+        "homepage": "http://www.maelsoucaze.com"
+    },
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "flarum": ">0.1.0"
+    },
+    "support": {
+        "source": "https://github.com/maelsoucaze/flarum",
+        "issues": "https://github.com/maelsoucaze/flarum/issues"
+    },
+    "icon": {
+      "name": "globe",
+      "backgroundColor": "#3f51b5",
+      "color": "#fff"
+    }
+}
