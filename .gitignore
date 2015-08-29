@@ -27,5 +27,4 @@ $RECYCLE.BIN/
 .git
 
 # EXTENSION
-/vendor
 composer.phar
