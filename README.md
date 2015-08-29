@@ -1,7 +1,7 @@
-# French [Flarum] (http://flarum.org/)'s Core Localization
+# French [Flarum] (http://flarum.org/)'s Localization
 
 ## Version
-- 1.0.0-dev (Build 1)
+- 0.1.0-dev (Build 2)
 - Released on August 28, 2015
 - Compatible with [Flarum 0.1.0-beta] (https://github.com/flarum/flarum/tree/v0.1.0-beta)
 
