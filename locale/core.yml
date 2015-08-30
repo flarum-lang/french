@@ -90,11 +90,11 @@ core:
   send_password_reset_email: Envoyer l'e-mail de réinitialisation du mot de passe
   settings: Réglages
   sign_up: Inscription
-  sort_latest: Récent
-  sort_newest: Nouveauté
-  sort_oldest: Ancienneté
+  sort_latest: Récents
+  sort_newest: Nouveaux
+  sort_oldest: Ancienx
   sort_relevance: Pertinence
-  sort_top: Popularité
+  sort_top: Populaires
   start_a_discussion: Démarrer une discussion
   started_a_discussion: A démarré une discussion
   unread_posts: "{count} non lus"
