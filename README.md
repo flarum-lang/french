@@ -1,6 +1,6 @@
-# French Extension for [Flarum] (http://flarum.org/) Forum Software
+# French Extension for [Flarum] (http://flarum.org/) & Extensions
 
-[Informations] (https://github.com/maelsoucaze/flarum#informations) - [Documentation] (https://github.com/maelsoucaze/flarum#documentation) - Contributing (https://github.com/maelsoucaze/flarum#contributing)
+[Informations] (https://github.com/maelsoucaze/flarum#informations) - [Documentation] (https://github.com/maelsoucaze/flarum#documentation) - [Contributing] (https://github.com/maelsoucaze/flarum#contributing)
 
 ## Informations
 
