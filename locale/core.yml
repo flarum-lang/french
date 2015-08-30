@@ -26,7 +26,7 @@ core:
   discussion_renamed_post: "{username} a modifié le titre de {old} à {new}."
   discussion_renamed_notification: "{username} a modifié le titre"
   discussion_replied: "Dernière réponse {ago} par {username}"
-  discussion_started: "Démarré {ago} par {username}"
+  discussion_started: "Démarrée {ago} par {username}"
   discussion_title: Titre de la discussion
   discussions: Discussions
   dismiss: Abandonner
