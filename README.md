@@ -40,7 +40,7 @@ Once the updated compressed extension downloaded, you will need to extract the a
 
 Using [FTP] (http://en.wikipedia.org/wiki/File_Transfer_Protocol), you will need to browse into your Flarum root (which contains the *config.php* file). You have to access to your *extensions/french/* directory. Inside this directory, upload the new files by replacing the old ones.
 
-Your French extension files are now updated, but you have to clear the cache of your forum to apply the changes. Again, using [FTP] (http://en.wikipedia.org/wiki/File_Transfer_Protocol), you will need to browse into your Flarum root (which contains the *config.php* file) and to locate the *assets/* directory. Inside the directory, you will see a *forum-fr-XYZ.js*, with *XYZ* as random letters and numbers. Please delete this file. Enjoy now the latest improvements and fixes of the updated extension!
+Your French extension files are now updated, but you have to clear the cache of your forum to apply the changes. Again, using [FTP] (http://en.wikipedia.org/wiki/File_Transfer_Protocol), you will need to browse into your Flarum root (which contains the *config.php* file) and to locate the *assets/* directory. Inside the directory, you will see *forum-fr-XYZ.js* and *admin-fr-XYZ.js* files, with *XYZ* as random letters and numbers. Please delete these files. Enjoy now the latest improvements and fixes of the updated extension!
 
 ## License
 
