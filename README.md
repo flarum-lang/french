@@ -48,13 +48,11 @@ Your extension files are now updated, but you have to force the cache of your fo
 
 ## Contributing
 
-Thank you a lot to wish to contribute. It means a lot. Enjoying the localization is already a huge support.
-
-Best other ways to contribute are:
+Thank you a lot to wish to contribute. It means a lot. Using and enjoying the localization is already a huge support. Best other ways to contribute are, among other things:
 
 - Star on GitHub. Because if you use it and like it, you can at least be a stargazer!
 - Follow on GitHub. You'll be notified in real time of all changes. No more misses!
 - Open [issues] (https://github.com/maelsoucaze/flarum/issues) on GitHub. Because the localization will be better with your feedbacks!
-- Open pull requests on GitHub. Submit directly fixes and improvements. You'll be listed as [contributor] (https://github.com/maelsoucaze/flarum/graphs/contributors)!
-- Post a message [on the discussion concerning the extension] (http://discuss.flarum.org/d/615-french-extension-to-localize-flarum-and-its-extensions) on the Flarum forum. Nope, please avoid *omelette du fromage*.
-- [Follow me on Twitter] (https://twitter.com/maelsoucaze). Show me your support and discuss with me. Promise, I don't spam food pictures.
+- Open pull requests on GitHub. Submit fixes and improvements and be listed as [contributor] (https://github.com/maelsoucaze/flarum/graphs/contributors)!
+- [Join the discussion about the extension] (http://discuss.flarum.org/d/615-french-extension-to-localize-flarum-and-its-extensions) on the Flarum community.
+- [Follow me on Twitter] (https://twitter.com/maelsoucaze). Promise, I don't spam pictures of kittens and puppies (too much).
