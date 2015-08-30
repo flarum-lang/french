@@ -7,6 +7,6 @@ likes:
     other: "{users} aiment ça."
   unlike_action: Ne plus aimer
   like_action: Aimer
-  notify_post_liked: Quelqu'un aime mon message
+  notify_post_liked: Quelqu'un aime un message que j'ai publié
   others: "{count} autres"
   you: Vous

@@ -6,5 +6,5 @@ mentions:
   post_mentioned_by: "{users} ont répondu à ça."
   you: Vous
   reply_link: Répondre
-  notify_post_mentioned: Quelqu'un répond à mon message
+  notify_post_mentioned: Quelqu'un répond à un message que j'ai publié
   notify_user_mentioned: Quelqu'un me mentionne dans un message
