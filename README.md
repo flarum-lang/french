@@ -4,7 +4,7 @@
 
 ### Version
 
-- 0.1.0-dev (Build 4)
+- 0.1.0-dev (Build 5)
 - Released on August 30, 2015
 
 ### Compatibility
