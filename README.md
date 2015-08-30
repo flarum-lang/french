@@ -52,7 +52,8 @@ Thank you a lot to wish to contribute. It means a lot. Using and enjoying the lo
 
 - Star on GitHub. Because if you use it and like it, you can at least be a stargazer!
 - Follow on GitHub. You'll be notified in real time of all changes. No more misses!
-- Open [issues] (https://github.com/maelsoucaze/flarum/issues) on GitHub. Because the localization will be better with your feedbacks!
+- Open [issues] (https://github.com/maelsoucaze/flarum/issues) on GitHub. Because the localization will be better with your feedbacks.
 - Open pull requests on GitHub. Submit fixes and improvements and be listed as [contributor] (https://github.com/maelsoucaze/flarum/graphs/contributors)!
 - [Join the discussion about the extension] (http://discuss.flarum.org/d/615-french-extension-to-localize-flarum-and-its-extensions) on the Flarum community.
 - [Follow me on Twitter] (https://twitter.com/maelsoucaze). Promise, I don't spam pictures of kittens and puppies (too much).
+- Let's have a drink if you're in Paris (France)!
