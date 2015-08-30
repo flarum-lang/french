@@ -1,4 +1,4 @@
-# French Extension for [Flarum] (http://flarum.org/) & Extensions
+# French Extension for [Flarum] (http://flarum.org/)
 
 [Informations] (https://github.com/maelsoucaze/flarum#informations) - [Documentation] (https://github.com/maelsoucaze/flarum#documentation) - [Contributing] (https://github.com/maelsoucaze/flarum#contributing)
 
