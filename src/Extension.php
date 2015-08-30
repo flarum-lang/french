@@ -9,10 +9,10 @@ class Extension extends BaseExtension
     public function listen(Dispatcher $events)
     {
         $events->listen(RegisterLocales::class, function (RegisterLocales $event) {
-            $event->manager->addLocale('fr', 'French');
-            $event->addTranslations('fr', __DIR__.'/../locale/core.yml');
+            $event->manager->addLocale('fr', 'Français');
             $event->manager->addJsFile('fr', __DIR__.'/../locale/core.js');
             $event->manager->addConfig('fr', __DIR__.'/../locale/core.php');
+            $event->addTranslations('fr', __DIR__.'/../locale/core.yml');
             $event->addTranslations('fr', __DIR__.'/../locale/likes.yml');
             $event->addTranslations('fr', __DIR__.'/../locale/lock.yml');
             $event->addTranslations('fr', __DIR__.'/../locale/mentions.yml');
