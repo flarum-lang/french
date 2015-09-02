@@ -5,8 +5,8 @@ likes:
   post_liked_by:
     one: "{users} aime ça."
     other: "{users} aiment ça."
-  unlike_action: Ne plus aimer
-  like_action: Aimer
+  unlike_action: Je n'aime plus
+  like_action: J'aime
   notify_post_liked: Quelqu'un aime un message que j'ai publié
   others: "{count} autres"
   you: Vous
