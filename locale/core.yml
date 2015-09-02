@@ -97,7 +97,9 @@ core:
   sort_top: Populaires
   start_a_discussion: Démarrer une discussion
   started_a_discussion: A démarré une discussion
-  unread_posts: "{count} non lus"
+  unread_posts:
+    one: "{count} non lu"
+    other: "{count} non lus"
   upload: Transférer
   username: Nom d'utilisateur
   username_or_email: Nom d'utilisateur ou e-mail
