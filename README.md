@@ -1,13 +1,15 @@
 # French Extension for [Flarum] (http://flarum.org/)
 
+Extension to localize the Flarum forum software and its official extensions into French.
+
 [Informations] (https://github.com/maelsoucaze/flarum#informations) - [Documentation] (https://github.com/maelsoucaze/flarum#documentation) - [Contributing] (https://github.com/maelsoucaze/flarum#contributing)
 
 ## Informations
 
 ### Version
 
-- 0.1.0-dev (Build 6)
-- Released on August 30, 2015
+- 0.1.0-dev (Build 7)
+- Released on September 2, 2015
 
 ### Compatibility
 
