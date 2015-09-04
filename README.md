@@ -31,7 +31,8 @@ Released under the MIT License. Please see the [LICENSE](https://github.com/mael
 
 ### How to download?
 
-Click [on this link](https://github.com/maelsoucaze/flarum/releases/tag/0.1.0-dev-build.11) to download the French Extension 0.1.0-dev (Build 11) release which is guaranteed to be compatible with Flarum 0.1.0 Beta 2 and its related extensions. Click [on this link](https://github.com/maelsoucaze/flarum/archive/master.zip) to download the latest development version of the extension which may be incompatible with the current software release.
+- Click [on this link](https://github.com/maelsoucaze/flarum/releases/tag/0.1.0-dev-build.11) to download the French extension 0.1.0-dev (Build 11) release which is guaranteed to be compatible with Flarum 0.1.0 Beta 2 and its related extensions.
+- Click [on this link](https://github.com/maelsoucaze/flarum/archive/master.zip) to download the latest development version of the extension which may be incompatible with the current software release.
 
 Please note that development versions (which are recognizable with the use of -dev in the version number) are generally not recommended and should always be used locally. They are based on latest commits of Flarum and supported extensions, available for testing purposes to developers or advanced and inquisitive users. Use them at your own risk!
 
