@@ -2,7 +2,7 @@
 
 Extension to localize the Flarum forum software and its official extensions into French.
 
-[Informations](https://github.com/maelsoucaze/flarum#informations) - [Documentation](https://github.com/maelsoucaze/flarum#documentation) - [Contributing](https://github.com/maelsoucaze/flarum#contributing)
+[Informations](https://github.com/maelsoucaze/flarum#informations) - [Downloads](https://github.com/maelsoucaze/flarum#downloads) - [Documentation](https://github.com/maelsoucaze/flarum#documentation) - [Contributing](https://github.com/maelsoucaze/flarum#contributing)
 
 ## Informations
 
@@ -27,13 +27,15 @@ Extension to localize the Flarum forum software and its official extensions into
 
 Released under the MIT License. Please see the [LICENSE](https://github.com/maelsoucaze/flarum/blob/master/LICENSE) file.
 
+## Downloads
+
+- [**Download the French Extension 0.1.0-dev (Build 11) Release**](https://github.com/maelsoucaze/flarum/releases/tag/0.1.0-dev-build.11).
+This release is recommended because it is guaranteed to be compatible with Flarum 0.1.0 Beta 2 and its related extensions, which are the current latest releases.
+
+- [**Download the Latest French Extension Development Build**](https://github.com/maelsoucaze/flarum/archive/master.zip).
+This release may be incompatible with the current releases, based on latest development versions of the software and its supported extensions. It is available for testing purposes to developers or advanced and inquisitive users. Use it at your own risk!
+
 ## Documentation
-
-### How to download?
-
-[Download the French Extension 0.1.0-dev (Build 11) Release](https://github.com/maelsoucaze/flarum/releases/tag/0.1.0-dev-build.11). This release is recommended because it is guaranteed to be compatible with Flarum 0.1.0 Beta 2 and its related extensions, which are the current latest releases.
-
-[Download the Latest French Extension Development Build](https://github.com/maelsoucaze/flarum/archive/master.zip). This release may be incompatible with the current releases, it is based on latest commits of the software and its supported extensions, available for testing purposes to developers or advanced and inquisitive users. Use it at your own risk!
 
 ### How to install?
 
