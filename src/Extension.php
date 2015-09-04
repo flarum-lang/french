@@ -1,4 +1,4 @@
-<?php 
+<?php
 /*
  * This file is part of Flarum.
  *
@@ -7,6 +7,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
+
 namespace Qia;
 
 use Flarum\Support\Extension as BaseExtension;
@@ -26,6 +27,7 @@ class Extension extends BaseExtension
             $event->addTranslations('fr', __DIR__.'/../locale/lock.yml');
             $event->addTranslations('fr', __DIR__.'/../locale/mentions.yml');
             $event->addTranslations('fr', __DIR__.'/../locale/pusher.yml');
+            $event->addTranslations('fr', __DIR__.'/../locale/reports.yml');
             $event->addTranslations('fr', __DIR__.'/../locale/sticky.yml');
             $event->addTranslations('fr', __DIR__.'/../locale/subscriptions.yml');
             $event->addTranslations('fr', __DIR__.'/../locale/tags.yml');
