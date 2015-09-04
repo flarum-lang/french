@@ -1,0 +1,8 @@
+reports:
+  reason_off_topic: Hors sujet
+  reason_spam: Indésirable
+  reason_inappropriate: Inapproprié
+  reason_other: Autre
+  reported_by: "Signalé par {users}"
+  reported_by_with_reason: "Signalé comme {reasons} par {users}"
+  no_reports: Aucun signalement
