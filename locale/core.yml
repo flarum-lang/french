@@ -1,6 +1,5 @@
 core:
   account: Compte
-  activity: Activité
   administration: Administration
   alert: Alerte
   all_discussions: Toutes les discussions
@@ -96,7 +95,6 @@ core:
   sort_relevance: Pertinence
   sort_top: Populaires
   start_a_discussion: Démarrer une discussion
-  started_a_discussion: A démarré une discussion
   unread_posts:
     one: "{count} non lu"
     other: "{count} non lus"
