@@ -8,19 +8,20 @@ Extension to localize the Flarum forum software and its official extensions into
 
 ### Version
 
-- 0.1.0-dev (Build 10)
-- Released on September 2, 2015
+- 0.1.0-dev (Build 11)
+- Released on September 4, 2015
 
 ### Compatibility
 
-- [Flarum] (https://github.com/flarum/core) (Core) 0.1.0-beta
-	- [Likes] (https://github.com/flarum/likes) 0.1.0-beta
-	- [Lock] (https://github.com/flarum/lock) 0.1.0-beta
-	- [Mentions] (https://github.com/flarum/mentions) 0.1.0-beta
-	- [Pusher] (https://github.com/flarum/pusher) 0.1.0-beta
-	- [Sticky] (https://github.com/flarum/sticky) 0.1.0-beta
-	- [Subscriptions] (https://github.com/flarum/subscriptions) 0.1.0-beta
-	- [Tags] (https://github.com/flarum/tags) 0.1.0-beta
+- [Flarum] (https://github.com/flarum/core) (Core) 0.1.0-beta.2
+	- [Likes] (https://github.com/flarum/likes) 0.1.0-beta.2
+	- [Lock] (https://github.com/flarum/lock) 0.1.0-beta.2
+	- [Mentions] (https://github.com/flarum/mentions) 0.1.0-beta.2
+	- [Pusher] (https://github.com/flarum/pusher) 0.1.0-beta.2
+	- [Reports] (https://github.com/flarum/reports) 0.1.0-beta.2
+	- [Sticky] (https://github.com/flarum/sticky) 0.1.0-beta.2
+	- [Subscriptions] (https://github.com/flarum/subscriptions) 0.1.0-beta.2
+	- [Tags] (https://github.com/flarum/tags) 0.1.0-beta.2
 
 ### License
 
