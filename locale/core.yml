@@ -49,7 +49,6 @@ core:
   group_mods: Modérateurs
   invalid_login: Vos informations de connexion sont incorrectes.
   joined: "Inscrit {ago}"
-  joined_the_forum: Inscrit au forum
   load_more: Charger davantage
   log_in: Connexion
   log_in_to_reply: Se connecter pour répondre
@@ -70,7 +69,6 @@ core:
   post_edited: "Édité {ago} par {username}"
   post_number: "Message #{number}"
   post_reply: Publier une réponse
-  posted_a_reply: A publié une réponse
   posts: Messages
   powered_by_flarum: Propulsé par Flarum
   privacy: Confidentialité
