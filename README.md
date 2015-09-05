@@ -8,8 +8,8 @@ Extension to localize the Flarum forum software and its official extensions into
 
 ### Version
 
-- 0.1.0-dev (Build 12)
-- Released on September 4, 2015
+- 0.1.0-dev (Build 13)
+- Released on September 5, 2015
 
 ### Compatibility
 
@@ -29,7 +29,7 @@ Released under the MIT License. Please see the [LICENSE](https://github.com/mael
 
 ## Downloads
 
-### :fr: [French Extension 0.1.0-dev (Build 12) Release](https://github.com/maelsoucaze/flarum/releases/tag/0.1.0-dev-build.12)
+### :fr: [French Extension 0.1.0-dev (Build 13) Release](https://github.com/maelsoucaze/flarum/releases/tag/0.1.0-dev-build.13)
 
 This release is recommended because it is guaranteed to be compatible with Flarum 0.1.0 Beta 2 and its related extensions, which are the current latest releases.
 
