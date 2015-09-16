@@ -1,5 +1,7 @@
 # French Extension for [Flarum](http://flarum.org/)
 
+[![Join the chat at https://gitter.im/maelsoucaze/flarum](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/maelsoucaze/flarum?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Extension to localize the Flarum forum software and its official extensions into French.
 
 [Informations](https://github.com/maelsoucaze/flarum#informations) - [Downloads](https://github.com/maelsoucaze/flarum#downloads) - [Documentation](https://github.com/maelsoucaze/flarum#documentation) - [Contributing](https://github.com/maelsoucaze/flarum#contributing)
