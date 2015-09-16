@@ -28,7 +28,6 @@ core:
   discussion_started: "Démarrée {ago} par {username}"
   discussion_title: Titre de la discussion
   discussions: Discussions
-  dismiss: Abandonner
   edit: Éditer
   editing_post: "Message #{number} dans {discussion}"
   email: E-mail
