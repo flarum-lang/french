@@ -3,11 +3,11 @@
     "title": "French",
     "description": "Localize Flarum and its extensions into French.",
     "keywords": [],
-    "version": "0.1.0-dev-build.11",
+    "version": "0.1.0-dev-build.15",
     "author": {
         "name": "Maël Soucaze",
         "email": "maelsoucaze@gmail.com",
-        "homepage": "http://www.maelsoucaze.com"
+        "homepage": "http://www.maelsoucaze.com/"
     },
     "license": "MIT",
     "require": {
