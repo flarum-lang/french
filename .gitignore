@@ -1,4 +1,4 @@
-# WINDOWS
+# Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
@@ -7,24 +7,37 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+*.lnk
 
-# MAC OS
+# Mac OS
 .DS_Store
 .AppleDouble
 .LSOverride
+Icon
 ._*
+.DocumentRevisions-V100
+.fseventsd
 .Spotlight-V100
+.TemporaryItems
 .Trashes
+.VolumeIcon.icns
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
-# LINUX
+# Linux
 *~
 .directory
+.Trash-*
 
-# NOTEPAD++
+# Backup ands log files
 *.bak
+*.log
 
-# GIT
+# Git
 .git
 
-# EXTENSION
+# Extension
 composer.phar
