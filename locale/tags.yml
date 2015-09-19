@@ -1,13 +1,11 @@
 tags:
   tags: Étiquettes
-  discussion_tagged_post:
-    one: "{username} {action} étiquette."
-    other: "{username} {action} étiquettes."
+  discussion_tagged_post: "{username} {action}."
   added_tags: "a ajouté {tags}"
   removed_tags: "a supprimé {tags}"
   tag_new_discussion_title: Sélectionner des étiquettes pour votre discussion
   tag_new_discussion_link: Sélectionner des étiquettes
-  edit_discussion_tags_title: "Éditer les étiquettes pour {title}"
+  edit_discussion_tags_title: "Éditer les étiquettes de {title}"
   edit_discussion_tags_link: Éditer les étiquettes
   choose_primary_tags:
     one: Sélectionner {count} étiquette principale
