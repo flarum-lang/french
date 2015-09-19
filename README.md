@@ -20,7 +20,7 @@ Extension to localize the Flarum forum software and its official extensions into
 
 ### Version
 
-- 0.1.0-dev (Build 15)
+- 0.1.0-dev (Build 16)
 - Released on September 19, 2015
 
 ### Compatibility
@@ -41,7 +41,7 @@ Released under the MIT License. Please see the [LICENSE](https://github.com/mael
 
 ## Downloads
 
-### [Latest French Extension Release](https://github.com/maelsoucaze/flarum/releases/tag/0.1.0-dev-build.15)
+### [Latest French Extension Release](https://github.com/maelsoucaze/flarum/releases/tag/0.1.0-dev-build.16)
 
 This release is recommended because it is guaranteed to be compatible with Flarum 0.1.0 Beta 2 and its related extensions, which are the current latest releases.
 
