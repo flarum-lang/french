@@ -1,7 +1,7 @@
 {
     "name": "french",
     "title": "French",
-    "description": "Localize Flarum and its extensions into French.",
+    "description": "Localize the interface of the forum software and its extensions into French.",
     "keywords": [],
     "version": "0.1.0-dev-build.17",
     "author": {
