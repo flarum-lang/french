@@ -32,7 +32,7 @@ Temporary Items
 .directory
 .Trash-*
 
-# Backup ands log files
+# Backup and log files
 *.bak
 *.log
 
@@ -40,4 +40,5 @@ Temporary Items
 .git
 
 # Extension
+# /vendor 
 composer.phar
