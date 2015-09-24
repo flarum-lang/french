@@ -20,7 +20,7 @@ Extension to localize the Flarum forum software and its official extensions into
 
 ### Version
 
-- 0.1.0-dev (Build 18)
+- 0.1.0-dev (Build 19)
 - Released on September 24, 2015
 
 ### Compatibility
