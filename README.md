@@ -20,12 +20,12 @@ Extension to localize the Flarum forum software and its official extensions into
 
 ### Version
 
-- 0.1.0-dev (Build 17)
-- Released on September 22, 2015
+- 0.1.0-dev (Build 18)
+- Released on September 24, 2015
 
 ### Compatibility
 
-- [Flarum](https://github.com/flarum/core) (Core) 0.1.0 Beta 2
+- [Flarum](https://github.com/flarum/core) (Core) 0.1.0 Beta 3
 	- [Flags](https://github.com/flarum/flags) 0.1.0 Beta 2
 	- [Likes](https://github.com/flarum/likes) 0.1.0 Beta 2
 	- [Lock](https://github.com/flarum/lock) 0.1.0 Beta 2
@@ -48,7 +48,7 @@ This release is recommended because it is guaranteed to be compatible with Flaru
 
 ### [Latest French Extension Development Version](https://github.com/maelsoucaze/flarum/archive/master.zip)
 
-This release may be incompatible with the current releases, based on latest development versions of the software and its supported extensions. It is available for testing purposes to developers or advanced and inquisitive users. Use it at your own risk!
+This release may be incompatible (and actually is until Beta 3!) with the current releases, based on latest development versions of the software and its supported extensions. It is available for testing purposes to developers or advanced and inquisitive users. Use it at your own risk!
 
 ## Documentation
 
