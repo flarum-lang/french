@@ -1,3 +1,5 @@
+// See http://flarum.org/docs/localization to learn how this file works.
+
 app.translator.plural = function(count) {
   if (count >= 0 && count < 2) {
     return 'one';
