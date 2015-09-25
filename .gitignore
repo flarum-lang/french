@@ -38,7 +38,3 @@ Temporary Items
 
 # Git
 .git
-
-# Extension
-# /vendor 
-composer.phar
