@@ -1,9 +1,10 @@
 {
     "name": "french",
     "title": "French",
-    "description": "Localize the user interface of the forum software and its extensions into French.",
-    "keywords": [],
-    "version": "0.1.0-dev-build.19",
+    "locale": "fr",
+    "description": "French language extension for Flarum and its official extensions.",
+    "keywords": ["language"],
+    "version": "0.1.0-dev",
     "author": {
         "name": "Maël Soucaze",
         "email": "maelsoucaze@gmail.com",
@@ -19,7 +20,7 @@
     },
     "icon": {
         "name": "language",
-        "backgroundColor": "#3f51b5",
-        "color": "#fff"
+        "backgroundColor": "#eee",
+        "color": "#000"
     }
 }
