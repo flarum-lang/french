@@ -1,4 +1,5 @@
-// See http://flarum.org/docs/localization to learn how this file works.
+// French Plural Rule
+// http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html
 
 app.translator.plural = function(count) {
   if (count >= 0 && count < 2) {
@@ -7,7 +8,10 @@ app.translator.plural = function(count) {
   else {
     return 'other';
   }
-};
+}
+
+// French Moment.js Locale File
+// https://github.com/moment/moment/blob/develop/locale/fr.js
 
 moment.locale('fr', {
   months : 'janvier_février_mars_avril_mai_juin_juillet_août_septembre_octobre_novembre_décembre'.split('_'),
