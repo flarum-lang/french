@@ -2,7 +2,7 @@
     "name": "french",
     "title": "French",
     "locale": "fr",
-    "description": "French language extension for Flarum and its official extensions.",
+    "description": "French language pack for Flarum and its official extensions.",
     "keywords": ["language"],
     "version": "0.1.0-dev",
     "author": {
