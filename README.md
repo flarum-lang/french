@@ -2,7 +2,7 @@
 
 [![Join the chat at https://gitter.im/maelsoucaze/flarum](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/maelsoucaze/flarum?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Language pack to localize the Flarum forum software and its official extensions into French.
+French language pack to localize the Flarum forum software and its official extensions.
 
 - [Informations](https://github.com/maelsoucaze/flarum#informations)
 	- [Version](https://github.com/maelsoucaze/flarum#version)
@@ -12,8 +12,8 @@ Language pack to localize the Flarum forum software and its official extensions 
 	- [Latest French Language Pack Release](https://github.com/maelsoucaze/flarum#latest-french-language-pack-release)
 	- [Latest French Language Pack Development Version](https://github.com/maelsoucaze/flarum#latest-french-language-pack-development-version)
 - [Documentation](https://github.com/maelsoucaze/flarum#documentation)
-	- [How to install?](https://github.com/maelsoucaze/flarum#installation)
-	- [How to update?](https://github.com/maelsoucaze/flarum#updating)
+	- [Installing](https://github.com/maelsoucaze/flarum#installing)
+	- [Updating](https://github.com/maelsoucaze/flarum#updating)
 - [Contributing](https://github.com/maelsoucaze/flarum#contributing)
 
 ## Informations
@@ -21,7 +21,7 @@ Language pack to localize the Flarum forum software and its official extensions 
 ### Version
 
 - 0.1.0-dev
-- Released on September 25, 2015
+- Released on September 28, 2015
 
 ### Compatibility
 
@@ -48,11 +48,11 @@ This release is recommended because it is guaranteed to be compatible with the l
 
 ### [Latest French Pack Development Version](https://github.com/maelsoucaze/flarum/archive/master.zip)
 
-This release may be incompatible with the latest stable release because based on latest development versions of the forum software and its supported extensions. It is available for testing purposes to developers or advanced and inquisitive users. Note that no support is provided, so use it at your own risk!
+This release may be incompatible with the latest stable release, based on latest development versions of the forum software and its supported extensions. It is available for testing purposes to developers or advanced and inquisitive users. Note that no support is provided, use it at your own risk!
 
 ## Documentation
 
-### Installation
+### Installing
 
 Once the compressed language pack downloaded, extract the archive with a [file archiver](https://en.wikipedia.org/wiki/Comparison_of_file_archivers).
 
@@ -64,9 +64,9 @@ Your language pack is now enabled. Congratulations! You, and your users, can now
 
 ### Updating
 
-It is very similar to the installation process. Download the updated compressed language pack and extract the archive with a [file archiver](https://en.wikipedia.org/wiki/Comparison_of_file_archivers). Using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), browse into the *extensions/french/* subdirectory. Delete all the current content of this subdirectory and upload the new files from the previous extracted archive.
+Once the updated compressed language pack downloaded, extract the archive with a [file archiver](https://en.wikipedia.org/wiki/Comparison_of_file_archivers). Using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), browse into the *extensions/french/* subdirectory, delete all its content and upload the new files from the previous extracted archive.
 
-Your language pack files are now updated, but you have to force a recompilation of the locale [JavaScript](https://en.wikipedia.org/wiki/JavaScript). Using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), enter the *assets/* directory and delete the *forum-fr-XXX.js* and *admin-fr-XXX.js* files (*XXX* are some random generated letters and numbers). You can now enjoy the latest improvements and fixes of the updated language pack!
+Your language pack is now updated but you have to force a recompilation of the locale [JavaScript](https://en.wikipedia.org/wiki/JavaScript). Using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), browse into the *assets/* directory and delete the *forum-fr-XXX.js* and *admin-fr-XXX.js* files (*XXX* are some random generated letters and numbers). You can now enjoy the latest improvements and fixes of the updated language pack!
 
 ## Contributing
 
