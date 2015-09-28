@@ -25,7 +25,7 @@ French language pack to localize the Flarum forum software and its official exte
 
 ### Compatibility
 
-- [Flarum](https://github.com/flarum/core) 0.1.0 Beta 3
+- [Flarum](https://github.com/flarum/core) (Core) 0.1.0 Beta 3
 	- [Flags](https://github.com/flarum/flags) 0.1.0 Beta 2
 	- [Likes](https://github.com/flarum/likes) 0.1.0 Beta 2
 	- [Lock](https://github.com/flarum/lock) 0.1.0 Beta 2
@@ -56,17 +56,21 @@ This release may be incompatible with the latest stable release, based on latest
 
 Once the compressed language pack downloaded, extract the archive with a [file archiver](https://en.wikipedia.org/wiki/Comparison_of_file_archivers).
 
-Using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), browse into your Flarum root (which contains the *config.php* file). You will see an *extensions/* directory. Inside this directory, create a *french/* subdirectory. Then, upload the content of the previous extracted archive inside that *french/* directory.
+Using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), browse into your Flarum root (which contains the *config.php* file). You will see an *extensions/* directory. Browse into this directory and create a *french/* subdirectory inside it. Then, upload the content of the previous extracted archive inside the *french/* subdirectory.
 
-The language pack is now uploaded to your server and your next step is to enable it. Log-in to your forum and click on your username located at the top right of the screen. You will see a pop-up. Click on the *Administration* link. Once in the administration page, click on *Extensions*. You will see a list of all your extensions. Note that the French pack is a grey tinted one, with a black icon on a light grey background. Hover it to show a dotted vertical menu. Click on *Enable* in that vertical menu.
+The language pack is now uploaded to your server and your next step is to enable it. Log in to your forum account and go to the extension section in the administration. Note that the French language pack is grey tinted because you need to activate it. Once that is done, it is be black tinted.
 
-Your language pack is now enabled. Congratulations! You, and your users, can now select the language via a dropdown menu located in the header of the forum, at the right of the search box.
+That is it, congratulations! You can now select the language via a dropdown menu located in the header of the forum.
 
 ### Updating
 
-Once the updated compressed language pack downloaded, extract the archive with a [file archiver](https://en.wikipedia.org/wiki/Comparison_of_file_archivers). Using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), browse into the *extensions/french/* subdirectory, delete all its content and upload the new files from the previous extracted archive.
+Once the compressed language pack downloaded, extract the archive with a [file archiver](https://en.wikipedia.org/wiki/Comparison_of_file_archivers).
 
-Your language pack is now updated but you have to force a recompilation of the locale [JavaScript](https://en.wikipedia.org/wiki/JavaScript). Using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), browse into the *assets/* directory and delete the *forum-fr-XXX.js* and *admin-fr-XXX.js* files (*XXX* are some random generated letters and numbers). You can now enjoy the latest improvements and fixes of the updated language pack!
+Using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), browse into the *french/* subdirectory and delete all its actual content. Then, upload the content from the previous extracted archive inside the *french/* subdirectory.
+
+The updated language pack is now uploaded to your server and your next step is to force a recompilation of the locale [JavaScript](https://en.wikipedia.org/wiki/JavaScript). Using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), browse into the *assets/* directory and delete the *forum-fr-XXX.js* and *admin-fr-XXX.js* files (*XXX* are some random generated letters and numbers).
+
+That is it, congratulations! You can now enjoy all the latest compatibilities, improvements and fixes.
 
 ## Contributing
 
