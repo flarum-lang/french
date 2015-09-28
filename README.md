@@ -58,9 +58,9 @@ Once the compressed language pack downloaded, extract the archive with a [file a
 
 Using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), browse into your Flarum root (which contains the *config.php* file). You will see an *extensions/* directory. Browse into this directory and create a *french/* subdirectory inside it. Then, upload the content of the previous extracted archive inside the *french/* subdirectory.
 
-The language pack is now uploaded to your server and your next step is to enable it. Log in to your forum account and go to the extension section in the administration. Note that the French language pack is grey tinted because you need to activate it. Once that is done, it is be black tinted.
+The language pack is now uploaded to your server and your next step is to enable it. Log in to your forum account and go to the extension section in the administration. Note that the French language pack is grey tinted because you need to activate it. Once that is done, it will be black tinted.
 
-That is it, congratulations! You can now select the language via a dropdown menu located in the header of the forum.
+That is it! You can now change the language via a dropdown menu located in the header.
 
 ### Updating
 
@@ -70,7 +70,7 @@ Using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), browse into th
 
 The updated language pack is now uploaded to your server and your next step is to force a recompilation of the locale [JavaScript](https://en.wikipedia.org/wiki/JavaScript). Using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), browse into the *assets/* directory and delete the *forum-fr-XXX.js* and *admin-fr-XXX.js* files (*XXX* are some random generated letters and numbers).
 
-That is it, congratulations! You can now enjoy all the latest compatibilities, improvements and fixes.
+That is it! You can now enjoy all the latest compatibilities, improvements and fixes.
 
 ## Contributing
 
