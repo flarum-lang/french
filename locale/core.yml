@@ -6,7 +6,7 @@ core:
 
   # These strings are used in the Change Email modal dialog.
   change_email_confirmation_message: => core.confirmation_email_sent
-  change_email_go_to_button: => core.go_to_url
+  change_email_dismiss_button: => core.okay
   change_email_submit_button: => core.save_changes
   change_email_title: => core.change_email
 
@@ -64,7 +64,7 @@ core:
   edit_user_username_label: => core.username
 
   # These strings are used in the Forgot Password modal dialog.
-  forgot_password_go_to_button: => core.go_to_url
+  forgot_password_dismiss_button: => core.okay
   forgot_password_email_placeholder: => core.email
   forgot_password_email_sent_message: Nous vous avons envoyé un e-mail contenant un lien pour réinitialiser votre mot de passe. Si vous ne le recevez pas prochainement, vérifiez le contenu de votre dossier contenant les e-mails indésirables.
   forgot_password_submit_button: Récupérer un mot de passe
@@ -160,7 +160,7 @@ core:
   sign_up_already_have_account_text: "Déjà inscrit ? "  # Final space is needed for string separation.
   sign_up_confirmation_message: => core.confirmation_email_sent
   sign_up_email_placeholder: => core.email
-  sign_up_go_to_button: => core.go_to_url
+  sign_up_dismiss_button: => core.okay
   sign_up_log_in_link: => core.log_in
   sign_up_password_placeholder: => core.password
   sign_up_submit_button: => core.sign_up
@@ -191,7 +191,6 @@ core:
   ##
 
   change_email: Modifier l'adresse e-mail
-  go_to_url: "Aller à {url}"
   change_password: Modifier le mot de passe
   confirmation_email_sent: "Nous avons envoyé un e-mail de confirmation à {email}. Si vous ne le recevez pas prochainement, vérifiez le contenu de votre dossier contenant les e-mails indésirables."
   delete: Supprimer
@@ -203,6 +202,7 @@ core:
   log_in: Connexion
   mark_all_as_read: Tout marquer comme lu
   notifications: Notifications
+  okay: Valider
   password: Mot de passe
   restore: Restaurer
   save_changes: Enregistrer les modifications
