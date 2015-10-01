@@ -46,7 +46,7 @@ This release is recommended because it is guaranteed to be compatible with the l
 
 ### [Latest French Language Pack Development Release](https://github.com/maelsoucaze/flarum/archive/master.zip)
 
-This release is not recommended because it is may be incompatible with the latest stable release, based on latest development versions of the forum software and its supported extensions. It is available for testing purposes to developers or advanced and inquisitive users. No support is provided, so use it at your own risk!
+This release is not recommended because it is may be incompatible with the latest stable release, based on latest development versions of the forum software and its supported extensions. It is available for testing purposes to developers or advanced and inquisitive users.
 
 ## Documentation
 
