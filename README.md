@@ -9,8 +9,8 @@ French language pack to localize the Flarum forum software and its official exte
 	- [Compatibility](https://github.com/maelsoucaze/flarum#compatibility)
 	- [License](https://github.com/maelsoucaze/flarum#license)
 - [Downloads](https://github.com/maelsoucaze/flarum#downloads)
-	- [Latest French Language Pack Release](https://github.com/maelsoucaze/flarum#latest-french-language-pack-stable-release)
-	- [Latest French Language Pack Development Version](https://github.com/maelsoucaze/flarum#latest-french-language-pack-development-release)
+	- [Latest French Language Pack Stable Release](https://github.com/maelsoucaze/flarum#latest-french-language-pack-stable-release)
+	- [Latest French Language Pack Development Release](https://github.com/maelsoucaze/flarum#latest-french-language-pack-development-release)
 - [Documentation](https://github.com/maelsoucaze/flarum#documentation)
 - [Contributing](https://github.com/maelsoucaze/flarum#contributing)
 
