@@ -9,8 +9,8 @@ French language pack to localize the Flarum forum software and its official exte
 	- [Compatibility](https://github.com/maelsoucaze/flarum#compatibility)
 	- [License](https://github.com/maelsoucaze/flarum#license)
 - [Downloads](https://github.com/maelsoucaze/flarum#downloads)
-	- [Latest French Language Pack Stable Release](https://github.com/maelsoucaze/flarum#latest-french-language-pack-stable-release)
-	- [Latest French Language Pack Development Release](https://github.com/maelsoucaze/flarum#latest-french-language-pack-development-release)
+	- [Latest Stable Release](https://github.com/maelsoucaze/flarum#latest-stable-release)
+	- [Latest Development Release](https://github.com/maelsoucaze/flarum#latest-development-release)
 - [Documentation](https://github.com/maelsoucaze/flarum#documentation)
 - [Contributing](https://github.com/maelsoucaze/flarum#contributing)
 
@@ -40,11 +40,11 @@ Released under the MIT License. Please see the [LICENSE](https://github.com/mael
 
 ## Downloads
 
-### [Latest French Language Pack Stable Release](https://github.com/maelsoucaze/flarum/releases/tag/0.1.0-dev-build.17)
+### [Latest Stable Release](https://github.com/maelsoucaze/flarum/releases/tag/0.1.0-dev-build.17)
 
 This release is recommended because it is guaranteed to be compatible with the latest stable release of the forum software (which is currently Flarum 0.1.0 Beta 2) and its related extensions.
 
-### [Latest French Language Pack Development Release](https://github.com/maelsoucaze/flarum/archive/master.zip)
+### [Latest Development Release](https://github.com/maelsoucaze/flarum/archive/master.zip)
 
 This release is not recommended because it is may be incompatible with the latest stable release, based on latest development versions of the forum software and its supported extensions. It is available for testing purposes to developers or advanced and inquisitive users.
 
