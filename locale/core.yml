@@ -153,7 +153,7 @@ core:
 
   # These strings are used in the Notifications grid on the Settings page.
   settings_notify_by_email_heading: Courriel
-  settings_notify_by_web_heading: Internet
+  settings_notify_by_web_heading: Web
   settings_notify_discussion_renamed_label: Quelqu'un renomme une discussion que j'ai démarrée
 
   # These strings are used in the Sign Up modal dialog.
@@ -169,7 +169,7 @@ core:
   sign_up_welcome_text: "Bienvenue {username} !"
 
   # These strings are used in the user profile page and profile popup.
-  user_bio_placeholder: Écrivez quelque chose à propos de vous
+  user_bio_placeholder: Rédigez quelque chose à propos de vous
   user_discussions_link: => core.discussions
   user_joined_date_text: "Inscrit {ago}"
   user_online_text: En ligne
@@ -182,7 +182,7 @@ core:
   user_avatar_upload_button: Transférer
 
   # These strings are found on the user profile page (moderator function).
-  user_controls_button: Contrôles
+  user_controls_button: Commandes
   user_controls_delete_button: => core.delete
   user_controls_edit_button: => core.edit
 

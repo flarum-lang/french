@@ -8,8 +8,8 @@ tags:
   edit_discussion_tags_title: "Éditer les étiquettes de {title}"
   edit_discussion_tags_link: Éditer les étiquettes
   choose_primary_tags:
-    one: Sélectionner {count} étiquette principale
-    other: "Sélectionner {count} étiquettes principales"
+    one: Sélectionner {count} étiquette primaire
+    other: "Sélectionner {count} étiquettes primaires"
   choose_secondary_tags:
     one: Sélectionner {count} étiquette secondaire
     other: "Sélectionner {count} étiquettes secondaires"
