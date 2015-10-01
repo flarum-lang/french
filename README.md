@@ -12,8 +12,6 @@ French language pack to localize the Flarum forum software and its official exte
 	- [Latest French Language Pack Release](https://github.com/maelsoucaze/flarum#latest-french-language-pack-release)
 	- [Latest French Language Pack Development Version](https://github.com/maelsoucaze/flarum#latest-french-language-pack-development-version)
 - [Documentation](https://github.com/maelsoucaze/flarum#documentation)
-	- [Installing](https://github.com/maelsoucaze/flarum#installing)
-	- [Updating](https://github.com/maelsoucaze/flarum#updating)
 - [Contributing](https://github.com/maelsoucaze/flarum#contributing)
 
 ## Informations
@@ -52,25 +50,7 @@ This release may be incompatible with the latest stable release, based on latest
 
 ## Documentation
 
-### Installing
-
-Once the compressed language pack downloaded, extract the archive with a [file archiver](https://en.wikipedia.org/wiki/Comparison_of_file_archivers).
-
-Using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), browse into your Flarum root (which contains the *config.php* file). You will see an *extensions/* directory. Browse into this directory and create a *french/* subdirectory inside it. Then, upload the content of the previous extracted archive inside the *french/* subdirectory.
-
-The language pack is now uploaded to your server and your next step is to enable it. Log in to your forum account and go to the extension section in the administration. Note that the French language pack is grey tinted because you need to activate it. Once that is done, it will be black tinted.
-
-That is it! You can now change the language via a dropdown menu located in the header.
-
-### Updating
-
-Once the compressed language pack downloaded, extract the archive with a [file archiver](https://en.wikipedia.org/wiki/Comparison_of_file_archivers).
-
-Using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), browse into the *french/* subdirectory and delete all its actual content. Then, upload the content from the previous extracted archive inside the *french/* subdirectory.
-
-The updated language pack is now uploaded to your server and your next step is to force a recompilation of the locale [JavaScript](https://en.wikipedia.org/wiki/JavaScript). Using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), browse into the *assets/* directory and delete the *forum-fr-XXX.js* and *admin-fr-XXX.js* files (*XXX* are some random generated letters and numbers).
-
-That is it! You can now enjoy all the latest compatibilities, improvements and fixes.
+Follow [these simple step-by-step instructions](http://flarum.org/docs/languages/) from the Flarum website to know how to manage a language pack.
 
 ## Contributing
 
