@@ -42,11 +42,11 @@ Released under the MIT License. Please see the [LICENSE](https://github.com/mael
 
 ### [Latest Stable Release](https://github.com/maelsoucaze/flarum/releases/tag/0.1.0-dev-build.17)
 
-This release is recommended because it is guaranteed to be compatible with the latest stable release of the forum software (which is currently Flarum 0.1.0 Beta 2) and its related extensions.
+This release is recommended because it is guaranteed to be compatible with the latest stable release of the forum software (which is currently Flarum 0.1.0 Beta 2) and its official extensions.
 
 ### [Latest Development Release](https://github.com/maelsoucaze/flarum/archive/master.zip)
 
-This release is not recommended because it is may be incompatible with the latest stable release, based on latest development versions of the forum software and its supported extensions. It is available for testing purposes to developers or advanced and inquisitive users.
+This release is not recommended because it is may be incompatible with the latest stable release, based on latest development versions of the forum software and its official extensions. It is available for testing purposes to developers or advanced and inquisitive users.
 
 ## Documentation
 
