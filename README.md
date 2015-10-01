@@ -50,7 +50,7 @@ This release may be incompatible with the latest stable release, based on latest
 
 ## Documentation
 
-Follow [these simple step-by-step instructions](http://flarum.org/docs/languages/) from the Flarum website to know how to manage a language pack.
+Follow [these simple step-by-step instructions](http://flarum.org/docs/languages/) from the Flarum website to know how to manage a language pack. Note that the content of the French language pack must be uploaded in a subdirectory named *french/* that you have to create in the *extensions/* directory.
 
 ## Contributing
 
