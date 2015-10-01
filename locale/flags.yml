@@ -1,6 +1,6 @@
 flags:
   reason_off_topic: Hors-sujet
-  reason_spam: Indésirable
+  reason_spam: Pourriel
   reason_inappropriate: Inapproprié
   reason_other: Autre
   flagged_by: "Signalé par {username}"

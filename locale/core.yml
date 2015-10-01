@@ -11,8 +11,8 @@ core:
   change_email_title: => core.change_email
 
   # These strings are used in the Change Password modal dialog.
-  change_password_send_button: Envoyer l'e-mail de réinitialisation du mot de passe
-  change_password_text: Cliquez sur le bouton ci-dessous et accédez au lien dans l'e-mail que nous vous avons envoyé pour modifier votre mot de passe.
+  change_password_send_button: Envoyer le courriel de réinitialisation du mot de passe
+  change_password_text: Cliquez sur le bouton ci-dessous et accédez au lien dans le courriel que nous vous avons envoyé pour modifier votre mot de passe.
   change_password_title: => core.change_password
 
   # These strings are used by the Composer controls.
@@ -66,9 +66,9 @@ core:
   # These strings are used in the Forgot Password modal dialog.
   forgot_password_dismiss_button: => core.okay
   forgot_password_email_placeholder: => core.email
-  forgot_password_email_sent_message: Nous vous avons envoyé un e-mail contenant un lien pour réinitialiser votre mot de passe. Si vous ne le recevez pas prochainement, vérifiez le contenu de votre dossier contenant les e-mails indésirables.
+  forgot_password_email_sent_message: Nous vous avons envoyé un courriel contenant un lien pour réinitialiser votre mot de passe. Si vous ne le recevez pas prochainement, vérifiez le contenu de votre dossier contenant les pourriels.
   forgot_password_submit_button: Récupérer un mot de passe
-  forgot_password_text: Saisissez votre adresse e-mail pour que nous vous envoyons un lien qui vous permettra de réinitialiser votre mot de passe.
+  forgot_password_text: Saisissez votre courriel pour que nous vous envoyons un lien qui vous permettra de réinitialiser votre mot de passe.
   forgot_password_title: Mot de passe oublié
 
   # These strings are used in the header and session dropdown menu.
@@ -95,7 +95,7 @@ core:
   index_sort_top_button: Populaires
 
   # These strings are used in the Log In modal dialog.
-  log_in_confirmation_required_message: "Vous devez confirmer votre adresse e-mail avant de pouvoir vous connecter. Nous avons envoyé un e-mail de confirmation à {email}. Si vous ne le recevez pas prochainement, vérifiez le contenu de votre dossier contenant les e-mails indésirables."
+  log_in_confirmation_required_message: "Vous devez confirmer votre courriel avant de pouvoir vous connecter. Nous avons envoyé un courriel de confirmation à {email}. Si vous ne le recevez pas prochainement, vérifiez le contenu de votre dossier contenant les pourriels."
   log_in_forgot_password_link: Mot de passe oublié ?
   log_in_invalid_login_message: Vos identifiants sont incorrects.
   log_in_no_account_text: "Pas encore inscrit ? "  # Final space is needed for string separation.
@@ -103,7 +103,7 @@ core:
   log_in_sign_up_link: => core.sign_up
   log_in_submit_button: => core.log_in
   log_in_title: => core.log_in
-  log_in_username_or_email_placeholder: Nom d'utilisateur ou e-mail
+  log_in_username_or_email_placeholder: Nom d'utilisateur ou courriel
 
   # These strings are used by the Notifications dropdown, a.k.a. "the bell".
   notifications_discussion_renamed_text: "{username} a modifié le titre"
@@ -190,14 +190,14 @@ core:
   # REUSED STRINGS - The following keys are referenced by two or more unique keys.
   ##
 
-  change_email: Modifier l'adresse e-mail
+  change_email: Modifier le courriel
   change_password: Modifier le mot de passe
-  confirmation_email_sent: "Nous avons envoyé un e-mail de confirmation à {email}. Si vous ne le recevez pas prochainement, vérifiez le contenu de votre dossier contenant les e-mails indésirables."
+  confirmation_email_sent: "Nous avons envoyé un courriel de confirmation à {email}. Si vous ne le recevez pas prochainement, vérifiez le contenu de votre dossier contenant les pourriels."
   delete: Supprimer
   delete_forever: Supprimer définitivement
   discussions: Discussions
   edit: Éditer
-  email: E-mail
+  email: Courriel
   load_more: Charger davantage
   log_in: Connexion
   mark_all_as_read: Tout marquer comme lu
