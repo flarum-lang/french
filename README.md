@@ -12,6 +12,7 @@ French language pack to localize the Flarum forum software and its official exte
 	- [Latest Stable Release](https://github.com/maelsoucaze/flarum#latest-stable-release)
 	- [Latest Development Release](https://github.com/maelsoucaze/flarum#latest-development-release)
 - [Documentation](https://github.com/maelsoucaze/flarum#documentation)
+  - [Installation](https://github.com/maelsoucaze/flarum#installation)
   - [Terminology](https://github.com/maelsoucaze/flarum#terminology)
 - [Contributing](https://github.com/maelsoucaze/flarum#contributing)
 
@@ -50,13 +51,17 @@ This release is not recommended because it is may be incompatible with the lates
 
 ## Documentation
 
-Follow [these simple step-by-step instructions](http://flarum.org/docs/languages/) from the Flarum website to know how to manage a language pack. Note that all the unpacked content of the downloaded French language pack archive must be uploaded into a **french** subdirectory that you have to create in the **extensions** directory.
+### Installation
+
+Follow [these simple step-by-step instructions](http://flarum.org/docs/languages/) from the Flarum website.
+
+Note that all the unpacked content of the downloaded French language pack archive must be uploaded into a **french/** subdirectory (without the slash punctuation mark) that you have to create in the **extensions/** directory.
 
 ### Terminology
 
-We enforce to use proper French terms chosen by official institutions which are [Académie française](https://fr.wikipedia.org/wiki/Acad%C3%A9mie_fran%C3%A7aise), [Délégation générale à la langue française et aux langues de France](https://fr.wikipedia.org/wiki/D%C3%A9l%C3%A9gation_g%C3%A9n%C3%A9rale_%C3%A0_la_langue_fran%C3%A7aise_et_aux_langues_de_France), [Commission générale de terminologie et de néologie](https://fr.wikipedia.org/wiki/Commission_g%C3%A9n%C3%A9rale_de_terminologie_et_de_n%C3%A9ologie) and [Office québécois de la langue française](https://fr.wikipedia.org/wiki/Office_qu%C3%A9b%C3%A9cois_de_la_langue_fran%C3%A7aise).
+I enforce to use proper French terms chosen by official institutions which are [Académie française](https://fr.wikipedia.org/wiki/Acad%C3%A9mie_fran%C3%A7aise), [Délégation générale à la langue française et aux langues de France](https://fr.wikipedia.org/wiki/D%C3%A9l%C3%A9gation_g%C3%A9n%C3%A9rale_%C3%A0_la_langue_fran%C3%A7aise_et_aux_langues_de_France), [Commission générale de terminologie et de néologie](https://fr.wikipedia.org/wiki/Commission_g%C3%A9n%C3%A9rale_de_terminologie_et_de_n%C3%A9ologie) and [Office québécois de la langue française](https://fr.wikipedia.org/wiki/Office_qu%C3%A9b%C3%A9cois_de_la_langue_fran%C3%A7aise).
 
-However, because some official terms are inadequate or unpopular, we may use different terms than the official ones to stay as understandable as possible for everyone. You can see [in that page](https://gist.github.com/maelsoucaze/eef79ce417eff38d1d57) the list of some terms used in the localization. Feel free to discuss with us on the best terms to use!
+However, because some official terms are inadequate or unpopular, I may use different terms than the official ones to stay as understandable as possible for everyone. You can see in [this documentation](https://gist.github.com/maelsoucaze/eef79ce417eff38d1d57) (written in French) the list of some terms used in the localization. Feel free to discuss with me on the best terms to use!
 
 ## Contributing
 
