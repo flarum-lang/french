@@ -20,19 +20,19 @@ French language pack to localize the Flarum forum software and its official exte
 ### Version
 
 - 0.1.0-dev
-- Released on October 1, 2015
+- Released on October 2, 2015
 
 ### Compatibility
 
 - [Flarum](https://github.com/flarum/core) (Core) 0.1.0 Beta 3
-	- [Flags](https://github.com/flarum/flags) 0.1.0 Beta 2
-	- [Likes](https://github.com/flarum/likes) 0.1.0 Beta 2
-	- [Lock](https://github.com/flarum/lock) 0.1.0 Beta 2
-	- [Mentions](https://github.com/flarum/mentions) 0.1.0 Beta 2
-	- [Pusher](https://github.com/flarum/pusher) 0.1.0 Beta 2
-	- [Sticky](https://github.com/flarum/sticky) 0.1.0 Beta 2
-	- [Subscriptions](https://github.com/flarum/subscriptions) 0.1.0 Beta 2
-	- [Tags](https://github.com/flarum/tags) 0.1.0 Beta 2
+	- [Flags](https://github.com/flarum/flags) 0.1.0 Beta 3
+	- [Likes](https://github.com/flarum/likes) 0.1.0 Beta 3
+	- [Lock](https://github.com/flarum/lock) 0.1.0 Beta 3
+	- [Mentions](https://github.com/flarum/mentions) 0.1.0 Beta 3
+	- [Pusher](https://github.com/flarum/pusher) 0.1.0 Beta 3
+	- [Sticky](https://github.com/flarum/sticky) 0.1.0 Beta 3
+	- [Subscriptions](https://github.com/flarum/subscriptions) 0.1.0 Beta 3
+	- [Tags](https://github.com/flarum/tags) 0.1.0 Beta 3
 
 ### License
 
