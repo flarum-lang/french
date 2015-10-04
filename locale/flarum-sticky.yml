@@ -1,4 +1,4 @@
-sticky:
+flarum-sticky:
   discussion_stickied_notification: "{username} a épinglé"
   discussion_stickied_post: "{username} a épinglé la discussion."
   discussion_unstickied_post: "{username} a désépinglé la discussion."

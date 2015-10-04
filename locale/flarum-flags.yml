@@ -1,4 +1,4 @@
-flags:
+flarum-flags:
   reason_off_topic: Hors-sujet
   reason_spam: Pourriel
   reason_inappropriate: Inapproprié

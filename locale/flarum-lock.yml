@@ -1,4 +1,4 @@
-lock:
+flarum-lock:
   discussion_locked_notification: "{username} a verrouillé"
   discussion_locked_post: "{username} a verrouillé la discussion."
   discussion_unlocked_post: "{username} a déverrouillé la discussion."
