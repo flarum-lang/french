@@ -55,7 +55,7 @@ This release is not recommended because it is may be incompatible with the lates
 
 Follow [these simple step-by-step instructions](http://flarum.org/docs/languages/) from the Flarum website.
 
-Note that all the unpacked content of the downloaded French language pack archive must be uploaded into a **french/** subdirectory (without the slash punctuation mark) that you have to create in the **extensions/** directory.
+Note that all the unpacked content of the downloaded French language pack archive must be uploaded into a **maelsoucaze-french/** subdirectory (without the slash punctuation mark at the end) that you have to create in the **extensions/** directory.
 
 ### Terminology
 
