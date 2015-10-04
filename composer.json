@@ -1,0 +1,23 @@
+{
+    "name": "maelsoucaze/french",
+    "type": "flarum-extension",
+    "description": "French language pack for Flarum and its bundled extensions.",
+    "license": "MIT",
+    "require": {
+        "composer/installers": "dev-master"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "French",
+            "icon": {
+                "backgroundImage": "url('{$assets}/icon.svg')",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "fr",
+            "title": "Français"
+        }
+    }
+}
