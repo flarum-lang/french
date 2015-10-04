@@ -15,6 +15,7 @@
 *.json text eol=lf
 *.md   text eol=lf
 *.php  text eol=lf
+*.svg  text eol=lf
 *.yml  text eol=lf
 
 # Exclude the following files when exporting an archive.
