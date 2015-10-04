@@ -2,7 +2,7 @@
 
 [![Join the chat at https://gitter.im/maelsoucaze/flarum](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/maelsoucaze/flarum?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-French language pack to localize the Flarum forum software and its official extensions.
+French language pack to localize the Flarum forum software and its bundled extensions.
 
 - [Informations](https://github.com/maelsoucaze/flarum#informations)
 	- [Version](https://github.com/maelsoucaze/flarum#version)
@@ -21,7 +21,7 @@ French language pack to localize the Flarum forum software and its official exte
 ### Version
 
 - 0.1.0-dev
-- Released on October 2, 2015
+- Released on October 4, 2015
 
 ### Compatibility
 
@@ -43,11 +43,11 @@ Released under the MIT License. Please see the [LICENSE](https://github.com/mael
 
 ### [Latest Stable Release](https://github.com/maelsoucaze/flarum/releases/tag/0.1.0-dev-build.17)
 
-This release is recommended because it is guaranteed to be compatible with the latest stable release of the forum software (which is currently Flarum 0.1.0 Beta 2) and its official extensions.
+This release is recommended because it is guaranteed to be compatible with the latest stable release of the forum software (which is currently Flarum 0.1.0 Beta 2) and its bundled extensions.
 
 ### [Latest Development Release](https://github.com/maelsoucaze/flarum/archive/master.zip)
 
-This release is not recommended because it is may be incompatible with the latest stable release, based on latest development versions of the forum software and its official extensions. It is available for testing purposes to developers or advanced and inquisitive users.
+This release is not recommended because it is may be incompatible with the latest stable release, based on latest development versions of the forum software and its bundled extensions. It is available for testing purposes to developers or advanced and inquisitive users. Do not use it in production.
 
 ## Documentation
 
