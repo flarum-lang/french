@@ -2,40 +2,19 @@
 # Git should ignore. Files already tracked by Git are not affected.
 # http://git-scm.com/docs/gitignore
 
-# Windows
-$RECYCLE.BIN/
-*.cab
-*.lnk
-*.msi
-*.msm
-*.msp
+# Composer
+/vendor
+composer.phar
+
+# Operating systems
+*~
+._*
+.AppleDouble
+.directory
+.DS_Store
+.LSOverride
+.Trash-*
 Desktop.ini
 ehthumbs.db
-Thumbs.db
-
-# Mac OS
-._*
-.apdisk
-.AppleDB
-.AppleDesktop
-.AppleDouble
-.DocumentRevisions-V100
-.DS_Store
-.fseventsd
-.LSOverride
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
 Icon
-Network Trash Folder
-Temporary Items
-
-# Linux
-*~
-.directory
-.Trash-*
-
-# Miscellaneous
-*.bak
-*.log
+Thumbs.db
