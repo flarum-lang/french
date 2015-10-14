@@ -21,7 +21,7 @@ French language pack to localize the Flarum forum software and its bundled exten
 ### Version
 
 - 0.1.0-dev
-- Released on October 12, 2015
+- Released on October 14, 2015
 
 ### Compatibility
 
