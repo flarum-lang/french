@@ -1,4 +1,3 @@
 flarum-pusher:
-  show_updated_discussions:
-    one: "Afficher {count} discussion mise à jour"
-    other: "Afficher {count} discussions mises à jour"
+  forum:
+    show_updated_discussions: "Afficher {count} discussion mise à jour|Afficher {count} discussions mises à jour"

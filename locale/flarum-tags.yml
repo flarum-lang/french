@@ -1,18 +1,15 @@
 flarum-tags:
-  tags: Étiquettes
-  discussion_tagged_post: "{username} {action}."
-  added_tags: "a ajouté {tags}"
-  removed_tags: "a supprimé {tags}"
-  tag_new_discussion_title: Sélectionner des étiquettes pour votre discussion
-  tag_new_discussion_link: Sélectionner des étiquettes
-  edit_discussion_tags_title: "Éditer les étiquettes de {title}"
-  edit_discussion_tags_link: Éditer les étiquettes
-  choose_primary_tags:
-    one: Sélectionner {count} étiquette primaire
-    other: "Sélectionner {count} étiquettes primaires"
-  choose_secondary_tags:
-    one: Sélectionner {count} étiquette secondaire
-    other: "Sélectionner {count} étiquettes secondaires"
-  confirm: Confirmer
-  more: Plus...
-  deleted: Supprimé
+  forum:
+    tags: Étiquettes
+    discussion_tagged_post: "{username} {action}."
+    added_tags: "a ajouté {tags}"
+    removed_tags: "a supprimé {tags}"
+    tag_new_discussion_title: Sélectionner des étiquettes pour votre discussion
+    tag_new_discussion_link: Sélectionner des étiquettes
+    edit_discussion_tags_title: "Éditer les étiquettes de {title}"
+    edit_discussion_tags_link: Éditer les étiquettes
+    choose_primary_tags: "Sélectionner une étiquette primaire|Sélectionner {count} étiquettes primaires"
+    choose_secondary_tags: "Sélectionner une étiquette secondaire|Sélectionner {count} étiquettes secondaires"
+    confirm: Confirmer
+    more: Plus...
+    deleted: Supprimé
