@@ -128,12 +128,8 @@ core:
     # These strings are used in the scrubber to the right of the post stream.
     post_scrubber_now_link: Maintenant
     post_scrubber_original_post_link: Message original
-    post_scrubber_unread_text:
-      one: "{count} non lu"
-      other: "{count} non lus"
-    post_scrubber_viewing_text:
-      one: "{index} sur {count} message"
-      other: "{index} sur {count} messages"
+    post_scrubber_unread_text: "{count} non lu|{count} non lus"
+    post_scrubber_viewing_text: "{index} sur {count} message|{index} sur {count} messages"
 
     # These strings are displayed between posts in the post stream.
     post_stream_discussion_renamed_text: "{username} a modifié le titre {old} par {new}."
@@ -267,9 +263,7 @@ core:
     permissions_allow_indefinitely_button: Indéfiniment
     permissions_allow_renaming_label: Autoriser le renommage
     permissions_allow_post_editing_label: Autoriser l'édition des messages
-    permissions_allow_some_minutes_button:
-      one: "Pour {count} minute"
-      other: "Pour {count} minutes"
+    permissions_allow_some_minutes_button: "Pour {count} minute|Pour {count} minutes"
     permissions_allow_ten_minutes_button: Pour 10 minutes
     permissions_allow_until_reply_button: Jusqu'à la prochaine réponse
     permissions_create_heading: Création

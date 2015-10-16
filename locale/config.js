@@ -1,15 +1,3 @@
-// French Plural Rule
-// http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html
-
-app.translator.plural = function(count) {
-  if (count >= 0 && count < 2) {
-    return 'one';
-    }
-  else {
-    return 'other';
-  }
-}
-
 // French Moment.js Locale File
 // https://github.com/moment/moment/blob/develop/locale/fr.js
 
