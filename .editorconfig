@@ -5,15 +5,15 @@
 # Top-most EditorConfig file. Do not search in parent directories.
 root = true
 
-# Set two space indentation, default charset to UTF-8, line endings to
-# Unix (LF) with a final newline, trim trailing whitespace in all files.
+# Set two space indentation, line endings to Unix (LF) with a final newline,
+# default charset to UTF-8, and trim trailing whitespace in all files.
 [*]
 indent_style = space
 indent_size = 2
-charset = utf-8
 end_of_line = lf
-insert_final_newline = true
+charset = utf-8
 trim_trailing_whitespace = true
+insert_final_newline = true
 
 # Set four space indentation in JSON and PHP files.
 [*.{json,php}]
