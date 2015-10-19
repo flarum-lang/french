@@ -8,15 +8,15 @@ core:
   forum:
 
     # These strings are used in the Change Email modal dialog.
-    change_email_confirmation_message: => core.confirmation_email_sent
-    change_email_dismiss_button: => core.okay
-    change_email_submit_button: => core.save_changes
-    change_email_title: => core.change_email
+    change_email_confirmation_message: => core.ref.confirmation_email_sent
+    change_email_dismiss_button: => core.ref.okay
+    change_email_submit_button: => core.ref.save_changes
+    change_email_title: => core.ref.change_email
 
     # These strings are used in the Change Password modal dialog.
     change_password_send_button: Envoyer le courriel de réinitialisation du mot de passe
     change_password_text: Cliquez sur le bouton ci-dessous et consultez le courriel que nous vous avons envoyé pour modifier votre mot de passe.
-    change_password_title: => core.change_password
+    change_password_title: => core.ref.change_password
 
     # These strings are used by the composer controls.
     composer_close_tooltip: Fermer
@@ -33,10 +33,10 @@ core:
     # These strings are used by the composer when editing a post.
     composer_edit_discard_confirmation: Vous n'avez pas enregistré vos modifications. Souhaitez-vous les abandonner ?
     composer_edit_post_link: "Message #{number} dans {discussion}"
-    composer_edit_submit_button: => core.save_changes
+    composer_edit_submit_button: => core.ref.save_changes
 
     # These strings are used by the composer when replying to a discussion.
-    composer_reply_body_placeholder: => core.write_a_reply
+    composer_reply_body_placeholder: => core.ref.write_a_reply
     composer_reply_discard_confirmation: Vous n'avez pas publié votre réponse. Souhaitez-vous l'abandonner ?
     composer_reply_posted_message: Votre réponse a été publiée.
     composer_reply_submit_button: Publier la réponse
@@ -45,31 +45,31 @@ core:
     # These strings are used by the discussion control buttons.
     discussion_controls_cannot_reply_button: Impossible de répondre
     discussion_controls_cannot_reply_text: Vous n'avez pas la permission de répondre à cette discussion.
-    discussion_controls_delete_button: => core.delete
+    discussion_controls_delete_button: => core.ref.delete
     discussion_controls_delete_confirmation: Êtes-vous sûr de vouloir supprimer cette discussion ?
-    discussion_controls_delete_forever_button: => core.delete_forever
+    discussion_controls_delete_forever_button: => core.ref.delete_forever
     discussion_controls_log_in_to_reply_button: Se connecter pour répondre
     discussion_controls_rename_button: Renommer
     discussion_controls_rename_text: Saisissez un nouveau titre pour cette discussion :
     discussion_controls_reply_button: Répondre
-    discussion_controls_restore_button: => core.restore
+    discussion_controls_restore_button: => core.ref.restore
 
     # These strings are used in the discussion list.
     discussion_list_empty_text: Il semble qu'il n'y ai aucune discussion ici. Souhaitez-vous y remédier ?
-    discussion_list_load_more_button: => core.load_more
+    discussion_list_load_more_button: => core.ref.load_more
     discussion_list_mark_as_read_tooltip: Marquer comme lu
     discussion_list_replied_text: "Répondu {ago} par {username}"
     discussion_list_started_text: "Démarrée {ago} par {username}"
 
     # These strings are used in the Edit User modal dialog (admin function).
-    edit_user_email_label: => core.email
-    edit_user_password_label: => core.password
-    edit_user_submit_button: => core.save_changes
-    edit_user_username_label: => core.username
+    edit_user_email_label: => core.ref.email
+    edit_user_password_label: => core.ref.password
+    edit_user_submit_button: => core.ref.save_changes
+    edit_user_username_label: => core.ref.username
 
     # These strings are used in the Forgot Password modal dialog.
-    forgot_password_dismiss_button: => core.okay
-    forgot_password_email_placeholder: => core.email
+    forgot_password_dismiss_button: => core.ref.okay
+    forgot_password_email_placeholder: => core.ref.email
     forgot_password_email_sent_message: Nous vous avons envoyé un courriel contenant un lien pour réinitialiser votre mot de passe. Si vous ne le recevez pas prochainement, vérifiez le contenu de votre dossier contenant les pourriels.
     forgot_password_submit_button: Récupérer un mot de passe
     forgot_password_text: Saisissez votre adresse de courriel pour que nous vous envoyons un lien qui vous permettra de réinitialiser votre mot de passe
@@ -77,17 +77,17 @@ core:
 
     # These strings are used in the header and session dropdown menu.
     header_admin_button: Administration
-    header_log_in_link: => core.log_in
-    header_log_out_button: => core.log_out
+    header_log_in_link: => core.ref.log_in
+    header_log_out_button: => core.ref.log_out
     header_profile_button: Profil
     header_search_placeholder: Rechercher dans le forum
-    header_settings_button: => core.settings
-    header_sign_up_link: => core.sign_up
+    header_settings_button: => core.ref.settings
+    header_sign_up_link: => core.ref.sign_up
 
     # These strings are used on the index page, peripheral to the discussion list.
-    index_all_discussions_link: => core.all_discussions
+    index_all_discussions_link: => core.ref.all_discussions
     index_cannot_start_discussion_button: Impossible de démarrer une discussion
-    index_mark_all_as_read_tooltip: => core.mark_all_as_read
+    index_mark_all_as_read_tooltip: => core.ref.mark_all_as_read
     index_refresh_tooltip: Actualiser
     index_start_discussion_button: Démarrer une discussion
 
@@ -102,28 +102,28 @@ core:
     log_in_confirmation_required_message: "Vous devez confirmer votre adresse de courriel avant de pouvoir vous connecter. Nous avons envoyé un courriel de confirmation à {email}. Si vous ne le recevez pas prochainement, vérifiez le contenu de votre dossier contenant les pourriels."
     log_in_forgot_password_link: Mot de passe oublié ?
     log_in_invalid_login_message: Vos identifiants sont incorrects.
-    log_in_password_placeholder: => core.password
+    log_in_password_placeholder: => core.ref.password
     log_in_sign_up_text: "Pas encore inscrit ? <a>Inscription</a>"
-    log_in_submit_button: => core.log_in
-    log_in_title: => core.log_in
+    log_in_submit_button: => core.ref.log_in
+    log_in_title: => core.ref.log_in
     log_in_username_or_email_placeholder: Nom d'utilisateur ou adresse de courriel
 
     # These strings are used by the Notifications dropdown, a.k.a. "the bell".
     notifications_discussion_renamed_text: "{username} a modifié le titre"
     notifications_empty_text: Aucune notification
-    notifications_mark_all_as_read_tooltip: => core.mark_all_as_read
-    notifications_title: => core.notifications
-    notifications_tooltip: => core.notifications
+    notifications_mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+    notifications_title: => core.ref.notifications
+    notifications_tooltip: => core.ref.notifications
 
     # These strings are used by tooltips displayed for individual posts.
     post_edited_tooltip: "Édité {ago} par {username}"
     post_number_tooltip: "Message #{number}"
 
     # These strings are used by the post control buttons.
-    post_controls_delete_button: => core.delete
-    post_controls_delete_forever_button: => core.delete_forever
-    post_controls_edit_button: => core.edit
-    post_controls_restore_button: => core.restore
+    post_controls_delete_button: => core.ref.delete
+    post_controls_delete_forever_button: => core.ref.delete_forever
+    post_controls_edit_button: => core.ref.edit
+    post_controls_restore_button: => core.ref.restore
 
     # These strings are used in the scrubber to the right of the post stream.
     post_scrubber_now_link: Maintenant
@@ -133,22 +133,22 @@ core:
 
     # These strings are displayed between posts in the post stream.
     post_stream_discussion_renamed_text: "{username} a modifié le titre {old} par {new}."
-    post_stream_reply_placeholder: => core.write_a_reply
+    post_stream_reply_placeholder: => core.ref.write_a_reply
     post_stream_time_lapsed_text: "{period} plus tard"
 
     # These strings are used by the search results dropdown list.
     search_all_discussions_button: 'Rechercher "{query}" dans toutes les discussions'
-    search_discussions_heading: => core.discussions
+    search_discussions_heading: => core.ref.discussions
     search_users_heading: Utilisateurs
 
     # These strings are used in the Settings page.
     settings_account_heading: Compte
-    settings_change_email_button: => core.change_email
-    settings_change_password_button: => core.change_password
-    settings_notifications_heading: => core.notifications
+    settings_change_email_button: => core.ref.change_email
+    settings_change_password_button: => core.ref.change_password
+    settings_notifications_heading: => core.ref.notifications
     settings_privacy_disclose_online_label: Autoriser les autres à voir que je suis en ligne
     settings_privacy_heading: Confidentialité
-    settings_title: => core.settings
+    settings_title: => core.ref.settings
 
     # These strings are used in the Notifications grid on the Settings page.
     settings_notify_by_email_heading: => Courriel
@@ -156,25 +156,25 @@ core:
     settings_notify_discussion_renamed_label: Quelqu'un renomme une discussion que j'ai démarrée
 
     # These strings are used in the Sign Up modal dialog.
-    sign_up_confirmation_message: => core.confirmation_email_sent
-    sign_up_email_placeholder: => core.email
-    sign_up_dismiss_button: => core.okay
+    sign_up_confirmation_message: => core.ref.confirmation_email_sent
+    sign_up_email_placeholder: => core.ref.email
+    sign_up_dismiss_button: => core.ref.okay
     sign_up_log_in_text: "Déjà inscrit ? <a>Connexion</a>"
-    sign_up_password_placeholder: => core.password
-    sign_up_submit_button: => core.sign_up
-    sign_up_title: => core.sign_up
-    sign_up_username_placeholder: => core.username
+    sign_up_password_placeholder: => core.ref.password
+    sign_up_submit_button: => core.ref.sign_up
+    sign_up_title: => core.ref.sign_up
+    sign_up_username_placeholder: => core.ref.username
     sign_up_welcome_text: "Bienvenue {username} !"
 
     # These strings are used in the user profile page and profile popup.
     user_bio_placeholder: Rédigez quelque chose à propos de vous
     user_deleted_text: "[supprimé]"
-    user_discussions_link: => core.discussions
+    user_discussions_link: => core.ref.discussions
     user_joined_date_text: "Inscrit {ago}"
     user_online_text: En ligne
-    user_posts_load_more_button: => core.load_more
+    user_posts_load_more_button: => core.ref.load_more
     user_posts_link: Messages
-    user_settings_link: => core.settings
+    user_settings_link: => core.ref.settings
 
     # These strings are used to control the avatar in the user profile page.
     user_avatar_remove_button: Supprimer
@@ -182,9 +182,9 @@ core:
 
     # These strings are found on the user profile page (admin function).
     user_controls_button: Commandes
-    user_controls_delete_button: => core.delete
+    user_controls_delete_button: => core.ref.delete
     user_controls_delete_confirmation: Êtes-vous sûr de supprimer cet utilisateur ? Tous ses messages seront également supprimés.
-    user_controls_edit_button: => core.edit
+    user_controls_edit_button: => core.ref.edit
 
   # Strings in this namespace are used by the admin interface.
   admin:
@@ -198,10 +198,10 @@ core:
     appearance_dark_mode_label: Mode sombre
     appearance_edit_css_button: Éditer le CSS personnalisé
     appearance_enter_hex_message: Veuillez saisir un code de couleur hexadécimal.
-    appearance_submit_button: => core.save_changes
+    appearance_submit_button: => core.ref.save_changes
 
     # These strings are used in the Basics page.
-    basics_all_discussions_label: => core.all_discussions
+    basics_all_discussions_label: => core.ref.all_discussions
     basics_default_language_heading: Langue par défaut
     basics_forum_description_heading: Description du forum
     basics_forum_description_text: Affiche un résumé décrivant votre communauté. La description apparaîtra dans la balise Méta et s'affichera dans le résultat des moteurs de recherche.
@@ -209,7 +209,7 @@ core:
     basics_home_page_heading: Page d'accueil
     basics_home_page_text: Sélectionne la page que les utilisateurs verront lorsqu'ils visiteront votre forum pour la première fois. Si vous saisissez une valeur personnalisée, veuillez utiliser le chemin relatif à la racine du forum.
     basics_saved_message: Vos modifications ont été enregistrées.
-    basics_submit_button: => core.save_changes
+    basics_submit_button: => core.ref.save_changes
     basics_welcome_banner_heading: Bandeau de bienvenue
     basics_welcome_banner_text: Personnalise le texte du bandeau qui est affiché sur la page listant toutes les dicussions. Utilisez ceci pour accueillir les invités de votre forum.
 
@@ -231,21 +231,21 @@ core:
     edit_group_name_label: Nom
     edit_group_plural_placeholder: Pluriel (tel que « modérateurs »)
     edit_group_singular_placeholder: Singulier (tel que « modérateur »)
-    edit_group_submit_button: => core.save_changes
+    edit_group_submit_button: => core.ref.save_changes
     edit_group_title: Créer le groupe
 
     # These strings are used in the Extensions page.
     extensions_add_button: Ajouter une extension
     extensions_disable_button: Désactiver
     extensions_enable_button: Activer
-    extensions_settings_button: => core.settings
+    extensions_settings_button: => core.ref.settings
     extensions_uninstall_button: Désinstaller
 
     # This string is used in the Extensions loading modal dialog.
     extensions_loading_title: Veuillez patienter...
 
     # This string is used in the session dropdown menu.
-    header_log_out_button: => core.log_out
+    header_log_out_button: => core.ref.log_out
 
     # These strings are used in the navigation bar.
     nav_appearance_button: Apparence
@@ -299,39 +299,67 @@ core:
   ##
   # REUSED STRINGS - The following keys are referenced by two or more unique keys.
   ##
-
-  all_discussions: Toutes les discussions
-  change_email: Modifier l'adresse de courriel
-  change_password: Modifier le mot de passe
-  confirmation_email_sent: "Nous avons envoyé un courriel de confirmation à {email}. Si vous ne le recevez pas prochainement, vérifiez le contenu de votre dossier contenant les pourriels."
-  delete: Supprimer
-  delete_forever: Supprimer définitivement
-  discussions: Discussions
-  edit: Éditer
-  email: Adresse de courriel
-  load_more: Charger davantage
-  log_in: Connexion
-  log_out: Déconnexion
-  mark_all_as_read: Tout marquer comme lu
-  notifications: Notifications
-  okay: Valider
-  password: Mot de passe
-  restore: Restaurer
-  save_changes: Enregistrer les modifications
-  settings: Réglages
-  sign_up: Inscription
-  username: Nom d'utilisateur
-  write_a_reply: Rédiger une réponse...
+ 
+   ref:
+    all_discussions: Toutes les discussions
+    change_email: Modifier l'adresse de courriel
+    change_password: Modifier le mot de passe
+    confirmation_email_sent: "Nous avons envoyé un courriel de confirmation à {email}. Si vous ne le recevez pas prochainement, vérifiez le contenu de votre dossier contenant les pourriels."
+    delete: Supprimer
+    delete_forever: Supprimer définitivement
+    discussions: Discussions
+    edit: Éditer
+    email: Adresse de courriel
+    load_more: Charger davantage
+    log_in: Connexion
+    log_out: Déconnexion
+    mark_all_as_read: Tout marquer comme lu
+    notifications: Notifications
+    okay: Valider
+    password: Mot de passe
+    restore: Restaurer
+    save_changes: Enregistrer les modifications
+    settings: Réglages
+    sign_up: Inscription
+    username: Nom d'utilisateur
+    write_a_reply: Rédiger une réponse...
 
   ##
   # DEFAULT GROUP NAMES - Translations for the forum's default language are used.
   ##
 
-  group_admin: Administrateur
-  group_admins: Administrateurs
-  group_guest: Invité
-  group_guests: Invités
-  group_member: Membre
-  group_members: Membres
-  group_mod: Modérateur
-  group_mods: Modérateurs
+  group:
+    admin: Administrateur
+    admins: Administrateurs
+    guest: Invité
+    guests: Invités
+    member: Membre
+    members: Membres
+    mod: Modérateur
+    mods: Modérateurs
+
+  email:
+    activate_account:
+      subject: Activation de votre compte
+      body: |
+        Bonjour {username} !
+        Quelqu'un (en espérant que cela soit vous !) s'est inscrit sur {forum} avec cette adresse de courriel.
+        Si vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour que votre compte soit activé :
+        {url}
+        Si vous n'êtes pas à l'origine de cette action, veuillez ignorer ce courriel.
+    confirm_email:
+      subject: Modification de votre adresse de courriel
+      body: |
+        Bonjour {username} !
+        Quelqu'un (en espérant que cela soit vous !) a souhaité modifier l'adresse de courriel associée à votre compte sur {forum} par celle-ci.
+        Si vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour confirmer la modification de votre adresse de courriel actuelle :
+        {url}
+        Si vous ne souhaitez pas modifier votre adresse de courriel, veuillez ignorer ce courriel.
+    reset_password:
+      subject: Modification de votre mot de passe
+      body: |
+        Bonjour {username} !
+        Quelqu'un (en espérant que cela soit vous !) a souhaité réinitialiser le mot de passe associé à votre compte sur {forum}.
+        Si vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour confirmer la réinitialisation de votre mot de passe actuel :
+        {url}
+        Si vous ne souhaitez pas réinitialiser votre mot de passe, veuillez ignorer ce courriel.
