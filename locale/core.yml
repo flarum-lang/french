@@ -356,7 +356,7 @@ core:
         {url}
         Si vous ne souhaitez pas modifier votre adresse de courriel, veuillez ignorer ce courriel.
     reset_password:
-      subject: Modification de votre mot de passe
+      subject: Réinitialisation de votre mot de passe
       body: |
         Bonjour {username} !
         Quelqu'un (en espérant que cela soit vous !) a souhaité réinitialiser le mot de passe associé à votre compte sur {forum}.
