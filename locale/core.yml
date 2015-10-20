@@ -211,7 +211,7 @@ core:
     basics_saved_message: Vos modifications ont été enregistrées.
     basics_submit_button: => core.ref.save_changes
     basics_welcome_banner_heading: Bandeau de bienvenue
-    basics_welcome_banner_text: Personnalise le texte du bandeau qui est affiché sur la page listant toutes les dicussions. Utilisez ceci pour accueillir les invités de votre forum.
+    basics_welcome_banner_text: Personnalise le texte du bandeau qui est affiché sur la page listant toutes les discussions. Utilisez ceci pour accueillir les invités de votre forum.
 
     # These strings are used in the Dashboard page.
     dashboard_beta_warning_text: "Ce <strong>logiciel en bêta</strong> est disponible pour que vous nous aidiez à le tester et à l'améliorer. Il ne devrait pas être utilisé en production."
