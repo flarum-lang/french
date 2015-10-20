@@ -5,12 +5,12 @@
 French language pack to localize the Flarum forum software and its bundled extensions.
 
 - [Informations](https://github.com/maelsoucaze/flarum#informations)
-	- [Version](https://github.com/maelsoucaze/flarum#version)
-	- [Compatibility](https://github.com/maelsoucaze/flarum#compatibility)
-	- [License](https://github.com/maelsoucaze/flarum#license)
+  - [Version](https://github.com/maelsoucaze/flarum#version)
+  - [Compatibility](https://github.com/maelsoucaze/flarum#compatibility)
+  - [License](https://github.com/maelsoucaze/flarum#license)
 - [Downloads](https://github.com/maelsoucaze/flarum#downloads)
-	- [Latest Stable Release](https://github.com/maelsoucaze/flarum#latest-stable-release)
-	- [Latest Development Release](https://github.com/maelsoucaze/flarum#latest-development-release)
+  - [Latest Stable Release](https://github.com/maelsoucaze/flarum#latest-stable-release)
+  - [Latest Development Release](https://github.com/maelsoucaze/flarum#latest-development-release)
 - [Documentation](https://github.com/maelsoucaze/flarum#documentation)
   - [Installation](https://github.com/maelsoucaze/flarum#installation)
   - [Terminology](https://github.com/maelsoucaze/flarum#terminology)
@@ -25,14 +25,14 @@ French language pack to localize the Flarum forum software and its bundled exten
 ### Compatibility
 
 - [Flarum](https://github.com/flarum/core) (Core) 0.1.0 Beta 3
-	- [Flags](https://github.com/flarum/flags) 0.1.0 Beta 3
-	- [Likes](https://github.com/flarum/likes) 0.1.0 Beta 3
-	- [Lock](https://github.com/flarum/lock) 0.1.0 Beta 3
-	- [Mentions](https://github.com/flarum/mentions) 0.1.0 Beta 3
-	- [Pusher](https://github.com/flarum/pusher) 0.1.0 Beta 3
-	- [Sticky](https://github.com/flarum/sticky) 0.1.0 Beta 3
-	- [Subscriptions](https://github.com/flarum/subscriptions) 0.1.0 Beta 3
-	- [Tags](https://github.com/flarum/tags) 0.1.0 Beta 3
+  - [Flags](https://github.com/flarum/flags) 0.1.0 Beta 3
+  - [Likes](https://github.com/flarum/likes) 0.1.0 Beta 3
+  - [Lock](https://github.com/flarum/lock) 0.1.0 Beta 3
+  - [Mentions](https://github.com/flarum/mentions) 0.1.0 Beta 3
+  - [Pusher](https://github.com/flarum/pusher) 0.1.0 Beta 3
+  - [Sticky](https://github.com/flarum/sticky) 0.1.0 Beta 3
+  - [Subscriptions](https://github.com/flarum/subscriptions) 0.1.0 Beta 3
+  - [Tags](https://github.com/flarum/tags) 0.1.0 Beta 3
 
 ### License
 
