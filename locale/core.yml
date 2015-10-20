@@ -58,7 +58,7 @@ core:
     discussion_list_empty_text: Il semble qu'il n'y ai aucune discussion ici. Souhaitez-vous y remédier ?
     discussion_list_load_more_button: => core.ref.load_more
     discussion_list_mark_as_read_tooltip: Marquer comme lu
-    discussion_list_replied_text: "Répondu {ago} par {username}"
+    discussion_list_replied_text: "Répondue {ago} par {username}"
     discussion_list_started_text: "Démarrée {ago} par {username}"
 
     # These strings are used in the Edit User modal dialog (admin function).
@@ -70,7 +70,7 @@ core:
     # These strings are used in the Forgot Password modal dialog.
     forgot_password_dismiss_button: => core.ref.okay
     forgot_password_email_placeholder: => core.ref.email
-    forgot_password_email_sent_message: Nous vous avons envoyé un courriel contenant un lien pour réinitialiser votre mot de passe. Si vous ne le recevez pas prochainement, vérifiez le contenu de votre dossier contenant les pourriels.
+    forgot_password_email_sent_message: Nous vous avons envoyé un courriel contenant un lien pour réinitialiser votre mot de passe. Si vous ne le recevez pas prochainement, veuillez vérifier le contenu de votre dossier contenant les pourriels.
     forgot_password_submit_button: Récupérer un mot de passe
     forgot_password_text: Saisissez votre adresse de courriel pour que nous vous envoyons un lien qui vous permettra de réinitialiser votre mot de passe
     forgot_password_title: Mot de passe oublié
@@ -99,11 +99,11 @@ core:
     index_sort_top_button: Populaires
 
     # These strings are used in the Log In modal dialog.
-    log_in_confirmation_required_message: "Vous devez confirmer votre adresse de courriel avant de pouvoir vous connecter. Nous avons envoyé un courriel de confirmation à {email}. Si vous ne le recevez pas prochainement, vérifiez le contenu de votre dossier contenant les pourriels."
+    log_in_confirmation_required_message: "Vous devez confirmer votre adresse de courriel avant de pouvoir vous connecter. Nous avons envoyé un courriel de confirmation à {email}. Si vous ne le recevez pas prochainement, veuillez vérifier le contenu de votre dossier contenant les pourriels."
     log_in_forgot_password_link: Mot de passe oublié ?
     log_in_invalid_login_message: Vos identifiants sont incorrects.
     log_in_password_placeholder: => core.ref.password
-    log_in_sign_up_text: "Pas encore inscrit ? <a>Inscription</a>"
+    log_in_sign_up_text: "Pas encore inscrit(e) ? <a>Inscription</a>"
     log_in_submit_button: => core.ref.log_in
     log_in_title: => core.ref.log_in
     log_in_username_or_email_placeholder: Nom d'utilisateur ou adresse de courriel
@@ -151,7 +151,7 @@ core:
     settings_title: => core.ref.settings
 
     # These strings are used in the Notifications grid on the Settings page.
-    settings_notify_by_email_heading: => Courriel
+    settings_notify_by_email_heading: Courriel
     settings_notify_by_web_heading: Web
     settings_notify_discussion_renamed_label: Quelqu'un renomme une discussion que j'ai démarrée
 
@@ -159,7 +159,7 @@ core:
     sign_up_confirmation_message: => core.ref.confirmation_email_sent
     sign_up_email_placeholder: => core.ref.email
     sign_up_dismiss_button: => core.ref.okay
-    sign_up_log_in_text: "Déjà inscrit ? <a>Connexion</a>"
+    sign_up_log_in_text: "Déjà inscrit(e) ? <a>Connexion</a>"
     sign_up_password_placeholder: => core.ref.password
     sign_up_submit_button: => core.ref.sign_up
     sign_up_title: => core.ref.sign_up
@@ -170,7 +170,7 @@ core:
     user_bio_placeholder: Rédigez quelque chose à propos de vous
     user_deleted_text: "[supprimé]"
     user_discussions_link: => core.ref.discussions
-    user_joined_date_text: "Inscrit {ago}"
+    user_joined_date_text: "Inscrit(e) {ago}"
     user_online_text: En ligne
     user_posts_load_more_button: => core.ref.load_more
     user_posts_link: Messages
@@ -183,7 +183,7 @@ core:
     # These strings are found on the user profile page (admin function).
     user_controls_button: Commandes
     user_controls_delete_button: => core.ref.delete
-    user_controls_delete_confirmation: Êtes-vous sûr de supprimer cet utilisateur ? Tous ses messages seront également supprimés.
+    user_controls_delete_confirmation: Êtes-vous sûr(e) de supprimer cet utilisateur ? Tous ses messages seront également supprimés.
     user_controls_edit_button: => core.ref.edit
 
   # Strings in this namespace are used by the admin interface.
@@ -219,13 +219,13 @@ core:
     dashboard_extension_text: "Vous souhaitez développer des extensions ? Consultez <a>la documentation sur les extensions</a> (en anglais)."
     dashboard_features_text: "Vous souhaitez soumettre une idée ou une fonctionnalité ? Soumettez-la dans notre forum en utilisant <a>l'étiquette « Features »</a> (en anglais)."
     dashboard_support_text: "Vous avez trouvé un bogue ? Rapportez-le dans notre forum en utilisant <a>l'étiquette « Support »</a> (en anglais)."
-    dashboard_troubleshooting_text: "Vous avez des difficultés ? Consultez les instructions dans <a>la documentation du dépannage</a> (en anglais)."
+    dashboard_troubleshooting_text: "Vous avez des difficultés ? Consultez les instructions dans <a>la documentation de dépannage</a> (en anglais)."
     dashboard_version_text: "Merci d'essayer Flarum ! Vous utilisez la version {version}."
 
     # These strings are used in the Edit Group modal dialog.
     edit_group_color_label: Couleur
     edit_group_delete_button: Supprimer le groupe
-    edit_group_delete_confirmation: Êtes-vous sûr de vouloir supprimer ce groupe ? Les membres du groupe ne seront pas supprimés.
+    edit_group_delete_confirmation: Êtes-vous sûr(e) de vouloir supprimer ce groupe ? Les membres du groupe ne seront pas supprimés.
     edit_group_icon_label: Icône
     edit_group_icon_text: "Saisissez le nom des icônes de <a>Font Awesome</a> <em>sans</em> le préfixe <code>fa-</code>."
     edit_group_name_label: Nom
@@ -304,7 +304,7 @@ core:
     all_discussions: Toutes les discussions
     change_email: Modifier l'adresse de courriel
     change_password: Modifier le mot de passe
-    confirmation_email_sent: "Nous avons envoyé un courriel de confirmation à {email}. Si vous ne le recevez pas prochainement, vérifiez le contenu de votre dossier contenant les pourriels."
+    confirmation_email_sent: "Nous avons envoyé un courriel de confirmation à {email}. Si vous ne le recevez pas prochainement, veuillez vérifier le contenu de votre dossier contenant les pourriels."
     delete: Supprimer
     delete_forever: Supprimer définitivement
     discussions: Discussions
@@ -343,7 +343,7 @@ core:
       subject: Activation de votre compte
       body: |
         Bonjour {username} !
-        Quelqu'un (en espérant que cela soit vous !) s'est inscrit sur {forum} avec cette adresse de courriel.
+        Quelqu'un (en espérant que cela soit vous !) s'est inscrit(e) sur {forum} avec cette adresse de courriel.
         Si vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour que votre compte soit activé :
         {url}
         Si vous n'êtes pas à l'origine de cette action, veuillez ignorer ce courriel.
@@ -351,15 +351,15 @@ core:
       subject: Modification de votre adresse de courriel
       body: |
         Bonjour {username} !
-        Quelqu'un (en espérant que cela soit vous !) a souhaité modifier l'adresse de courriel associée à votre compte sur {forum} par celle-ci.
-        Si vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour confirmer la modification de votre adresse de courriel actuelle :
+        Quelqu'un (en espérant que cela soit vous !) a demandé à modifier l'adresse de courriel associée à votre compte sur {forum} par celle-ci.
+        Si vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour confirmer votre nouvelle adresse de courriel :
         {url}
         Si vous ne souhaitez pas modifier votre adresse de courriel, veuillez ignorer ce courriel.
     reset_password:
       subject: Réinitialisation de votre mot de passe
       body: |
         Bonjour {username} !
-        Quelqu'un (en espérant que cela soit vous !) a souhaité réinitialiser le mot de passe associé à votre compte sur {forum}.
-        Si vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour confirmer la réinitialisation de votre mot de passe actuel :
+        Quelqu'un (en espérant que cela soit vous !) a demandé à réinitialiser le mot de passe associé à votre compte sur {forum}.
+        Si vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour réinitialiser votre mot de passe actuel :
         {url}
         Si vous ne souhaitez pas réinitialiser votre mot de passe, veuillez ignorer ce courriel.
