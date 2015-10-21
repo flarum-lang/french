@@ -9,8 +9,8 @@ flarum-flags:
 
     # These strings are used in the Permissions page of the admin interface.
     permissions:
-      flag_posts: Messages signalés
-      view_flags: Consulter les messages signalés
+      flag_posts_label: Messages signalés
+      view_flags_label: Consulter les messages signalés
 
   # Strings in this namespace are used by the forum user interface.
   forum:
@@ -27,15 +27,15 @@ flarum-flags:
 
     # These strings are used by the Flagged Posts dropdown, a.k.a. "the flag".
     flagged_posts:
-      no_flags: Aucun signalement
+      empty_text: Aucun signalement
       title: => flarum-flags.ref.flagged_posts
       tooltip: => flarum-flags.ref.flagged_posts
 
     # These strings are used by the frame displayed around flagged posts.
     post:
       dismiss_flag_tooltip: Annuler le signalement
-      flagged_by: "{username} a signalé ce message"
-      flagged_by_with_reason: "{username} a signalé ce message comme {reason}"
+      flagged_by_text: "{username} a signalé ce message"
+      flagged_by_with_reason_text: "{username} a signalé ce message comme {reason}"
 
     # These strings are used by the post control buttons.
     post_controls:
