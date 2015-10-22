@@ -11,5 +11,5 @@ flarum-tags:
     choose_primary_tags: "Sélectionner une étiquette primaire|Sélectionner {count} étiquettes primaires"
     choose_secondary_tags: "Sélectionner une étiquette secondaire|Sélectionner {count} étiquettes secondaires"
     confirm: Confirmer
-    more: Plus...
+    more: Plus…
     deleted: Supprimé

@@ -33,4 +33,4 @@ flarum-lock:
 
     # These strings are used in the Settings page.
     settings:
-      notify_discussion_locked_label: Quelqu'un verrouille une discussion que j'ai démarrée
+      notify_discussion_locked_label: Quelqu’un verrouille une discussion que j’ai démarrée

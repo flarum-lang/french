@@ -1,6 +1,6 @@
 validation:
   accepted: "Le :attribute doit être accepté(e)."
-  active_url: "Le :attribute n'est pas une URL valide."
+  active_url: "Le :attribute n’est pas une URL valide."
   after: "Le :attribute doit correspondre à une date ultérieure à :date."
   alpha: "Le :attribute ne doit contenir que des lettres."
   alpha_dash: "Le :attribute ne doit contenir que des lettres, des nombres et des tirets."
@@ -14,7 +14,7 @@ validation:
     array: "Le :attribute doit être compris(e) entre :min et :max objets."
   boolean: "Le champ de :attribute doit être vrai ou faux."
   confirmed: "La confirmation de :attribute ne correspond pas."
-  date: "Le :attribute n'est pas une date valide."
+  date: "Le :attribute n’est pas une date valide."
   date_format: "Le :attribute ne correspond pas au format :other."
   different: "Le :attribute et :other doivent être différents."
   digits: "Le :attribute doit comprendre :digits caractères numériques."
@@ -46,7 +46,7 @@ validation:
   required_with: "Le champ de :attribute est obligatoire lorsque :values est présent(e)."
   required_with_all: "Le champ de :attribute est obligatoire lorsque :values est présent(e)."
   required_without: "Le champ de :attribute est obligatoire lorsque :values est absent(e)."
-  required_without_all: "Le champ de :attribute est obligatoire lorsque aucun(e) :values n'est présent(e)."
+  required_without_all: "Le champ de :attribute est obligatoire lorsque aucun(e) :values n’est présent(e)."
   same: "Le :attribute et :other doivent être identiques."
   size:
     numeric: "Le :attribute doit être de :size."
@@ -59,7 +59,7 @@ validation:
   url: "Le format :attribute est invalide."
 
   attributes:
-    username: nom d'utilisateur
+    username: nom d’utilisateur
     password: mot de passe
     email: adresse de courriel
     title: titre
