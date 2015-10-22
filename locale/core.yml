@@ -47,7 +47,7 @@ core:
     edit_group:
       color_label: Couleur
       delete_button: Supprimer le groupe
-      delete_confirmation: Êtes-vous sûr(e) de vouloir supprimer ce groupe ? Les membres du groupe ne seront pas supprimés.
+      delete_confirmation: Êtes-vous sûr de vouloir supprimer ce groupe ? Les membres du groupe ne seront pas supprimés.
       icon_label: Icône
       icon_text: "Saisissez le nom des icônes de <a>Font Awesome</a> <em>sans</em> le préfixe <code>fa-</code>."
       name_label: Nom
@@ -165,7 +165,7 @@ core:
       cannot_reply_button: Impossible de répondre
       cannot_reply_text: Vous n’avez pas la permission de répondre à cette discussion.
       delete_button: => core.ref.delete
-      delete_confirmation: Êtes-vous sûr(e) de vouloir supprimer cette discussion ?
+      delete_confirmation: Êtes-vous sûr de vouloir supprimer cette discussion ?
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Se connecter pour répondre
       rename_button: Renommer
@@ -229,7 +229,7 @@ core:
       forgot_password_link: Mot de passe oublié ?
       invalid_login_message: Vos identifiants sont incorrects.
       password_placeholder: => core.ref.password
-      sign_up_text: "Pas encore inscrit(e) ? <a>Inscription</a>"
+      sign_up_text: "Pas encore inscrit ? <a>Inscription</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
       username_or_email_placeholder: Nom d’utilisateur ou adresse de courriel
@@ -291,7 +291,7 @@ core:
       confirmation_message: => core.ref.confirmation_email_sent
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
-      log_in_text: "Déjà inscrit(e) ? <a>Connexion</a>"
+      log_in_text: "Déjà inscrit ? <a>Connexion</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
@@ -304,7 +304,7 @@ core:
       avatar_upload_button: Transférer
       bio_placeholder: Rédigez quelque chose à propos de vous
       discussions_link: => core.ref.discussions
-      joined_date_text: "Inscrit(e) {ago}"
+      joined_date_text: "Inscrit {ago}"
       online_text: En ligne
       posts_load_more_button: => core.ref.load_more
       posts_link: Messages
@@ -314,7 +314,7 @@ core:
     user_controls:
       button: Commandes
       delete_button: => core.ref.delete
-      delete_confirmation: Êtes-vous sûr(e) de vouloir supprimer cet utilisateur ? Tous ses messages seront également supprimés.
+      delete_confirmation: Êtes-vous sûr de vouloir supprimer cet utilisateur ? Tous ses messages seront également supprimés.
       edit_button: => core.ref.edit
 
   # Strings in this namespace are used by the forum and admin interfaces.
@@ -332,8 +332,9 @@ core:
       generic_message: Oups ! Quelque chose s’est mal passé. Veuillez actualiser la page puis réessayer.
       permission_denied_message: Vous n’avez pas la permission de faire cela.
       not_found_message: La ressource que vous souhaitez atteindre est introuvable.
+      rate_limit_exceeded_message: Vous êtes un peu trop rapide. Veuillez réessayer dans quelques secondes.
 
-    #These strings are used as suffixes when abbreviating numbers.
+    # These strings are used as suffixes when abbreviating numbers.
     number_suffix:
       kilo_text: K
       mega_text: M
@@ -393,7 +394,7 @@ core:
       body: |
         Bonjour {username} !
 
-        Quelqu’un (en espérant que cela soit vous !) s’est inscrit(e) sur {forum} avec cette adresse de courriel.
+        Quelqu’un (en espérant que cela soit vous !) s’est inscrit sur {forum} avec cette adresse de courriel.
 
         Si vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour que votre compte soit activé :
         {url}

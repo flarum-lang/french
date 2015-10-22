@@ -1,14 +1,51 @@
 flarum-subscriptions:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Strings in this namespace are used by the forum user interface.
   forum:
-    following: Abonnement
-    ignoring: Ignoré
+
+    # These strings are displayed as tooltips for discussion badges.
+    badge:
+      following_tooltip: => flarum-subscriptions.ref.following
+      ignoring_tooltip: => flarum-subscriptions.ref.ignoring
+
+    # These strings are used by the discussion control buttons.
+    discussion_controls:
+      follow_button: => flarum-subscriptions.ref.follow
+      unfollow_button: Se désabonner
+      unignore_button: Ne plus ignorer
+
+    # These strings are used on the index page, peripheral to the discussion list.
+    index:
+      following_link: Abonnement
+
+    # These strings are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      new_post_text: "{username} a publié"
+
+    # These strings are used in the Settings page.
+    settings:
+      notify_new_post_label: Quelqu’un publie dans une discussion que je suis
+
+    # These strings are used in the subscription menu displayed to the right of the post stream.
+    sub_controls:
+      follow_button: => flarum-subscriptions.ref.follow
+      following_button: Abonné
+      following_text: Être notifié de toutes les réponses.
+      ignoring_button: Ignoré
+      ignoring_text: Ne jamais être notifié. Masquer de la liste de discussions.
+      not_following_button: Non abonné
+      not_following_text: N’être notifié que lorsque @mentionné.
+
+  ##
+  # REUSED STRINGS - These keys should not be used directly in code!
+  ##
+
+  # Strings in this namespace are referenced by two or more unique keys.
+  ref:
     follow: Suivre
-    unfollow: Se désabonner
-    ignore: Ignorer
-    notify_new_post: Quelqu’un publie dans une discussion que je suis
-    new_post_notification: "{username} a publié"
-    not_following: Non suivi
-    not_following_description: Être notifié(e) lorsque @mentionné(e).
-    following_description: Être notifié(e) de toutes les réponses.
-    ignoring_description: Ne jamais être notifié(e). Masquer de la liste de discussions.
-    unignore: Ne plus ignorer
+    following: Suivie
+    ignoring: Ignorée

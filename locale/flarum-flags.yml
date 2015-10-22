@@ -42,9 +42,10 @@ flarum-flags:
       flag_button: Signaler
 
   ##
-  # REUSED STRINGS - The following keys are referenced by two or more unique keys.
+  # REUSED STRINGS - These keys should not be used directly in code!
   ##
 
+  # Strings in this namespace are referenced by two or more unique keys.
   ref:
     flag_post: Signaler le message
     flagged_posts: Messages signalés
