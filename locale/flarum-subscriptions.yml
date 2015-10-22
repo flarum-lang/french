@@ -9,8 +9,8 @@ flarum-subscriptions:
 
     # These strings are displayed as tooltips for discussion badges.
     badge:
-      following_tooltip: => flarum-subscriptions.ref.following
-      ignoring_tooltip: => flarum-subscriptions.ref.ignoring
+      following_tooltip: Suivie
+      ignoring_tooltip: Ignorée
 
     # These strings are used by the discussion control buttons.
     discussion_controls:
@@ -47,5 +47,3 @@ flarum-subscriptions:
   # Strings in this namespace are referenced by two or more unique keys.
   ref:
     follow: Suivre
-    following: Suivie
-    ignoring: Ignorée

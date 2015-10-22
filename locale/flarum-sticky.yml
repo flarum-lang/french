@@ -20,18 +20,10 @@ flarum-sticky:
 
     # These strings are used by the discussion control buttons.
     discussion_controls:
-      sticky_button: => flarum-sticky.ref.sticky
+      sticky_button: Épingler
       unsticky_button: Désépingler
 
     # These strings are displayed between posts in the post stream.
     post_stream:
       discussion_stickied_text: "{username} a épinglé cette discussion."
       discussion_unstickied_text: "{username} a désépinglé cette discussion."
-
-  ##
-  # REUSED STRINGS - These keys should not be used directly in code!
-  ##
-
-  # Strings in this namespace are referenced by two or more unique keys.
-  ref:
-    sticky: Épingler
