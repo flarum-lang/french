@@ -16,7 +16,7 @@ moment.locale('fr', {
     LLLL : 'dddd D MMMM YYYY HH:mm'
   },
   calendar : {
-    sameDay: '[Aujourd\'hui à] LT',
+    sameDay: '[Aujourd’hui à] LT',
     nextDay: '[Demain à] LT',
     nextWeek: 'dddd [à] LT',
     lastDay: '[Hier à] LT',
