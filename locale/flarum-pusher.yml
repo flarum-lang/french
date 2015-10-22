@@ -9,7 +9,7 @@ flarum-pusher:
 
     # These strings are used in the Pusher Settings modal dialog.
     pusher_settings:
-      app_id_label: ID de l'application
+      app_id_label: Identifiant de l'application
       app_key_label: Clé de l'application
       app_secret_label: Clé secrète de l'application
       title: Réglages de Pusher

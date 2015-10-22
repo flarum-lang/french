@@ -24,22 +24,22 @@ core:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Langue par défaut
       forum_description_heading: Description du forum
-      forum_description_text: Affiche un résumé décrivant votre communauté. La description apparaîtra dans la balise Méta et s'affichera dans le résultat des moteurs de recherche.
+      forum_description_text: Affichez un résumé décrivant votre communauté. La description apparaîtra dans la balise Méta et s'affichera dans le résultat des moteurs de recherche.
       forum_title_heading: Titre du forum
       home_page_heading: Page d'accueil
-      home_page_text: Sélectionne la page que les utilisateurs verront lorsqu'ils visiteront votre forum pour la première fois. Si vous saisissez une valeur personnalisée, veuillez utiliser le chemin relatif à la racine du forum.
+      home_page_text: Sélectionnez la page que les utilisateurs verront lorsqu'ils visiteront votre forum pour la première fois. Si vous saisissez une valeur personnalisée, veuillez utiliser le chemin relatif à la racine du forum.
       saved_message: Vos modifications ont été enregistrées.
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Bandeau de bienvenue
-      welcome_banner_text: Personnalise le texte du bandeau qui est affiché sur la page listant toutes les discussions. Utilisez ceci pour accueillir les invités de votre forum.
+      welcome_banner_text: Personnalisez le texte du bandeau qui est affiché sur la page listant toutes les discussions. Utilisez celui-ci pour accueillir les invités de votre forum.
 
     # These strings are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "Ce <strong>logiciel en bêta</strong> est disponible pour que vous nous aidiez à le tester et à l'améliorer. Il ne devrait pas être utilisé en production."
-      contributing_text: "Vous souhaitez contribuer et corriger des bogues ? Consultez <a>la documentation sur la contribution</a> (en anglais)."
-      extension_text: "Vous souhaitez développer des extensions ? Consultez <a>la documentation sur les extensions</a> (en anglais)."
-      features_text: "Vous souhaitez soumettre une idée ou une fonctionnalité ? Soumettez-la dans notre forum en utilisant <a>l'étiquette « Features »</a> (en anglais)."
-      support_text: "Vous avez trouvé un bogue ? Rapportez-le dans notre forum en utilisant <a>l'étiquette « Support »</a> (en anglais)."
+      beta_warning_text: "Ce <strong>logiciel en bêta</strong> est disponible pour que vous nous aidiez à le tester et à l'améliorer. Il ne devrait pas être utilisé dans un environnement de production."
+      contributing_text: "Vous souhaitez contribuer et corriger des bogues ? Consultez <a>la documentation de contribution</a> (en anglais)."
+      extension_text: "Vous souhaitez développer des extensions ? Consultez <a>la documentation des extensions</a> (en anglais)."
+      features_text: "Vous souhaitez soumettre une idée ou une fonctionnalité ? Publiez celle-ci dans notre forum en utilisant <a>l'étiquette « Features »</a> (en anglais)."
+      support_text: "Vous souhaitez signaler un bogue ? Rapportez-le dans notre forum en utilisant <a>l'étiquette « Support »</a> (en anglais)."
       troubleshooting_text: "Vous avez des difficultés ? Consultez les instructions dans <a>la documentation de dépannage</a> (en anglais)."
       version_text: "Merci d'essayer Flarum ! Vous utilisez la version {version}."
 
@@ -75,15 +75,15 @@ core:
     # These strings are used in the navigation bar.
     nav:
       appearance_button: Apparence
-      appearance_text: Personnalise les couleurs, les logos et d'autres variables de votre forum.
+      appearance_text: Personnalisez les couleurs, les logos et d'autres variables de votre forum.
       basics_button: Essentiel
-      basics_text: Règle le titre, la langue, et d'autres réglages essentiels de votre forum.
+      basics_text: Réglez le titre, la langue, et d'autres réglages essentiels de votre forum.
       dashboard_button: Tableau de bord
-      dashboard_text: Tout votre forum en un coup d'œil.
+      dashboard_text: Tout votre forum d'un simple coup d'œil.
       extensions_button: Extensions
-      extensions_text: Ajoute des fonctionnalités supplémentaires à votre forum pour le personnaliser.
+      extensions_text: Ajoutez des fonctionnalités supplémentaires à votre forum pour le personnaliser selon vos préférences.
       permissions_button: Permissions
-      permissions_text: Configure les actions autorisées.
+      permissions_text: Configurez les actions autorisées.
 
     # These strings are used in the Permissions page of the admin interface.
     permissions:
@@ -128,8 +128,8 @@ core:
 
     # These strings are used in the Change Password modal dialog.
     change_password:
-      send_button: Envoyer le courriel de réinitialisation du mot de passe
-      text: Cliquez sur le bouton ci-dessous et consultez le courriel que nous vous avons envoyé pour modifier votre mot de passe.
+      send_button: Courriel de réinitialisation
+      text: Cliquez sur le bouton ci-dessous puis consultez le courriel que nous vous avons envoyé pour modifier votre mot de passe.
       title: => core.ref.change_password
 
     # These strings are used by the composer controls.
@@ -165,17 +165,17 @@ core:
       cannot_reply_button: Impossible de répondre
       cannot_reply_text: Vous n'avez pas la permission de répondre à cette discussion.
       delete_button: => core.ref.delete
-      delete_confirmation: Êtes-vous sûr de vouloir supprimer cette discussion ?
+      delete_confirmation: Êtes-vous sûr(e) de vouloir supprimer cette discussion ?
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Se connecter pour répondre
       rename_button: Renommer
-      rename_text: Saisissez un nouveau titre pour cette discussion :
+      rename_text: Saisissez le nouveau titre de cette discussion :
       reply_button: Répondre
       restore_button: => core.ref.restore
 
     # These strings are used in the discussion list.
     discussion_list:
-      empty_text: Il semble qu'il n'y ai aucune discussion ici. Souhaitez-vous y remédier ?
+      empty_text: Il semble qu'il n'y ai aucune discussion ici. Souhaitez-vous en publier une ?
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Marquer comme lu
       replied_text: "{username} a répondu à ce message {ago}"
@@ -269,7 +269,7 @@ core:
 
     # These strings are used by the search results dropdown list.
     search:
-      all_discussions_button: 'Rechercher "{query}" dans toutes les discussions'
+      all_discussions_button: "Rechercher "{query}" dans toutes les discussions"
       discussions_heading: => core.ref.discussions
       users_heading: Utilisateurs
 
@@ -314,7 +314,7 @@ core:
     user_controls:
       button: Commandes
       delete_button: => core.ref.delete
-      delete_confirmation: Êtes-vous sûr(e) de supprimer cet utilisateur ? Tous ses messages seront également supprimés.
+      delete_confirmation: Êtes-vous sûr(e) de vouloir supprimer cet utilisateur ? Tous ses messages seront également supprimés.
       edit_button: => core.ref.edit
 
   # Strings in this namespace are used by the forum and admin interfaces.
@@ -329,7 +329,7 @@ core:
 
     # These strings are displayed as error messages.
     error:
-      generic_message: Oups ! Quelque chose s'est mal passé. Veuillez actualiser la page et réessayer.
+      generic_message: Oups ! Quelque chose s'est mal passé. Veuillez actualiser la page puis réessayer.
       permission_denied_message: Vous n'avez pas la permission de faire cela.
       not_found_message: La ressource que vous souhaitez atteindre est introuvable.
 
@@ -346,8 +346,8 @@ core:
 
   # Strings in this namespace are used in basic HTML interface.
   basic:
-    load_error_message: Quelque chose s'est mal passé lors de la tentative de chargement de la version complète de ce site.
-    javascript_disabled_message: Ce site est optimisé pour être consulté dans un navigateur moderne avec JavaScript activé.
+    load_error_message: Une erreur s'est produite lors de la tentative de chargement de la version complète de ce site.
+    javascript_disabled_message: Ce site est optimisé pour être consulté depuis un navigateur moderne dans lequel JavaScript est activé.
     next_page_button: Page suivante
     previous_page_button: Page précédente
 
