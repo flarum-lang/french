@@ -1,5 +1,5 @@
-// French Moment.js Locale File
-// https://github.com/moment/moment/blob/develop/locale/fr.js
+// Custom French Moment.js Locale File
+// Based on https://github.com/moment/moment/blob/develop/locale/fr.js
 
 moment.locale('fr', {
   months : 'janvier_février_mars_avril_mai_juin_juillet_août_septembre_octobre_novembre_décembre'.split('_'),
@@ -10,7 +10,7 @@ moment.locale('fr', {
   longDateFormat : {
     LT : 'HH:mm',
     LTS : 'HH:mm:ss',
-    L : 'DD/MM/YYYY',
+    L : 'DD/MM/YYYY', // Swiss French should uses DD.MM.YYYY, and Canadian French should uses YYYY-MM-DD.
     LL : 'D MMMM YYYY',
     LLL : 'D MMMM YYYY HH:mm',
     LLLL : 'dddd D MMMM YYYY HH:mm'
@@ -43,7 +43,7 @@ moment.locale('fr', {
     return number + (number === 1 ? 'er' : 'e');
   },
   week : {
-    dow : 1, // Monday is the first day of the week.
-    doy : 4  // The week that contains Jan 4th is the first week of the year.
+    dow : 1, // Monday is the first day of the week. Canadian French should uses 0, because Sunday is the first day of the week.
+    doy : 4  // The week that contains Jan 4th is the first week of the year. Canadian French should uses 6, because the week that contains Jan 1st is the first week of the year.
   }
 });
