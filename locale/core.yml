@@ -75,7 +75,7 @@ core:
     # These strings are used in the navigation bar.
     nav:
       appearance_button: Apparence
-      appearance_text: Personnalisez les couleurs, les logos et d’autres variables de votre forum.
+      appearance_text: Personnalisez les couleurs, les logos et d’autres aspects de votre forum.
       basics_button: Essentiel
       basics_text: Réglez le titre, la langue, et d’autres réglages essentiels de votre forum.
       dashboard_button: Tableau de bord
