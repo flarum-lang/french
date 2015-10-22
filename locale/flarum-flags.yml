@@ -9,15 +9,15 @@ flarum-flags:
 
     # These strings are used in the Permissions page of the admin interface.
     permissions:
-      flag_posts_label: Messages signalés
-      view_flags_label: Consulter les messages signalés
+      flag_posts_label: Signaler les messages
+      view_flags_label: Voir les messages signalés
 
   # Strings in this namespace are used by the forum user interface.
   forum:
 
     # These strings are used by the Flag Post modal dialog.
     flag_post:
-      reason_heading: Sélectionnez une raison
+      reason_heading: Sélectionner une raison
       reason_inappropriate_label: inapproprié
       reason_off_topic_label: hors-sujet
       reason_other_label: autre
