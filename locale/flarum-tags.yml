@@ -21,7 +21,7 @@ flarum-tags:
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
       slug_label: Identifiant
-      submit_button: => core.ref.save_changes
+      submit_button: => core.ref.okay
       title: => flarum-tags.ref.create_tag
 
     # These strings are used in the navigation bar.
@@ -45,7 +45,7 @@ flarum-tags:
 
     # These strings are used in the Tags page.
     tags:
-      about_tags_text: Les étiquettes permettent de catégoriser les discussions. Les étiquettes primaires sont similaires aux traditionnelles catégories, elles peuvent être disposées en une hiérarchie à deux niveaux. Les étiquettes secondaires ne sont ni hierarchisées ni ordonnées, mais peuvent s’avérer utiles pour les catégories mineures.
+      about_tags_text: Les étiquettes permettent de catégoriser les discussions. Les étiquettes primaires sont similaires aux traditionnelles catégories, elles peuvent être disposées en une hiérarchie à deux niveaux. Les étiquettes secondaires ne sont ni hierarchisées, ni ordonnées, mais peuvent êtres utilisées comme des catégories mineures.
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: Étiquettes primaires
       secondary_heading: Étiquettes secondaires
@@ -64,7 +64,7 @@ flarum-tags:
 
     # These strings are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: Sélectionner les étiquettes
+      choose_tags_link: Sélectionner des étiquettes
 
     # These strings are used by the discussion control buttons.
     discussion_controls:

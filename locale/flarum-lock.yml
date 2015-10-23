@@ -25,7 +25,7 @@ flarum-lock:
 
     # These strings are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_locked_text: "{username} a verrouillé"
+      discussion_locked_text: "{username} a verrouillé votre discussion"
 
     post_stream:
       discussion_locked_text: "{username} a verrouillé cette discussion."
