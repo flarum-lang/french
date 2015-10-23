@@ -141,7 +141,7 @@ core:
 
     # These strings are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Rédiger un message…
+      body_placeholder: Rédigez un message…
       discard_confirmation: Vous n’avez pas publié votre discussion. Souhaitez-vous l’abandonner ?
       submit_button: Publier la discussion
       title_placeholder: Titre de la discussion
@@ -379,7 +379,7 @@ core:
     settings: Réglages
     sign_up: Inscription
     username: Nom d’utilisateur
-    write_a_reply: Rédiger une réponse…
+    write_a_reply: Rédigez une réponse…
 
   ##
   # EMAIL CONTENT
