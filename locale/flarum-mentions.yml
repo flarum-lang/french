@@ -9,7 +9,7 @@ flarum-mentions:
 
     # These strings are used by the composer (reply autocompletion function).
     composer:
-      reply_to_post_text: "Reply to #{number}"
+      reply_to_post_text: "Répondre à #{number}"
 
     # These strings are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
