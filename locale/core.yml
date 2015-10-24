@@ -170,7 +170,7 @@ core:
       log_in_to_reply_button: Se connecter pour répondre
       rename_button: Renommer
       rename_text: Saisissez le nouveau titre de cette discussion :
-      reply_button: Répondre
+      reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
     # These strings are used in the discussion list.
@@ -372,13 +372,16 @@ core:
     log_out: Déconnexion
     mark_all_as_read: Tout marquer comme lu
     notifications: Notifications
-    okay: Valider
+    okay: Valider                                # Referenced by flarum-tags.yml
     password: Mot de passe
+    reply: Répondre                              # Referenced by flarum-mentions.yml
     restore: Restaurer
     settings: Réglages
     sign_up: Inscription
+    some_others: "{count} autre|{count} autres"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     username: Nom d’utilisateur
     write_a_reply: Rédigez une réponse…
+    you: Vous                                    # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # EMAIL CONTENT
