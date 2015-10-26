@@ -9,8 +9,8 @@ flarum-subscriptions:
 
     # These strings are displayed as tooltips for discussion badges.
     badge:
-      following_tooltip: Abonné
-      ignoring_tooltip: Ignorée
+      following_tooltip: => flarum-subscriptions.ref.following
+      ignoring_tooltip: => flarum-subscriptions.ref.ignoring
 
     # These strings are used by the discussion control buttons.
     discussion_controls:
@@ -33,9 +33,9 @@ flarum-subscriptions:
     # These strings are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      following_button: Abonné
+      following_button: => flarum-subscriptions.ref.following
       following_text: M’envoyer une notification lorsqu’une réponse est publiée.
-      ignoring_button: Ignorée
+      ignoring_button: => flarum-subscriptions.ref.ignoring
       ignoring_text: Ne jamais m’envoyer de notification. Masquer de la liste de discussions.
       not_following_button: Non abonné
       not_following_text: Ne m’envoyer une notification que lorsque je suis @mentionné.
@@ -47,3 +47,5 @@ flarum-subscriptions:
   # Strings in this namespace are referenced by two or more unique keys.
   ref:
     follow: Suivre
+    following: Abonné
+    ignoring: Ignorée
