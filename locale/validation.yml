@@ -1,6 +1,6 @@
 validation:
-  accepted: "Le :attribute doit être accepté(e)."
-  active_url: "Le :attribute n’est pas une URL valide."
+  accepted: "Le :attribute doit être acceptéé."
+  active_url: "Le :attribute n’est pas une adresse URL valide."
   after: "Le :attribute doit correspondre à une date ultérieure à :date."
   alpha: "Le :attribute ne doit contenir que des lettres."
   alpha_dash: "Le :attribute ne doit contenir que des lettres, des nombres et des tirets."
@@ -8,22 +8,22 @@ validation:
   array: "Le :attribute doit être un tableau."
   before: "Le :attribute doit correspondre à une date antérieure à :date."
   between:
-    numeric: "Le :attribute doit être compris(e) entre :min et :max."
-    file: "Le :attribute doit être compris(e) entre :min et :max kilo-octets."
-    string: "Le :attribute doit être compris(e) entre :min et :max caractères."
-    array: "Le :attribute doit être compris(e) entre :min et :max objets."
-  boolean: "Le champ de :attribute doit être vrai ou faux."
+    numeric: "Le :attribute doit être compris entre :min et :max."
+    file: "Le :attribute doit être compris entre :min et :max kilo-octets."
+    string: "Le :attribute doit être compris entre :min et :max caractères."
+    array: "Le :attribute doit être compris entre :min et :max objets."
+  boolean: "Le champ du :attribute doit être vrai ou faux."
   confirmed: "La confirmation de :attribute ne correspond pas."
   date: "Le :attribute n’est pas une date valide."
   date_format: "Le :attribute ne correspond pas au format :other."
   different: "Le :attribute et :other doivent être différents."
   digits: "Le :attribute doit comprendre :digits caractères numériques."
-  digits_between: "Le :attribute doit être compris(e) entre :min et :max caractères numériques."
+  digits_between: "Le :attribute doit être compris entre :min et :max caractères numériques."
   email: "Le :attribute doit être une adresse de courriel valide."
-  exists: "Le :attribute sélectionné(e) est invalide."
-  filled: "Le champ de :attribute est obligatoire."
+  exists: "Le :attribute sélectionné est invalide."
+  filled: "Le champ du :attribute est obligatoire."
   image: "Le :attribute doit être une image."
-  in: "Le :attribute sélectionné(e) est invalide."
+  in: "Le :attribute sélectionné est invalide."
   integer: "Le :attribute doit être un nombre entier."
   ip: "Le :attribute doit être une adresse IP valide."
   json: "Le :attribute doit être une chaîne JSON valide."
@@ -38,15 +38,15 @@ validation:
     file: "Le :attribute doit peser au moins :min kilo-octets."
     string: "Le :attribute doit comprendre au moins :min caractères."
     array: "Le :attribute doit contenir au moins :min objets."
-  not_in: "Le :attribute sélectionné(e) est invalide."
+  not_in: "Le :attribute sélectionné est invalide."
   numeric: "Le :attribute doit être un nombre."
   regex: "Le format de :attribute est invalide."
-  required: "Le champ de :attribute est obligatoire."
-  required_if: "Le champ de :attribute est obligatoire lorsque :other est :value."
-  required_with: "Le champ de :attribute est obligatoire lorsque :values est présent(e)."
-  required_with_all: "Le champ de :attribute est obligatoire lorsque :values est présent(e)."
-  required_without: "Le champ de :attribute est obligatoire lorsque :values est absent(e)."
-  required_without_all: "Le champ de :attribute est obligatoire lorsque aucun(e) :values n’est présent(e)."
+  required: "Le champ du :attribute est obligatoire."
+  required_if: "Le champ du :attribute est obligatoire lorsque :other est :value."
+  required_with: "Le champ du :attribute est obligatoire lorsque :values est présent."
+  required_with_all: "Le champ du :attribute est obligatoire lorsque :values est présent."
+  required_without: "Le champ du :attribute est obligatoire lorsque :values est absent."
+  required_without_all: "Le champ du :attribute est obligatoire lorsque aucun des :values n’est présent."
   same: "Le :attribute et :other doivent être identiques."
   size:
     numeric: "Le :attribute doit être de :size."
@@ -55,13 +55,13 @@ validation:
     array: "Le :attribute doit contenir :size objets."
   string: "Le :attribute doit être une chaîne."
   timezone: "Le :attribute doit être une zone valide."
-  unique: "Le :attribute a déjà été pris(e)."
-  url: "Le format :attribute est invalide."
+  unique: "Le :attribute n’est plus disponible."
+  url: "Le format du :attribute est invalide."
 
   attributes:
     username: nom d’utilisateur
     password: mot de passe
-    email: adresse de courriel
+    email: courriel
     title: titre
     content: contenu
     name_singular: nom singulier
