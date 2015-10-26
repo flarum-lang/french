@@ -9,7 +9,7 @@ flarum-subscriptions:
 
     # These strings are displayed as tooltips for discussion badges.
     badge:
-      following_tooltip: Suivie
+      following_tooltip: Abonné
       ignoring_tooltip: Ignorée
 
     # These strings are used by the discussion control buttons.
@@ -35,7 +35,7 @@ flarum-subscriptions:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: Abonné
       following_text: M’envoyer une notification lorsqu’une réponse est publiée.
-      ignoring_button: Ignoré
+      ignoring_button: Ignorée
       ignoring_text: Ne jamais m’envoyer de notification. Masquer de la liste de discussions.
       not_following_button: Non abonné
       not_following_text: Ne m’envoyer une notification que lorsque je suis @mentionné.

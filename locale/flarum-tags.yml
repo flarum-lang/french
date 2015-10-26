@@ -64,7 +64,7 @@ flarum-tags:
 
     # These strings are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: Sélectionner des étiquettes
+      choose_tags_link: Sélectionnez des étiquettes
 
     # These strings are used by the discussion control buttons.
     discussion_controls:
