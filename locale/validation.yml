@@ -1,5 +1,5 @@
 validation:
-  accepted: 'Le :attribute doit être acceptéé.'
+  accepted: 'Le :attribute doit être accepté.'
   active_url: 'Le :attribute n’est pas une adresse URL valide.'
   after: 'Le :attribute doit correspondre à une date ultérieure à :date.'
   alpha: 'Le :attribute ne doit contenir que des lettres.'
