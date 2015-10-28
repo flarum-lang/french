@@ -47,7 +47,7 @@ validation:
   required_with_all: 'Le champ du :attribute est obligatoire lorsque le :values est présent.'
   required_without: 'Le champ du :attribute est obligatoire lorsque le :values n’est pas présent.'
   required_without_all: 'Le champ du :attribute est obligatoire lorsque le :values ne sont pas présents.'
-  same: 'Le :attribute et :other doivent être identiques.'
+  same: 'Le :attribute et le :other doivent être identiques.'
   size:
     numeric: 'Le :attribute doit être de :size.'
     file: 'Le :attribute doit peser :size kilo-octets.'
