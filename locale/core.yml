@@ -9,9 +9,9 @@ core:
 
     # These strings are used in the Appearance page.
     appearance:
-      colored_header_label: En-tête coloré
+      colored_header_label: 'En-tête coloré'
       colors_heading: Couleurs
-      colors_text: Sélectionnez deux couleurs pour styliser votre forum. La première couleur sera utilisée pour les éléments mis en évidence alors que la seconde couleur sera utilisée pour les éléments en arrière-plan.
+      colors_text: 'Sélectionnez deux couleurs pour styliser votre forum. La première couleur sera utilisée pour les éléments mis en évidence alors que la seconde couleur sera utilisée pour les éléments en arrière-plan.'
       custom_styles_heading: Personnaliser les styles
       custom_styles_text: Personnalisez l’apparence de votre forum en ajoutant votre propre code LESS/CSS qui sera appliqué en priorité par rapport aux styles par défaut de Flarum.
       dark_mode_label: Mode sombre
@@ -27,29 +27,29 @@ core:
       forum_description_text: Affichez un résumé décrivant votre communauté. La description apparaîtra dans la balise Méta et s’affichera dans le résultat des moteurs de recherche.
       forum_title_heading: Titre du forum
       home_page_heading: Page d’accueil
-      home_page_text: Sélectionnez la page que les utilisateurs verront lorsqu’ils visiteront votre forum pour la première fois. Si vous saisissez une valeur personnalisée, veuillez utiliser le chemin relatif à la racine du forum.
+      home_page_text: 'Sélectionnez la page que les utilisateurs verront lorsqu’ils visiteront votre forum pour la première fois. Si vous saisissez une valeur personnalisée, veuillez utiliser le chemin relatif à la racine du forum.'
       saved_message: Vos modifications ont été enregistrées.
       submit_button: => core.ref.okay
       welcome_banner_heading: Bandeau de bienvenue
-      welcome_banner_text: Personnalisez le texte du bandeau qui est affiché sur la page listant toutes les discussions. Utilisez celui-ci pour accueillir les invités de votre forum.
+      welcome_banner_text: 'Personnalisez le texte du bandeau qui est affiché sur la page listant toutes les discussions. Utilisez celui-ci pour accueillir les invités de votre forum.'
 
     # These strings are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "Ce <strong>logiciel en bêta</strong> est disponible pour que vous nous aidiez à le tester et à l’améliorer. Il ne devrait pas être utilisé dans un environnement de production."
-      contributing_text: "Vous souhaitez contribuer et corriger des bogues ? Consultez <a>la documentation de contribution</a> (en anglais)."
-      extension_text: "Vous souhaitez développer des extensions ? Consultez <a>la documentation des extensions</a> (en anglais)."
-      features_text: "Vous souhaitez soumettre une idée ou une fonctionnalité ? Publiez celle-ci dans notre forum en utilisant <a>l’étiquette « Features »</a> (en anglais)."
-      support_text: "Vous souhaitez signaler un bogue ? Rapportez-le dans notre forum en utilisant <a>l’étiquette « Support »</a> (en anglais)."
-      troubleshooting_text: "Vous avez des difficultés ? Consultez les instructions dans <a>la documentation de dépannage</a> (en anglais)."
-      version_text: "Merci d’essayer Flarum ! Vous utilisez la version {version}."
+      beta_warning_text: 'Ce <strong>logiciel en bêta</strong> est disponible pour que vous nous aidiez à le tester et à l’améliorer. Il ne devrait pas être utilisé dans un environnement de production.'
+      contributing_text: 'Vous souhaitez contribuer et corriger des bogues ? Consultez <a>la documentation de contribution</a> (en anglais).'
+      extension_text: 'Vous souhaitez développer des extensions ? Consultez <a>la documentation des extensions</a> (en anglais).'
+      features_text: 'Vous souhaitez soumettre une idée ou une fonctionnalité ? Publiez celle-ci dans notre forum en utilisant <a>l’étiquette « Features »</a> (en anglais).'
+      support_text: 'Vous souhaitez signaler un bogue ? Rapportez-le dans notre forum en utilisant <a>l’étiquette « Support »</a> (en anglais).'
+      troubleshooting_text: 'Vous avez des difficultés ? Consultez les instructions dans <a>la documentation de dépannage</a> (en anglais).'
+      version_text: 'Merci d’essayer Flarum ! Vous utilisez la version {version}.'
 
     # These strings are used in the Edit Group modal dialog.
     edit_group:
       color_label: Couleur
       delete_button: Supprimer le groupe
-      delete_confirmation: Êtes-vous sûr de vouloir supprimer ce groupe ? Les membres du groupe ne seront pas supprimés.
+      delete_confirmation: 'Êtes-vous sûr de vouloir supprimer ce groupe ? Les membres du groupe ne seront pas supprimés.'
       icon_label: Icône
-      icon_text: "Saisissez le nom des icônes de <a>Font Awesome</a> <em>sans</em> le préfixe <code>fa-</code>."
+      icon_text: 'Saisissez le nom des icônes de <a>Font Awesome</a> <em>sans</em> le préfixe <code>fa-</code>.'
       name_label: Nom
       plural_placeholder: Pluriel (tel que « modérateurs »)
       singular_placeholder: Singulier (tel que « modérateur »)
@@ -75,9 +75,9 @@ core:
     # These strings are used in the navigation bar.
     nav:
       appearance_button: Apparence
-      appearance_text: Personnalisez les couleurs, les logos et d’autres aspects de votre forum.
+      appearance_text: 'Personnalisez les couleurs, les logos et d’autres aspects de votre forum.'
       basics_button: Essentiel
-      basics_text: Réglez le titre, la langue, et d’autres réglages essentiels de votre forum.
+      basics_text: 'Réglez le titre, la langue, et d’autres réglages essentiels de votre forum.'
       dashboard_button: Tableau de bord
       dashboard_text: Tout votre forum d’un simple coup d’œil.
       extensions_button: Extensions
@@ -108,7 +108,7 @@ core:
     # These strings are used in the dropdown menus on the Permissions page.
     permissions_controls:
       allow_indefinitely_button: Indéfiniment
-      allow_some_minutes_button: "Pour {count} minute|Pour {count} minutes"
+      allow_some_minutes_button: 'Pour {count} minute|Pour {count} minutes'
       allow_ten_minutes_button: Pour 10 minutes
       allow_until_reply_button: Jusqu’à la prochaine réponse
       everyone_button: Tout le monde
@@ -129,7 +129,7 @@ core:
     # These strings are used in the Change Password modal dialog.
     change_password:
       send_button: Courriel de réinitialisation
-      text: Cliquez sur le bouton ci-dessous puis consultez le courriel que nous vous avons envoyé pour modifier votre mot de passe.
+      text: 'Cliquez sur le bouton ci-dessous puis consultez le courriel que nous vous avons envoyé pour modifier votre mot de passe.'
       title: => core.ref.change_password
 
     # These strings are used by the composer controls.
@@ -142,20 +142,20 @@ core:
     # These strings are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: Rédigez un message…
-      discard_confirmation: Vous n’avez pas publié votre discussion. Souhaitez-vous l’abandonner ?
+      discard_confirmation: 'Vous n’avez pas publié votre discussion. Souhaitez-vous l’abandonner ?'
       submit_button: Publier la discussion
       title_placeholder: Titre de la discussion
 
     # These strings are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: Vous n’avez pas enregistré vos modifications. Souhaitez-vous les abandonner ?
-      post_link: "Message #{number} dans {discussion}"
+      discard_confirmation: 'Vous n’avez pas enregistré vos modifications. Souhaitez-vous les abandonner ?'
+      post_link: 'Message #{number} dans {discussion}'
       submit_button: => core.ref.okay
 
     # These strings are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: Vous n’avez pas publié votre réponse. Souhaitez-vous l’abandonner ?
+      discard_confirmation: 'Vous n’avez pas publié votre réponse. Souhaitez-vous l’abandonner ?'
       posted_message: Votre réponse a été publiée.
       submit_button: Publier la réponse
       view_button: Consulter
@@ -165,21 +165,21 @@ core:
       cannot_reply_button: Impossible de répondre
       cannot_reply_text: Vous ne pouvez pas répondre à cette discussion.
       delete_button: => core.ref.delete
-      delete_confirmation: Êtes-vous sûr de vouloir supprimer cette discussion ?
+      delete_confirmation: 'Êtes-vous sûr de vouloir supprimer cette discussion ?'
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Se connecter pour répondre
       rename_button: Renommer
-      rename_text: Saisissez le nouveau titre de cette discussion :
+      rename_text: 'Saisissez le nouveau titre de cette discussion :'
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
     # These strings are used in the discussion list.
     discussion_list:
-      empty_text: Il semble qu’il n’y ai aucune discussion ici. Souhaitez-vous en publier une ?
+      empty_text: 'Il semble qu’il n’y ai aucune discussion ici. Souhaitez-vous en publier une ?'
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Marquer comme lu
-      replied_text: "{username} a répondu {ago}"
-      started_text: "{username} a publié {ago}"
+      replied_text: '{username} a répondu {ago}'
+      started_text: '{username} a publié {ago}'
 
     # These strings are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -192,7 +192,7 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: Nous vous avons envoyé un courriel contenant un lien pour réinitialiser votre mot de passe. Si vous ne le recevez pas prochainement, veuillez vérifier le contenu de votre dossier contenant les pourriels.
+      email_sent_message: 'Nous vous avons envoyé un courriel contenant un lien pour réinitialiser votre mot de passe. Si vous ne le recevez pas prochainement, veuillez vérifier le contenu de votre dossier contenant les pourriels.'
       submit_button: Récupérer un mot de passe
       text: Saisissez votre adresse de courriel pour que nous vous envoyons un lien qui vous permettra de réinitialiser votre mot de passe
       title: Mot de passe oublié
@@ -225,18 +225,18 @@ core:
 
     # These strings are used in the Log In modal dialog.
     log_in:
-      confirmation_required_message: "Vous devez confirmer votre adresse de courriel avant de pouvoir vous connecter. Nous avons envoyé un courriel de confirmation à {email}. Si vous ne le recevez pas prochainement, veuillez vérifier le contenu de votre dossier contenant les pourriels."
-      forgot_password_link: Mot de passe oublié ?
+      confirmation_required_message: 'Vous devez confirmer votre adresse de courriel avant de pouvoir vous connecter. Nous avons envoyé un courriel de confirmation à {email}. Si vous ne le recevez pas prochainement, veuillez vérifier le contenu de votre dossier contenant les pourriels.'
+      forgot_password_link: 'Mot de passe oublié ?'
       invalid_login_message: Vos identifiants sont incorrects.
       password_placeholder: => core.ref.password
-      sign_up_text: "Pas encore inscrit ? <a>Inscription</a>"
+      sign_up_text: 'Pas encore inscrit ? <a>Inscription</a>'
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
       username_or_email_placeholder: Nom d’utilisateur ou adresse de courriel
 
     # These strings are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} a modifié le titre de votre discussion"
+      discussion_renamed_text: '{username} a modifié le titre de votre discussion'
       empty_text: Aucune notification
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
@@ -244,8 +244,8 @@ core:
 
     # These strings are used by tooltips displayed for individual posts.
     post:
-      edited_tooltip: "{username} a édité ça {ago}"
-      number_tooltip: "Message #{number}"
+      edited_tooltip: '{username} a édité ça {ago}'
+      number_tooltip: 'Message #{number}'
 
     # These strings are used by the post control buttons.
     post_controls:
@@ -258,18 +258,18 @@ core:
     post_scrubber:
       now_link: Maintenant
       original_post_link: Message original
-      unread_text: "{count} non lu|{count} non lus"
-      viewing_text: "{index} sur {count} message|{index} sur {count} messages"
+      unread_text: '{count} non lu|{count} non lus'
+      viewing_text: '{index} sur {count} message|{index} sur {count} messages'
 
     # These strings are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_text: "{username} a modifié le titre {old} par {new}."
+      discussion_renamed_text: '{username} a modifié le titre {old} par {new}.'
       reply_placeholder: => core.ref.write_a_reply
-      time_lapsed_text: "{period} plus tard"
+      time_lapsed_text: '{period} plus tard'
 
     # These strings are used by the search results dropdown list.
     search:
-      all_discussions_button: "Rechercher « {query} » dans toutes les discussions"
+      all_discussions_button: 'Rechercher « {query} » dans toutes les discussions'
       discussions_heading: => core.ref.discussions
       users_heading: Utilisateurs
 
@@ -291,12 +291,12 @@ core:
       confirmation_message: => core.ref.confirmation_email_sent
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
-      log_in_text: "Déjà inscrit ? <a>Connexion</a>"
+      log_in_text: 'Déjà inscrit ? <a>Connexion</a>'
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
       username_placeholder: => core.ref.username
-      welcome_text: "Bienvenue {username} !"
+      welcome_text: 'Bienvenue {username} !'
 
     # These strings are used in the user profile page and profile popup.
     user:
@@ -304,7 +304,7 @@ core:
       avatar_upload_button: Transférer
       bio_placeholder: Rédigez quelque chose à propos de vous
       discussions_link: => core.ref.discussions
-      joined_date_text: "Inscrit {ago}"
+      joined_date_text: 'Inscrit {ago}'
       online_text: En ligne
       posts_load_more_button: => core.ref.load_more
       posts_link: Messages
@@ -314,7 +314,7 @@ core:
     user_controls:
       button: Commandes
       delete_button: => core.ref.delete
-      delete_confirmation: Êtes-vous sûr de vouloir supprimer cet utilisateur ? Tous ses messages seront également supprimés.
+      delete_confirmation: 'Êtes-vous sûr de vouloir supprimer cet utilisateur ? Tous ses messages seront également supprimés.'
       edit_button: => core.ref.edit
 
   # Strings in this namespace are used by the forum and admin interfaces.
@@ -325,11 +325,11 @@ core:
       hidden_tooltip: Masquée
 
     # This string is displayed in place of the username of deleted user account.
-    deleted_user_text: "[supprimé]"
+    deleted_user_text: '[supprimé]'
 
     # These strings are displayed as error messages.
     error:
-      generic_message: Oups ! Quelque chose s’est mal passé. Veuillez actualiser la page puis réessayer.
+      generic_message: 'Oups ! Quelque chose s’est mal passé. Veuillez actualiser la page puis réessayer.'
       permission_denied_message: Vous n’avez pas la permission de faire cela.
       not_found_message: La ressource que vous souhaitez atteindre est introuvable.
       rate_limit_exceeded_message: Vous êtes un peu trop rapide. Veuillez réessayer dans quelques secondes.
@@ -341,9 +341,9 @@ core:
 
     # These strings are used to punctuate a series of items.
     series:
-      glue_text: ", "
-      two_text: "{first} et {second}"
-      three_text: "{first}, {second} et {third}"
+      glue_text: ', '
+      two_text: '{first} et {second}'
+      three_text: '{first}, {second} et {third}'
 
   # Strings in this namespace are used in basic HTML interface.
   basic:
@@ -361,7 +361,7 @@ core:
     all_discussions: Toutes les discussions
     change_email: Modifier l’adresse de courriel
     change_password: Modifier le mot de passe
-    confirmation_email_sent: "Nous avons envoyé un courriel de confirmation à {email}. Si vous ne le recevez pas prochainement, veuillez vérifier le contenu de votre dossier contenant les pourriels."
+    confirmation_email_sent: 'Nous avons envoyé un courriel de confirmation à {email}. Si vous ne le recevez pas prochainement, veuillez vérifier le contenu de votre dossier contenant les pourriels.'
     delete: Supprimer
     delete_forever: Supprimer définitivement
     discussions: Discussions
@@ -378,7 +378,7 @@ core:
     restore: Restaurer
     settings: Réglages
     sign_up: Inscription
-    some_others: "{count} autre|{count} autres"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    some_others: '{count} autre|{count} autres'  # Referenced by flarum-likes.yml, flarum-mentions.yml
     username: Nom d’utilisateur
     write_a_reply: Rédigez une réponse…
     you: Vous                                    # Referenced by flarum-likes.yml, flarum-mentions.yml

@@ -25,5 +25,5 @@ flarum-sticky:
 
     # These strings are displayed between posts in the post stream.
     post_stream:
-      discussion_stickied_text: "{username} a épinglé cette discussion."
-      discussion_unstickied_text: "{username} a désépinglé cette discussion."
+      discussion_stickied_text: '{username} a épinglé cette discussion.'
+      discussion_unstickied_text: '{username} a désépinglé cette discussion.'

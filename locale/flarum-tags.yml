@@ -16,7 +16,7 @@ flarum-tags:
       color_label: Couleur
       description_label: Description
       delete_tag_button: Supprimer l’étiquette
-      delete_tag_confirmation: Êtes-vous sûr de vouloir supprimer cette étiquette ? L’étiquette ne sera pas supprimée des discussions.
+      delete_tag_confirmation: 'Êtes-vous sûr de vouloir supprimer cette étiquette ? L’étiquette ne sera pas supprimée des discussions.'
       hide_label: Masquer de la liste de toutes les discussions
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
@@ -36,7 +36,7 @@ flarum-tags:
 
     # These strings are used in the Tag Settings modal dialog.
     tag_settings:
-      range_separator_text: " à "
+      range_separator_text: ' à '
       required_primary_heading: Limite du nombre d’étiquettes primaires
       required_primary_text: Saisissez le nombre minimal et maximal d’étiquettes primaires qui peuvent être ajoutées à une discussion.
       required_secondary_heading: Limite du nombre d’étiquettes secondaires
@@ -45,7 +45,7 @@ flarum-tags:
 
     # These strings are used in the Tags page.
     tags:
-      about_tags_text: Les étiquettes permettent de catégoriser les discussions. Les étiquettes primaires sont similaires aux traditionnelles catégories, elles peuvent être disposées en une hiérarchie à deux niveaux. Les étiquettes secondaires ne sont ni hierarchisées, ni ordonnées, mais peuvent êtres utilisées comme des catégories mineures.
+      about_tags_text: 'Les étiquettes permettent de catégoriser les discussions. Les étiquettes primaires sont similaires aux traditionnelles catégories, elles peuvent être disposées en une hiérarchie à deux niveaux. Les étiquettes secondaires ne sont ni hierarchisées, ni ordonnées, mais peuvent êtres utilisées comme des catégories mineures.'
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: Étiquettes primaires
       secondary_heading: Étiquettes secondaires
@@ -56,9 +56,9 @@ flarum-tags:
 
     # These strings are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Sélectionnez une étiquette primaire|Sélectionnez {count} étiquettes primaires"
-      choose_secondary_placeholder: "Sélectionnez une étiquette secondaire|Sélectionnez {count} étiquettes secondaires"
-      edit_title: "Éditez les étiquettes de {title}"
+      choose_primary_placeholder: 'Sélectionnez une étiquette primaire|Sélectionnez {count} étiquettes primaires'
+      choose_secondary_placeholder: 'Sélectionnez une étiquette secondaire|Sélectionnez {count} étiquettes secondaires'
+      edit_title: 'Éditez les étiquettes de {title}'
       submit_button: => core.ref.okay
       title: Sélectionnez les étiquettes de votre discussion
 
@@ -78,10 +78,10 @@ flarum-tags:
 
     # These strings are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} a ajouté {tagsAdded}."
-      added_and_removed_tags_text: "{username} a ajouté {tagsAdded} et a supprimé {tagsRemoved}."
-      removed_tags_text: "{username} a supprimé {tagsRemoved}."
-      tags_text: "l’étiquette {tags}|les étiquettes {tags}"
+      added_tags_text: '{username} a ajouté {tagsAdded}.'
+      added_and_removed_tags_text: '{username} a ajouté {tagsAdded} et a supprimé {tagsRemoved}.'
+      removed_tags_text: '{username} a supprimé {tagsRemoved}.'
+      tags_text: 'l’étiquette {tags}|les étiquettes {tags}'
 
   # Strings in this namespace are used by the forum and admin interfaces.
   lib:
