@@ -1,3 +1,7 @@
+# Custom French Lavarel Localization
+# Based on: https://github.com/caouecs/Laravel-lang/tree/master/fr
+# Source: https://github.com/laravel/laravel/tree/master/resources/lang/en
+
 validation:
   accepted: 'Le :attribute doit être accepté.'
   active_url: 'Le :attribute n’est pas une adresse URL valide.'

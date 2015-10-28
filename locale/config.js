@@ -1,5 +1,5 @@
-// Custom French Moment.js Locale File
-// Based on https://github.com/moment/moment/blob/develop/locale/fr.js
+// Custom French Moment.js Localization
+// Based on: https://github.com/moment/moment/blob/develop/locale/fr.js
 
 moment.locale('fr', {
   months : 'janvier_février_mars_avril_mai_juin_juillet_août_septembre_octobre_novembre_décembre'.split('_'),
