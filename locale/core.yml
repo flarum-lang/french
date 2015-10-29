@@ -217,11 +217,11 @@ core:
 
     # These strings are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Récents
-      newest_button: Nouveaux
-      oldest_button: Anciens
-      relevance_button: Pertinents
-      top_button: Populaires
+      latest_button: Activité
+      newest_button: Nouveauté
+      oldest_button: Ancienneté
+      relevance_button: Pertinence
+      top_button: Popularité
 
     # These strings are used in the Log In modal dialog.
     log_in:
