@@ -37,10 +37,10 @@ core:
     dashboard:
       beta_warning_text: "Ce <strong>logiciel en bêta</strong> est disponible pour que vous nous aidiez à le tester et à l’améliorer. Il ne devrait pas être utilisé dans un environnement de production."
       contributing_text: "Vous souhaitez contribuer et corriger des bogues ? Consultez <a>la documentation de contribution</a> (en anglais)."
-      extension_text: "Vous souhaitez développer des extensions ? Consultez <a>la documentation des extensions</a> (en anglais)."
-      features_text: "Vous souhaitez soumettre une idée ou une fonctionnalité ? Publiez celle-ci dans notre forum en utilisant <a>l’étiquette « Features »</a> (en anglais)."
-      support_text: "Vous souhaitez signaler un bogue ? Rapportez-le dans notre forum en utilisant <a>l’étiquette « Support »</a> (en anglais)."
-      troubleshooting_text: "Vous avez des difficultés ? Consultez les instructions dans <a>la documentation de dépannage</a> (en anglais)."
+      extension_text: "Vous souhaitez développer des extensions ? Consultez <a>la documentation sur les extensions</a> (en anglais)."
+      features_text: "Vous souhaitez soumettre une idée ou une fonctionnalité ? Publiez une nouvelle discussion sur notre forum en utilisant <a>l’étiquette « Features »</a> (en anglais)."
+      support_text: "Vous souhaitez signaler un bogue ? Publiez une nouvelle discussion sur notre forum en utilisant <a>l’étiquette « Support »</a> (en anglais)."
+      troubleshooting_text: "Vous avez des difficultés ? Consultez <a>la documentation de dépannage</a> (en anglais)."
       version_text: "Merci d’essayer Flarum ! Vous utilisez la version {version}."
 
     # These strings are used in the Edit Group modal dialog.
@@ -77,7 +77,7 @@ core:
       appearance_button: Apparence
       appearance_text: "Personnalisez les couleurs, les logos et d’autres aspects de votre forum."
       basics_button: Essentiel
-      basics_text: "Réglez le titre, la langue, et d’autres réglages essentiels de votre forum."
+      basics_text: "Réglez le titre, la langue et d’autres réglages essentiels de votre forum."
       dashboard_button: Tableau de bord
       dashboard_text: Tout votre forum d’un simple coup d’œil.
       extensions_button: Extensions
@@ -135,7 +135,7 @@ core:
     # These strings are used by the composer controls.
     composer:
       close_tooltip: Fermer
-      exit_full_screen_tooltip: Quitter le plein écran
+      exit_full_screen_tooltip: Quitter le mode plein écran
       full_screen_tooltip: Plein écran
       minimize_tooltip: Réduire
 
@@ -175,7 +175,7 @@ core:
 
     # These strings are used in the discussion list.
     discussion_list:
-      empty_text: "Il semble qu’il n’y ai aucune discussion ici. Souhaitez-vous en publier une ?"
+      empty_text: "Il n’y a aucune discussion ici. Souhaitez-vous en publier une ?"
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Marquer comme lu
       replied_text: "{username} a répondu {ago}"
@@ -194,7 +194,7 @@ core:
       email_placeholder: => core.ref.email
       email_sent_message: "Nous vous avons envoyé un courriel contenant un lien pour réinitialiser votre mot de passe. Si vous ne le recevez pas prochainement, veuillez vérifier le contenu de votre dossier contenant les pourriels."
       submit_button: Récupérer un mot de passe
-      text: Saisissez votre adresse de courriel pour que nous vous envoyons un lien qui vous permettra de réinitialiser votre mot de passe
+      text: Saisissez votre adresse de courriel pour que nous vous envoyons un lien qui vous permettra de réinitialiser votre mot de passe.
       title: Mot de passe oublié
 
     # These strings are used in the header and session dropdown menu.
@@ -302,7 +302,7 @@ core:
     user:
       avatar_remove_button: Supprimer
       avatar_upload_button: Transférer
-      bio_placeholder: Rédigez quelque chose à propos de vous
+      bio_placeholder: Écrivez quelque chose sur vous
       discussions_link: => core.ref.discussions
       joined_date_text: "Inscrit {ago}"
       online_text: En ligne
