@@ -8,8 +8,7 @@ French language pack to localize the Flarum forum software and its bundled exten
   - [Version](https://github.com/maelsoucaze/flarum#version)
   - [Compatibility](https://github.com/maelsoucaze/flarum#compatibility)
   - [License](https://github.com/maelsoucaze/flarum#license)
-- [Documentation](https://github.com/maelsoucaze/flarum#documentation)
-  - [Installation](https://github.com/maelsoucaze/flarum#installation)
+- [Installation](https://github.com/maelsoucaze/flarum#installation)
 - [Contributing](https://github.com/maelsoucaze/flarum#contributing)
 
 ## Informations
@@ -34,9 +33,7 @@ French language pack to localize the Flarum forum software and its bundled exten
 
 Released under the MIT License. Please see the [LICENSE](https://github.com/maelsoucaze/flarum/blob/master/LICENSE) file.
 
-## Documentation
-
-### Installation
+## Installation
 
 Flarum use Composer to manage its dependencies and extensions. The French language pack, as a Flarum extension, is also manageable with Composer. Make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following command in the location where Flarum is installed:
 
@@ -44,11 +41,11 @@ Flarum use Composer to manage its dependencies and extensions. The French langua
 composer require maelsoucaze/french
 ```
 
-Note that the French language pack will be added as Flarum's dependency and will be automatically updated when you will update Flarum using Composer.
+Note that the French language pack will be added as a Flarum's dependency, and will be automatically updated when you will update Flarum by using Composer. Hype!
 
 #### Manual Installation
 
-Note that this alternative method is not recommended. Follow [these step-by-step instructions](http://flarum.org/docs/languages/) by making sure that all the unpacked content of the downloaded archive is uploaded into the *maelsoucaze-french/* subdirectory that you have to create in the **extensions/** directory.
+Note that this alternative method is not recommended. Follow [these step-by-step instructions](http://flarum.org/docs/languages/) by making sure that all the unpacked content of the downloaded archive is uploaded into the *maelsoucaze-french/* subdirectory that you have to create in the *extensions/* directory.
 
 ## Contributing
 
