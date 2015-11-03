@@ -5,6 +5,7 @@
 # Composer
 /vendor
 composer.phar
+composer.bat
 
 # Operating systems
 *~
