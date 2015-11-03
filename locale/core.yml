@@ -11,7 +11,7 @@ core:
     appearance:
       colored_header_label: "En-tête coloré"
       colors_heading: Couleurs
-      colors_text: "Sélectionnez deux couleurs pour styliser votre forum. La première couleur sera utilisée pour les éléments mis en évidence alors que la seconde couleur sera utilisée pour les éléments en arrière-plan."
+      colors_text: "Sélectionnez deux couleurs pour styliser votre forum. La première couleur est utilisée pour les éléments mis en évidence et la seconde couleur est utilisée pour les éléments en arrière-plan."
       custom_styles_heading: Personnaliser les styles
       custom_styles_text: Personnalisez l’apparence de votre forum en ajoutant votre propre code LESS/CSS qui sera appliqué en priorité par rapport aux styles par défaut de Flarum.
       dark_mode_label: Mode sombre
@@ -31,7 +31,7 @@ core:
       saved_message: Vos modifications ont été enregistrées.
       submit_button: => core.ref.okay
       welcome_banner_heading: Bandeau de bienvenue
-      welcome_banner_text: "Personnalisez le texte du bandeau qui est affiché sur la page listant toutes les discussions. Utilisez celui-ci pour accueillir les invités de votre forum."
+      welcome_banner_text: "Personnalisez le texte du bandeau qui est affiché sur la page de la liste de discussions. Il vous permet d’accueillir les invités de votre forum."
 
     # These strings are used in the Dashboard page.
     dashboard:
@@ -49,7 +49,7 @@ core:
       delete_button: Supprimer le groupe
       delete_confirmation: "Êtes-vous sûr de vouloir supprimer ce groupe ? Les membres du groupe ne seront pas supprimés."
       icon_label: Icône
-      icon_text: "Saisissez le nom des icônes de <a>Font Awesome</a> <em>sans</em> le préfixe <code>fa-</code>."
+      icon_text: "Saisissez le nom d’une des icônes de <a>Font Awesome</a> <em>sans</em> le préfixe <code>fa-</code>."
       name_label: Nom
       plural_placeholder: Pluriel (tel que « modérateurs »)
       singular_placeholder: Singulier (tel que « modérateur »)
@@ -87,8 +87,8 @@ core:
 
     # These strings are used in the Permissions page of the admin interface.
     permissions:
-      allow_renaming_label: Autoriser le renommage
-      allow_post_editing_label: Autoriser l’édition des messages
+      allow_renaming_label: Renommer ses discussions
+      allow_post_editing_label: Éditer ses messages
       create_heading: Création
       delete_discussions_forever_label: Supprimer définitivement les discussions
       delete_discussions_label: Supprimer les discussions
@@ -102,14 +102,14 @@ core:
       rename_discussions_label: Renommer les discussions
       reply_to_discussions_label: Répondre aux discussions
       sign_up_label: S’inscrire
-      start_discussions_label: Démarrer les discussions
+      start_discussions_label: Démarrer des discussions
       view_discussions_label: Voir les discussions
 
     # These strings are used in the dropdown menus on the Permissions page.
     permissions_controls:
       allow_indefinitely_button: Indéfiniment
-      allow_some_minutes_button: "Pour {count} minute|Pour {count} minutes"
-      allow_ten_minutes_button: Pour 10 minutes
+      allow_some_minutes_button: "Pendant {count} minute|Pendant {count} minutes"
+      allow_ten_minutes_button: Pendant 10 minutes
       allow_until_reply_button: Jusqu’à la prochaine réponse
       everyone_button: Tout le monde
       members_button: => core.group.members
@@ -129,7 +129,7 @@ core:
     # These strings are used in the Change Password modal dialog.
     change_password:
       send_button: Courriel de réinitialisation
-      text: "Cliquez sur le bouton ci-dessous puis consultez le courriel que nous vous avons envoyé pour modifier votre mot de passe."
+      text: "Cliquez sur le bouton ci-dessous et consultez le courriel que vous allez recevoir pour modifier votre mot de passe."
       title: => core.ref.change_password
 
     # These strings are used by the composer controls.
@@ -149,7 +149,7 @@ core:
     # These strings are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: "Vous n’avez pas enregistré vos modifications. Souhaitez-vous les abandonner ?"
-      post_link: "Message #{number} dans {discussion}"
+      post_link: "Message #{number} de {discussion}"
       submit_button: => core.ref.okay
 
     # These strings are used by the composer when replying to a discussion.
@@ -236,7 +236,7 @@ core:
 
     # These strings are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} a modifié le titre de votre discussion"
+      discussion_renamed_text: "{username} a renommé le titre de votre discussion"
       empty_text: Aucune notification
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
@@ -263,7 +263,7 @@ core:
 
     # These strings are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_text: "{username} a modifié le titre {old} par {new}."
+      discussion_renamed_text: "{username} a renommé le titre {old} par {new}."
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} plus tard"
 
