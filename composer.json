@@ -9,13 +9,15 @@
         {
             "name": "Maël Soucaze",
             "email": "maelsoucaze@gmail.com",
-            "homepage": "http://www.maelsoucaze.com",
-            "role": "Translator"
+            "homepage": "http://www.maelsoucaze.com"
         }
     ],
     "support": {
         "issues": "https://github.com/maelsoucaze/flarum/issues",
         "source": "https://github.com/maelsoucaze/flarum"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.3"
     },
     "extra": {
         "flarum-extension": {
