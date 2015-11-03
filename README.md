@@ -20,7 +20,7 @@ French language pack to localize the Flarum forum software and its bundled exten
 
 ### Version
 
-- 0.1.0-dev
+- 1.0.0
 
 ### Compatibility
 
@@ -40,13 +40,13 @@ Released under the MIT License. Please see the [LICENSE](https://github.com/mael
 
 ## Downloads
 
-### [Latest Stable Release](https://github.com/maelsoucaze/flarum/releases/tag/0.1.0-dev-build.17)
+### [Latest Stable Release](https://github.com/maelsoucaze/flarum/releases/tag/v1.0.0)
 
-This release is recommended because it is guaranteed to be compatible with the latest stable release of the forum software (which is currently Flarum 0.1.0 Beta 2) and its bundled extensions.
+This release is recommended for use in a production environment. It is guaranteed to be compatible with the latest stable release of the forum software and its bundled extensions.
 
 ### [Latest Development Release](https://github.com/maelsoucaze/flarum/archive/master.zip)
 
-This release is not recommended because it is may be incompatible with the latest stable release, based on latest development versions of the forum software and its bundled extensions. It is available for testing purposes to developers or advanced and inquisitive users. Do not use it in production.
+This release is not recommended for use in a production environment. It is based on development releases of the forum software and its bundled extensions, and may be incompatible with the latest stable release. It is available for testing purposes to developers or advanced and inquisitive users.
 
 ## Documentation
 
