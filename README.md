@@ -8,59 +8,47 @@ French language pack to localize the Flarum forum software and its bundled exten
   - [Version](https://github.com/maelsoucaze/flarum#version)
   - [Compatibility](https://github.com/maelsoucaze/flarum#compatibility)
   - [License](https://github.com/maelsoucaze/flarum#license)
-- [Downloads](https://github.com/maelsoucaze/flarum#downloads)
-  - [Latest Stable Release](https://github.com/maelsoucaze/flarum#latest-stable-release)
-  - [Latest Development Release](https://github.com/maelsoucaze/flarum#latest-development-release)
 - [Documentation](https://github.com/maelsoucaze/flarum#documentation)
   - [Installation](https://github.com/maelsoucaze/flarum#installation)
-  - [Terminology](https://github.com/maelsoucaze/flarum#terminology)
 - [Contributing](https://github.com/maelsoucaze/flarum#contributing)
 
 ## Informations
 
 ### Version
 
-- 1.0.1-dev
+- 1.0.1
 
 ### Compatibility
 
-- [Flarum](https://github.com/flarum/core) (Core) 0.1.0 Beta 4
-  - [Flags](https://github.com/flarum/flags) 0.1.0 Beta 4
-  - [Likes](https://github.com/flarum/likes) 0.1.0 Beta 4
-  - [Lock](https://github.com/flarum/lock) 0.1.0 Beta 4
-  - [Mentions](https://github.com/flarum/mentions) 0.1.0 Beta 4
-  - [Pusher](https://github.com/flarum/pusher) 0.1.0 Beta 4
-  - [Sticky](https://github.com/flarum/sticky) 0.1.0 Beta 4
-  - [Subscriptions](https://github.com/flarum/subscriptions) 0.1.0 Beta 4
-  - [Tags](https://github.com/flarum/tags) 0.1.0 Beta 4
+- [Flarum](https://github.com/flarum/core) (Core) 0.1.0 Beta 3
+  - [Flags](https://github.com/flarum/flags) 0.1.0 Beta 3
+  - [Likes](https://github.com/flarum/likes) 0.1.0 Beta 3
+  - [Lock](https://github.com/flarum/lock) 0.1.0 Beta 3
+  - [Mentions](https://github.com/flarum/mentions) 0.1.0 Beta 3
+  - [Pusher](https://github.com/flarum/pusher) 0.1.0 Beta 3
+  - [Sticky](https://github.com/flarum/sticky) 0.1.0 Beta 3
+  - [Subscriptions](https://github.com/flarum/subscriptions) 0.1.0 Beta 3
+  - [Tags](https://github.com/flarum/tags) 0.1.0 Beta 3
 
 ### License
 
 Released under the MIT License. Please see the [LICENSE](https://github.com/maelsoucaze/flarum/blob/master/LICENSE) file.
 
-## Downloads
-
-### [Latest Stable Release](https://github.com/maelsoucaze/flarum/releases/tag/v1.0.0)
-
-This release is recommended for use in a production environment. It is guaranteed to be compatible with the latest stable release of the forum software and its bundled extensions.
-
-### [Latest Development Release](https://github.com/maelsoucaze/flarum/archive/master.zip)
-
-This release is not recommended for use in a production environment. It is based on development releases of the forum software and its bundled extensions, and may be incompatible with the latest stable release. It is available for testing purposes to developers or advanced and inquisitive users.
-
 ## Documentation
 
 ### Installation
 
-Follow [these simple step-by-step instructions](http://flarum.org/docs/languages/) from the Flarum website.
+Flarum use Composer to manage its dependencies and extensions. The French language pack, as a Flarum extension, is also manageable with Composer. Make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following command in the location where Flarum is installed:
 
-Note that all the unpacked content of the downloaded French language pack archive must be uploaded into a **maelsoucaze-french/** subdirectory (without the slash punctuation mark at the end) that you have to create in the **extensions/** directory.
+```
+composer require maelsoucaze/french
+```
 
-### Terminology
+Note that the French language pack will be added as Flarum's dependency and will be automatically updated when you will update Flarum using Composer.
 
-I enforce to use proper French terms chosen by official institutions which are [Académie française](https://fr.wikipedia.org/wiki/Acad%C3%A9mie_fran%C3%A7aise), [Délégation générale à la langue française et aux langues de France](https://fr.wikipedia.org/wiki/D%C3%A9l%C3%A9gation_g%C3%A9n%C3%A9rale_%C3%A0_la_langue_fran%C3%A7aise_et_aux_langues_de_France), [Commission générale de terminologie et de néologie](https://fr.wikipedia.org/wiki/Commission_g%C3%A9n%C3%A9rale_de_terminologie_et_de_n%C3%A9ologie) and [Office québécois de la langue française](https://fr.wikipedia.org/wiki/Office_qu%C3%A9b%C3%A9cois_de_la_langue_fran%C3%A7aise).
+#### Manual Installation
 
-However, because some official terms are inadequate or unpopular, I may use different terms than the official ones to stay as understandable as possible for everyone. You can see in [this documentation](https://gist.github.com/maelsoucaze/eef79ce417eff38d1d57) (written in French) the list of some terms used in the localization. Feel free to discuss on them!
+Note that this alternative method is not recommended. Follow [these step-by-step instructions](http://flarum.org/docs/languages/) by making sure that all the unpacked content of the downloaded archive is uploaded into the *maelsoucaze-french/* subdirectory that you have to create in the **extensions/** directory.
 
 ## Contributing
 
