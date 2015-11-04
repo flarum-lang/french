@@ -15,9 +15,9 @@
     "support": {
         "issues": "https://github.com/maelsoucaze/flarum/issues",
         "source": "https://github.com/maelsoucaze/flarum",
-        "docs": "http://flarum.org/docs/translate/",
         "forum": "http://discuss.flarum.org/d/615-french-language-pack",
-        "wiki": "https://github.com/maelsoucaze/flarum/wiki"
+        "wiki": "https://github.com/maelsoucaze/flarum/wiki",
+        "docs": "http://flarum.org/docs/languages/"
     },
     "require": {
         "flarum/core": "^0.1.0-beta.3"
