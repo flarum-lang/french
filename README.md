@@ -4,6 +4,8 @@ French language pack to localize the Flarum forum software and some of its exten
 
 - [Informations](https://github.com/maelsoucaze/flarum#informations)
 - [Installation](https://github.com/maelsoucaze/flarum#installation)
+  - [Using Composer](https://github.com/maelsoucaze/flarum#using-composer)
+  - [Manual Installation](https://github.com/maelsoucaze/flarum#manual-installation)
 - [Contributing](https://github.com/maelsoucaze/flarum#contributing)
 
 ## Informations
@@ -28,7 +30,7 @@ The French language pack is released under the MIT license. Please see the [lice
 
 ## Installation
 
-### Using Composer (Preferred)
+### Using Composer
 
 Flarum use Composer to manage its dependencies and extensions. The French language pack, available [on Packagist](https://packagist.org/packages/maelsoucaze/french), is also manageable with Composer. Make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following command in the location where Flarum is installed:
 
@@ -40,7 +42,14 @@ Note that the French language pack will be added as a Flarum's dependency, and w
 
 ### Manual Installation
 
-Follow [these step-by-step instructions](http://flarum.org/docs/languages/), and make sure that all the unpacked content of the downloaded archive is uploaded into the *maelsoucaze-french/* subdirectory that you have to create in the *extensions/* directory.
+1. Download [the latest stable release](https://github.com/maelsoucaze/flarum/releases) or the [latest development version](https://github.com/maelsoucaze/flarum/archive/master.zip).
+2. Unpack the downloaded archive with [a file archiver](https://en.wikipedia.org/wiki/Comparison_of_file_archivers).
+3. Log in to your server via [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol), [SSH](https://en.wikipedia.org/wiki/Secure_Shell) or your provider's control panel.
+4. Navigate to the *extensions/* directory of your Flarum installation.
+5. Create a *maelsoucaze-french/* subdirectory into it.
+6. Upload all the content in the unpacked folder to this subdirectory.
+
+Note that you should also add manually the French language pack as Flarum's dependency. It is optional, but it allows the French language pack to be updated when you will update Flarum's dependencies by using Composer. Open with [a text editor](https://en.wikipedia.org/wiki/Comparison_of_text_editors) the *composer.json* file located at the root of your Flarum installation, then add on a new line `"maelsoucaze/french": "^1.0"` to the list of Flarum's dependencies which are listed below `"require"`.
 
 ## Contributing
 
