@@ -1,6 +1,5 @@
-# Custom French Laravel Localization
-# Based on: https://github.com/caouecs/Laravel-lang/tree/master/fr
-# Source: https://github.com/laravel/laravel/tree/master/resources/lang/en
+# Custom French Laravel's Validation Locales
+# Based on: https://github.com/caouecs/Laravel-lang/blob/master/fr/validation.php
 
 validation:
   accepted: "Le :attribute doit être accepté."

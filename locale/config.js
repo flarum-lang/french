@@ -1,4 +1,4 @@
-// Custom French Moment.js Localization
+// Custom French Moment.js Locales
 // Based on: https://github.com/moment/moment/blob/develop/locale/fr.js
 
 moment.locale('fr', {
