@@ -2,7 +2,7 @@
     "name": "maelsoucaze/french",
     "type": "flarum-extension",
     "description": "French language pack for Flarum and its bundled extensions.",
-    "homepage": "http://discuss.flarum.org/d/615-french-language-pack",
+    "homepage": "https://github.com/maelsoucaze/flarum",
     "keywords": ["locale"],
     "license": "MIT",
     "authors": [
@@ -14,7 +14,10 @@
     ],
     "support": {
         "issues": "https://github.com/maelsoucaze/flarum/issues",
-        "source": "https://github.com/maelsoucaze/flarum"
+        "source": "https://github.com/maelsoucaze/flarum",
+        "docs": "http://flarum.org/docs/translate/",
+        "forum": "http://discuss.flarum.org/d/615-french-language-pack",
+        "wiki": "https://github.com/maelsoucaze/flarum/wiki"
     },
     "require": {
         "flarum/core": "^0.1.0-beta.3"
