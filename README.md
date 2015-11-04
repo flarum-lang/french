@@ -1,60 +1,55 @@
 # French Language Pack for [Flarum](http://flarum.org/)
 
-[![Join the chat at https://gitter.im/maelsoucaze/flarum](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/maelsoucaze/flarum?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-French language pack to localize the Flarum forum software and its bundled extensions.
+French language pack to localize the Flarum forum software and some of its extensions.
 
 - [Informations](https://github.com/maelsoucaze/flarum#informations)
-  - [Version](https://github.com/maelsoucaze/flarum#version)
-  - [Compatibility](https://github.com/maelsoucaze/flarum#compatibility)
-  - [License](https://github.com/maelsoucaze/flarum#license)
 - [Installation](https://github.com/maelsoucaze/flarum#installation)
 - [Contributing](https://github.com/maelsoucaze/flarum#contributing)
 
 ## Informations
 
-### Version
+This repository contains French locales compatible with:
 
-- 1.0.2-dev
+- [Flarum](https://github.com/flarum/core)'s Core [0.1.0 Beta 3](https://github.com/flarum/core/releases/tag/v0.1.0-beta.3)
+  - Bundled extensions:
+    - [Flags](https://github.com/flarum/flags) [0.1.0 Beta 3](https://github.com/flarum/flags/releases/tag/v0.1.0-beta.3)
+    - [Likes](https://github.com/flarum/likes) [0.1.0 Beta 3](https://github.com/flarum/likes/releases/tag/v0.1.0-beta.3)
+    - [Lock](https://github.com/flarum/lock) [0.1.0 Beta 3](https://github.com/flarum/lock/releases/tag/v0.1.0-beta.3)
+    - [Mentions](https://github.com/flarum/mentions) [0.1.0 Beta 3](https://github.com/flarum/mentions/releases/tag/v0.1.0-beta.3)
+    - [Pusher](https://github.com/flarum/pusher) [0.1.0 Beta 3](https://github.com/flarum/pusher/releases/tag/v0.1.0-beta.3)
+    - [Sticky](https://github.com/flarum/sticky) [0.1.0 Beta 3](https://github.com/flarum/sticky/releases/tag/v0.1.0-beta.3)
+    - [Subscriptions](https://github.com/flarum/subscriptions) [0.1.0 Beta 3](https://github.com/flarum/subscriptions/releases/tag/v0.1.0-beta.3)
+    - [Tags](https://github.com/flarum/tags) [0.1.0 Beta 3](https://github.com/flarum/tags/releases/tag/v0.1.0-beta.3)
+  - Bundled libraries:
+    - [Laravel](https://github.com/laravel/laravel)'s Validation [5.1.11](https://github.com/laravel/laravel/releases/tag/v5.1.11)
+    - [Moment.js](https://github.com/moment/moment) [2.10.6](https://github.com/moment/moment/releases/tag/2.10.6)
 
-### Compatibility
-
-- [Flarum](https://github.com/flarum/core) (Core) 0.1.0 Beta 3
-  - [Flags](https://github.com/flarum/flags) 0.1.0 Beta 3
-  - [Likes](https://github.com/flarum/likes) 0.1.0 Beta 3
-  - [Lock](https://github.com/flarum/lock) 0.1.0 Beta 3
-  - [Mentions](https://github.com/flarum/mentions) 0.1.0 Beta 3
-  - [Pusher](https://github.com/flarum/pusher) 0.1.0 Beta 3
-  - [Sticky](https://github.com/flarum/sticky) 0.1.0 Beta 3
-  - [Subscriptions](https://github.com/flarum/subscriptions) 0.1.0 Beta 3
-  - [Tags](https://github.com/flarum/tags) 0.1.0 Beta 3
-
-### License
-
-Released under the MIT License. Please see the [LICENSE](https://github.com/maelsoucaze/flarum/blob/master/LICENSE) file.
+The French language pack is released under the MIT license. Please see the [license terms](https://github.com/maelsoucaze/flarum/blob/master/LICENSE).
 
 ## Installation
 
-Flarum use Composer to manage its dependencies and extensions. The French language pack, as a Flarum extension, is also manageable with Composer. Make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following command in the location where Flarum is installed:
+### Using Composer (Preferred)
+
+Flarum use Composer to manage its dependencies and extensions. The French language pack, available [on Packagist](https://packagist.org/packages/maelsoucaze/french), is also manageable with Composer. Make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following command in the location where Flarum is installed:
 
 ```
 composer require maelsoucaze/french
 ```
 
-Note that the French language pack will be added as a Flarum's dependency, and will be automatically updated when you will update Flarum by using Composer. Hype!
+Note that the French language pack will be added as a Flarum's dependency, and will be automatically updated when you will update Flarum's dependencies by using Composer. The above command can also be used to update independently the French language pack.
 
 ### Manual Installation
 
-Note that this alternative method is not recommended. Follow [these step-by-step instructions](http://flarum.org/docs/languages/) by making sure that all the unpacked content of the downloaded archive is uploaded into the *maelsoucaze-french/* subdirectory that you have to create in the *extensions/* directory.
+Follow [these step-by-step instructions](http://flarum.org/docs/languages/), and make sure that all the unpacked content of the downloaded archive is uploaded into the *maelsoucaze-french/* subdirectory that you have to create in the *extensions/* directory.
 
 ## Contributing
 
-Thank you a lot to wish to contribute. It means a lot. Using and enjoying the language pack is already a huge support. Best other ways to contribute are, among other things:
+Thank you a lot to wish to contribute. I sincerely appreciate your commitment. Using the language pack is already a huge support, but best other ways to contribute are:
 
 - Star on GitHub. Because if you use it and like it, you can at least be a stargazer!
-- Follow on GitHub. You'll be notified in real time of all changes. No more misses!
-- Open [issues](https://github.com/maelsoucaze/flarum/issues) on GitHub. Because the localization will be better with your feedbacks.
-- Open pull requests on GitHub. Submit fixes and improvements and be listed as [contributor](https://github.com/maelsoucaze/flarum/graphs/contributors)!
-- Join the discussion about the language pack on [the Flarum community](http://discuss.flarum.org/d/615-french-language-pack) and [the French one](https://flarum.today/fr/d/6-traduction-fran-aise).
-- [Follow me on Twitter](https://twitter.com/maelsoucaze). Promise, I don't spam pictures of kittens and puppies (too much).
-- Let's have a drink if you're in Paris!
+- Follow on GitHub. You will be notified in real time of all changes. No more misses!
+- Report [issues](https://github.com/maelsoucaze/flarum/issues) on GitHub. Any feedback is welcome.
+- Open pull requests on GitHub to submit fixes and improvements. Be listed as a [contributor](https://github.com/maelsoucaze/flarum/graphs/contributors)!
+- Join [the language pack's discussion](http://discuss.flarum.org/d/615-french-language-pack) on the Flarum community.
+- Follow me [on Twitter](https://twitter.com/maelsoucaze). Promise, I don't spam pictures of kittens and puppies (too much).
+- Let's have a drink if you are near Paris!
