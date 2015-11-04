@@ -15,7 +15,7 @@ French language pack to localize the Flarum forum software and its bundled exten
 
 ### Version
 
-- 1.0.1
+- 1.0.2-dev
 
 ### Compatibility
 
