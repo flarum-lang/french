@@ -12,16 +12,25 @@ flarum-flags:
       flag_posts_label: Signaler les messages
       view_flags_label: Voir les messages signalés
 
+    # These strings are used in the Flags Settings modal dialog.
+    settings:
+      guidelines_url_label: Lien vers les règles de la communauté
+      title: Réglages des signalements
+
   # Strings in this namespace are used by the forum user interface.
   forum:
 
     # These strings are used by the Flag Post modal dialog.
     flag_post:
-      reason_heading: Raison
+      confirmation_message: Merci d’avoir signalé ce message. Les modérateurs le vérifieront dès que possible.
+      dismiss_button: => core.ref.okay
       reason_inappropriate_label: inapproprié
+      reason_inappropriate_text: "Ce message est offensant, vulgaire, ou ne respecte pas les <a>règles de la communauté</a>."
       reason_off_topic_label: "hors-sujet"
+      reason_off_topic_text: Ce message n’est pas pertinent à la dicussion actuelle et devrait être déplacé ailleurs.
       reason_other_label: autre
       reason_spam_label: pourriel
+      reason_spam_text: Ce message est publicitaire.
       submit_button: => flarum-flags.ref.flag_post
       title: => flarum-flags.ref.flag_post
 
