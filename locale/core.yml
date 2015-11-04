@@ -347,7 +347,7 @@ core:
 
   # Strings in this namespace are used in basic HTML interface.
   basic:
-    loading_text: "Chargement…"
+    loading_text: Chargement…
     load_error_message: Une erreur s’est produite lors de la tentative de chargement de la version complète de ce site.
     javascript_disabled_message: Ce site est optimisé pour être consulté depuis un navigateur moderne dans lequel JavaScript est activé.
     next_page_button: Page suivante
