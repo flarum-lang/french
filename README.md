@@ -12,16 +12,16 @@ French language pack to localize the Flarum forum software and some of its exten
 
 This repository contains French locales compatible with:
 
-- [Flarum](https://github.com/flarum/core)'s Core [0.1.0 Beta 3](https://github.com/flarum/core/releases/tag/v0.1.0-beta.3)
+- [Flarum](https://github.com/flarum/core)'s Core [0.1.0 Beta 4](https://github.com/flarum/core/releases/tag/v0.1.0-beta.4)
   - Bundled extensions:
-    - [Flags](https://github.com/flarum/flags) [0.1.0 Beta 3](https://github.com/flarum/flags/releases/tag/v0.1.0-beta.3)
-    - [Likes](https://github.com/flarum/likes) [0.1.0 Beta 3](https://github.com/flarum/likes/releases/tag/v0.1.0-beta.3)
-    - [Lock](https://github.com/flarum/lock) [0.1.0 Beta 3](https://github.com/flarum/lock/releases/tag/v0.1.0-beta.3)
-    - [Mentions](https://github.com/flarum/mentions) [0.1.0 Beta 3](https://github.com/flarum/mentions/releases/tag/v0.1.0-beta.3)
-    - [Pusher](https://github.com/flarum/pusher) [0.1.0 Beta 3](https://github.com/flarum/pusher/releases/tag/v0.1.0-beta.3)
-    - [Sticky](https://github.com/flarum/sticky) [0.1.0 Beta 3](https://github.com/flarum/sticky/releases/tag/v0.1.0-beta.3)
-    - [Subscriptions](https://github.com/flarum/subscriptions) [0.1.0 Beta 3](https://github.com/flarum/subscriptions/releases/tag/v0.1.0-beta.3)
-    - [Tags](https://github.com/flarum/tags) [0.1.0 Beta 3](https://github.com/flarum/tags/releases/tag/v0.1.0-beta.3)
+    - [Flags](https://github.com/flarum/flags) [0.1.0 Beta 4](https://github.com/flarum/flags/releases/tag/v0.1.0-beta.4)
+    - [Likes](https://github.com/flarum/likes) [0.1.0 Beta 4](https://github.com/flarum/likes/releases/tag/v0.1.0-beta.4)
+    - [Lock](https://github.com/flarum/lock) [0.1.0 Beta 4](https://github.com/flarum/lock/releases/tag/v0.1.0-beta.4)
+    - [Mentions](https://github.com/flarum/mentions) [0.1.0 Beta 4](https://github.com/flarum/mentions/releases/tag/v0.1.0-beta.4)
+    - [Pusher](https://github.com/flarum/pusher) [0.1.0 Beta 4](https://github.com/flarum/pusher/releases/tag/v0.1.0-beta.4)
+    - [Sticky](https://github.com/flarum/sticky) [0.1.0 Beta 4](https://github.com/flarum/sticky/releases/tag/v0.1.0-beta.4)
+    - [Subscriptions](https://github.com/flarum/subscriptions) [0.1.0 Beta 4](https://github.com/flarum/subscriptions/releases/tag/v0.1.0-beta.4)
+    - [Tags](https://github.com/flarum/tags) [0.1.0 Beta 4](https://github.com/flarum/tags/releases/tag/v0.1.0-beta.4)
   - Bundled libraries:
     - [Laravel](https://github.com/laravel/laravel)'s Validation [5.1.11](https://github.com/laravel/laravel/releases/tag/v5.1.11)
     - [Moment.js](https://github.com/moment/moment) [2.10.6](https://github.com/moment/moment/releases/tag/2.10.6)
