@@ -55,7 +55,7 @@ It's optional, but you can also add manually the French language pack as Flarum'
         "maelsoucaze/french": "^1.0"
 ```
 
-Note that you must add a colon at the end of this line if it is not added as the last item of dependencies.
+Note that you must add a colon at the end of this line if it is not added as the last item of the dependency list, or it will stop the execution due to a parsing error.
 
 ## Contributing
 
