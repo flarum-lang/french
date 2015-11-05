@@ -38,11 +38,11 @@ Flarum use Composer to manage its dependencies and extensions. The French langua
 composer require maelsoucaze/french
 ```
 
-Note that the French language pack will be added as a Flarum's dependency, and will be automatically updated when you will update Flarum's dependencies by using Composer. The above command can also be used to update independently the French language pack.
+Note that the French language pack will be added as a Flarum's dependency, and will be automatically updated when you will update Flarum's dependencies by using Composer. The above command can also be used to update independently the French language pack on your Flarum installation.
 
 ### Manual Installation
 
-1. Download [the latest stable release](https://github.com/maelsoucaze/flarum/releases) or the [latest development version](https://github.com/maelsoucaze/flarum/archive/master.zip).
+1. Download [the latest stable release](https://github.com/maelsoucaze/flarum/releases) or [the latest development version](https://github.com/maelsoucaze/flarum/archive/master.zip).
 2. Unpack the downloaded archive with [a file archiver](https://en.wikipedia.org/wiki/Comparison_of_file_archivers).
 3. Log in to your server via [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol), [SSH](https://en.wikipedia.org/wiki/Secure_Shell) or your provider's control panel.
 4. Navigate to the *extensions/* directory of your Flarum installation.
