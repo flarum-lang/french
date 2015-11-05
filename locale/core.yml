@@ -373,7 +373,7 @@ core:
     log_out: Déconnexion
     mark_all_as_read: Tout marquer comme lu
     notifications: Notifications
-    okay: Valider                                # Referenced by flarum-tags.yml
+    okay: Valider                                # Referenced by flarum-flags.yml, flarum-tags.yml
     password: Mot de passe
     reply: Répondre                              # Referenced by flarum-mentions.yml
     restore: Restaurer
