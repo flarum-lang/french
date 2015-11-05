@@ -49,10 +49,13 @@ Note that the French language pack will be added as a Flarum's dependency, and w
 5. Create a *maelsoucaze-french/* subdirectory into it.
 6. Upload all the content in the unpacked folder to this subdirectory.
 
-Note that you should also add manually the French language pack as Flarum's dependency. It is optional, but it allows the French language pack to be updated when you will update Flarum's dependencies by using Composer. Open with [a text editor](https://en.wikipedia.org/wiki/Comparison_of_text_editors) the *composer.json* file located at the root of your Flarum installation (not the language pack one!), then add to the list of Flarum's dependencies which are listed below `"require"` the following new line:
+It's optional, but you can also add manually the French language pack as Flarum's dependency. It allows to automatically update the French language pack when you will update Flarum's dependencies by using Composer. Open with [a text editor](https://en.wikipedia.org/wiki/Comparison_of_text_editors) the *composer.json* file located at the root of your Flarum installation (not the language pack one!), then add to the list of Flarum's dependencies (which are listed below the `"require"` property) the following line in a new line:
+
 ```
         "maelsoucaze/french": "^1.0"
 ```
+
+Note that you must add a colon at the end of this line if it is not added as the last item of dependencies.
 
 ## Contributing
 
