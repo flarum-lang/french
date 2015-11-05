@@ -1,5 +1,4 @@
 # French Language Pack for [Flarum](http://flarum.org/)
-[![Build Status](https://travis-ci.org/maelsoucaze/flarum.svg)](https://travis-ci.org/maelsoucaze/flarum)
 
 French language pack to localize the Flarum forum software and some of its extensions.
 
