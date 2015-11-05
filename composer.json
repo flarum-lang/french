@@ -19,7 +19,7 @@
         "wiki": "https://github.com/maelsoucaze/flarum/wiki"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.3"
+        "flarum/core": "^0.1.0-beta.4"
     },
     "suggest": {
         "flarum/flags": "Allow users to flag posts for moderator review",
