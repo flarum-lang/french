@@ -25,10 +25,9 @@
         "flarum-extension": {
             "title": "French",
             "icon": {
-                "image": "icon.svg",
-                "backgroundColor": "#fff",
-                "backgroundSize": "cover",
-                "backgroundPosition": "center"
+                "name": "language",
+                "backgroundColor": "#4d698e",
+                "color": "#fff"
             }
         },
         "flarum-locale": {
