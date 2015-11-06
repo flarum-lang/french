@@ -4,9 +4,6 @@ French language pack to localize the Flarum forum software and some of its exten
 
 - [Informations](https://github.com/maelsoucaze/flarum#informations)
 - [Installation](https://github.com/maelsoucaze/flarum#installation)
-  - [Using Composer](https://github.com/maelsoucaze/flarum#using-composer)
-  - [Manual Installation](https://github.com/maelsoucaze/flarum#manual-installation)
-- [Updating](https://github.com/maelsoucaze/flarum#updating)
 - [Contributing](https://github.com/maelsoucaze/flarum#contributing)
 
 ## Informations
@@ -66,6 +63,6 @@ Thank you a lot to wish to contribute. I sincerely appreciate your commitment. U
 - Follow on GitHub. You will be notified in real time of all changes. No more misses!
 - Report [issues](https://github.com/maelsoucaze/flarum/issues) on GitHub. Any feedback is welcome.
 - Open pull requests on GitHub to submit fixes and improvements. Be listed as a [contributor](https://github.com/maelsoucaze/flarum/graphs/contributors)!
-- Join [the language pack's discussion](http://discuss.flarum.org/d/615-french-language-pack) on the Flarum community.
+- Join [the language pack's discussion](https://discuss.flarum.org/d/615-french-language-pack) on the Flarum community.
 - Follow me [on Twitter](https://twitter.com/maelsoucaze). Promise, I don't spam pictures of kittens and puppies (too much).
 - Let's have a drink if you are near Paris!
