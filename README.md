@@ -1,10 +1,10 @@
 # French Language Pack for [Flarum](http://flarum.org/)
 
-French language pack to localize the Flarum forum software and some of its extensions.
+French language pack to localize the Flarum forum software, its bundled extensions and libraries.
 
 ## Informations
 
-This repository contains French locales compatible with:
+Includes the following French locales compatible with:
 
 - [Flarum](https://github.com/flarum/core)'s Core [0.1.0 Beta 4](https://github.com/flarum/core/releases/tag/v0.1.0-beta.4)
   - Bundled extensions:
@@ -20,23 +20,23 @@ This repository contains French locales compatible with:
     - [Laravel](https://github.com/laravel/laravel)'s Validation [5.1.11](https://github.com/laravel/laravel/releases/tag/v5.1.11)
     - [Moment.js](https://github.com/moment/moment) [2.10.6](https://github.com/moment/moment/releases/tag/2.10.6)
 
-The French language pack is released under the MIT license. Please see the [license terms](https://github.com/maelsoucaze/flarum/blob/master/LICENSE).
+Released under the MIT license. Please see the [license terms](https://github.com/maelsoucaze/flarum/blob/master/LICENSE).
 
 ## Installation
 
 ### Using Composer
 
-Flarum use Composer to manage its dependencies and extensions. The French language pack, available [on Packagist](https://packagist.org/packages/maelsoucaze/french), is also manageable with Composer. Make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following command in the location where Flarum is installed:
+Flarum use Composer to manage its dependencies and extensions. The French language pack is available [on Packagist](https://packagist.org/packages/maelsoucaze/french) and can be managed that way. Make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following command in the location where Flarum is installed:
 
 ```
 composer require maelsoucaze/french
 ```
 
-Note that the French language pack will be added as a Flarum's dependency, and will be automatically updated when you will update Flarum's dependencies by using Composer. The above command can also be used to update independently the French language pack on your Flarum installation.
+The same command can be used to update independently the French language pack, without updating anything else. Note that because the French language pack will be added as a Flarum's dependency, it will also be automatically updated when updating Flarum and its dependencies via Composer.
 
 ### Manual Installation
 
-1. Download [the latest stable release](https://github.com/maelsoucaze/flarum/releases) (or [the latest development version](https://github.com/maelsoucaze/flarum/archive/master.zip)).
+1. Download [the latest stable release](https://github.com/maelsoucaze/flarum/releases) (or [the latest development build](https://github.com/maelsoucaze/flarum/archive/master.zip)).
 2. Unpack the downloaded archive with [a file archiver](https://en.wikipedia.org/wiki/Comparison_of_file_archivers).
 3. Log in to your server via [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol), [SSH](https://en.wikipedia.org/wiki/Secure_Shell) or your provider's control panel.
 4. Navigate to the *extensions/* directory of your Flarum installation.
