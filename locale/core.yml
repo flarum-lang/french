@@ -178,8 +178,8 @@ core:
       empty_text: "Il n’y a aucune discussion ici. Souhaitez-vous en publier une ?"
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Marquer comme lu
-      replied_text: "{username} a répondu {ago}"
-      started_text: "{username} a publié {ago}"
+      replied_text: "{username} a répondu à ça {ago}"
+      started_text: "{username} a publié ça {ago}"
 
     # These strings are used in the Edit User modal dialog (admin function).
     edit_user:

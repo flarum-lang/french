@@ -19,4 +19,4 @@ flarum-pusher:
 
     # These strings are used in the discussion list.
     discussion_list:
-      show_updates_text: "Afficher {count} discussion mise à jour|Afficher {count} discussions mises à jour"
+      show_updates_text: "Afficher la discussion mise à jour|Afficher les {count} discussions mises à jour"
