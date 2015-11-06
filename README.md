@@ -2,10 +2,6 @@
 
 French language pack to localize the Flarum forum software and some of its extensions.
 
-- [Informations](https://github.com/maelsoucaze/flarum#informations)
-- [Installation](https://github.com/maelsoucaze/flarum#installation)
-- [Contributing](https://github.com/maelsoucaze/flarum#contributing)
-
 ## Informations
 
 This repository contains French locales compatible with:
@@ -40,20 +36,12 @@ Note that the French language pack will be added as a Flarum's dependency, and w
 
 ### Manual Installation
 
-1. Download [the latest stable release](https://github.com/maelsoucaze/flarum/releases) or [the latest development version](https://github.com/maelsoucaze/flarum/archive/master.zip).
+1. Download [the latest stable release](https://github.com/maelsoucaze/flarum/releases) (or [the latest development version](https://github.com/maelsoucaze/flarum/archive/master.zip)).
 2. Unpack the downloaded archive with [a file archiver](https://en.wikipedia.org/wiki/Comparison_of_file_archivers).
 3. Log in to your server via [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol), [SSH](https://en.wikipedia.org/wiki/Secure_Shell) or your provider's control panel.
 4. Navigate to the *extensions/* directory of your Flarum installation.
 5. Create a *maelsoucaze-french/* subdirectory into it.
 6. Upload all the content in the unpacked folder to this subdirectory.
-
-It's optional, but you can also add manually the French language pack as Flarum's dependency. It allows to automatically update the French language pack when you will update Flarum's dependencies by using Composer. Open with [a text editor](https://en.wikipedia.org/wiki/Comparison_of_text_editors) the *composer.json* file located at the root of your Flarum installation (not the language pack one!), then add to the list of Flarum's dependencies (which are listed below the `"require"` property) the following line in a new line:
-
-```
-        "maelsoucaze/french": "^1.0"
-```
-
-Note that you must add a colon at the end of this line if it is not added as the last item of the dependency list, or it will stop the execution due to a parsing error.
 
 ## Contributing
 
