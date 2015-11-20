@@ -3,7 +3,7 @@
     "type": "flarum-extension",
     "description": "French language pack for Flarum.",
     "homepage": "https://github.com/maelsoucaze/flarum",
-    "keywords": ["locale"],
+    "keywords": ["french", "language", "locale", "localization", "translation"],
     "license": "MIT",
     "authors": [
         {
