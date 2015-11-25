@@ -46,6 +46,7 @@ validation:
   regex: "Le format du :attribute est invalide."
   required: "Le champ du :attribute est obligatoire."
   required_if: "Le champ du :attribute est obligatoire lorsque la valeur du :other est :value."
+  required_unless: "Le champ du :attribute est obligatoire sauf si :other est :values."
   required_with: "Le champ du :attribute est obligatoire lorsque le :values est présent."
   required_with_all: "Le champ du :attribute est obligatoire lorsque le :values est présent."
   required_without: "Le champ du :attribute est obligatoire lorsque le :values n’est pas présent."
