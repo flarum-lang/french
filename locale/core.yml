@@ -4,10 +4,10 @@ core:
   # UNIQUE KEYS - The following keys are used in only one location each.
   ##
 
-  # Strings in this namespace are used by the admin interface.
+  # Translations in this namespace are used by the admin interface.
   admin:
 
-    # These strings are used in the Appearance page.
+    # These translations are used in the Appearance page.
     appearance:
       colored_header_label: "En-tête coloré"
       colors_heading: Couleurs
@@ -19,7 +19,7 @@ core:
       enter_hex_message: Veuillez saisir un code de couleur hexadécimal.
       submit_button: => core.ref.okay
 
-    # These strings are used in the Basics page.
+    # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Langue par défaut
@@ -33,7 +33,7 @@ core:
       welcome_banner_heading: Bandeau de bienvenue
       welcome_banner_text: "Personnalisez le texte du bandeau qui est affiché sur la page de la liste de discussions. Il vous permet d’accueillir les invités de votre forum."
 
-    # These strings are used in the Dashboard page.
+    # These translations are used in the Dashboard page.
     dashboard:
       beta_warning_text: "Ce <strong>logiciel en bêta</strong> est disponible pour que vous nous aidiez à le tester et à l’améliorer. Il ne devrait pas être utilisé dans un environnement de production."
       contributing_text: "Vous souhaitez contribuer et corriger des bogues ? Consultez <a>la documentation de contribution</a> (en anglais)."
@@ -43,7 +43,7 @@ core:
       troubleshooting_text: "Vous avez des difficultés ? Consultez <a>la documentation de dépannage</a> (en anglais)."
       version_text: "Merci d’essayer Flarum ! Vous utilisez la version {version}."
 
-    # These strings are used in the Edit Group modal dialog.
+    # These translations are used in the Edit Group modal dialog.
     edit_group:
       color_label: Couleur
       delete_button: Supprimer le groupe
@@ -56,7 +56,7 @@ core:
       submit_button: => core.ref.okay
       title: Créer le groupe
 
-    # These strings are used in the Extensions page.
+    # These translations are used in the Extensions page.
     extensions:
       add_button: Ajouter une extension
       disable_button: Désactiver
@@ -64,15 +64,15 @@ core:
       settings_button: => core.ref.settings
       uninstall_button: Désinstaller
 
-    # This string is used in the session dropdown menu.
+    # This translation is used in the session dropdown menu.
     header:
       log_out_button: => core.ref.log_out
 
-    # This string is used in the modal dialog displayed when loading extensions.
+    # This translation is used in the modal dialog displayed when loading extensions.
     loading:
       title: Veuillez patienter…
 
-    # These strings are used in the navigation bar.
+    # These translations are used in the navigation bar.
     nav:
       appearance_button: Apparence
       appearance_text: "Personnalisez les couleurs, les logos et d’autres aspects de votre forum."
@@ -85,7 +85,7 @@ core:
       permissions_button: Permissions
       permissions_text: Configurez les actions autorisées.
 
-    # These strings are used in the Permissions page of the admin interface.
+    # These translations are used in the Permissions page of the admin interface.
     permissions:
       allow_renaming_label: Renommer ses discussions
       allow_post_editing_label: Éditer ses messages
@@ -105,7 +105,7 @@ core:
       start_discussions_label: Démarrer des discussions
       view_discussions_label: Voir les discussions
 
-    # These strings are used in the dropdown menus on the Permissions page.
+    # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
       allow_indefinitely_button: Indéfiniment
       allow_some_minutes_button: "Pendant {count} minute|Pendant {count} minutes"
@@ -116,30 +116,30 @@ core:
       signup_closed_button: Refuser
       signup_open_button: Autoriser
 
-  # Strings in this namespace are used by the forum user interface.
+  # Translations in this namespace are used by the forum user interface.
   forum:
 
-    # These strings are used in the Change Email modal dialog.
+    # These translations are used in the Change Email modal dialog.
     change_email:
       confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
       submit_button: => core.ref.okay
       title: => core.ref.change_email
 
-    # These strings are used in the Change Password modal dialog.
+    # These translations are used in the Change Password modal dialog.
     change_password:
       send_button: Courriel de réinitialisation
       text: "Cliquez sur le bouton ci-dessous et consultez le courriel que vous allez recevoir pour modifier votre mot de passe."
       title: => core.ref.change_password
 
-    # These strings are used by the composer controls.
+    # These translations are used by the composer controls.
     composer:
       close_tooltip: Fermer
       exit_full_screen_tooltip: Quitter le mode plein écran
       full_screen_tooltip: Plein écran
       minimize_tooltip: Réduire
 
-    # These strings are used by the composer when starting a discussion.
+    # These translations are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: Rédigez un message…
       discard_confirmation: "Vous n’avez pas publié votre discussion. Souhaitez-vous l’abandonner ?"
@@ -147,13 +147,13 @@ core:
       title: => core.ref.start_a_discussion
       title_placeholder: Titre de la discussion
 
-    # These strings are used by the composer when editing a post.
+    # These translations are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: "Vous n’avez pas enregistré vos modifications. Souhaitez-vous les abandonner ?"
       post_link: "Message #{number} de {discussion}"
       submit_button: => core.ref.okay
 
-    # These strings are used by the composer when replying to a discussion.
+    # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
       discard_confirmation: "Vous n’avez pas publié votre réponse. Souhaitez-vous l’abandonner ?"
@@ -161,7 +161,7 @@ core:
       submit_button: Publier la réponse
       view_button: Consulter
 
-    # These strings are used by the discussion control buttons.
+    # These translations are used by the discussion control buttons.
     discussion_controls:
       cannot_reply_button: Impossible de répondre
       cannot_reply_text: Vous ne pouvez pas répondre à cette discussion.
@@ -174,7 +174,7 @@ core:
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
-    # These strings are used in the discussion list.
+    # These translations are used in the discussion list.
     discussion_list:
       empty_text: "Il semble qu’il n’y ait aucune discussion ici."
       load_more_button: => core.ref.load_more
@@ -182,14 +182,14 @@ core:
       replied_text: "{username} a répondu à ça {ago}"
       started_text: "{username} a publié ça {ago}"
 
-    # These strings are used in the Edit User modal dialog (admin function).
+    # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
       email_label: => core.ref.email
       password_label: => core.ref.password
       submit_button: => core.ref.okay
       username_label: => core.ref.username
 
-    # These strings are used in the Forgot Password modal dialog.
+    # These translations are used in the Forgot Password modal dialog.
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
@@ -198,7 +198,7 @@ core:
       text: Saisissez votre adresse de courriel pour que nous vous envoyons un lien qui vous permettra de réinitialiser votre mot de passe.
       title: Mot de passe oublié
 
-    # These strings are used in the header and session dropdown menu.
+    # These translations are used in the header and session dropdown menu.
     header:
       admin_button: Administration
       log_in_link: => core.ref.log_in
@@ -208,7 +208,7 @@ core:
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
-    # These strings are used on the index page, peripheral to the discussion list.
+    # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
       cannot_start_discussion_button: Impossible de démarrer une discussion
@@ -216,7 +216,7 @@ core:
       refresh_tooltip: Actualiser
       start_discussion_button: => core.ref.start_a_discussion
 
-    # These strings are used by the sorting control above the discussion list.
+    # These translations are used by the sorting control above the discussion list.
     index_sort:
       latest_button: Activité
       newest_button: Nouveauté
@@ -224,7 +224,7 @@ core:
       relevance_button: Pertinence
       top_button: Popularité
 
-    # These strings are used in the Log In modal dialog.
+    # These translations are used in the Log In modal dialog.
     log_in:
       confirmation_required_message: "Vous devez confirmer votre adresse de courriel avant de pouvoir vous connecter. Nous avons envoyé un courriel de confirmation à {email}. Si vous ne le recevez pas prochainement, veuillez vérifier le contenu de votre dossier contenant les pourriels."
       forgot_password_link: "Mot de passe oublié ?"
@@ -235,7 +235,7 @@ core:
       title: => core.ref.log_in
       username_or_email_placeholder: Nom d’utilisateur ou adresse de courriel
 
-    # These strings are used by the Notifications dropdown, a.k.a. "the bell".
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       discussion_renamed_text: "{username} a renommé le titre de votre discussion"
       empty_text: Aucune notification
@@ -243,39 +243,39 @@ core:
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
 
-    # These strings are used by tooltips displayed for individual posts.
+    # These translations are used by tooltips displayed for individual posts.
     post:
       edited_tooltip: "{username} a édité ça {ago}"
       number_tooltip: "Message #{number}"
 
-    # These strings are used by the post control buttons.
+    # These translations are used by the post control buttons.
     post_controls:
       delete_button: => core.ref.delete
       delete_forever_button: => core.ref.delete_forever
       edit_button: => core.ref.edit
       restore_button: => core.ref.restore
 
-    # These strings are used in the scrubber to the right of the post stream.
+    # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
       now_link: Maintenant
       original_post_link: Message original
       unread_text: "{count} non lu|{count} non lus"
       viewing_text: "{index} sur {count} message|{index} sur {count} messages"
 
-    # These strings are displayed between posts in the post stream.
+    # These translations are displayed between posts in the post stream.
     post_stream:
       discussion_renamed_text: "{username} a renommé le titre {old} en {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} plus tard"
 
-    # These strings are used by the search results dropdown list.
+    # These translations are used by the search results dropdown list.
     search:
       all_discussions_button: "Rechercher « {query} » dans toutes les discussions"
       discussions_heading: => core.ref.discussions
       users_heading: Utilisateurs
 
-    # These strings are used in the Settings page.
+    # These translations are used in the Settings page.
     settings:
       account_heading: Compte
       change_email_button: => core.ref.change_email
@@ -288,7 +288,7 @@ core:
       privacy_heading: Confidentialité
       title: => core.ref.settings
 
-    # These strings are used in the Sign Up modal dialog.
+    # These translations are used in the Sign Up modal dialog.
     sign_up:
       confirmation_message: => core.ref.confirmation_email_sent
       email_placeholder: => core.ref.email
@@ -300,7 +300,7 @@ core:
       username_placeholder: => core.ref.username
       welcome_text: "Bienvenue {username} !"
 
-    # These strings are used in the user profile page and profile popup.
+    # These translations are used in the user profile page and profile popup.
     user:
       avatar_remove_button: Supprimer
       avatar_upload_button: Transférer
@@ -312,42 +312,42 @@ core:
       posts_link: Messages
       settings_link: => core.ref.settings
 
-    # These strings are found on the user profile page (admin function).
+    # These translations are found on the user profile page (admin function).
     user_controls:
       button: Commandes
       delete_button: => core.ref.delete
       delete_confirmation: "Êtes-vous sûr de vouloir supprimer cet utilisateur ? Tous ses messages seront également supprimés."
       edit_button: => core.ref.edit
 
-  # Strings in this namespace are used by the forum and admin interfaces.
+  # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
-    # These strings are displayed as tooltips for discussion badges.
+    # This translation is displayed as tooltip for discussion badges.
     badge:
       hidden_tooltip: Masquée
 
-    # This string is displayed in place of the username of deleted user account.
+    # This translation is displayed in place of the username of deleted user account.
     deleted_user_text: "[supprimé]"
 
-    # These strings are displayed as error messages.
+    # These translations are displayed as error messages.
     error:
       generic_message: "Oups ! Quelque chose s’est mal passé. Veuillez actualiser la page puis réessayer."
       permission_denied_message: Vous n’avez pas la permission de faire cela.
       not_found_message: La ressource que vous souhaitez atteindre est introuvable.
       rate_limit_exceeded_message: Vous êtes un peu trop rapide. Veuillez réessayer dans quelques secondes.
 
-    # These strings are used as suffixes when abbreviating numbers.
+    # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
       kilo_text: K
       mega_text: M
 
-    # These strings are used to punctuate a series of items.
+    # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
       two_text: "{first} et {second}"
       three_text: "{first}, {second} et {third}"
 
-  # Strings in this namespace are used in basic HTML interface.
+  # Translations in this namespace are used in basic HTML interface.
   basic:
     loading_text: Chargement…
     load_error_message: Une erreur s’est produite lors de la tentative de chargement de la version complète de ce site.
@@ -355,11 +355,53 @@ core:
     next_page_button: Page suivante
     previous_page_button: Page précédente
 
+  # Translations in this namespace are used in emails sent by the forum.
+  email:
+
+    # These translations are used in emails sent when users register new accounts.
+    activate_account:
+      subject: Activation de votre compte
+      body: |
+        Bonjour {username} !
+
+        Quelqu’un (en espérant que cela soit vous !) s’est inscrit sur {forum} avec cette adresse de courriel.
+
+        Si vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour que votre compte soit activé :
+        {url}
+
+        Si vous n’êtes pas à l’origine de cette action, veuillez ignorer ce courriel.
+
+    # These translations are used in emails sent when users change their email address.
+    confirm_email:
+      subject: Modification de votre adresse de courriel
+      body: |
+        Bonjour {username} !
+
+        Quelqu’un (en espérant que cela soit vous !) a demandé à modifier l’adresse de courriel associée à votre compte sur {forum} par celle-ci.
+
+        Si vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour confirmer votre nouvelle adresse de courriel :
+        {url}
+
+        Si vous ne souhaitez pas modifier votre adresse de courriel, veuillez ignorer ce courriel.
+
+    # These translations are used in emails sent when users ask to reset their passwords.
+    reset_password:
+      subject: Réinitialisation de votre mot de passe
+      body: |
+        Bonjour {username} !
+
+        Quelqu’un (en espérant que cela soit vous !) a demandé à réinitialiser le mot de passe associé à votre compte sur {forum}.
+
+        Si vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour réinitialiser votre mot de passe actuel :
+        {url}
+
+        Si vous ne souhaitez pas réinitialiser votre mot de passe, veuillez ignorer ce courriel.
+
   ##
-  # REUSED STRINGS - These keys should not be used directly in code!
+  # REUSED KEYS - The following keys are used in several locations and should not be used directly in code.
   ##
 
-  # Strings in this namespace are referenced by two or more unique keys.
+  # Translations in this namespace are referenced by two or more unique keys.
   ref:
     all_discussions: Toutes les discussions
     change_email: Modifier l’adresse de courriel
@@ -388,56 +430,10 @@ core:
     you: Vous                                    # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
-  # EMAIL CONTENT
+  # GROUP NAMES - The following keys are translated at the back end.
   ##
 
-  # Strings in this namespace are used in emails sent by the forum.
-  email:
-
-    # These strings are used in emails sent when users register new accounts.
-    activate_account:
-      subject: Activation de votre compte
-      body: |
-        Bonjour {username} !
-
-        Quelqu’un (en espérant que cela soit vous !) s’est inscrit sur {forum} avec cette adresse de courriel.
-
-        Si vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour que votre compte soit activé :
-        {url}
-
-        Si vous n’êtes pas à l’origine de cette action, veuillez ignorer ce courriel.
-
-    # These strings are used in emails sent when users change their email address.
-    confirm_email:
-      subject: Modification de votre adresse de courriel
-      body: |
-        Bonjour {username} !
-
-        Quelqu’un (en espérant que cela soit vous !) a demandé à modifier l’adresse de courriel associée à votre compte sur {forum} par celle-ci.
-
-        Si vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour confirmer votre nouvelle adresse de courriel :
-        {url}
-
-        Si vous ne souhaitez pas modifier votre adresse de courriel, veuillez ignorer ce courriel.
-
-    # These strings are used in emails sent when users ask to reset their passwords.
-    reset_password:
-      subject: Réinitialisation de votre mot de passe
-      body: |
-        Bonjour {username} !
-
-        Quelqu’un (en espérant que cela soit vous !) a demandé à réinitialiser le mot de passe associé à votre compte sur {forum}.
-
-        Si vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour réinitialiser votre mot de passe actuel :
-        {url}
-
-        Si vous ne souhaitez pas réinitialiser votre mot de passe, veuillez ignorer ce courriel.
-
-  ##
-  # GROUP NAMES
-  ##
-
-  # Strings in this namespace are used to translate default group names.
+  # Translations in this namespace are used to translate default group names.
   group:
     admin: Administrateur
     admins: Administrateurs
