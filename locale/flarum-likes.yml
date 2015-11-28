@@ -7,7 +7,7 @@ flarum-likes:
   # Translations in this namespace are used by the admin interface.
   admin:
 
-    # This translation is used in the Permissions page of the admin interface.
+    # These translations are used in the Permissions page of the admin interface.
     permissions:
       like_posts_label: Aimer les messages
 
@@ -28,10 +28,10 @@ flarum-likes:
       unlike_link: Je n’aime plus
       you_text: => core.ref.you
 
-    # This translation is used by the Users Who Like This modal dialog.
+    # These translations are used by the Users Who Like This modal dialog.
     post_likes:
       title: Utilisateurs qui aiment ça
 
-    # This translation is used in the Settings page.
+    # These translations are used in the Settings page.
     settings:
       notify_post_liked_label: Quelqu’un aime un message que j’ai publié

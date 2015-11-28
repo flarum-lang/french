@@ -7,14 +7,14 @@ flarum-lock:
   # Translations in this namespace are used by the admin interface.
   admin:
 
-    # This translation is used in the Permissions page of the admin interface.
+    # These translations are used in the Permissions page of the admin interface.
     permissions:
       lock_discussions_label: Verrouiller les discussions
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
-    # This translation is displayed as tooltip for discussion badges.
+    # These translations are displayed as tooltips for discussion badges.
     badge:
       locked_tooltip: Verrouillée
 
@@ -23,7 +23,7 @@ flarum-lock:
       lock_button: Verrouiller
       unlock_button: Déverrouiller
 
-    # This translation is used by the Notifications dropdown, a.k.a. "the bell".
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       discussion_locked_text: "{username} a verrouillé votre discussion"
 
@@ -32,6 +32,6 @@ flarum-lock:
       discussion_locked_text: "{username} a verrouillé cette discussion."
       discussion_unlocked_text: "{username} a déverrouillé cette discussion."
 
-    # This translation is used in the Settings page.
+    # These translations are used in the Settings page.
     settings:
       notify_discussion_locked_label: Quelqu’un verrouille une discussion que j’ai démarrée
