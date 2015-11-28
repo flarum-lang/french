@@ -42,6 +42,13 @@ core:
       support_text: "Vous souhaitez signaler un bogue ? Publiez une nouvelle discussion sur notre forum en utilisant <a>l’étiquette « Support »</a> (en anglais)."
       troubleshooting_text: "Vous avez des difficultés ? Consultez <a>la documentation de dépannage</a> (en anglais)."
       version_text: "Merci d’essayer Flarum ! Vous utilisez la version {version}."
+      welcome_text: "Bienvenue sur la bêta de Flarum !"
+
+    # These translations are used in the Edit Custom CSS modal dialog.
+    edit_css:
+      customize_text: Personnalisez l’apparence de votre forum en ajoutant votre propre code LESS/CSS qui sera appliqué en priorité par rapport <a>aux styles par défaut</a> de Flarum.
+      submit_button: => core.ref.okay
+      title: Éditer le CSS personnalisé
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
@@ -115,6 +122,10 @@ core:
       members_button: => core.group.members
       signup_closed_button: Refuser
       signup_open_button: Autoriser
+
+    # These translations are used in the Settings modal dialog.
+    settings:
+      submit_button: => core.ref.okay
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -306,6 +317,7 @@ core:
       avatar_upload_button: Transférer
       bio_placeholder: Écrivez quelque chose sur vous
       discussions_link: => core.ref.discussions
+      in_discussion_text: "Dans {discussion}"
       joined_date_text: "Inscrit {ago}"
       online_text: En ligne
       posts_load_more_button: => core.ref.load_more
@@ -326,7 +338,7 @@ core:
     badge:
       hidden_tooltip: Masquée
 
-    # This translation is displayed in place of the username of deleted user account.
+    # This translation is displayed in place of the username of a deleted user account.
     deleted_user_text: "[supprimé]"
 
     # These translations are displayed as error messages.
