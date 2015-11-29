@@ -29,7 +29,7 @@ flarum-flags:
       reason_off_topic_label: "hors-sujet"
       reason_off_topic_text: Ce message n’est pas pertinent à la discussion actuelle et devrait être déplacé ailleurs.
       reason_other_label: autre
-      reason_spam_label: pourriel
+      reason_spam_label: indésirable
       reason_spam_text: Ce message est publicitaire.
       submit_button: => flarum-flags.ref.flag_post
       title: => flarum-flags.ref.flag_post
