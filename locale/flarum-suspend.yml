@@ -9,19 +9,19 @@ flarum-suspend:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      suspend_users_label: Suspendre des utilisateurs
+      suspend_users_label: Suspendre les utilisateurs
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
-      submit_button: => core.ref.okay
       indefinitely_label: Suspendre indéfiniment
       limited_time_label: Suspendre temporairement…
       limited_time_days_text: " jour(s)"
       not_suspended_label: Non suspendu
       status_heading: Statut de la suspension
+      submit_button: => core.ref.okay
       title: "Suspendre {user}"
 
     # These translations are displayed as tooltips for user badges.

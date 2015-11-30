@@ -338,14 +338,15 @@ core:
     badge:
       hidden_tooltip: Masquée
 
-    # This translation is displayed in place of the username of a deleted user account.
-    deleted_user_text: "[supprimé]"
+    # These translations are used to modify usernames.
+    username:
+      deleted_text: "[supprimé]"
 
     # These translations are displayed as error messages.
     error:
       generic_message: "Oups ! Quelque chose s’est mal passé. Veuillez actualiser la page puis réessayer."
-      permission_denied_message: Vous n’avez pas la permission de faire cela.
       not_found_message: La ressource que vous souhaitez atteindre est introuvable.
+      permission_denied_message: Vous n’avez pas la permission de faire cela.
       rate_limit_exceeded_message: Vous êtes un peu trop rapide. Veuillez réessayer dans quelques secondes.
 
     # These translations are used as suffixes when abbreviating numbers.
@@ -356,14 +357,14 @@ core:
     # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
-      two_text: "{first} et {second}"
       three_text: "{first}, {second} et {third}"
+      two_text: "{first} et {second}"
 
   # Translations in this namespace are used in basic HTML interface.
   basic:
-    loading_text: Chargement…
-    load_error_message: Une erreur s’est produite lors de la tentative de chargement de la version complète de ce site.
     javascript_disabled_message: Ce site est optimisé pour être consulté depuis un navigateur moderne dans lequel JavaScript est activé.
+    load_error_message: Une erreur s’est produite lors de la tentative de chargement de la version complète de ce site.
+    loading_text: Chargement…
     next_page_button: Page suivante
     previous_page_button: Page précédente
 
@@ -372,7 +373,6 @@ core:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Activation de votre compte
       body: |
         Bonjour {username} !
 
@@ -382,10 +382,10 @@ core:
         {url}
 
         Si vous n’êtes pas à l’origine de cette action, veuillez ignorer ce courriel.
+      subject: Activation de votre compte
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Modification de votre adresse de courriel
       body: |
         Bonjour {username} !
 
@@ -395,10 +395,10 @@ core:
         {url}
 
         Si vous ne souhaitez pas modifier votre adresse de courriel, veuillez ignorer ce courriel.
+      subject: Modification de votre adresse de courriel
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
-      subject: Réinitialisation de votre mot de passe
       body: |
         Bonjour {username} !
 
@@ -408,6 +408,7 @@ core:
         {url}
 
         Si vous ne souhaitez pas réinitialiser votre mot de passe, veuillez ignorer ce courriel.
+      subject: Réinitialisation de votre mot de passe
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
