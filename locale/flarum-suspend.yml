@@ -22,7 +22,7 @@ flarum-suspend:
       not_suspended_label: Non suspendu
       status_heading: Statut de la suspension
       submit_button: => core.ref.okay
-      title: "Suspendre {user}"
+      title: "Suspendre {username}"
 
     # These translations are displayed as tooltips for user badges.
     user_badge:
