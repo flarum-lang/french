@@ -1,10 +1,10 @@
 <?php
 
-use Illuminate\Contracts\Events\Dispatcher;
 use Flarum\Event\ConfigureLocales;
+use Illuminate\Contracts\Events\Dispatcher;
 
 return function (Dispatcher $events) {
-    $events->listen(ConfigureLocales::class, function(ConfigureLocales $event) {
+    $events->listen(ConfigureLocales::class, function (ConfigureLocales $event) {
         $name = $title = basename(__DIR__);
 
         if (file_exists($manifest = __DIR__.'/composer.json')) {
@@ -18,13 +18,13 @@ return function (Dispatcher $events) {
             $title = array_get($json, 'extra.flarum-locale.title', $title);
         }
 
-        if (! isset($locale)) {
+        if (!isset($locale)) {
             throw new RuntimeException("Language pack $name must define \"extra.flarum-locale.code\" in composer.json.");
         }
 
         $event->locales->addLocale($locale, $title);
 
-        if (! is_dir($localeDir = __DIR__.'/locale')) {
+        if (!is_dir($localeDir = __DIR__.'/locale')) {
             throw new RuntimeException("Language pack $name must have a \"locale\" subdirectory.");
         }
 
