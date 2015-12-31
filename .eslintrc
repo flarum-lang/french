@@ -17,7 +17,7 @@
     "destructuring": true,
     "forOf": true,
     "generators": false,
-    "jsx": true
+    "jsx": true,
     "modules": true,
     "objectLiteralComputedProperties": true,
     "objectLiteralDuplicateProperties": false,
@@ -25,7 +25,7 @@
     "objectLiteralShorthandProperties": true,
     "spread": true,
     "superInFunctions": true,
-    "templateStrings": true,
+    "templateStrings": true
   },
   "rules": {
     "react/jsx-uses-vars": 1,
