@@ -1,5 +1,5 @@
 # French Language Pack for [Flarum](http://flarum.org/)
-[![Code Climate](https://codeclimate.com/github/maelsoucaze/flarum/badges/gpa.svg)](https://codeclimate.com/github/maelsoucaze/flarum) [![StyleCI](https://styleci.io/repos/41550823/shield)](https://styleci.io/repos/41550823)
+[![Code Climate](https://img.shields.io/badge/Code_Climate-4.0-green.svg?style=flat)](https://codeclimate.com/github/maelsoucaze/flarum) [![StyleCI](https://img.shields.io/badge/StyleCI-Passing-green.svg?style=flat)](https://styleci.io/repos/41550823)
 
 French language pack to localize the Flarum forum software, its bundled extensions and libraries.
 
