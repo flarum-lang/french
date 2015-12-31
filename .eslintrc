@@ -1,6 +1,3 @@
-// ESLint is a pluggable linting utility for JavaScript and JSX.
-// http://eslint.org/
-
 {
   "env": {
     "browser": true
