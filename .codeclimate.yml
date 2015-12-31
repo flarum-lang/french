@@ -1,0 +1,18 @@
+engines:
+  duplication:
+    enabled: true
+      languages:
+      - javascript
+      - php
+  eslint:
+    enabled: true
+  phpcodesniffer:
+    enabled: true
+    config:
+      file_extensions: "php"
+  phpmd:
+    enabled: true
+ratings:
+  paths:
+  - "bootstrap.php"
+  - "locale/config.js"
