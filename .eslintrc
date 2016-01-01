@@ -28,7 +28,7 @@
     "templateStrings": true
   },
   "rules": {
-    "react/jsx-uses-vars": 1,
+    "react/jsx-uses-vars": 1,                     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-vars.md
     /* Possible errors */
     "block-scoped-var": 2,                        // http://eslint.org/docs/rules/block-scoped-var
     "comma-dangle": [2, "never"],                 // http://eslint.org/docs/rules/comma-dangle
@@ -108,8 +108,7 @@
     }],
     "no-use-before-define": 2,                    // http://eslint.org/docs/rules/no-use-before-define
     /* Stylistic Issues */
-    "brace-style": [2,                            // http://eslint.org/docs/rules/brace-style
-      "1tbs", {
+    "brace-style": [2, "1tbs", {                  // http://eslint.org/docs/rules/brace-style
       "allowSingleLine": true
     }],
     "camelcase": [2, {                            // http://eslint.org/docs/rules/camelcase
@@ -139,9 +138,7 @@
     "no-underscore-dangle": 0,                    // http://eslint.org/docs/rules/no-underscore-dangle
     "one-var": [2, "never"],                      // http://eslint.org/docs/rules/one-var
     "padded-blocks": [2, "never"],                // http://eslint.org/docs/rules/padded-blocks
-    "quotes": [                                   // http://eslint.org/docs/rules/quotes
-      2, "single", "avoid-escape"
-    ],
+    "quotes": [2, "single", "avoid-escape"],      // http://eslint.org/docs/rules/quotes
     "semi": [2, "always"],                        // http://eslint.org/docs/rules/semi
     "semi-spacing": [2, {                         // http://eslint.org/docs/rules/semi-spacing
       "before": false,
