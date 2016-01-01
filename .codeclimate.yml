@@ -1,10 +1,6 @@
 engines:
   duplication:
     enabled: true
-    config:
-      languages:
-      - javascript
-      - php
   eslint:
     enabled: true
   phpcodesniffer:
