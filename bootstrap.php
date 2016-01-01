@@ -19,13 +19,13 @@ return function (Dispatcher $events) {
         }
 
         if (!isset($locale)) {
-            throw new RuntimeException("Language pack $name must define \"extra.flarum-locale.code\" in composer.json.");
+            throw new RuntimeException("Language pack $name must define \"extra.flarum-locale.code\" in composer.json");
         }
 
         $event->locales->addLocale($locale, $title);
 
         if (!is_dir($localeDir = __DIR__.'/locale')) {
-            throw new RuntimeException("Language pack $name must have a \"locale\" subdirectory.");
+            throw new RuntimeException("Language pack $name must have a \"locale\" subdirectory");
         }
 
         if (file_exists($file = $localeDir.'/config.js')) {
