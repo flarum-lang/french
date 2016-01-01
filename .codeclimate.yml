@@ -1,9 +1,4 @@
 engines:
-  duplication:
-    enabled: true
-    config:
-      languages:
-      - php
   eslint:
     enabled: true
   phpcodesniffer:
