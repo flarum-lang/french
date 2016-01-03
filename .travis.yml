@@ -14,9 +14,9 @@ matrix:
 
 sudo: false
 
-install:
-  - composer self-update
-  - composer install
+before_script:
+  - curl -s http://getcomposer.org/installer | php
+  - php composer.phar install
 
 script:
   - vendor/bin/test-reporter
