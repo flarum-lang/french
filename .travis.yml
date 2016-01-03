@@ -15,11 +15,13 @@ matrix:
 sudo: false
 
 install:
-  - composer self-update
-  - composer install
+  - travis_retry install --no-interaction --prefer-source
 
 script:
-  - vendor/bin/test-reporter --coverage-clover build/logs/clover.xml
+  - vendor/bin/phpunit --verbose --coverage-clover build/logs/clover.xml
+
+after_script:
+  - vendor/bin/test-reporter
 
 addons:
   code_climate:
