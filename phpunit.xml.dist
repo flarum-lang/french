@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <phpunit backupGlobals="false"
          backupStaticAttributes="false"
          colors="true"
@@ -10,7 +11,7 @@
          syntaxCheck="false"
          bootstrap="tests/bootstrap.php">
     <testsuites>
-        <testsuite name="PHP test reporter test suite">
+        <testsuite name="French Language Pack Test Suite">
             <directory>./tests/</directory>
         </testsuite>
     </testsuites>
@@ -19,9 +20,7 @@
     </logging>
     <filter>
         <whitelist>
-            <directory>./src</directory>
             <exclude>
-                <directory>./composer</directory>
                 <directory>./tests</directory>
                 <directory>./vendor</directory>
             </exclude>
