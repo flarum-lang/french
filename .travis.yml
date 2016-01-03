@@ -21,5 +21,10 @@ before_script:
 script:
   - vendor/bin/test-reporter
 
+addons:
+  code_climate:
+    repo_token:
+      secure: "IMuwIOZzPka0iSlACZN6Baep3olWmMiz7gYBhY+8hCWzmqjueW4uOBBwsl6EaHNHNqSc7E+e04PFukNeyna7vEmWScTSMNB1AhnFHJI9ovrn4eBXvCtDWTVfdK0F43TdMqFoBKFjB2YHdwc6rzlIzMgqXUGCjUFgYOTILJ6/wgkuVeug6S2KCBYeK+b5seQL1omVWvhZ1gHYxu5lCeMkHr6zEamXMhPrCKYYFLQ5LC8I+DloCW9x2FkcL+TwBVf9KpjroeJ+Qs0V7rwuciQNVpduo+v0m77DUl4zvlw4QtczLXYIY5guEHywFhl+SVd2E/AsXxTQBmdfa0Wsr5hjq02JoQ5mwP4GPOpPJ5Ny2aOJuwqVt8xQMDFP0bBTsl5sYqLdVw6lLw4ImKVOXy/yHpJ4y0s9xhNm8UtNxL69wA6ZMM+O+8c0O2jBBM1tHBm17/PcM8a3OfowgsHyn8w5d2LTLNHLhg+mEWkJ8G9CtHZQjsetphqDu8tsaS/FQDwQO/LZ4WMoDMBLgZaE7U4A33Kr2LAn6Kk3WO/GezN05+hGA/1cbj6NC5RuaR1dIiKl4NwS54XGScw8YZbgOjosHkG305g6LEwikRnLWZ5aZXj4AqaTp+VH8gtmEG59Yi7zP2LLOhbUvXPbRQAiQ0KIWU7w5nuqOvHOPetSSOE9F0k="
+
 notifications:
   email: change
