@@ -15,8 +15,8 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-# Set four space indentation in JSON and PHP files.
-[*.{json,php}]
+# Set four space indentation in DIST, JSON and PHP files.
+[*.{dist,json,php}]
 indent_size = 4
 
 # Do not trim trailing whitespace in Markdown files.
