@@ -17,7 +17,6 @@ sudo: false
 install:
   - composer self-update
   - composer install
-  - phpunit --coverage-clover build/logs/clover.xml
 
 script:
   - vendor/bin/test-reporter
