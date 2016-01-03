@@ -18,11 +18,8 @@ install:
   - composer self-update
   - composer install
 
-before_script:
-  - phpunit --coverage-clover build/logs/clover.xml
-
 script:
-  - vendor/bin/test-reporter
+  - vendor/bin/test-reporter --coverage-clover build/logs/clover.xml
 
 addons:
   code_climate:
