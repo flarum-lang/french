@@ -15,7 +15,7 @@ matrix:
 sudo: false
 
 install:
-  - travis_retry install --no-interaction --prefer-source
+  - travis_retry composer install --no-interaction --prefer-source
 
 script:
   - vendor/bin/phpunit --verbose --coverage-clover build/logs/clover.xml
