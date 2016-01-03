@@ -14,5 +14,7 @@ engines:
 
 ratings:
   paths:
-  - "bootstrap.php"
-  - "locale/config.js"
+  - "**.php"
+  - "**.js"
+exclude_paths:
+  - vendor/**/*
