@@ -1,6 +1,6 @@
 languages:
-  javascript: true
-  php: true
+  JavaScript: true
+  PHP: true
 
 engines:
   eslint:
@@ -14,7 +14,7 @@ engines:
 
 ratings:
   paths:
-  - "**.php"
   - "**.js"
+  - "**.php"
 exclude_paths:
   - vendor/**/*
