@@ -195,6 +195,7 @@ core:
     discussion_list:
       empty_text: "Il semble qu’il n’y ait aucune discussion ici."
       load_more_button: => core.ref.load_more
+      mark_all_as_read_confirmation: "Êtes-vous sûr de vouloir marquer toutes les notifications comme lues ?"
       mark_as_read_tooltip: Marquer comme lu
       replied_text: "{username} a répondu à ça {ago}"
       started_text: "{username} a publié ça {ago}"
