@@ -195,7 +195,6 @@ core:
     discussion_list:
       empty_text: "Il semble qu’il n’y ait aucune discussion ici."
       load_more_button: => core.ref.load_more
-      mark_all_as_read_confirmation: "Êtes-vous sûr de vouloir marquer toutes les notifications comme lues ?"
       mark_as_read_tooltip: Marquer comme lu
       replied_text: "{username} a répondu à ça {ago}"
       started_text: "{username} a publié ça {ago}"
@@ -230,6 +229,7 @@ core:
     index:
       all_discussions_link: => core.ref.all_discussions
       cannot_start_discussion_button: Impossible de démarrer une discussion
+      mark_all_as_read_confirmation: "Êtes-vous sûr de vouloir marquer toutes les notifications comme lues ?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: Actualiser
       start_discussion_button: => core.ref.start_a_discussion
