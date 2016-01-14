@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
+<?xml version="1.0" encoding="utf-8"?>
 <phpunit backupGlobals="false"
          backupStaticAttributes="false"
          colors="true"
@@ -11,7 +10,7 @@
          syntaxCheck="false"
          bootstrap="tests/bootstrap.php">
     <testsuites>
-        <testsuite name="French Language Pack Test Suite">
+        <testsuite name="French Language Pack for Flarum Test Suite">
             <directory>./tests/</directory>
         </testsuite>
     </testsuites>
