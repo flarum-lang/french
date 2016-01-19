@@ -7,6 +7,12 @@ core:
   # Translations in this namespace are used by the admin interface.
   admin:
 
+    # These translations are used in the placeholder Add Extension modal dialog.
+    add_extension:
+      developer_text: "Si vous êtes un développeur, vous pouvez <a>consultez la documentation</a> pour vous initier à créer vos propres extensions."
+      install_text: "De même, vous pouvez rechercher des extensions sur la <a>communauté officielle de Flarum</a> et les installer manuellement en utilisant Composer."
+      temporary_text: "Prochainement, cette fenêtre vous permettra d'ajouter en quelques clics une extension à votre forum. Nous sommes d'ailleurs en train de développer cet écosystème !"
+
     # These translations are used in the Appearance page.
     appearance:
       colored_header_label: "En-tête coloré"
