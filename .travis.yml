@@ -14,8 +14,13 @@ matrix:
 
 sudo: false
 
-install:
+before_install:
+  - phpenv config-rm xdebug.ini
+  - php --version
   - composer self-update
+  - composer --version
+
+install:
   - composer install
 
 script:
