@@ -3,7 +3,7 @@
     "type": "flarum-extension",
     "description": "French language pack for Flarum.",
     "homepage": "https://github.com/maelsoucaze/flarum-ext-french",
-    "keywords": ["french", "language", "locale", "localization", "translation"],
+    "keywords": ["français", "francais", "french", "language", "locale", "localisation", "localization", "translate", "translation"],
     "license": "MIT",
     "authors": [
         {
@@ -19,10 +19,6 @@
     },
     "require": {
         "flarum/core": "^0.1.0-beta.4"
-    },
-    "require-dev": {
-        "codeclimate/php-test-reporter": "dev-master",
-        "phpunit/phpunit": "4.8.*"
     },
     "extra": {
         "branch-alias": {
