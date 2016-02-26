@@ -73,4 +73,4 @@ validation:
 
   custom:
     username:
-      regex: "Le nom d’utilisateur ne doit contenir que des lettres, de chiffres et des tirets."
+      regex: "Le nom d’utilisateur ne doit contenir que des lettres, des chiffres et des tirets."
