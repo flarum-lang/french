@@ -70,3 +70,7 @@ validation:
     content: contenu
     name_singular: nom singulier
     name_plural: nom pluriel
+
+  custom:
+    username:
+      regex: "Le nom d’utilisateur ne doit contenir que des lettres, de chiffres et des tirets."
