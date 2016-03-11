@@ -1,6 +1,4 @@
 engines:
-  eslint:
-    enabled: true
   phpcodesniffer:
     enabled: true
     config:
@@ -10,5 +8,4 @@ engines:
 
 ratings:
   paths:
-  - "**.js"
   - "**.php"
