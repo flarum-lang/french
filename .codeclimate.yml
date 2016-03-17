@@ -1,4 +1,6 @@
 engines:
+  markdownlint:
+    enabled: true
   phpcodesniffer:
     enabled: true
     config:
@@ -8,4 +10,5 @@ engines:
 
 ratings:
   paths:
-  - "**.php"
+  - "README.md"
+  - "bootstrap.php"
