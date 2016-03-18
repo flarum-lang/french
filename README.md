@@ -24,7 +24,7 @@ Includes the following French locales compatible with:
     - [Tags](https://github.com/flarum/flarum-ext-tags) [0.1.0 Beta 4](https://github.com/flarum/flarum-ext-tags/releases/tag/v0.1.0-beta.4)
     - [Twitter Login](https://github.com/flarum/flarum-ext-auth-twitter) [0.1.0 Beta 3](https://github.com/flarum/flarum-ext-auth-twitter/releases/tag/v0.1.0-beta.3)
   - Bundled libraries:
-    - [Laravel](https://github.com/laravel/laravel)'s Validation Rules [5.2.15](https://github.com/laravel/laravel/releases/tag/v5.2.15)
+    - [Laravel](https://github.com/laravel/laravel)'s Validation Rules [5.2.23](https://github.com/laravel/laravel/releases/tag/v5.2.23)
     - [Moment.js](https://github.com/moment/moment) [2.12.0](https://github.com/moment/moment/releases/tag/2.12.0)
 
 Released under the MIT license. Please see the [license terms](https://github.com/maelsoucaze/flarum-ext-french/blob/master/LICENSE).
