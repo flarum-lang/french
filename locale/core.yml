@@ -246,7 +246,6 @@ core:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      confirmation_required_message: "Vous devez confirmer votre adresse de courriel avant de pouvoir vous connecter. Nous avons envoyé un courriel de confirmation à {email}. Si vous ne le recevez pas prochainement, veuillez vérifier le contenu de votre dossier contenant les pourriels."
       forgot_password_link: "Mot de passe oublié ?"
       invalid_login_message: Vos identifiants sont incorrects.
       password_placeholder: => core.ref.password
@@ -310,7 +309,6 @@ core:
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
-      confirmation_message: => core.ref.confirmation_email_sent
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
       log_in_text: "Déjà inscrit ? <a>Connexion</a>"
@@ -339,6 +337,12 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "Êtes-vous sûr de vouloir supprimer cet utilisateur ? Tous ses messages seront également supprimés."
       edit_button: => core.ref.edit
+
+    # These translations are used in the alert that is shown when a new user has not confirmed their email address.
+    user_email_confirmation:
+      alert_message: => core.ref.confirmation_email_sent
+      resend_button: Renvoyer le courriel de confirmation
+      sent_message: Envoyé
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
