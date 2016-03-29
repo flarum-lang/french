@@ -8,24 +8,24 @@ French language pack to localize the Flarum forum software, its bundled extensio
 
 Includes the following French locales compatible with:
 
-- [Flarum](https://github.com/flarum/core)'s Core [0.1.0 Beta 4](https://github.com/flarum/core/releases/tag/v0.1.0-beta.4)
+- [Flarum](https://github.com/flarum/core)'s Core [0.1.0 Beta 5](https://github.com/flarum/core/releases/tag/v0.1.0-beta.5)
   - Bundled extensions:
-    - [Akismet](https://github.com/flarum/flarum-ext-akismet) [0.1.0 Beta 3](https://github.com/flarum/flarum-ext-akismet/releases/tag/v0.1.0-beta.3)
-    - [Approval](https://github.com/flarum/flarum-ext-approval) [0.1.0 Beta 3](https://github.com/flarum/flarum-ext-approval/releases/tag/v0.1.0-beta.3)
-    - [Facebook Login](https://github.com/flarum/flarum-ext-auth-facebook) [0.1.0 Beta 3](https://github.com/flarum/flarum-ext-auth-facebook/releases/tag/v0.1.0-beta.3)
-    - [Flags](https://github.com/flarum/flarum-ext-flags) [0.1.0 Beta 4](https://github.com/flarum/flarum-ext-flags/releases/tag/v0.1.0-beta.4)
-    - [GitHub Login](https://github.com/flarum/flarum-ext-auth-github) [0.1.0 Beta 3](https://github.com/flarum/flarum-ext-auth-github/releases/tag/v0.1.0-beta.3)
-    - [Likes](https://github.com/flarum/flarum-ext-likes) [0.1.0 Beta 3](https://github.com/flarum/flarum-ext-likes/releases/tag/v0.1.0-beta.3)
-    - [Lock](https://github.com/flarum/flarum-ext-lock) [0.1.0 Beta 3](https://github.com/flarum/flarum-ext-lock/releases/tag/v0.1.0-beta.3)
-    - [Mentions](https://github.com/flarum/flarum-ext-mentions) [0.1.0 Beta 4](https://github.com/flarum/flarum-ext-mentions/releases/tag/v0.1.0-beta.4)
-    - [Pusher](https://github.com/flarum/flarum-ext-pusher) [0.1.0 Beta 3](https://github.com/flarum/flarum-ext-pusher/releases/tag/v0.1.0-beta.3)
-    - [Sticky](https://github.com/flarum/flarum-ext-sticky) [0.1.0 Beta 3](https://github.com/flarum/flarum-ext-sticky/releases/tag/v0.1.0-beta.3)
-    - [Subscriptions](https://github.com/flarum/flarum-ext-subscriptions) [0.1.0 Beta 4](https://github.com/flarum/flarum-ext-subscriptions/releases/tag/v0.1.0-beta.4)
-    - [Suspend](https://github.com/flarum/flarum-ext-suspend) [0.1.0 Beta 3](https://github.com/flarum/flarum-ext-suspend/releases/tag/v0.1.0-beta.3)
-    - [Tags](https://github.com/flarum/flarum-ext-tags) [0.1.0 Beta 4](https://github.com/flarum/flarum-ext-tags/releases/tag/v0.1.0-beta.4)
-    - [Twitter Login](https://github.com/flarum/flarum-ext-auth-twitter) [0.1.0 Beta 3](https://github.com/flarum/flarum-ext-auth-twitter/releases/tag/v0.1.0-beta.3)
+    - [Akismet](https://github.com/flarum/flarum-ext-akismet) [0.1.0 Beta 5](https://github.com/flarum/flarum-ext-akismet/releases/tag/v0.1.0-beta.5)
+    - [Approval](https://github.com/flarum/flarum-ext-approval) [0.1.0 Beta 5](https://github.com/flarum/flarum-ext-approval/releases/tag/v0.1.0-beta.5)
+    - [Facebook Login](https://github.com/flarum/flarum-ext-auth-facebook) [0.1.0 Beta 5](https://github.com/flarum/flarum-ext-auth-facebook/releases/tag/v0.1.0-beta.5)
+    - [Flags](https://github.com/flarum/flarum-ext-flags) [0.1.0 Beta 5](https://github.com/flarum/flarum-ext-flags/releases/tag/v0.1.0-beta.5)
+    - [GitHub Login](https://github.com/flarum/flarum-ext-auth-github) [0.1.0 Beta 5](https://github.com/flarum/flarum-ext-auth-github/releases/tag/v0.1.0-beta.5)
+    - [Likes](https://github.com/flarum/flarum-ext-likes) [0.1.0 Beta 5](https://github.com/flarum/flarum-ext-likes/releases/tag/v0.1.0-beta.5)
+    - [Lock](https://github.com/flarum/flarum-ext-lock) [0.1.0 Beta 5](https://github.com/flarum/flarum-ext-lock/releases/tag/v0.1.0-beta.5)
+    - [Mentions](https://github.com/flarum/flarum-ext-mentions) [0.1.0 Beta 5](https://github.com/flarum/flarum-ext-mentions/releases/tag/v0.1.0-beta.5)
+    - [Pusher](https://github.com/flarum/flarum-ext-pusher) [0.1.0 Beta 5](https://github.com/flarum/flarum-ext-pusher/releases/tag/v0.1.0-beta.5)
+    - [Sticky](https://github.com/flarum/flarum-ext-sticky) [0.1.0 Beta 5](https://github.com/flarum/flarum-ext-sticky/releases/tag/v0.1.0-beta.5)
+    - [Subscriptions](https://github.com/flarum/flarum-ext-subscriptions) [0.1.0 Beta 5](https://github.com/flarum/flarum-ext-subscriptions/releases/tag/v0.1.0-beta.5)
+    - [Suspend](https://github.com/flarum/flarum-ext-suspend) [0.1.0 Beta 5](https://github.com/flarum/flarum-ext-suspend/releases/tag/v0.1.0-beta.5)
+    - [Tags](https://github.com/flarum/flarum-ext-tags) [0.1.0 Beta 5](https://github.com/flarum/flarum-ext-tags/releases/tag/v0.1.0-beta.5)
+    - [Twitter Login](https://github.com/flarum/flarum-ext-auth-twitter) [0.1.0 Beta 5](https://github.com/flarum/flarum-ext-auth-twitter/releases/tag/v0.1.0-beta.5)
   - Bundled libraries:
-    - [Laravel](https://github.com/laravel/laravel)'s Validation Rules [5.2.24](https://github.com/laravel/laravel/releases/tag/v5.2.24)
+    - [Laravel](https://github.com/laravel/laravel)'s Validation Rules [5.2.27](https://github.com/laravel/laravel/releases/tag/v5.2.27)
     - [Moment.js](https://github.com/moment/moment) [2.12.0](https://github.com/moment/moment/releases/tag/2.12.0)
 
 Released under the MIT license. Please see the [license terms](https://github.com/maelsoucaze/flarum-ext-french/blob/master/LICENSE).
