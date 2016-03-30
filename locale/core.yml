@@ -284,7 +284,9 @@ core:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_text: "{username} a renommé le titre {old} en {new}."
+      discussion_renamed_new_text: "Nouveau titre : {new}"
+      discussion_renamed_old_text: "Ancien titre : {old}"
+      discussion_renamed_text: "{username} a renommé le titre."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} plus tard"
