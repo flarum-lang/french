@@ -139,7 +139,7 @@ core:
     # These translations are used in the Change Email modal dialog.
     change_email:
       confirmation_message: => core.ref.confirmation_email_sent
-      confirm_password_label: Confirmer le mot de passe
+      confirm_password_label: => core.ref.confirm_password
       dismiss_button: => core.ref.okay
       incorrect_password_message: Le mot de passe que vous avez spécifié est incorrect.
       submit_button: => core.ref.okay
@@ -375,13 +375,31 @@ core:
       three_text: "{first}, {second} et {third}"
       two_text: "{first} et {second}"
 
-  # Translations in this namespace are used in basic HTML interface.
-  basic:
-    javascript_disabled_message: Ce site est optimisé pour être consulté depuis un navigateur moderne dans lequel JavaScript est activé.
-    load_error_message: Une erreur s’est produite lors de la tentative de chargement de la version complète de ce site.
-    loading_text: Chargement…
-    next_page_button: Page suivante
-    previous_page_button: Page précédente
+  # Translations in this namespace are used in views other than Flarum's normal JS client.
+  views:
+
+    # Translations in this namespace are displayed by the basic HTML content loader.
+    content:
+      javascript_disabled_message: Ce site est optimisé pour être consulté depuis un navigateur moderne dans lequel JavaScript est activé.
+      load_error_message: Une erreur s’est produite lors de la tentative de chargement de la version complète de ce site.
+      loading_text: Chargement…
+
+    # Translations in this namespace are displayed in the basic HTML discussion view.
+    discussion:
+      next_page_button: => core.ref.next_page
+      previous_page_button: Page précédente
+
+    # Translations in this namespace are displayed by the basic HTML discussion index.
+    index:
+      all_discussions_heading: => core.ref.all_discussions
+      next_page_button: => core.ref.next_page
+
+    # Translations in this namespace are displayed by the Reset Password interface.
+    reset:
+      confirm_password_label: => core.ref.confirm_password
+      password_label: => core.ref.password
+      submit_button: Réinitialiser le mot de passe
+      title: Réinitialiser votre mot de passe
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -434,6 +452,7 @@ core:
     all_discussions: Toutes les discussions
     change_email: Modifier l’adresse de courriel
     change_password: Modifier le mot de passe
+    confirm_password: Confirmer le mot de passe
     confirmation_email_sent: "Nous avons envoyé un courriel de confirmation à {email}. Si vous ne le recevez pas prochainement, veuillez vérifier le contenu de votre dossier contenant les pourriels."
     delete: Supprimer
     delete_forever: Supprimer définitivement
@@ -444,6 +463,7 @@ core:
     log_in: Connexion
     log_out: Déconnexion
     mark_all_as_read: Tout marquer comme lu
+    next_page: Page suivante
     notifications: Notifications
     okay: Valider                                # Referenced by flarum-flags.yml, flarum-suspend.yml, flarum-tags.yml
     password: Mot de passe
