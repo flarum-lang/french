@@ -324,6 +324,7 @@ core:
     user:
       avatar_remove_button: Supprimer
       avatar_upload_button: Transférer
+      avatar_upload_tooltip: Transférer un nouvel avatar
       bio_placeholder: Écrivez quelque chose sur vous
       discussions_link: => core.ref.discussions
       in_discussion_text: "Dans {discussion}"
