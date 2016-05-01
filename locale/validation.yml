@@ -1,5 +1,5 @@
 # Custom French Laravel's Validation Rules Locales
-# Based on: https://github.com/caouecs/Laravel-lang/blob/master/fr/validation.php
+# Based on: https://github.com/caouecs/Laravel-lang/blob/master/src/fr/validation.php
 
 validation:
   accepted: "Le :attribute doit être accepté."
