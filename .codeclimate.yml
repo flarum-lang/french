@@ -21,5 +21,6 @@ engines:
 
 ratings:
   paths:
+  - "**.js"
   - "**.md"
   - "**.php"
