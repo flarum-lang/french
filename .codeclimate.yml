@@ -1,14 +1,25 @@
 engines:
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - javascript
+      - php
   markdownlint:
     enabled: true
+    checks:
+      MD013:
+        enabled: false
   phpcodesniffer:
     enabled: true
     config:
       file_extensions: "php"
   phpmd:
     enabled: true
+    config:
+      file_extensions: "php"
 
 ratings:
   paths:
-  - "bootstrap.php"
-  - "README.md"
+  - "**.md"
+  - "**.php"
