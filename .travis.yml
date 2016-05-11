@@ -1,12 +1,7 @@
 language: yaml
 
-matrix:
-  fast_finish: true
-
-sudo: false
-
-before_script:
-  - pip install yamllint
+install:
+  - sudo apt-get install yamllint
 
 script:
   - yamllint -c .yamllint.yml locale/*.yml
