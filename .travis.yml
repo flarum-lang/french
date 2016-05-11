@@ -1,0 +1,19 @@
+language: python
+
+python:
+  - 3.5
+
+matrix:
+  fast_finish: true
+
+sudo: false
+
+install:
+  - pip install yamllint
+
+script:
+  - yamllint -c .yamllint.yml locale/*.yml
+
+notifications:
+  email:
+    on_failure: change
