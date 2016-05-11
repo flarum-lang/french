@@ -5,7 +5,7 @@ matrix:
 
 sudo: false
 
-install:
+before_script:
   - pip install yamllint
 
 script:
