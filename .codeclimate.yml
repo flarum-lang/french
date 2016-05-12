@@ -3,8 +3,8 @@ engines:
     enabled: true
     config:
       languages:
-      - javascript
-      - php
+        - javascript
+        - php
   markdownlint:
     enabled: true
     checks:
@@ -21,6 +21,6 @@ engines:
 
 ratings:
   paths:
-  - "**.js"
-  - "**.md"
-  - "**.php"
+    - "**.js"
+    - "**.md"
+    - "**.php"
