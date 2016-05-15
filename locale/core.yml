@@ -69,6 +69,22 @@ core:
       submit_button: => core.ref.okay
       title: Créer le groupe
 
+    # These translations are used in the email page of the admin interface.
+    email:
+      account_heading: Compte SMTP
+      addresses_heading: Adresses
+      driver_label: Driver
+      encryption_label: Chiffrement
+      from_label: Expéditeur
+      heading: => core.ref.email
+      host_label: Hôte
+      password_label: => core.ref.password
+      port_label: Port
+      server_heading: Serveur SMTP
+      submit_button: => core.ref.okay
+      text: Configurez les réglages et les adresses SMTP que votre forum utilisera pour envoyer les courriels.
+      username_label: => core.ref.username
+
     # These translations are used in the Extensions page.
     extensions:
       add_button: Ajouter une extension
@@ -93,6 +109,8 @@ core:
       basics_text: "Réglez le titre, la langue et d’autres réglages essentiels de votre forum."
       dashboard_button: Tableau de bord
       dashboard_text: Tout votre forum d’un simple coup d’œil.
+      email_button: => core.ref.email
+      email_text: Configurez les réglages relatifs aux courriels de votre forum.
       extensions_button: Extensions
       extensions_text: Ajoutez des fonctionnalités supplémentaires à votre forum pour le personnaliser selon vos préférences.
       permissions_button: Permissions
