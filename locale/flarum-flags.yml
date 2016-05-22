@@ -43,7 +43,7 @@ flarum-flags:
 
     # These translations are used by the frame displayed around flagged posts.
     post:
-      dismiss_flag_tooltip: Annuler le signalement
+      dismiss_flag_button: Annuler le signalement
       flagged_by_text: "{username} a signalé ça"
       flagged_by_with_reason_text: "{username} a signalé ça comme {reason}"
 

@@ -88,8 +88,6 @@ core:
     # These translations are used in the Extensions page.
     extensions:
       add_button: Ajouter une extension
-      disable_button: Désactiver
-      enable_button: Activer
       settings_button: => core.ref.settings
       uninstall_button: Désinstaller
 
@@ -135,6 +133,7 @@ core:
       sign_up_label: S’inscrire
       start_discussions_label: Démarrer des discussions
       view_discussions_label: Voir les discussions
+      view_post_ips_label: Voir les adresses IP du message
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -157,7 +156,7 @@ core:
     # These translations are used in the Change Email modal dialog.
     change_email:
       confirmation_message: => core.ref.confirmation_email_sent
-      confirm_password_label: => core.ref.confirm_password
+      confirm_password_placeholder: => core.ref.confirm_password
       dismiss_button: => core.ref.okay
       incorrect_password_message: Le mot de passe que vous avez spécifié est incorrect.
       submit_button: => core.ref.okay
@@ -224,6 +223,7 @@ core:
       email_label: => core.ref.email
       password_label: => core.ref.password
       submit_button: => core.ref.okay
+      title: Éditer l’utilisateur
       username_label: => core.ref.username
 
     # These translations are used in the Forgot Password modal dialog.
@@ -283,6 +283,7 @@ core:
 
     # These translations are used by tooltips displayed for individual posts.
     post:
+      edited_text: Édité
       edited_tooltip: "{username} a édité ça {ago}"
       number_tooltip: "Message #{number}"
 
@@ -425,6 +426,7 @@ core:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
+      subject: Activation de votre compte
       body: |
         Bonjour {username} !
 
@@ -434,10 +436,10 @@ core:
         {url}
 
         Si vous n’êtes pas à l’origine de cette action, veuillez ignorer ce courriel.
-      subject: Activation de votre compte
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
+      subject: Modification de votre adresse de courriel
       body: |
         Bonjour {username} !
 
@@ -447,10 +449,10 @@ core:
         {url}
 
         Si vous ne souhaitez pas modifier votre adresse de courriel, veuillez ignorer ce courriel.
-      subject: Modification de votre adresse de courriel
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
+      subject: Réinitialisation de votre mot de passe
       body: |
         Bonjour {username} !
 
@@ -460,7 +462,6 @@ core:
         {url}
 
         Si vous ne souhaitez pas réinitialiser votre mot de passe, veuillez ignorer ce courriel.
-      subject: Réinitialisation de votre mot de passe
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
