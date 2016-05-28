@@ -10,15 +10,28 @@ flarum-approval:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       approve_posts_label: Approuver les messages
-      reply_without_approval_label: Répondre sans approbation
+      reply_without_approval_label: Répondre aux discussions sans approbation
+      start_discussions_without_approval_label: Démarrer des discussions sans approbation
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
+    # These translations are displayed as tooltips for discussion badges.
+    badge:
+      awaiting_approval_tooltip: => flarum-approval.ref.awaiting_approval
+
     # These translations are displayed in the post header.
     post:
-      awaiting_approval_text: En attente d’approbation
+      awaiting_approval_text: => flarum-approval.ref.awaiting_approval
 
     # These translations are used by the post control buttons.
     post_controls:
       approve_button: Approuver
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    awaiting_approval: En attente d’approbation
