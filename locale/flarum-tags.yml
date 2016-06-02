@@ -41,7 +41,7 @@ flarum-tags:
       required_primary_heading: Limite du nombre d’étiquettes primaires
       required_primary_text: Saisissez le nombre minimal et maximal d’étiquettes primaires qui peuvent être ajoutées à une discussion.
       required_secondary_heading: Limite du nombre d’étiquettes secondaires
-      required_secondary_text: Saisissez le nombre minimal et maximal d’étiquettes primaires qui peuvent être ajoutées à une discussion.
+      required_secondary_text: Saisissez le nombre minimal et maximal d’étiquettes secondaires qui peuvent être ajoutées à une discussion.
       title: Réglages des étiquettes
 
     # These translations are used in the Tags page.
