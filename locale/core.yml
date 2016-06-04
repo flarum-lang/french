@@ -18,11 +18,18 @@ core:
       colored_header_label: "En-tête coloré"
       colors_heading: Couleurs
       colors_text: "Sélectionnez deux couleurs pour styliser votre forum. La première couleur est utilisée pour les éléments mis en évidence et la seconde couleur est utilisée pour les éléments en arrière-plan."
+      custom_header_heading: "Personnaliser l’en-tête"
+      custom_header_text: "Ajoutez du code HTML à afficher en haut de page, au-dessus de l’en-tête de Flarum."
       custom_styles_heading: Personnaliser les styles
       custom_styles_text: Personnalisez l’apparence de votre forum en ajoutant votre propre code LESS/CSS qui sera appliqué en priorité par rapport aux styles par défaut de Flarum.
       dark_mode_label: Mode sombre
       edit_css_button: Éditer le CSS personnalisé
+      edit_header_button: "Éditer l’en-tête personnalisé"
       enter_hex_message: Veuillez saisir un code de couleur hexadécimal.
+      favicon_heading: Favicon
+      favicon_text: Transférez une image qui sera affichée comme l’icône du raccourci du forum.
+      logo_heading: Logo
+      logo_text: Transférez une image qui remplacera le titre du forum.
       submit_button: => core.ref.okay
 
     # These translations are used in the Basics page.
@@ -68,6 +75,12 @@ core:
       singular_placeholder: Singulier (tel que « modérateur »)
       submit_button: => core.ref.okay
       title: Créer le groupe
+
+    # These translations are used in the Edit Custom Header modal dialog.
+    edit_header:
+      customize_text: "Ajoutez du code HTML à afficher en haut de page, au-dessus de l’en-tête de Flarum."
+      submit_button: => core.ref.save_changes
+      title: "Éditer l’en-tête personnalisé"
 
     # These translations are used in the email page of the admin interface.
     email:
@@ -149,6 +162,11 @@ core:
     # These translations are used in the Settings modal dialog.
     settings:
       submit_button: => core.ref.okay
+
+    # These translations are used in image upload buttons.
+    upload_image:
+      remove_button: Supprimer
+      upload_button: Sélectionner une image…
 
   # Translations in this namespace are used by the forum user interface.
   forum:
