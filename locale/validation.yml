@@ -40,6 +40,7 @@ validation:
     string: "Le :attribute ne doit pas contenir plus de :max caractères."
     array: "Le :attribute ne doit pas contenir plus de :max éléments."
   mimes: "Le :attribute doit être un fichier de type : :values."
+  mimetypes: "Le :attribute doit être un fichier de type : :values."
   min:
     numeric: "Le :attribute doit dépasser :min."
     file: "Le :attribute doit dépasser :min kilo-octets."
@@ -65,6 +66,7 @@ validation:
   string: "Le :attribute doit être une chaîne de caractères."
   timezone: "Le :attribute doit être un fuseau horaire valide."
   unique: "Le :attribute est déjà pris."
+  uploaded: "Le transfert de :attribute a échoué."
   url: "Le format du :attribute est invalide."
 
   attributes:
