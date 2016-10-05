@@ -1,20 +1,19 @@
 {
-    "name": "maelsoucaze/flarum-ext-french",
+    "name": "milescellar/flarum-ext-french",
     "type": "flarum-extension",
     "description": "French language pack for Flarum.",
-    "homepage": "https://github.com/maelsoucaze/flarum-ext-french",
+    "homepage": "https://github.com/milescellar/flarum-ext-french",
     "keywords": ["locale"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Maël Soucaze",
-            "email": "maelsoucaze@gmail.com",
-            "homepage": "http://www.maelsoucaze.com"
+            "name": "Miles Cellar",
+            "email": "milescellar@outlook.com",
         }
     ],
     "support": {
-        "issues": "https://github.com/maelsoucaze/flarum-ext-french/issues",
-        "source": "https://github.com/maelsoucaze/flarum-ext-french",
+        "issues": "https://github.com/milescellar/flarum-ext-french/issues",
+        "source": "https://github.com/milescellar/flarum-ext-french",
         "forum": "https://discuss.flarum.org/d/615-french-language-pack"
     },
     "require": {
