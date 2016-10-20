@@ -17,7 +17,7 @@
         "forum": "https://discuss.flarum.org/d/615-french-language-pack"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.5"
+        "flarum/core": "^0.1.0-beta.6"
     },
     "extra": {
         "branch-alias": {
