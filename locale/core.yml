@@ -316,7 +316,7 @@ core:
     post_scrubber:
       now_link: Maintenant
       original_post_link: Message original
-      unread_text: "{count} non lu|{count} non lus"
+      unread_text: "{count} non lus"
       viewing_text: "{index} sur {count} message|{index} sur {count} messages"
 
     # These translations are displayed between posts in the post stream.
