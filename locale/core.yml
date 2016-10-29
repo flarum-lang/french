@@ -509,7 +509,7 @@ core:
     restore: Restaurer
     settings: Réglages
     sign_up: Inscription
-    start_a_discussion: Démarrer une discussion
+    start_a_discussion: Nouvelle discussion
     some_others: "{count} autre|{count} autres"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     username: Nom d’utilisateur
     write_a_reply: Rédigez une réponse…
