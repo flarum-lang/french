@@ -233,8 +233,8 @@ core:
       empty_text: Il semble qu’il n’y ait aucune discussion ici.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Marquer comme lu
-      replied_text: "{username} a répondu à ça {ago}"
-      started_text: "{username} a publié ça {ago}"
+      replied_text: "{username} a répondu à cette discussion {ago}"
+      started_text: "{username} a publié cette discussion {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -302,7 +302,7 @@ core:
     # These translations are used by tooltips displayed for individual posts.
     post:
       edited_text: Édité
-      edited_tooltip: "{username} a édité ça {ago}"
+      edited_tooltip: "{username} a édité ce message {ago}"
       number_tooltip: "Message #{number}"
 
     # These translations are used by the post control buttons.
