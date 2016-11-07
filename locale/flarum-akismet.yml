@@ -9,7 +9,7 @@ flarum-akismet:
 
     # These translations are used in the Akismet Settings modal dialog.
     akismet_settings:
-      api_key_label: 'Clé de l’<abbr title="Interface de programmation d’applications">API</abbr>'
+      api_key_label: Clé de l’API
       title: Réglages de Akismet
 
   # Translations in this namespace are used by the forum user interface.
@@ -19,4 +19,3 @@ flarum-akismet:
     post:
       akismet_flagged_text: Akismet a signalé ça comme indésirable
       not_spam_button: Non indésirable
-
