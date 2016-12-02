@@ -5,11 +5,13 @@ validation:
   accepted: "Le :attribute doit être accepté."
   active_url: "Le :attribute n’est pas une adresse URL valide."
   after: "Le :attribute doit être une date postérieure au :date."
+  after_or_equal: "Le :attribute doit être une date postérieure ou égale au :date."
   alpha: "Le :attribute ne doit contenir que des lettres."
   alpha_dash: "Le :attribute ne doit contenir que des lettres, des chiffres et des tirets."
   alpha_num: "Le :attribute ne doit contenir que des lettres et des chiffres."
   array: "Le :attribute doit être un tableau."
   before: "Le :attribute doit être une date antérieure au :date."
+  before_or_equal: "Le :attribute doit être une date antérieure ou égale au :date."
   between:
     numeric: "Le :attribute doit être compris entre :min et :max."
     file: "Le :attribute doit être compris entre :min et :max kilo-octets."
