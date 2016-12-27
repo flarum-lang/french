@@ -12,6 +12,7 @@ core:
       developer_text: "Si vous êtes un développeur, vous pouvez <a>consultez la documentation</a> pour vous initier à créer vos propres extensions."
       install_text: "De même, vous pouvez rechercher des extensions sur la <a>communauté officielle de Flarum</a> et les installer manuellement en utilisant Composer."
       temporary_text: "Prochainement, cette fenêtre vous permettra d’ajouter en quelques clics une extension à votre forum. Nous sommes d’ailleurs en train de développer cet écosystème !"
+      title: Ajouter une extension
 
     # These translations are used in the Appearance page.
     appearance:
