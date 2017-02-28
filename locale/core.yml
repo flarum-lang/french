@@ -244,7 +244,9 @@ core:
       submit_button: => core.ref.okay
       title: Éditer l’utilisateur
       username_label: => core.ref.username
-
+      username_heading: Nom d’utilisateur
+      groups_heading: Groupe
+      
     # These translations are used in the Forgot Password modal dialog.
     forgot_password:
       dismiss_button: => core.ref.okay
