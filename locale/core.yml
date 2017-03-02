@@ -96,7 +96,7 @@ core:
       port_label: Port
       server_heading: Serveur SMTP
       submit_button: => core.ref.okay
-      text: Configurez les réglages et les adresses SMTP que votre forum utilisera pour envoyer les courriels.
+      text: Configurez les paramètres et les adresses SMTP que votre forum utilisera pour envoyer les courriels.
       username_label: => core.ref.username
 
     # These translations are used in the Extensions page.
@@ -118,11 +118,11 @@ core:
       appearance_button: Apparence
       appearance_text: "Personnalisez les couleurs, les logos et d’autres aspects de votre forum."
       basics_button: Essentiel
-      basics_text: "Réglez le titre, la langue et d’autres réglages essentiels de votre forum."
+      basics_text: "Configurez le titre, la langue et d’autres paramètres essentiels de votre forum."
       dashboard_button: Tableau de bord
       dashboard_text: Tout votre forum d’un simple coup d’œil.
       email_button: => core.ref.email
-      email_text: Configurez les réglages relatifs aux courriels de votre forum.
+      email_text: Configurez les paramètres relatifs aux courriels de votre forum.
       extensions_button: Extensions
       extensions_text: Ajoutez des fonctionnalités supplémentaires à votre forum pour le personnaliser selon vos préférences.
       permissions_button: Permissions
@@ -524,7 +524,7 @@ core:
     rename: Renommer
     reply: Répondre                              # Referenced by flarum-mentions.yml
     restore: Restaurer
-    settings: Réglages
+    settings: Paramètres
     sign_up: Inscription
     start_a_discussion: Nouvelle discussion
     some_others: "{count} autre|{count} autres"  # Referenced by flarum-likes.yml, flarum-mentions.yml

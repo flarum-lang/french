@@ -42,7 +42,7 @@ flarum-tags:
       required_primary_text: Saisissez le nombre minimal et maximal d’étiquettes primaires qui peuvent être ajoutées à une discussion.
       required_secondary_heading: Limite du nombre d’étiquettes secondaires
       required_secondary_text: Saisissez le nombre minimal et maximal d’étiquettes secondaires qui peuvent être ajoutées à une discussion.
-      title: Réglages des étiquettes
+      title: Paramètres des étiquettes
 
     # These translations are used in the Tags page.
     tags:
@@ -50,7 +50,7 @@ flarum-tags:
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: Étiquettes primaires
       secondary_heading: Étiquettes secondaires
-      settings_button: Réglages
+      settings_button: Paramètres
 
   # Translations in this namespace are used by the forum user interface.
   forum:
