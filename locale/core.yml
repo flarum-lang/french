@@ -224,8 +224,7 @@ core:
       delete_confirmation: "Êtes-vous sûr de vouloir supprimer cette discussion ?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Se connecter pour répondre
-      rename_button: Renommer
-      rename_text: "Saisissez le nouveau titre de cette discussion :"
+      rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
@@ -334,6 +333,11 @@ core:
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} plus tard"
+
+    # These translations are used by the rename discussion modal.
+    rename_discussion:
+      title: Saisissez le nouveau titre de cette discussion
+      submit_button: => core.ref.rename
 
     # These translations are used by the search results dropdown list.
     search:
@@ -517,6 +521,7 @@ core:
     notifications: Notifications
     okay: Valider                                # Referenced by flarum-flags.yml, flarum-suspend.yml, flarum-tags.yml
     password: Mot de passe
+    rename: Renommer
     reply: Répondre                              # Referenced by flarum-mentions.yml
     restore: Restaurer
     settings: Réglages
