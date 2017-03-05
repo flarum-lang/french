@@ -29,6 +29,7 @@ validation:
   email: "Le :attribute doit être une adresse de courriel valide."
   exists: "Le :attribute sélectionné est invalide."
   file: "Le :attribute doit être un fichier."
+  filled: "Le champ du :attribute doit contenir une valeur."
   image: "Le :attribute doit être une image."
   in: "Le :attribute sélectionné est invalide."
   in_array: "Le champ du :attribute n’existe pas dans :other."
