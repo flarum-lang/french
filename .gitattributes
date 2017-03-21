@@ -1,9 +1,9 @@
 # The gitattributes file is a simple text file that gives
 # attributes to pathnames.
-# http://git-scm.com/docs/gitattributes
+# https://git-scm.com/docs/gitattributes
 
 # Automatically normalize line endings for all text-based files.
-# http://git-scm.com/docs/gitattributes#_end_of_line_conversion
+# https://git-scm.com/docs/gitattributes#_end_of_line_conversion
 * text=auto
 
 # For the following file types, normalize line endings to LF on check
@@ -19,7 +19,7 @@
 *.yml  text eol=lf
 
 # Exclude the following files when exporting an archive.
-# http://git-scm.com/docs/gitattributes#_creating_an_archive
+# https://git-scm.com/docs/gitattributes#_creating_an_archive
 .codeclimate.yml export-ignore
 .editorconfig    export-ignore
 .gitattributes   export-ignore
