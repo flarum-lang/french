@@ -40,7 +40,7 @@ moment.locale('fr', {
     y : 'un an',
     yy : '%d ans'
   },
-  dayOfMonthOrdinalParse: /\d{1,2}(er|)/,
+  dayOfMonthOrdinalParse : /\d{1,2}(er|)/,
   ordinal : function (number, period) {
     switch (period) {
       // TODO: Return 'e' when day of month > 1. Move this case inside
@@ -63,7 +63,7 @@ moment.locale('fr', {
         return number + (number === 1 ? 're' : 'e');
     }
   },
-  week: {
+  week : {
     dow : 1, // Monday is the first day of the week. Canadian French uses 0, because Sunday is the first day of the week.
     doy : 4  // The week that contains Jan 4th is the first week of the year. Canadian French uses 6, because the week that contains Jan 1st is the first week of the year.
   }
