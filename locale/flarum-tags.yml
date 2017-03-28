@@ -31,7 +31,7 @@ flarum-tags:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: Éditer les étiquettes
+      allow_edit_tags_label: Autoriser la modification des étiquettes
       restrict_by_tag_heading: Restreindre par étiquette
       tag_discussions_label: Ajouter des étiquettes aux discussions
 
@@ -59,7 +59,7 @@ flarum-tags:
     choose_tags:
       choose_primary_placeholder: "Sélectionnez une étiquette primaire|Sélectionnez {count} étiquettes primaires"
       choose_secondary_placeholder: "Sélectionnez une étiquette secondaire|Sélectionnez {count} étiquettes secondaires"
-      edit_title: "Éditez les étiquettes de {title}"
+      edit_title: "Modifiez les étiquettes de {title}"
       submit_button: => core.ref.okay
       title: Sélectionnez les étiquettes de votre discussion
 
@@ -69,7 +69,7 @@ flarum-tags:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: Éditer les étiquettes
+      edit_tags_button: Modifier les étiquettes
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:

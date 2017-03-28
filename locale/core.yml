@@ -24,8 +24,8 @@ core:
       custom_styles_heading: Personnaliser les styles
       custom_styles_text: Personnalisez l’apparence de votre forum en ajoutant votre propre code LESS/CSS qui sera appliqué en priorité par rapport aux styles par défaut de Flarum.
       dark_mode_label: Mode sombre
-      edit_css_button: Éditer le CSS personnalisé
-      edit_header_button: "Éditer l’en-tête personnalisé"
+      edit_css_button: Modifier le CSS personnalisé
+      edit_header_button: "Modifier l’en-tête personnalisé"
       enter_hex_message: Veuillez saisir un code de couleur hexadécimal.
       favicon_heading: Favicon
       favicon_text: Transférez une image qui sera affichée comme l’icône du raccourci du forum.
@@ -60,9 +60,9 @@ core:
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: Personnalisez l’apparence de votre forum en ajoutant votre propre code LESS/CSS qui sera appliqué en priorité par rapport <a>aux styles par défaut</a> de Flarum.
+      customize_text: "Personnalisez l’apparence de votre forum en ajoutant votre propre code LESS/CSS qui sera appliqué en priorité par rapport <a>aux styles par défaut</a> de Flarum."
       submit_button: => core.ref.okay
-      title: Éditer le CSS personnalisé
+      title: Modifier le CSS personnalisé
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
@@ -81,7 +81,7 @@ core:
     edit_header:
       customize_text: "Ajoutez du code HTML à afficher en haut de page, au-dessus de l’en-tête de Flarum."
       submit_button: => core.ref.save_changes
-      title: "Éditer l’en-tête personnalisé"
+      title: "Modifier l’en-tête personnalisé"
 
     # These translations are used in the email page of the admin interface.
     email:
@@ -131,12 +131,12 @@ core:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       allow_renaming_label: Renommer ses discussions
-      allow_post_editing_label: Éditer ses messages
+      allow_post_editing_label: Modifier ses messages
       create_heading: Création
       delete_discussions_forever_label: Supprimer définitivement les discussions
       delete_discussions_label: Supprimer les discussions
       delete_posts_forever_label: Supprimer définitivement les messages
-      edit_and_delete_posts_label: Éditer et supprimer les messages
+      edit_and_delete_posts_label: Modifier et supprimer les messages
       global_heading: Général
       moderate_heading: Modération
       new_group_button: Nouveau groupe
@@ -246,7 +246,7 @@ core:
       password_label: => core.ref.password
       set_password_label: Définir un nouveau mot de passe
       submit_button: => core.ref.okay
-      title: Éditer l’utilisateur
+      title: Modifier l’utilisateur
       username_heading: => core.ref.username
       username_label: => core.ref.username
 
@@ -308,8 +308,8 @@ core:
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_text: Édité
-      edited_tooltip: "{username} a édité ce message {ago}"
+      edited_text: Modifié
+      edited_tooltip: "{username} a modifié ce message {ago}"
       number_tooltip: "Message #{number}"
 
     # These translations are used by the post control buttons.
@@ -511,7 +511,7 @@ core:
     delete: Supprimer
     delete_forever: Supprimer définitivement
     discussions: Discussions
-    edit: Éditer
+    edit: Modifier
     email: Adresse de courriel
     load_more: Charger davantage
     log_in: Connexion
