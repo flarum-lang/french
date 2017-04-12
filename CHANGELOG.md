@@ -47,7 +47,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - The Akismet, Approval, Facebook Login, GitHub Login, Twitter Login and Suspend extensions are now available.
 
 ### Changed
-- The French language pack now uses the new extension system. Due to that change, the directory name is now **flarum-ext-french**.
+- The French language pack now uses the new extension system.
 - The French language pack is now compatible with Flarum 0.1.0 Beta 5 (and its bundled extensions).
 - The version of the Laravel's Validation Rules bundled library have been updated to 5.2.27.
 - The version of the Moment.js bundled library have been updated to 2.12.0.
