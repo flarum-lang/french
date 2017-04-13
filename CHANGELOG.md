@@ -8,17 +8,17 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - Several keys have been added.
 
 ### Changed
-- The version of the Laravel's Validation Rules bundled library have been updated to 5.4.16.
-- The version of the Moment.js bundled library have been updated to 2.18.1.
-- The _icon.svg_ image file have been optimized.
+- The language pack is now compatible with the [Laravel's Validation Rules 5.4.16](https://github.com/laravel/laravel/releases/tag/v5.4.16) bundled library.
+- The language pack is now compatible with the [Moment.js 2.18.1](https://github.com/moment/moment/releases/tag/2.18.1) bundled library.
+- The _icon.svg_ image file size have been reduced with no quality loss.
 - Several translations have been improved.
 
 ### Deprecated
-- Some keys have been deprecated.
+- Some keys are deprecated.
 
 ## [1.0.6](https://github.com/milescellar/flarum-ext-french/compare/v1.0.5...v1.0.6) - 2016-11-17
 ### Fixed
-- The `<abbr>` tags in translations was bugged and have been removed. Thanks to [Magicalex](https://github.com/Magicalex).
+- All `<abbr>` tags caused issues and have been removed from translations. Thanks to [Magicalex](https://github.com/Magicalex).
 
 ## [1.0.5](https://github.com/milescellar/flarum-ext-french/compare/v1.0.4...v1.0.5) - 2016-10-29
 ### Changed
@@ -33,9 +33,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### Changed
 - The name of the GitHub repository owner have been changed to [Miles Cellar](https://github.com/milescellar) for privacy.
-- The French language pack is now compatible with Flarum 0.1.0 Beta 6 (and its bundled extensions).
-- The version of the Laravel's Validation Rules bundled library have been updated to 5.3.16.
-- The version of the Moment.js bundled library have been updated to 2.15.1.
+- The language pack is now compatible with [Flarum 0.1.0 Beta 6](https://github.com/flarum/core/releases/tag/v0.1.0-beta.6) and its bundled extensions.
+- The language pack is now compatible with the [Laravel's Validation Rules 5.3.16](https://github.com/laravel/laravel/releases/tag/v5.3.16) bundled library.
+- The language pack is now compatible with the [Moment.js 2.15.1](https://github.com/moment/moment/releases/tag/2.15.1) bundled library.
 - Several translations have been improved.
 
 ### Removed
@@ -43,14 +43,19 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [1.0.3](https://github.com/milescellar/flarum-ext-french/compare/v1.0.2...v1.0.3) - 2016-03-29
 ### Added
+- The [Akismet](https://github.com/flarum/flarum-ext-akismet) bundled extension have been translated and is now available.
+- The [Approval](https://github.com/flarum/flarum-ext-approval) bundled extension have been translated and is now available.
+- The [Facebook Login](https://github.com/flarum/flarum-ext-auth-facebook) bundled extension have been translated and is now available.
+- The [GitHub Login](https://github.com/flarum/flarum-ext-auth-github) bundled extension have been translated and is now available.
+- The [Suspend](https://github.com/flarum/flarum-ext-suspend) bundled extension have been translated and is now available.
+- The [Twitter Login](https://github.com/flarum/flarum-ext-auth-twitter) bundled extension have been translated and is now available.
 - Several keys have been added.
-- The Akismet, Approval, Facebook Login, GitHub Login, Twitter Login and Suspend extensions are now available.
 
 ### Changed
-- The French language pack now uses the new extension system.
-- The French language pack is now compatible with Flarum 0.1.0 Beta 5 (and its bundled extensions).
-- The version of the Laravel's Validation Rules bundled library have been updated to 5.2.27.
-- The version of the Moment.js bundled library have been updated to 2.12.0.
+- The language pack now uses a new extension system.
+- The language pack is now compatible with [Flarum 0.1.0 Beta 5](https://github.com/flarum/core/releases/tag/v0.1.0-beta.5) and its bundled extensions.
+- The language pack is now compatible with the [Laravel's Validation Rules 5.2.27](https://github.com/laravel/laravel/releases/tag/v5.2.27) bundled library.
+- The language pack is now compatible with the [Moment.js 2.12.0](https://github.com/moment/moment/releases/tag/2.12.0) bundled library.
 - Several translations have been improved.
 
 ### Removed
@@ -61,9 +66,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - Several keys have been added.
 
 ### Changed
-- The French language pack is now compatible with Flarum 0.1.0 Beta 4 (and its bundled extensions).
-- The version of the Laravel's Validation Rules bundled library have been updated to 5.1.11.
-- The version of the Moment.js bundled library have been updated to 2.10.6.
+- The language pack is now compatible with [Flarum 0.1.0 Beta 4](https://github.com/flarum/core/releases/tag/v0.1.0-beta.4) and its bundled extensions.
+- The language pack is now compatible with the [Laravel's Validation Rules 5.1.11](https://github.com/laravel/laravel/releases/tag/v5.1.11) bundled library.
+- The language pack is now compatible with the [Moment.js 2.10.6](https://github.com/moment/moment/releases/tag/2.10.6) bundled library.
 
 ### Removed
 - A key have been removed.
