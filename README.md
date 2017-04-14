@@ -49,5 +49,5 @@ Thank you a lot to wish to contribute. I sincerely appreciate your commitment. U
 - Report [issues](https://github.com/milescellar/flarum-ext-french/issues) on GitHub. Any feedback is welcome.
 - Open pull requests on GitHub to submit fixes and improvements. Be listed as a [contributor](https://github.com/milescellar/flarum-ext-french/graphs/contributors)!
 - Join [the language pack's discussion](https://discuss.flarum.org/d/615-french-language-pack) on the Flarum community.
-- Follow me [on Twitter](https://twitter.com/milescellar). Promise, I don't spam pictures of kittens and puppies (too much).
+- Follow me [on Twitter](https://twitter.com/milescellar) or [on Mastodon](https://mastodon.social/@milescellar). I don't spam pictures of kittens and puppies (too much).
 - Let's have a drink if you are near Paris!
