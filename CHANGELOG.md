@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - Several keys have been added.
 
 ### Changed
-- The language pack is now compatible with the [Laravel's Validation Rules 5.4.16](https://github.com/laravel/laravel/releases/tag/v5.4.16) bundled library.
+- The language pack is now compatible with the [Laravel's Validation Rules 5.4.21](https://github.com/laravel/laravel/releases/tag/v5.4.21) bundled library.
 - The language pack is now compatible with the [Moment.js 2.18.1](https://github.com/moment/moment/releases/tag/2.18.1) bundled library.
 - The _icon.svg_ image file size have been reduced with no quality loss.
 - Several translations have been improved.
