@@ -1,12 +1,11 @@
-# The .gitignore file specifies intentionally untracked files that
-# Git should ignore. Files already tracked by Git are not affected.
+# Specifies intentionally untracked files to ignore.
 # https://git-scm.com/docs/gitignore
 
-# Composer
+# Ignore Composer files.
 /vendor
 composer.phar
 
-# Operating systems
+# Ignore operating system files.
 *~
 ._*
 .AppleDouble

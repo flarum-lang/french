@@ -1,15 +1,10 @@
-# The gitattributes file is a simple text file that gives
-# attributes to pathnames.
+# Defining attributes per path.
 # https://git-scm.com/docs/gitattributes
 
 # Automatically normalize line endings for all text-based files.
-# https://git-scm.com/docs/gitattributes#_end_of_line_conversion
 * text=auto
 
-# For the following file types, normalize line endings to LF on check
-# in and prevent conversion to CRLF when they are checked out (this
-# is required in order to prevent newline related issues like, for
-# example, after the build script is run).
+# This attribute sets a specific line-ending style to be used in the working directory.
 .*     text eol=lf
 *.js   text eol=lf
 *.json text eol=lf
@@ -18,8 +13,7 @@
 *.svg  text eol=lf
 *.yml  text eol=lf
 
-# Exclude the following files when exporting an archive.
-# https://git-scm.com/docs/gitattributes#_creating_an_archive
+# Files and directories with this attribute won't be added to archive files.
 .codeclimate.yml export-ignore
 .editorconfig    export-ignore
 .gitattributes   export-ignore
