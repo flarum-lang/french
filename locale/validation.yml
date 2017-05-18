@@ -35,6 +35,8 @@ validation:
   in_array: "Le champ du :attribute n’existe pas dans :other."
   integer: "Le :attribute doit être un nombre entier."
   ip: "Le :attribute doit être une adresse IP valide."
+  ipv4: "Le :attribute doit être une adresse IPv4 valide."
+  ipv6: "Le :attribute doit être une adresse IPv6 valide."
   json: "Le :attribute doit être une chaîne JSON valide."
   max:
     numeric: "Le :attribute ne doit pas dépasser :max."
