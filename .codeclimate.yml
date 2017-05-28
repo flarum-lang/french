@@ -10,6 +10,8 @@ engines:
     checks:
       MD013:
         enabled: false
+      MD024:
+        enabled: false
   phpcodesniffer:
     enabled: true
     config:
