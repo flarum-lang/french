@@ -28,7 +28,7 @@ Includes the following French locales compatible with:
     - [Laravel](https://github.com/laravel/laravel)'s Validation Rules [5.4.23](https://github.com/laravel/laravel/releases/tag/v5.4.23)
     - [Moment.js](https://github.com/moment/moment) [2.18.1](https://github.com/moment/moment/releases/tag/2.18.1)
 
-Released under the MIT license. Please see the [license terms](https://github.com/milescellar/flarum-ext-french/blob/master/LICENSE).
+Released under the MIT license. Please see [the license terms](https://github.com/milescellar/flarum-ext-french/blob/master/LICENSE).
 
 ## Installation
 
@@ -39,15 +39,3 @@ composer require milescellar/flarum-ext-french
 ```
 
 The same command can be used to update independently the French language pack, without updating anything else. Note that because the French language pack will be added as a Flarum's dependency, it will also be automatically updated when updating Flarum and its dependencies via Composer.
-
-## Contributing
-
-Thank you a lot to wish to contribute. I sincerely appreciate your commitment. Using the language pack is already a huge support, but best other ways to contribute are:
-
-- Star on GitHub. Because if you use it and like it, you can at least be a stargazer!
-- Follow on GitHub. You will be notified in real time of all changes. No more misses!
-- Report [issues](https://github.com/milescellar/flarum-ext-french/issues) on GitHub. Any feedback is welcome.
-- Open pull requests on GitHub to submit fixes and improvements. Be listed as a [contributor](https://github.com/milescellar/flarum-ext-french/graphs/contributors)!
-- Join [the language pack's discussion](https://discuss.flarum.org/d/615-french-language-pack) on the Flarum community.
-- Follow me [on Twitter](https://twitter.com/milescellar) or [on Mastodon](https://mastodon.social/@milescellar). I don't spam pictures of kittens and puppies (too much).
-- Let's have a drink if you are near Paris!
