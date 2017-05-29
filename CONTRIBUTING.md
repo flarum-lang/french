@@ -8,11 +8,11 @@ The following is a set of guidelines for contributing to the French language pac
 
 The French language pack for Flarum is under the [MIT License](https://github.com/milescellar/flarum-ext-french/blob/master/LICENSE) and is open source, so it can be freely accessed, used, changed, and shared (in modified or unmodified form) by anyone.
 
-If you want to directly contribute to the project, you accept to grant the project a nonexclusive, irrevocable license to use your submitted code in any way. Please don't contribute with something which legally doesn't belong to you. It's prohibited by the law, contrary to the spirit of open source and the contribution will inevitably end up being removed, causing troubles. The code you wrote is your original work (meaning that you own the copyright) or you otherwise have the right to submit the work.
+If you want to directly contribute to the project, you accept to grant a nonexclusive, irrevocable license to use your submitted code in any way. Please don't contribute with something which legally doesn't belong to you. It's prohibited by the law, contrary to the spirit of open source and the contribution will inevitably end up being removed, causing troubles. The code you wrote is your original work (meaning that you own the copyright) or you otherwise have the right to submit the work.
 
 ## Submit an issue
 
-Firstly, ensure the issue was not already reported by searching on GitHub under [issues](https://github.com/milescellar/flarum-ext-french/issues). If you're unable to find an open issue addressing the problem, you're welcome to [open a new one](https://github.com/milescellar/flarum-ext-french/issues/new).
+Firstly, ensure the issue was not already reported by searching on GitHub under [issues](https://github.com/milescellar/flarum-ext-french/issues). If you're unable to find an open issue addressing the problem, then you're welcome to [open a new one](https://github.com/milescellar/flarum-ext-french/issues/new).
 
 Be sure to include a title and a clear description, as much relevant information as possible.
 
