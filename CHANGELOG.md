@@ -13,11 +13,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Changed
 
 - The language pack is now compatible with the [Laravel's Validation Rules 5.4.23](https://github.com/laravel/laravel/releases/tag/v5.4.23) bundled library.
-
 - The language pack is now compatible with the [Moment.js 2.18.1](https://github.com/moment/moment/releases/tag/2.18.1) bundled library.
-
 - The _icon.svg_ image file size have been reduced with no quality loss.
-
 - Several translations have been improved.
 
 ### Deprecated
@@ -49,13 +46,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Changed
 
 - The name of the GitHub repository owner have been changed to [Miles Cellar](https://github.com/milescellar) for privacy.
-
 - The language pack is now compatible with [Flarum 0.1.0 Beta 6](https://github.com/flarum/core/releases/tag/v0.1.0-beta.6) and its bundled extensions.
-
 - The language pack is now compatible with the [Laravel's Validation Rules 5.3.16](https://github.com/laravel/laravel/releases/tag/v5.3.16) bundled library.
-
 - The language pack is now compatible with the [Moment.js 2.15.1](https://github.com/moment/moment/releases/tag/2.15.1) bundled library.
-
 - Several translations have been improved.
 
 ### Removed
@@ -67,29 +60,19 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Added
 
 - The [Akismet](https://github.com/flarum/flarum-ext-akismet) bundled extension have been translated and is now available.
-
 - The [Approval](https://github.com/flarum/flarum-ext-approval) bundled extension have been translated and is now available.
-
 - The [Facebook Login](https://github.com/flarum/flarum-ext-auth-facebook) bundled extension have been translated and is now available.
-
 - The [GitHub Login](https://github.com/flarum/flarum-ext-auth-github) bundled extension have been translated and is now available.
-
 - The [Suspend](https://github.com/flarum/flarum-ext-suspend) bundled extension have been translated and is now available.
-
 - The [Twitter Login](https://github.com/flarum/flarum-ext-auth-twitter) bundled extension have been translated and is now available.
-
 - Several keys have been added.
 
 ### Changed
 
 - The language pack now uses a new extension system.
-
 - The language pack is now compatible with [Flarum 0.1.0 Beta 5](https://github.com/flarum/core/releases/tag/v0.1.0-beta.5) and its bundled extensions.
-
 - The language pack is now compatible with the [Laravel's Validation Rules 5.2.27](https://github.com/laravel/laravel/releases/tag/v5.2.27) bundled library.
-
 - The language pack is now compatible with the [Moment.js 2.12.0](https://github.com/moment/moment/releases/tag/2.12.0) bundled library.
-
 - Several translations have been improved.
 
 ### Removed
@@ -105,9 +88,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Changed
 
 - The language pack is now compatible with [Flarum 0.1.0 Beta 4](https://github.com/flarum/core/releases/tag/v0.1.0-beta.4) and its bundled extensions.
-
 - The language pack is now compatible with the [Laravel's Validation Rules 5.1.11](https://github.com/laravel/laravel/releases/tag/v5.1.11) bundled library.
-
 - The language pack is now compatible with the [Moment.js 2.10.6](https://github.com/moment/moment/releases/tag/2.10.6) bundled library.
 
 ### Removed
