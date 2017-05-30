@@ -12,7 +12,7 @@ If you want to directly contribute to the project, you accept to grant a nonexcl
 
 ## Submit an issue
 
-Firstly, ensure the issue was not already reported by searching on GitHub under [issues](https://github.com/milescellar/flarum-ext-french/issues). If you're unable to find an open issue addressing the problem, then you're welcome to [open a new one](https://github.com/milescellar/flarum-ext-french/issues/new).
+Firstly, ensure the issue was not already reported by searching on GitHub under [issues](https://github.com/milescellar/flarum-ext-french/issues). If you're unable to find an open issue addressing the problem, then you're welcome to [open a new issue](https://github.com/milescellar/flarum-ext-french/issues/new).
 
 Be sure to include a title and a clear description, as much relevant information as possible.
 
