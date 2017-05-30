@@ -45,7 +45,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### Changed
 
-- The name of the GitHub repository owner have been changed to [Miles Cellar](https://github.com/milescellar) for privacy.
 - The language pack is now compatible with [Flarum 0.1.0 Beta 6](https://github.com/flarum/core/releases/tag/v0.1.0-beta.6) and its bundled extensions.
 - The language pack is now compatible with the [Laravel's Validation Rules 5.3.16](https://github.com/laravel/laravel/releases/tag/v5.3.16) bundled library.
 - The language pack is now compatible with the [Moment.js 2.15.1](https://github.com/moment/moment/releases/tag/2.15.1) bundled library.
