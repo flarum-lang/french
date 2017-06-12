@@ -43,6 +43,7 @@ core:
       home_page_heading: Page d’accueil
       home_page_text: "Sélectionnez la page que les utilisateurs verront lorsqu’ils visiteront votre forum pour la première fois. Si vous saisissez une valeur personnalisée, veuillez utiliser le chemin relatif à la racine du forum."
       saved_message: Vos modifications ont été enregistrées.
+      show_language_selector_label: Afficher le sélecteur de langue
       submit_button: => core.ref.okay
       welcome_banner_heading: Bandeau de bienvenue
       welcome_banner_text: "Personnalisez le texte du bandeau qui est affiché sur la page de la liste de discussions. Il vous permet d’accueillir les invités de votre forum."
