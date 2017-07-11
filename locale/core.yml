@@ -294,7 +294,7 @@ core:
       forgot_password_link: "Mot de passe oublié ?"
       invalid_login_message: Vos identifiants sont incorrects.
       password_placeholder: => core.ref.password
-      remember_me_label: Se souvenir de moi pendant deux semaines
+      remember_me_label: Se souvenir de moi
       sign_up_text: "Pas encore inscrit ? <a>Inscription</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
