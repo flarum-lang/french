@@ -11,7 +11,7 @@ core:
     add_extension:
       developer_text: "Si vous êtes un développeur, vous pouvez <a>consultez la documentation</a> pour vous initier à créer vos propres extensions."
       install_text: "De même, vous pouvez rechercher des extensions sur la <a>communauté officielle de Flarum</a> et les installer manuellement en utilisant Composer."
-      temporary_text: "Prochainement, cette fenêtre vous permettra d’ajouter en quelques clics une extension à votre forum. Nous sommes d’ailleurs en train de développer cet écosystème !"
+      temporary_text: "Prochainement, cette fenêtre vous permettra d’ajouter en quelques clics une extension à votre forum. Nous sommes d’ailleurs en train de développer cet écosystème !"
       title: Ajouter une extension
 
     # These translations are used in the Appearance page.
@@ -51,13 +51,13 @@ core:
     # These translations are used in the Dashboard page.
     dashboard:
       beta_warning_text: "Ce <strong>logiciel en bêta</strong> est disponible pour que vous nous aidiez à le tester et à l’améliorer. Il ne devrait pas être utilisé dans un environnement de production."
-      contributing_text: "Vous souhaitez contribuer et corriger des bogues ? Consultez <a>la documentation de contribution</a> (en anglais)."
-      extension_text: "Vous souhaitez développer des extensions ? Consultez <a>la documentation sur les extensions</a> (en anglais)."
-      features_text: "Vous souhaitez soumettre une idée ou une fonctionnalité ? Publiez une nouvelle discussion sur notre forum en utilisant <a>l’étiquette « Features »</a> (en anglais)."
-      support_text: "Vous souhaitez signaler un bogue ? Publiez une nouvelle discussion sur notre forum en utilisant <a>l’étiquette « Support »</a> (en anglais)."
-      troubleshooting_text: "Vous avez des difficultés ? Consultez <a>la documentation de dépannage</a> (en anglais)."
-      version_text: "Merci d’essayer Flarum ! Vous utilisez la version {version}."
-      welcome_text: "Bienvenue sur la bêta de Flarum !"
+      contributing_text: "Vous souhaitez contribuer et corriger des bogues ? Consultez <a>la documentation de contribution</a> (en anglais)."
+      extension_text: "Vous souhaitez développer des extensions ? Consultez <a>la documentation sur les extensions</a> (en anglais)."
+      features_text: "Vous souhaitez soumettre une idée ou une fonctionnalité ? Publiez une nouvelle discussion sur notre forum en utilisant <a>l’étiquette « Features »</a> (en anglais)."
+      support_text: "Vous souhaitez signaler un bogue ? Publiez une nouvelle discussion sur notre forum en utilisant <a>l’étiquette « Support »</a> (en anglais)."
+      troubleshooting_text: "Vous avez des difficultés ? Consultez <a>la documentation de dépannage</a> (en anglais)."
+      version_text: "Merci d’essayer Flarum ! Vous utilisez la version {version}."
+      welcome_text: "Bienvenue sur la bêta de Flarum !"
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
@@ -69,12 +69,12 @@ core:
     edit_group:
       color_label: Couleur
       delete_button: Supprimer le groupe
-      delete_confirmation: "Êtes-vous sûr de vouloir supprimer ce groupe ? Les membres du groupe ne seront pas supprimés."
+      delete_confirmation: "Êtes-vous sûr de vouloir supprimer ce groupe ? Les membres du groupe ne seront pas supprimés."
       icon_label: Icône
       icon_text: "Saisissez le nom d’une des icônes de <a>Font Awesome</a> <em>sans</em> le préfixe <code>fa-</code>."
       name_label: Nom
-      plural_placeholder: Pluriel (tel que « modérateurs »)
-      singular_placeholder: Singulier (tel que « modérateur »)
+      plural_placeholder: Pluriel (tel que « modérateurs »)
+      singular_placeholder: Singulier (tel que « modérateur »)
       submit_button: => core.ref.okay
       title: Créer le groupe
 
@@ -199,21 +199,21 @@ core:
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: Rédigez un message…
-      discard_confirmation: "Vous n’avez pas publié votre discussion. Souhaitez-vous l’abandonner ?"
+      discard_confirmation: "Vous n’avez pas publié votre discussion. Souhaitez-vous l’abandonner ?"
       submit_button: Publier la discussion
       title: => core.ref.start_a_discussion
       title_placeholder: Titre de la discussion
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "Vous n’avez pas enregistré vos modifications. Souhaitez-vous les abandonner ?"
+      discard_confirmation: "Vous n’avez pas enregistré vos modifications. Souhaitez-vous les abandonner ?"
       post_link: "Message #{number} de {discussion}"
       submit_button: => core.ref.okay
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "Vous n’avez pas publié votre réponse. Souhaitez-vous l’abandonner ?"
+      discard_confirmation: "Vous n’avez pas publié votre réponse. Souhaitez-vous l’abandonner ?"
       posted_message: Votre réponse a été publiée.
       submit_button: Publier la réponse
       view_button: Consulter
@@ -223,7 +223,7 @@ core:
       cannot_reply_button: Impossible de répondre
       cannot_reply_text: Vous ne pouvez pas répondre à cette discussion.
       delete_button: => core.ref.delete
-      delete_confirmation: "Êtes-vous sûr de vouloir supprimer cette discussion ?"
+      delete_confirmation: "Êtes-vous sûr de vouloir supprimer cette discussion ?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Se connecter pour répondre
       rename_button: => core.ref.rename
@@ -276,7 +276,7 @@ core:
     index:
       all_discussions_link: => core.ref.all_discussions
       cannot_start_discussion_button: Impossible de démarrer une discussion
-      mark_all_as_read_confirmation: "Êtes-vous sûr de vouloir marquer toutes les notifications comme lues ?"
+      mark_all_as_read_confirmation: "Êtes-vous sûr de vouloir marquer toutes les notifications comme lues ?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: Actualiser
       start_discussion_button: => core.ref.start_a_discussion
@@ -291,11 +291,11 @@ core:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      forgot_password_link: "Mot de passe oublié ?"
+      forgot_password_link: "Mot de passe oublié ?"
       invalid_login_message: Vos identifiants sont incorrects.
       password_placeholder: => core.ref.password
       remember_me_label: Se souvenir de moi
-      sign_up_text: "Pas encore inscrit ? <a>Inscription</a>"
+      sign_up_text: "Pas encore inscrit ? <a>Inscription</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
       username_or_email_placeholder: Nom d’utilisateur ou adresse de courriel
@@ -330,7 +330,7 @@ core:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_old_tooltip: "L’ancien titre était : « {old} »"
+      discussion_renamed_old_tooltip: "L’ancien titre était : « {old} »"
       discussion_renamed_text: "{username} a renommé le titre en {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
@@ -343,7 +343,7 @@ core:
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: "Rechercher « {query} » dans toutes les discussions"
+      all_discussions_button: "Rechercher « {query} » dans toutes les discussions"
       discussions_heading: => core.ref.discussions
       users_heading: Utilisateurs
 
@@ -364,12 +364,12 @@ core:
     sign_up:
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
-      log_in_text: "Déjà inscrit ? <a>Connexion</a>"
+      log_in_text: "Déjà inscrit ? <a>Connexion</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
       username_placeholder: => core.ref.username
-      welcome_text: "Bienvenue {username} !"
+      welcome_text: "Bienvenue {username} !"
 
     # These translations are used in the user profile page and profile popup.
     user:
@@ -389,7 +389,7 @@ core:
     user_controls:
       button: Commandes
       delete_button: => core.ref.delete
-      delete_confirmation: "Êtes-vous sûr de vouloir supprimer cet utilisateur ? Tous ses messages seront également supprimés."
+      delete_confirmation: "Êtes-vous sûr de vouloir supprimer cet utilisateur ? Tous ses messages seront également supprimés."
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
@@ -411,7 +411,7 @@ core:
 
     # These translations are displayed as error messages.
     error:
-      generic_message: "Oups ! Quelque chose s’est mal passé. Veuillez actualiser la page puis réessayer."
+      generic_message: "Oups ! Quelque chose s’est mal passé. Veuillez actualiser la page puis réessayer."
       not_found_message: La ressource que vous souhaitez atteindre est introuvable.
       permission_denied_message: Vous n’avez pas la permission de faire cela.
       rate_limit_exceeded_message: Vous êtes un peu trop rapide. Veuillez réessayer dans quelques secondes.
@@ -464,11 +464,11 @@ core:
     activate_account:
       subject: Activation de votre compte
       body: |
-        Bonjour {username} !
+        Bonjour {username} !
 
-        Quelqu’un (en espérant que cela soit vous !) s’est inscrit sur {forum} avec cette adresse de courriel.
+        Quelqu’un (en espérant que cela soit vous !) s’est inscrit sur {forum} avec cette adresse de courriel.
 
-        Si vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour que votre compte soit activé :
+        Si vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour que votre compte soit activé :
         {url}
 
         Si vous n’êtes pas à l’origine de cette action, veuillez ignorer ce courriel.
@@ -477,11 +477,11 @@ core:
     confirm_email:
       subject: Modification de votre adresse de courriel
       body: |
-        Bonjour {username} !
+        Bonjour {username} !
 
-        Quelqu’un (en espérant que cela soit vous !) a demandé à modifier l’adresse de courriel associée à votre compte sur {forum} par celle-ci.
+        Quelqu’un (en espérant que cela soit vous !) a demandé à modifier l’adresse de courriel associée à votre compte sur {forum} par celle-ci.
 
-        Si vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour confirmer votre nouvelle adresse de courriel :
+        Si vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour confirmer votre nouvelle adresse de courriel :
         {url}
 
         Si vous ne souhaitez pas modifier votre adresse de courriel, veuillez ignorer ce courriel.
@@ -490,11 +490,11 @@ core:
     reset_password:
       subject: Réinitialisation de votre mot de passe
       body: |
-        Bonjour {username} !
+        Bonjour {username} !
 
-        Quelqu’un (en espérant que cela soit vous !) a demandé à réinitialiser le mot de passe associé à votre compte sur {forum}.
+        Quelqu’un (en espérant que cela soit vous !) a demandé à réinitialiser le mot de passe associé à votre compte sur {forum}.
 
-        Si vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour réinitialiser votre mot de passe actuel :
+        Si vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour réinitialiser votre mot de passe actuel :
         {url}
 
         Si vous ne souhaitez pas réinitialiser votre mot de passe, veuillez ignorer ce courriel.

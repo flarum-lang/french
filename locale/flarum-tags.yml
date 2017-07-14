@@ -15,7 +15,7 @@ flarum-tags:
     edit_tag:
       color_label: Couleur
       delete_tag_button: Supprimer l’étiquette
-      delete_tag_confirmation: "Êtes-vous sûr de vouloir supprimer cette étiquette ? Les discussions publiées sous cette étiquette ne seront pas supprimées."
+      delete_tag_confirmation: "Êtes-vous sûr de vouloir supprimer cette étiquette ? Les discussions publiées sous cette étiquette ne seront pas supprimées."
       description_label: Description
       hide_label: Masquer de la liste de discussions
       name_label: => flarum-tags.ref.name
