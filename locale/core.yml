@@ -265,6 +265,7 @@ core:
     # These translations are used in the header and session dropdown menu.
     header:
       admin_button: Administration
+      back_to_index_tooltip: Revenir à la liste de discussions
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Profil
@@ -338,7 +339,7 @@ core:
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      title: Saisissez le nouveau titre de cette discussion
+      title: Renommer la discussion
       submit_button: => core.ref.rename
 
     # These translations are used by the search results dropdown list.
