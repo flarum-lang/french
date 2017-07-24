@@ -17,11 +17,11 @@
         "forum": "https://discuss.flarum.org/d/615-french-language-pack"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.6"
+        "flarum/core": "^0.1.0-beta.7"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dev-master": "1.1.x-dev"
         },
         "flarum-extension": {
             "title": "French",
