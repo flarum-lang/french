@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased](https://github.com/milescellar/flarum-ext-french/compare/v1.1.0...master)
 
-## [1.1.0](https://github.com/milescellar/flarum-ext-french/compare/v1.0.6...v1.1.0)
+## [1.1.0](https://github.com/milescellar/flarum-ext-french/compare/v1.0.6...v1.1.0) - 2017-07-24
 
 ### Added
 
