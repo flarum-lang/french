@@ -1,6 +1,6 @@
 # French Language Pack for [Flarum](http://flarum.org/)
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Version](https://img.shields.io/packagist/v/milescellar/flarum-ext-french.svg)](https://packagist.org/packages/milescellar/flarum-ext-french) [![Downloads](https://img.shields.io/packagist/dt/milescellar/flarum-ext-french.svg)](https://packagist.org/packages/milescellar/flarum-ext-french) [![Code Climate](https://codeclimate.com/github/milescellar/flarum-ext-french/badges/gpa.svg)](https://codeclimate.com/github/milescellar/flarum-ext-french) [![StyleCI](https://styleci.io/repos/70081209/shield?style=flat&branch=master)](https://styleci.io/repos/70081209)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![GitHub Release](https://img.shields.io/github/release/milescellar/flarum-ext-french)](https://github.com/milescellar/flarum-ext-french/releases) [![Downloads](https://img.shields.io/packagist/dt/milescellar/flarum-ext-french.svg)](https://packagist.org/packages/milescellar/flarum-ext-french) [![Code Climate](https://codeclimate.com/github/milescellar/flarum-ext-french/badges/gpa.svg)](https://codeclimate.com/github/milescellar/flarum-ext-french) [![StyleCI](https://styleci.io/repos/70081209/shield?style=flat&branch=master)](https://styleci.io/repos/70081209)
 
 French language pack to localize the Flarum forum software, its bundled extensions and libraries.
 
