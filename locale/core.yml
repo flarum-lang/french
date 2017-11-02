@@ -41,7 +41,7 @@ core:
       forum_description_text: Affichez un résumé décrivant votre communauté. La description apparaîtra dans la balise Méta et s’affichera dans le résultat des moteurs de recherche.
       forum_title_heading: Titre du forum
       home_page_heading: Page d’accueil
-      home_page_text: "Sélectionnez la page que les utilisateurs verront lorsqu’ils visiteront votre forum pour la première fois. Si vous saisissez une valeur personnalisée, veuillez utiliser le chemin relatif à la racine du forum."
+      home_page_text: Sélectionnez la page que les utilisateurs verront lorsqu’ils visiteront votre forum pour la première fois.
       saved_message: Vos modifications ont été enregistrées.
       show_language_selector_label: Afficher le sélecteur de langue
       submit_button: => core.ref.okay
@@ -377,7 +377,6 @@ core:
       avatar_remove_button: Supprimer
       avatar_upload_button: Transférer
       avatar_upload_tooltip: Transférer un nouvel avatar
-      bio_placeholder: Écrivez quelque chose sur vous
       discussions_link: => core.ref.discussions
       in_discussion_text: "Dans {discussion}"
       joined_date_text: "Inscrit {ago}"
