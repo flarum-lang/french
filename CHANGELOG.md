@@ -11,6 +11,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 - The language pack is now compatible with the [Laravel's Validation Rules 5.5.0](https://github.com/laravel/laravel/releases/tag/v5.5.0) bundled library.
 - The language pack is now compatible with the [Moment.js 2.19.1](https://github.com/moment/moment/releases/tag/2.19.1) bundled library.
 
+### Removed
+
+- A key have been removed.
+- An obsolete translation have been removed.
+
 ## [1.1.0](https://github.com/milescellar/flarum-ext-french/compare/v1.0.6...v1.1.0) - 2017-07-24
 
 ### Added
