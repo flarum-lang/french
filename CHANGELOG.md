@@ -6,14 +6,19 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased](https://github.com/milescellar/flarum-ext-french/compare/v1.1.0...master)
 
+### Added
+
+- Several keys have been added.
+
 ### Changed
 
 - The language pack is now compatible with the [Laravel's Validation Rules 5.5.0](https://github.com/laravel/laravel/releases/tag/v5.5.0) bundled library.
-- The language pack is now compatible with the [Moment.js 2.19.2](https://github.com/moment/moment/releases/tag/2.19.2) bundled library.
+- The language pack is now compatible with the [Moment.js 2.19.3](https://github.com/moment/moment/releases/tag/2.19.3) bundled library.
+- Some translations have been improved.
 
 ### Removed
 
-- A key have been removed.
+- Several keys have been removed.
 - An obsolete translation have been removed.
 
 ## [1.1.0](https://github.com/milescellar/flarum-ext-french/compare/v1.0.6...v1.1.0) - 2017-07-24
@@ -35,6 +40,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ### Removed
 
 - Some keys have been removed.
+- An obsolete translation have been removed.
 
 ## [1.0.6](https://github.com/milescellar/flarum-ext-french/compare/v1.0.5...v1.0.6) - 2016-11-17
 
