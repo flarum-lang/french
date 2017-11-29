@@ -50,14 +50,7 @@ core:
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "Ce <strong>logiciel en bêta</strong> est disponible pour que vous nous aidiez à le tester et à l’améliorer. Il ne devrait pas être utilisé dans un environnement de production."
-      contributing_text: "Vous souhaitez contribuer et corriger des bogues ? Consultez <a>la documentation de contribution</a> (en anglais)."
-      extension_text: "Vous souhaitez développer des extensions ? Consultez <a>la documentation sur les extensions</a> (en anglais)."
-      features_text: "Vous souhaitez soumettre une idée ou une fonctionnalité ? Publiez une nouvelle discussion sur notre forum en utilisant <a>l’étiquette « Features »</a> (en anglais)."
-      support_text: "Vous souhaitez signaler un bogue ? Publiez une nouvelle discussion sur notre forum en utilisant <a>l’étiquette « Support »</a> (en anglais)."
-      troubleshooting_text: "Vous avez des difficultés ? Consultez <a>la documentation de dépannage</a> (en anglais)."
-      version_text: "Merci d’essayer Flarum ! Vous utilisez la version {version}."
-      welcome_text: "Bienvenue sur la bêta de Flarum !"
+      help_link: Obtenir de l’aide
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
@@ -165,6 +158,16 @@ core:
     # These translations are used in the Settings modal dialog.
     settings:
       submit_button: => core.ref.okay
+
+    # These translations are used in the Statistics dashboard widget.
+     statistics:
+       discussions_heading: => core.ref.discussions
+       last_28_days_label: 28 derniers jours
+       last_7_days_label: 7 derniers jours
+       posts_heading: => core.ref.posts
+       today_label: Aujourd’hui
+       total_label: Total
+       users_heading: Utilisateurs
 
     # These translations are used in image upload buttons.
     upload_image:
@@ -382,7 +385,7 @@ core:
       joined_date_text: "Inscrit {ago}"
       online_text: En ligne
       posts_load_more_button: => core.ref.load_more
-      posts_link: Messages
+      posts_link: => core.ref.posts
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
@@ -441,16 +444,30 @@ core:
       next_page_button: => core.ref.next_page
       previous_page_button: Page précédente
 
+    # Translations in this namespace are displayed when Flarum encounters an error.
+     error:
+       403_message: Vous n’êtes pas autorisé à accéder à cette page.
+       404_message: La page que vous avez demandée est introuvable.
+       404_return_link: "Revenir à {forum}"
+       500_message: Une erreur est survenue lors du chargement de la page.
+       503_message: "{forum} est en maintenance. Merci de votre compréhension et de votre patience."
+
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
       all_discussions_heading: => core.ref.all_discussions
       next_page_button: => core.ref.next_page
 
+    # Translations in this namespace are displayed by the Log Out confirmation interface.
+     log_out:
+       log_out_button: => core.ref.log_out
+       log_out_confirmation: "Êtes-vous sûr de vouloir vous déconnecter de {forum} ?"
+       title: => core.ref.log_out
+
     # Translations in this namespace are displayed by the Reset Password interface.
-    reset:
-      confirm_password_label: => core.ref.confirm_password
-      password_label: => core.ref.password
-      submit_button: Réinitialiser le mot de passe
+    reset_password:
+      confirm_password_label: Confirmer le nouveau mot de passe
+      new_password_label: Nouveau mot de passe
+      submit_button: => core.ref.save_changes
       title: Réinitialiser votre mot de passe
 
   # Translations in this namespace are used in messages output by the API.
@@ -523,6 +540,7 @@ core:
     notifications: Notifications
     okay: Valider                                # Referenced by flarum-flags.yml, flarum-suspend.yml, flarum-tags.yml
     password: Mot de passe
+    posts: Messages
     rename: Renommer
     reply: Répondre                              # Referenced by flarum-mentions.yml
     restore: Restaurer
