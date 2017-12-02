@@ -4,7 +4,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Version](https://img.shields.io/badge/version-1.1.0-green.svg)](https://github.com/milescellar/flarum-ext-french/releases/tag/v1.1.0) [![Downloads](https://img.shields.io/packagist/dt/milescellar/flarum-ext-french.svg)](https://packagist.org/packages/milescellar/flarum-ext-french)
 
-[![Code Climate](https://codeclimate.com/github/milescellar/flarum-ext-french/badges/gpa.svg)](https://codeclimate.com/github/milescellar/flarum-ext-french) [![StyleCI](https://styleci.io/repos/70081209/shield?style=flat&branch=master)](https://styleci.io/repos/70081209)
+[![Maintainability](https://api.codeclimate.com/v1/badges/0e905748403a495f205b/maintainability)](https://codeclimate.com/github/milescellar/flarum-ext-french/maintainability) [![StyleCI](https://styleci.io/repos/70081209/shield?style=flat&branch=master)](https://styleci.io/repos/70081209)
 
 French language pack to localize the Flarum forum software, its bundled extensions and libraries.
 
