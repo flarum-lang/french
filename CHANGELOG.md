@@ -9,12 +9,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ### Added
 
 - The [Statistics](https://github.com/flarum/flarum-ext-statistics) bundled extension have been translated and is now available.
-- Some keys have been added.
+- Several keys have been added.
 
 ### Changed
 
 - The language pack is now compatible with the [Laravel's Validation Rules 5.5.0](https://github.com/laravel/laravel/releases/tag/v5.5.0) bundled library.
-- The language pack is now compatible with the [Moment.js 2.19.3](https://github.com/moment/moment/releases/tag/2.19.3) bundled library.
+- The language pack is now compatible with the [Moment.js 2.19.4](https://github.com/moment/moment/releases/tag/2.19.4) bundled library.
 - Some translations have been improved.
 
 ### Removed
