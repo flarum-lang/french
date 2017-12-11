@@ -23,6 +23,7 @@ Includes the following French locales compatible with:
     - [Lock](https://github.com/flarum/flarum-ext-lock) [0.1.0 Beta 7](https://github.com/flarum/flarum-ext-lock/releases/tag/v0.1.0-beta.7)
     - [Mentions](https://github.com/flarum/flarum-ext-mentions) [0.1.0 Beta 7](https://github.com/flarum/flarum-ext-mentions/releases/tag/v0.1.0-beta.7)
     - [Pusher](https://github.com/flarum/flarum-ext-pusher) [0.1.0 Beta 6](https://github.com/flarum/flarum-ext-pusher/releases/tag/v0.1.0-beta.6)
+    - [Statistics](https://github.com/flarum/flarum-ext-statistics)
     - [Sticky](https://github.com/flarum/flarum-ext-sticky) [0.1.0 Beta 7](https://github.com/flarum/flarum-ext-sticky/releases/tag/v0.1.0-beta.7)
     - [Subscriptions](https://github.com/flarum/flarum-ext-subscriptions) [0.1.0 Beta 6](https://github.com/flarum/flarum-ext-subscriptions/releases/tag/v0.1.0-beta.6)
     - [Suspend](https://github.com/flarum/flarum-ext-suspend) [0.1.0 Beta 7](https://github.com/flarum/flarum-ext-suspend/releases/tag/v0.1.0-beta.7)
