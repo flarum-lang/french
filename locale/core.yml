@@ -159,16 +159,6 @@ core:
     settings:
       submit_button: => core.ref.okay
 
-    # These translations are used in the Statistics dashboard widget.
-     statistics:
-       discussions_heading: => core.ref.discussions
-       last_28_days_label: 28 derniers jours
-       last_7_days_label: 7 derniers jours
-       posts_heading: => core.ref.posts
-       today_label: Aujourd’hui
-       total_label: Total
-       users_heading: Utilisateurs
-
     # These translations are used in image upload buttons.
     upload_image:
       remove_button: Supprimer
@@ -529,7 +519,7 @@ core:
     confirmation_email_sent: "Nous avons envoyé un courriel de confirmation à {email}. Si vous ne le recevez pas prochainement, veuillez vérifier le contenu de votre dossier contenant les pourriels."
     delete: Supprimer
     delete_forever: Supprimer définitivement
-    discussions: Discussions
+    discussions: Discussions                     # Referenced by flarum-statistics.yml
     edit: Modifier
     email: Adresse de courriel
     load_more: Charger davantage
@@ -540,7 +530,7 @@ core:
     notifications: Notifications
     okay: Valider                                # Referenced by flarum-flags.yml, flarum-suspend.yml, flarum-tags.yml
     password: Mot de passe
-    posts: Messages
+    posts: Messages                              # Referenced by flarum-statistics.yml
     rename: Renommer
     reply: Répondre                              # Referenced by flarum-mentions.yml
     restore: Restaurer
