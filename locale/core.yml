@@ -64,7 +64,7 @@ core:
     # These translations are used in the Edit Custom Footer modal dialog.
      edit_footer:
        customize_text: => core.ref.custom_footer_text
-       submit_button: => core.ref.save_changes
+       submit_button: => core.ref.okay
        title: => core.ref.custom_footer_title
 
     # These translations are used in the Edit Group modal dialog.
@@ -83,7 +83,7 @@ core:
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
       customize_text: => core.ref.custom_header_text
-      submit_button: => core.ref.save_changes
+      submit_button: => core.ref.okay
       title: => core.ref.custom_header_title
 
     # These translations are used in the email page of the admin interface.
@@ -466,7 +466,7 @@ core:
     reset_password:
       confirm_password_label: Confirmer le nouveau mot de passe
       new_password_label: Nouveau mot de passe
-      submit_button: => core.ref.save_changes
+      submit_button: => core.ref.okay
       title: Réinitialiser votre mot de passe
 
   # Translations in this namespace are used in messages output by the API.
