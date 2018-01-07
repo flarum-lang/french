@@ -19,12 +19,15 @@ core:
       colored_header_label: "En-tête coloré"
       colors_heading: Couleurs
       colors_text: "Sélectionnez deux couleurs pour styliser votre forum. La première couleur est utilisée pour les éléments mis en évidence et la seconde couleur est utilisée pour les éléments en arrière-plan."
+      custom_footer_heading: Personnaliser le pied de page
+      custom_footer_text: "Ajoutez du code HTML à afficher en bas de page, au-dessous du pied de page de Flarum."
       custom_header_heading: "Personnaliser l’en-tête"
       custom_header_text: "Ajoutez du code HTML à afficher en haut de page, au-dessus de l’en-tête de Flarum."
       custom_styles_heading: Personnaliser les styles
       custom_styles_text: Personnalisez l’apparence de votre forum en ajoutant votre propre code LESS/CSS qui sera appliqué en priorité par rapport aux styles par défaut de Flarum.
       dark_mode_label: Mode sombre
       edit_css_button: Modifier le CSS personnalisé
+      edit_footer_button: Modifier le pied de page personnalisé
       edit_header_button: "Modifier l’en-tête personnalisé"
       enter_hex_message: Veuillez saisir un code de couleur hexadécimal.
       favicon_heading: Favicon
@@ -57,6 +60,12 @@ core:
       customize_text: "Personnalisez l’apparence de votre forum en ajoutant votre propre code LESS/CSS qui sera appliqué en priorité par rapport <a>aux styles par défaut</a> de Flarum."
       submit_button: => core.ref.okay
       title: Modifier le CSS personnalisé
+
+    # These translations are used in the Edit Custom Footer modal dialog.
+     edit_footer:
+       customize_text: "Ajoutez du code HTML à afficher en bas de page, au-dessous du pied de page de Flarum."
+       submit_button: => core.ref.save_changes
+       title: Modifier le pied de page personnalisé
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
