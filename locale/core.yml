@@ -16,16 +16,16 @@ core:
 
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: "En-tête coloré"
+      colored_header_label: "Colorisation de l’en-tête"
       colors_heading: Couleurs
       colors_text: "Sélectionnez deux couleurs pour styliser votre forum. La première couleur est utilisée pour les éléments mis en évidence et la seconde couleur est utilisée pour les éléments en arrière-plan."
-      custom_footer_heading: Personnaliser le pied de page
+      custom_footer_heading: Personnalisation du pied de page
       custom_footer_text: => core.ref.custom_footer_text
-      custom_header_heading: "Personnaliser l’en-tête"
+      custom_header_heading: "Personnalisation de l’en-tête"
       custom_header_text: => core.ref.custom_header_text
       custom_styles_heading: Personnaliser les styles
       custom_styles_text: Personnalisez l’apparence de votre forum en ajoutant votre propre code LESS/CSS qui sera appliqué en priorité par rapport aux styles par défaut de Flarum.
-      dark_mode_label: Mode sombre
+      dark_mode_label: Mode nuit
       edit_css_button: Modifier le CSS personnalisé
       edit_footer_button: => core.ref.custom_footer_title
       edit_header_button: => core.ref.custom_header_title
