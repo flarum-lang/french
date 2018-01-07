@@ -170,7 +170,7 @@ core:
 
     # These translations are used in image upload buttons.
     upload_image:
-      remove_button: Supprimer
+      remove_button: => core.ref.delete
       upload_button: Sélectionner une image…
 
   # Translations in this namespace are used by the forum user interface.
@@ -376,7 +376,7 @@ core:
 
     # These translations are used in the user profile page and profile popup.
     user:
-      avatar_remove_button: Supprimer
+      avatar_remove_button: => core.ref.delete
       avatar_upload_button: Transférer
       avatar_upload_tooltip: Transférer un nouvel avatar
       discussions_link: => core.ref.discussions
