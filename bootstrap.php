@@ -13,5 +13,5 @@
 use Flarum\Extend;
 
 return [
-    new Extend\Locale(__DIR__)
+    new Extend\Locale(__DIR__),
 ];
