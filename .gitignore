@@ -1,19 +1,41 @@
-# Specifies intentionally untracked files to ignore.
+# Specifies intentionally untracked files to ignore
 # https://git-scm.com/docs/gitignore
 
-# Ignore Composer files.
+# Composer
 /vendor
 composer.phar
 
-# Ignore operating system files.
-*~
-._*
-.AppleDouble
+# Linux
 .directory
-.DS_Store
-.LSOverride
+.fuse_hidden*
+.nfs*
 .Trash-*
-Desktop.ini
-ehthumbs.db
+*~
+
+# macOS
+._*
+.apdisk
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.com.apple.timemachine.donotpresent
+.DocumentRevisions-V100
+.DS_Store
+.fseventsd
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
 Icon
+Network Trash Folder
+Temporary Items
+
+# Windows
+[Dd]esktop.ini
+*.lnk
+*.stackdump
+$RECYCLE.BIN/
+ehthumbs_vista.db
+ehthumbs.db
 Thumbs.db
