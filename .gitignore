@@ -1,18 +1,18 @@
 # Specifies intentionally untracked files to ignore
 # https://git-scm.com/docs/gitignore
 
-# Composer
+# Composer files
 /vendor
 composer.phar
 
-# Linux
+# Linux files
 .directory
 .fuse_hidden*
 .nfs*
 .Trash-*
 *~
 
-# macOS
+# macOS files
 ._*
 .apdisk
 .AppleDB
@@ -31,7 +31,7 @@ Icon
 Network Trash Folder
 Temporary Items
 
-# Windows
+# Windows files
 [Dd]esktop.ini
 *.lnk
 *.stackdump
