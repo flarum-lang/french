@@ -2,7 +2,7 @@
 
 ![Logo](http://i.cubeupload.com/0G6xQ9.png)
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/0e905748403a495f205b/maintainability)](https://codeclimate.com/github/milescellar/flarum-ext-french/maintainability) [![StyleCI](https://styleci.io/repos/70081209/shield?style=flat&branch=master)](https://styleci.io/repos/70081209)
+[![StyleCI](https://styleci.io/repos/70081209/shield?style=flat&branch=master)](https://styleci.io/repos/70081209)
 
 French language pack to localize the Flarum forum software, its bundled extensions and libraries.
 
