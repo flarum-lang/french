@@ -13,5 +13,5 @@
 use Flarum\Extend;
 
 return [
-    new Extend\LanguagePack
+    new Extend\LanguagePack(),
 ];
