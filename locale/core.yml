@@ -73,7 +73,7 @@ core:
       delete_button: Supprimer le groupe
       delete_confirmation: "Êtes-vous sûr de vouloir supprimer ce groupe ? Les membres du groupe ne seront pas supprimés."
       icon_label: Icône
-      icon_text: "Saisissez le nom d’une des icônes de <a>Font Awesome</a> <em>sans</em> le préfixe <code>fa-</code>."
+      icon_text: "Saisissez le nom d’une des classes d’icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe <code>fas fa-</code>."
       name_label: Nom
       plural_placeholder: Pluriel (tel que « modérateurs »)
       singular_placeholder: Singulier (tel que « modérateur »)
