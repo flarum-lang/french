@@ -71,6 +71,9 @@ flarum-tags:
     discussion_controls:
       edit_tags_button: Modifier les étiquettes
 
+    header:
+      back_to_tags_tooltip: "Revenir à la liste d’étiquettes"
+
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       more_link: Plus…
