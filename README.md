@@ -2,7 +2,7 @@
 
 ![Logo](http://i.cubeupload.com/0G6xQ9.png)
 
-[![StyleCI](https://styleci.io/repos/70081209/shield?style=flat&branch=master)](https://styleci.io/repos/70081209)
+[![Build Status](https://travis-ci.org/milescellar/flarum-ext-french.svg?branch=master)](https://travis-ci.org/milescellar/flarum-ext-french) [![StyleCI](https://styleci.io/repos/70081209/shield?style=flat&branch=master)](https://styleci.io/repos/70081209)
 
 French language pack to localize the Flarum forum software, its bundled extensions and libraries.
 
@@ -29,7 +29,7 @@ Includes the following French locales compatible with:
     - [Twitter Login 0.1.0 Beta 6](https://github.com/flarum/flarum-ext-auth-twitter)
   - Bundled libraries:
     - [Laravel's Validation Rules 5.6.12](https://github.com/laravel/laravel)
-    - [Moment.js 2.22.1](https://github.com/moment/moment)
+    - [Moment.js 2.22.2](https://github.com/moment/moment)
 
 Released under the MIT license. Please see [the license terms](https://github.com/milescellar/flarum-ext-french/blob/master/LICENSE).
 
