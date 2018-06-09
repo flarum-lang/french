@@ -82,8 +82,8 @@ flarum-tags:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} a ajouté {tagsAdded}."
       added_and_removed_tags_text: "{username} a ajouté {tagsAdded} et a supprimé {tagsRemoved}."
+      added_tags_text: "{username} a ajouté {tagsAdded}."
       removed_tags_text: "{username} a supprimé {tagsRemoved}."
       tags_text: "l’étiquette {tags}|les étiquettes {tags}"
 
