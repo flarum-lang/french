@@ -547,8 +547,8 @@ core:
     okay: Valider                                # Referenced by flarum-flags.yml, flarum-tags.yml
     password: Mot de passe
     posts: Messages                              # Referenced by flarum-statistics.yml
-    remove: Supprimer
     previous_page: Previous Page
+    remove: Supprimer
     rename: Renommer
     reply: Répondre                              # Referenced by flarum-mentions.yml
     reset_your_password: Réinitialiser le mot de passer
