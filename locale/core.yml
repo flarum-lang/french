@@ -62,10 +62,10 @@ core:
       title: Modifier le CSS personnalisé
 
     # These translations are used in the Edit Custom Footer modal dialog.
-     edit_footer:
-       customize_text: => core.ref.custom_footer_text
-       submit_button: => core.ref.okay
-       title: => core.ref.custom_footer_title
+    edit_footer:
+      customize_text: => core.ref.custom_footer_text
+      submit_button: => core.ref.okay
+      title: => core.ref.custom_footer_title
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
@@ -444,12 +444,12 @@ core:
       previous_page_button: => core.ref.previous_page
 
     # Translations in this namespace are displayed when Flarum encounters an error.
-     error:
-       403_message: Vous n’êtes pas autorisé à accéder à cette page.
-       404_message: La page que vous avez demandée est introuvable.
-       404_return_link: "Revenir à {forum}"
-       500_message: Une erreur est survenue lors du chargement de la page.
-       503_message: "{forum} est en maintenance. Merci de votre compréhension et de votre patience."
+    error:
+      403_message: Vous n’êtes pas autorisé à accéder à cette page.
+      404_message: La page que vous avez demandée est introuvable.
+      404_return_link: "Revenir à {forum}"
+      500_message: Une erreur est survenue lors du chargement de la page.
+      503_message: "{forum} est en maintenance. Merci de votre compréhension et de votre patience."
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
@@ -458,10 +458,10 @@ core:
       previous_page_button: => core.ref.previous_page
 
     # Translations in this namespace are displayed by the Log Out confirmation interface.
-     log_out:
-       log_out_button: => core.ref.log_out
-       log_out_confirmation: "Êtes-vous sûr de vouloir vous déconnecter de {forum} ?"
-       title: => core.ref.log_out
+    log_out:
+      log_out_button: => core.ref.log_out
+      log_out_confirmation: "Êtes-vous sûr de vouloir vous déconnecter de {forum} ?"
+      title: => core.ref.log_out
 
     # Translations in this namespace are displayed by the Reset Password interface.
     reset_password:
