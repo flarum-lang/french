@@ -133,8 +133,8 @@ core:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_renaming_label: Renommer ses discussions
       allow_post_editing_label: Modifier ses messages
+      allow_renaming_label: Renommer ses discussions
       create_heading: Création
       delete_discussions_forever_label: Supprimer définitivement les discussions
       delete_discussions_label: Supprimer les discussions
@@ -178,8 +178,8 @@ core:
 
     # These translations are used in the Change Email modal dialog.
     change_email:
-      confirmation_message: => core.ref.confirmation_email_sent
       confirm_password_placeholder: => core.ref.confirm_password
+      confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
       incorrect_password_message: Le mot de passe que vous avez spécifié est incorrect.
       submit_button: => core.ref.okay
@@ -341,8 +341,8 @@ core:
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      title: Renommer la discussion
       submit_button: => core.ref.rename
+      title: Renommer la discussion
 
     # These translations are used by the search results dropdown list.
     search:
@@ -365,8 +365,8 @@ core:
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
-      email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
+      email_placeholder: => core.ref.email
       log_in_text: "Déjà inscrit ? <a>Connexion</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
@@ -383,8 +383,8 @@ core:
       in_discussion_text: "Dans {discussion}"
       joined_date_text: "Inscrit {ago}"
       online_text: En ligne
-      posts_load_more_button: => core.ref.load_more
       posts_link: => core.ref.posts
+      posts_load_more_button: => core.ref.load_more
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
@@ -407,10 +407,6 @@ core:
     badge:
       hidden_tooltip: Masquée
 
-    # These translations are used to modify usernames.
-    username:
-      deleted_text: "[supprimé]"
-
     # These translations are displayed as error messages.
     error:
       generic_message: "Oups ! Quelque chose s’est mal passé. Veuillez actualiser la page puis réessayer."
@@ -428,6 +424,10 @@ core:
       glue_text: ", "
       three_text: "{first}, {second} et {third}"
       two_text: "{first} et {second}"
+
+    # These translations are used to modify usernames.
+    username:
+      deleted_text: "[supprimé]"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
@@ -479,7 +479,6 @@ core:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Activation de votre compte
       body: |
         Bonjour {username} !
 
@@ -489,10 +488,10 @@ core:
         {url}
 
         Si vous n’êtes pas à l’origine de cette action, veuillez ignorer ce courriel.
+      subject: Activation de votre compte
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Modification de votre adresse de courriel
       body: |
         Bonjour {username} !
 
@@ -502,10 +501,10 @@ core:
         {url}
 
         Si vous ne souhaitez pas modifier votre adresse de courriel, veuillez ignorer ce courriel.
+      subject: Modification de votre adresse de courriel
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
-      subject: Réinitialisation de votre mot de passe
       body: |
         Bonjour {username} !
 
@@ -515,6 +514,7 @@ core:
         {url}
 
         Si vous ne souhaitez pas réinitialiser votre mot de passe, veuillez ignorer ce courriel.
+      subject: Réinitialisation de votre mot de passe
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -552,8 +552,8 @@ core:
     restore: Restaurer
     settings: Paramètres
     sign_up: Inscription
-    start_a_discussion: Nouvelle discussion
     some_others: "{count} autre|{count} autres"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    start_a_discussion: Nouvelle discussion
     username: Nom d’utilisateur
     users: Utilisateurs                          # Referenced by flarum-statistics.yml
     write_a_reply: Rédigez une réponse…
