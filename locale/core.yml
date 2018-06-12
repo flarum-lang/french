@@ -170,7 +170,7 @@ core:
 
     # These translations are used in image upload buttons.
     upload_image:
-      remove_button: => core.ref.delete
+      remove_button: => core.ref.remove
       upload_button: Sélectionner une image…
 
   # Translations in this namespace are used by the forum user interface.
@@ -197,6 +197,7 @@ core:
       exit_full_screen_tooltip: Quitter le mode plein écran
       full_screen_tooltip: Plein écran
       minimize_tooltip: Réduire
+      preview_tooltip: Prévisualiser
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
@@ -376,7 +377,7 @@ core:
 
     # These translations are used in the user profile page and profile popup.
     user:
-      avatar_remove_button: => core.ref.delete
+      avatar_remove_button: => core.ref.remove
       avatar_upload_button: Transférer
       avatar_upload_tooltip: Transférer un nouvel avatar
       discussions_link: => core.ref.discussions
@@ -468,7 +469,7 @@ core:
       confirm_password_label: Confirmer le nouveau mot de passe
       new_password_label: Nouveau mot de passe
       submit_button: => core.ref.okay
-      title: Réinitialiser votre mot de passe
+      title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in messages output by the API.
   api:
@@ -543,13 +544,16 @@ core:
     mark_all_as_read: Tout marquer comme lu
     next_page: Page suivante
     notifications: Notifications
-    okay: Valider                                # Referenced by flarum-flags.yml, flarum-suspend.yml, flarum-tags.yml
+    okay: Valider                                # Referenced by flarum-flags.yml, flarum-tags.yml
     password: Mot de passe
     posts: Messages                              # Referenced by flarum-statistics.yml
+    remove: Supprimer
     previous_page: Previous Page
     rename: Renommer
     reply: Répondre                              # Referenced by flarum-mentions.yml
+    reset_your_password: Réinitialiser le mot de passer
     restore: Restaurer
+    save_changes: Enregistrer                    # Referenced by flarum-suspend.yml
     settings: Paramètres
     sign_up: Inscription
     some_others: "{count} autre|{count} autres"  # Referenced by flarum-likes.yml, flarum-mentions.yml

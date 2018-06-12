@@ -16,7 +16,7 @@ flarum-sticky:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      sticky_tooltip: Épinglée
+      sticky_tooltip: => flarum-sticky.ref.sticky
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
@@ -27,3 +27,11 @@ flarum-sticky:
     post_stream:
       discussion_stickied_text: "{username} a épinglé cette discussion."
       discussion_unstickied_text: "{username} a désépinglé cette discussion."
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    sticky: Épinglée
