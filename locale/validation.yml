@@ -7,7 +7,7 @@ validation:
   after: "Le :attribute doit être une date postérieure au :date."
   after_or_equal: "Le :attribute doit être une date postérieure ou égale au :date."
   alpha: "Le :attribute ne doit contenir que des lettres."
-  alpha_dash: "Le :attribute ne doit contenir que des lettres, des chiffres et des tirets."
+  alpha_dash: "Le :attribute ne doit contenir que des lettres, des chiffres, des tirets et des tirets bas."
   alpha_num: "Le :attribute ne doit contenir que des lettres et des chiffres."
   array: "Le :attribute doit être un tableau."
   before: "Le :attribute doit être une date antérieure au :date."
