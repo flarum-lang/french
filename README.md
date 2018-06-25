@@ -1,7 +1,5 @@
 # French Language Pack for [Flarum](http://flarum.org/)
 
-![Logo](http://i.cubeupload.com/0G6xQ9.png)
-
 [![Build Status](https://travis-ci.org/milescellar/flarum-ext-french.svg?branch=master)](https://travis-ci.org/milescellar/flarum-ext-french) [![StyleCI](https://styleci.io/repos/70081209/shield?style=flat&branch=master)](https://styleci.io/repos/70081209)
 
 French language pack to localize the Flarum forum software, its bundled extensions and libraries.
@@ -10,7 +8,7 @@ French language pack to localize the Flarum forum software, its bundled extensio
 
 Includes the following French locales compatible with:
 
-- [Flarum 0.1.0 Beta 7](https://github.com/flarum/core)
+- [Flarum 0.1.0 Beta 7.1](https://github.com/flarum/core)
   - Bundled extensions:
     - [Akismet 0.1.0 Beta 6](https://github.com/flarum/flarum-ext-akismet)
     - [Approval 0.1.0 Beta 7](https://github.com/flarum/flarum-ext-approval)

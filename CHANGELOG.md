@@ -8,16 +8,16 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
-- The [Statistics](https://github.com/flarum/flarum-ext-statistics) bundled extension have been translated and is now available.
+- Some YAML translation utilities to automatically check for issues have been added.
+- The newly released [Statistics](https://github.com/flarum/flarum-ext-statistics) bundled extension have been translated.
 - Several keys have been added.
-- YAML linter support have been added.
 
 ### Changed
 
 - The language pack is now compatible with the [Laravel's Validation Rules 5.6.12](https://github.com/laravel/laravel/releases/tag/v5.6.12) bundled library.
 - The language pack is now compatible with the [Moment.js 2.22.2](https://github.com/moment/moment/releases/tag/2.22.2) bundled library.
 - Extenders for bootstrapping have been changed.
-- Some translations have been improved.
+- Several translations have been improved.
 
 ### Removed
 
@@ -82,12 +82,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
-- The [Akismet](https://github.com/flarum/flarum-ext-akismet) bundled extension have been translated and is now available.
-- The [Approval](https://github.com/flarum/flarum-ext-approval) bundled extension have been translated and is now available.
-- The [Facebook Login](https://github.com/flarum/flarum-ext-auth-facebook) bundled extension have been translated and is now available.
-- The [GitHub Login](https://github.com/flarum/flarum-ext-auth-github) bundled extension have been translated and is now available.
-- The [Suspend](https://github.com/flarum/flarum-ext-suspend) bundled extension have been translated and is now available.
-- The [Twitter Login](https://github.com/flarum/flarum-ext-auth-twitter) bundled extension have been translated and is now available.
+- The newly released [Akismet](https://github.com/flarum/flarum-ext-akismet) bundled extension have been translated.
+- The newly released [Approval](https://github.com/flarum/flarum-ext-approval) bundled extension have been translated.
+- The newly released [Facebook Login](https://github.com/flarum/flarum-ext-auth-facebook) bundled extension have been translated.
+- The newly released [GitHub Login](https://github.com/flarum/flarum-ext-auth-github) bundled extension have been translated.
+- The newly released [Suspend](https://github.com/flarum/flarum-ext-suspend) bundled extension have been translated.
+- The newly released [Twitter Login](https://github.com/flarum/flarum-ext-auth-twitter) bundled extension have been translated.
 - Several keys have been added.
 
 ### Changed
