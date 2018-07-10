@@ -30,4 +30,4 @@ Please [send a pull request](https://github.com/milescellar/flarum-ext-french/co
 - Files should be encoded in UTF-8 without a BOM
 - Files should end with a newline
 
-Please note that we host an [.editorconfig](https://github.com/milescellar/flarum-ext-french/blob/master/.editorconfig) file which sets all those properties and instructs text editors to adhere to them. More information can be found at the [EditorConfig website](http://editorconfig.org/).
+Please note that we host an [.editorconfig](https://github.com/milescellar/flarum-ext-french/blob/master/.editorconfig) file which sets all those properties and instructs text editors to adhere to them. More information can be found at the [EditorConfig website](https://editorconfig.org/).

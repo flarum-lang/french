@@ -1,4 +1,4 @@
-# French Language Pack for [Flarum](http://flarum.org/)
+# French Language Pack for [Flarum](https://flarum.org/)
 
 [![Build Status](https://travis-ci.org/milescellar/flarum-ext-french.svg?branch=master)](https://travis-ci.org/milescellar/flarum-ext-french) [![StyleCI](https://styleci.io/repos/70081209/shield?style=flat&branch=master)](https://styleci.io/repos/70081209)
 

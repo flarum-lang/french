@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased](https://github.com/milescellar/flarum-ext-french/compare/v1.1.0...master)
 
@@ -35,7 +35,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 - The language pack is now compatible with [Flarum 0.1.0 Beta 7](https://github.com/flarum/core/releases/tag/v0.1.0-beta.7) and its bundled extensions.
 - The language pack is now compatible with the [Laravel's Validation Rules 5.4.30](https://github.com/laravel/laravel/releases/tag/v5.4.23) bundled library.
 - The language pack is now compatible with the [Moment.js 2.18.1](https://github.com/moment/moment/releases/tag/2.18.1) bundled library.
-- The language pack now uses [Semantic Versioning 2.0.0](http://semver.org/) specifications.
+- The language pack now uses [Semantic Versioning 2.0.0](https://semver.org/) specifications.
 - Several spaces have been replaced with non-breaking spaces to enforce French typographic rules.
 - The _icon.svg_ image file size have been reduced with no quality loss.
 - Several translations have been improved.
