@@ -16,6 +16,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 - The language pack is now compatible with the [Laravel's Validation Rules 5.7.0](https://github.com/laravel/laravel/releases/tag/v5.7.0) bundled library.
 - The language pack is now compatible with the [Moment.js 2.22.2](https://github.com/moment/moment/releases/tag/2.22.2) bundled library.
+- The _bootstrap.php_ file have been renamed to _extend.php_.
 - Extenders for bootstrapping have been changed.
 - Several translations have been improved.
 
