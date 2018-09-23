@@ -151,6 +151,7 @@ core:
       sign_up_label: S’inscrire
       start_discussions_label: Démarrer des discussions
       view_discussions_label: Voir les discussions
+      view_last_seen_at_label: Voir la dernière connexion des utilisateurs
       view_post_ips_label: Voir les adresses IP du message
       view_user_list_label: Voir la liste des utilisateurs
 
@@ -385,6 +386,7 @@ core:
       in_discussion_text: "Dans {discussion}"
       joined_date_text: "Inscrit {ago}"
       online_text: En ligne
+      posts_empty_text: Il semble qu’il n’y ait aucun message ici.
       posts_link: => core.ref.posts
       posts_load_more_button: => core.ref.load_more
       settings_link: => core.ref.settings
