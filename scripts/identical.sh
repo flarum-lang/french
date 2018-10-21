@@ -22,9 +22,9 @@ function cleanup {
 
 cd "$TEMP_DIR"
 
-curl -s -L "https://github.com/flarum/flarum-ext-english/archive/$VERSION.tar.gz" | tar xz
+curl -s -L "https://github.com/flarum/lang-english/archive/$VERSION.tar.gz" | tar xz
 
-cd "$TEMP_DIR/flarum-ext-english-$VERSION/locale"
+cd "$TEMP_DIR/lang-english-$VERSION/locale"
 
 RC=0
 

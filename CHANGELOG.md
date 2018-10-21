@@ -4,12 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/milescellar/flarum-ext-french/compare/v1.1.0...master)
+## [Unreleased](https://github.com/milescellar/lang-french/compare/v1.1.0...master)
 
 ### Added
 
 - Some YAML translation utilities to automatically check for issues have been added.
-- The newly released [Statistics](https://github.com/flarum/flarum-ext-statistics) bundled extension have been translated.
+- The newly released [Statistics](https://github.com/flarum/statistics) bundled extension have been translated.
 - Several keys have been added.
 
 ### Changed
@@ -25,7 +25,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 - Several keys have been removed.
 - An obsolete translation have been removed.
 
-## [1.1.0](https://github.com/milescellar/flarum-ext-french/compare/v1.0.6...v1.1.0) - 2017-07-24
+## [1.1.0](https://github.com/milescellar/lang-french/compare/v1.0.6...v1.1.0) - 2017-07-24
 
 ### Added
 
@@ -46,13 +46,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 - Some keys have been removed.
 - An obsolete translation have been removed.
 
-## [1.0.6](https://github.com/milescellar/flarum-ext-french/compare/v1.0.5...v1.0.6) - 2016-11-17
+## [1.0.6](https://github.com/milescellar/lang-french/compare/v1.0.5...v1.0.6) - 2016-11-17
 
 ### Fixed
 
 - All `<abbr>` tags caused issues and have been removed from translations. Thanks to [@Magicalex](https://github.com/Magicalex).
 
-## [1.0.5](https://github.com/milescellar/flarum-ext-french/compare/v1.0.4...v1.0.5) - 2016-10-29
+## [1.0.5](https://github.com/milescellar/lang-french/compare/v1.0.4...v1.0.5) - 2016-10-29
 
 ### Changed
 
@@ -62,7 +62,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 - A plural rule related to unread messages have been fixed. Thanks to [@Magicalex](https://github.com/Magicalex).
 
-## [1.0.4](https://github.com/milescellar/flarum-ext-french/compare/v1.0.3...v1.0.4) - 2016-10-20
+## [1.0.4](https://github.com/milescellar/lang-french/compare/v1.0.3...v1.0.4) - 2016-10-20
 
 ### Added
 
@@ -79,16 +79,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 - Several keys have been removed.
 
-## [1.0.3](https://github.com/milescellar/flarum-ext-french/compare/v1.0.2...v1.0.3) - 2016-03-29
+## [1.0.3](https://github.com/milescellar/lang-french/compare/v1.0.2...v1.0.3) - 2016-03-29
 
 ### Added
 
-- The newly released [Akismet](https://github.com/flarum/flarum-ext-akismet) bundled extension have been translated.
-- The newly released [Approval](https://github.com/flarum/flarum-ext-approval) bundled extension have been translated.
-- The newly released [Facebook Login](https://github.com/flarum/flarum-ext-auth-facebook) bundled extension have been translated.
-- The newly released [GitHub Login](https://github.com/flarum/flarum-ext-auth-github) bundled extension have been translated.
-- The newly released [Suspend](https://github.com/flarum/flarum-ext-suspend) bundled extension have been translated.
-- The newly released [Twitter Login](https://github.com/flarum/flarum-ext-auth-twitter) bundled extension have been translated.
+- The newly released [Akismet](https://github.com/flarum/akismet) bundled extension have been translated.
+- The newly released [Approval](https://github.com/flarum/approval) bundled extension have been translated.
+- The newly released [Facebook Login](https://github.com/flarum/auth-facebook) bundled extension have been translated.
+- The newly released [GitHub Login](https://github.com/flarum/auth-github) bundled extension have been translated.
+- The newly released [Suspend](https://github.com/flarum/suspend) bundled extension have been translated.
+- The newly released [Twitter Login](https://github.com/flarum/auth-twitter) bundled extension have been translated.
 - Several keys have been added.
 
 ### Changed
@@ -103,7 +103,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 - Several keys have been removed.
 
-## [1.0.2](https://github.com/milescellar/flarum-ext-french/compare/v1.0.1...v1.0.2) - 2015-11-05
+## [1.0.2](https://github.com/milescellar/lang-french/compare/v1.0.1...v1.0.2) - 2015-11-05
 
 ### Added
 
@@ -119,7 +119,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 - A key have been removed.
 
-## [1.0.1](https://github.com/milescellar/flarum-ext-french/compare/v1.0.0...v1.0.1) - 2015-11-03
+## [1.0.1](https://github.com/milescellar/lang-french/compare/v1.0.0...v1.0.1) - 2015-11-03
 
 ### Added
 
