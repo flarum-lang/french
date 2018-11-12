@@ -93,6 +93,7 @@ validation:
   unique: "Le :attribute est déjà pris."
   uploaded: "Le transfert de :attribute a échoué."
   url: "Le format du :attribute est invalide."
+  uuid: "Le :attribute doit être un UUID valide."
 
   attributes:
     username: nom d’utilisateur
