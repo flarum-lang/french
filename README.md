@@ -12,11 +12,13 @@ Includes the following French locales compatible with:
   - Bundled extensions:
     - [Akismet 0.1.0 Beta 6](https://github.com/flarum/akismet)
     - [Approval 0.1.0 Beta 7](https://github.com/flarum/approval)
+    - [Emoji 0.1.0 Beta 6](https://github.com/flarum/emoji)
     - [Facebook Login 0.1.0 Beta 6](https://github.com/flarum/auth-facebook)
     - [Flags 0.1.0 Beta 7](https://github.com/flarum/flags)
     - [GitHub Login 0.1.0 Beta 6](https://github.com/flarum/auth-github)
     - [Likes 0.1.0 Beta 6](https://github.com/flarum/likes)
     - [Lock 0.1.0 Beta 7](https://github.com/flarum/lock)
+    - [Markdown 0.1.0 Beta 5](https://github.com/flarum/markdown)
     - [Mentions 0.1.0 Beta 7](https://github.com/flarum/mentions)
     - [Pusher 0.1.0 Beta 6](https://github.com/flarum/pusher)
     - [Statistics](https://github.com/flarum/statistics)
@@ -26,7 +28,7 @@ Includes the following French locales compatible with:
     - [Tags 0.1.0 Beta 7](https://github.com/flarum/tags)
     - [Twitter Login 0.1.0 Beta 6](https://github.com/flarum/auth-twitter)
   - Bundled libraries:
-    - [Laravel's Validation Rules 5.7.0](https://github.com/laravel/laravel)
+    - [Laravel's Validation Rules 5.7.13](https://github.com/laravel/laravel)
     - [Moment.js 2.22.2](https://github.com/moment/moment)
 
 Released under the MIT license. Please see [the license terms](https://github.com/milescellar/lang-french/blob/master/LICENSE).
