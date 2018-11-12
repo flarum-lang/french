@@ -11,9 +11,9 @@ flarum-markdown:
     composer:
       bold_tooltip: Mettre le texte en gras
       code_tooltip: Insérer du code
+      header_tooltip: Ajouter un titre
       italic_tooltip: Mettre le texte en italique
       link_tooltip: Ajouter un lien hypertexte
       ordered_list_tooltip: Créer une liste numérotée
       quote_tooltip: Insérer une citation
       unordered_list_tooltip: Créer une liste à puces
-      header_tooltip: Ajouter un titre
