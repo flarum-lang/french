@@ -9,12 +9,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ### Added
 
 - Some YAML translation utilities to automatically check for issues have been added.
+- The newly released [Emoji](https://github.com/flarum/emoji) bundled extension have been translated.
+- The newly released [Markdown](https://github.com/flarum/markdown) bundled extension have been translated.
 - The newly released [Statistics](https://github.com/flarum/statistics) bundled extension have been translated.
 - Several keys have been added.
 
 ### Changed
 
-- The language pack is now compatible with the [Laravel's Validation Rules 5.7.0](https://github.com/laravel/laravel/releases/tag/v5.7.0) bundled library.
+- The language pack is now compatible with the [Laravel's Validation Rules 5.7.13](https://github.com/laravel/laravel/releases/tag/v5.7.13) bundled library.
 - The language pack is now compatible with the [Moment.js 2.22.2](https://github.com/moment/moment/releases/tag/2.22.2) bundled library.
 - The _flarum-ext-french_ package have been renamed to _lang-french_.
 - The _bootstrap.php_ file have been renamed to _extend.php_.
