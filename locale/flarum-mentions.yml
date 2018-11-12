@@ -9,6 +9,7 @@ flarum-mentions:
 
     # These translations are used by the composer (reply autocompletion function).
     composer:
+      mention_tooltip: Mentionner un utilisateur ou un message
       reply_to_post_text: "Répondre à #{number}"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
