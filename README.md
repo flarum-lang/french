@@ -21,7 +21,7 @@ Includes the following French locales compatible with:
     - [Markdown 0.1.0 Beta 8](https://github.com/flarum/markdown)
     - [Mentions 0.1.0 Beta 8](https://github.com/flarum/mentions)
     - [Pusher 0.1.0 Beta 8](https://github.com/flarum/pusher)
-    - [Statistics](https://github.com/flarum/statistics)
+    - [Statistics 0.1.0 Beta 8](https://github.com/flarum/statistics)
     - [Sticky 0.1.0 Beta 8](https://github.com/flarum/sticky)
     - [Subscriptions 0.1.0 Beta 8](https://github.com/flarum/subscriptions)
     - [Suspend 0.1.0 Beta 8](https://github.com/flarum/suspend)
