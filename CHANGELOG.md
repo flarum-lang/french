@@ -4,8 +4,6 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/milescellar/lang-french/compare/v1.2.0...master)
-
 ## [1.2.0](https://github.com/milescellar/lang-french/compare/v1.1.0...v1.2.0) - 2018-11-29
 
 ### Added
@@ -18,6 +16,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ### Changed
 
+- The language pack is now compatible with [Flarum 0.1.0 Beta 8](https://github.com/flarum/core/releases/tag/v0.1.0-beta.8) and its bundled extensions.
 - The language pack is now compatible with the [Laravel's Validation Rules 5.7.13](https://github.com/laravel/laravel/releases/tag/v5.7.13) bundled library.
 - The language pack is now compatible with the [Moment.js 2.22.2](https://github.com/moment/moment/releases/tag/2.22.2) bundled library.
 - The _flarum-ext-french_ package have been renamed to _lang-french_.
