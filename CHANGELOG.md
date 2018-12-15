@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased](https://github.com/milescellar/lang-french/compare/v1.2.1...master)
+
+### Added
+
+- Some keys have been added.
+
+### Changed
+
+- The language pack is now compatible with the [Laravel's Validation Rules 5.7.15](https://github.com/laravel/laravel/releases/tag/v5.7.15) bundled library.
+- The language pack is now compatible with the [Moment.js 2.23.0](https://github.com/moment/moment/releases/tag/2.23.0) bundled library.
+
 ## [1.2.1](https://github.com/milescellar/lang-french/compare/v1.2.0...v1.2.1) - 2018-11-29
 
 ### Changed
