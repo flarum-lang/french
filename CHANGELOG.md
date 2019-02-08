@@ -13,7 +13,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ### Changed
 
 - The language pack is now compatible with the [Laravel's Validation Rules 5.7.19](https://github.com/laravel/laravel/releases/tag/v5.7.19) bundled library.
-- The language pack is now compatible with the [Moment.js 2.24.0](https://github.com/moment/moment/releases/tag/2.23.0) bundled library.
+- The language pack is now compatible with the [Moment.js 2.24.0](https://github.com/moment/moment/releases/tag/2.24.0) bundled library.
 
 ## [1.2.1](https://github.com/milescellar/lang-french/compare/v1.2.0...v1.2.1) - 2018-11-29
 
