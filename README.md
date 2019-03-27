@@ -28,7 +28,7 @@ Includes the following French locales compatible with:
     - [Tags 0.1.0 Beta 8.2](https://github.com/flarum/tags)
     - [Twitter Login 0.1.0 Beta 8](https://github.com/flarum/auth-twitter)
   - Bundled libraries:
-    - [Laravel's Validation Rules 5.7.19](https://github.com/laravel/laravel)
+    - [Laravel's Validation Rules 5.8.3](https://github.com/laravel/laravel)
     - [Moment.js 2.24.0](https://github.com/moment/moment)
 
 Released under the MIT license. Please see [the license terms](https://github.com/milescellar/lang-french/blob/master/LICENSE).
