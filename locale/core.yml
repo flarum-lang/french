@@ -89,19 +89,28 @@ core:
 
     # These translations are used in the email page of the admin interface.
     email:
-      account_heading: Compte SMTP
       addresses_heading: Adresses
+      driver_heading: Sélectionner un driver
       driver_label: Driver
-      encryption_label: Chiffrement
       from_label: Expéditeur
       heading: => core.ref.email
-      host_label: Hôte
-      password_label: => core.ref.password
-      port_label: Port
-      server_heading: Serveur SMTP
+      mailgun_heading: Paramètres Mailgun
+      mail_encryption_label: Chiffrement
+      mail_host_label: Hôte
+      mail_mailgun_secret_label: Clé secrète
+      mail_mailgun_domain_label: Domaine
+      mail_mandrill_secret_label: Clé secrète
+      mail_password_label: => core.ref.password
+      mail_port_label: Port
+      mail_ses_key_label: Clé
+      mail_ses_region_label: Région
+      mail_ses_secret_label: Secret
+      mail_username_label: => core.ref.username
+      mandrill_heading: Paramètres Mandrill
+      ses_heading: Paramètres SES
+      smtp_heading: Paramètres SMTP
       submit_button: => core.ref.okay
-      text: Configurez les paramètres et les adresses SMTP que votre forum utilisera pour envoyer les courriels.
-      username_label: => core.ref.username
+      text: Configurez le driver, les paramètres et les adresses que votre forum utilisera pour envoyer les courriels.
 
     # These translations are used in the Extensions page.
     extensions:
