@@ -14,8 +14,8 @@ flagrow-analytics:
                 piwikHideAliasUrl: Dans le rapport "Liens externes", masquez les clics sur les URL d'alias connus.
                 piwikPrependDomain: Ajoutez le nom de domaine au titre de la page lors du suivi.
                 piwikSiteId: ID du site
-                piwikTrackSubdomain: Suivre les visiteurs dans tous les sous-domaines de Flarum
                 piwikTrackAccounts: Suivre les comptes d'utilisateurs individuels
+                piwikTrackSubdomain: Suivre les visiteurs dans tous les sous-domaines de Flarum
                 piwikUrl: Nom de domaine Piwik ou url
                 statusGoogle: Activer Google Analytics
                 statusPiwik: Activer Piwik
@@ -35,10 +35,4 @@ flagrow-analytics:
                 email: Suivre par email
                 none: Ne pas suivre
                 username: Suivre par nom d'utilisateur
-                
 
-        page:
-            nav:
-                description: Jetez un coup d'oeil aux statistiques
-                title: Analyses
-                
