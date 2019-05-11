@@ -96,8 +96,8 @@ core:
       heading: => core.ref.email
       mail_encryption_label: Chiffrement
       mail_host_label: Hôte
-      mail_mailgun_secret_label: Clé secrète
       mail_mailgun_domain_label: Domaine
+      mail_mailgun_secret_label: Clé secrète
       mail_mandrill_secret_label: Clé secrète
       mail_password_label: => core.ref.password
       mail_port_label: Port
