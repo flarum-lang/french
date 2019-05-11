@@ -1,36 +1,44 @@
 flagrow-analytics:
     admin:
+        page:
+            nav:
+                description: Jetez un coup d'oeil aux statistiques
+                title: Analyses
+                
+                                
         popup:
-            title: Paramètres d'Analytics
-
-            section:
-                googleAnalytics: Google Analytics
-                piwik: Piwik
-
             field:
-                statusGoogle: Activer Google Analytics
                 googleTrackingCode: Code de suivi
-                statusPiwik: Activer Piwik
-                piwikUrl: Nom de domaine Piwik ou url
+                piwikAliasUrl: URL alias
+                piwikAuthToken: Jeton d'authentification
+                piwikHideAliasUrl: Dans le rapport "Liens externes", masquez les clics sur les URL d'alias connus.
+                piwikPrependDomain: Ajoutez le nom de domaine au titre de la page lors du suivi.
                 piwikSiteId: ID du site
                 piwikTrackSubdomain: Suivre les visiteurs dans tous les sous-domaines de Flarum
-                piwikPrependDomain: Ajoutez le nom de domaine au titre de la page lors du suivi.
-                piwikHideAliasUrl: Dans le rapport "Liens externes", masquez les clics sur les URL d'alias connus.
-                piwikAliasUrl: URL alias
                 piwikTrackAccounts: Suivre les comptes d'utilisateurs individuels
-                piwikAuthToken: Jeton d'authentification
+                piwikUrl: Nom de domaine Piwik ou url
+                statusGoogle: Activer Google Analytics
+                statusPiwik: Activer Piwik
 
             placeholder:
                 piwikAuthToken: |
                     Remplissez ce jeton pour activer un onglet Statistiques de Piwik dans le panneau d'administration.
                     Vous pouvez le trouver dans Paramètres > Personnel > Jeton d'authentification de l'API
+                    
+            section:
+                googleAnalytics: Google Analytics
+                piwik: Piwik        
+                    
+            title: Paramètres d'Analytics         
 
             trackAccounts:
+                email: Suivre par email
                 none: Ne pas suivre
                 username: Suivre par nom d'utilisateur
-                email: Suivre par email
+                
 
         page:
             nav:
-                title: Analyses
                 description: Jetez un coup d'oeil aux statistiques
+                title: Analyses
+                
