@@ -12,9 +12,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ### Changed
 
-- The language pack is now compatible with the [Laravel's Validation Rules 5.8.16](https://github.com/laravel/laravel/releases/tag/v5.8.16) bundled library.
+- The language pack is now compatible with the [Laravel's Validation Rules 5.8.17](https://github.com/laravel/laravel/releases/tag/v5.8.17) bundled library.
 - The language pack is now compatible with the [Moment.js 2.24.0](https://github.com/moment/moment/releases/tag/2.24.0) bundled library.
-- Some translations have been improved.
+- Some translations have been improved (thanks to [@Hiobi](https://github.com/Hiobi)).
 - Some translations have been properly sorted (thanks to [@Hiobi](https://github.com/Hiobi)).
 
 ### Removed
