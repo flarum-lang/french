@@ -18,6 +18,8 @@ flarum-tags:
       delete_tag_confirmation: "Êtes-vous sûr de vouloir supprimer cette étiquette ? Les discussions publiées sous cette étiquette ne seront pas supprimées."
       description_label: Description
       hide_label: Masquer de la liste de discussions
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
       slug_label: Identifiant
