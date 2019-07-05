@@ -10,9 +10,9 @@ If you're looking for French translations of third-party extensions for Flarum, 
 
 Includes the following French locales compatible with:
 
-- [Flarum 0.1.0 Beta 8.2](https://github.com/flarum/core)
+- [Flarum 0.1.0 Beta 9](https://github.com/flarum/core)
   - Bundled extensions:
-    - [Akismet 0.1.0 Beta 8](https://github.com/flarum/akismet)
+    - [Akismet 0.1.0 Beta 9](https://github.com/flarum/akismet)
     - [Approval 0.1.0 Beta 8](https://github.com/flarum/approval)
     - [Emoji 0.1.0 Beta 8](https://github.com/flarum/emoji)
     - [Facebook Login 0.1.0 Beta 9](https://github.com/flarum/auth-facebook)
