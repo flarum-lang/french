@@ -73,8 +73,8 @@ core:
       color_label: => core.ref.color
       delete_button: Supprimer le groupe
       delete_confirmation: "Êtes-vous sûr de vouloir supprimer ce groupe ? Les membres du groupe ne seront pas supprimés."
-      icon_label: Icône
-      icon_text: "Saisissez le nom d’une des classes d’icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe <code>fas fa-</code>."
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
       name_label: Nom
       plural_placeholder: Pluriel (tel que « modérateurs »)
       singular_placeholder: Singulier (tel que « modérateur »)
@@ -462,6 +462,8 @@ core:
       403_message: Vous n’êtes pas autorisé à accéder à cette page.
       404_message: La page que vous avez demandée est introuvable.
       404_return_link: "Revenir à {forum}"
+      419_message: Vous êtes resté inactif trop longtemps.
+      419_return_link: Revenir pour réessayer
       500_message: Une erreur est survenue lors du chargement de la page.
       503_message: "{forum} est en maintenance. Merci de votre compréhension et de votre patience."
 
@@ -551,6 +553,8 @@ core:
     discussions: Discussions                     # Referenced by flarum-statistics.yml
     edit: Modifier
     email: Adresse de courriel
+    icon: Icône
+    icon_text: "Saisissez le nom d’une des classes d’icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe <code>fas fa-</code>."
     load_more: Charger davantage
     log_in: Connexion
     log_out: Déconnexion
