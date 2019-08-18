@@ -406,6 +406,8 @@ core:
       button: Commandes
       delete_button: => core.ref.delete
       delete_confirmation: "Êtes-vous sûr de vouloir supprimer cet utilisateur ? Tous ses messages seront également supprimés."
+      delete_error_message: "La suppression de l’utilisateur <i>{username} ({email})</i> a échoué"
+      delete_success_message: "L’utilisateur <i>{username} ({email})</i> a été supprimé"
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
@@ -459,13 +461,13 @@ core:
 
     # Translations in this namespace are displayed when Flarum encounters an error.
     error:
-      403_message: Vous n’êtes pas autorisé à accéder à cette page.
-      404_message: La page que vous avez demandée est introuvable.
-      404_return_link: "Revenir à {forum}"
-      419_message: Vous êtes resté inactif trop longtemps.
-      419_return_link: Revenir pour réessayer
-      500_message: Une erreur est survenue lors du chargement de la page.
-      503_message: "{forum} est en maintenance. Merci de votre compréhension et de votre patience."
+      csrf_token_mismatch: Vous êtes resté inactif trop longtemps.
+      csrf_token_mismatch_return_link: Revenir pour réessayer
+      forbidden: Vous n’êtes pas autorisé à accéder à cette page.
+      invalid_confirmation_token: Ce lien de confirmation est invalide ou a déjà été utilisé.
+      not_found: La page que vous avez demandée est introuvable.
+      not_found_return_link: "Revenir à {forum}"
+      unknown: Une erreur est survenue lors du chargement de la page.
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
