@@ -295,7 +295,6 @@ core:
       cannot_start_discussion_button: Impossible de démarrer une discussion
       mark_all_as_read_confirmation: "Êtes-vous sûr de vouloir marquer toutes les notifications comme lues ?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      mark_as_read_tooltip: Marquer comme lu
       refresh_tooltip: Actualiser
       start_discussion_button: => core.ref.start_a_discussion
 
@@ -323,6 +322,7 @@ core:
       discussion_renamed_text: "{username} a renommé le titre de votre discussion"
       empty_text: Aucune notification
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      mark_as_read_tooltip: Marquer comme lu
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
 
@@ -465,8 +465,8 @@ core:
     error:
       csrf_token_mismatch: Vous êtes resté inactif trop longtemps.
       csrf_token_mismatch_return_link: Revenir pour réessayer
-      not_authenticated: Vous n’êtes pas autorisé à accéder à cette page. Veuillez réessayer après vous être connecté.
       invalid_confirmation_token: Ce lien de confirmation est invalide ou a déjà été utilisé.
+      not_authenticated: Vous n’êtes pas autorisé à accéder à cette page. Veuillez réessayer après vous être connecté.
       not_found: La page que vous avez demandée est introuvable.
       not_found_return_link: "Revenir à {forum}"
       permission_denied: Vous n’êtes pas autorisé à accéder à cette page.
