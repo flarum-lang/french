@@ -4,11 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/milescellar/phpbb-language-fr/compare/v1.3.0...master)
+## [1.4.0](https://github.com/milescellar/lang-french/compare/v1.3.0...v1.4.0) - 2019-09-18
 
 ### Added
 
-- Some keys have been added.
+- Several keys have been added.
+
+### Changed
+
+- The language pack is now compatible with [Flarum 0.1.0 Beta 10](https://github.com/flarum/core/releases/tag/v0.1.0-beta.10) and its bundled extensions.
+- The language pack is now compatible with the [Laravel's Validation Rules 6.0.2](https://github.com/laravel/laravel/releases/tag/v6.0.2) bundled library.
 
 ### Removed
 
