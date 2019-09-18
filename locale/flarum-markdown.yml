@@ -12,6 +12,7 @@ flarum-markdown:
       bold_tooltip: Mettre le texte en gras
       code_tooltip: Insérer du code
       header_tooltip: Ajouter un titre
+      image_tooltip: Ajouter une image
       italic_tooltip: Mettre le texte en italique
       link_tooltip: Ajouter un lien hypertexte
       ordered_list_tooltip: Créer une liste numérotée
