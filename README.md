@@ -10,7 +10,7 @@ If you're looking for French translations of third-party extensions for Flarum, 
 
 Includes the following French locales compatible with:
 
-- [Flarum 0.1.0 Beta 10](https://github.com/flarum/core)
+- [Flarum 0.1.0 Beta 11](https://github.com/flarum/core)
   - Bundled extensions:
     - [Akismet](https://github.com/flarum/akismet)
     - [Approval](https://github.com/flarum/approval)
@@ -30,7 +30,7 @@ Includes the following French locales compatible with:
     - [Tags](https://github.com/flarum/tags)
     - [Twitter Login](https://github.com/flarum/auth-twitter)
   - Bundled libraries:
-    - [Laravel's Validation Rules 6.0.2](https://github.com/laravel/laravel)
+    - [Laravel's Validation Rules 6.8.0](https://github.com/laravel/laravel)
     - [Moment.js 2.24.0](https://github.com/moment/moment)
 
 Released under the MIT license. Please see [the license terms](https://github.com/milescellar/lang-french/blob/master/LICENSE).
