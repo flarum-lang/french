@@ -162,7 +162,7 @@ core:
       sign_up_label: S’inscrire
       start_discussions_label: Démarrer des discussions
       view_discussions_label: Voir les discussions
-      view_last_seen_at_label: Voir la dernière connexion des utilisateurs
+      view_last_seen_at_label: Toujours voir la dernière connexion des utilisateurs
       view_post_ips_label: Voir les adresses IP du message
       view_user_list_label: Voir la liste des utilisateurs
 
