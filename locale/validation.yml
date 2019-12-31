@@ -75,7 +75,6 @@ validation:
   not_in: "Le :attribute sélectionné est invalide."
   not_regex: "Le format du :attribute est invalide."
   numeric: "Le :attribute doit être un nombre."
-  password: "Le mot de passe est incorrect."
   present: "Le champ du :attribute doit être présent."
   regex: "Le format du :attribute est invalide."
   required: "Le champ du :attribute est obligatoire."
