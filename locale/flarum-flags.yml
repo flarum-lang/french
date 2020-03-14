@@ -14,6 +14,7 @@ flarum-flags:
 
     # These translations are used in the Flags Settings modal dialog.
     settings:
+      flag_own_posts_label: Autoriser les utilisateurs à signaler leurs propres messages
       guidelines_url_label: Lien vers les règles de la communauté
       title: Paramètres des signalements
 
@@ -24,12 +25,14 @@ flarum-flags:
     flag_post:
       confirmation_message: Merci d’avoir signalé ce message. Les modérateurs s’en occuperont dès que possible.
       dismiss_button: => core.ref.okay
-      reason_inappropriate_label: inapproprié
+      reason_details_placeholder: Informations complémentaires (facultatif)
+      reason_inappropriate_label: Inapproprié
       reason_inappropriate_text: "Ce message est offensant, vulgaire, ou ne respecte pas les <a>règles de la communauté</a>."
+      reason_missing_message: Veuillez communiquer certaines informations à nos modérateurs.
       reason_off_topic_label: "hors-sujet"
       reason_off_topic_text: Ce message n’est pas pertinent à la discussion actuelle et devrait être déplacé ailleurs.
-      reason_other_label: autre
-      reason_spam_label: indésirable
+      reason_other_label: Autre (veuillez préciser)
+      reason_spam_label: Indésirable
       reason_spam_text: Ce message est publicitaire.
       submit_button: => flarum-flags.ref.flag_post
       title: => flarum-flags.ref.flag_post

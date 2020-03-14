@@ -97,6 +97,7 @@ core:
       mail_encryption_label: Chiffrement
       mail_host_label: Hôte
       mail_mailgun_domain_label: Domaine
+      mail_mailgun_region_label: Région
       mail_mailgun_secret_label: Clé secrète
       mail_mandrill_secret_label: Clé secrète
       mail_password_label: => core.ref.password
@@ -107,6 +108,7 @@ core:
       mail_username_label: => core.ref.username
       mailgun_heading: Paramètres Mailgun
       mandrill_heading: Paramètres Mandrill
+      not_sending_message: Flarum n’envoie actuellement aucun courriel. Cette erreur peut être provoquée par le driver sélectionné ou une mauvaise configuration.
       ses_heading: Paramètres SES
       smtp_heading: Paramètres SMTP
       submit_button: => core.ref.okay
@@ -156,6 +158,7 @@ core:
       moderate_heading: Modération
       new_group_button: Nouveau groupe
       participate_heading: Participation
+      post_without_throttle_label: Répondre plusieurs fois sans attendre
       read_heading: Consultation
       rename_discussions_label: Renommer les discussions
       reply_to_discussions_label: Répondre aux discussions
