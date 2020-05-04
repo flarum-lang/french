@@ -73,6 +73,7 @@ core:
       color_label: => core.ref.color
       delete_button: Supprimer le groupe
       delete_confirmation: "Êtes-vous sûr de vouloir supprimer ce groupe ? Les membres du groupe ne seront pas supprimés."
+      hide_label: Masquer sur le forum
       icon_label: => core.ref.icon
       icon_text: => core.ref.icon_text
       name_label: Nom
@@ -165,6 +166,7 @@ core:
       sign_up_label: S’inscrire
       start_discussions_label: Démarrer des discussions
       view_discussions_label: Voir les discussions
+      view_hidden_groups_label: Voir les badges des groupes masqués
       view_last_seen_at_label: Toujours voir la dernière connexion des utilisateurs
       view_post_ips_label: Voir les adresses IP du message
       view_user_list_label: Voir la liste des utilisateurs
@@ -338,8 +340,10 @@ core:
     # These translations are used by the post control buttons.
     post_controls:
       delete_button: => core.ref.delete
+      delete_confirmation: "Êtes-vous sûr de vouloir supprimer définitivement ce message ? Cette action est irréversible"
       delete_forever_button: => core.ref.delete_forever
       edit_button: => core.ref.edit
+      hide_confirmation: "Êtes-vous sûr de vouloir supprimer ce message ?"
       restore_button: => core.ref.restore
 
     # These translations are used in the scrubber to the right of the post stream.
@@ -410,7 +414,7 @@ core:
     user_controls:
       button: Commandes
       delete_button: => core.ref.delete
-      delete_confirmation: "Êtes-vous sûr de vouloir supprimer cet utilisateur ? Tous ses messages seront également supprimés."
+      delete_confirmation: "Êtes-vous sûr de vouloir supprimer cet utilisateur ? Veuillez noter que ses messages seront conservés."
       delete_error_message: "La suppression de l’utilisateur <i>{username} ({email})</i> a échoué"
       delete_success_message: "L’utilisateur <i>{username} ({email})</i> a été supprimé"
       edit_button: => core.ref.edit
