@@ -1,6 +1,6 @@
 # French Language Pack for [Flarum](https://flarum.org/)
 
-[![Build Status](https://travis-ci.org/qiaeru/lang-french.svg?branch=master)](https://travis-ci.org/qiaeru/lang-french) [![StyleCI](https://styleci.io/repos/70081209/shield?style=flat&branch=master)](https://styleci.io/repos/70081209)
+[![Build Status](https://travis-ci.com/qiaeru/lang-french.svg?branch=master)](https://travis-ci.com/qiaeru/lang-french) [![StyleCI](https://styleci.io/repos/70081209/shield?style=flat&branch=master)](https://styleci.io/repos/70081209)
 
 French language pack to localize the Flarum forum software, its bundled extensions and libraries.
 
