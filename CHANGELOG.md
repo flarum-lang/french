@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.7.0](https://github.com/milescellar/lang-french/compare/v1.6.0...v1.7.0) - 2020-05-04
+## [1.7.0](https://github.com/qiaeru/lang-french/compare/v1.6.0...v1.7.0) - 2020-05-04
 
 ### Added
 
@@ -15,7 +15,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 - The language pack is now compatible with [Flarum 0.1.0 Beta 13](https://github.com/flarum/core/releases/tag/v0.1.0-beta.13) and its bundled extensions.
 - The language pack is now compatible with the [Moment.js 2.25.1](https://github.com/moment/moment/releases/tag/2.25.1) bundled library.
 
-## [1.6.0](https://github.com/milescellar/lang-french/compare/v1.5.1...v1.6.0) - 2020-03-14
+## [1.6.0](https://github.com/qiaeru/lang-french/compare/v1.5.1...v1.6.0) - 2020-03-14
 
 ### Added
 
@@ -25,13 +25,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 - The language pack is now compatible with [Flarum 0.1.0 Beta 12](https://github.com/flarum/core/releases/tag/v0.1.0-beta.12) and its bundled extensions.
 
-## [1.5.1](https://github.com/milescellar/lang-french/compare/v1.5.0...v1.5.1) - 2019-12-31
+## [1.5.1](https://github.com/qiaeru/lang-french/compare/v1.5.0...v1.5.1) - 2019-12-31
 
 ### Removed
 
 - An extra key have been removed.
 
-## [1.5.0](https://github.com/milescellar/lang-french/compare/v1.4.1...v1.5.0) - 2019-12-31
+## [1.5.0](https://github.com/qiaeru/lang-french/compare/v1.4.1...v1.5.0) - 2019-12-31
 
 ### Added
 
@@ -43,13 +43,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 - The language pack is now compatible with the [Laravel's Validation Rules 6.8.0](https://github.com/laravel/laravel/releases/tag/v6.8.0) bundled library.
 - A translation have been improved.
 
-## [1.4.1](https://github.com/milescellar/lang-french/compare/v1.4.0...v1.4.1) - 2019-09-18
+## [1.4.1](https://github.com/qiaeru/lang-french/compare/v1.4.0...v1.4.1) - 2019-09-18
 
 ### Changed
 
 - Some translations have been fixed.
 
-## [1.4.0](https://github.com/milescellar/lang-french/compare/v1.3.0...v1.4.0) - 2019-09-18
+## [1.4.0](https://github.com/qiaeru/lang-french/compare/v1.3.0...v1.4.0) - 2019-09-18
 
 ### Added
 
@@ -64,7 +64,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 - Some keys have been removed.
 
-## [1.3.0](https://github.com/milescellar/lang-french/compare/v1.2.1...v1.3.0) - 2019-07-05
+## [1.3.0](https://github.com/qiaeru/lang-french/compare/v1.2.1...v1.3.0) - 2019-07-05
 
 ### Added
 
@@ -82,13 +82,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 - Some keys have been removed.
 
-## [1.2.1](https://github.com/milescellar/lang-french/compare/v1.2.0...v1.2.1) - 2018-11-29
+## [1.2.1](https://github.com/qiaeru/lang-french/compare/v1.2.0...v1.2.1) - 2018-11-29
 
 ### Changed
 
 - The SVG image used as language pack's logo have been fixed.
 
-## [1.2.0](https://github.com/milescellar/lang-french/compare/v1.1.0...v1.2.0) - 2018-11-29
+## [1.2.0](https://github.com/qiaeru/lang-french/compare/v1.1.0...v1.2.0) - 2018-11-29
 
 ### Added
 
@@ -113,7 +113,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 - Several keys have been removed.
 - An obsolete translation have been removed.
 
-## [1.1.0](https://github.com/milescellar/lang-french/compare/v1.0.6...v1.1.0) - 2017-07-24
+## [1.1.0](https://github.com/qiaeru/lang-french/compare/v1.0.6...v1.1.0) - 2017-07-24
 
 ### Added
 
@@ -134,13 +134,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 - Some keys have been removed.
 - An obsolete translation have been removed.
 
-## [1.0.6](https://github.com/milescellar/lang-french/compare/v1.0.5...v1.0.6) - 2016-11-17
+## [1.0.6](https://github.com/qiaeru/lang-french/compare/v1.0.5...v1.0.6) - 2016-11-17
 
 ### Fixed
 
 - All `<abbr>` tags caused issues and have been removed from translations. Thanks to [@Magicalex](https://github.com/Magicalex).
 
-## [1.0.5](https://github.com/milescellar/lang-french/compare/v1.0.4...v1.0.5) - 2016-10-29
+## [1.0.5](https://github.com/qiaeru/lang-french/compare/v1.0.4...v1.0.5) - 2016-10-29
 
 ### Changed
 
@@ -150,7 +150,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 - A plural rule related to unread messages have been fixed. Thanks to [@Magicalex](https://github.com/Magicalex).
 
-## [1.0.4](https://github.com/milescellar/lang-french/compare/v1.0.3...v1.0.4) - 2016-10-20
+## [1.0.4](https://github.com/qiaeru/lang-french/compare/v1.0.3...v1.0.4) - 2016-10-20
 
 ### Added
 
@@ -167,7 +167,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 - Several keys have been removed.
 
-## [1.0.3](https://github.com/milescellar/lang-french/compare/v1.0.2...v1.0.3) - 2016-03-29
+## [1.0.3](https://github.com/qiaeru/lang-french/compare/v1.0.2...v1.0.3) - 2016-03-29
 
 ### Added
 
@@ -191,7 +191,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 - Several keys have been removed.
 
-## [1.0.2](https://github.com/milescellar/lang-french/compare/v1.0.1...v1.0.2) - 2015-11-05
+## [1.0.2](https://github.com/qiaeru/lang-french/compare/v1.0.1...v1.0.2) - 2015-11-05
 
 ### Added
 
@@ -207,7 +207,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 - A key have been removed.
 
-## [1.0.1](https://github.com/milescellar/lang-french/compare/v1.0.0...v1.0.1) - 2015-11-03
+## [1.0.1](https://github.com/qiaeru/lang-french/compare/v1.0.0...v1.0.1) - 2015-11-03
 
 ### Added
 

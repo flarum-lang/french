@@ -1,18 +1,18 @@
 {
-    "name": "milescellar/lang-french",
+    "name": "qiaeru/lang-french",
     "description": "French language pack for Flarum and its bundled extensions.",
     "type": "flarum-extension",
     "keywords": ["extension", "flarum", "french", "locale", "translation"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Miles Cellar",
-            "email": "milescellar@protonmail.com"
+            "name": "Qiaeru",
+            "email": "qiaeru@protonmail.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/milescellar/lang-french/issues",
-        "source": "https://github.com/milescellar/lang-french"
+        "issues": "https://github.com/qiaeru/lang-french/issues",
+        "source": "https://github.com/qiaeru/lang-french"
     },
     "require": {
         "flarum/core": "^0.1.0-beta.13"
