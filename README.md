@@ -45,7 +45,7 @@ composer require qiaeru/lang-french
 
 ## Updating
 
-Make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following command in the location where Flarum is installed:
+Just like the installation procedure, make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following commands in the location where Flarum is installed:
 
 ```shell
 composer update qiaeru/lang-french
