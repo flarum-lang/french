@@ -10,7 +10,7 @@ If you're looking for French translations of third-party extensions for Flarum, 
 
 Includes the following French locales compatible with:
 
-- [Flarum 0.1.0 Beta 13](https://github.com/flarum/core)
+- [Flarum 0.1.0 Beta 14](https://github.com/flarum/core)
   - Bundled extensions:
     - [Akismet](https://github.com/flarum/akismet)
     - [Approval](https://github.com/flarum/approval)
@@ -31,7 +31,7 @@ Includes the following French locales compatible with:
     - [Twitter Login](https://github.com/flarum/auth-twitter)
   - Bundled libraries:
     - [Laravel's Validation Rules 5.8.35](https://github.com/laravel/laravel)
-    - [Moment.js 2.25.1](https://github.com/moment/moment)
+    - [Moment.js 2.27.0](https://github.com/moment/moment)
 
 Released under the MIT license. Please see [the license terms](https://github.com/qiaeru/lang-french/blob/master/LICENSE).
 
@@ -43,4 +43,11 @@ Flarum use Composer to manage its dependencies and extensions. The French langua
 composer require qiaeru/lang-french
 ```
 
-The same command can be used to update independently the French language pack, without updating anything else. Note that because the French language pack will be added as a Flarum's dependency, it will also be automatically updated when updating Flarum and its dependencies via Composer.
+## Updating
+
+Make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following command in the location where Flarum is installed:
+
+```shell
+composer update qiaeru/lang-french
+php flarum cache:clear
+```

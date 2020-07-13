@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased](https://github.com/qiaeru/lang-french/compare/v1.7.0...master)
+
+### Added
+
+- Some keys have been added.
+
+### Changed
+
+- The language pack is now compatible with [Flarum 0.1.0 Beta 14](https://github.com/flarum/core/releases/tag/v0.1.0-beta.14) and its bundled extensions.
+- The language pack is now compatible with the [Moment.js 2.27.0](https://github.com/moment/moment/releases/tag/2.27.0) bundled library.
+
+### Removed
+
+- Some keys have been removed.
+
 ## [1.7.0](https://github.com/qiaeru/lang-french/compare/v1.6.0...v1.7.0) - 2020-05-04
 
 ### Added
