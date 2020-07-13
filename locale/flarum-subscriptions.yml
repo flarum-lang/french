@@ -18,6 +18,10 @@ flarum-subscriptions:
       unfollow_button: Se désabonner
       unignore_button: Ne plus ignorer
 
+    # These translations are used on the page that displays all subscriptions.
+    following:
+      meta_title_text: => flarum-subscriptions.ref.following
+
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       following_link: Abonnements

@@ -40,6 +40,8 @@ core:
     basics:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Langue par défaut
+      display_name_heading: Nom d’affichage de l’utilisateur
+      display_name_text: Sélectionnez le pilote qui doit être utilisé pour les noms d’affichage des utilisateurs. Par défaut, le nom d’utilisateur est affiché.
       forum_description_heading: Description du forum
       forum_description_text: Affichez un résumé décrivant votre communauté. La description apparaîtra dans la balise Méta et s’affichera dans le résultat des moteurs de recherche.
       forum_title_heading: Titre du forum
@@ -103,14 +105,10 @@ core:
       mail_mandrill_secret_label: Clé secrète
       mail_password_label: => core.ref.password
       mail_port_label: Port
-      mail_ses_key_label: Clé
-      mail_ses_region_label: Région
-      mail_ses_secret_label: Secret
       mail_username_label: => core.ref.username
       mailgun_heading: Paramètres Mailgun
       mandrill_heading: Paramètres Mandrill
       not_sending_message: Flarum n’envoie actuellement aucun courriel. Cette erreur peut être provoquée par le driver sélectionné ou une mauvaise configuration.
-      ses_heading: Paramètres SES
       smtp_heading: Paramètres SMTP
       submit_button: => core.ref.okay
       text: Configurez le driver, les paramètres et les adresses que votre forum utilisera pour envoyer les courriels.
@@ -300,6 +298,7 @@ core:
       cannot_start_discussion_button: Impossible de démarrer une discussion
       mark_all_as_read_confirmation: "Êtes-vous sûr de vouloir marquer toutes les notifications comme lues ?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      meta_title_text: => core.ref.all_discussions
       refresh_tooltip: Actualiser
       start_discussion_button: => core.ref.start_a_discussion
 
