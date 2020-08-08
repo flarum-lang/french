@@ -547,15 +547,15 @@ core:
 
     # These translations are used when testing mailing configuration
     send_test:
-      subject: Courriel de test de Flarum
       body: |
         Bonjour {username} !
 
         Ceci est un courriel de test qui confirme que la configuration des courriels de Flarum fonctionne correctement.
 
-        Si vous êtes bien à l’origine de cette action, ce courriel confirme que votre configuration est fonctionnelle !
+        Si vous êtes bien à l’origine de cette action, ce courriel confirme que votre configuration est fonctionnelle !
 
         Si vous n’êtes pas à l’origine de cette action, veuillez ignorer ce courriel.
+      subject: Courriel de test de Flarum
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
