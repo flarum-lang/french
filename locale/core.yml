@@ -102,13 +102,15 @@ core:
       mail_mailgun_domain_label: Domaine
       mail_mailgun_region_label: Région
       mail_mailgun_secret_label: Clé secrète
-      mail_mandrill_secret_label: Clé secrète
       mail_password_label: => core.ref.password
       mail_port_label: Port
       mail_username_label: => core.ref.username
       mailgun_heading: Paramètres Mailgun
-      mandrill_heading: Paramètres Mandrill
       not_sending_message: Flarum n’envoie actuellement aucun courriel. Cette erreur peut être provoquée par le driver sélectionné ou une mauvaise configuration.
+      send_test_mail_button: Envoyer
+      send_test_mail_heading: Envoyer le courriel de test
+      send_test_mail_success: "Le courriel de test a été envoyé !"
+      send_test_mail_text: "Cela enverra un courriel qui utilisera la configuration paramétrée ci-dessus à votre adresse de courriel {email}."
       smtp_heading: Paramètres SMTP
       submit_button: => core.ref.okay
       text: Configurez le driver, les paramètres et les adresses que votre forum utilisera pour envoyer les courriels.
@@ -542,6 +544,18 @@ core:
 
         Si vous ne souhaitez pas réinitialiser votre mot de passe, veuillez ignorer ce courriel.
       subject: Réinitialisation de votre mot de passe
+
+    # These translations are used when testing mailing configuration
+    send_test:
+      subject: Courriel de test de Flarum
+      body: |
+        Bonjour {username} !
+
+        Ceci est un courriel de test qui confirme que la configuration des courriels de Flarum fonctionne correctement.
+
+        Si vous êtes bien à l’origine de cette action, ce courriel confirme que votre configuration est fonctionnelle !
+
+        Si vous n’êtes pas à l’origine de cette action, veuillez ignorer ce courriel.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
