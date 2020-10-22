@@ -47,6 +47,28 @@ flarum-subscriptions:
       notify_alert_tooltip: Recevoir une notification sur le forum lorsque de nouveaux messages sont publiés
       notify_email_tooltip: Recevoir un courriel lorsque de nouveaux messages sont publiés
 
+  # Translations in this namespace are used in emails sent by the forum.
+  email:
+
+    # These translations are used in emails sent when a post is made in a subscribed discussion
+    new_post:
+      body: |
+        Bonjour {recipient_display_name} !
+
+        {poster_display_name} a publié un message dans une discussion à laquelle vous êtes abonné : {title}.
+
+        Pour consulter ce nouveau message, veuillez cliquer sur le lien suivant :
+        {url}
+
+        ---
+
+        {content}
+
+        ---
+
+        Vous ne recevrez plus de notification concernant cette discussion tant que vous êtes à jour.
+      subject: "[Nouveau message] {title}"
+
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
   ##
