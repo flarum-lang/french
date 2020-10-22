@@ -30,8 +30,8 @@ Includes the following French locales compatible with:
     - [Tags](https://github.com/flarum/tags)
     - [Twitter Login](https://github.com/flarum/auth-twitter)
   - Bundled libraries:
-    - [Laravel's Validation Rules 6.18.8](https://github.com/laravel/laravel)
-    - [Moment.js 2.27.0](https://github.com/moment/moment)
+    - [Laravel's Validation Rules 6.18.35](https://github.com/laravel/laravel)
+    - [Moment.js 2.29.1](https://github.com/moment/moment)
 
 Released under the MIT license. Please see [the license terms](https://github.com/qiaeru/lang-french/blob/master/LICENSE).
 
