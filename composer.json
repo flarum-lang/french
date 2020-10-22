@@ -16,11 +16,11 @@
         "source": "https://github.com/qiaeru/lang-french"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.14"
+        "flarum/core": "^0.1.0-beta.15"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.8.x-dev"
+            "dev-master": "1.9.x-dev"
         },
         "flarum-extension": {
             "title": "French",
