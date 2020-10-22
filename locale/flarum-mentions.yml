@@ -41,7 +41,6 @@ flarum-mentions:
 
     # These translations are used in emails sent when a post is replied to
     post_mentioned:
-      subject: "{replier_display_name} a répondu à votre message dans {title}"
       body: |
         Bonjour {recipient_display_name} !
 
@@ -52,10 +51,10 @@ flarum-mentions:
         ---
 
         {content}
+      subject: "{replier_display_name} a répondu à votre message dans {title}"
 
     # These translations are used in emails sent when a user is mentioned
     user_mentioned:
-      subject: "{mentioner_display_name} vous a mentionné dans {title}"
       body: |
         Bonjour {recipient_display_name} !
 
@@ -66,3 +65,4 @@ flarum-mentions:
         ---
 
         {content}
+      subject: "{mentioner_display_name} vous a mentionné dans {title}"

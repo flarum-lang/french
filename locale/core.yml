@@ -436,8 +436,8 @@ core:
     # These translations are displayed as error messages.
     error:
       dependent_extensions_message: "Impossible de désactiver {extension}. Veuillez en premier lieu désactiver les extensions dépendantes suivantes : {extensions}"
-      missing_dependencies_message: "Impossible d’activer {extension}. Veuillez en premier lieu activer les dépendances suivantes : {extensions}"
       generic_message: "Oups ! Quelque chose s’est mal passé. Veuillez actualiser la page puis réessayer."
+      missing_dependencies_message: "Impossible d’activer {extension}. Veuillez en premier lieu activer les dépendances suivantes : {extensions}"
       not_found_message: La ressource que vous souhaitez atteindre est introuvable.
       permission_denied_message: Vous n’avez pas la permission de faire cela.
       rate_limit_exceeded_message: Vous êtes un peu trop rapide. Veuillez réessayer dans quelques secondes.
