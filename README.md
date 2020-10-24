@@ -10,7 +10,7 @@ If you're looking for French translations of third-party extensions for Flarum, 
 
 Includes the following French locales compatible with:
 
-- [Flarum 0.1.0 Beta 15](https://github.com/flarum/core)
+- [Flarum 0.1.0 Beta 15 (Development Version)](https://github.com/flarum/core)
   - Bundled extensions:
     - [Akismet](https://github.com/flarum/akismet)
     - [Approval](https://github.com/flarum/approval)
