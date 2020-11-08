@@ -1,24 +1,6 @@
 // Custom French Moment.js Locales
 // Based on: https://github.com/moment/moment/blob/develop/locale/fr.js
 
-var monthsStrictRegex = /^(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)/i,
-    monthsShortStrictRegex = /(janv\.?|févr\.?|mars|avr\.?|mai|juin|juil\.?|août|sept\.?|oct\.?|nov\.?|déc\.?)/i,
-    monthsRegex = /(janv\.?|févr\.?|mars|avr\.?|mai|juin|juil\.?|août|sept\.?|oct\.?|nov\.?|déc\.?|janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)/i,
-    monthsParse = [
-        /^janv/i,
-        /^févr/i,
-        /^mars/i,
-        /^avr/i,
-        /^mai/i,
-        /^juin/i,
-        /^juil/i,
-        /^août/i,
-        /^sept/i,
-        /^oct/i,
-        /^nov/i,
-        /^déc/i,
-    ];
-
 moment.locale('fr', {
   months: 'janvier_février_mars_avril_mai_juin_juillet_août_septembre_octobre_novembre_décembre'.split(
     '_'
@@ -26,13 +8,7 @@ moment.locale('fr', {
   monthsShort: 'janv._févr._mars_avr._mai_juin_juil._août_sept._oct._nov._déc.'.split(
     '_'
   ),
-  monthsRegex: monthsRegex,
-  monthsShortRegex: monthsRegex,
-  monthsStrictRegex: monthsStrictRegex,
-  monthsShortStrictRegex: monthsShortStrictRegex,
-  monthsParse: monthsParse,
-  longMonthsParse: monthsParse,
-  shortMonthsParse: monthsParse,
+  monthsParseExact: true,
   weekdays: 'dimanche_lundi_mardi_mercredi_jeudi_vendredi_samedi'.split('_'),
   weekdaysShort: 'dim._lun._mar._mer._jeu._ven._sam.'.split('_'),
   weekdaysMin: 'di_lu_ma_me_je_ve_sa'.split('_'),
