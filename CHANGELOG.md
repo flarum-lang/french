@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ### Changed
 
-- Errors when displaying dates have been fixed, thanks to  [clarkwinkelmann](https://discuss.flarum.org/u/clarkwinkelmann)
+- Errors when displaying dates have been fixed, thanks to  [clarkwinkelmann](https://discuss.flarum.org/u/clarkwinkelmann).
 
 ## [1.8.0](https://github.com/qiaeru/lang-french/compare/v1.7.0...v1.8.0) - 2020-10-22
 
