@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.8.2](https://github.com/qiaeru/lang-french/compare/v1.8.1...v1.8.2) - 2020-11-19
+
+### Added
+
+- Some missing keys have been added, fixing [issue #24](https://github.com/qiaeru/lang-french/issues/24), thanks to [HLFH](https://github.com/HLFH), [noelma](https://github.com/noelma), [tlalok](https://discuss.flarum.org/u/tlalok) and [TutoRapide](https://discuss.flarum.org/u/TutoRapide).
+
 ## [1.8.1](https://github.com/qiaeru/lang-french/compare/v1.8.0...v1.8.1) - 2020-11-08
 
 ### Changed
