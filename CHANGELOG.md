@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.8.3](https://github.com/qiaeru/lang-french/compare/v1.8.2...v1.8.3) - 2020-11-19
+
+### Changed
+
+- Migration from [Moment.js 2.25.1](https://github.com/moment/moment/releases/tag/2.25.1) to [Day.js 1.9.6](https://github.com/iamkun/dayjs/releases/tag/v1.9.6), thanks to [HLFH](https://github.com/HLFH).
+
 ## [1.8.2](https://github.com/qiaeru/lang-french/compare/v1.8.1...v1.8.2) - 2020-11-19
 
 ### Added
@@ -14,7 +20,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ### Changed
 
-- Errors when displaying dates have been fixed, thanks to  [clarkwinkelmann](https://discuss.flarum.org/u/clarkwinkelmann).
+- Errors when displaying dates have been fixed, thanks to [clarkwinkelmann](https://discuss.flarum.org/u/clarkwinkelmann).
 
 ## [1.8.0](https://github.com/qiaeru/lang-french/compare/v1.7.0...v1.8.0) - 2020-10-22
 

@@ -31,7 +31,7 @@ Includes the following French locales compatible with:
     - [Twitter Login](https://github.com/flarum/auth-twitter)
   - Bundled libraries:
     - [Laravel's Validation Rules 6.18.35](https://github.com/laravel/laravel)
-    - [Moment.js 2.25.1](https://github.com/moment/moment)
+    - [Day.js 1.9.6](https://github.com/iamkun/dayjs)
 
 Released under the MIT license. Please see [the license terms](https://github.com/qiaeru/lang-french/blob/master/LICENSE).
 
