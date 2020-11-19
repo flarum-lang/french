@@ -228,8 +228,10 @@ core:
     # These translations are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: "Vous n’avez pas enregistré vos modifications. Souhaitez-vous les abandonner ?"
+      edited_message: Votre modification a été appliquée.
       post_link: "Message #{number} de {discussion}"
       submit_button: => core.ref.okay
+      view_button: => core.ref.view
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
@@ -237,7 +239,7 @@ core:
       discard_confirmation: "Vous n’avez pas publié votre réponse. Souhaitez-vous l’abandonner ?"
       posted_message: Votre réponse a été publiée.
       submit_button: Publier la réponse
-      view_button: Consulter
+      view_button: => core.ref.view
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
@@ -604,6 +606,7 @@ core:
     start_a_discussion: Nouvelle discussion
     username: Nom d’utilisateur
     users: Utilisateurs                          # Referenced by flarum-statistics.yml
+    view: Consulter
     write_a_reply: Rédigez une réponse…
     you: Vous                                    # Referenced by flarum-likes.yml, flarum-mentions.yml
 
