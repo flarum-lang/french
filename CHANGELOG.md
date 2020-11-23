@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.8.4](https://github.com/qiaeru/lang-french/compare/v1.8.3...v1.8.4) - 2020-11-23
+
+### Added
+
+- Add some extra code from the template of Day.js locale file. With a lot of hope, fixes [#25](https://github.com/qiaeru/lang-french/issues/25). Thanks to [ouraios](https://github.com/ouraios).
+
 ## [1.8.3](https://github.com/qiaeru/lang-french/compare/v1.8.2...v1.8.3) - 2020-11-19
 
 ### Changed
