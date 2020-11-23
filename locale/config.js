@@ -1,5 +1,7 @@
 // Based on: https://github.com/iamkun/dayjs/blob/dev/src/locale/fr.js
 
+import dayjs from 'dayjs'
+
 const locale = {
   name: 'fr',
   weekdays: 'dimanche_lundi_mardi_mercredi_jeudi_vendredi_samedi'.split('_'),
@@ -37,3 +39,7 @@ const locale = {
     return `${n}${o}`
   }
 }
+
+dayjs.locale(locale, null, true)
+
+export default locale
