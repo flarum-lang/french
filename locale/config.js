@@ -1,8 +1,6 @@
 // Based on: https://github.com/iamkun/dayjs/blob/dev/src/locale/fr.js
 
-import dayjs from 'dayjs'
-
-const locale = {
+dayjs.locale({
   name: 'fr',
   weekdays: 'dimanche_lundi_mardi_mercredi_jeudi_vendredi_samedi'.split('_'),
   weekdaysShort: 'dim._lun._mar._mer._jeu._ven._sam.'.split('_'),
@@ -38,8 +36,4 @@ const locale = {
     const o = n === 1 ? 'er' : ''
     return `${n}${o}`
   }
-}
-
-dayjs.locale(locale, null, true)
-
-export default locale
+}, null, false);
