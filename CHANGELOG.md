@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.9.0](https://github.com/qiaeru/lang-french/compare/v1.8.5...v1.9.0) - 2020-12-22
+
+### Added
+
+- The newly released [Nicknames](https://github.com/flarum/nicknames) bundled extension have been translated.
+- Several keys have been added.
+
+### Changed
+
+- The language pack is now compatible with [Flarum 0.1.0 Beta 15](https://github.com/flarum/core/releases/tag/v0.1.0-beta.15) and its bundled extensions.
+- Some translations have been improved.
+
+### Removed
+
+- Several keys have been removed.
+
 ## [1.8.5](https://github.com/qiaeru/lang-french/compare/v1.8.4...v1.8.5) - 2020-11-24
 
 ### Added

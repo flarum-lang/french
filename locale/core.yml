@@ -7,13 +7,6 @@ core:
   # Translations in this namespace are used by the admin interface.
   admin:
 
-    # These translations are used in the placeholder Add Extension modal dialog.
-    add_extension:
-      developer_text: "Si vous êtes un développeur, vous pouvez <a>consultez la documentation</a> pour vous initier à créer vos propres extensions."
-      install_text: "De même, vous pouvez rechercher des extensions sur la <a>communauté officielle de Flarum</a> et les installer manuellement en utilisant Composer."
-      temporary_text: "Prochainement, cette fenêtre vous permettra d’ajouter en quelques clics une extension à votre forum. Nous sommes d’ailleurs en train de développer cet écosystème !"
-      title: Ajouter une extension
-
     # These translations are used in the Appearance page.
     appearance:
       colored_header_label: "Colorisation de l’en-tête"
@@ -26,6 +19,7 @@ core:
       custom_styles_heading: Personnaliser les styles
       custom_styles_text: Personnalisez l’apparence de votre forum en ajoutant votre propre code LESS/CSS qui sera appliqué en priorité par rapport aux styles par défaut de Flarum.
       dark_mode_label: Mode nuit
+      description: "Personnalisez les couleurs, le logo et d’autres aspects de votre forum."
       edit_css_button: Modifier le CSS personnalisé
       edit_footer_button: => core.ref.custom_footer_title
       edit_header_button: => core.ref.custom_header_title
@@ -35,11 +29,13 @@ core:
       logo_heading: Logo
       logo_text: Transférez une image qui remplacera le titre du forum.
       submit_button: => core.ref.okay
+      title: Apparence
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Langue par défaut
+      description: "Configurez le titre, la langue et d’autres paramètres essentiels de votre forum."
       display_name_heading: Nom d’affichage de l’utilisateur
       display_name_text: Sélectionnez le pilote qui doit être utilisé pour les noms d’affichage des utilisateurs. Par défaut, le nom d’utilisateur est affiché.
       forum_description_heading: Description du forum
@@ -49,13 +45,18 @@ core:
       home_page_text: Sélectionnez la page que les utilisateurs verront lorsqu’ils visiteront votre forum pour la première fois.
       saved_message: Vos modifications ont été enregistrées.
       show_language_selector_label: Afficher le sélecteur de langue
+      slug_driver_heading: "Pilote de l’identifiant : {model}"
+      slug_driver_text: Sélectionnez un pilote qui sera utilisé pour l’identifiant de ce modèle.
       submit_button: => core.ref.okay
+      title: Essentiels
       welcome_banner_heading: Bandeau de bienvenue
       welcome_banner_text: "Personnalisez le texte du bandeau qui est affiché sur la page de la liste de discussions. Il vous permet d’accueillir les invités de votre forum."
 
     # These translations are used in the Dashboard page.
     dashboard:
       clear_cache_button: Vider le cache
+      description: Votre forum en un clin d’œil.
+      title: Tableau de bord
       tools_button: Outils
 
     # These translations are used in the Edit Custom CSS modal dialog.
@@ -93,10 +94,10 @@ core:
     # These translations are used in the email page of the admin interface.
     email:
       addresses_heading: Adresses
+      description: "Configurez le driver, les paramètres et les adresses que votre forum utilisera pour envoyer les courriels."
       driver_heading: Sélectionner un driver
       driver_label: Driver
       from_label: Expéditeur
-      heading: => core.ref.email
       mail_encryption_label: Chiffrement
       mail_host_label: Hôte
       mail_mailgun_domain_label: Domaine
@@ -113,16 +114,31 @@ core:
       send_test_mail_text: "Cela enverra un courriel qui utilisera la configuration paramétrée ci-dessus à votre adresse de courriel {email}."
       smtp_heading: Paramètres SMTP
       submit_button: => core.ref.okay
-      text: Configurez le driver, les paramètres et les adresses que votre forum utilisera pour envoyer les courriels.
+      title: => core.ref.email
 
-    # These translations are used in the Extensions page.
-    extensions:
-      add_button: Ajouter une extension
-      settings_button: => core.ref.settings
+    # These translations are used on default extension pages.
+    extension:
+      confirm_uninstall: La désinstallation supprimera toutes les entrées de la base de données et les ressources liées à l’extension. Êtes-vous sûr de vouloir continuer ?
+      disabled: Désactivée
+      enabled: Activée
+      enable_to_see: Activez l’extension pour afficher et modifier ses paramètres.
+      info_links:
+        discuss: Discuter
+        documentation: Documentation
+        donate: Faire un don
+        source: Source
+        support: Support
+        website: Site internet
+      no_permissions: Cette extension ne détient aucune permission.
+      no_settings: Cette extension ne détient aucun paramètre.
+      open_modal: Ouvrir les paramètres
+      permissions_title: Permissions
+      saved_message: Vos modifications ont été enregistrées.
       uninstall_button: Désinstaller
 
-    # These translations are used in the session dropdown menu.
+    # These translations are used in the secondary header.
     header:
+      get_help: Obtenir de l’aide
       log_out_button: => core.ref.log_out
 
     # These translations are used in the modal dialog displayed when loading extensions.
@@ -131,18 +147,27 @@ core:
 
     # These translations are used in the navigation bar.
     nav:
-      appearance_button: Apparence
-      appearance_text: "Personnalisez les couleurs, les logos et d’autres aspects de votre forum."
-      basics_button: Essentiel
-      basics_text: "Configurez le titre, la langue et d’autres paramètres essentiels de votre forum."
-      dashboard_button: Tableau de bord
-      dashboard_text: Tout votre forum d’un simple coup d’œil.
+      appearance_button: => core.admin.appearance.title
+      appearance_title: => core.admin.appearance.description
+      basics_button: => core.admin.basics.title
+      basics_title: => core.admin.basics.description
+      categories:
+        authentication: Authentification
+        core: Configuration principale
+        discussion: Discussion
+        feature: Caractéristiques
+        formatting: Mise en forme
+        language: Langues
+        moderation: Modération
+        other: Autres extensions
+        theme: Thèmes
+      dashboard_button: => core.admin.dashboard.title
+      dashboard_title: => core.admin.dashboard.description
       email_button: => core.ref.email
-      email_text: Configurez les paramètres relatifs aux courriels de votre forum.
-      extensions_button: Extensions
-      extensions_text: Ajoutez des fonctionnalités supplémentaires à votre forum pour le personnaliser selon vos préférences.
-      permissions_button: Permissions
-      permissions_text: Configurez les actions autorisées.
+      email_title: => core.admin.email.description
+      permissions_button: => core.admin.permissions.title
+      permissions_title: => core.admin.permissions.description
+      search_placeholder: Rechercher des extensions
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
@@ -153,6 +178,7 @@ core:
       delete_discussions_label: Supprimer les discussions
       delete_posts_forever_label: Supprimer définitivement les messages
       delete_posts_label: Supprimer les messages
+      description: Configurez qui peut voir et faire quoi.
       edit_posts_label: Modifier les messages
       edit_users_label: Modifier les utilisateurs
       global_heading: Général
@@ -165,6 +191,7 @@ core:
       reply_to_discussions_label: Répondre aux discussions
       sign_up_label: S’inscrire
       start_discussions_label: Démarrer des discussions
+      title: Permissions
       view_discussions_label: Voir les discussions
       view_hidden_groups_label: Voir les badges des groupes masqués
       view_last_seen_at_label: Toujours voir la dernière connexion des utilisateurs
