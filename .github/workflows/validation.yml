@@ -1,0 +1,20 @@
+name: Validation
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build with Go
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Validate Composer
+        run: composer validate
+      - name: Setup Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: '^1.15.8'
+      - run: go version
+      - run: go get github.com/sijad/yaml-translation-utils/same-yaml
+      - run: go get github.com/sijad/yaml-translation-utils/yamllinter
+      - run: sh scripts/identical.sh
+      - run: sh scripts/linter.sh
