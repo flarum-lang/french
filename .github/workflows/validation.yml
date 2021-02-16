@@ -16,5 +16,5 @@ jobs:
       - run: go version
       - run: go get github.com/sijad/yaml-translation-utils/same-yaml
       - run: go get github.com/sijad/yaml-translation-utils/yamllinter
-      - run: bash /.github/scripts/identical.sh
-      - run: bash /.github/scripts/linter.sh
+      - run: bash .github/scripts/identical.sh
+      - run: bash .github/scripts/linter.sh
