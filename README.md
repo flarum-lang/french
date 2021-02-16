@@ -31,8 +31,8 @@ Includes the following French locales compatible with:
     - [Tags](https://github.com/flarum/tags)
     - [Twitter Login](https://github.com/flarum/auth-twitter)
   - Bundled libraries:
-    - [Laravel's Validation Rules 6.18.35](https://github.com/laravel/laravel)
-    - [Day.js 1.9.6](https://github.com/iamkun/dayjs)
+    - [Laravel's Validation Rules 6.20.0](https://github.com/laravel/laravel)
+    - [Day.js 1.10.4](https://github.com/iamkun/dayjs)
 
 Released under the MIT license. Please see [the license terms](https://github.com/qiaeru/lang-french/blob/master/LICENSE).
 

@@ -34,6 +34,7 @@ flarum-tags:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       allow_edit_tags_label: Autoriser la modification des étiquettes
+      bypass_tag_counts_label: Contourner les limitations des étiquettes
       restrict_by_tag_heading: Restreindre par étiquette
       tag_discussions_label: Ajouter des étiquettes aux discussions
 
