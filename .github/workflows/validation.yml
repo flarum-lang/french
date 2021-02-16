@@ -13,8 +13,13 @@ jobs:
         uses: actions/setup-go@v2
         with:
           go-version: '^1.15.8'
-      - run: go version
-      - run: go get github.com/sijad/yaml-translation-utils/same-yaml
-      - run: go get github.com/sijad/yaml-translation-utils/yamllinter
-      - run: bash .github/scripts/identical.sh
-      - run: bash .github/scripts/linter.sh
+      - name: Displaying the Go version
+        run: go version
+      - name: Download YAML translation utilities
+        run: |
+          go get github.com/sijad/yaml-translation-utils/same-yaml
+          go get github.com/sijad/yaml-translation-utils/yamllinter
+      - name: Comparison of YAML files
+        run: bash .github/scripts/identical.sh
+      - name: Validation and verification of YAML files
+        run: bash .github/scripts/linter.sh
