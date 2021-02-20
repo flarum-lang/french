@@ -13,9 +13,7 @@ Includes the following French locales compatible with:
     - [Akismet](https://github.com/flarum/akismet): [![Weblate](https://weblate.rob006.net/widgets/flarum/-/flarum-akismet/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-akismet/fr/)
     - [Approval](https://github.com/flarum/approval): [![Weblate](https://weblate.rob006.net/widgets/flarum/-/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-approval/fr/)
     - [Emoji](https://github.com/flarum/emoji): [![Weblate](https://weblate.rob006.net/widgets/flarum/-/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-emoji/fr/)
-    - [Facebook Login](https://github.com/flarum/auth-facebook)
     - [Flags](https://github.com/flarum/flags): [![Weblate](https://weblate.rob006.net/widgets/flarum/-/flarum-flags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-flags/fr/)
-    - [GitHub Login](https://github.com/flarum/auth-github)
     - [Likes](https://github.com/flarum/likes): [![Weblate](https://weblate.rob006.net/widgets/flarum/-/flarum-likes/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-likes/fr/)
     - [Lock](https://github.com/flarum/lock): [![Weblate](https://weblate.rob006.net/widgets/flarum/-/flarum-lock/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-lock/fr/)
     - [Markdown](https://github.com/flarum/markdown): [![Weblate](https://weblate.rob006.net/widgets/flarum/-/flarum-markdown/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-markdown/fr/)
@@ -27,7 +25,6 @@ Includes the following French locales compatible with:
     - [Subscriptions](https://github.com/flarum/subscriptions): [![Weblate](https://weblate.rob006.net/widgets/flarum/-/flarum-subscriptions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-subscriptions/fr/)
     - [Suspend](https://github.com/flarum/suspend): [![Weblate](https://weblate.rob006.net/widgets/flarum/-/flarum-suspend/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-suspend/fr/)
     - [Tags](https://github.com/flarum/tags): [![Weblate](https://weblate.rob006.net/widgets/flarum/-/flarum-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-tags/fr/)
-    - [Twitter Login](https://github.com/flarum/auth-twitter)
   - Bundled libraries:
     - [Laravel's Validation Rules](https://github.com/laravel/laravel): [![Weblate](https://weblate.rob006.net/widgets/flarum/-/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/fr/)
     - [Day.js](https://github.com/iamkun/dayjs)
