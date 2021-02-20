@@ -9,7 +9,7 @@ flarum-tags:
     edit_tag:
       color_label: '=> core.ref.color'
       delete_tag_button: 'Supprimer l''étiquette'
-      delete_tag_confirmation: "Êtes-vous sûr de vouloir supprimer cette étiquette\_? Les discussions publiées sous cette étiquette ne seront pas supprimées."
+      delete_tag_confirmation: 'Êtes-vous sûr de vouloir supprimer cette étiquette ? Les discussions publiées sous cette étiquette ne seront pas supprimées.'
       description_label: Description
       hide_label: 'Masquer de la liste de discussions'
       icon_label: '=> core.ref.icon'
