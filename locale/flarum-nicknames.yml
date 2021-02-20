@@ -11,9 +11,9 @@ flarum-nicknames:
       min_label: 'Longueur minimale du pseudonyme'
       regex_label: 'Expression régulière pour la validation'
       unique_label: "Exiger des pseudonymes uniques\_?"
-    wrong_driver: 'Vous devez sélectionner "nickname" comme pilote de nom d’affichage sur la page <a><strong>Essentiels</strong></a> de l’extension pour que ces paramètres prennent effet.'
+    wrong_driver: 'Vous devez sélectionner "nickname" comme pilote de nom d''affichage sur la page <a><strong>Essentiels</strong></a> de l''extension pour que ces paramètres prennent effet.'
   api:
-    invalid_nickname_message: 'Ce pseudonyme n’est pas valide. Veuillez contacter l’administrateur du forum pour plus d’informations sur les règles relatives aux pseudonymes.'
+    invalid_nickname_message: 'Ce pseudonyme n''est pas valide. Veuillez contacter l''administrateur du forum pour plus d''informations sur les règles relatives aux pseudonymes.'
   forum:
     change_nickname:
       submit_button: '=> core.ref.save_changes'

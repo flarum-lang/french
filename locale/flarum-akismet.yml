@@ -5,8 +5,8 @@
 flarum-akismet:
   admin:
     akismet_settings:
-      api_key_label: 'Clé de l’API'
-      title: 'Paramètres d’Akismet'
+      api_key_label: 'Clé de l''API'
+      title: 'Paramètres d''Akismet'
   forum:
     post:
       akismet_flagged_text: 'Akismet a signalé ça comme indésirable'

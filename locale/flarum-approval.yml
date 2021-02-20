@@ -16,4 +16,4 @@ flarum-approval:
     post_controls:
       approve_button: Approuver
   ref:
-    awaiting_approval: 'En attente d’approbation'
+    awaiting_approval: 'En attente d''approbation'

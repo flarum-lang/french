@@ -11,6 +11,6 @@ flarum-statistics:
       last_28_days_label: '28 derniers jours'
       last_7_days_label: '7 derniers jours'
       posts_heading: '=> core.ref.posts'
-      today_label: Aujourd’hui
+      today_label: 'Aujourd''hui'
       total_label: Total
       users_heading: '=> core.ref.users'

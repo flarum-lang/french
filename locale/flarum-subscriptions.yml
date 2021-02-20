@@ -22,16 +22,16 @@ flarum-subscriptions:
     notifications:
       new_post_text: '{username} a publié un message'
     settings:
-      follow_after_reply_label: 'Suivre automatiquement les discussions auxquelles j’ai répondu'
-      notify_new_post_label: 'Quelqu’un publie dans une discussion que je suis'
+      follow_after_reply_label: 'Suivre automatiquement les discussions auxquelles j''ai répondu'
+      notify_new_post_label: 'Quelqu''un publie dans une discussion que je suis'
     sub_controls:
       follow_button: '=> flarum-subscriptions.ref.follow'
       following_button: '=> flarum-subscriptions.ref.following'
-      following_text: 'M’envoyer une notification lorsqu’une réponse est publiée.'
+      following_text: 'M''envoyer une notification lorsqu''une réponse est publiée.'
       ignoring_button: '=> flarum-subscriptions.ref.ignoring'
-      ignoring_text: 'Ne jamais m’envoyer de notification. Masquer de la liste de discussions.'
+      ignoring_text: 'Ne jamais m''envoyer de notification. Masquer de la liste de discussions.'
       not_following_button: 'Non abonné'
-      not_following_text: 'Ne m’envoyer une notification que lorsque je suis @mentionné.'
+      not_following_text: 'Ne m''envoyer une notification que lorsque je suis @mentionné.'
       notify_alert_tooltip: 'Recevoir une notification sur le forum lorsque de nouveaux messages sont publiés'
       notify_email_tooltip: 'Recevoir un courriel lorsque de nouveaux messages sont publiés'
   ref:

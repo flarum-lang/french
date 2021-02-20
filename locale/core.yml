@@ -4,24 +4,29 @@
 
 core:
   admin:
+    add_extension:
+      developer_text: 'Si vous êtes un développeur, vous pouvez <a>lire la documentation</a> et vous essayer à créer vos propres extensions.'
+      install_text: 'En attendant, vous pouvez rechercher des extensions sur <a>le site de la communauté de Flarum</a> et les installer manuellement à l''aide de Composer.'
+      temporary_text: 'Un jour, dans un avenir pas si lointain, cette fenêtre de dialogue vous permettra d''ajouter facilement une extension à votre forum. Nous sommes en train de construire un écosystème en ce moment même !'
+      title: 'Ajouter une extension'
     appearance:
-      colored_header_label: 'Colorisation de l’en-tête'
+      colored_header_label: 'Colorisation de l''en-tête'
       colors_heading: Couleurs
       colors_text: 'Sélectionnez deux couleurs pour styliser votre forum. La première couleur est utilisée pour les éléments mis en évidence et la seconde couleur est utilisée pour les éléments en arrière-plan.'
       custom_footer_heading: 'Personnalisation du pied de page'
       custom_footer_text: '=> core.ref.custom_footer_text'
-      custom_header_heading: 'Personnalisation de l’en-tête'
+      custom_header_heading: 'Personnalisation de l''en-tête'
       custom_header_text: '=> core.ref.custom_header_text'
       custom_styles_heading: 'Personnaliser les styles'
-      custom_styles_text: 'Personnalisez l’apparence de votre forum en ajoutant votre propre code LESS/CSS qui sera appliqué en priorité par rapport aux styles par défaut de Flarum.'
+      custom_styles_text: 'Personnalisez l''apparence de votre forum en ajoutant votre propre code LESS/CSS qui sera appliqué en priorité par rapport aux styles par défaut de Flarum.'
       dark_mode_label: 'Mode nuit'
-      description: 'Personnalisez les couleurs, le logo et d’autres aspects de votre forum.'
+      description: 'Personnalisez les couleurs, les logos et d''autres aspects de votre forum.'
       edit_css_button: 'Modifier le CSS personnalisé'
       edit_footer_button: '=> core.ref.custom_footer_title'
       edit_header_button: '=> core.ref.custom_header_title'
       enter_hex_message: 'Veuillez saisir un code de couleur hexadécimal.'
       favicon_heading: Favicon
-      favicon_text: 'Transférez une image qui sera affichée comme l’icône du raccourci du forum.'
+      favicon_text: 'Transférez une image qui sera affichée comme l''icône du raccourci du forum.'
       logo_heading: Logo
       logo_text: 'Transférez une image qui remplacera le titre du forum.'
       submit_button: '=> core.ref.okay'
@@ -29,14 +34,14 @@ core:
     basics:
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Langue par défaut'
-      description: 'Configurez le titre, la langue et d’autres paramètres essentiels de votre forum.'
-      display_name_heading: 'Nom d’affichage de l’utilisateur'
-      display_name_text: 'Sélectionnez le pilote qui doit être utilisé pour les noms d’affichage des utilisateurs. Par défaut, le nom d’utilisateur est affiché.'
+      description: 'Configurez le titre, la langue et d''autres paramètres basiques de votre forum.'
+      display_name_heading: 'Nom d''affichage de l''utilisateur'
+      display_name_text: 'Sélectionnez le pilote qui doit être utilisé pour les noms d''affichage des utilisateurs. Par défaut, le nom d''utilisateur est affiché.'
       forum_description_heading: 'Description du forum'
-      forum_description_text: 'Affichez un résumé décrivant votre communauté. La description apparaîtra dans la balise Méta et s’affichera dans le résultat des moteurs de recherche.'
+      forum_description_text: 'Affichez un résumé décrivant votre communauté. La description apparaîtra dans la balise Méta et s''affichera dans le résultat des moteurs de recherche.'
       forum_title_heading: 'Titre du forum'
-      home_page_heading: 'Page d’accueil'
-      home_page_text: 'Sélectionnez la page que les utilisateurs verront lorsqu’ils visiteront votre forum pour la première fois.'
+      home_page_heading: 'Page d''accueil'
+      home_page_text: 'Sélectionnez la page que les utilisateurs verront lorsqu''ils visiteront votre forum pour la première fois.'
       saved_message: 'Vos modifications ont été enregistrées.'
       show_language_selector_label: 'Afficher le sélecteur de langue'
       slug_driver_heading: "Pilote de l’identifiant\_: {model}"
@@ -80,6 +85,7 @@ core:
       driver_heading: 'Sélectionner un driver'
       driver_label: Driver
       from_label: Expéditeur
+      heading: '=> core.ref.email'
       mail_encryption_label: Chiffrement
       mail_host_label: Hôte
       mail_mailgun_domain_label: Domaine
@@ -89,15 +95,17 @@ core:
       mail_port_label: Port
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'Paramètres Mailgun'
-      not_sending_message: 'Flarum n’envoie actuellement aucun courriel. Cette erreur peut être provoquée par le driver sélectionné ou une mauvaise configuration.'
+      not_sending_message: 'Flarum n’envoie actuellement aucun courriel. Cette erreur peut être provoquée par le pilote sélectionné ou une mauvaise configuration.'
       send_test_mail_button: Envoyer
       send_test_mail_heading: 'Envoyer le courriel de test'
       send_test_mail_success: "Le courriel de test a été envoyé\_!"
       send_test_mail_text: 'Cela enverra un courriel qui utilisera la configuration paramétrée ci-dessus à votre adresse de courriel {email}.'
       smtp_heading: 'Paramètres SMTP'
       submit_button: '=> core.ref.okay'
+      text: 'Configurer le pilote, les paramètres et les adresses que votre forum utilisera pour envoyer des courriels.'
       title: '=> core.ref.email'
     extension:
+      configure_scopes: 'Configurer Scopes'
       confirm_uninstall: "La désinstallation supprimera toutes les entrées de la base de données et les ressources liées à l’extension. Êtes-vous sûr de vouloir continuer\_?"
       disabled: Désactivée
       enable_to_see: 'Activez l’extension pour afficher et modifier ses paramètres.'
@@ -115,6 +123,10 @@ core:
       permissions_title: Permissions
       saved_message: 'Vos modifications ont été enregistrées.'
       uninstall_button: Désinstaller
+    extensions:
+      add_button: 'Ajouter une extension'
+      settings_button: '=> core.ref.settings'
+      uninstall_button: Désinstaller
     header:
       get_help: 'Obtenir de l’aide'
       log_out_button: '=> core.ref.log_out'
@@ -122,8 +134,10 @@ core:
       title: 'Veuillez patienter…'
     nav:
       appearance_button: '=> core.admin.appearance.title'
+      appearance_text: 'Personnalisez les couleurs, les logos et les autres aspects de votre forum.'
       appearance_title: '=> core.admin.appearance.description'
       basics_button: '=> core.admin.basics.title'
+      basics_text: 'Définissez le titre de votre forum, la langue et d''autres paramètres basiques.'
       basics_title: '=> core.admin.basics.description'
       categories:
         authentication: Authentification
@@ -136,10 +150,15 @@ core:
         other: 'Autres extensions'
         theme: Thèmes
       dashboard_button: '=> core.admin.dashboard.title'
+      dashboard_text: 'Votre forum en un coup d''œil.'
       dashboard_title: '=> core.admin.dashboard.description'
       email_button: '=> core.ref.email'
+      email_text: 'Configurez les paramètres de messagerie de votre forum.'
       email_title: '=> core.admin.email.description'
+      extensions_button: Extensions
+      extensions_text: 'Ajoutez des fonctionnalités supplémentaires à votre forum pour vous l''approprier.'
       permissions_button: '=> core.admin.permissions.title'
+      permissions_text: 'Configurer qui peut voir et faire quoi.'
       permissions_title: '=> core.admin.permissions.description'
       search_placeholder: 'Rechercher des extensions'
     permissions:
@@ -161,7 +180,7 @@ core:
       read_heading: Consultation
       rename_discussions_label: 'Renommer les discussions'
       reply_to_discussions_label: 'Répondre aux discussions'
-      sign_up_label: S’inscrire
+      sign_up_label: 'S''inscrire'
       start_discussions_label: 'Démarrer des discussions'
       title: Permissions
       view_discussions_label: 'Voir les discussions'
@@ -173,30 +192,31 @@ core:
       allow_indefinitely_button: Indéfiniment
       allow_some_minutes_button: 'Pendant {count} minute|Pendant {count} minutes'
       allow_ten_minutes_button: 'Pendant 10 minutes'
-      allow_until_reply_button: 'Jusqu’à la prochaine réponse'
+      allow_until_reply_button: 'Jusqu''à la prochaine réponse'
       everyone_button: 'Tout le monde'
       members_button: '=> core.group.members'
       signup_closed_button: Refuser
       signup_open_button: Autoriser
     settings:
+      saved_message: 'Vos modifications ont été sauvegardées.'
       submit_button: '=> core.ref.okay'
     upload_image:
       remove_button: '=> core.ref.remove'
       upload_button: 'Sélectionner une image…'
   api:
-    invalid_username_message: 'Le nom d’utilisateur ne doit contenir que des lettres, des chiffres et des tirets.'
+    invalid_username_message: 'Le nom d''utilisateur ne doit contenir que des lettres, des chiffres et des tirets.'
   email:
     activate_account:
-      body: "Bonjour {username}\_!\n\nQuelqu’un (en espérant que cela soit vous\_!) s’est inscrit sur {forum} avec cette adresse de courriel.\n\nSi vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour que votre compte soit activé\_:\n{url}\n\nSi vous n’êtes pas à l’origine de cette action, veuillez ignorer ce courriel.\n"
+      body: "Bonjour {username}\_!\n\nQuelqu'un (en espérant que cela soit vous\_!) s'est inscrit sur {forum} avec cette adresse de courriel.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour que votre compte soit activé\_:\n{url}\n\nSi vous n'êtes pas à l'origine de cette action, veuillez ignorer ce courriel.\n"
       subject: 'Activation de votre compte'
     confirm_email:
-      body: "Bonjour {username}\_!\n\nQuelqu’un (en espérant que cela soit vous\_!) a demandé à modifier l’adresse de courriel associée à votre compte sur {forum} par celle-ci.\n\nSi vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour confirmer votre nouvelle adresse de courriel\_:\n{url}\n\nSi vous ne souhaitez pas modifier votre adresse de courriel, veuillez ignorer ce courriel.\n"
-      subject: 'Modification de votre adresse de courriel'
+      body: "Bonjour {username}\_!\n\nQuelqu'un (en espérant que cela soit vous\_!) a demandé à modifier l'adresse de courriel associée à votre compte sur {forum} par celle-ci.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour confirmer votre nouvelle adresse de courriel\_:\n{url}\n\nSi vous ne souhaitez pas modifier votre adresse de courriel, veuillez ignorer ce courriel.\n"
+      subject: 'Confirmez votre nouvelle adresse de courriel'
     reset_password:
-      body: "Bonjour {username}\_!\n\nQuelqu’un (en espérant que cela soit vous\_!) a demandé à réinitialiser le mot de passe associé à votre compte sur {forum}.\n\nSi vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour réinitialiser votre mot de passe actuel\_:\n{url}\n\nSi vous ne souhaitez pas réinitialiser votre mot de passe, veuillez ignorer ce courriel.\n"
+      body: "Bonjour {username}\_!\n\nQuelqu'un (en espérant que cela soit vous\_!) a demandé à réinitialiser le mot de passe associé à votre compte sur {forum}.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour réinitialiser votre mot de passe actuel\_:\n{url}\n\nSi vous ne souhaitez pas réinitialiser votre mot de passe, veuillez ignorer ce courriel.\n"
       subject: 'Réinitialisation de votre mot de passe'
     send_test:
-      body: "Bonjour {username}\_!\n\nCeci est un courriel de test qui confirme que la configuration des courriels de Flarum fonctionne correctement.\n\nSi vous êtes bien à l’origine de cette action, ce courriel confirme que votre configuration est fonctionnelle\_!\n\nSi vous n’êtes pas à l’origine de cette action, veuillez ignorer ce courriel.\n"
+      body: "Bonjour {username}\_!\n\nCeci est un courriel de test qui confirme que la configuration de la messagerie de Flarum fonctionne correctement.\n\nSi vous êtes bien à l'origine de cette action, ce courriel confirme que votre configuration est fonctionnelle\_!\n\nSi vous n'êtes pas à l’origine de cette action, veuillez ignorer ce courriel.\n"
       subject: 'Courriel de test de Flarum'
   forum:
     change_email:
@@ -218,19 +238,19 @@ core:
       preview_tooltip: Prévisualiser
     composer_discussion:
       body_placeholder: 'Rédigez un message…'
-      discard_confirmation: "Vous n’avez pas publié votre discussion. Souhaitez-vous l’abandonner\_?"
+      discard_confirmation: "Vous n'avez pas publié votre discussion. Souhaitez-vous l’abandonner\_?"
       submit_button: 'Publier la discussion'
       title: '=> core.ref.start_a_discussion'
       title_placeholder: 'Titre de la discussion'
     composer_edit:
-      discard_confirmation: "Vous n’avez pas enregistré vos modifications. Souhaitez-vous les abandonner\_?"
+      discard_confirmation: "Vous n'avez pas enregistré vos modifications. Souhaitez-vous les abandonner\_?"
       edited_message: 'Votre modification a été appliquée.'
       post_link: 'Message #{number} de {discussion}'
       submit_button: '=> core.ref.okay'
       view_button: '=> core.ref.view'
     composer_reply:
       body_placeholder: '=> core.ref.write_a_reply'
-      discard_confirmation: "Vous n’avez pas publié votre réponse. Souhaitez-vous l’abandonner\_?"
+      discard_confirmation: "Vous n'avez pas publié votre réponse. Souhaitez-vous l'abandonner\_?"
       posted_message: 'Votre réponse a été publiée.'
       submit_button: 'Publier la réponse'
       view_button: '=> core.ref.view'
@@ -245,13 +265,13 @@ core:
       reply_button: '=> core.ref.reply'
       restore_button: '=> core.ref.restore'
     discussion_list:
-      empty_text: 'Il semble qu’il n’y ait aucune discussion ici.'
+      empty_text: 'Il semble qu''il n''y ait aucune discussion ici.'
       load_more_button: '=> core.ref.load_more'
       mark_as_read_tooltip: 'Marquer comme lu'
       replied_text: '{username} a répondu à cette discussion {ago}'
       started_text: '{username} a publié cette discussion {ago}'
     edit_user:
-      activate_button: 'Activer l’utilisateur'
+      activate_button: 'Activer l''utilisateur'
       email_heading: '=> core.ref.email'
       email_label: '=> core.ref.email'
       groups_heading: Groupes
@@ -259,14 +279,14 @@ core:
       password_label: '=> core.ref.password'
       set_password_label: 'Définir un nouveau mot de passe'
       submit_button: '=> core.ref.okay'
-      title: 'Modifier l’utilisateur'
+      title: 'Modifier l''utilisateur'
       username_heading: '=> core.ref.username'
       username_label: '=> core.ref.username'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
       email_sent_message: 'Nous vous avons envoyé un courriel contenant un lien pour réinitialiser votre mot de passe. Si vous ne le recevez pas prochainement, veuillez vérifier le contenu de votre dossier contenant les pourriels.'
-      not_found_message: 'Il n’y a aucun utilisateur inscrit avec cette adresse de courriel.'
+      not_found_message: 'Il n''y a aucun utilisateur inscrit avec cette adresse de courriel.'
       submit_button: 'Récupérer un mot de passe'
       text: 'Saisissez votre adresse de courriel pour que nous vous envoyons un lien qui vous permettra de réinitialiser votre mot de passe.'
       title: 'Mot de passe oublié'
@@ -301,7 +321,7 @@ core:
       sign_up_text: "Pas encore inscrit\_? <a>Inscription</a>"
       submit_button: '=> core.ref.log_in'
       title: '=> core.ref.log_in'
-      username_or_email_placeholder: 'Nom d’utilisateur ou adresse de courriel'
+      username_or_email_placeholder: 'Nom d''utilisateur ou adresse de courriel'
     notifications:
       discussion_renamed_text: '{username} a renommé le titre de votre discussion'
       empty_text: 'Aucune notification'
@@ -315,7 +335,7 @@ core:
       number_tooltip: 'Message #{number}'
     post_controls:
       delete_button: '=> core.ref.delete'
-      delete_confirmation: 'Êtes-vous sûr de vouloir supprimer définitivement ce message ? Cette action est irréversible'
+      delete_confirmation: 'Êtes-vous sûr de vouloir supprimer définitivement ce message ? Cette action est irréversible.'
       delete_forever_button: '=> core.ref.delete_forever'
       edit_button: '=> core.ref.edit'
       hide_confirmation: 'Êtes-vous sûr de vouloir supprimer ce message ?'
@@ -326,7 +346,7 @@ core:
       unread_text: '{count} non lus'
       viewing_text: '{index} sur {count} message|{index} sur {count} messages'
     post_stream:
-      discussion_renamed_old_tooltip: "L’ancien titre était\_: «\_{old}\_»"
+      discussion_renamed_old_tooltip: "L'ancien titre était\_: «\_{old}\_»"
       discussion_renamed_text: '{username} a renommé le titre en {new}.'
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
@@ -345,7 +365,7 @@ core:
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: Courriel
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: 'Quelqu’un renomme une discussion que j’ai démarrée'
+      notify_discussion_renamed_label: 'Quelqu''un renomme une discussion que j''ai démarrée'
       privacy_disclose_online_label: 'Autoriser les autres à voir que je suis en ligne'
       privacy_heading: Confidentialité
       title: '=> core.ref.settings'
@@ -366,7 +386,7 @@ core:
       in_discussion_text: 'Dans {discussion}'
       joined_date_text: 'Inscrit {ago}'
       online_text: 'En ligne'
-      posts_empty_text: 'Il semble qu’il n’y ait aucun message ici.'
+      posts_empty_text: 'Il semble qu’il n''y ait aucun message ici.'
       posts_link: '=> core.ref.posts'
       posts_load_more_button: '=> core.ref.load_more'
       settings_link: '=> core.ref.settings'
@@ -374,8 +394,8 @@ core:
       button: Commandes
       delete_button: '=> core.ref.delete'
       delete_confirmation: "Êtes-vous sûr de vouloir supprimer cet utilisateur\_? Veuillez noter que ses messages seront conservés."
-      delete_error_message: 'La suppression de l’utilisateur <i>{username} ({email})</i> a échoué'
-      delete_success_message: 'L’utilisateur <i>{username} ({email})</i> a été supprimé'
+      delete_error_message: 'La suppression de l''utilisateur <i>{username} ({email})</i> a échoué'
+      delete_success_message: 'L''utilisateur <i>{username} ({email})</i> a été supprimé'
       edit_button: '=> core.ref.edit'
     user_email_confirmation:
       alert_message: '=> core.ref.confirmation_email_sent'
@@ -395,10 +415,10 @@ core:
       hidden_tooltip: Masquée
     error:
       dependent_extensions_message: 'Impossible de désactiver {extension}. Veuillez en premier lieu désactiver les extensions dépendantes suivantes : {extensions}'
-      generic_message: "Oups\_! Quelque chose s’est mal passé. Veuillez actualiser la page puis réessayer."
-      missing_dependencies_message: "Impossible d’activer {extension}. Veuillez en premier lieu activer les dépendances suivantes\_: {extensions}"
+      generic_message: "Oups\_! Quelque chose s'est mal passé. Veuillez actualiser la page puis réessayer."
+      missing_dependencies_message: "Impossible d'activer {extension}. Veuillez en premier lieu activer les dépendances suivantes\_: {extensions}"
       not_found_message: 'La ressource que vous souhaitez atteindre est introuvable.'
-      permission_denied_message: 'Vous n’avez pas la permission de faire cela.'
+      permission_denied_message: 'Vous n''avez pas la permission de faire cela.'
       rate_limit_exceeded_message: 'Vous êtes un peu trop rapide. Veuillez réessayer dans quelques secondes.'
     number_suffix:
       kilo_text: k
@@ -418,15 +438,15 @@ core:
     confirmation_email_sent: 'Nous avons envoyé un courriel de confirmation à {email}. Si vous ne le recevez pas prochainement, veuillez vérifier le contenu de votre dossier contenant les pourriels.'
     custom_footer_text: 'Ajoutez du code HTML à afficher en bas de page.'
     custom_footer_title: 'Personnaliser le pied de page'
-    custom_header_text: 'Ajoutez du code HTML à afficher en haut de page, au-dessus de l’en-tête de Flarum.'
-    custom_header_title: 'Personnaliser l’en-tête'
+    custom_header_text: 'Ajoutez du code HTML à afficher en haut de page, au-dessus de l''en-tête de Flarum.'
+    custom_header_title: 'Personnaliser l''en-tête'
     delete: Supprimer
     delete_forever: 'Supprimer définitivement'
     discussions: Discussions
     edit: Modifier
     email: 'Adresse de courriel'
     icon: Icône
-    icon_text: 'Saisissez le nom d’une des classes d’icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe <code>fas fa-</code>.'
+    icon_text: 'Saisissez le nom d''une des classes d''icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe <code>fas fa-</code>.'
     load_more: 'Charger davantage'
     log_in: Connexion
     log_out: Déconnexion
@@ -436,21 +456,21 @@ core:
     okay: Valider
     password: 'Mot de passe'
     posts: Messages
-    previous_page: 'Previous Page'
+    previous_page: 'Page précédente'
     remove: Supprimer
     rename: Renommer
     reply: Répondre
-    reset_your_password: 'Réinitialiser le mot de passer'
+    reset_your_password: 'Réinitialiser votre mot de passe'
     restore: Restaurer
     save_changes: Enregistrer
     settings: Paramètres
     sign_up: Inscription
     some_others: '{count} autre|{count} autres'
     start_a_discussion: 'Nouvelle discussion'
-    username: 'Nom d’utilisateur'
+    username: 'Nom d''utilisateur'
     users: Utilisateurs
     view: Consulter
-    write_a_reply: 'Rédigez une réponse…'
+    write_a_reply: Répondre…
     you: Vous
   views:
     content:
@@ -464,10 +484,10 @@ core:
       csrf_token_mismatch: 'Vous êtes resté inactif trop longtemps.'
       csrf_token_mismatch_return_link: 'Revenir pour réessayer'
       invalid_confirmation_token: 'Ce lien de confirmation est invalide ou a déjà été utilisé.'
-      not_authenticated: 'Vous n’êtes pas autorisé à accéder à cette page. Veuillez réessayer après vous être connecté.'
+      not_authenticated: 'Vous n''êtes pas autorisé à accéder à cette page. Veuillez réessayer après vous être connecté.'
       not_found: 'La page que vous avez demandée est introuvable.'
       not_found_return_link: 'Revenir à {forum}'
-      permission_denied: 'Vous n’êtes pas autorisé à accéder à cette page.'
+      permission_denied: 'Vous n''êtes pas autorisé à accéder à cette page.'
       unknown: 'Une erreur est survenue lors du chargement de la page.'
     index:
       all_discussions_heading: '=> core.ref.all_discussions'
