@@ -67,6 +67,6 @@ php flarum cache:clear
 
 ## Contribution and status page powered by Weblate
 
-This project uses [Weblate](https://weblate.rob006.net/) by [Robert Korulczyk](https://github.com/rob006).
+This project uses a [Weblate](https://weblate.org/) instance hosted and managed by [Robert Korulczyk](https://github.com/rob006).
 
 You can contribute to the language pack [on this page](https://weblate.rob006.net/languages/fr/flarum/) and see the detailed translation status [on this page](https://github.com/rob006-software/flarum-translations/blob/master/status/fr.md).  
