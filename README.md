@@ -1,10 +1,8 @@
 # French Language Pack for [Flarum](https://flarum.org/)
 
-[![Build Status](https://github.com/qiaeru/lang-french/workflows/Validation/badge.svg)](https://github.com/qiaeru/lang-french/actions) [![StyleCI](https://styleci.io/repos/70081209/shield?style=flat&branch=master)](https://styleci.io/repos/70081209)
+[![StyleCI](https://styleci.io/repos/70081209/shield?style=flat&branch=master)](https://styleci.io/repos/70081209)
 
 French language pack to localize the Flarum forum software, its bundled extensions and libraries.
-
-If you're looking for French translations of third-party extensions for Flarum, please check [this repository](https://github.com/rooaaar/lang-french-extended).
 
 ## Informations
 
@@ -31,8 +29,8 @@ Includes the following French locales compatible with:
     - [Tags](https://github.com/flarum/tags)
     - [Twitter Login](https://github.com/flarum/auth-twitter)
   - Bundled libraries:
-    - [Laravel's Validation Rules 6.20.0](https://github.com/laravel/laravel)
-    - [Day.js 1.10.4](https://github.com/iamkun/dayjs)
+    - [Laravel's Validation Rules](https://github.com/laravel/laravel)
+    - [Day.js](https://github.com/iamkun/dayjs)
 
 Released under the MIT license. Please see [the license terms](https://github.com/qiaeru/lang-french/blob/master/LICENSE).
 
@@ -52,3 +50,9 @@ Just like the installation procedure, make sure that [Composer](https://getcompo
 composer update qiaeru/lang-french
 php flarum cache:clear
 ```
+
+## Contribution and status page powered by Weblate
+
+This project uses [Weblate](https://weblate.rob006.net/) by [Robert Korulczyk](https://github.com/rob006).
+
+You can contribute to the language pack on [this page](https://weblate.rob006.net/languages/fr/flarum/) and see the detailed translation status on [this page](https://github.com/rob006-software/flarum-translations/blob/master/status/fr.md).  
