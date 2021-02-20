@@ -65,7 +65,7 @@ composer update qiaeru/lang-french
 php flarum cache:clear
 ```
 
-## Contribution and status page powered by Weblate
+## Contribution and status page
 
 This project uses a [Weblate](https://weblate.org/) instance hosted and managed by [Robert Korulczyk](https://github.com/rob006).
 
