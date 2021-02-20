@@ -44,19 +44,19 @@ core:
       home_page_text: 'Sélectionnez la page que les utilisateurs verront lorsqu''ils visiteront votre forum pour la première fois.'
       saved_message: 'Vos modifications ont été enregistrées.'
       show_language_selector_label: 'Afficher le sélecteur de langue'
-      slug_driver_heading: "Pilote de l’identifiant\_: {model}"
-      slug_driver_text: 'Sélectionnez un pilote qui sera utilisé pour l’identifiant de ce modèle.'
+      slug_driver_heading: "Pilote de l'identifiant\_: {model}"
+      slug_driver_text: 'Sélectionnez un pilote qui sera utilisé pour l''identifiant de ce modèle.'
       submit_button: '=> core.ref.okay'
       title: Essentiels
       welcome_banner_heading: 'Bandeau de bienvenue'
-      welcome_banner_text: 'Personnalisez le texte du bandeau qui est affiché sur la page de la liste de discussions. Il vous permet d’accueillir les invités de votre forum.'
+      welcome_banner_text: 'Personnalisez le texte du bandeau qui est affiché sur la page de la liste de discussions. Il vous permet d''accueillir les invités de votre forum.'
     dashboard:
       clear_cache_button: 'Vider le cache'
-      description: 'Votre forum en un clin d’œil.'
+      description: 'Votre forum en un clin d''œil.'
       title: 'Tableau de bord'
       tools_button: Outils
     edit_css:
-      customize_text: 'Personnalisez l’apparence de votre forum en ajoutant votre propre code LESS/CSS qui sera appliqué en priorité par rapport <a>aux styles par défaut</a> de Flarum.'
+      customize_text: 'Personnalisez l''apparence de votre forum en ajoutant votre propre code LESS/CSS qui sera appliqué en priorité par rapport <a>aux styles par défaut</a> de Flarum.'
       submit_button: '=> core.ref.okay'
       title: 'Modifier le CSS personnalisé'
     edit_footer:
@@ -81,9 +81,9 @@ core:
       title: '=> core.ref.custom_header_title'
     email:
       addresses_heading: Adresses
-      description: 'Configurez le driver, les paramètres et les adresses que votre forum utilisera pour envoyer les courriels.'
-      driver_heading: 'Sélectionner un driver'
-      driver_label: Driver
+      description: 'Configurez le pilote, les paramètres et les adresses que votre forum utilisera pour envoyer les courriels.'
+      driver_heading: 'Sélectionner un pilote'
+      driver_label: Pilote
       from_label: Expéditeur
       heading: '=> core.ref.email'
       mail_encryption_label: Chiffrement
@@ -95,10 +95,10 @@ core:
       mail_port_label: Port
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'Paramètres Mailgun'
-      not_sending_message: 'Flarum n’envoie actuellement aucun courriel. Cette erreur peut être provoquée par le pilote sélectionné ou une mauvaise configuration.'
+      not_sending_message: 'Flarum n''envoie actuellement aucun courriel. Cette erreur peut être provoquée par le pilote sélectionné ou une mauvaise configuration.'
       send_test_mail_button: Envoyer
       send_test_mail_heading: 'Envoyer le courriel de test'
-      send_test_mail_success: "Le courriel de test a été envoyé\_!"
+      send_test_mail_success: 'Le courriel de test a été envoyé !'
       send_test_mail_text: 'Cela enverra un courriel qui utilisera la configuration paramétrée ci-dessus à votre adresse de courriel {email}.'
       smtp_heading: 'Paramètres SMTP'
       submit_button: '=> core.ref.okay'
@@ -106,9 +106,9 @@ core:
       title: '=> core.ref.email'
     extension:
       configure_scopes: 'Configurer Scopes'
-      confirm_uninstall: "La désinstallation supprimera toutes les entrées de la base de données et les ressources liées à l’extension. Êtes-vous sûr de vouloir continuer\_?"
+      confirm_uninstall: "La désinstallation supprimera toutes les entrées de la base de données et les ressources liées à l'extension. Êtes-vous sûr de vouloir continuer\_?"
       disabled: Désactivée
-      enable_to_see: 'Activez l’extension pour afficher et modifier ses paramètres.'
+      enable_to_see: 'Activez l''extension pour afficher et modifier ses paramètres.'
       enabled: Activée
       info_links:
         discuss: Discuter
@@ -128,7 +128,7 @@ core:
       settings_button: '=> core.ref.settings'
       uninstall_button: Désinstaller
     header:
-      get_help: 'Obtenir de l’aide'
+      get_help: 'Obtenir de l''aide'
       log_out_button: '=> core.ref.log_out'
     loading:
       title: 'Veuillez patienter…'
@@ -216,7 +216,7 @@ core:
       body: "Bonjour {username}\_!\n\nQuelqu'un (en espérant que cela soit vous\_!) a demandé à réinitialiser le mot de passe associé à votre compte sur {forum}.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour réinitialiser votre mot de passe actuel\_:\n{url}\n\nSi vous ne souhaitez pas réinitialiser votre mot de passe, veuillez ignorer ce courriel.\n"
       subject: 'Réinitialisation de votre mot de passe'
     send_test:
-      body: "Bonjour {username}\_!\n\nCeci est un courriel de test qui confirme que la configuration de la messagerie de Flarum fonctionne correctement.\n\nSi vous êtes bien à l'origine de cette action, ce courriel confirme que votre configuration est fonctionnelle\_!\n\nSi vous n'êtes pas à l’origine de cette action, veuillez ignorer ce courriel.\n"
+      body: "Bonjour {username}\_!\n\nCeci est un courriel de test qui confirme que la configuration de la messagerie de Flarum fonctionne correctement.\n\nSi vous êtes bien à l'origine de cette action, ce courriel confirme que votre configuration est fonctionnelle\_!\n\nSi vous n'êtes pas à l'origine de cette action, veuillez ignorer ce courriel.\n"
       subject: 'Courriel de test de Flarum'
   forum:
     change_email:
@@ -238,7 +238,7 @@ core:
       preview_tooltip: Prévisualiser
     composer_discussion:
       body_placeholder: 'Rédigez un message…'
-      discard_confirmation: "Vous n'avez pas publié votre discussion. Souhaitez-vous l’abandonner\_?"
+      discard_confirmation: "Vous n'avez pas publié votre discussion. Souhaitez-vous l'abandonner\_?"
       submit_button: 'Publier la discussion'
       title: '=> core.ref.start_a_discussion'
       title_placeholder: 'Titre de la discussion'
@@ -377,7 +377,7 @@ core:
       submit_button: '=> core.ref.sign_up'
       title: '=> core.ref.sign_up'
       username_placeholder: '=> core.ref.username'
-      welcome_text: "Bienvenue {username}\_!"
+      welcome_text: 'Bienvenue {username} !'
     user:
       avatar_remove_button: '=> core.ref.remove'
       avatar_upload_button: Transférer
@@ -386,7 +386,7 @@ core:
       in_discussion_text: 'Dans {discussion}'
       joined_date_text: 'Inscrit {ago}'
       online_text: 'En ligne'
-      posts_empty_text: 'Il semble qu’il n''y ait aucun message ici.'
+      posts_empty_text: 'Il semble qu''il n''y ait aucun message ici.'
       posts_link: '=> core.ref.posts'
       posts_load_more_button: '=> core.ref.load_more'
       settings_link: '=> core.ref.settings'
@@ -415,7 +415,7 @@ core:
       hidden_tooltip: Masquée
     error:
       dependent_extensions_message: 'Impossible de désactiver {extension}. Veuillez en premier lieu désactiver les extensions dépendantes suivantes : {extensions}'
-      generic_message: "Oups\_! Quelque chose s'est mal passé. Veuillez actualiser la page puis réessayer."
+      generic_message: 'Oups ! Quelque chose s''est mal passé. Veuillez actualiser la page puis réessayer.'
       missing_dependencies_message: "Impossible d'activer {extension}. Veuillez en premier lieu activer les dépendances suivantes\_: {extensions}"
       not_found_message: 'La ressource que vous souhaitez atteindre est introuvable.'
       permission_denied_message: 'Vous n''avez pas la permission de faire cela.'
@@ -431,7 +431,7 @@ core:
       deleted_text: '[supprimé]'
   ref:
     all_discussions: 'Toutes les discussions'
-    change_email: 'Modifier l’adresse de courriel'
+    change_email: 'Modifier l''adresse de courriel'
     change_password: 'Modifier le mot de passe'
     color: Couleur
     confirm_password: 'Confirmer le mot de passe'
