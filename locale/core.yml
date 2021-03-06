@@ -171,6 +171,8 @@ core:
       delete_posts_label: 'Supprimer les messages'
       description: 'Configurez qui peut voir et faire quoi.'
       edit_posts_label: 'Modifier les messages'
+      edit_users_credentials_label: 'Modifier les identifiants de l''utilisateur'
+      edit_users_groups_label: 'Modifier les groupes d''utilisateurs'
       edit_users_label: 'Modifier les utilisateurs'
       global_heading: Général
       moderate_heading: Modération
