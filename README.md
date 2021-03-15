@@ -9,7 +9,7 @@ French language pack to localize the Flarum forum software, its bundled extensio
 Includes the following French locales compatible with:
 
 - [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/fr/)
-[Flarum 0.1.0 Beta 15](https://github.com/flarum/core)
+[Flarum 0.1.0 Beta 16](https://github.com/flarum/core)
   - Bundled extensions:
     - [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-akismet/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-akismet/fr/)
     [Akismet](https://github.com/flarum/akismet)
