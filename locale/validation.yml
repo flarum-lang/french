@@ -32,7 +32,7 @@ validation:
   confirmed: 'Le champ de confirmation du :attribute ne correspond pas.'
   date: 'Le :attribute n''est pas une date valide.'
   date_equals: 'Le :attribute doit être une date égale à :date.'
-  date_format: 'Le :attribute ne correspond pas au format :other.'
+  date_format: 'Le :attribute ne correspond pas au format :format.'
   different: 'Le :attribute et le :other doivent être différents.'
   digits: 'Le :attribute doit contenir :digits chiffres.'
   digits_between: 'Le :attribute doit contenir entre :min et :max chiffres.'
