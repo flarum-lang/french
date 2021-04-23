@@ -3,6 +3,10 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-mentions:
+  admin:
+    settings:
+      allow_username_format_label: 'Autoriser le système de mention de nom d''utilisateur (@utilisateur)'
+      allow_username_format_text: "Le format actuel des mentions d'utilisateurs est @\"Nom d'affichage\"#Identifiant.\nCe paramètre permet d'utiliser l'ancien format @\"Nom d'utilisateur\", qui sera néanmoins converti au nouveau format lors de la sauvegarde.\n"
   email:
     post_mentioned:
       body: "Bonjour {recipient_display_name} !\n\n{replier_display_name} a répondu à votre message (#{post_number}) dans {title}.\n\n{url}\n\n---\n\n{content}\n"
@@ -25,6 +29,8 @@ flarum-mentions:
       quote_button: Citer
       reply_link: '=> core.ref.reply'
       you_text: '=> core.ref.you'
+    post_mention:
+      deleted_text: '[inconnu]'
     settings:
       notify_post_mentioned_label: 'Quelqu''un répond à un message que j''ai publié'
       notify_user_mentioned_label: 'Quelqu''un me mentionne dans un message'
