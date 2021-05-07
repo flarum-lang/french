@@ -17,7 +17,7 @@ core:
       custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 'Personnalisation de l''en-tête'
       custom_header_text: '=> core.ref.custom_header_text'
-      custom_styles_heading: 'Personnaliser les styles'
+      custom_styles_heading: 'Personnalisation des styles'
       custom_styles_text: 'Personnalisez l''apparence de votre forum en ajoutant votre propre code LESS/CSS qui sera appliqué en priorité par rapport aux styles par défaut de Flarum.'
       dark_mode_label: 'Mode nuit'
       description: 'Personnalisez les couleurs, les logos et d''autres aspects de votre forum.'
@@ -26,42 +26,42 @@ core:
       edit_header_button: '=> core.ref.custom_header_title'
       enter_hex_message: 'Veuillez saisir un code de couleur hexadécimal.'
       favicon_heading: Favicon
-      favicon_text: 'Transférez une image qui sera affichée comme l''icône du raccourci du forum.'
+      favicon_text: 'Transférez une image qui sera affichée comme icône de raccourci du forum.'
       logo_heading: Logo
-      logo_text: 'Transférez une image qui remplacera le titre du forum.'
-      submit_button: '=> core.ref.okay'
+      logo_text: 'Transférez une image qui sera affichée à la place du titre du forum.'
+      submit_button: '=> core.ref.save_changes'
       title: Apparence
     basics:
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Langue par défaut'
-      description: 'Configurez le titre, la langue et d''autres paramètres basiques de votre forum.'
+      description: 'Configurez le titre de votre forum, la langue et d''autres paramètres de base de votre forum.'
       display_name_heading: 'Nom d''affichage de l''utilisateur'
       display_name_text: 'Sélectionnez le pilote qui doit être utilisé pour les noms d''affichage des utilisateurs. Par défaut, le nom d''utilisateur est affiché.'
       forum_description_heading: 'Description du forum'
-      forum_description_text: 'Affichez un résumé décrivant votre communauté. La description apparaîtra dans la balise Méta et s''affichera dans le résultat des moteurs de recherche.'
+      forum_description_text: 'Saisissez une ou deux courtes phrases qui décrivent votre communauté. Ces phrases apparaîtront dans la balise méta et dans les moteurs de recherche.'
       forum_title_heading: 'Titre du forum'
       home_page_heading: 'Page d''accueil'
-      home_page_text: 'Sélectionnez la page que les utilisateurs verront lorsqu''ils visiteront votre forum pour la première fois.'
+      home_page_text: 'Sélectionnez la page que les utilisateurs verront en premier lorsqu''ils visiteront votre forum.'
       saved_message: 'Vos modifications ont été enregistrées.'
       show_language_selector_label: 'Afficher le sélecteur de langue'
-      slug_driver_heading: 'Pilote de l''identifiant : {model}'
-      slug_driver_text: 'Sélectionnez un pilote qui sera utilisé pour l''identifiant de ce modèle.'
-      submit_button: '=> core.ref.okay'
+      slug_driver_heading: 'Pilote de l''identifiant texte unique : {model}'
+      slug_driver_text: 'Sélectionnez un pilote qui sera utilisé pour l''identifiant texte unique de ce modèle.'
+      submit_button: '=> core.ref.save_changes'
       title: Essentiels
-      welcome_banner_heading: 'Bandeau de bienvenue'
-      welcome_banner_text: 'Personnalisez le texte du bandeau qui est affiché sur la page de la liste de discussions. Il vous permet d''accueillir les invités de votre forum.'
+      welcome_banner_heading: 'Bannière de bienvenue'
+      welcome_banner_text: 'Personnalisez le texte qui s''affiche dans la bannière sur la page de la liste de toutes les discussions. Il vous permet d''accueillir les invités sur votre forum.'
     dashboard:
-      clear_cache_button: 'Vider le cache'
-      description: 'Votre forum en un clin d''œil.'
+      clear_cache_button: 'Effacer le cache'
+      description: 'Votre forum en un coup d''œil.'
       title: 'Tableau de bord'
       tools_button: Outils
     edit_css:
-      customize_text: 'Personnalisez l''apparence de votre forum en ajoutant votre propre code LESS/CSS qui sera appliqué en priorité par rapport <a>aux styles par défaut</a> de Flarum.'
-      submit_button: '=> core.ref.okay'
+      customize_text: 'Personnalisez l''apparence de votre forum en ajoutant votre propre code LESS/CSS à appliquer en priorité par rapport <a>aux styles par défaut</a> de Flarum.'
+      submit_button: '=> core.ref.save_changes'
       title: 'Modifier le CSS personnalisé'
     edit_footer:
       customize_text: '=> core.ref.custom_footer_text'
-      submit_button: '=> core.ref.okay'
+      submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.custom_footer_title'
     edit_group:
       color_label: '=> core.ref.color'
@@ -71,17 +71,17 @@ core:
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       name_label: Nom
-      plural_placeholder: 'Pluriel (tel que « modérateurs »)'
-      singular_placeholder: 'Singulier (tel que « modérateur »)'
-      submit_button: '=> core.ref.okay'
+      plural_placeholder: 'Pluriel (par exemple « modérateurs »)'
+      singular_placeholder: 'Singulier (par exemple « modérateur »)'
+      submit_button: '=> core.ref.save_changes'
       title: 'Créer le groupe'
     edit_header:
       customize_text: '=> core.ref.custom_header_text'
-      submit_button: '=> core.ref.okay'
+      submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.custom_header_title'
     email:
       addresses_heading: Adresses
-      description: 'Configurez le pilote, les paramètres et les adresses que votre forum utilisera pour envoyer les courriels.'
+      description: 'Configurez le pilote, les paramètres et les adresses que votre forum utilisera pour envoyer des courriels.'
       driver_heading: 'Sélectionner un pilote'
       driver_label: Pilote
       from_label: Expéditeur
@@ -94,14 +94,14 @@ core:
       mail_password_label: '=> core.ref.password'
       mail_port_label: Port
       mail_username_label: '=> core.ref.username'
-      mailgun_heading: 'Paramètres Mailgun'
-      not_sending_message: 'Flarum n''envoie actuellement aucun courriel. Cette erreur peut être provoquée par le pilote sélectionné ou une mauvaise configuration.'
+      mailgun_heading: 'Paramètres de Mailgun'
+      not_sending_message: 'Flarum n''envoie actuellement pas de courriel. Cela peut être dû au pilote sélectionné ou à une erreur dans sa configuration.'
       send_test_mail_button: Envoyer
-      send_test_mail_heading: 'Envoyer le courriel de test'
+      send_test_mail_heading: 'Envoyer un courriel de test'
       send_test_mail_success: 'Le courriel de test a été envoyé !'
-      send_test_mail_text: 'Cela enverra un courriel qui utilisera la configuration paramétrée ci-dessus à votre adresse de courriel {email}.'
+      send_test_mail_text: 'Cela enverra un courriel utilisant la configuration spécifiée ci-dessus à votre adresse de courriel {email}.'
       smtp_heading: 'Paramètres SMTP'
-      submit_button: '=> core.ref.okay'
+      submit_button: '=> core.ref.save_changes'
       text: 'Configurer le pilote, les paramètres et les adresses que votre forum utilisera pour envoyer des courriels.'
       title: '=> core.ref.email'
     extension:
@@ -117,8 +117,8 @@ core:
         source: Source
         support: Support
         website: 'Site internet'
-      no_permissions: 'Cette extension ne détient aucune permission.'
-      no_settings: 'Cette extension ne détient aucun paramètre.'
+      no_permissions: 'Cette extension n''a pas de permission.'
+      no_settings: 'Cette extension n''a pas de paramètre.'
       open_modal: 'Ouvrir les paramètres'
       permissions_title: Permissions
       saved_message: 'Vos modifications ont été enregistrées.'
@@ -141,10 +141,10 @@ core:
       basics_title: '=> core.admin.basics.description'
       categories:
         authentication: Authentification
-        core: 'Configuration principale'
+        core: 'Configuration de base'
         discussion: Discussion
-        feature: Caractéristiques
-        formatting: 'Mise en forme'
+        feature: Fonctionnalités
+        formatting: 'Mise en page'
         language: Langues
         moderation: Modération
         other: 'Autres extensions'
@@ -164,9 +164,9 @@ core:
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
     permissions:
-      allow_post_editing_label: 'Modifier ses messages'
-      allow_renaming_label: 'Renommer ses discussions'
-      create_heading: Création
+      allow_post_editing_label: 'Autoriser la modification des messages'
+      allow_renaming_label: 'Autoriser le renommage'
+      create_heading: Créer
       delete_discussions_forever_label: 'Supprimer définitivement les discussions'
       delete_discussions_label: 'Supprimer les discussions'
       delete_posts_forever_label: 'Supprimer définitivement les messages'
@@ -179,18 +179,18 @@ core:
       global_heading: Général
       moderate_heading: Modération
       new_group_button: 'Nouveau groupe'
-      participate_heading: Participation
+      participate_heading: Participer
       post_without_throttle_label: 'Répondre plusieurs fois sans attendre'
-      read_heading: Consultation
+      read_heading: Consulter
       rename_discussions_label: 'Renommer les discussions'
       reply_to_discussions_label: 'Répondre aux discussions'
       sign_up_label: 'S''inscrire'
       start_discussions_label: 'Démarrer des discussions'
       title: Permissions
       view_discussions_label: 'Voir les discussions'
-      view_hidden_groups_label: 'Voir les badges des groupes masqués'
-      view_last_seen_at_label: 'Toujours voir la dernière connexion des utilisateurs'
-      view_post_ips_label: 'Voir les adresses IP du message'
+      view_hidden_groups_label: 'Afficher les badges des groupes masqués'
+      view_last_seen_at_label: 'Toujours afficher la dernière connexion des utilisateurs'
+      view_post_ips_label: 'Voir les adresses IP des messages'
       view_user_list_label: 'Voir la liste des utilisateurs'
     permissions_controls:
       allow_indefinitely_button: Indéfiniment
@@ -203,12 +203,12 @@ core:
       signup_open_button: Autoriser
     settings:
       saved_message: 'Vos modifications ont été sauvegardées.'
-      submit_button: '=> core.ref.okay'
+      submit_button: '=> core.ref.save_changes'
     upload_image:
       remove_button: '=> core.ref.remove'
       upload_button: 'Sélectionner une image…'
     users:
-      description: 'Une liste organisée de tous les utilisateurs de votre forum.'
+      description: 'Une liste paginée de tous les utilisateurs de votre forum.'
       grid:
         columns:
           edit_user:
@@ -257,16 +257,16 @@ core:
       confirmation_message: '=> core.ref.confirmation_email_sent'
       dismiss_button: '=> core.ref.okay'
       incorrect_password_message: 'Le mot de passe que vous avez spécifié est incorrect.'
-      submit_button: '=> core.ref.okay'
+      submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.change_email'
     change_password:
-      send_button: 'Courriel de réinitialisation'
+      send_button: 'Envoyer le courriel de réinitialisation du mot de passe'
       text: 'Cliquez sur le bouton ci-dessous et consultez le courriel que vous allez recevoir pour modifier votre mot de passe.'
       title: '=> core.ref.change_password'
     composer:
       close_tooltip: Fermer
       exit_full_screen_tooltip: 'Quitter le mode plein écran'
-      full_screen_tooltip: 'Plein écran'
+      full_screen_tooltip: 'Mode plein écran'
       minimize_tooltip: Réduire
       preview_tooltip: Prévisualiser
     composer_discussion:
@@ -279,7 +279,7 @@ core:
       discard_confirmation: 'Vous n''avez pas enregistré vos modifications. Souhaitez-vous les abandonner ?'
       edited_message: 'Vos modifications ont été appliquées.'
       post_link: 'Message #{number} de {discussion}'
-      submit_button: '=> core.ref.okay'
+      submit_button: '=> core.ref.save_changes'
       view_button: '=> core.ref.view'
     composer_reply:
       body_placeholder: '=> core.ref.write_a_reply'
@@ -289,7 +289,7 @@ core:
       view_button: '=> core.ref.view'
     discussion_controls:
       cannot_reply_button: 'Impossible de répondre'
-      cannot_reply_text: 'Vous ne pouvez pas répondre à cette discussion.'
+      cannot_reply_text: 'Vous n''avez pas la permission de répondre à cette discussion.'
       delete_button: '=> core.ref.delete'
       delete_confirmation: 'Êtes-vous sûr de vouloir supprimer cette discussion ?'
       delete_forever_button: '=> core.ref.delete_forever'
@@ -299,11 +299,11 @@ core:
       restore_button: '=> core.ref.restore'
       toggle_dropdown_accessible_label: 'Afficher le menu déroulant des actions de discussion'
     discussion_list:
-      empty_text: 'Il semble qu''il n''y ait aucune discussion ici.'
+      empty_text: 'Il semble qu''il n''y ait pas de discussions ici.'
       load_more_button: '=> core.ref.load_more'
       mark_as_read_tooltip: 'Marquer comme lu'
       replied_text: '{username} a répondu à cette discussion {ago}'
-      started_text: '{username} a publié cette discussion {ago}'
+      started_text: '{username} a initié cette discussion {ago}'
     edit_user:
       activate_button: 'Activer l''utilisateur'
       email_heading: '=> core.ref.email'
@@ -320,10 +320,10 @@ core:
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
-      email_sent_message: 'Nous vous avons envoyé un courriel contenant un lien pour réinitialiser votre mot de passe. Si vous ne le recevez pas prochainement, veuillez vérifier le contenu de votre dossier contenant les pourriels.'
+      email_sent_message: 'Nous vous avons envoyé un courriel contenant un lien pour réinitialiser votre mot de passe. Veuillez vérifier vos pourriels si vous ne le recevez pas d''ici une minute ou deux.'
       not_found_message: 'Il n''y a aucun utilisateur inscrit avec cette adresse de courriel.'
       submit_button: 'Récupérer un mot de passe'
-      text: 'Saisissez votre adresse de courriel pour que nous vous envoyons un lien qui vous permettra de réinitialiser votre mot de passe.'
+      text: 'Saisissez votre adresse de courriel et nous vous enverrons un lien pour réinitialiser votre mot de passe.'
       title: 'Mot de passe oublié'
     header:
       admin_button: Administration
@@ -338,8 +338,8 @@ core:
       sign_up_link: '=> core.ref.sign_up'
     index:
       all_discussions_link: '=> core.ref.all_discussions'
-      cannot_start_discussion_button: 'Impossible de démarrer une discussion'
-      mark_all_as_read_confirmation: 'Êtes-vous sûr de vouloir marquer toutes les notifications comme lues ?'
+      cannot_start_discussion_button: 'Impossible de démarrer la discussion'
+      mark_all_as_read_confirmation: 'Êtes-vous sûr de vouloir marquer toutes les discussions comme lues ?'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       meta_title_text: '=> core.ref.all_discussions'
       refresh_tooltip: Actualiser
@@ -354,15 +354,15 @@ core:
       top_button: Popularité
     log_in:
       forgot_password_link: 'Mot de passe oublié ?'
-      invalid_login_message: 'Vos identifiants sont incorrects.'
+      invalid_login_message: 'Vos identifiants de connexion étaient erronés.'
       password_placeholder: '=> core.ref.password'
       remember_me_label: 'Se souvenir de moi'
-      sign_up_text: 'Pas encore inscrit ? <a>Inscription</a>'
+      sign_up_text: 'Vous n''avez pas de compte ? <a>Inscription</a>'
       submit_button: '=> core.ref.log_in'
       title: '=> core.ref.log_in'
       username_or_email_placeholder: 'Nom d''utilisateur ou adresse de courriel'
     notifications:
-      discussion_renamed_text: '{username} a renommé le titre de votre discussion'
+      discussion_renamed_text: '{username} a renommé le titre de la discussion'
       empty_text: 'Aucune notification'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       mark_as_read_tooltip: 'Marquer comme lu'
