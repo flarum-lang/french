@@ -12,7 +12,7 @@ core:
     appearance:
       colored_header_label: 'Colorisation de l''en-tête'
       colors_heading: Couleurs
-      colors_text: 'Sélectionnez deux couleurs pour styliser votre forum. La première couleur est utilisée pour les éléments mis en évidence et la seconde couleur est utilisée pour les éléments en arrière-plan.'
+      colors_text: 'Sélectionnez deux couleurs pour le thème de votre forum. La première couleur sera utilisée comme couleur de surbrillance, tandis que la seconde sera utilisée pour styliser les éléments d''arrière-plan.'
       custom_footer_heading: 'Personnalisation du pied de page'
       custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 'Personnalisation de l''en-tête'
