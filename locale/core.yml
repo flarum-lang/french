@@ -241,13 +241,13 @@ core:
   email:
     activate_account:
       body: "Bonjour {username} !\n\nQuelqu'un (en espérant que cela soit vous !) s'est inscrit sur {forum} avec cette adresse de courriel.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour que votre compte soit activé :\n{url}\n\nSi vous n'êtes pas à l'origine de cette action, veuillez ignorer ce courriel.\n"
-      subject: 'Activation de votre compte'
+      subject: 'Activez votre nouveau compte'
     confirm_email:
       body: "Bonjour {username} !\n\nQuelqu'un (en espérant que cela soit vous !) a demandé à modifier l'adresse de courriel associée à votre compte sur {forum} par celle-ci.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour confirmer votre nouvelle adresse de courriel :\n{url}\n\nSi vous ne souhaitez pas modifier votre adresse de courriel, veuillez ignorer ce courriel.\n"
       subject: 'Confirmez votre nouvelle adresse de courriel'
     reset_password:
       body: "Bonjour {username} !\n\nQuelqu'un (en espérant que cela soit vous !) a demandé à réinitialiser le mot de passe associé à votre compte sur {forum}.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour réinitialiser votre mot de passe actuel :\n{url}\n\nSi vous ne souhaitez pas réinitialiser votre mot de passe, veuillez ignorer ce courriel.\n"
-      subject: 'Réinitialisation de votre mot de passe'
+      subject: '=> core.ref.reset_your_password'
     send_test:
       body: "Bonjour {username} !\n\nCeci est un courriel de test qui confirme que la configuration de la messagerie de Flarum fonctionne correctement.\n\nSi vous êtes bien à l'origine de cette action, ce courriel confirme que votre configuration est fonctionnelle !\n\nSi vous n'êtes pas à l'origine de cette action, veuillez ignorer ce courriel.\n"
       subject: 'Courriel de test de Flarum'
@@ -303,17 +303,17 @@ core:
       load_more_button: '=> core.ref.load_more'
       mark_as_read_tooltip: 'Marquer comme lu'
       replied_text: '{username} a répondu à cette discussion {ago}'
-      started_text: '{username} a initié cette discussion {ago}'
+      started_text: '{username} a démarré cette discussion {ago}'
     edit_user:
       activate_button: 'Activer l''utilisateur'
       email_heading: '=> core.ref.email'
       email_label: '=> core.ref.email'
       groups_heading: Groupes
-      nothing_available: 'Il n''y a rien à modifier pour le moment.'
+      nothing_available: 'Il n''y a rien que vous puissiez modifier pour le moment.'
       password_heading: '=> core.ref.password'
       password_label: '=> core.ref.password'
       set_password_label: 'Définir un nouveau mot de passe'
-      submit_button: '=> core.ref.okay'
+      submit_button: '=> core.ref.save_changes'
       title: 'Modifier l''utilisateur'
       username_heading: '=> core.ref.username'
       username_label: '=> core.ref.username'
@@ -404,8 +404,8 @@ core:
       change_email_button: '=> core.ref.change_email'
       change_password_button: '=> core.ref.change_password'
       notifications_heading: '=> core.ref.notifications'
-      notify_by_email_heading: Courriel
-      notify_by_web_heading: Web
+      notify_by_email_heading: '=> core.ref.email'
+      notify_by_web_heading: Internet
       notify_discussion_renamed_label: 'Quelqu''un renomme une discussion que j''ai démarrée'
       privacy_disclose_online_label: 'Autoriser les autres à voir que je suis en ligne'
       privacy_heading: Confidentialité
@@ -413,7 +413,7 @@ core:
     sign_up:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
-      log_in_text: 'Déjà inscrit ? <a>Connexion</a>'
+      log_in_text: 'Vous avez déjà un compte ? <a>Connexion</a>'
       password_placeholder: '=> core.ref.password'
       submit_button: '=> core.ref.sign_up'
       title: '=> core.ref.sign_up'
@@ -434,7 +434,7 @@ core:
     user_controls:
       button: Commandes
       delete_button: '=> core.ref.delete'
-      delete_confirmation: 'Êtes-vous sûr de vouloir supprimer cet utilisateur ? Veuillez noter que ses messages seront conservés.'
+      delete_confirmation: 'Êtes-vous sûr de vouloir supprimer cet utilisateur ? Veuillez noter que ses messages ne seront pas supprimés.'
       delete_error_message: 'La suppression de l''utilisateur <i>{username} ({email})</i> a échoué'
       delete_success_message: 'L''utilisateur <i>{username} ({email})</i> a été supprimé'
       edit_button: '=> core.ref.edit'
@@ -470,12 +470,12 @@ core:
       username_heading: '=> core.ref.username'
       username_label: '=> core.ref.username'
     error:
-      dependent_extensions_message: 'Impossible de désactiver {extension}. Veuillez en premier lieu désactiver les extensions dépendantes suivantes : {extensions}'
-      generic_message: 'Oups ! Quelque chose s''est mal passé. Veuillez actualiser la page puis réessayer.'
-      missing_dependencies_message: 'Impossible d''activer {extension}. Veuillez en premier lieu activer les dépendances suivantes : {extensions}'
-      not_found_message: 'La ressource que vous souhaitez atteindre est introuvable.'
+      dependent_extensions_message: 'Impossible de désactiver {extension} tant que les extensions dépendantes suivantes ne sont pas désactivées : {extensions}'
+      generic_message: 'Oups ! Une erreur est survenue. Veuillez actualiser la page puis réessayer.'
+      missing_dependencies_message: 'Impossible d''activer {extension} tant que les dépendances suivantes ne sont pas activées : {extensions}'
+      not_found_message: 'La ressource demandée est introuvable.'
       permission_denied_message: 'Vous n''avez pas la permission de faire cela.'
-      rate_limit_exceeded_message: 'Vous êtes un peu trop rapide. Veuillez réessayer dans quelques secondes.'
+      rate_limit_exceeded_message: 'Vous allez un peu trop vite. Veuillez réessayer dans quelques secondes.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
     number_suffix:
@@ -493,11 +493,11 @@ core:
     change_password: 'Modifier le mot de passe'
     color: Couleur
     confirm_password: 'Confirmer le mot de passe'
-    confirmation_email_sent: 'Nous avons envoyé un courriel de confirmation à {email}. Si vous ne le recevez pas prochainement, veuillez vérifier le contenu de votre dossier contenant les pourriels.'
-    custom_footer_text: 'Ajoutez du code HTML à afficher en bas de page.'
-    custom_footer_title: 'Personnaliser le pied de page'
-    custom_header_text: 'Ajoutez du code HTML à afficher en haut de page, au-dessus de l''en-tête de Flarum.'
-    custom_header_title: 'Personnaliser l''en-tête'
+    confirmation_email_sent: 'Nous avons envoyé un courriel de confirmation à {email}. Veuillez vérifier vos pourriels si vous ne le recevez pas d''ici une minute ou deux.'
+    custom_footer_text: 'Ajoutez du code HTML à afficher tout en bas de la page.'
+    custom_footer_title: 'Modifier le pied de page personnalisé'
+    custom_header_text: 'Ajoutez du code HTML à afficher tout en haut de la page, au-dessus de l''en-tête de Flarum.'
+    custom_header_title: 'Modifier l''en-tête personnalisé'
     delete: Supprimer
     delete_forever: 'Supprimer définitivement'
     discussions: Discussions
@@ -505,7 +505,7 @@ core:
     edit_user: 'Modifier l''utilisateur'
     email: 'Adresse de courriel'
     icon: Icône
-    icon_text: 'Saisissez le nom d''une des classes d''icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe <code>fas fa-</code>.'
+    icon_text: 'Saisissez le nom de n''importe quelle classe d''icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe <code>fas fa-</code>.'
     load_more: 'Charger davantage'
     loading: Chargement…
     log_in: Connexion
@@ -526,7 +526,7 @@ core:
     settings: Paramètres
     sign_up: Inscription
     some_others: '{count} autre|{count} autres'
-    start_a_discussion: 'Nouvelle discussion'
+    start_a_discussion: 'Démarrer une discussion'
     username: 'Nom d''utilisateur'
     users: Utilisateurs
     view: Consulter
@@ -535,7 +535,7 @@ core:
   views:
     content:
       javascript_disabled_message: 'Ce site est optimisé pour être consulté depuis un navigateur moderne dans lequel JavaScript est activé.'
-      load_error_message: 'Une erreur est survenue lors de la tentative de chargement de la version complète de ce site. Veuillez purger le cache de votre navigateur et rafraîchir cette page pour tenter de corriger cette erreur.'
+      load_error_message: 'Une erreur est survenue lors du chargement de la version complète de ce site. Veuillez vider le cache de votre navigateur et rafraîchir cette page pour corriger cette erreur.'
       loading_text: Chargement…
     discussion:
       next_page_button: '=> core.ref.next_page'
@@ -543,11 +543,11 @@ core:
     error:
       csrf_token_mismatch: 'Vous êtes resté inactif trop longtemps.'
       csrf_token_mismatch_return_link: 'Revenir pour réessayer'
-      invalid_confirmation_token: 'Ce lien de confirmation est invalide ou a déjà été utilisé.'
-      not_authenticated: 'Vous n''êtes pas autorisé à accéder à cette page. Veuillez réessayer après vous être connecté.'
+      invalid_confirmation_token: 'Ce lien de confirmation a déjà été utilisé ou n''est pas valide.'
+      not_authenticated: 'Vous n''avez pas l''autorisation d''accéder à cette page. Veuillez réessayer après vous être connecté.'
       not_found: 'La page que vous avez demandée est introuvable.'
       not_found_return_link: 'Revenir à {forum}'
-      permission_denied: 'Vous n''êtes pas autorisé à accéder à cette page.'
+      permission_denied: 'Vous n''avez pas l''autorisation d''accéder à cette page.'
       unknown: 'Une erreur est survenue lors du chargement de la page.'
     index:
       all_discussions_heading: '=> core.ref.all_discussions'
@@ -560,5 +560,5 @@ core:
     reset_password:
       confirm_password_label: 'Confirmer le nouveau mot de passe'
       new_password_label: 'Nouveau mot de passe'
-      submit_button: '=> core.ref.okay'
+      submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.reset_your_password'
