@@ -15,7 +15,7 @@ flarum-lock:
     notifications:
       discussion_locked_text: '{username} a verrouillé votre discussion'
     post_stream:
-      discussion_locked_text: '{username} a verrouillé cette discussion.'
-      discussion_unlocked_text: '{username} a déverrouillé cette discussion.'
+      discussion_locked_text: '{username} a verrouillé la discussion.'
+      discussion_unlocked_text: '{username} a déverrouillé la discussion.'
     settings:
       notify_discussion_locked_label: 'Quelqu''un verrouille une discussion que j''ai démarrée'

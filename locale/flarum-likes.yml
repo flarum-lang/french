@@ -20,4 +20,4 @@ flarum-likes:
     post_likes:
       title: 'Utilisateurs qui aiment ça'
     settings:
-      notify_post_liked_label: 'Quelqu''un aime un message que j''ai publié'
+      notify_post_liked_label: 'Quelqu''un aime un de mes messages'

@@ -10,10 +10,10 @@ flarum-sticky:
     badge:
       sticky_tooltip: '=> flarum-sticky.ref.sticky'
     discussion_controls:
-      sticky_button: Épingler
+      sticky_button: '=> flarum-sticky.ref.sticky'
       unsticky_button: Désépingler
     post_stream:
-      discussion_stickied_text: '{username} a épinglé cette discussion.'
-      discussion_unstickied_text: '{username} a désépinglé cette discussion.'
+      discussion_stickied_text: '{username} a épinglé la discussion.'
+      discussion_unstickied_text: '{username} a désépinglé la discussion.'
   ref:
     sticky: Épinglée

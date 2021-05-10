@@ -5,14 +5,14 @@
 flarum-mentions:
   admin:
     settings:
-      allow_username_format_label: 'Autoriser le système de mention de nom d''utilisateur (@utilisateur)'
-      allow_username_format_text: "Le format actuel des mentions d'utilisateurs est @\"Nom d'affichage\"#Identifiant.\nCe paramètre permet d'utiliser l'ancien format @\"Nom d'utilisateur\", qui sera néanmoins converti au nouveau format lors de la sauvegarde.\n"
+      allow_username_format_label: 'Autoriser le format de mention du nom d''utilisateur (@utilisateur)'
+      allow_username_format_text: "Le format actuel des mentions d'utilisateur est @\"Nom d'affichage\"#Identifiant.\nCe paramètre permet d'utiliser l'ancien format @\"Nom d'utilisateur\" qui sera néanmoins converti au nouveau format lors de la sauvegarde.\n"
   email:
     post_mentioned:
       body: "Bonjour {recipient_display_name} !\n\n{replier_display_name} a répondu à votre message (#{post_number}) dans {title}.\n\n{url}\n\n---\n\n{content}\n"
       subject: '{replier_display_name} a répondu à votre message dans {title}'
     user_mentioned:
-      body: "Bonjour {recipient_display_name} !\n\n{mentioner_display_name} vous a mentionné dans un message dans {title}.\n\n{url}\n\n---\n\n{content}\n"
+      body: "Bonjour {recipient_display_name} !\n\n{mentioner_display_name} vous a mentionné dans un message de {title}.\n\n{url}\n\n---\n\n{content}\n"
       subject: '{mentioner_display_name} vous a mentionné dans {title}'
   forum:
     composer:
@@ -32,7 +32,7 @@ flarum-mentions:
     post_mention:
       deleted_text: '[inconnu]'
     settings:
-      notify_post_mentioned_label: 'Quelqu''un répond à un message que j''ai publié'
+      notify_post_mentioned_label: 'Quelqu''un répond à un de mes messages'
       notify_user_mentioned_label: 'Quelqu''un me mentionne dans un message'
     user:
       mentions_link: Mentions

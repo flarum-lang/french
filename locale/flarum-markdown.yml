@@ -11,7 +11,7 @@ flarum-markdown:
     composer:
       bold_tooltip: 'Mettre le texte en gras'
       code_tooltip: 'Insérer du code'
-      header_tooltip: 'Ajouter un titre'
+      header_tooltip: 'Ajouter un texte d''en-tête'
       image_tooltip: 'Ajouter une image'
       italic_tooltip: 'Mettre le texte en italique'
       link_tooltip: 'Ajouter un lien hypertexte'

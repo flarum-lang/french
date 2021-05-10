@@ -13,17 +13,17 @@ flarum-flags:
       title: 'Paramètres des signalements'
   forum:
     flag_post:
-      confirmation_message: 'Merci d''avoir signalé ce message. Les modérateurs s''en occuperont dès que possible.'
+      confirmation_message: 'Merci d''avoir signalé ce message. Nos modérateurs vont l''examiner dès que possible.'
       dismiss_button: '=> core.ref.okay'
       reason_details_placeholder: 'Informations complémentaires (facultatif)'
       reason_inappropriate_label: Inapproprié
       reason_inappropriate_text: 'Ce message est offensant, vulgaire, ou ne respecte pas les <a>règles de la communauté</a>.'
-      reason_missing_message: 'Veuillez communiquer certaines informations à nos modérateurs.'
-      reason_off_topic_label: hors-sujet
+      reason_missing_message: 'Veuillez fournir quelques explications à nos modérateurs.'
+      reason_off_topic_label: Hors-sujet
       reason_off_topic_text: 'Ce message n''est pas pertinent à la discussion actuelle et devrait être déplacé ailleurs.'
       reason_other_label: 'Autre (veuillez préciser)'
       reason_spam_label: Indésirable
-      reason_spam_text: 'Ce message est publicitaire.'
+      reason_spam_text: 'Ce message est une annonce publicitaire.'
       submit_button: '=> flarum-flags.ref.flag_post'
       title: '=> flarum-flags.ref.flag_post'
     flagged_posts:
@@ -33,8 +33,8 @@ flarum-flags:
       tooltip: '=> flarum-flags.ref.flagged_posts'
     post:
       dismiss_flag_button: 'Annuler le signalement'
-      flagged_by_text: '{username} a signalé ça'
-      flagged_by_with_reason_text: '{username} a signalé ça comme {reason}'
+      flagged_by_text: 'Signalé par {username}'
+      flagged_by_with_reason_text: 'Signalé par {username} comme {reason}'
     post_controls:
       flag_button: Signaler
   ref:

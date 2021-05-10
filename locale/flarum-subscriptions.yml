@@ -18,7 +18,7 @@ flarum-subscriptions:
     following:
       meta_title_text: '=> flarum-subscriptions.ref.following'
     index:
-      following_link: Abonnements
+      following_link: '=> flarum-subscriptions.ref.following'
     notifications:
       new_post_text: '{username} a publié un message'
     settings:
