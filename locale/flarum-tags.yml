@@ -11,20 +11,20 @@ flarum-tags:
       delete_tag_button: 'Supprimer l''étiquette'
       delete_tag_confirmation: 'Êtes-vous sûr de vouloir supprimer cette étiquette ? Les discussions publiées sous cette étiquette ne seront pas supprimées.'
       description_label: Description
-      hide_label: 'Masquer de la liste de discussions'
+      hide_label: 'Masquer de la liste de toutes les discussions'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       name_label: '=> flarum-tags.ref.name'
       name_placeholder: '=> flarum-tags.ref.name'
-      slug_label: Identifiant
-      submit_button: '=> core.ref.okay'
+      slug_label: 'Identifiant texte unique'
+      submit_button: '=> core.ref.save_changes'
       title: 'Créer une étiquette'
     nav:
       tags_button: '=> flarum-tags.ref.tags'
       tags_text: 'Gérez la liste des étiquettes disponibles pour organiser les discussions.'
     permissions:
       allow_edit_tags_label: 'Autoriser la modification des étiquettes'
-      bypass_tag_counts_label: 'Contourner les limitations des étiquettes'
+      bypass_tag_counts_label: 'Contourner les restrictions des étiquettes'
       restrict_by_tag_heading: 'Restreindre par étiquette'
       tag_discussions_label: 'Ajouter des étiquettes aux discussions'
     tag_settings:
@@ -35,7 +35,7 @@ flarum-tags:
       required_secondary_text: 'Saisissez le nombre minimal et maximal d''étiquettes secondaires qui peuvent être ajoutées à une discussion.'
       title: 'Paramètres des étiquettes'
     tags:
-      about_tags_text: 'Les étiquettes permettent de catégoriser les discussions. Les étiquettes primaires sont similaires aux traditionnelles catégories, elles peuvent être disposées en une hiérarchie à deux niveaux. Les étiquettes secondaires ne sont ni hiérarchisées, ni ordonnées, mais peuvent être utilisées comme des catégories mineures.'
+      about_tags_text: 'Les étiquettes sont utilisées pour catégoriser les discussions. Les étiquettes primaires sont similaires aux catégories traditionnelles des forums, elles peuvent être organisées selon une hiérarchie à deux niveaux. Les étiquettes secondaires ne sont ni hiérarchisées ni ordonnées, mais sont utiles pour la micro-catégorisation.'
       create_primary_tag_button: 'Créer une étiquette primaire'
       create_secondary_tag_button: 'Créer une étiquette secondaire'
       primary_heading: 'Étiquettes primaires'
@@ -65,9 +65,9 @@ flarum-tags:
       added_and_removed_tags_text: '{username} a ajouté {tagsAdded} et a supprimé {tagsRemoved}.'
       added_tags_text: '{username} a ajouté {tagsAdded}.'
       removed_tags_text: '{username} a supprimé {tagsRemoved}.'
-      tags_text: 'l''étiquette {tags}|les étiquettes {tags}'
+      tags_text: 'Étiquette {tags}|Étiquettes {tags}'
     tag:
-      meta_description_text: 'Toutes les discussions avec la balise {tag}'
+      meta_description_text: 'Toutes les discussions avec l''étiquette {tag}'
   lib:
     deleted_tag_text: Supprimée
   ref:

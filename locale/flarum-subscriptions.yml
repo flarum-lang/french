@@ -5,7 +5,7 @@
 flarum-subscriptions:
   email:
     new_post:
-      body: "Bonjour {recipient_display_name} !\n\n{poster_display_name} a publié un message dans une discussion à laquelle vous êtes abonné : {title}.\n\nPour consulter ce nouveau message, veuillez cliquer sur le lien suivant :\n{url}\n\n---\n\n{content}\n\n---\n\nVous ne recevrez plus de notification concernant cette discussion tant que vous êtes à jour.\n"
+      body: "Bonjour {recipient_display_name} !\n\n{poster_display_name} a publié un message dans une discussion dont vous êtes abonné : {title}.\n\nPour consulter ce nouveau message, veuillez cliquer sur le lien suivant :\n{url}\n\n---\n\n{content}\n\n---\n\nVous ne recevrez plus de notification concernant cette discussion tant que vous êtes à jour.\n"
       subject: '[Nouveau message] {title}'
   forum:
     badge:
@@ -23,18 +23,18 @@ flarum-subscriptions:
       new_post_text: '{username} a publié un message'
     settings:
       follow_after_reply_label: 'Suivre automatiquement les discussions auxquelles j''ai répondu'
-      notify_new_post_label: 'Quelqu''un publie dans une discussion que je suis'
+      notify_new_post_label: 'Quelqu''un publie un message dans une discussion dont je suis abonné'
     sub_controls:
       follow_button: '=> flarum-subscriptions.ref.follow'
       following_button: '=> flarum-subscriptions.ref.following'
-      following_text: 'M''envoyer une notification lorsqu''une réponse est publiée.'
+      following_text: 'Être notifié de toutes les réponses.'
       ignoring_button: '=> flarum-subscriptions.ref.ignoring'
-      ignoring_text: 'Ne jamais m''envoyer de notification. Masquer de la liste de discussions.'
+      ignoring_text: 'Ne jamais me notifier. Masquer de la liste de discussions.'
       not_following_button: 'Non abonné'
-      not_following_text: 'Ne m''envoyer une notification que lorsque je suis @mentionné.'
-      notify_alert_tooltip: 'Recevoir une notification sur le forum lorsque de nouveaux messages sont publiés'
+      not_following_text: 'Être notifié que lorsque je suis @mentionné.'
+      notify_alert_tooltip: 'Recevoir une notification du forum lorsque de nouveaux messages sont publiés'
       notify_email_tooltip: 'Recevoir un courriel lorsque de nouveaux messages sont publiés'
   ref:
-    follow: Suivre
+    follow: 'S''abonner'
     following: Abonné
     ignoring: Ignorée
