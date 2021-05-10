@@ -8,45 +8,27 @@ French language pack to localize the Flarum forum software, its bundled extensio
 
 Includes the following French locales compatible with:
 
-- [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/fr/)
-[Flarum 0.1.0 Beta 16](https://github.com/flarum/core)
-  - Bundled extensions:
-    - [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-akismet/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-akismet/fr/)
-    [Akismet](https://github.com/flarum/akismet)
-    - [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-approval/fr/)
-    [Approval](https://github.com/flarum/approval)
-    - [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-emoji/fr/)
-    [Emoji](https://github.com/flarum/emoji)
-    - [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-flags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-flags/fr/)
-    [Flags](https://github.com/flarum/flags)
-    - [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-likes/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-likes/fr/)
-    [Likes](https://github.com/flarum/likes)
-    - [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-lock/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-lock/fr/)
-    [Lock](https://github.com/flarum/lock)
-    - [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-markdown/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-markdown/fr/)
-    [Markdown](https://github.com/flarum/markdown)
-    - [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-mentions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-mentions/fr/)
-    [Mentions](https://github.com/flarum/mentions)
-    - [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-nicknames/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-nicknames/fr/)
-    [Nicknames](https://github.com/flarum/nicknames)
-    - [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-pusher/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-pusher/fr/)
-    [Pusher](https://github.com/flarum/pusher)
-    - [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-statistics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-statistics/fr/)
-    [Statistics](https://github.com/flarum/statistics)
-    - [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-sticky/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-sticky/fr/)
-    [Sticky](https://github.com/flarum/sticky)
-    - [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-subscriptions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-subscriptions/fr/)
-    [Subscriptions](https://github.com/flarum/subscriptions)
-    - [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-suspend/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-suspend/fr/)
-    [Suspend](https://github.com/flarum/suspend)
-    - [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-tags/fr/)
-    [Tags](https://github.com/flarum/tags)
-  - Bundled libraries:
-    - [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/fr/)
-    [Laravel's Validation Rules](https://github.com/laravel/laravel)
-    - [Day.js](https://github.com/iamkun/dayjs)
+| Component | Status |
+| --- | --- |
+[Core](https://github.com/flarum/core) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/fr/) |
+[Akismet](https://github.com/flarum/akismet) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-akismet/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-akismet/fr/) |
+[Approval](https://github.com/flarum/approval) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-approval/fr/) |
+[Emoji](https://github.com/flarum/emoji) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-emoji/fr/) |
+[Flags](https://github.com/flarum/flags) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-flags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-flags/fr/) |
+[Likes](https://github.com/flarum/likes) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-likes/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-likes/fr/) |
+[Lock](https://github.com/flarum/lock) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-lock/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-lock/fr/) |
+[Markdown](https://github.com/flarum/markdown) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-markdown/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-markdown/fr/) |
+[Mentions](https://github.com/flarum/mentions) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-mentions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-mentions/fr/) |
+[Nicknames](https://github.com/flarum/nicknames) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-nicknames/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-nicknames/fr/) |
+[Pusher](https://github.com/flarum/pusher) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-pusher/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-pusher/fr/) |
+[Statistics](https://github.com/flarum/statistics) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-statistics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-statistics/fr/) |
+[Sticky](https://github.com/flarum/sticky) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-sticky/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-sticky/fr/) |
+[Subscriptions](https://github.com/flarum/subscriptions) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-subscriptions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-subscriptions/fr/) |
+[Suspend](https://github.com/flarum/suspend) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-suspend/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-suspend/fr/) |
+[Tags](https://github.com/flarum/tags) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-tags/fr/) |
+[Laravel's Validation Rules](https://github.com/laravel/laravel) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/fr/) |
 
-Released under the MIT license. Please see [the license terms](https://github.com/qiaeru/lang-french/blob/master/LICENSE).
+The language pack is released under the MIT license. Please see [the license terms](https://github.com/qiaeru/lang-french/blob/master/LICENSE).
 
 ## Installation
 
