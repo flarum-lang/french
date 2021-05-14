@@ -12,4 +12,4 @@ flarum-pusher:
       title: 'Paramètres de Pusher'
   forum:
     discussion_list:
-      show_updates_text: 'Afficher la discussion mise à jour|Afficher les {count} discussions mises à jour'
+      show_updates_text: '{count, plural, one {Afficher la discussion mise à jour} other {Afficher les # discussions mises à jour}}'

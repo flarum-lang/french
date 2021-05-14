@@ -46,8 +46,8 @@ flarum-tags:
       meta_description_text: 'Toutes les étiquettes'
       meta_title_text: '=> flarum-tags.ref.tags'
     choose_tags:
-      choose_primary_placeholder: 'Sélectionnez une étiquette primaire|Sélectionnez {count} étiquettes primaires'
-      choose_secondary_placeholder: 'Sélectionnez une étiquette secondaire|Sélectionnez {count} étiquettes secondaires'
+      choose_primary_placeholder: '{count, plural, one {Sélectionnez une étiquette primaire} other {Sélectionnez # étiquettes primaires}}'
+      choose_secondary_placeholder: '{count, plural, one {Sélectionnez une étiquette secondaire} other {Sélectionnez # étiquettes secondaires}}'
       edit_title: 'Modifiez les étiquettes de {title}'
       submit_button: '=> core.ref.okay'
       title: 'Sélectionnez les étiquettes de votre discussion'
@@ -65,7 +65,7 @@ flarum-tags:
       added_and_removed_tags_text: '{username} a ajouté {tagsAdded} et a supprimé {tagsRemoved}.'
       added_tags_text: '{username} a ajouté {tagsAdded}.'
       removed_tags_text: '{username} a supprimé {tagsRemoved}.'
-      tags_text: 'Étiquette {tags}|Étiquettes {tags}'
+      tags_text: '{count, plural, one {Étiquette #} other {Étiquettes #}}'
     tag:
       meta_description_text: 'Toutes les discussions avec l''étiquette {tag}'
   lib:

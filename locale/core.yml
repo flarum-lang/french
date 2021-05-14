@@ -18,7 +18,7 @@ core:
       custom_header_heading: 'Personnalisation de l''en-tête'
       custom_header_text: '=> core.ref.custom_header_text'
       custom_styles_heading: 'Personnalisation des styles'
-      custom_styles_text: 'Personnalisez l''apparence de votre forum en ajoutant votre propre code LESS/CSS qui sera appliqué en priorité par rapport aux styles par défaut de Flarum.'
+      custom_styles_text: 'Personnalisez l''apparence de votre forum en ajoutant votre propre code Less/CSS qui sera appliqué en priorité par rapport aux styles par défaut de Flarum.'
       dark_mode_label: 'Mode sombre'
       description: 'Personnalisez les couleurs, les logos et d''autres aspects de votre forum.'
       edit_css_button: 'Modifier le CSS personnalisé'
@@ -56,7 +56,7 @@ core:
       title: 'Tableau de bord'
       tools_button: Outils
     edit_css:
-      customize_text: 'Personnalisez l''apparence de votre forum en ajoutant votre propre code LESS/CSS à appliquer en priorité par rapport <a>aux styles par défaut</a> de Flarum.'
+      customize_text: 'Personnalisez l''apparence de votre forum en ajoutant votre propre code Less/CSS à appliquer en priorité par rapport <a>aux styles par défaut</a> de Flarum.'
       submit_button: '=> core.ref.save_changes'
       title: 'Modifier le CSS personnalisé'
     edit_footer:
@@ -196,7 +196,7 @@ core:
       view_user_list_label: 'Voir la liste des utilisateurs'
     permissions_controls:
       allow_indefinitely_button: Indéfiniment
-      allow_some_minutes_button: 'Pendant {count} minute|Pendant {count} minutes'
+      allow_some_minutes_button: '{count, plural, one {Pendant # minute} other {Pendant # minutes}}'
       allow_ten_minutes_button: 'Pendant 10 minutes'
       allow_until_reply_button: 'Jusqu''à la prochaine réponse'
       everyone_button: 'Tout le monde'
@@ -387,7 +387,7 @@ core:
       now_link: Maintenant
       original_post_link: 'Message original'
       unread_text: '{count} non lus'
-      viewing_text: '{index} sur {count} message|{index} sur {count} messages'
+      viewing_text: '{count, plural, one {{index} sur {formattedCount} message} other {{index} sur {formattedCount} messages}}'
     post_stream:
       discussion_renamed_old_tooltip: 'L''ancien titre était : « {old} »'
       discussion_renamed_text: '{username} a renommé le titre en {new}.'
@@ -527,7 +527,7 @@ core:
     save_changes: Enregistrer
     settings: Paramètres
     sign_up: Inscription
-    some_others: '{count} autre|{count} autres'
+    some_others: '{count, plural, one {# autre} other {# autres}}'
     start_a_discussion: 'Nouvelle discussion'
     username: 'Nom d''utilisateur'
     users: Utilisateurs

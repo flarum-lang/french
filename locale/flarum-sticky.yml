@@ -16,4 +16,4 @@ flarum-sticky:
       discussion_stickied_text: '{username} a épinglé la discussion.'
       discussion_unstickied_text: '{username} a désépinglé la discussion.'
   ref:
-    sticky: Épinglée
+    sticky: Épingler
