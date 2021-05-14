@@ -1,6 +1,6 @@
 {
     "name": "qiaeru/lang-french",
-    "description": "French language pack for Flarum and its bundled extensions.",
+    "description": "French language pack for Flarum, its official extensions and bundled libraries.",
     "type": "flarum-extension",
     "keywords": ["extension", "flarum", "french", "locale", "translation"],
     "license": "MIT",
