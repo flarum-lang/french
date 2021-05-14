@@ -28,6 +28,8 @@ Includes the following French locales compatible with:
 [Tags](https://github.com/flarum/tags) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-tags/fr/)
 [Laravel's Validation Rules](https://github.com/laravel/laravel) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/fr/)
 
+Looking for French translations for third-party extensions? Please have a look at [this repository](https://github.com/rooaaar/lang-french-extended).
+
 ## Installation
 
 Flarum use Composer to manage its dependencies and extensions. The French language pack is available [on Packagist](https://packagist.org/packages/qiaeru/lang-french) and can be managed that way. Make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following command in the location where Flarum is installed:
