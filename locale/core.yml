@@ -19,7 +19,7 @@ core:
       custom_header_text: '=> core.ref.custom_header_text'
       custom_styles_heading: 'Personnalisation des styles'
       custom_styles_text: 'Personnalisez l''apparence de votre forum en ajoutant votre propre code LESS/CSS qui sera appliqué en priorité par rapport aux styles par défaut de Flarum.'
-      dark_mode_label: 'Mode nuit'
+      dark_mode_label: 'Mode sombre'
       description: 'Personnalisez les couleurs, les logos et d''autres aspects de votre forum.'
       edit_css_button: 'Modifier le CSS personnalisé'
       edit_footer_button: '=> core.ref.custom_footer_title'
@@ -184,10 +184,12 @@ core:
       read_heading: Consulter
       rename_discussions_label: 'Renommer les discussions'
       reply_to_discussions_label: 'Répondre aux discussions'
+      search_users_label: 'Rechercher des utilisateurs'
       sign_up_label: 'S''inscrire'
       start_discussions_label: 'Démarrer des discussions'
       title: Permissions
       view_discussions_label: 'Voir les discussions'
+      view_forum_label: 'Voir le forum (discussions et utilisateurs)'
       view_hidden_groups_label: 'Afficher les badges des groupes masqués'
       view_last_seen_at_label: 'Toujours afficher la dernière connexion des utilisateurs'
       view_post_ips_label: 'Voir les adresses IP des messages'
@@ -526,7 +528,7 @@ core:
     settings: Paramètres
     sign_up: Inscription
     some_others: '{count} autre|{count} autres'
-    start_a_discussion: 'Démarrer une discussion'
+    start_a_discussion: 'Nouvelle discussion'
     username: 'Nom d''utilisateur'
     users: Utilisateurs
     view: Consulter

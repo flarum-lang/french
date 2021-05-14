@@ -37,4 +37,4 @@ flarum-subscriptions:
   ref:
     follow: 'S''abonner'
     following: Abonné
-    ignoring: Ignorée
+    ignoring: Ignoré
