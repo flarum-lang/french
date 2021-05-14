@@ -262,7 +262,7 @@ core:
       submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.change_email'
     change_password:
-      send_button: 'Envoyer le courriel de réinitialisation du mot de passe'
+      send_button: 'Envoyer le courriel de réinitialisation'
       text: 'Cliquez sur le bouton ci-dessous et consultez le courriel que vous allez recevoir pour modifier votre mot de passe.'
       title: '=> core.ref.change_password'
     composer:
