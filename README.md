@@ -51,7 +51,7 @@ php flarum cache:clear
 
 This project uses a [Weblate](https://weblate.org/) instance hosted and managed by [Robert Korulczyk](https://github.com/rob006).
 
-You can easily contribute to the language pack [on this page](https://weblate.rob006.net/languages/fr/flarum/).
+You can easily contribute to the language pack on [this page](https://weblate.rob006.net/languages/fr/flarum/).
 
 ## License
 
