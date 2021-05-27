@@ -65,7 +65,7 @@ flarum-tags:
       added_and_removed_tags_text: '{username} a ajouté {tagsAdded} et a supprimé {tagsRemoved}.'
       added_tags_text: '{username} a ajouté {tagsAdded}.'
       removed_tags_text: '{username} a supprimé {tagsRemoved}.'
-      tags_text: '{count, plural, one {Étiquette #} other {Étiquettes #}}'
+      tags_text: '{count, plural, one {Étiquette {tags}} other {Étiquettes {tags}}'
     tag:
       meta_description_text: 'Toutes les discussions avec l''étiquette {tag}'
   lib:

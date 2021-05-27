@@ -538,7 +538,7 @@ core:
     content:
       javascript_disabled_message: 'Ce site est optimisé pour être consulté depuis un navigateur moderne dans lequel JavaScript est activé.'
       load_error_message: 'Une erreur est survenue lors du chargement de la version complète de ce site. Veuillez vider le cache de votre navigateur et rafraîchir cette page pour corriger cette erreur.'
-      loading_text: Chargement…
+      loading_text: '=> core.ref.loading'
     discussion:
       next_page_button: '=> core.ref.next_page'
       previous_page_button: '=> core.ref.previous_page'
