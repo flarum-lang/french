@@ -4,11 +4,6 @@
 
 core:
   admin:
-    add_extension:
-      developer_text: 'Si vous êtes un développeur, vous pouvez <a>lire la documentation</a> et vous essayer à créer vos propres extensions.'
-      install_text: 'En attendant, vous pouvez rechercher des extensions sur <a>le site de la communauté de Flarum</a> et les installer manuellement à l''aide de Composer.'
-      temporary_text: 'Un jour, dans un avenir pas si lointain, cette fenêtre de dialogue vous permettra d''ajouter facilement une extension à votre forum. Nous sommes en train de construire un écosystème en ce moment même !'
-      title: 'Ajouter une extension'
     appearance:
       colored_header_label: 'Colorisation de l''en-tête'
       colors_heading: Couleurs
@@ -29,7 +24,6 @@ core:
       favicon_text: 'Transférez une image qui sera affichée comme icône de raccourci du forum.'
       logo_heading: Logo
       logo_text: 'Transférez une image qui sera affichée à la place du titre du forum.'
-      submit_button: '=> core.ref.save_changes'
       title: Apparence
     basics:
       all_discussions_label: '=> core.ref.all_discussions'
@@ -42,11 +36,9 @@ core:
       forum_title_heading: 'Titre du forum'
       home_page_heading: 'Page d''accueil'
       home_page_text: 'Sélectionnez la page que les utilisateurs verront en premier lorsqu''ils visiteront votre forum.'
-      saved_message: 'Vos modifications ont été enregistrées.'
       show_language_selector_label: 'Afficher le sélecteur de langue'
       slug_driver_heading: 'Pilote de l''identifiant texte unique : {model}'
       slug_driver_text: 'Sélectionnez un pilote qui sera utilisé pour l''identifiant texte unique de ce modèle.'
-      submit_button: '=> core.ref.save_changes'
       title: Essentiels
       welcome_banner_heading: 'Bannière de bienvenue'
       welcome_banner_text: 'Personnalisez le texte qui s''affiche dans la bannière sur la page de la liste de toutes les discussions. Il vous permet d''accueillir les invités sur votre forum.'
@@ -85,7 +77,6 @@ core:
       driver_heading: 'Sélectionner un pilote'
       driver_label: Pilote
       from_label: Expéditeur
-      heading: '=> core.ref.email'
       mail_encryption_label: Chiffrement
       mail_host_label: Hôte
       mail_mailgun_domain_label: Domaine
@@ -101,8 +92,6 @@ core:
       send_test_mail_success: 'Le courriel de test a été envoyé !'
       send_test_mail_text: 'Cela enverra un courriel utilisant la configuration spécifiée ci-dessus à votre adresse de courriel {email}.'
       smtp_heading: 'Paramètres SMTP'
-      submit_button: '=> core.ref.save_changes'
-      text: 'Configurer le pilote, les paramètres et les adresses que votre forum utilisera pour envoyer des courriels.'
       title: '=> core.ref.email'
     extension:
       configure_scopes: 'Configurer Scopes'
@@ -121,11 +110,6 @@ core:
       no_settings: 'Cette extension n''a pas de paramètre.'
       open_modal: 'Ouvrir les paramètres'
       permissions_title: Permissions
-      saved_message: 'Vos modifications ont été enregistrées.'
-      uninstall_button: Désinstaller
-    extensions:
-      add_button: 'Ajouter une extension'
-      settings_button: '=> core.ref.settings'
       uninstall_button: Désinstaller
     header:
       get_help: 'Obtenir de l''aide'
@@ -134,10 +118,8 @@ core:
       title: 'Veuillez patienter…'
     nav:
       appearance_button: '=> core.admin.appearance.title'
-      appearance_text: 'Personnalisez les couleurs, les logos et les autres aspects de votre forum.'
       appearance_title: '=> core.admin.appearance.description'
       basics_button: '=> core.admin.basics.title'
-      basics_text: 'Définissez le titre de votre forum, la langue et d''autres paramètres basiques.'
       basics_title: '=> core.admin.basics.description'
       categories:
         authentication: Authentification
@@ -150,15 +132,10 @@ core:
         other: 'Autres extensions'
         theme: Thèmes
       dashboard_button: '=> core.admin.dashboard.title'
-      dashboard_text: 'Votre forum en un coup d''œil.'
       dashboard_title: '=> core.admin.dashboard.description'
       email_button: '=> core.ref.email'
-      email_text: 'Configurez les paramètres de messagerie de votre forum.'
       email_title: '=> core.admin.email.description'
-      extensions_button: Extensions
-      extensions_text: 'Ajoutez des fonctionnalités supplémentaires à votre forum pour vous l''approprier.'
       permissions_button: '=> core.admin.permissions.title'
-      permissions_text: 'Configurer qui peut voir et faire quoi.'
       permissions_title: '=> core.admin.permissions.description'
       search_placeholder: 'Rechercher des extensions'
       userlist_button: '=> core.admin.users.title'
@@ -188,12 +165,10 @@ core:
       sign_up_label: 'S''inscrire'
       start_discussions_label: 'Démarrer des discussions'
       title: Permissions
-      view_discussions_label: 'Voir les discussions'
       view_forum_label: 'Voir le forum (discussions et utilisateurs)'
       view_hidden_groups_label: 'Afficher les badges des groupes masqués'
       view_last_seen_at_label: 'Toujours afficher la dernière connexion des utilisateurs'
       view_post_ips_label: 'Voir les adresses IP des messages'
-      view_user_list_label: 'Voir la liste des utilisateurs'
     permissions_controls:
       allow_indefinitely_button: Indéfiniment
       allow_some_minutes_button: '{count, plural, one {Pendant # minute} other {Pendant # minutes}}'
@@ -306,19 +281,6 @@ core:
       mark_as_read_tooltip: 'Marquer comme lu'
       replied_text: '{username} a répondu à cette discussion {ago}'
       started_text: '{username} a démarré cette discussion {ago}'
-    edit_user:
-      activate_button: 'Activer l''utilisateur'
-      email_heading: '=> core.ref.email'
-      email_label: '=> core.ref.email'
-      groups_heading: Groupes
-      nothing_available: 'Il n''y a rien que vous puissiez modifier pour le moment.'
-      password_heading: '=> core.ref.password'
-      password_label: '=> core.ref.password'
-      set_password_label: 'Définir un nouveau mot de passe'
-      submit_button: '=> core.ref.save_changes'
-      title: 'Modifier l''utilisateur'
-      username_heading: '=> core.ref.username'
-      username_label: '=> core.ref.username'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
