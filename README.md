@@ -1,3 +1,5 @@
+![Logo](https://www.qiaeru.com/files/flarum-french-language-pack.png)
+
 # French Language Pack for [Flarum](https://flarum.org/)
 
 [![StyleCI](https://styleci.io/repos/70081209/shield?style=flat&branch=master)](https://styleci.io/repos/70081209)
