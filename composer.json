@@ -16,7 +16,7 @@
         "source": "https://github.com/qiaeru/lang-french"
     },
     "require": {
-        "flarum/core": "^1.0.0"
+        "flarum/core": "^1.0"
     },
     "extra": {
         "branch-alias": {
