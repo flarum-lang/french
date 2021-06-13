@@ -12,7 +12,7 @@ Includes the following French locales compatible with:
 
 | Component | Status
 | --- | ---
-[Core](https://github.com/flarum/core) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/fr/)
+[**Flarum's Core**](https://github.com/flarum/core) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/fr/)
 [Akismet](https://github.com/flarum/akismet) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-akismet/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-akismet/fr/)
 [Approval](https://github.com/flarum/approval) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-approval/fr/)
 [Emoji](https://github.com/flarum/emoji) | [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-emoji/fr/)
@@ -36,7 +36,7 @@ Looking for French translations for third-party extensions? Please have a look a
 
 Flarum use Composer to manage its dependencies and extensions. The French language pack is available [on Packagist](https://packagist.org/packages/qiaeru/lang-french) and can be managed that way. Make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following command in the location where Flarum is installed:
 
-```shell
+```bash
 composer require qiaeru/lang-french
 ```
 
@@ -44,7 +44,7 @@ composer require qiaeru/lang-french
 
 Just like the installation procedure, make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following commands in the location where Flarum is installed:
 
-```shell
+```bash
 composer update qiaeru/lang-french
 php flarum cache:clear
 ```
