@@ -13,7 +13,8 @@
     ],
     "support": {
         "issues": "https://github.com/qiaeru/lang-french/issues",
-        "source": "https://github.com/qiaeru/lang-french"
+        "source": "https://github.com/qiaeru/lang-french",
+        "forum": "https://discuss.flarum.org/d/615"
     },
     "require": {
         "flarum/core": "^1.0"
@@ -39,6 +40,9 @@
         "flarum-locale": {
             "code": "fr",
             "title": "Français"
+        },
+        "extiverse": {
+            "discuss": "https://discuss.flarum.org/d/615"
         }
     }
 }
