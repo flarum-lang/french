@@ -1,5 +1,5 @@
 {
-    "name": "qiaeru/lang-french",
+    "name": "flarum-lang/french",
     "description": "French language pack for Flarum, its official extensions and bundled libraries.",
     "type": "flarum-extension",
     "keywords": ["extension", "flarum", "french", "locale", "translation"],
@@ -12,8 +12,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/qiaeru/lang-french/issues",
-        "source": "https://github.com/qiaeru/lang-french",
+        "issues": "https://github.com/flarum-lang/french/issues",
+        "source": "https://github.com/flarum-lang/french",
         "forum": "https://discuss.flarum.org/d/615"
     },
     "require": {
@@ -27,8 +27,8 @@
             "title": "French",
             "category": "language",
             "info": {
-                "website": "https://github.com/qiaeru/lang-french",
-                "support": "https://github.com/qiaeru/lang-french/issues"
+                "website": "https://github.com/flarum-lang/french",
+                "support": "https://github.com/flarum-lang/french/issues"
             },
             "icon": {
                 "image": "icon.svg",
