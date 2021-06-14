@@ -34,10 +34,10 @@ Looking for French translations for third-party extensions? Please have a look a
 
 ## Installation
 
-Flarum use Composer to manage its dependencies and extensions. The French language pack is available [on Packagist](https://packagist.org/packages/qiaeru/lang-french) and can be managed that way. Make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following command in the location where Flarum is installed:
+Flarum use Composer to manage its dependencies and extensions. The French language pack is available [on Packagist](https://packagist.org/packages/flarum-lang/french) and can be managed that way. Make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following command in the location where Flarum is installed:
 
 ```bash
-composer require qiaeru/lang-french
+composer require flarum-lang/french
 ```
 
 ## Updating
@@ -45,7 +45,7 @@ composer require qiaeru/lang-french
 Just like the installation procedure, make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following commands in the location where Flarum is installed:
 
 ```bash
-composer update qiaeru/lang-french
+composer update flarum-lang/french
 php flarum cache:clear
 ```
 
@@ -57,4 +57,4 @@ You can easily contribute to the language pack on [this page](https://weblate.ro
 
 ## License
 
-The language pack is released under the MIT license. Please see [the license terms](https://github.com/qiaeru/lang-french/blob/master/LICENSE).
+The language pack is released under the MIT license. Please see [the license terms](https://github.com/flarum-lang/french/blob/master/LICENSE).
