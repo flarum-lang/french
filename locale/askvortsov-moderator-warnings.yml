@@ -10,17 +10,17 @@ askvortsov-moderator-warnings:
       view_warnings: 'Afficher les avertissements du modérateur'
   emails:
     post_warned:
-      body: "Salut {warnee_display_name} !\n {warner_display_name} vous a averti pour {strikes} dans {discussion_title}\n La raison suivante a été invoquée :\n ---\n {public_comment}\n"
-      subject: '{warner_display_name} vous a averti avec {strikes} strikes dans {discussion_title}'
+      body: "Bonjour {warnee_display_name} !\n\n{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}} dans {discussion_title}\n\nLa raison suivante a été invoquée :\n\n---\n\n{public_comment}"
+      subject: '{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}} dans {discussion_title}'
     user_warned:
-      body: "Hey {warnee_display_name} !\n{warner_display_name} vous a averti avec {strikes} strikes\nLa raison suivante a été invoquée :\n---\n{public_comment}\n"
-      subject: '{warner_display_name} vous a averti avec {strikes} strikes'
+      body: "Bonjour {warnee_display_name} !\n\n{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}}\n\nLa raison suivante a été invoquée :\n\n---\n\n{public_comment}"
+      subject: '{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}}'
   forum:
     notifications:
       warning_no_strikes_text: 'Vous avez été averti par {mod_username} (aucun strike)'
-      warning_text: 'Vous avez été averti avec {strikes} strike par {mod_username}|Vous avez été averti avec {strikes} strikes par {mod_username}'
+      warning_text: '{strikes, plural, one {Vous avez reçu # avertissement de la part de {mod_username}} other {Vous avez reçu # avertissements de la part de {mod_username}}}'
     post:
-      warning: 'Vous avez été averti avec {strikes} strike par {mod_username}|Vous avez été averti avec {strikes} strikes par {mod_username}'
+      warning: '{strikes, plural, one {A reçu # avertissement de la part de {mod_username}} other {A reçu # avertissements de la part de {mod_username}}}'
       warning_no_strikes: 'Vous avez été averti sans aucun strike par {mod_username}'
     post_controls:
       warning_button: 'Avertir l’utilisateur'
@@ -38,12 +38,12 @@ askvortsov-moderator-warnings:
     warning_list:
       add_button: 'Nouvel avertissement'
       no_warnings: 'Il semble qu’il n’y ait aucun avertissement ici.'
-      warnings: 'Avertissements du modérateur : {strikes} strike reçu|Avertissements du modérateur : {strikes} strikes reçus'
+      warnings: '{strikes, plural, one {Avertissements du modérateur : # avertissement reçu} other {Avertissements du modérateur : # avertissements reçus}}'
       warnings_no_strikes: 'Avertissements du modérateur : aucun strike reçu'
     warning_list_item:
       linked_post: 'Message lié'
-      list_item_heading: '<strong>{strikes}</strong> avertissements, {time} | <strong>{strikes}</strong> avertissements, {time}'
-      list_item_heading_hidden: '<strong>{strikes}</strong> avertissement, {time} <strong>(supprimé)</strong> | <strong>{strikes}</strong> avertissements, {time} <strong>(supprimé)</strong >'
+      list_item_heading: '{strikes, plural, one {<strong>#</strong> avertissement, {time}} other {<strong>#</strong> avertissements, {time}}}'
+      list_item_heading_hidden: '{strikes, plural, one {<strong>#</strong> avertissement, {time} <strong>(supprimé)</strong>} other {<strong>#</strong> avertissements, {time} <strong>(supprimés)</strong>}}'
       private_comment: 'Commentaires visibles par le modérateur'
       public_comment: Avertissement
     warning_modal:

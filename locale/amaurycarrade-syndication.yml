@@ -7,11 +7,11 @@ amaurycarrade-syndication:
     settings:
       entries-count: 'Combien d’entrées par flux ?'
       full-text:
-        help: 'S’il est désactivé, les flux ne contiendront que des extraits de messages et les utilisateurs devront se rendre sur le forum pour tout lire.'
+        help: 'Si désactivé, les flux ne contiendront que des extraits de messages et les utilisateurs devront se rendre sur le forum pour tout lire.'
         label: 'Flux de texte intégral'
-        recommendation: 'Il est recommandé de laisser cette option active afin de respecter les personnes qui suivent le forum depuis un agrégateur RSS - le cas échéant.'
+        recommendation: 'Il est recommandé de laisser cette option active afin de respecter les personnes qui suivent le forum depuis un agrégateur RSS — pour autant qu''il y en ait un.'
       html:
-        help: 'Cochez cette case pour conserver le HTML dans les flux générés. Si désactivé, les flux seront en texte brut.'
+        help: 'Cochez cette case pour conserver le HTML dans les flux générés. Si désactivée, les flux seront en texte brut.'
         label: 'Flux formatés'
       title: 'Paramètres de syndication'
   forum:
@@ -27,9 +27,9 @@ amaurycarrade-syndication:
         discussion_title: '{discussion_name}'
         main_d_subtitle: 'Les dernières discussions du forum'
         main_d_title: 'Nouvelles discussions dans {forum_name}'
-        main_subtitle: 'Derniers messages sur le forum'
+        main_subtitle: 'Derniers messages du forum'
         main_title: '{forum_name}'
-        tag_d_subtitle: 'Les dernières discussions dans l’étiquette {tag}'
+        tag_d_subtitle: 'Les discussions récentes dans l’étiquette {tag}'
         tag_d_title: 'Nouvelles discussions dans l’étiquette {tag}'
         tag_subtitle: 'Derniers messages dans l’étiquette {tag}'
         tag_title: 'Activité dans l’étiquette {tag}'

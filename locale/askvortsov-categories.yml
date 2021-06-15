@@ -12,24 +12,33 @@ askvortsov-categories:
       nav: Navigation
       parent_display: 'Affichage de la catégorie parent'
       performance: Performance
+    help:
+      child_bare_icon: 'Les icônes des catégories enfants doivent-elles être affichées sans fond circulaire ?'
+      full_page_desktop: 'Le menu de la barre de navigation latérale doit-il être réduit à une seule ligne (comme sur la page traditionnelle des étiquettes) ? Cela permettrait également de masquer les widgets (tels que ceux de l''extension Forum Statistics de Friends of Flarum) de la barre de navigation de la page des catégories.'
+      small_forum_optimized: 'Cela donnera un compte plus précis des discussions et des messages, mais ralentira considérablement les forums intermédiaires et importants.'
     labels:
-      child_bare_icon: 'Les icônes des catégories enfants doivent-elles être affichées sans arrière-plan circulaire ?'
+      child_bare_icon: 'Des icônes de catégories enfants vierges ?'
       compact_mobile_mode: 'mode mobile compact'
-      full_page_desktop: 'Le menu de navigation de la barre latérale doit-il être réduit à une ligne (comme sur la page des étiquettes traditionnelles)? Cela masquera également les widgets (tels que les statistiques de Forum de Friends of Flarum) dans la barre de navigation de la page des catégories.'
+      full_page_desktop: 'Une page de bureau entière ?'
       keep_tags_nav: 'Conserver le lien vers la page des étiquettes dans la barre latérale de navigation ?'
       parent_remove_description: 'Masquer les descriptions des étiquettes de niveau supérieur ?'
       parent_remove_icon: 'Masquer les icônes des étiquettes de niveau supérieur ?'
       parent_remove_last_discussion: 'Masquer les discussions les plus récentes des étiquettes de niveau supérieur ?'
       parent_remove_stats: 'Masquer les statistiques des étiquettes de niveau supérieur ?'
-      small_forum_optimized: 'Optimiser pour les petits forums ? Cela donnera des comptes de discussion / publication plus précis, mais ralentira considérablement les forums moyens et grands.'
+      small_forum_optimized: 'Optimiser pour les petits forums ?'
     title: 'Paramètres des catégories'
   forum:
+    all_categories:
+      meta_description_text: 'Toutes les catégories'
+      meta_title_text: '=> askvortsov-categories.ref.categories'
     header:
       back_to_categories_tooltip: 'Retour aux catégories'
     index:
-      categories_link: Catégories
+      categories_link: '=> askvortsov-categories.ref.categories'
     last_discussion_widget:
       no_discussions: 'Pas de discussions (Pour le moment!)'
     stat-widgets:
       discussion_label: Discussions
       post_label: Messages
+  ref:
+    categories: Catégories

@@ -2,18 +2,18 @@
 # Use https://weblate.rob006.net/projects/flarum/askvortsov-markdown-tables/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
-askvortsov-pipetables:
-  forum:
+askvortsov-markdown-tables:
+  lib:
     composer:
       table_menu:
         column: Colonne
-        insert_column_after: 'Insérer la colonne après'
-        insert_column_before: 'Insérer la colonne avant'
+        insert_column_after: 'Insérer une colonne après'
+        insert_column_before: 'Insérer une colonne avant'
         insert_row_after: 'Insérer une ligne après'
         insert_row_before: 'Insérer une ligne avant'
-        label_cells: '# Étiquette des cellules ?'
+        label_cells: '# Libeller les cellules ?'
         num_cols: '# Colonnes'
-        num_rows: '# Lignes (y compris l’en-tête)'
+        num_rows: '# Lignes (comprenant l’en-tête)'
         remove_column: 'Supprimer la colonne'
         remove_row: 'Supprimer la ligne'
         row: Ligne
