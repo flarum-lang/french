@@ -2,8 +2,6 @@
 
 # French Language Pack for [Flarum](https://flarum.org/)
 
-[![StyleCI](https://styleci.io/repos/70081209/shield?style=flat&branch=master)](https://styleci.io/repos/70081209)
-
 French language pack to localize the Flarum forum software, its official extensions and bundled libraries.
 
 ## Features
