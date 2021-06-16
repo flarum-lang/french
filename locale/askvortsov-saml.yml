@@ -7,13 +7,21 @@ askvortsov-saml:
     header:
       text: 'Assurez-vous que l’URL des métadonnées ou les métadonnées sont renseignés.'
     labels:
+      authn_requests_signed: 'Signer les requêtes d’autorisation ?'
       idp_metadata: 'XML de métadonnées du fournisseur d’identité (alternative à l''URL)'
       idp_metadata_url: 'URL des métadonnées du fournisseur d’identité (alternative à XML)'
+      logout_request_signed: 'Signer les requêtes de déconnexion ?'
+      logout_response_signed: 'Signer les réponses de déconnexion ?'
       nameid_format: 'Format NameID'
       only_option: 'Utiliser SAML2 SSO comme seule option de connexion ?'
+      sign_metadata: 'Signer les métadonnées ?'
+      slo: 'Activer SLO ? Si votre IDP ne prend pas en charge cette fonction, cela ne servira à rien.'
       sync_attributes: 'Attributs de synchronisation (avatar, groupes, biographie et profil) ? Nécessite l’extension askvortsov / auth-sync.'
+      want_assertions_encrypted: 'Voulez-vous que les assertions soient chiffrées ?'
       want_assertions_signed: 'Voulez-vous que les assertions soient signées ?'
       want_messages_signed: 'Voulez- vous que les messages soient signés ?'
+      x509_cert: 'Certificat x509 (nécessaire pour la signature, si activée)'
+      x509_key: 'Clé privée x509 (nécessaire pour la signature, si activée)'
     options:
       nameid_format:
         emailAddress: 'E-mail (par défaut. À utiliser si Persistant n’est pas pris en charge)'

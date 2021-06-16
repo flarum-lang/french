@@ -15,6 +15,9 @@ clarkwinkelmann-author-change:
       created_at: 'Heure de création'
       edited_at: 'Modifier l’heure'
       submit: Sauvegarder
+      sync-impossible: 'Impossible de trouver le premier message. Essayez de faire défiler jusqu’au début de la discussion.'
+      sync-with-discussion: 'Synchroniser avec la discussion'
+      sync-with-post: 'Synchroniser avec le premier message'
       title-discussion: 'Modifier l’auteur et la date de la discussion'
       title-post: 'Modifier l’auteur et la date du message'
       user: Auteur

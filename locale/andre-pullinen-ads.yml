@@ -12,7 +12,7 @@ flagrow-ads:
         title: 'Position de la publicité entre les messages'
       under-header:
         placeholder: 'Insérez votre code publicitaire ici.'
-        title: 'Position de la publicité sous l''en-tête de navigation'
+        title: 'Position de la publicité sous l’en-tête de navigation'
       under-nav-items:
         placeholder: '=> flagrow-ads.admin.positions.under-header.placeholder'
         title: 'Position de la publicité dans la colonne de gauche sous les étiquettes de la page d’accueil'

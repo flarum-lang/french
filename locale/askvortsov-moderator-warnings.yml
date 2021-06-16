@@ -10,10 +10,10 @@ askvortsov-moderator-warnings:
       view_warnings: 'Afficher les avertissements du modérateur'
   emails:
     post_warned:
-      body: "Bonjour {warnee_display_name} !\n\n{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}} dans {discussion_title}\n\nLa raison suivante a été invoquée :\n\n---\n\n{public_comment}"
+      body: "Bonjour {warnee_display_name} !\n\n{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}} dans {discussion_title}\n\nLa raison suivante a été invoquée :\n\n---\n\n{public_comment}\n"
       subject: '{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}} dans {discussion_title}'
     user_warned:
-      body: "Bonjour {warnee_display_name} !\n\n{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}}\n\nLa raison suivante a été invoquée :\n\n---\n\n{public_comment}"
+      body: "Bonjour {warnee_display_name} !\n\n{warner_display_name} vous a envoyé {strikes, plural, one {# strike} other {# strike}}\n\nLa raison suivante a été invoquée :\n\n---\n\n{public_comment}\n"
       subject: '{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}}'
   forum:
     notifications:

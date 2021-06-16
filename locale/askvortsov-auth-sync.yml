@@ -5,11 +5,11 @@
 askvortsov-auth-sync:
   admin:
     labels:
-      ignored_avatar: 'Si un avatar retourné est égal à ceci, il ne sera pas défini par l''authentification. Ceci peut être utilisé pour ignorer les valeurs par défaut de l''avatar.'
-      stop_avatar_change: 'Empêcher les utilisateurs à modifier leur avatar de Flarum ?'
-      stop_bio_change: 'Empêcher les utilisateurs à modifier leur biographie de Flarum ? (Cela nécessite l’extension Friends of Flarum User Bio)'
+      ignored_avatar: 'Si un avatar retourné est égal à ceci, il ne sera pas défini par l’authentification. Ceci peut être utilisé pour ignorer les valeurs par défaut de l’avatar.'
+      stop_avatar_change: 'Empêcher les utilisateurs de modifier leur avatar sur Flarum ?'
+      stop_bio_change: 'Empêcher les utilisateurs de modifier leur biographie sur Flarum ? (Cela nécessite l’extension Friends of Flarum User Bio)'
       sync_avatar: 'Synchroniser l’avatar ?'
       sync_bio: 'Synchroniser la biographie ? (Cela nécessite l’extension Friends of Flarum User Bio)'
       sync_groups: 'Synchroniser les groupes ?'
-      sync_masquerade: 'Synchroniser les attributs de Mascarade ? (Cela nécessite l’extension Friends of Flarum Masquerade)'
-    title: 'Configuration d''Auth Sync'
+      sync_masquerade: 'Synchroniser les attributs de Masquerade ? (Cela nécessite l’extension Friends of Flarum Masquerade)'
+    title: 'Configuration d’Auth Sync'
