@@ -5,10 +5,10 @@
 askvortsov-help-tags:
   admin:
     permissions:
-      view_tag_label: 'Afficher une balise'
+      view_tag_label: 'Afficher l’étiquette'
   forum:
     badge:
-      show_to_all_tooltip: 'Cette discussion est visible pour tous les utilisateurs qui peuvent publier dans ses balises.'
+      show_to_all_tooltip: 'Cette discussion est visible à tous les utilisateurs qui peuvent publier sous ses étiquettes.'
     discussion_controls:
-      show_to_all_button: 'Montrer à tous qui peut publier ici.'
-      unshow_to_all_button: 'Montrer seulement à ceux qui peuvent voir le forum'
+      show_to_all_button: 'Montrer à tout le monde qui peut publier ici.'
+      unshow_to_all_button: 'Montrer uniquement à ceux qui peuvent voir le forum'

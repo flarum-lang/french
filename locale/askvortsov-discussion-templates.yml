@@ -5,23 +5,23 @@
 askvortsov-discussion-templates:
   admin:
     permissions:
-      manage_all_reply_templates: 'Gérer le modèle de réponse pour toutes les discussions'
-      manage_own_discussion_reply_templates: 'Gérer le modèle de réponse pour leurs discussions'
+      manage_all_reply_templates: 'Gérer les modèles de réponse pour toutes les discussions'
+      manage_own_discussion_reply_templates: 'Gérer des modèles de réponse pour leurs discussions'
     settings:
-      append_template_on_tag_change: 'Ajouter le modèle lors du changement de balise ?'
-      append_template_on_tag_change_help: 'Lorsque les balises sont changées, est-ce que le nouveau modèle de balise doit être ajouter même si l''utilisateur a déjà commencé à écrire ? Indépendamment de ce paramètre, si les balises sont changées et que l''utilisateur n''a pas effectué de modifications, le modèle sera permuté.'
-      no_tag_template: 'Modèle par défaut (utilisé lorsque la discussion commence sans balise utilisée) :'
+      append_template_on_tag_change: 'Ajouter un modèle en cas de changement d’étiquette ?'
+      append_template_on_tag_change_help: 'Lorsque les étiquettes sont modifiées, le modèle de la nouvelle étiquette doit-il être ajouté même si l’utilisateur a déjà commencé à écrire ? Indépendamment de ce paramètre, si les étiquettes sont modifiées et que l’utilisateur n’a pas apporté de modifications, le modèle sera modifié.'
+      no_tag_template: 'Modèle par défaut (utilisé lorsque la discussion a démarré sans étiquette sélectionnée) :'
     tag_template_modal:
-      customize_text: 'Gérer un modèle pour une nouvelle discussion dans cette balise.'
-      submit_button: 'Sauvegarder le modèle'
+      customize_text: 'Gérer un modèle pour les nouvelles discussions dans cette étiquette.'
+      submit_button: 'Enregistrer le modèle'
       title: 'Modèle de discussion'
     tags:
-      tag_template_button: 'Éditer le modèle'
+      tag_template_button: 'Modifier le modèle'
       tag_template_heading: 'Modèle de discussion'
-      tag_template_text: 'Gérer un modèle pour une nouvelle discussion dans cette balise.'
+      tag_template_text: 'Gérer un modèle pour les nouvelles discussions dans cette étiquette.'
   forum:
     discussion_controls:
-      reply_template_button: 'Éditer le modèle de réponse'
+      reply_template_button: 'Modifier le modèle de réponse'
     reply_template:
-      submit_button: 'Sauvegarder le modèle de réponse'
-      title: 'Éditer le modèle de réponse'
+      submit_button: 'Enregistrer le modèle de réponse'
+      title: 'Modifier le modèle de réponse'

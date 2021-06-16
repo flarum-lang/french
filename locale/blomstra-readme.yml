@@ -5,6 +5,6 @@
 blomstra-readme:
   admin:
     modal:
-      no_readme: 'Cette extension ne semble pas avoir de fichier LISEZ-MOI'
-      title: '{displayName} LISEZ-MOI'
-    readme_button_label: LISEZ-MOI
+      no_readme: 'Cette extension ne semble pas avoir de fichier README'
+      title: '{displayName} README'
+    readme_button_label: README
