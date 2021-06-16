@@ -9,6 +9,7 @@ fof-user-directory:
     settings:
       default-sort: 'Tri par défaut'
       link: 'Ajouter un lien sur la page d’accueil pour les utilisateurs pouvant voir le répertoire'
+      use-small-cards: 'Utiliser de petites cartes d’utilisateur'
   forum:
     header:
       back_to_user_directory_tooltip: 'Retour au répertoire des utilisateurs'

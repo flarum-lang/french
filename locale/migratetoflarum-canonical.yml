@@ -7,17 +7,17 @@ migratetoflarum-canonical:
     settings:
       field:
         status: 'Type de redirection'
-        wrong_url: 'Les paramètres de l''extension apparaîtront lorsque vous accéderez à votre forum via le lien canonique'
+        wrong_url: 'Les paramètres de l’extension apparaîtront lorsque vous accéderez à votre forum via le lien canonique'
       option:
-        301: '301 (Redirection permanente, pour la mise en place)'
+        301: '301 (Redirection permanente, pour la production)'
         302: '302 (redirection temporaire, pour tester)'
-        disabled: 'Désactivé (l''extension ne fera rien)'
+        disabled: 'Désactivé (l’extension ne fera rien)'
       step:
-        admin_on_canonical: 'Accéder au panel d''administration via le lien canonique'
-        check_config_url: 'Vérifier si le lien définie dans config.php est le lien canonique par défaut (currently: {url})'
+        admin_on_canonical: 'Accédez au panel d’administration via le lien canonique'
+        check_config_url: 'Vérifiez que le lien défini dans config.php est bien le lien canonique souhaité (actuellement : {url})'
         enable_permanent: 'Activer la redirection permanente'
-        enable_temporary: 'Activer la redirection temporaire et vérifier que tout fonctionne'
-        how_to: 'Comment activer la redirection vers le lien canonique'
+        enable_temporary: 'Activez la redirection temporaire et vérifiez que tout fonctionne'
+        how_to: 'Comment activer la redirection canonique'
         suggestions: 'Autres suggestions que cette extension n’applique pas ou ne couvre pas'
         use_hsts: 'Utiliser HSTS pour prévenir les attaques par repli'
         use_https: 'Utiliser un lien canonique HTTPS'

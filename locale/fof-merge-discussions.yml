@@ -23,6 +23,6 @@ fof-merge-discussions:
       type_target_help_text: 'Choisissez une ou plusieurs discussions à fusionner avec <b>{title}</b>.'
       type_target_label: 'Fusionner avec moi'
     post:
-      merged: 'Fusion de <b>{count}</b> messages de {titles}.|Fusion de <b>{count}</b> messages de {titles}.'
+      merged: '{count, plural, one {Fusion de <b>#</b> messages de {titles}.} other {Fusion de <b>#</b> messages de {titles}.}}'
   ref:
     merge: Fusionner

@@ -12,8 +12,8 @@ fof-split:
       submit_button: Diviser
       title: 'Diviser la discussion'
     post:
-      was_split_from: '{count} message a été séparé de {target}.|{count} messages ont été séparés de {target}.'
-      was_split_to: '{count} message a été séparé vers {target}.|{count} messages ont été séparés vers {target}.'
+      was_split_from: '{count, plural, one {{count} message a été séparé de {target}.} other {{count} messages ont été séparés de {target}.}}'
+      was_split_to: '{count, plural, one {{count} message a été séparé vers {target}.} other {{count} messages ont été séparés vers {target}.}}'
     split:
       from: 'Diviser à partir d’ici'
       to: 'Diviser jusque-là'
