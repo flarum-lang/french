@@ -6,7 +6,7 @@ flarum-mentions:
   admin:
     settings:
       allow_username_format_label: 'Autoriser le format de mention du nom d''utilisateur (@utilisateur)'
-      allow_username_format_text: "Le format actuel des mentions d'utilisateur est @\"Nom d'affichage\"#Identifiant.\nCe paramètre permet d'utiliser l'ancien format @\"Nom d'utilisateur\" qui sera néanmoins converti au nouveau format lors de la sauvegarde.\n"
+      allow_username_format_text: "Le format actuel des mentions d'utilisateur est @\"Nom d'affichage\"#Identifiant.\nCe paramètre permet d'utiliser l'ancien format @\"Nom d'utilisateur\" qui sera néanmoins converti au nouveau format lors de l'enregistrement.\n"
   email:
     post_mentioned:
       body: "Bonjour {recipient_display_name} !\n\n{replier_display_name} a répondu à votre message (#{post_number}) dans {title}.\n\n{url}\n\n---\n\n{content}\n"
