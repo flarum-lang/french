@@ -10,10 +10,10 @@ fof-gamification:
   admin:
     page:
       convert:
-        button: 'Convertir les "j’aime" en votes positifs'
-        converted: 'Les {number} "j’aime" ont été convertis avec succès'
-        converting: 'Vos "j’aime" sont en cours de conversion. Actualisez votre site après quelques minutes pour voir le processus terminé. (Le temps de conversion peut prendre un certain temps en fonction du nombre total de "j’aime" sur le forum)'
-        help: 'Converti vos "j’aime" précédents en votes positifs et calcule la popularité de toutes les discussions en cours.'
+        button: 'Convertir les « j’aime » en votes positifs'
+        converted: 'Les {number} « j’aime » ont été convertis avec succès'
+        converting: 'Vos « j’aime » sont en cours de conversion. Actualisez votre site après quelques minutes pour voir le processus terminé. (Le temps de conversion peut prendre un certain temps en fonction du nombre total de « j’aime » sur le forum)'
+        help: 'Converti vos « j’aime » précédents en votes positifs et calcule la popularité de toutes les discussions en cours.'
       rankings:
         blocked:
           help: 'Ces utilisateurs ne seront pas affichés sur la page de classement. Les noms d’utilisateur doivent être séparés par une virgule suivie d’un espace.'
@@ -30,7 +30,7 @@ fof-gamification:
           help: 'Entrez le nombre requis de votes positifs, le nom du rang et la couleur hexadécimale du rang'
           name: Nom
           points: Points
-        number_title: 'Combien de badges de grade doivent être affichés?'
+        number_title: 'Combien de badges de rang doivent être affichés ?'
         ranks: 'Rangs personnalisés'
         title: Rangs
       save_settings: 'Enregistrer les paramètres'
@@ -39,22 +39,22 @@ fof-gamification:
         auto_upvote: 'Attribuer automatiquement un vote positif lorsqu’un message est publié'
         color_holder: '#ffffff'
         discussion_page: 'Afficher le nombre total de votes du message original sur la liste de discussion'
-        icon_help: 'Entrez n’importe quelle icône Font-Awesome ayant le suffixe -up et -down. Exemples: flèche, pouce, chevron'
+        icon_help: 'Entrez n’importe quelle icône Font-Awesome ayant le suffixe -up et -down. Exemples : flèche, pouce, chevron'
         icon_name: 'Icône de vote positif/négatif'
-        points_placeholder: 'Points: '
+        points_placeholder: 'Points : '
         points_title: 'Points d’espace réservé'
         rate_limit: 'Appliquer une limite de taux de vote (10 secondes)'
         title: Votes
         vote_color: 'Couleur votée'
     permissions:
       see_ranking_page: 'Voir la page de classement'
-      see_votes_label: 'Voir les votes positifs/négatifs des messages'
-      vote_label: 'Votes positifs/négatifs des messages'
+      see_votes_label: 'Voir les votes positifs / négatifs des messages'
+      vote_label: 'Votes positifs / négatifs des messages'
   forum:
     mod_item: 'Voir les votants'
     modal:
       title: Votants
-      upvotes_label: 'Votants positifs:'
+      upvotes_label: 'Votants positifs :'
     nav:
       name: Classements
     notification:
@@ -62,10 +62,10 @@ fof-gamification:
       upvote: '{username} a voté positivement votre message'
     ranking:
       amount: Points
-      name: Utilisateurs
+      name: Utilisateur
       rank: Rang
     user:
-      points: 'Points: {points}'
+      points: 'Points : {points}'
       rank: '{rank}'
     vote_title: 'Afficher qui a voté'
     votes: Votes

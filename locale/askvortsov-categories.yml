@@ -17,7 +17,7 @@ askvortsov-categories:
       full_page_desktop: 'Le menu de la barre de navigation latérale doit-il être réduit à une seule ligne (comme sur la page traditionnelle des étiquettes) ? Cela permettrait également de masquer les widgets (tels que ceux de l''extension Forum Statistics de Friends of Flarum) de la barre de navigation de la page des catégories.'
       small_forum_optimized: 'Cela donnera un compte plus précis des discussions et des messages, mais ralentira considérablement les forums intermédiaires et importants.'
     labels:
-      child_bare_icon: 'Icônes de catégories enfants vierges ?'
+      child_bare_icon: 'Icônes de catégories-enfants vierges ?'
       compact_mobile_mode: 'mode mobile compact'
       full_page_desktop: 'Une page de bureau entière ?'
       keep_tags_nav: 'Conserver le lien vers la page des étiquettes dans la barre latérale de navigation ?'
