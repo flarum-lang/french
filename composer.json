@@ -1,6 +1,6 @@
 {
     "name": "flarum-lang/french",
-    "description": "French language pack for Flarum, its official extensions and bundled libraries.",
+    "description": "French language pack to localize the Flarum forum software plus its official and third-party extensions.",
     "type": "flarum-extension",
     "keywords": ["extension", "flarum", "french", "locale", "translation"],
     "license": "MIT",
