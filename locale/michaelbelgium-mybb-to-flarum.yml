@@ -6,7 +6,7 @@ michaelbelgium-mybb-to-flarum:
   admin:
     content:
       convert_button: Migrer
-      description_text: 'Convertir un forum Mybb dans cette instance Flarum. Renseigner les données requises, après quoi cliquer sur "migrer".'
+      description_text: 'Convertir un forum MyBB dans cette instance Flarum. Renseigner les données requises, après quoi cliquer sur "migrer".'
       form:
         general:
           migrate_avatars_label: 'Migrer les avatars'
@@ -23,7 +23,7 @@ michaelbelgium-mybb-to-flarum:
           user_label: 'Utilisateur de la base de données'
         options:
           migrate_categories_label: 'Migrer les catégories'
-          migrate_threadsPosts_label: 'Migrer les fils de dicussions et les messages'
-          migrate_userGroups_label: 'Migrer les groupes utilisateur'
+          migrate_threadsPosts_label: 'Migrer les fils de discussions et les messages'
+          migrate_userGroups_label: 'Migrer les groupes d''utilisateur'
           migrate_users_label: 'Migrer les utilisateurs'
           title: 'Options générales de migration'

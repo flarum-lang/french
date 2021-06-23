@@ -5,42 +5,51 @@
 fof-drafts:
   admin:
     permissions:
-      schedule: 'Planifier les brouillons'
-      start: 'Créer des brouillons de discussion'
+      schedule: 'Planifier des brouillons'
+      start: 'Créer des brouillons'
     settings:
-      enable_scheduled_drafts: 'Enable Scheduled Drafts'
-      schedule_log_output: 'Append scheduler output to log storage'
-      schedule_on_one_server: 'Use ''onOneServer()'' directive for the task scheduler (requires Redis/Memcache)'
-      title: 'FoF Drafts'
+      enable_scheduled_drafts: 'Activer les brouillons planifiés'
+      schedule_log_output: 'Ajouter la sortie du planificateur au stockage des journaux d''évènements'
+      schedule_on_one_server: 'Utiliser la directive ''onOneServer()'' pour le planificateur de tâches (nécessite Redis/Memcache)'
+      title: 'Drafts de FoF'
   console:
     scheduled_drafts_disabled: 'Les brouillons planifiés sont actuellement désactivés dans les paramètres.'
   forum:
     composer:
-      discard_empty_draft_alert: 'Supprimer le brouillon vide?'
-      exit_alert: 'Ignorer les modifications apportées au brouillon?'
-      saved: 'Sauvegardé !'
-      saving: Sauvegarde...
+      discard_empty_draft_alert: 'Abandonner le brouillon vide ?'
+      exit_alert: 'Ignorer les modifications apportées au brouillon ?'
+      saved: 'Enregistré !'
+      saving: Enregistrement...
       title: 'Enregistrer le brouillon'
     dropdown:
-      alert: 'Êtes-vous sûr de vouloir supprimer votre brouillon?'
-      delete_all_alert: 'Voulez-vous vraiment supprimer tous vos brouillons?'
+      alert: 'Êtes-vous sûr de vouloir supprimer votre brouillon ?'
+      delete_all_alert: 'Êtes-vous sûr de vouloir supprimer tous vos brouillons ?'
+      delete_all_button: 'Supprimer tous les brouillons'
       delete_button: 'Supprimer le brouillon'
-      empty_text: 'Vous n’avez enregistré aucun brouillon'
-      schedule_button: 'Planifier le brouillon'
+      empty_text: 'Vous n''avez pas enregistré de brouillons'
+      schedule_button: '=> fof-drafts.ref.schedule_draft'
+      scheduled_icon_tooltip: 'Planifié pour {datetime}'
+      scheduled_icon_tooltip_formatter: 'L [à] LT'
       title: Brouillons
       tooltip: '=> fof-drafts.forum.dropdown.title'
     schedule_draft_modal:
-      reschedule_button: Replanifier
+      reschedule_button: Re-planifier
       schedule_button: Planifier
-      scheduled_error: 'Impossible de publier car: {error}.'
-      scheduled_text: 'Publication prévue le {datetime}.'
-      text: 'Planifiez votre brouillon pour qu’il soit automatiquement publier plus tard!'
-      title: 'Planifier le brouillon'
-      unschedule_button: Déplanifier
+      schedule_time_preview: 'Ce brouillon sera automatiquement publié le <b>{datetime}</b>.'
+      schedule_time_preview_formatter: LLLL
+      schedule_time_preview_invalid: 'Date et/ou heure non valides'
+      scheduled_error: 'Impossible de programmer le brouillon : {error}.'
+      scheduled_text: 'Actuellement planifié pour être publié le {datetime}.'
+      text: 'Planifiez votre brouillon pour qu''il soit automatiquement publié à une date ultérieure !'
+      title: '=> fof-drafts.ref.schedule_draft'
+      unschedule_button: Dé-planifier
+      unschedule_warning: 'Êtes-vous sûr de vouloir dé-planifier ce brouillon ?'
     user:
       settings:
-        draft_autosave_enable: 'Activer la sauvegarde automatique des brouillons?'
+        draft_autosave_enable: 'Activer l''enregistrement automatique des brouillons ?'
         draft_autosave_interval_button: 'Intervalle de mise à jour'
-        draft_autosave_interval_invalid: 'L’intervalle doit être un entier supérieur à 4.'
-        draft_autosave_interval_label: 'Intervalle de sauvegarde automatique (secondes)'
+        draft_autosave_interval_invalid: 'L''intervalle doit être un nombre entier supérieur à 4.'
+        draft_autosave_interval_label: 'Intervalle de l''enregistrement automatique (en secondes)'
         drafts_heading: Brouillons
+  ref:
+    schedule_draft: 'Planifier le brouillon'

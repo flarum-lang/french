@@ -10,9 +10,9 @@ nomiscz-auth-steam:
       use_steam_powered_domain: 'Utilisez le domaine steampowered.com au lieu de steamcommunity.com (bloqué en Chine)'
   forum:
     alerts:
-      already_linked: 'Le compte Steam est déjà associé.'
-      already_used: 'Le compte Steam est déjà associé à un autre utilisateur.'
-      error: 'Quelque chose c’est mal passé. Merci d’essayer plus tard!'
+      already_linked: 'Le compte Steam est déjà associé !'
+      already_used: 'Le compte Steam est déjà associé à un autre utilisateur !'
+      error: 'Quelque chose s’est mal passé. Merci d’essayer plus tard !'
       link_success: 'L’association au compte Steam a réussi.'
       unlink_success: 'La dissociation du compte Steam a réussi.'
     buttons:
@@ -24,9 +24,9 @@ nomiscz-auth-steam:
         title: 'Associer un compte Steam'
       unlink:
         buttons:
-          cancel: Non!
+          cancel: 'Non !'
           confirm: 'Oui, dissocier le compte'
         info:
-          confirm: 'Êtes-vous sûr de vouloir dissocier votre compte Steam?'
+          confirm: 'Êtes-vous sûr de vouloir dissocier votre compte Steam ?'
           no_providers: 'Vous n’avez pas d’autres fournisseurs de connexion. Vous devrez probablement réinitialiser votre mot de passe.'
         title: 'Dissocier un compte Steam'

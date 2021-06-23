@@ -13,7 +13,7 @@ askvortsov-markdown-tables:
         insert_row_before: 'Insérer une ligne avant'
         label_cells: '# Libeller les cellules ?'
         num_cols: '# Colonnes'
-        num_rows: '# Lignes (comprenant l’en-tête)'
+        num_rows: '# Lignes (comprenant l''en-tête)'
         remove_column: 'Supprimer la colonne'
         remove_row: 'Supprimer la ligne'
         row: Ligne

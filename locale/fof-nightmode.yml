@@ -6,8 +6,8 @@ fof-nightmode:
   admin:
     settings:
       modal:
-        default_theme: 'Thème de forum par défaut'
-        default_theme_helper: 'Le thème par défaut est automatiquement défini pour les nouveaux utilisateurs et invités.'
+        default_theme: 'Thème du forum par défaut'
+        default_theme_helper: 'Le thème par défaut est automatiquement défini pour les nouveaux utilisateurs, les invités et ceux qui n''ont pas de préférence définie.'
         theme_auto: '=> fof-nightmode.ref.auto'
         theme_dark: '=> fof-nightmode.ref.dark'
         theme_light: '=> fof-nightmode.ref.light'
@@ -16,20 +16,20 @@ fof-nightmode:
     night: '=> fof-nightmode.ref.dark'
     user:
       settings:
-        description: 'Choisissez le thème de couleur que vous souhaitez utiliser sur le forum.'
-        description2: 'Ce thème sera lié à votre compte et s’applique à tous vos appareils, sauf si vous activez le commutateur ci-dessous pour les paramètres par appareil.'
+        description: 'Sélectionnez le thème de couleurs que vous souhaitez utiliser sur le forum.'
+        description2: 'Ce thème sera lié à votre compte et s''appliquera à tous vos appareils, à moins que vous n''activez l''interrupteur ci-dessous pour les paramètres par appareil.'
         device_specific_setting_checkbox: 'Utiliser les paramètres par appareil'
         device_specific_setting_checkbox_tooltip: 'Votre choix de thème sera enregistré individuellement pour chacun de vos appareils.'
         heading: Thème
         option_descriptions:
           auto: 'Votre thème sera automatiquement sélectionné en fonction des paramètres de votre navigateur ou de votre appareil. Par exemple, si vous avez activé le mode sombre dans iOS, les forums seront également sombres.'
-          day: 'L’expérience classique à laquelle vous êtes habitué. Aimé et testé.'
-          night: 'Vous êtes un peu un oiseau de nuit. Vous surveillez le forum la nuit, pendant que les oiseaux dorment et que les renards chassent. Ou vous préférez simplement les couleurs plus foncées!'
+          day: 'L''expérience classique à laquelle vous êtes habitué. Appréciée et éprouvée.'
+          night: 'Vous êtes un peu un oiseau de nuit. Vous veillez sur le forum la nuit, pendant que les oiseaux dorment et que les renards chassent. Ou bien vous préférez tout simplement les couleurs sombres !'
         options:
           auto: '=> fof-nightmode.ref.auto'
           day: '=> fof-nightmode.ref.light'
           night: '=> fof-nightmode.ref.dark'
   ref:
-    auto: 'Automatique (en fonction des options du navigateur ou de l’appareil)'
+    auto: 'Automatique (en fonction des options du navigateur ou de l''appareil)'
     dark: 'Mode nuit'
     light: 'Mode jour'

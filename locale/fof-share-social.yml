@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-share-social:
+  admin:
+    settings:
+      canonical-urls: 'Utiliser des URL canoniques pour le partage'
   forum:
     discussion:
       share_button: Partager

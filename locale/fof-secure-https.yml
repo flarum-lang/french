@@ -5,7 +5,7 @@
 fof-secure-https:
   admin:
     settings:
-      replace: 'Procurer les images via HTTPS'
+      replace: 'Proxy les images par HTTPS'
   forum:
-    removed: 'Image supprimée en raison de l’absence de connexion sécurisée via HTTPS.'
+    removed: 'Image supprimée en raison de l''absence de support de HTTPS.'
     show: 'Afficher quand même'

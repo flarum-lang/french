@@ -46,7 +46,7 @@ fof-follow-tags:
       lurking_button: '=> fof-follow-tags.ref.lurking'
       lurking_text: 'Être informé de toutes les nouvelles discussions et réponses.'
       not_following_button: 'Non suivi'
-      not_following_text: 'Être notifié que lorsque @mentionné.'
+      not_following_text: 'Soyez averti uniquement lorsque @mentionné.'
       notify_alert_tooltip: 'Recevoir une notification du forum lors de la publication de nouvelles discussions ou de nouveaux messages'
       notify_email_tooltip: 'Recevoir un courriel lors de la publication de nouvelles discussions ou de nouveaux messages'
     user:
