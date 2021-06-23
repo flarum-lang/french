@@ -6,21 +6,21 @@ fof-follow-tags:
   admin:
     settings:
       following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
-      following_page_default_label: 'Filtrage par défaut des suivis'
+      following_page_default_label: 'Filtrage par défaut de la page des abonnements'
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
   email:
     body:
-      newDiscussionInTag: "Hey {recipient_display_name},\n{actor_display_name} a lancé une discussion dans un tag que vous suivez: {discussion_title}\nPour afficher la nouvelle discussion, consultez le lien suivant:\n{discussion_url}\n---\n{post_content}\n"
-      newDiscussionTag: "Hey {recipient_display_name},\n{actor_display_name} vient de remplacer l’étiquette d’une discussion de {author_display_name} par une étiquette que vous suivez {discussion_title}\nPour afficher la nouvelle discussion, consultez le lien suivant:\n{discussion_url}\n"
-      newPostInTag: "Hey {recipient_display_name},\n{actor_display_name} a publié dans une discussion sur une étiquette que vous suivez: {discussion_title}\nPour voir la nouvelle activité, consultez le lien suivant:\n{post_url}\n---\n{post_content}\n---\nVous ne recevrez plus de notifications concernant cette discussion tant que vous ne serez pas à jour.\n"
+      newDiscussionInTag: "Bonjour {recipient_display_name},\n\n{actor_display_name} a démarré une discussion sous une étiquette que vous suivez : {discussion_title}\n\nPour consulter la nouvelle discussion, cliquez sur le lien suivant :\n{discussion_url}\n\n---\n\n{post_content}\n"
+      newDiscussionTag: "Bonjour {recipient_display_name},\n\n{actor_display_name} vient de modifier l'étiquette d'une discussion de {author_display_name} par une étiquette que vous suivez {discussion_title}.\n\nPour voir la nouvelle discussion, cliquez sur le lien suivant :\n{discussion_url}\n"
+      newPostInTag: "Bonjour {recipient_display_name},\n\n{actor_display_name} a publié un message dans une discussion sous une étiquette que vous suivez : {discussion_title}\n\nPour voir cette nouvelle publication, cliquez sur le lien suivant :\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nVous ne recevrez plus de notifications concernant cette discussion jusqu'à ce que vous soyez à jour.\n"
     subject:
-      newDiscussionInTag: '[Tag | New Discussion] {title}'
-      newDiscussionTag: '[Tag | Changed Tag] {title}'
-      newPostInTag: '[Tag | New Post] {title}'
+      newDiscussionInTag: '[Étiquette | Nouvelle discussion] {title}'
+      newDiscussionTag: '[Étiquette | Étiquette modifiée] {title}'
+      newPostInTag: '[Étiquette | Nouveau message] {title}'
   forum:
     badge:
       following_tag_tooltip: Suivi
-      lurking_tag_tooltip: Caché
+      lurking_tag_tooltip: Surveillé
     index:
       follow_tag_button: Suivre
       following:
@@ -28,30 +28,30 @@ fof-follow-tags:
         following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
       unfollow_tag_button: 'Ne plus suivre'
     notifications:
-      new_discussion_tag_text: '{username} a changé l’étiquette'
+      new_discussion_tag_text: '{username} a modifié l''étiquette'
       new_discussion_text: '{username} a démarré'
       new_post_text: '{username} a publié'
     settings:
-      notify_new_discussion_label: 'Quelqu’un créé une discussion avec une étiquette que je suis'
-      notify_new_discussion_tag_label: 'Quelqu’un a re-étiquetté une discussion que je suis'
-      notify_new_post_label: 'Quelqu’un publie un message avec une étiquette que je suis'
+      notify_new_discussion_label: 'Quelqu''un crée une discussion sous une étiquette que je suis'
+      notify_new_discussion_tag_label: 'Quelqu''un modifie l''étiquette d''une discussion publiée sous une étiquette que je suis'
+      notify_new_post_label: 'Quelqu''un publie un message sous une étiquette que je suis'
     sub_controls:
       follow_button: '=> fof-follow-tags.ref.follow'
       following_button: '=> fof-follow-tags.ref.following'
-      following_text: 'Soyez informé de toutes les nouvelles discussions.'
+      following_text: 'Être informé de toutes les nouvelles discussions.'
       hiding_button: '=> fof-follow-tags.ref.hiding'
-      hiding_text: 'Masquer les discussions de la page Toutes les discussions.'
+      hiding_text: 'Masquer les discussions de la page listant toutes les discussions.'
       ignoring_button: '=> fof-follow-tags.ref.ignoring'
       ignoring_text: 'Ne jamais être notifié.'
       lurking_button: '=> fof-follow-tags.ref.lurking'
-      lurking_text: 'Soyez informé de toutes les nouvelles discussions et réponses.'
-      not_following_button: 'Ne pas suivre'
-      not_following_text: 'Soyez averti seulement quand vous êtes @mentionné.'
-      notify_alert_tooltip: 'Recevez une notification lorsqu’il y a de nouvelles discussions ou de nouveaux messages'
-      notify_email_tooltip: 'Recevez un e-mail lorsqu’il y a de nouvelles discussions ou de nouveaux messages'
+      lurking_text: 'Être informé de toutes les nouvelles discussions et réponses.'
+      not_following_button: 'Non suivi'
+      not_following_text: 'Être notifié que lorsque @mentionné.'
+      notify_alert_tooltip: 'Recevoir une notification du forum lors de la publication de nouvelles discussions ou de nouveaux messages'
+      notify_email_tooltip: 'Recevoir un courriel lors de la publication de nouvelles discussions ou de nouveaux messages'
     user:
       settings:
-        filter_label: 'Que montrer par défaut dans la page de suivi'
+        filter_label: 'Quels éléments afficher par défaut dans la page des abonnements'
         heading: 'Suivre les étiquettes'
   ref:
     filtering_options:
@@ -59,6 +59,6 @@ fof-follow-tags:
       tags: 'Étiquettes suivies'
     follow: Suivre
     following: Suivie
-    hiding: Cachée
+    hiding: Masquée
     ignoring: Ignorée
-    lurking: Observée
+    lurking: Surveillée

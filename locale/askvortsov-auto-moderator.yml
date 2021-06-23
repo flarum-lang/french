@@ -52,7 +52,7 @@ askvortsov-auto-moderator:
     metric_drivers:
       best_answers: 'Meilleures réponses'
       discussions_entered: 'Discussions saisies'
-      discussions_participated: 'Discussions avec participation'
+      discussions_participated: 'Discussions participées'
       discussions_started: 'Discussions démarrées'
       likes_given: '« J’aime » donnés'
       likes_received: '« J’aime » reçus'
