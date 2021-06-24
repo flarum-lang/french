@@ -321,7 +321,7 @@ core:
       invalid_login_message: 'Vos identifiants de connexion étaient erronés.'
       password_placeholder: '=> core.ref.password'
       remember_me_label: 'Se souvenir de moi'
-      sign_up_text: 'Vous n''avez pas de compte ? <a>Inscription</a>'
+      sign_up_text: 'Vous n''avez pas de compte ? <a>S''inscrire</a>'
       submit_button: '=> core.ref.log_in'
       title: '=> core.ref.log_in'
       username_or_email_placeholder: 'Nom d''utilisateur ou adresse de courriel'
@@ -377,7 +377,7 @@ core:
     sign_up:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
-      log_in_text: 'Vous avez déjà un compte ? <a>Connexion</a>'
+      log_in_text: 'Vous avez déjà un compte ? <a>Se connecter</a>'
       password_placeholder: '=> core.ref.password'
       submit_button: '=> core.ref.sign_up'
       title: '=> core.ref.sign_up'
@@ -472,8 +472,8 @@ core:
     icon_text: 'Saisissez le nom de n''importe quelle classe d''icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe <code>fas fa-</code>.'
     load_more: 'Charger davantage'
     loading: Chargement…
-    log_in: Connexion
-    log_out: Déconnexion
+    log_in: 'Se connecter'
+    log_out: 'Se déconnecter'
     mark_all_as_read: 'Tout marquer comme lu'
     next_page: 'Page suivante'
     notifications: Notifications
@@ -488,7 +488,7 @@ core:
     restore: Restaurer
     save_changes: Enregistrer
     settings: Paramètres
-    sign_up: Inscription
+    sign_up: 'S''inscrire'
     some_others: '{count, plural, one {# autre} other {# autres}}'
     start_a_discussion: 'Nouvelle discussion'
     username: 'Nom d''utilisateur'
