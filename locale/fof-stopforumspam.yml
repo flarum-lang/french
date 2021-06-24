@@ -7,17 +7,17 @@ fof-stopforumspam:
     settings:
       api_key_instructions_text: '<register>Inscrivez-vous à StopForumSpam</register>. Ensuite, vous devrez <key>obtenir une clé API</key>.'
       api_key_label: 'Clé API'
-      api_key_text: 'Vous avez fof/spamblock d’activé, vous avez maintenant la possibilité de signaler les spammeurs à StopForumSpam afin de préserver du spam une plus grande communauté.'
-      email_label: 'Vérification anti-spam de l’email'
-      frequency_example_text: 'Ex: Si l’email a un rapport et l’adresse IP deux rapports, cela fera trois avertissements au total. Si le seuil est fixé à 3 ou moins, cela empêchera l’enregistrement.'
+      api_key_text: 'Vous avez activé l''extension fof/spamblock, vous avez maintenant la possibilité de signaler les spammeurs à StopForumSpam afin de préserver du spam votre communauté.'
+      email_label: 'Vérification anti-spam du courriel'
+      frequency_example_text: 'Exemple : si le courriel a 1 résultat, et l''IP a 2 résultats, il y aura 3 résultats au total. Si le seuil est fixé à 3 ou moins, cela empêchera l''inscription.'
       frequency_label: Seuil
-      frequency_text: 'Le nombre de rapports de spam entre tous les contrôles activés qui déclencheront le filtre anti-spam.'
-      ip_label: 'Vérification anti-spam de l’adresse IP'
-      title: 'FriendsOfFlarum Stop Forum Spam'
-      username_label: 'Vérification anti-spam du nom d’utilisateur'
+      frequency_text: 'Le nombre de rapports de spam entre toutes les vérifications activées qui déclencheront le filtre anti-spam.'
+      ip_label: 'Vérification anti-spam de l''adresse IP'
+      title: 'Stop Forum Spam de FriendsOfFlarum'
+      username_label: 'Vérification anti-spam du nom d''utilisateur'
   api:
     error:
-      unknown: 'Impossible de signaler l’utilisateur à StopForumSpam.'
+      unknown: 'Impossible de signaler l''utilisateur à StopForumSpam.'
   forum:
     message:
-      spam: 'Vos informations ont été marquées comme spam.'
+      spam: 'Votre information a été marquée comme spam.'

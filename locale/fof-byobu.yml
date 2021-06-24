@@ -10,20 +10,20 @@ fof-byobu:
       create_private_discussions_with_users: 'Créer des discussions privées avec des utilisateurs'
       edit_group_recipients: 'Modifier les groupes participant à des discussions privées'
       edit_user_recipients: 'Modifier les utilisateurs participant à des discussions privées'
-      view_private_discussions-when-flagged: 'Afficher les discussions privées des autres utilisateurs qui ont été signalées'
+      view_private_discussions-when-flagged: 'Afficher les discussions privées d''autres utilisateurs qui ont été signalées'
     settings:
       badge-icon: 'Badge de discussion Byobu'
       post-event-icon: 'Événements de publication Byobu'
   email:
     body:
-      private_discussion_added: "Hey {recipient_display_name},\n{actor_display_name} vous a ajouté à une discussion privée existante : {discussion_title}.\nRegardez-le ici :\n{discussion_url}\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n"
-      private_discussion_created: "Hey {recipient_display_name},\n{actor_display_name} a commencé une nouvelle discussion privée avec vous en tant que destinataire :  '{discussion_title}'.\nRegardez-le ici :\n{discussion_url}\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n"
-      private_discussion_replied: "Hey {recipient_display_name},\n{actor_display_name} a publié dans une discussion privée avec vous en tant que destinataire :  '{discussion_title}'.\nRegardez-le ici :\n{post_url}\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n"
-      recipient_removed: "Hey {recipient_display_name},\n{actor_display_name} a quitté la discussion privée : {discussion_title}. Il ne pourra plus voir son contenu.\nRegardez-le ici :\n{discussion_url}\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n"
+      private_discussion_added: "Bonjour {recipient_display_name},\n\n{actor_display_name} vous a ajouté à une discussion privée existante : {discussion_title}.\n\nVous pouvez la consulter ici :\n{discussion_url}\n\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n"
+      private_discussion_created: "Bonjour {recipient_display_name},\n\n{actor_display_name} a démarré une nouvelle discussion privée avec vous en tant que destinataire : {discussion_title}.\n\nVous pouvez la consulter ici :\n{discussion_url}\n\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n"
+      private_discussion_replied: "Bonjour {recipient_display_name},\n\n{actor_display_name} a publié un message dans une discussion privée dans laquelle vous êtes destinataire : {discussion_title}.\n\nVous pouvez la consulter ici :\n{post_url}\n\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n"
+      recipient_removed: "Bonjour {recipient_display_name},\n\n{actor_display_name} ont quitté la discussion privée : {discussion_title}. Ils ne pourront plus consulter son contenu.\n\nVous pouvez la consulter ici :\n{discussion_url}\n\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n"
     subject:
       private_discussion_added: '[Discussion privée] {display_name} vous a ajouté à une discussion privée'
-      private_discussion_created: '[Discussion privée] {display_name} a commencé une nouvelle discussion privée avec vous'
-      private_discussion_replied: '[Discussion privée] {display_name} a publié dans une discussion privée'
+      private_discussion_created: '[Discussion privée] {display_name} a démarré une nouvelle discussion privée avec vous'
+      private_discussion_replied: '[Discussion privée] {display_name} a publié un message dans une discussion privée'
       recipient_removed: '[Discussion privée] {display_name} a quitté la discussion'
   forum:
     badges:
@@ -47,20 +47,25 @@ fof-byobu:
     modal:
       help:
         add_recipients: 'Cette discussion ne sera visible que par les utilisateurs que vous choisissez ici. Au moins 1 destinataire (autre que vous-même) est requis.'
+        click_user_to_remove_tooltip: 'Cliquez pour supprimer'
+        selected_users: 'Cliquez sur le nom d''un utilisateur pour le supprimer.'
         update_recipients: 'Cette discussion ne sera visible que par les utilisateurs que vous choisissez ici.'
+      labels:
+        search_field: 'Rechercher un utilisateur'
+        selected_users: 'Utilisateurs sélectionnés'
       titles:
         add_recipients: 'Ajouter des destinataires à votre discussion'
         update_recipients: 'Mettre à jour les destinataires de {title}'
     nav:
       nav_item: 'Discussions privées'
-      start_button: 'Nouvelle discussion privée'
+      start_button: 'Discuter en privé'
     notifications:
-      pd_added_label: 'Quelqu’un m’a ajouté à une discussion privée existante'
+      pd_added_label: 'Quelqu''un m''a ajouté à une discussion privée existante'
       pd_added_text: '{username} vous a ajouté à une discussion privée'
-      pd_label: 'Quelqu’un m’a inclus dans une nouvelle discussion privée'
-      pd_reply_label: 'Quelqu’un a posté dans une discussion privée dont je suis le destinataire'
-      pd_reply_text: '{username} a posté dans une discussion privée dont vous faites partie'
-      pd_text: 'a démarré une nouvelle discussion privée avec vous'
+      pd_label: 'Quelqu''un m''a ajouté à une nouvelle discussion privée'
+      pd_reply_label: 'Quelqu''un a publié un message dans une discussion privée dont je suis destinataire'
+      pd_reply_text: '{username} a publié un message dans une discussion privée dont vous faites partie'
+      pd_text: '{username} a démarré une nouvelle discussion privée avec vous'
       pd_user_left_label: 'Un utilisateur destinataire a quitté une discussion privée dont je fais partie'
       pd_user_left_text: '{username} a quitté la discussion privée'
     post:
