@@ -10,4 +10,4 @@ michaelbelgium-flarum-profile-views:
   forum:
     user:
       last_viewers_heading: 'Derniers visiteurs'
-      view_count_text: 'vu {viewcount} fois | vu {viewcount} fois'
+      view_count_text: '{viewcount, plural, one {vu {viewcount} fois} other {vu {viewcount} fois}}'
