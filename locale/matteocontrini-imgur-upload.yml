@@ -5,16 +5,16 @@
 imgur-upload:
   admin:
     settings:
-      allow-paste: 'Autoriser un téléversement en déposant une image'
+      allow-paste: 'Autoriser le transfert en collant une image'
       embed-type:
-        full-with-link: 'Image en taille originale avec lien'
-        full-without-link: 'Image en taille originale sans lien'
-        preview-with-link: 'Prévisualisation (1024px) avec le lien de l''image en taille originale'
+        full-with-link: 'Image en taille réelle avec lien'
+        full-without-link: 'Image en taille réelle sans lien'
+        preview-with-link: 'Prévisualisation (1024px) avec le lien de l''image en taille réelle'
         preview-without-link: 'Prévisualisation sans lien'
         title: 'Type de contenu embarqué'
-      hide-markdown-image: 'Masquer le bouton du markdown image'
+      hide-markdown-image: 'Masquer le bouton du Markdown image'
   forum:
-    done: 'Fait !'
+    done: 'Terminé !'
     error: Erreur
-    loading: 'Téléversement ...'
-    upload: 'Appuyer ou déposer pour téléverser'
+    loading: Transfert...
+    upload: 'Appuyez ou collez pour transférer'

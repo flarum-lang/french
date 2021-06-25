@@ -5,9 +5,9 @@
 saleksin-auth-google:
   admin:
     google_settings:
-      client_id_label: 'Identifiant du client'
-      client_secret_label: 'Clé secrète du client'
-      title: 'Paramètres Google'
+      client_id_label: 'Identifiant de l''application'
+      client_secret_label: 'Secret de l''application'
+      title: 'Paramètres de Google'
   forum:
     log_in:
-      with_google_button: 'Connexion avec Google'
+      with_google_button: 'Se connecter avec Google'

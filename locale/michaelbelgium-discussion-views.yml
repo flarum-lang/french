@@ -10,21 +10,21 @@ core:
 michaelbelgium-discussion-views:
   admin:
     permissions:
-      reset_views_label: 'Réinitialiser les vues d’une discussion'
-      view_number_label: 'Afficher le nombre de vues d’une discussion'
+      reset_views_label: 'Réinitialiser les vues de la discussion'
+      view_number_label: 'Afficher le compteur de vues de la discussion'
     settings:
-      abbr_numbers_label: 'Numéros de vue abrégés'
-      max_viewcount_label: 'Nombre maximal d’éléments dans la liste de visualisation'
+      abbr_numbers_label: 'Abréger le nombre de vues'
+      max_viewcount_label: 'Nombre maximal d''éléments de la liste d''affichage'
       show_filter_label: 'Activer le champ de tri (im)populaire'
-      show_viewlist_label: 'Activer la liste de visualisation'
-      title: 'Paramètres des vues de discussion'
-      track_unique_label: 'Suivi des vues uniques'
+      show_viewlist_label: 'Activer la liste d''affichage'
+      title: 'Paramètres des vues de la discussion'
+      track_unique_label: 'Suivre les vues uniques'
   forum:
     discussion_controls:
       resetviews_button: 'Réinitialiser les vues'
     modal_resetviews:
       label: '{count, plural, one {Cela supprimera {count} vue de cette discussion. Continuer ?} other {Cela supprimera {count} vues de cette discussion. Continuer ?}}'
       submit_button: 'Oui, tout supprimer'
-      title: 'Réinitialiser le compteur de vues'
+      title: 'Réinitialiser le nombre de vues de la discussion'
     viewlist:
       title: 'Derniers visiteurs'

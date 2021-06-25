@@ -4,17 +4,17 @@
 
 sycho-profile-cover:
   admin:
-    max_size: 'Taille maximale de l’image de couverture de profil (en Ko)'
+    max_size: 'Taille maximale de l''image de couverture du profil (en kilooctets)'
     permission:
       set_cover: 'Définir la couverture du profil'
-    thumbnails: 'Créer des vignettes'
+    thumbnails: 'Créer des miniatures'
   forum:
     added:
-      error: 'l’image n’a pas pu être téléchargée.'
-      success: 'La couverture du profil a été mise à jour.'
+      error: 'L''image n''a pas pu être transférée.'
+      success: 'La couverture de profil a été mise à jour.'
     cover: Couverture
     edit_cover: 'Modifier la couverture'
-    notice: 'Taille maximale: {size}'
+    notice: 'Taille maximale : {size}'
     removed:
-      error: 'Impossible de retirer la couverture, réessayez plus tard.'
-      success: 'La couverture de profil a été retirée.'
+      error: 'Impossible de supprimer la couverture, réessayez plus tard.'
+      success: 'La couverture de profil a été supprimée.'

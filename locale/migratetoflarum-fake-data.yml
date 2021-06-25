@@ -11,7 +11,7 @@ migratetoflarum-fake-data:
       date-interval-placeholder: '=> migratetoflarum-fake-data.ref.date-interval-placeholder'
       date-start-placeholder: '=> migratetoflarum-fake-data.ref.date-start-placeholder'
       discussion-count: 'Nombre de discussions à créer'
-      discussion-tags: 'Étiquettes pour les nouvelles discussions'
+      discussion-tags: 'Étiquettes des nouvelles discussions'
       discussion-tags-none: Aucun
       discussion-tags-random: Aléatoire
       post-count: '=> migratetoflarum-fake-data.ref.post-count'
@@ -19,7 +19,7 @@ migratetoflarum-fake-data:
       user-count: '=> migratetoflarum-fake-data.ref.user-count'
   api:
     no-discussions-matched: 'Aucune discussion ne correspond'
-    no-users-matched: 'Aucun utilisateur correspondant'
+    no-users-matched: 'Aucun utilisateur ne correspond'
   forum:
     generator:
       bulk-mode: '=> migratetoflarum-fake-data.ref.bulk-mode'
@@ -41,4 +41,4 @@ migratetoflarum-fake-data:
     date-start-placeholder: "Date de début (par défaut\_: maintenant)"
     post-count: 'Nombre de messages à créer'
     send: 'Générer des données'
-    user-count: 'Nombre d’utilisateurs à créer'
+    user-count: 'Nombre d''utilisateurs à créer'
