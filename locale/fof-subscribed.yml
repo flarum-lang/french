@@ -5,28 +5,28 @@
 fof-subscribed:
   admin:
     menu:
-      description: 'Configurer les abonnements des utilisateur (par défaut)'
+      description: 'Configurer les abonnements des utilisateurs (par défaut)'
     permission:
-      subscribe_to_discussion_created: 'Recevoir une notification lors d’une nouvelle discussion'
-      subscribe_to_post_unapproved: 'Autorisé à recevoir des notifications sur les nouveaux messages non approuvés'
-      subscribe_to_user_created: 'Recevoir une notification lorsqu’il y a un nouvel utilisateur'
+      subscribe_to_discussion_created: 'Autorisé à recevoir une notification lors du démarrage d''une nouvelle discussion'
+      subscribe_to_post_unapproved: 'Autorisé à recevoir une notification en cas de nouveau message non approuvé'
+      subscribe_to_user_created: 'Autorisé à recevoir une notification en cas d''inscription d''un nouvel utilisateur'
   email:
     body:
-      newDiscussion: "Hey {recipient_display_name},\n{actor_display_name} a commencé une nouvelle discussion : {discussion_title}\nPour afficher cette nouvelle discussion, consultez le lien suivant :\n{discussion_url}\n---\n{post_content}\n"
-      newUser: "Hey {recipient_display_name},\n{actor_display_name} vient de rejoindre {forum_url}.\nPour afficher le profil de ce nouvel utilisateur, consultez le lien suivant :\n{user_url}\n"
-      postUnapproved: "Hey {recipient_display_name},\n{actor_display_name} a créé un message qui n’a pas été automatiquement approuvé dans {discussion_title}\nPour voir ce nouveau message, consultez le lien suivant :\n{post_url}\n---\n{post_content}\n"
+      newDiscussion: "Bonjour {recipient_display_name},\n\n{actor_display_name} a démarré une nouvelle discussion : {discussion_title}\n\nPour consulter cette nouvelle discussion, cliquez sur le lien suivant :\n{discussion_url}\n\n---\n\n{post_content}\n"
+      newUser: "Bonjour {recipient_display_name},\n\n{actor_display_name} vient de rejoindre {forum_url}.\n\nPour consulter le profil de ce nouvel utilisateur, cliquez sur le lien suivant :\n{user_url}\n"
+      postUnapproved: "Bonjour {recipient_display_name},\n\n{actor_display_name} a publié un message qui n'a pas été automatiquement approuvé dans {discussion_title}.\n\nPour consulter ce nouveau message, cliquez sur le lien suivant :\n{post_url}\n\n---\n\n{post_content}\n"
     subject:
-      newDiscussion: '[Abonné | Nouvelle Discussion] {title}'
-      newUser: '[Abonné | Nouvel Utilisateur] {username}'
-      postUnapproved: '[Abonné | Désapprouvé] {username} a publié {title}'
+      newDiscussion: '[Abonné | Nouvelle discussion] {title}'
+      newUser: '[Abonné | Nouvel utilisateur] {username}'
+      postUnapproved: '[Abonné | Désapprouvé] {username} a publié dans {title}'
   forum:
     notifications:
-      discussion_created_text: '{username} a créé une discussion'
+      discussion_created_text: '{username} a démarré une nouvelle discussion'
       post_unapproved_text: '{username} a publié un message qui nécessite une approbation'
-      user_created_text: '{username} vient de s’inscrire'
+      user_created_text: '{username} vient de s''inscrire'
     settings:
-      defaults_label: 'Définir "{setting}" activé par défaut'
-      forced_label: 'Forcer l’activation de  "{setting}" pour tout le monde'
-      notify_discussion_created_label: 'Quelqu’un a créé une discussion'
+      defaults_label: 'Définir « {setting} » activé par défaut'
+      forced_label: 'Forcer l''activation de « {setting} » pour tout le monde'
+      notify_discussion_created_label: 'Quelqu''un démarre une discussion'
       notify_post_unapproved_label: 'Un message publié doit être approuvé'
-      notify_user_created_label: 'Quand quelqu’un s’inscrit'
+      notify_user_created_label: 'Lorsque quelqu''un s''inscrit'

@@ -5,15 +5,15 @@
 fof-split:
   admin:
     permissions:
-      split_discussion_label: 'Diviser les messages des discussions'
+      split_discussion_label: 'Séparer les messages des discussions'
   forum:
     modal:
-      new_discussion_label: 'Préciser le titre de la nouvelle discussion'
-      submit_button: Diviser
-      title: 'Diviser la discussion'
+      new_discussion_label: 'Indiquez le titre de la nouvelle discussion'
+      submit_button: Séparer
+      title: 'Séparer la discussion'
     post:
       was_split_from: '{count, plural, one {{count} message a été séparé de {target}.} other {{count} messages ont été séparés de {target}.}}'
       was_split_to: '{count, plural, one {{count} message a été séparé vers {target}.} other {{count} messages ont été séparés vers {target}.}}'
     split:
-      from: 'Diviser à partir d’ici'
-      to: 'Diviser jusque-là'
+      from: 'Séparer à partir d''ici'
+      to: 'Séparer jusqu''ici'

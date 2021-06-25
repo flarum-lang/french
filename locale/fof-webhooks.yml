@@ -5,77 +5,88 @@
 fof-webhooks:
   actions:
     discussion:
-      deleted: 'Discussion supprimée {1}'
-      hidden: 'Discussion cachée {1}'
+      deleted: 'Discussion `{1}` supprimée'
+      hidden: 'Discussion `{1}` masquée'
       renamed:
-        description: 'Nouveau titre: {1}'
-        title: 'Discussion renommée {1}'
-      restored: 'Discussion restaurée {1}'
-      started: 'Discussion démarrée {1}'
+        description: 'Nouveau titre : {1}'
+        title: 'Discussion `{1}` renommée'
+      restored: 'Discussion `{1}` restaurée'
+      started: 'Discussion `{1}` démarrée'
     group:
-      created: 'Groupe {1} créé'
-      deleted: 'Groupe {1} supprimé'
-      renamed: 'Renommé un groupe en {1}'
+      created: 'Groupe `{1}` créé'
+      deleted: 'Groupe `{1}` supprimé'
+      renamed: 'Renommé un groupe en `{1}`'
     post:
-      deleted: 'Message supprimé dans {1}'
-      hidden: 'Message caché dans {1}'
-      posted: 'Nouveau message dans {1}'
-      restored: 'Message restauré dans {1}'
-      revised: 'Message édité dans {1}'
+      deleted: 'Message supprimé dans `{1}`'
+      hidden: 'Message masqué dans `{1}`'
+      posted: 'Nouveau message dans `{1}`'
+      restored: 'Message restauré dans `{1}`'
+      revised: 'Message modifié dans `{1}`'
     user:
-      deleted: 'Utilisateur supprimé {1}'
-      registered: 'Nouvel utilisateur enregistré'
+      deleted: 'Utilisateur `{1}` supprimé'
+      registered: 'Nouvel utilisateur inscrit'
       renamed:
-        description: 'Nouveau nom d’utilisateur: {1}'
-        title: 'Nom d’utilisateur modifié de {1}'
+        description: 'Nouveau nom d''utilisateur : {1}'
+        title: 'Nom d''utilisateur modifié de `{1}`'
   adapters:
     errors:
       404: 'Webhook introuvable'
   admin:
     errors:
-      service_not_found: 'Le service {service} ne peut être trouvé.'
-      url_invalid: 'L’URL n’est pas valide pour le service sélectionné.'
+      service_not_found: 'Le service « {service} » est introuvable.'
+      url_invalid: 'L''URL n''est pas valide pour le service sélectionné.'
     nav:
-      desc: 'Webhooks sortants personnalisables pour votre forum.'
+      desc: 'Des webhooks sortants personnalisables pour votre forum.'
     settings:
       actions:
         flarum:
           discussion:
-            deleted: '=> reflar-webhooks.ref.deleted'
-            hidden: '=> reflar-webhooks.ref.hidden'
-            renamed: '=> reflar-webhooks.ref.renamed'
-            restored: '=> reflar-webhooks.ref.restored'
-            started: Démarré
-            title: 'Discussion Flarum'
+            deleted: '=> fof-webhooks.ref.deleted'
+            hidden: '=> fof-webhooks.ref.hidden'
+            renamed: '=> fof-webhooks.ref.renamed'
+            restored: '=> fof-webhooks.ref.restored'
+            started: Démarrée
+            title: 'Flarum Discussion'
           group:
             created: Créé
-            deleted: '=> reflar-webhooks.ref.deleted'
-            renamed: '=> reflar-webhooks.ref.renamed'
+            deleted: '=> fof-webhooks.ref.deleted'
+            renamed: '=> fof-webhooks.ref.renamed'
             title: 'Groupe Flarum'
           post:
-            deleted: '=> reflar-webhooks.ref.deleted'
-            hidden: '=> reflar-webhooks.ref.hidden'
+            deleted: '=> fof-webhooks.ref.deleted'
+            hidden: '=> fof-webhooks.ref.hidden'
             posted: Publié
-            restored: '=> reflar-webhooks.ref.restored'
-            revised: Édité
+            restored: '=> fof-webhooks.ref.restored'
+            revised: Modifié
             title: 'Message Flarum'
           user:
-            deleted: '=> reflar-webhooks.ref.deleted'
-            registered: Enregistré
-            renamed: '=> reflar-webhooks.ref.renamed'
+            deleted: '=> fof-webhooks.ref.deleted'
+            registered: Inscrit
+            renamed: '=> fof-webhooks.ref.renamed'
             title: 'Utilisateur Flarum'
       help:
-        disabled: 'Ce Webhook est désactivé car aucun événement n’est activé.'
-        general: 'Ici vous pouvez ajouter, éditer et supprimer des webhooks de votre forum.'
-        url: 'L’url du webhook endpoint à exécuter'
+        disabled: 'Ce webhook est désactivé car il n''a aucun événement activé.'
+        general: 'Vous pouvez ajouter, modifier et supprimer ici des webhooks pour votre forum.'
+        url: 'Le point d''entrée du webhook à exécuter'
+      item:
+        tag_any_label: 'N''importe lequel'
       modal:
-        description: 'Ici vous pouvez modifier les événements sur lesquels le Webhook est déclenché.'
-        title: 'Paramètres Webhook'
+        description: 'Vous pouvez modifier ici les événements sur lesquels le webhook est déclenché.'
+        events_label: Événements
+        extra_text_help: 'Texte supplémentaire à inclure dans le webhook envoyé.'
+        extra_text_label: 'Texte supplémentaire'
+        group_help: 'Envoyer des ressources qui peuvent être vues par ce groupe'
+        group_label: Groupe
+        max_post_content_length_help: 'Définissez un nombre pour limiter le contenu des messages dans tous les événements liés aux messages. Réglez cette option sur 0 ou laissez vide pour supprimer la limite.'
+        max_post_content_length_label: 'Longueur maximale du contenu des messages'
+        title: 'Paramètres du webhook'
+        use_plain_text_label: 'Réduire la quantité de mise en page dans le contenu des messages'
       services:
         discord: Discord
+        microsoft-teams: 'Microsoft Teams'
         slack: Slack
   ref:
     deleted: Supprimé
-    hidden: Caché
+    hidden: Masqué
     renamed: Renommé
     restored: Restauré

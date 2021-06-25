@@ -6,80 +6,80 @@ fof-username-request:
   admin:
     permissions:
       moderate_requests: 'Approuver les demandes de changement de nom d’utilisateur/pseudonyme'
-      request_nickname: 'Demander un changement de pseudonyme'
-      request_username: 'Demander un changement de nom d’utilisateur'
+      request_nickname: 'Demander une modification de pseudonyme'
+      request_username: 'Demander une modification de nom d''utilisateur'
   forum:
     nickname_modals:
       action:
         approval_label: Approuver
         decision_title: Décision
-        help_text: 'Assurez-vous que le pseudonyme respecte les directives du forum.'
-        name: '{name} a demandé à ce que son pseudonyme soit changé en "{requestedName}"'
+        help_text: 'Veuillez vous assurer que cette demande de modification de pseudonyme respecte le règlement du forum.'
+        name: '{name} a demandé à ce que son pseudonyme soit modifié en « {requestedName} »'
         reason_title: 'Motif du rejet'
         rejected_label: Rejeter
-        submit_button: Soumettre
+        submit_button: Envoyer
         success: 'Décision envoyée.'
         title: '=> fof-username-request.ref.nickname_change_request'
       request:
-        confirmation_message: 'Votre demande de changement de pseudonyme a été soumise et est en attente d’approbation.'
-        current_request: 'Vous avez déjà demandé de changer votre pseudonyme en "{name}". Vous pouvez mettre à jour votre demande ou la supprimer.'
+        confirmation_message: 'Votre demande de modification de pseudonyme a été envoyée et est en attente d''approbation.'
+        current_request: 'Vous avez déjà demandé à modifier votre pseudonyme en « {name} ». Vous pouvez soit mettre à jour votre demande, soit la supprimer.'
         delete_button: 'Supprimer la demande'
         deleted: 'Demande de pseudonyme supprimée.'
         dismiss_button: '=> core.ref.okay'
         submit_button: 'Envoyer la demande'
-        title: 'Demander un changement de pseudonyme'
+        title: 'Demander une modification de pseudonyme'
       results:
-        approved: 'Votre demande de changement de pseudonyme a été approuvée'
+        approved: 'Votre demande de modification de pseudonyme a été approuvée'
         dismiss_button: '=> core.ref.okay'
-        new_name: 'Votre pseudonyme a été changé avec succès en :  {name}'
-        reason: 'Motif du rejet : <i>"{reason}"</i>.'
-        rejected: 'Votre demande de pseudonyme a été rejetée'
-        resubmit: 'Vous pouvez soumettre une nouvelle demande de pseudonyme à partir des paramètres de votre compte.'
-        title: 'Demande de changement de pseudonyme'
+        new_name: 'Votre pseudonyme a été modifié en :  {name}'
+        reason: 'Motif du rejet : <i>« {reason} »</i>.'
+        rejected: 'Votre demande de modification de pseudonyme a été rejetée'
+        resubmit: 'À ce stade, vous pouvez soumettre à nouveau une demande de modification de pseudonyme à partir des paramètres de votre compte si vous le souhaitez.'
+        title: 'Demande de modification de pseudonyme'
     pending_requests:
-      empty_text: 'Aucune demande de changement de nom trouvée.'
+      empty_text: 'Aucune demande de modification de nom n''a été trouvée.'
       nickname_exerpt: 'Pseudonyme demandé : {requestedName}'
-      nickname_item_text: '{name} a demandé un changement de pseudonyme'
+      nickname_item_text: '{name} a demandé une modification de pseudonyme'
       title: '=> fof-username-request.ref.name_change_requests'
       tooltip: '=> fof-username-request.ref.name_change_requests'
-      username_exerpt: 'Nom d’utilisateur demandé : {requestedName}'
-      username_item_text: '{name} a demandé un changement de nom d’utilisateur'
+      username_exerpt: 'Nom d''utilisateur demandé : {requestedName}'
+      username_item_text: '{name} a demandé une modification de nom d''utilisateur'
     settings:
-      nickname_request_button: 'Changer de pseudonyme'
-      username_request_button: 'changer de nom d’utilisateur'
+      nickname_request_button: 'Modifier le pseudonyme'
+      username_request_button: 'Modifier le nom d''utilisateur'
     user:
       name_history_link: 'Historique des noms'
     username_modals:
       action:
         approval_label: Approuver
         decision_title: Décision
-        help_text: 'Assurez-vous que le nom d’utilisateur respecte les directives du forum.'
-        name: '{name} a demandé à changer son nom d’utilisateur en "{requestedName}"'
+        help_text: 'Veuillez vous assurer que cette demande de modification de nom d''utilisateur respecte le règlement du forum.'
+        name: '{name} a demandé à modifier son nom d''utilisateur en « {requestedName} »'
         reason_title: 'Motif du rejet'
         rejected_label: Rejeter
-        submit_button: Soumettre
+        submit_button: Envoyer
         success: 'Décision envoyée.'
         title: '=> fof-username-request.ref.username_change_request'
       request:
-        confirmation_message: 'Votre demande a été soumise et est en attente d''approbation.'
-        current_request: 'Vous avez déjà demandé de changer votre nom d’utilisateur pour "{username}." Vous pouvez mettre à jour ou supprimer cette demande.'
+        confirmation_message: 'Votre demande de modification de nom d''utilisateur a été envoyée et est en attente d''approbation.'
+        current_request: 'Vous avez déjà demandé à modifier votre nom d''utilisateur en « {name} ». Vous pouvez soit mettre à jour votre demande, soit la supprimer.'
         delete_button: 'Supprimer la demande'
-        deleted: 'Demande de nom d’utilisateur supprimée.'
+        deleted: 'Demande de nom d''utilisateur supprimée.'
         dismiss_button: '=> core.ref.okay'
-        submit_button: 'Soumettre la demande'
-        title: 'Demander un changement de nom d’utilisateur'
+        submit_button: 'Envoyer la demande'
+        title: 'Demander une modification de nom d''utilisateur'
       results:
-        approved: 'Votre demande de changement de nom d’utilisateur a été approuvée'
+        approved: 'Votre demande de modification de nom d''utilisateur a été approuvée'
         dismiss_button: '=> core.ref.okay'
-        new_name: 'Votre nom d’utilisateur  a bien été remplacé par : "{username}"'
-        reason: 'Motif du rejet : <i>"{reason}"</i>.'
-        rejected: 'Votre demande de nom d’utilisateur a été rejetée'
-        resubmit: 'Vous pouvez soumettre une nouvelle demande de nom d’utilisateur à partir des paramètres de votre compte.'
-        title: 'Changement de nom d’utilisateur'
+        new_name: 'Votre nom d''utilisateur a bien été modifié par : {username}'
+        reason: 'Motif du rejet : <i>« {reason} »</i>.'
+        rejected: 'Votre demande de modification de nom d''utilisateur a été rejetée'
+        resubmit: 'À ce stade, vous pouvez soumettre à nouveau une demande de modification de nom d''utilisateur à partir des paramètres de votre compte si vous le souhaitez.'
+        title: 'Modification de nom d''utilisateur'
   ref:
-    name_change_request: 'Demande de changement de nom'
-    name_change_requests: 'Demandes de changement de nom'
-    nickname_change_request: 'Demande de changement de pseudonyme'
-    nickname_change_requests: 'Demandes de changement de pseudonyme'
-    username_change_request: 'Demande de changement de nom d’utilisateur'
-    username_change_requests: 'Demandes de changement de nom d’utilisateur'
+    name_change_request: 'Demande de modification de nom'
+    name_change_requests: 'Demandes de modification de nom'
+    nickname_change_request: 'Demande de modification de pseudonyme'
+    nickname_change_requests: 'Demandes de modification de pseudonyme'
+    username_change_request: 'Demande de modification de nom d''utilisateur'
+    username_change_requests: 'Demandes de modification de nom d''utilisateur'

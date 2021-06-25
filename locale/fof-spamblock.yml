@@ -5,8 +5,8 @@
 fof-spamblock:
   admin:
     permissions:
-      spamblock_users_label: 'Marquer l’utilisateur comme spammeur'
+      spamblock_users_label: 'Marquer l''utilisateur comme spammeur'
   forum:
     user_controls:
       spammer_button: Spammeur
-      spammer_confirmation: "Êtes-vous sûr de vouloir\n• Masquer toutes les discussions et les messages de l’utilisateur\n• [flarum/suspend] Suspendre l’utilisateur"
+      spammer_confirmation: "Êtes-vous sûr de vouloir \n• Masquer toutes les discussions et tous les messages de l'utilisateur.\n• [flarum/suspend] Suspendre l'utilisateur"

@@ -10,7 +10,7 @@ fof-socialprofile:
       deletetitle: 'Bouton de suppression'
       edit: Modifier
       headtitle: 'Bouton de modification'
-      save_disabled_fetching_favicons: 'Une ou plusieurs icônes sont en cours de récupération. S’il vous plaît, patientez.'
+      save_disabled_fetching_favicons: 'Une ou plusieurs icônes sont en train d''être récupérées. Veuillez patienter.'
       submit: Enregistrer
       title: Titre
       url: URL

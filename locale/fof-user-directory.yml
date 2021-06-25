@@ -5,24 +5,24 @@
 fof-user-directory:
   admin:
     permissions:
-      view_user_directory: 'Voir le répertoire utilisateur'
+      view_user_directory: 'Voir le répertoire des utilisateurs'
     settings:
       default-sort: 'Tri par défaut'
-      link: 'Ajouter un lien sur la page d’accueil pour les utilisateurs pouvant voir le répertoire'
-      use-small-cards: 'Utiliser de petites cartes d’utilisateur'
+      link: 'Ajouter un lien sur la page d''accueil pour que les utilisateurs puissent voir le répertoire'
+      use-small-cards: 'Utiliser de petites cartes d''utilisateur'
   forum:
     header:
       back_to_user_directory_tooltip: 'Retour au répertoire des utilisateurs'
     page:
-      empty_text: 'Nous n’avons trouvé aucun utilisateur correspondant à votre recherche.'
+      empty_text: 'Nous n''avons trouvé aucun utilisateur correspondant à votre recherche.'
       filter_button: 'Groupes de filtres'
       load_more_button: '=> core.ref.load_more'
-      nav: 'Répertoire utilisateurs'
+      nav: 'Répertoire des utilisateurs'
       refresh_tooltip: '=> core.forum.index.refresh_tooltip'
     search:
       field:
         placeholder: 'Rechercher tous les utilisateurs'
-      users_heading: 'Rechercher tous les utilisateurs pour "{query}"'
+      users_heading: 'Rechercher tous les utilisateurs pour « {query} »'
   lib:
     sort:
       default: 'Par défaut'
@@ -33,5 +33,5 @@ fof-user-directory:
       newest: 'Le plus récent'
       not_specified: 'Utiliser Flarum par défaut'
       oldest: 'Le plus ancien'
-      username_az: 'Nom d’utilisateur (a-z)'
-      username_za: 'Nom d’utilisateur (z-a)'
+      username_az: 'Nom d''utilisateur (a-z)'
+      username_za: 'Nom d''utilisateur (z-a)'
