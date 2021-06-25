@@ -7,21 +7,21 @@ fof-cookie-consent:
     settings:
       backgroundColor: Arrière-plan
       buttonBackgroundColor: Arrière-plan
-      buttonText: 'Texte du bouton de validation'
+      buttonText: 'Texte du bouton de rejet'
       buttonTextColor: Texte
       ccTheme: Thème
-      configuration_button_title: 'Bouton En savoir plus'
+      configuration_button_title: 'Bouton « En savoir plus »'
       configuration_title: 'Options de configuration'
       consentText: 'Contenu du message'
       learnMoreLinkText: Texte
       learnMoreLinkUrl: Lien
       textColor: Texte
-      theme_dismiss_title: 'Couleur du bouton de validation'
-      theme_popup_title: 'Couleurs du Popup'
-      theme_title: 'Options de thème'
+      theme_dismiss_title: 'Couleurs du bouton de rejet'
+      theme_popup_title: 'Couleurs de la fenêtre intruse'
+      theme_title: 'Options du thème'
       themes:
         blocky: Blocky
         classic: Classique
         custom: Personnalisé
-        edgeless: 'Sans bord'
+        edgeless: 'Sans bordure'
         no_css: 'Aucun CSS'

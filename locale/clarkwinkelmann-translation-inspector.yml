@@ -5,20 +5,20 @@
 clarkwinkelmann-translation-inspector:
   admin:
     permissions:
-      inspect: 'Vérifier les traductions'
+      inspect: 'Contrôler les traductions'
   lib:
     modal:
-      actual: 'Traduire dans la langue actuelle'
-      edit: 'Éditer sur GitHub'
+      actual: 'Traduction dans la langue actuelle'
+      edit: 'Modifier sur GitHub'
       extension: 'Défini par'
       extension-unknown: 'Extension inconnue'
       key: 'Clé de traduction'
-      original: 'Traduction anglaise d''origine'
+      original: 'Traduction anglaise originale'
       path: 'Défini par'
-      title: 'Inspecteur de traduction'
+      title: 'Contrôleur de traduction'
     nav:
-      inspect: 'Inspecter les traductions'
+      inspect: 'Contrôler les traductions'
     tooltip:
       cancel: Annuler
-      description: 'Cliquer sur la traduction que vous aimeriez inspecter'
-      title: 'Inspecter la traduction'
+      description: 'Cliquez sur la traduction que vous souhaitez contrôler'
+      title: 'Contrôler la traduction'

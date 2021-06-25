@@ -23,7 +23,7 @@ datitisev-dashboard:
         october: Octobre
         september: Septembre
       updates:
-        available: '{count} Mise à jour disponible|{count} Mises à jour disponibles'
+        available: '{count} mise à jour disponible|{count} mises à jour disponibles'
         check_button: 'Vérifier les mises à jour des extensions'
         checking: 'Vérification des mises à jour...'
         none: 'Aucune mise à jour trouvée'

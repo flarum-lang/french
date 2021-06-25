@@ -4,14 +4,19 @@
 
 fof-forum-statistics-widget:
   admin:
+    permissions:
+      view_discussions_count_label: 'Afficher le widget du nombre de discussions dans les statistiques du forum'
+      view_lastest_member_label: 'Afficher le widget du dernier membre dans les statistiques du forum'
+      view_posts_count_label: 'Afficher le widget du nombre de messages dans les statistiques du forum'
+      view_users_count_label: 'Afficher le widget du nombre d''utilisateurs dans les statistiques du forum'
     settings:
-      widget_helper_text: 'Modifiez ce paramètre pour ajuster la position de ce widget sur la section de navigation latérale de votre forum. Plus le nombre est élevé, plus ce widget sera élevé dans la liste des éléments de navigation latérale (cette valeur peut être positive ou négative).'
+      widget_helper_text: 'Modifiez ce paramètre pour ajuster la position de ce widget sur la section de la navigation latérale de votre forum. Plus le nombre est élevé, plus ce widget sera haut dans la liste des éléments de la navigation latérale (cette valeur peut être positive ou négative).'
       widget_ignore_private_discussions_label: 'Ignorer les discussions privées'
       widget_order_label: 'Ordre des widgets'
   forum:
     navbar:
-      discussions_count: 'Discussions: {discussionsCount}'
-      latest_member: 'Dernier membre: '
-      posts_count: 'Messages: {postsCount}'
-      users_count: 'Membres: {usersCount}'
-      widget_title: Statistiques
+      discussions_count: 'Discussions : {discussionsCount}'
+      latest_member: 'Dernier membre : '
+      posts_count: 'Messages : {postsCount}'
+      users_count: 'Membres : {usersCount}'
+      widget_title: 'Statistiques du forum'

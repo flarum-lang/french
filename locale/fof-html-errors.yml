@@ -6,9 +6,9 @@ fof-html-errors:
   admin:
     settings:
       error:
-        403: '403 Interdit'
-        404: '404 Introuvable'
-        500: '500 Erreur Interne du Serveur'
-        503: '503 Service indisponible (Arrêté pour maintenance)'
+        403: '403 Accès refusé'
+        404: '404 Ressource non trouvée'
+        500: '500 Erreur interne du serveur'
+        503: '503 Service temporairement indisponible (en maintenance)'
       placeholder:
-        empty_for_default: 'Laissez vide pour que soit affichée par défaut la page d’erreur de Flarum'
+        empty_for_default: 'Laissez vide pour afficher la page d''erreur par défaut de Flarum'

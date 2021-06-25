@@ -4,27 +4,29 @@
 
 fof-analytics:
   admin:
+    matomo-widget:
+      title: Matomo
     popup:
       field:
-        googleGTMCode: 'ID de code GTM (facultatif)'
-        googleTrackingCode: 'Code de suivi'
+        googleGTMCode: 'Identifiant du code GTM (facultatif)'
+        googleTrackingCode: 'Identifiant du code de suivi'
         optTrackingCode: 'Optimiser le code de suivi (facultatif)'
-        piwikAliasUrl: 'URL d’alias'
-        piwikAuthToken: 'Jeton d’authentification'
-        piwikHideAliasUrl: 'Dans le rapport « Liens externes », masquer les clics sur les URL d’alias connues'
+        piwikAliasUrl: 'Alias d''URL'
+        piwikAuthToken: 'Jeton d''authentification'
+        piwikHideAliasUrl: 'Dans le rapport « Liens externes », masquer les clics vers des alias d''URL connus'
         piwikPrependDomain: 'Ajouter le nom de domaine au titre de la page lors du suivi'
-        piwikSiteId: 'ID du site'
-        piwikTrackAccounts: 'Suivre les comptes d’utilisateurs individuels'
+        piwikSiteId: 'Identifiant du site'
+        piwikTrackAccounts: 'Suivre les comptes d''utilisateurs individuels'
         piwikTrackSubdomain: 'Suivre les visiteurs dans tous les sous-domaines de Flarum'
-        piwikUrl: 'Nom de domaine Piwik ou URL'
+        piwikUrl: 'Domaine ou URL de Matomo'
         statusGoogle: 'Activer Google Analytics'
-        statusPiwik: 'Activer Piwik'
+        statusPiwik: 'Activer Matomo'
       placeholder:
-        piwikAuthToken: "Remplissez ce jeton pour activer un onglet statistiques de Piwik dans le panneau d’administration.\nVous pouvez trouver le jeton dans « Paramètres > Personnel > Jeton d’authentification de l’API ».\n"
+        piwikAuthToken: "Remplissez ce jeton pour activer un widget de statistiques Matomo dans le panneau d'administration.\nVous pouvez le trouver dans Paramètres > Personnel > Jeton d'authentification API.\n"
       section:
         googleAnalytics: 'Google Analytics'
-        piwik: Piwik
+        piwik: Matomo
       trackAccounts:
         email: 'Suivre par courriel'
         none: 'Ne pas suivre'
-        username: 'Suivre par nom d’utilisateur'
+        username: 'Suivre par nom d''utilisateur'

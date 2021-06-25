@@ -4,4 +4,4 @@
 
 fof-email-checker:
   error:
-    disposable_email_message: 'Vous ne pouvez pas utiliser un e-mail jetable.'
+    disposable_email_message: 'Vous ne pouvez pas utiliser une adresse de courriel jetable.'

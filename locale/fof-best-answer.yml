@@ -13,34 +13,34 @@ fof-best-answer:
         advanced: Avancé
         general: Général
         reminders: Rappels
-        reminders_notice: 'Pour que les rappels fonctionnent correctement, vous devez avoir configuré correctement le planificateur Flarum.'
-      remind_tag_ids: 'Pour restreindre les rappels à des balises particulières, entrez les ID de balise ici (séparés par des virgules)'
+        reminders_notice: 'Pour que les rappels fonctionnent correctement, vous devez configurer correctement le planificateur de Flarum.'
+      remind_tag_ids: 'Pour restreindre les rappels à des étiquettes particulières, entrez les identifiants des étiquettes ici (séparés par des virgules)'
       schedule_log_output: 'Ajouter la sortie du planificateur au stockage des journaux'
-      schedule_on_one_server: 'Utilisez la directive ''onOneServer ()'' pour le planificateur de tâches (nécessite Redis / Memcache)'
-      schedule_stop_overnight: 'Empêcher le planificateur de rappel de s’exécuter pendant les heures non sociales (21h - 8h heure du serveur)'
+      schedule_on_one_server: 'Utilisez la directive ''onOneServer ()'' pour le planificateur de tâches (nécessite Redis/Memcache)'
+      schedule_stop_overnight: 'Empêcher le planificateur de rappels de s''exécuter pendant les heures non sociales (21h - 8h, heures du serveur)'
       select_best_answer_reminder_days: 'Rappelez aux utilisateurs de sélectionner une meilleure réponse après X jours'
-      use_alt_ui: 'Utiliser une disposition alternative (bouton de meilleur réponse dans le pied de page)'
+      use_alt_ui: 'Utiliser une mise en page alternative (boutons de meilleure réponse dans le pied de page des messages)'
   email:
     body:
-      awarded: "Salut {recipient_display_name},\n Excellent travail, {actor_display_name} vient de définir votre message comme la meilleure réponse dans la discussion \"{discussion_title}\". Merci de votre aide.\n Consultez-le ici: {discussion_url}\n"
-      ba-set: "Salut {recipient_display_name},\n {actor_display_name} vient de définir une meilleure réponse dans la discussion \"{discussion_title}\", à laquelle vous avez participé.\n Découvrez-le: {discussion_url}\n"
-      select: "Salut {recipient_display_name},\n À présent, vous devriez avoir beaucoup de réponses à votre question - «{discussion_title}». J’espère que l’un d'eux vous a aidé à résoudre votre problème.\n Si tel est le cas, il serait vraiment utile pour les futurs membres si vous pouviez définir la meilleure réponse à votre question. Cela aidera les personnes ayant le même problème à trouver la réponse dont elles ont besoin, et c’est aussi un grand merci aux membres qui vous ont aidé. Ils donnent de leur temps volontairement, c’est donc agréable de leur faire savoir qu’ils vont bien.\n Consultez la discussion ici: {discussion_url} et sélectionnez le message le plus approprié comme meilleure réponse.\n Merci!\n"
+      awarded: "Bonjour {recipient_display_name},\n\nBravo, {actor_display_name} vient de définir votre message comme la meilleure réponse pour la discussion : {discussion_title}. Merci pour votre aide.\n\nConsultez-le ici : {discussion_url}\n"
+      ba-set: "Bonjour {recipient_display_name},\n\n{actor_display_name} vient de définir une meilleure réponse pour la discussion : {titre_discussion}, à laquelle tu as participé.\n\nConsultez-la : {discussion_url}\n"
+      select: "Bonjour {recipient_display_name},\n\nNous venons juste vérifier ; vous devriez avoir déjà reçu de nombreuses réponses à votre question : {discussion_title}. Nous espérons que l'une d'entre elles vous a aidé à résoudre votre problème.\n\nSi tel était le cas, il serait appréciable pour les futurs membres de définir une meilleure réponse à votre question. Cela aidera les personnes ayant le même problème à trouver la réponse dont elles ont besoin, et c'est aussi une forme de remerciement aux membres qui vous ont aidé. Ils donnent leur temps bénévolement, il est donc encouragé de les inciter à continuer.\n\nVisitez la discussion ici : {discussion_url}, et sélectionnez le message le plus approprié comme meilleure réponse.\n\nMerci !\n"
     subject:
       awarded: 'Votre message a été défini comme la meilleure réponse par {display_name}'
       ba-set: 'Une meilleure réponse a été définie par {display_name}'
-      select: 'Avez-vous réussi à obtenir une réponse à votre question?'
+      select: 'Avez-vous réussi à obtenir une réponse à votre question ?'
   forum:
-    answered_badge: Répondue
+    answered_badge: Répondu
     best_answer_button: 'Meilleure réponse'
     best_answer_label: 'sélectionnée par <a>{username}</a> {time_set}'
     errors:
-      mismatch: 'Le message sélectionné n’existe pas dans cette discussion'
+      mismatch: 'Le message sélectionné n''existe pas dans cette discussion.'
     notification:
       awarded: 'Votre message a été défini comme la meilleure réponse par {username}'
       best_answer_in_discussion: '{username} a défini la meilleure réponse dans cette discussion'
       content: 'Veuillez sélectionner la meilleure réponse si une réponse a été apportée à votre question'
       preferences:
-        awarded_best_answer: 'Quand quelqu’un définit mon message comme meilleure réponse'
-        best_answer_in_discussion: 'Lorsqu’une meilleure réponse est donnée dans une discussion à laquelle j’ai participé'
+        awarded_best_answer: 'Lorsque quelqu''un définit mon message comme meilleure réponse'
+        best_answer_in_discussion: 'Lorsqu''une meilleure réponse est définie dans une discussion à laquelle j''ai participé'
     remove_best_answer: 'Désélectionner la meilleure réponse'
     this_best_answer: 'Sélectionner la meilleure réponse'

@@ -15,4 +15,4 @@ fof-ignore-users:
       ignore_button: Ignorer
       ignore_confirmation: 'Êtes-vous sûr de vouloir ignorer cet utilisateur ?'
       unignore_button: 'Ne plus ignorer'
-      unignore_confirmation: 'Êtes-vous sûr de ne plus vouloir ignorer cet utilisateur ?'
+      unignore_confirmation: 'Êtes-vous sûr de ne plus vouloir ignorer cet utilisateur ?'

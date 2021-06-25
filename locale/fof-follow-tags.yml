@@ -19,7 +19,7 @@ fof-follow-tags:
       newPostInTag: '[Étiquette | Nouveau message] {title}'
   forum:
     badge:
-      following_tag_tooltip: Suivi
+      following_tag_tooltip: Abonné
       lurking_tag_tooltip: Surveillé
     index:
       follow_tag_button: Suivre
@@ -38,15 +38,15 @@ fof-follow-tags:
     sub_controls:
       follow_button: '=> fof-follow-tags.ref.follow'
       following_button: '=> fof-follow-tags.ref.following'
-      following_text: 'Être informé de toutes les nouvelles discussions.'
+      following_text: 'Être notifié de toutes les nouvelles discussions.'
       hiding_button: '=> fof-follow-tags.ref.hiding'
       hiding_text: 'Masquer les discussions de la page listant toutes les discussions.'
       ignoring_button: '=> fof-follow-tags.ref.ignoring'
       ignoring_text: 'Ne jamais être notifié.'
       lurking_button: '=> fof-follow-tags.ref.lurking'
-      lurking_text: 'Être informé de toutes les nouvelles discussions et réponses.'
-      not_following_button: 'Non suivi'
-      not_following_text: 'Soyez averti uniquement lorsque @mentionné.'
+      lurking_text: 'Être notifié de toutes les nouvelles discussions et réponses.'
+      not_following_button: 'Pas abonné'
+      not_following_text: 'N''être notifié que lorsque @mentionné.'
       notify_alert_tooltip: 'Recevoir une notification du forum lors de la publication de nouvelles discussions ou de nouveaux messages'
       notify_email_tooltip: 'Recevoir un courriel lors de la publication de nouvelles discussions ou de nouveaux messages'
     user:
@@ -58,7 +58,7 @@ fof-follow-tags:
       none: 'Discussions suivies'
       tags: 'Étiquettes suivies'
     follow: Suivre
-    following: Suivie
+    following: Abonné
     hiding: Masquée
     ignoring: Ignorée
     lurking: Surveillée

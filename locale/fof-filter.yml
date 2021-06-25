@@ -5,27 +5,28 @@
 fof-filter:
   admin:
     cooldownLabel: 'Délai de fusion de message'
-    countLabel: 'Tolérance de censure'
+    countLabel: 'Tolérance de la censure'
     email:
       default_subject: 'Concernant votre message récent'
-      default_text: "Merci d’avoir posté! Malheureusement, votre message a été supprimé car il contenait quelque chose que nous ne voulons pas voir sur nos forums.\n\nSi vous pensez que c’était une erreur, vous avez de la chance, chaque message supprimé est examiné par nos modérateurs. S’ils constatent que cela a été supprimé à tort, ils le restaureront.\n\nMerci de votre compréhension.\n"
-    email_help: 'Corps de l’email de contenu signalé. Accepte le HTML ou le texte en clair.'
+      default_text: "Merci pour votre publication ! Malheureusement, votre message a été supprimé car il contenait quelque chose que nous ne voulons pas voir sur nos forums.\n\nSi vous pensez qu'il s'agit d'une erreur, vous avez de la chance, chaque message supprimé est examiné par nos modérateurs. S'ils constatent que ce message a été supprimé à tort, ils le rétabliront.                \n\nMerci de votre compréhension."
+    email_help: 'Corps du courriel signalé. Accepte le HTML ou le texte en clair.'
     filter_label: 'Chaînes à filtrer'
-    help: 'Saisissez du texte ou des mots à filtrer, séparés par une virgule + un espace. Si le contenu publié par un utilisateur contient une chaîne que vous souhaitez filtrer, elle sera signalée avant approbation. Résistant au 133t.'
-    help2: 'Intervalle en minutes pendant lequel les messages du même utilisateur dans la même discussion seront automatiquement fusionnés.'
+    help: 'Saisissez du texte ou des mots à filtrer, séparés par une virgule et un espace. Si le contenu du message d''un utilisateur contient une chaîne que vous souhaitez filtrer, il sera marqué pour approbation. Résistant au 133t.'
+    help2: 'Intervalle en minutes dans lequel les messages du même utilisateur dans la même discussion seront automatiquement fusionnés.'
     input:
       email_body: Corps
-      email_label: 'Paramètres de l’email'
+      email_label: 'Paramètres des courriels'
       email_subject: Sujet
       filter_title: 'Chaînes à filtrer'
       placeholder: 'Chaînes à filtrer'
       switch:
-        email: 'Envoyer un email à l’utilisateur lorsque le message est filtré'
-        merge: 'Fusionner automatiquement les messages doublons'
+        email: 'Envoyer un courriel à l''utilisateur lorsque le message est filtré'
+        merge: 'Fusionner automatiquement les messages en double'
     nav:
       desc: 'Filtrer les messages par mots'
       text: Filtre
     title: Filtre
   forum:
+    flag_message: 'Chaînes bloquées contenues'
     flaged_text: 'Chaînes de contenu  bloqué'
     flagger_name: 'Modérateur automatique'

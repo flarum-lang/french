@@ -35,7 +35,7 @@ fof-byobu:
       edit_recipients: 'Modifier les destinataires'
       remove_from_discussion: 'Quitter cette discussion privée'
       send_pd: 'Envoyer un message à {username}'
-      submit: Envoyer
+      submit: OK
     composer_private_discussion:
       submit_button: 'Publier une discussion privée'
       title_placeholder: 'Titre de la discussion privée'

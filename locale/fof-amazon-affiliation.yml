@@ -7,13 +7,13 @@ fof-amazon-affiliation:
     settings:
       field:
         help-mediaembed: 'Lorsqu''elle est utilisée en conjonction avec fof/formatting, l''intégration riche supprime toujours les étiquettes existantes'
-        keep-existing-tag: 'Conserver les étiquettes d’affiliation Amazon des liens d’origines au lieu de les remplacer'
-        keep-existing-tag-help: 'Par défaut, toute étiquette existante dans le lien d’origine est remplacée par l''étiquette que vous définissez ci-dessous.'
-        remove-tag-if-unhandled: 'Supprimer les étiquettes d’affiliation Amazon sur les liens Amazon non couverts'
+        keep-existing-tag: 'Conserver les étiquettes d''affiliation Amazon des liens d''origines au lieu de les remplacer'
+        keep-existing-tag-help: 'Par défaut, toute étiquette existante dans le lien d''origine est remplacée par l''étiquette que vous définissez ci-dessous.'
+        remove-tag-if-unhandled: 'Supprimer les étiquettes d''affiliation Amazon sur les liens Amazon non couverts'
         remove-tag-if-unhandled-help: 'Par défaut, les liens non couverts sont laissés tels quels, y compris leur étiquette éventuelle.'
         tag: '{name} (amazon.{domain})'
         tag-placeholder: 'Laissez vide pour ne pas couvrir ces liens'
       title:
-        modal: 'Paramètres d’affiliation Amazon'
-        tags: 'Étiquettes d’affiliation'
+        modal: 'Paramètres d''affiliation Amazon'
+        tags: 'Étiquettes d''affiliation'
         tags-mediaembed: 'Les sites Amazon suivants ne sont actuellement pas pris en charge par MediaEmbed et seront donc toujours affichés en tant que simples liens (en respectant les paramètres ci-dessus) : CN, BR, MX, AU'

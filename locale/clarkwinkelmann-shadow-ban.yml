@@ -8,19 +8,19 @@ clarkwinkelmann-shadow-ban:
       ban: 'Utilisateurs bannis furtivement'
       hide: 'Messages et discussions masqués furtivement'
     setting:
-      hideUsers: 'Masquer les profils d’utilisateurs bannis furtivement'
+      hideUsers: 'Masquer les profils d''utilisateurs bannis furtivement'
   forum:
     badge:
-      discussion: 'Caché furtivement'
-      post: 'Caché furtivement'
+      discussion: 'Masqué furtivement'
+      post: 'Masqué furtivement'
       user: 'Banni furtivement'
     banUser:
       quick: 'Choix rapides'
       quickChoiceDays: '{count, plural, one {# jour} other {# jours}}'
-      quickChoiceReset: 'Non banni'
+      quickChoiceReset: 'Pas banni'
       submit: Enregistrer
       title: 'Suspendre {username}'
-      until: 'Jusqu’à la date (UTC)'
+      until: 'Jusqu’à la date (au format UTC)'
     discussionControl:
       hide: 'Masquage furtif'
       restore: 'Restauration furtive'

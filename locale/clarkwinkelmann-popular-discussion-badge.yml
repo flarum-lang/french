@@ -6,15 +6,18 @@ clarkwinkelmann-popular-discussion-badge:
   admin:
     settings:
       add: 'Ajouter une autre condition'
+      and: ET
       comments: Commentaires
       comments_placeholder: '0'
       conditions: 'Conditions d''obtention du badge populaire'
       conditions_help: "Les commentaires sont le nombre total de messages de commentaires, y compris le premier message. Les vues sont récupérées à partir des extensions de MichaelBelgium ou de Flarumite. La période indiquée sera utilisée pour compter les commentaires ou les vues au cours des n dernières heures. Seule l'extension de MichaelBelgium est prise en charge pour les vues encadrées dans le temps. Laissez le cadre temporel vide ou définissez 0 heure pour compter tous les commentaires ou vues.\n"
+      hours: h
       mode: 'Mode de fonctionnement'
       mode_help: "Le mode frontal est une solution efficace qui n'utilise pas la base de données. Le mode planificateur nécessite une configuration CRON et permet de définir des délais dans les conditions.\n"
       mode_options:
         frontend: 'Application frontale'
         scheduler: 'Planificateur (CRON)'
+      or: OU
       scheduler_frequency: 'Fréquence du mode planifié'
       scheduler_frequency_help: "La fréquence de mise à jour du statut populaire en mode planificateur (CRON). (En mode application frontale, le statut est toujours mis à jour immédiatement)\n"
       scheduler_frequency_options:
@@ -26,5 +29,6 @@ clarkwinkelmann-popular-discussion-badge:
       views: Vues
       views_placeholder: '0'
       within: dans
+      within_placeholder: tous
   forum:
     badge_label: Populaire

@@ -10,20 +10,20 @@ fof-gamification:
   admin:
     page:
       convert:
-        button: 'Convertir les « j’aime » en votes positifs'
-        converted: 'Les {number} « j’aime » ont été convertis avec succès'
-        converting: 'Vos « j’aime » sont en cours de conversion. Actualisez votre site après quelques minutes pour voir le processus terminé. (Le temps de conversion peut prendre un certain temps en fonction du nombre total de « j’aime » sur le forum)'
-        help: 'Converti vos « j’aime » précédents en votes positifs et calcule la popularité de toutes les discussions en cours.'
+        button: 'Convertir les « j''aime » en votes positifs'
+        converted: 'Les {number} « j''aime » ont été convertis'
+        converting: 'Vos « j''aime » sont en cours de conversion. Actualisez votre site après quelques minutes pour voir le résultat. (Le temps de conversion peut prendre un certain temps en fonction du nombre total de « j''aime » sur votre forum)'
+        help: 'Converti vos anciens « j''aime » de l''extension flarum-ext-likes en votes positifs et calcule la popularité de toutes les discussions en cours.'
       rankings:
         blocked:
-          help: 'Ces utilisateurs ne seront pas affichés sur la page de classement. Les noms d’utilisateur doivent être séparés par une virgule suivie d’un espace.'
+          help: 'Ces utilisateurs ne seront pas affichés sur la page de classement. Les noms d''utilisateur doivent être séparés par une virgule suivie d''un espace.'
           placeholder: 'CDK2020, Ralkage, AngelAvila'
           title: 'Utilisateurs ignorés'
         custom_image_1: 'Image de la 1ère place'
         custom_image_2: 'Image de la 2ème place'
         custom_image_3: 'Image de la 3ème place'
         enable: 'Activer les images personnalisées'
-        title: 'Page de classement'
+        title: 'Page des classements'
       ranks:
         help:
           color: '#ffffff'
@@ -35,21 +35,21 @@ fof-gamification:
         title: Rangs
       save_settings: 'Enregistrer les paramètres'
       votes:
-        alternate_layout: 'Utiliser une autre mise en page pour afficher et / ou faire des votes positifs / négatifs'
-        auto_upvote: 'Attribuer automatiquement un vote positif lorsqu’un message est publié'
+        alternate_layout: 'Utiliser une mise en page alternative pour afficher et/ou faire des votes positifs/négatifs'
+        auto_upvote: 'Attribuer automatiquement un vote positif lorsqu''un message est publié'
         color_holder: '#ffffff'
-        discussion_page: 'Afficher le nombre total de votes du message original sur la liste de discussion'
-        icon_help: 'Entrez n’importe quelle icône Font-Awesome ayant le suffixe -up et -down. Exemples : flèche, pouce, chevron'
+        discussion_page: 'Afficher le nombre total de votes du message original sur la liste de discussions'
+        icon_help: 'Entrez n''importe quelle icône Font Awesome ayant le suffixe -up et -down. Exemples : flèche, pouce, chevron'
         icon_name: 'Icône de vote positif/négatif'
         points_placeholder: 'Points : '
-        points_title: 'Points d’espace réservé'
+        points_title: 'Espace réservé aux points'
         rate_limit: 'Appliquer une limite de taux de vote (10 secondes)'
         title: Votes
         vote_color: 'Couleur votée'
     permissions:
       see_ranking_page: 'Voir la page de classement'
-      see_votes_label: 'Voir les votes positifs / négatifs des messages'
-      vote_label: 'Votes positifs / négatifs des messages'
+      see_votes_label: 'Voir les votes positifs/négatifs des messages'
+      vote_label: 'Votes positifs/négatifs des messages'
   forum:
     mod_item: 'Voir les votants'
     modal:

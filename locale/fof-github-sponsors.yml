@@ -5,11 +5,11 @@
 fof-github-sponsors:
   admin:
     account_types:
-      organization: Organisme
+      organization: Organisation
       user: Utilisateur
     settings:
       account_type_label: 'Type de compte'
       api_token_label: 'Jeton API'
-      desc: 'Obtenez votre jeton API sur <a>https://github.com/settings/tokens/new</a>. Cette extension requière l’<code>utilisateur</code> et les vues <code>read:org</code>.'
+      desc: 'Obtenez votre jeton API sur <a>https://github.com/settings/tokens/new</a>. Cette extension nécessite les portées <code>utilisateur</code> et <code>read:org</code>.'
       group_label: 'Groupe à attribuer'
       login_label: Identifiant

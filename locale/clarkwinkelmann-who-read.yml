@@ -7,16 +7,16 @@ clarkwinkelmann-who-read:
     permissions:
       mark-unread: 'Marquer les discussions comme non lues pour soi-même'
       see-read: 'Voir le statut de lecture'
-      see-subscription: 'Voir le statut de l’abonnement'
+      see-subscription: 'Voir le statut de l''abonnement'
       see-unread: 'Voir le statut non lu des autres utilisateurs'
     settings:
-      hide-when-behind: 'Masquer complètement un utilisateur s’il se trouve derrière un certain nombre de publications'
-      max-visible: 'Nombre maximum d’utilisateurs à afficher avant "en savoir plus"'
+      hide-when-behind: 'Masquer complètement un utilisateur s''il se trouve derrière un certain nombre de messages'
+      max-visible: 'Nombre maximum d''utilisateurs à afficher avant de « lire la suite »'
       only-groups: 'Afficher uniquement le statut de lecture des utilisateurs appartenant à ces groupes'
       show-between-posts: 'Afficher le statut de lecture entre les messages'
-      show-count-of-readers-who-stopped: 'Afficher le nombre d’utilisateurs qui ont arrêté de lire au lieu du total lu entre les messages'
+      show-count-of-readers-who-stopped: 'Afficher le nombre d''utilisateurs qui ont arrêté de lire au lieu du nombre total de lectures entre les messages'
       show-in-discussion-list: 'Afficher les lecteurs dans la liste de discussion'
-      show-in-hero: 'Afficher les lecteurs dans le hero de discussion'
+      show-in-hero: 'Afficher les lecteurs dans le bandeau de la discussion'
       unread-icon: 'Icône pour le badge non lu'
   forum:
     badges:
@@ -24,17 +24,17 @@ clarkwinkelmann-who-read:
       ignoring: '=> flarum-subscriptions.forum.badge.ignoring_tooltip'
       unread: 'Marqué comme non lu'
     controls:
-      remove-unread: 'Supprimer les non lus'
+      remove-unread: 'Supprimer les messages non lus'
       set-unread: 'Marquer comme non lu'
     footer:
-      read-no-further: '{0} Tout le monde a lu plus loin|{1} Un utilisateur n’a pas lu plus loin|]1,Inf] {count} n’ont pas lu plus loin'
-      read-this-post: '{0} Personne n’a lu ce message|{1} Un utilisateur a lu ce message|]1,Inf] {count} ont lu ce message'
-      read-to-end: '{0} Personne n’a lu jusqu’au bout|{1} Un utilisateur a lu jusqu’à la fin|]1,Inf] {count} utilisateurs ont lu jusqu’à la fin'
+      read-no-further: '{0} Tout le monde a lu plus loin|{1} Un utilisateur n''a pas lu plus loin|]1,Inf] {count} utilisateurs n''ont pas lu plus loin'
+      read-this-post: '{0} Personne n''a lu ce message|{1} Un utilisateur a lu ce message|]1,Inf] {count} utilisateurs ont lu ce message'
+      read-to-end: '{0} Personne n''a lu jusqu''à la fin|{1} Un utilisateur a lu jusqu''à la fin|]1,Inf] {count} utilisateurs ont lu jusqu''à la fin'
     modal:
-      behind: 'Utilisateurs qui n’ont pas lu jusqu’à la fin'
+      behind: 'Utilisateurs qui n''ont pas lu jusqu''à la fin'
       past-this-post: 'Utilisateurs ayant lu après ce message'
       title: Lecteurs
-      to-the-end: 'Utilisateurs qui ont lu jusqu’à la fin'
+      to-the-end: 'Utilisateurs qui ont lu jusqu''à la fin'
       up-to-this-post: 'Utilisateurs ayant lu ce message'
     more:
       info: 'Et {count} en plus'

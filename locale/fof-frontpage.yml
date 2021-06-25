@@ -5,12 +5,12 @@
 core:
   admin:
     permissions:
-      can_push_to_frontpage_label: 'Peut mettre un sujet en page d’accueil'
+      can_push_to_frontpage_label: 'Peut ajouter du contenu à la page d''accueil'
   forum:
     badge:
-      frontpage_tooltip: 'Marquée comme page d’accueil'
+      frontpage_tooltip: 'Marquée comme page d''accueil'
     index_sort:
-      front_button: 'Page d’accueil'
+      front_button: 'Page d''accueil'
     post_controls:
-      pull_from_front_button: 'Retirer de la page d’accueil'
-      push_to_front_button: 'Mettre en page d’accueil'
+      pull_from_front_button: 'Retirer de la page d''accueil'
+      push_to_front_button: 'Ajouter à la page d''accueil'

@@ -5,10 +5,10 @@
 fof-formatting:
   admin:
     plugins:
-      Autoimage: 'Convertir les URL d’images en images réelles'
+      Autoimage: 'Convertir les URL d''images en images réelles'
       Autovideo: 'Convertir les URL de vidéos en vidéos lisibles'
-      FancyPants: 'Utilisez une typographie de fantaisie'
-      HTMLEntities: 'Utiliser des entités HTML'
+      FancyPants: 'Utiliser une typographie fantaisiste'
+      HTMLEntities: 'Utiliser des éléments HTML'
       MediaEmbed: 'Intégrer du contenu de sites autorisés'
-      PipeTables: 'Tableaux en ASCII'
-      TaskLists: 'Listes de tâches variées de GitHub/GitLab'
+      PipeTables: 'Tableaux au format ASCII'
+      TaskLists: 'Listes de tâches à la manière de GitHub/GitLab'

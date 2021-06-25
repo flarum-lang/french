@@ -5,20 +5,20 @@
 fof-discussion-language:
   admin:
     permissions:
-      allow_change_language_label: 'Autoriser l''édition de la langue'
+      allow_change_language_label: 'Autoriser la modification de la langue'
     settings:
-      composer_default_label: 'Pré-sélectionner la langue locale dans le concepteur de la discussion'
-      locale_sort_label: 'Utiliser la langue détectée comme filtre par défaut de la discussion'
-      native_label: 'Utiliser le nom des langues maternelles'
-      show_flag_label: 'Montrer les drapeaux des pays avec le nom des langues'
+      composer_default_label: 'Présélectionner la langue actuelle dans la zone de rédaction des discussions'
+      locale_sort_label: 'Utiliser la langue détectée pour le filtre de discussion par défaut'
+      native_label: 'Utiliser des noms dans la langue maternelle'
+      show_flag_label: 'Afficher les drapeaux des pays avec les noms des langues'
   api:
     discussion:
       validation_error: 'Vous devez sélectionner la langue de votre discussion.'
   forum:
     change_language:
-      edit_title: 'Éditer la langue pour {title}'
+      edit_title: 'Modification de la langue de {title}'
       submit_button: '=> core.ref.save_changes'
-      title: 'Éditer la langue'
+      title: 'Modification de la langue'
     composer_discussion:
       choose_language_link: Langue
     discussion_controls:
