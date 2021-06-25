@@ -11,26 +11,26 @@ askvortsov-auto-moderator:
       suspend: Suspendre
       unsuspend: 'Annuler la suspension'
     automoderator_instructions:
-      header: 'Instructions d’extension'
-      text: "<li>TL;DR : lorsqu’un utilisateur répond aux critères X, faites Y. Lorsqu’un utilisateur ne répond plus aux critères X, faites Z.</li>.\n<li><strong>Critères :</strong> les critères sont le cœur de cette extension. Ils sont des ensembles arbitraires de métriques et d’exigences. Lorsqu’un utilisateur remplit un critère, toutes les actions \"sur les gains\" pour le critère seront exécutées. Lorsqu’un utilisateur perd un critère, toute action \"sur les pertes\" pour le critère sera exécutée.</li>\n<ul>\n  <li><strong>Métrique :</strong> une condition numérique. Par exemple, le nombre de messages ou de \"j’aime\" reçus. Un critère pourrait exiger une plage/minimum/maximum de métriques.</li>\n  <li><strong>Exigence :</strong> une condition booléenne abstraite. Par exemple, ne pas être suspendu, ou avoir un courriel qui correspond à une certaine expression régulière.</li>\n</ul>\n<li><strong>Actions :</strong> quelque chose qui se produit automatiquement lorsqu’un critère est atteint ou perdu. Cela peut aller de l’ajout/suppression d'un groupe à l’envoi d'un courriel en passant par la suspension d’un utilisateur.</li>\n<li><strong>Déclencheur :</strong> un ensemble d’événements qui provoquerait la réévaluation des groupes de critères d'un utilisateur. Ils font partie des définitions des métriques et des exigences. Tous les critères seront évalués à la connexion : c'est le \"déclencheur universel\".</li>\n<li>Les actions \"sur les pertes\" seront toujours exécutées avant les actions \"sur les gains\". De cette façon, les actions seront prises tant qu’un utilisateur répond à au moins un des critères qui font cette action sur le gain.</li>\n<li>Ne perdez pas de vue que les actions ne s’exécutent que \"sur les pertes\" et \"sur les gains\". Les éditions manuelles alors qu’un utilisateur est qualifié pour un critère ne déclencheront pas la ré-application des actions \"sur les gains\" du critère.</li>\n<li>Si vous supprimez un critère, les actions \"sur les pertes\" ne seront PAS exécutées pour les utilisateurs qui sont actuellement qualifiés pour le critère.</li>\n<li>Si vous utilisez des critères pour gérer des groupes, nous vous recommandons de maintenir un ensemble séparé de groupes à gérer par critères. Vous ne serez pas en mesure d’ajouter/supprimer des utilisateurs à/de ces groupes manuellement.</li>\n"
+      header: 'Instructions d''extension'
+      text: "<li>TL;DR : lorsqu'un utilisateur répond aux critères X, faites Y. Lorsqu'un utilisateur ne répond plus aux critères X, faites Z.</li>.\n<li><strong>Critères :</strong> les critères sont le cœur de cette extension. Ils sont des ensembles arbitraires de métriques et d'exigences. Lorsqu'un utilisateur remplit un critère, toutes les actions « sur les gains » pour le critère seront exécutées. Lorsqu'un utilisateur perd un critère, toute action « sur les pertes » pour le critère sera exécutée.</li>\n<ul>\n  <li><strong>Métrique :</strong> une condition numérique. Par exemple, le nombre de messages ou de « j'aime » reçus. Un critère pourrait exiger une plage/minimum/maximum de métriques.</li>\n  <li><strong>Exigence :</strong> une condition booléenne abstraite. Par exemple, ne pas être suspendu, ou avoir un courriel qui correspond à une certaine expression régulière.</li>\n</ul>\n<li><strong>Actions :</strong> quelque chose qui se produit automatiquement lorsqu'un critère est atteint ou perdu. Cela peut aller de l'ajout/suppression d'un groupe à l'envoi d'un courriel en passant par la suspension d'un utilisateur.</li>\n<li><strong>Déclencheur :</strong> un ensemble d'événements qui provoquerait la réévaluation des groupes de critères d'un utilisateur. Ils font partie des définitions des métriques et des exigences. Tous les critères seront évalués à la connexion : c'est le « déclencheur universel ».</li>\n<li>Les actions « sur les pertes » seront toujours exécutées avant les actions « sur les gains ». De cette façon, les actions seront prises tant qu'un utilisateur répond à au moins un des critères qui font cette action sur le gain.</li>\n<li>Ne perdez pas de vue que les actions ne s'exécutent que « sur les pertes » et « sur les gains ». Les éditions manuelles alors qu'un utilisateur est qualifié pour un critère ne déclencheront pas la ré-application des actions « sur les gains » du critère.</li>\n<li>Si vous supprimez un critère, les actions « sur les pertes » ne seront PAS exécutées pour les utilisateurs qui sont actuellement qualifiés pour le critère.</li>\n<li>Si vous utilisez des critères pour gérer des groupes, nous vous recommandons de maintenir un ensemble séparé de groupes à gérer par critères. Vous ne serez pas en mesure d'ajouter/supprimer des utilisateurs à/de ces groupes manuellement.</li>\n"
     automoderator_page:
       create_criterion_button: 'Créer un nouveau critère'
-      criterion_invalid: 'Le critère est actuellement invalide. Merci de vérifier ses paramètres pour plus de détails'
+      criterion_invalid: 'Le critère est actuellement invalide. Veuillez vérifier ses paramètres pour plus d''informations'
       list_heading: Critère
     criterion_page:
-      actions_help: 'Les actions sur les gains sont exécutées lorsqu’un utilisateur se qualifie pour un nouveau critère. Les actions sur les pertes sont exécutées lorsqu’un utilisateur cesse de se qualifier pour un critère.'
+      actions_help: 'Les actions sur les gains sont exécutées lorsqu''un utilisateur se qualifie pour un nouveau critère. Les actions sur les pertes sont exécutées lorsqu''un utilisateur cesse de se qualifier pour un critère.'
       actions_label: Actions
       actions_on_gain_heading: 'Actions sur les gains'
-      actions_on_loss_heading: 'Actions en cas de perte'
+      actions_on_loss_heading: 'Actions sur les pertes'
       add_action: 'Ajouter une action'
       add_metric: 'Ajouter un métrique'
       back: 'Retourner à la liste des critères'
       delete_button: '=> core.ref.delete'
       description_label: Description
-      driver_missing_ext: 'Ce pilote dépend d’extensions qui ne sont pas activées.'
+      driver_missing_ext: 'Ce pilote dépend d''extensions qui ne sont pas activées.'
       icon_label: Icône
       loading: '=> core.ref.loading'
-      metrics_and_requirements_help: 'Celles-ci définissent si les utilisateurs peuvent remplir ce critère. Les métriques représentent des plages de valeurs, les exigences sont des conditions booléennes.'
+      metrics_and_requirements_help: 'Elles définissent si les utilisateurs répondent à ce critère. Les métriques représentent des plages de valeurs, les exigences sont des conditions booléennes.'
       metrics_and_requirements_label: 'Métriques et exigences'
       metrics_heading: Métriques
       name_label: Nom
@@ -38,25 +38,25 @@ askvortsov-auto-moderator:
       new_criterion: 'Créer un critère'
       requirements_heading: Exigences
     criterion_status:
-      action_validation_errors: "Les erreurs de validation du pilote d’action suivantes ont été rencontrées\_:"
-      heading: 'Vérification de l’état'
-      invalid: 'Le critère est actuellement invalide. Merci de vérifier les pilotes ci-dessous pour les erreurs.'
-      no_actions: 'Aucunes actions ne sont définies pour ce critère. Rien ne se passera lorsque l’utilisateur bénéficiera ou perdra ce critère.'
-      no_metrics_or_reqs: 'Aucuns métriques ou exigences n’est définie pour ce critère. Cela signifie que TOUS les utilisateurs seront compatibles avec ce critère.'
-      requirement_validation_errors: 'Les erreurs suivant la validation de l''exigence du pilote on été rencontrées :'
+      action_validation_errors: 'Les erreurs suivantes de validation du pilote d''action ont été rencontrées :'
+      heading: 'Vérification de l''état'
+      invalid: 'Le critère est actuellement invalide. Veuillez vérifier les erreurs des pilotes ci-dessous.'
+      no_actions: 'Aucune action n''est définie pour ce critère. Rien ne se passera lorsque les utilisateurs gagneront ou perdront ce critère.'
+      no_metrics_or_reqs: 'Aucune métrique ou exigence n''est définie pour ce critère. Cela signifie que TOUS les utilisateurs seront qualifiés pour ce critère.'
+      requirement_validation_errors: 'Les erreurs suivantes de validation du pilote d''exigences ont été rencontrées :'
       valid: 'Ce critère est valide !'
     group_selector:
       placeholder: 'Sélectionner un groupe'
     in_group_settings:
-      regex: 'Expressions régulières (Regex) pour les courriels valides (pas de barres obliques)'
+      regex: 'Expressions régulières pour les courriels valides (pas de barres obliques)'
     metric_drivers:
       best_answers: 'Meilleures réponses'
       discussions_entered: 'Discussions saisies'
       discussions_participated: 'Discussions participées'
       discussions_started: 'Discussions démarrées'
-      likes_given: '« J’aime » donnés'
-      likes_received: '« J’aime » reçus'
-      moderator_strikes: 'Avertissements d’un modérateur'
+      likes_given: '« J''aime » distribués'
+      likes_received: '« J''aime » reçus'
+      moderator_strikes: 'Avertissements d''un modérateur'
       posts_made: 'Messages créés'
     requirement_drivers:
       email_confirmed: 'Courriel confirmé'
@@ -67,10 +67,10 @@ askvortsov-auto-moderator:
       days: 'Jours de suspension pour'
       indefinitely: 'Suspendre indéfiniment ?'
     undefined_driver_item:
-      text: 'ERREUR ! Le pilote <strong>{driverName}</strong> n’est pas défini. Très probablement, il a été ajouté par une extension qui n’est pas actuellement installée. Vous devrez réactiver l’extension ou supprimer ce pilote pour que le critère soit à nouveau valide.'
+      text: 'ERREUR ! Le pilote <strong>{driverName}</strong> n''est pas défini. Il a très probablement été ajouté par une extension qui n''est actuellement pas installée. Vous devrez réactiver l''extension ou supprimer ce pilote pour que le critère soit à nouveau valide.'
   lib:
-    group_id: 'ID du groupe'
+    group_id: 'Identifiant du groupe'
     managed_groups:
       group_item: '<badge></badge> {groupName}'
-      groups_not_editable: 'Les groupes gérés par les critères de l’auto-modérateur ne peuvent pas être ajoutés/supprimés aux/des utilisateurs manuellement pour éviter les incohérences.'
+      groups_not_editable: 'Les groupes gérés par les critères de l''auto-modérateur ne peuvent pas être ajoutés/supprimés aux/des utilisateurs manuellement pour éviter les incohérences.'
       header: 'Groupes gérés :'

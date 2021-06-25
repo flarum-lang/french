@@ -6,42 +6,42 @@ askvortsov-pwa:
   admin:
     nav:
       pwa_button: 'Application web progressive'
-      pwa_text: 'Configurer Flarum pour qu’il fonctionne comme une application web progressive installable sur les appareils mobiles.'
+      pwa_text: 'Configurer Flarum pour qu''il fonctionne comme une application web progressive installable sur les appareils mobiles.'
     pwa:
       about:
-        description_text: 'Vous pouvez définir la description sur la page "Essentiels" de votre tableau de bord d’administration.'
+        description_text: 'Vous pouvez définir la description sur la page « Essentiels » de votre tableau de bord d''administration.'
         heading: 'À propos'
-        long_name_text: 'Le nom de l''application web affichée à l’utilisateur.'
-        short_name_text: 'Le nom de l’application affiché à l’utilisateur s’il n’y a pas assez d’espace pour le nom complet.'
+        long_name_text: 'Le nom de l''application web affichée à l''utilisateur.'
+        short_name_text: 'Le nom de l''application affiché à l''utilisateur s''il n''y a pas assez d''espace pour le nom complet.'
       colors:
-        background_color_text: 'Cette couleur est utilisée comme couleur de remplacement pour l’écran d’accueil qui s’affiche pendant le chargement de votre application web progressive. Elle n’est pas utilisée lorsque l’application est en cours d’exécution.'
+        background_color_text: 'Cette couleur est utilisée comme couleur de remplacement pour l''écran d''accueil qui s''affiche pendant le chargement de votre application web progressive. Elle n''est pas utilisée lorsque l''application est en cours d''exécution.'
         heading: Couleurs
-        theme_color_text: 'Cette couleur est parfois utilisée par les appareils lorsqu’ils affichent votre application, par exemple sur le sélecteur de tâches d’Android, comme la couleur qui entoure le site.'
-      heading: 'Configuration de l’application web progressive'
+        theme_color_text: 'Cette couleur est parfois utilisée par les appareils lorsqu''ils affichent votre application, par exemple sur le sélecteur de tâches d''Android, comme la couleur qui entoure le site.'
+      heading: 'Configuration de l''application web progressive'
       logo_heading: 'Logos et icônes'
-      logo_size_text: 'Transférez un logo qui sera mis à l’échelle à une taille de {size} pixels par {size} pixels.'
-      logo_text: "Vous devez transférer au moins un logo pour que votre application web progressive soit installable. Veuillez noter que tous les logos doivent être carrés ; s’ils ne le sont pas, ils seront redimensionnés et éventuellement étirés.\n\nIl existe un certain nombre d’options de taille disponibles ci-dessous. Je vous recommande d'essayer de transférer un logo dans autant de formats que possible : cela permet de prendre en charge davantage d’appareils.\n\nVeuillez noter que vous pouvez transférer un logo de grande taille afin d'obtenir des entrées pour des logos plus petits. Par exemple, vous pouvez télécharger un logo de 1000px x 1000px dans TOUTES les entrées de fichiers ci-dessous. Cependant, si vous essayez de télécharger un logo de 50px x 50px dans l'entrée 512x512, il sera très étiré.\n"
+      logo_size_text: 'Transférez un logo qui sera mis à l''échelle à une taille de {size} pixels par {size} pixels.'
+      logo_text: "Vous devez transférer au moins un logo pour que votre application web progressive soit installable. Veuillez noter que tous les logos doivent être carrés ; s'ils ne le sont pas, ils seront redimensionnés et éventuellement étirés.\n\nIl existe un certain nombre d’options de taille disponibles ci-dessous. Je vous recommande d'essayer de transférer un logo dans autant de formats que possible : cela permet de prendre en charge davantage d'appareils.\n\nVeuillez noter que vous pouvez transférer un logo de grande taille afin d'obtenir des entrées pour des logos plus petits. Par exemple, vous pouvez télécharger un logo de 1000px x 1000px dans TOUTES les entrées de fichiers ci-dessous. Cependant, si vous essayez de télécharger un logo de 50px x 50px dans l'entrée 512x512, il sera très étiré.\n"
       maintenance:
         debug_label: 'Mode débogage ? Cela enregistrera les informations sur les notifications dans `storage/logs`.'
         heading: Maintenance
       other:
-        force_portrait_text: 'Forcer l’orientation en mode portrait ?'
+        force_portrait_text: 'Forcer l''orientation en mode portrait ?'
         heading: Autre
-      refreshed_message: 'La configuration de l’application web progressive a été actualisée.'
+      refreshed_message: 'La configuration de l''application web progressive a été actualisée.'
       status_check_heading: 'Vérification du statut'
       submit_button: 'Enregistrer les paramètres'
-      text: 'Configurez votre site sous Flarum pour qu’il fonctionne comme une application web progressive ! Veuillez noter que cela ne place pas automatiquement votre site dans le magasin d’applications. Au lieu de cela, les utilisateurs verront une option "Ajouter à l’écran d’accueil" pour votre site. Nous fournissons quelques vérifications d’état, mais la meilleure façon de le tester est d’essayer de l’installer (recherchez sur Google des instructions sur la façon d’installer les applications web progressives). N’oubliez pas non plus que les fenêtres contextuelles "Installer cette application web progressive" sont contrôlées par les navigateurs et ne peuvent pas être déclenchées par les développeurs/administrateurs/programmes. Je recommande d’inclure des instructions sur la façon d’installer une applications web progressive dans la documentation de votre site.'
+      text: 'Configurez votre site sous Flarum pour qu''il fonctionne comme une application web progressive ! Veuillez noter que cela ne place pas automatiquement votre site dans le magasin d''applications. Au lieu de cela, les utilisateurs verront une option « Ajouter à l’écran d’accueil » pour votre site. Nous fournissons quelques vérifications d''état, mais la meilleure façon de le tester est d''essayer de l’installer (recherchez sur Google des instructions sur la façon d''installer les applications web progressives). N''oubliez pas non plus que les fenêtres contextuelles « Installer cette application web progressive » sont contrôlées par les navigateurs et ne peuvent pas être déclenchées par les développeurs/administrateurs/programmes. Nous recommandons d''inclure des instructions sur la façon d''installer une applications web progressive dans la documentation de votre site.'
     status:
-      config_no_https: 'L’URL dans votre fichier config.php n’utilise pas HTTPS. HTTPS est nécessaire pour que les applications web progressives puissent fonctionner.'
-      key_gen_failed: 'La génération des clés nécessaires aux notifications poussées a échouée. Le message d’erreur complet était : {error}'
+      config_no_https: 'L''URL dans votre fichier config.php n''utilise pas HTTPS. HTTPS est nécessaire pour que les applications web progressives puissent fonctionner.'
+      key_gen_failed: 'La génération des clés nécessaires aux notifications poussées a échouée. Le message d''erreur complet était : {error}'
       no_logo: 'Vous devez transférer au moins un logo, avec une taille d''au moins 196px, pour que votre application fonctionne.'
       no_name: 'Vous devez fournir un nom complet pour que votre application fonctionne.'
-      possible_https_disabled: 'Votre site n’est peut-être pas exécuté en HTTPS. Vider votre cache (page du tableau de bord d''administration => bouton Outils) peut aider. Si tel est le cas, ignorez ce message. Si ce n’est pas le cas, gardez à l’esprit que HTTPS est nécessaire pour que les applications web progressives puissent fonctionner.'
+      possible_https_disabled: 'Votre site n''est peut-être pas exécuté en HTTPS. Vider votre cache (page du tableau de bord d''administration => bouton outils) peut aider. Si tel est le cas, ignorez ce message. Si ce n''est pas le cas, gardez à l''esprit que HTTPS est nécessaire pour que les applications web progressives puissent fonctionner.'
       success: 'Aucun problème potentiel trouvé !'
-      suggest_gmp: 'L’extension PHP gmp ne semble pas être activée sur votre serveur. Elle n’est pas absolument nécessaire, mais peut améliorer les performances et est recommandée. Certains hébergements partagés peuvent ne pas supporter cette fonctionnalité.'
+      suggest_gmp: 'L''extension PHP gmp ne semble pas être activée sur votre serveur. Elle n''est pas absolument nécessaire, mais peut améliorer les performances et est recommandée. Certains hébergements partagés peuvent ne pas supporter cette fonctionnalité.'
   forum:
     alerts:
-      optin: 'Vous avez activé les notifications poussées, mais vous n’avez pas configuré cet appareil.'
+      optin: 'Vous avez activé les notifications poussées, mais vous n''avez pas configuré cet appareil.'
       optin_button: Configurer
     discussion_controls:
       share_button: Partager

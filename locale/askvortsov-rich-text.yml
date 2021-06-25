@@ -5,19 +5,19 @@
 askvortsov-rich-text:
   admin:
     settings:
-      toggle_on_editor: 'Afficher l’onglet du mode texte enrichi dans l’éditeur ?'
+      toggle_on_editor: 'Afficher l''interrupteur du mode texte enrichi dans l''éditeur ?'
   forum:
     settings:
       composer_heading: Compositeur
       rich_text_compact_paragraphs_label: 'Ne pas séparer les paragraphes avec une nouvelle ligne.'
-      use_rich_text_editor_label: 'Utiliser l’éditeur de texte enrichi ?'
+      use_rich_text_editor_label: 'Utiliser l''éditeur de texte enrichi ?'
   lib:
     composer:
       additional_items_tooltip: 'Contrôles supplémentaires'
       bold_tooltip: 'Texte en gras <{modifierKey}-b>'
       code_block_tooltip: 'Insérer un bloc de code'
       code_tooltip: 'Code intégré <{modifierKey}-`>'
-      header_tooltip: 'Passer à l’en-tête {level} <shift-{modifierKey}-{level}>'
+      header_tooltip: 'Passer à l''en-tête {level} <shift-{modifierKey}-{level}>'
       horizontal_rule_tooltip: 'Insérer une règle horizontale'
       image_tooltip: 'Ajouter une image'
       insert_button: Insérer
@@ -28,17 +28,17 @@ askvortsov-rich-text:
         href_placeholder: URL
         remove_button: Supprimer
         text_placeholder: Texte
-        title_placeholder: 'Titre (s’affiche au survol)'
+        title_placeholder: 'Titre (s''affiche au survol)'
       italic_tooltip: 'Texte en italique  <{modifierKey}-i>'
       link_tooltip: 'Ajouter un lien'
       ordered_list_tooltip: 'Liste numérotée <shift-{modifierKey}-9>'
       paragraph_tooltip: 'Changer de paragraphe <shift-{modifierKey}-0>'
       quote_tooltip: 'Insérer une citation <{modifierKey}-q>'
-      spoiler_block_tooltip: 'Bloc spoiler / Menu déroulant'
+      spoiler_block_tooltip: 'Bloc spoiler/Menu déroulant'
       spoiler_inline_tooltip: 'Spoiler <{modifierKey}-;>'
       strike_tooltip: 'Barré <alt-shift-5>'
       sub_tooltip: 'Indice <{modifierKey}-,>'
       sup_tooltip: 'Exposant <{modifierKey}-.>'
       text_type_tooltip: 'Sélectionner le type de texte'
-      toggle_button: 'Onglet du mode texte enrichi'
+      toggle_button: 'Interrupteur du mode texte enrichi'
       unordered_list_tooltip: 'Liste à puces <shift-{modifierKey}-8>'

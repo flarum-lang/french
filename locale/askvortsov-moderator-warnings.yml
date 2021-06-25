@@ -10,10 +10,10 @@ askvortsov-moderator-warnings:
       view_warnings: 'Afficher les avertissements du modérateur'
   emails:
     post_warned:
-      body: "Bonjour {warnee_display_name} !\n\n{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}} dans {discussion_title}\n\nLa raison suivante a été invoquée :\n\n---\n\n{public_comment}\n"
+      body: "Bonjour {warnee_display_name} !\n\n{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}} dans {discussion_title}\n\nLe motif suivant a été invoqué :\n\n---\n\n{public_comment}\n"
       subject: '{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}} dans {discussion_title}'
     user_warned:
-      body: "Bonjour {warnee_display_name} !\n\n{warner_display_name} vous a envoyé {strikes, plural, one {# strike} other {# strike}}\n\nLa raison suivante a été invoquée :\n\n---\n\n{public_comment}\n"
+      body: "Bonjour {warnee_display_name} !\n\n{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}}\n\nLe motif suivant a été invoqué :\n\n---\n\n{public_comment}\n"
       subject: '{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}}'
   forum:
     notifications:
@@ -21,35 +21,35 @@ askvortsov-moderator-warnings:
       warning_text: '{strikes, plural, one {Vous avez reçu # avertissement de la part de {mod_username}} other {Vous avez reçu # avertissements de la part de {mod_username}}}'
     post:
       warning: '{strikes, plural, one {A reçu # avertissement de la part de {mod_username}} other {A reçu # avertissements de la part de {mod_username}}}'
-      warning_no_strikes: 'Vous avez été averti sans aucun strike par {mod_username}'
+      warning_no_strikes: 'Vous avez été averti sans aucune sanction par {mod_username}'
     post_controls:
       warning_button: 'Avertir l’utilisateur'
     settings:
-      warning_notification_label: 'Un modérateur m’a averti'
+      warning_notification_label: 'Un modérateur m''a averti'
     user:
       warnings: Avertissements
     validation:
-      invalid_strike_count: 'Le nombre de strikes doit être un entier compris entre 0 et 5.'
-      public_comment_required: 'Vous devez fournir un commentaire public.'
+      invalid_strike_count: 'Le nombre de sanctions doit être un entier compris entre 0 et 5.'
+      public_comment_required: 'Vous devez vous justifier avec un commentaire public.'
     warning_controls:
       delete_button: Retirer
-      delete_forever_button: 'Effacé définitivement'
+      delete_forever_button: 'Supprimer définitivement'
       restore_button: Restaurer
     warning_list:
       add_button: 'Nouvel avertissement'
-      no_warnings: 'Il semble qu’il n’y ait aucun avertissement ici.'
-      warnings: '{strikes, plural, one {Avertissements du modérateur : # avertissement reçu} other {Avertissements du modérateur : # avertissements reçus}}'
-      warnings_no_strikes: 'Avertissements du modérateur : aucun strike reçu'
+      no_warnings: 'Il semble qu''il n''y ait aucun avertissement ici.'
+      warnings: '{strikes, plural, one {Avertissements du modérateur : # sanction reçue} other {Avertissements du modérateur : # sanctions reçues}}'
+      warnings_no_strikes: 'Avertissements du modérateur : aucune sanction reçue'
     warning_list_item:
       linked_post: 'Message lié'
-      list_item_heading: '{strikes, plural, one {<strong>#</strong> avertissement, {time}} other {<strong>#</strong> avertissements, {time}}}'
-      list_item_heading_hidden: '{strikes, plural, one {<strong>#</strong> avertissement, {time} <strong>(supprimé)</strong>} other {<strong>#</strong> avertissements, {time} <strong>(supprimés)</strong>}}'
-      private_comment: 'Commentaires visibles par le modérateur'
+      list_item_heading: '{strikes, plural, one {<strong>#</strong> sanction, {time}} other {<strong>#</strong> sanctions, {time}}}'
+      list_item_heading_hidden: '{strikes, plural, one {<strong>#</strong> sanction, {time} <strong>(supprimée)</strong>} other {<strong>#</strong> sanctions, {time} <strong>(supprimées)</strong>}}'
+      private_comment: 'Commentaires visibles du modérateur'
       public_comment: Avertissement
     warning_modal:
       confirmation_message: 'Votre avertissement a été enregistré. Vous devrez peut-être actualiser la page pour le voir.'
       heading: 'Avertir <strong>{username}</strong>'
-      private_comment_heading: 'Pourquoi <strong>{username}</strong> reçoit-il ces avertissements ? Ces commentaires seront UNIQUEMENT visibles par les autres modérateurs.'
-      public_comment_heading: 'Pourquoi <strong>{username}</strong> reçoit-il ces avertissements ? Ces commentaires seront visibles par l’utilisateur et les autres modérateurs.'
-      strikes_heading: 'Combien de strikes doivent être appliqués ?'
-      submit_button: 'Enregistrer l’avertissement'
+      private_comment_heading: 'Pourquoi <strong>{username}</strong> a-t-il reçu ces avertissements ? Ces commentaires ne seront visibles qu''aux autres modérateurs.'
+      public_comment_heading: 'Pourquoi <strong>{username}</strong> a-t-il reçu ces avertissements ? Ces commentaires seront visibles à l''utilisateur et aux autres modérateurs.'
+      strikes_heading: 'Combien de sanctions doivent être appliquées ?'
+      submit_button: 'Enregistrer l''avertissement'

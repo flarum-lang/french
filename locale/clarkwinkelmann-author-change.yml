@@ -9,17 +9,17 @@ clarkwinkelmann-author-change:
       edit-user: 'Mettre à jour la discussion et l''auteur du message'
   forum:
     controls:
-      edit: 'Modifier l’auteur et la date'
+      edit: 'Modifier l''auteur et la date'
     modal:
       cancel: Annuler
       created_at: 'Heure de création'
-      edited_at: 'Modifier l’heure'
-      submit: Sauvegarder
-      sync-impossible: 'Impossible de trouver le premier message. Essayez de faire défiler jusqu’au début de la discussion.'
+      edited_at: 'Modifier l''heure'
+      submit: Enregistrer
+      sync-impossible: 'Impossible de trouver le premier message. Essayez de faire défiler la page jusqu''au début de la discussion.'
       sync-with-discussion: 'Synchroniser avec la discussion'
       sync-with-post: 'Synchroniser avec le premier message'
-      title-discussion: 'Modifier l’auteur et la date de la discussion'
-      title-post: 'Modifier l’auteur et la date du message'
+      title-discussion: 'Modifier l''auteur et la date de la discussion'
+      title-post: 'Modifier l''auteur et la date du message'
       user: Auteur
     search:
       no-results: 'Aucun résultat'

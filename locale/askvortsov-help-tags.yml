@@ -5,7 +5,7 @@
 askvortsov-help-tags:
   admin:
     permissions:
-      view_tag_label: 'Afficher l’étiquette'
+      view_tag_label: 'Afficher l''étiquette'
   forum:
     badge:
       show_to_all_tooltip: 'Cette discussion est visible à tous les utilisateurs qui peuvent publier sous ses étiquettes.'
