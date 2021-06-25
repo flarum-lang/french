@@ -27,7 +27,25 @@ kilowhat-formulaire:
       side-nav-on-submission: 'Afficher la navigation latérale sur la page de soumission'
       title: 'Paramètres globaux du formulaire'
   api:
+    cannot-change-form-type: 'Vous ne pouvez pas modifier le type d''un formulaire qui contient déjà des soumissions'
+    duplicate-field-key: 'La clé doit être unique'
+    export:
+      meta:
+        created_at: '=> kilowhat-formulaire.ref.submission-meta.created_at'
+        hidden_at: '=> kilowhat-formulaire.ref.submission-meta.hidden_at'
+        link_id: '=> kilowhat-formulaire.ref.submission-meta.link_id'
+        locked_at: '=> kilowhat-formulaire.ref.submission-meta.locked_at'
+        uid: '=> kilowhat-formulaire.ref.submission-meta.uid'
+        updated_at: '=> kilowhat-formulaire.ref.submission-meta.updated_at'
+        user_displayname: '=> kilowhat-formulaire.ref.submission-meta.user_displayname'
+        user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
+        user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
+    file-already-belongs-form: 'Le fichier {id} appartient à un autre formulaire'
+    file-already-belongs-submission: 'Le fichier {id} appartient à une autre soumission'
     formatter-parsing-error: 'Impossible d''analyser le contenu : {message}'
+    not-allowed-to-fill-field: 'Vous n''êtes pas autorisé à modifier la valeur de ce champ'
+    unauthorized-form: 'Vous n''avez pas les permissions nécessaires pour remplir l''identifiant de formulaire {id}'
+    unknown-form: 'Identifiant de formulaire {id} non reconnu'
   forum:
     auto-discussion-options-modal:
       field:
@@ -268,3 +286,35 @@ kilowhat-formulaire:
     upload-editor:
       remove: 'Supprimer le fichier'
       uploading: Transfert...
+  mail:
+    edit: Modifier
+    footer: 'Envoyé depuis {title}'
+    sub-entries: '{count} entrées'
+    title-new-submission: 'Nouvelle soumission pour {title}'
+    title-your-submission: 'Votre soumission pour {title}'
+  ref:
+    manager: 'Gestionnaire de formulaires'
+    permissions:
+      editAnyDiscussion: 'Modifier les champs de toute discussion'
+      editAnyUser: 'Modifier les champs de tout profil'
+      editOwnDiscussion: 'Modifier les champs de ses propres discussions'
+      editOwnUser: 'Modifier les champs de son propre profil'
+      fill: 'Remplir les formulaires autonomes'
+      seeAnyDiscussion: 'Voir les champs de toute discussion'
+      seeAnyUser: 'Afficher les champs de tout profil'
+      seeOwnDiscussion: 'Voir les champs de ses propres discussions'
+      seeOwnUser: 'Afficher les champs de votre propre profil'
+    submission-meta:
+      created_at: 'Date de création'
+      hidden_at: 'Date de suppression sans destruction'
+      link_id: 'Identifiant de la ressource liée'
+      locked_at: 'Date de verrouillage'
+      uid: 'Identifiant de la soumission'
+      updated_at: 'Date de mise à jour'
+      user_displayname: 'Nom d''affichage de l''utilisateur'
+      user_id: 'Identifiant de l''utilisateur'
+      user_username: 'Nom d''utilisateur'
+    type:
+      discussion: 'Champs de discussion'
+      standalone: 'Formulaires autonomes'
+      user: 'Profil de l''utilisateur'

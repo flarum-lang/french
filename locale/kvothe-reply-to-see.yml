@@ -4,5 +4,5 @@
 
 wiseclock-reply2see:
   forum:
-    hidden_content: 'CONTENU CACHÉ'
-    reply_to_see: 'Vous devez {reply} et actualiser pour voir le contenu'
+    hidden_content: 'CONTENU MASQUÉ'
+    reply_to_see: 'Vous devez {reply} et actualiser pour afficher le contenu'
