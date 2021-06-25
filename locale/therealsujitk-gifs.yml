@@ -5,13 +5,13 @@
 therealsujitk:
   admin:
     gifs:
-      giphyAPIkey: 'Clé API Giphy'
+      giphyAPIkey: 'Clé API de Giphy'
   forum:
     gifs:
-      label: 'Insérer le GIF'
-      loading: 'Chargement ...'
-      loadmore: 'Charger plus'
+      label: 'Insérer un GIF'
+      loading: Chargement...
+      loadmore: 'Charger davantage'
       noresults: 'Aucun résultat'
-      search: Chercher
-      searchbar: 'Chercher des GIFs'
-      title: 'Selectionner un GIF'
+      search: Rechercher
+      searchbar: 'Rechercher des GIF'
+      title: 'Sélectionner un GIF'

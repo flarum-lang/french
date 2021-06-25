@@ -5,4 +5,20 @@
 tpokorra-post-notification:
   admin:
     settings:
+      new_discussion: 'Libellé pour décrire une nouvelle discussion'
+      new_post: 'Libellé pour décrire un nouveau message'
+      post_approval: 'Libellé pour décrire un nouveau message qui doit être approuvé'
+      recipients:
+        new_discussion:
+          bcc: 'Liste d''adresses de courriel séparées par des virgules pour le destinataire en « Cci » des nouvelles discussions'
+          to: 'Liste d''adresses de courriel séparées par des virgules pour le destinataire en « À » des nouvelles discussions'
+        new_post:
+          bcc: 'Liste d''adresses de courriel séparées par des virgules pour le destinataire en « Cci » des nouveaux messages'
+          to: 'Liste d''adresses de courriel séparées par des virgules pour le destinataire en « À » des nouveaux messages'
+        post_approval:
+          to: 'Liste d''adresses de courriel séparées par des virgules pour le destinataire en « À » de l''approbation des nouveaux messages'
+        revised_post:
+          bcc: 'Liste d''adresses de courriel séparées par des virgules pour le destinataire en « Cci » des messages révisés'
+          to: 'Liste d''adresses de courriel séparées par des virgules pour le destinataire en « À » des messages révisés'
+      revised_post: 'Libellé pour décrire un message révisé'
       title: 'Configuration des notifications de messages'

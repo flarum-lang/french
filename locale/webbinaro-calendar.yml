@@ -7,15 +7,15 @@ flarum-calendar:
     basics:
       homepage: 'Mois actuel du calendrier'
     permissions:
-      add: 'Créer de nouveaux évènements du calendrier'
-      moderate: 'Supprimer ou éditer les évènements du calendrier (tous les utilisateurs peuvent éditer le leur)'
-      view: 'Afficher les évènements'
+      add: 'Créer de nouveaux événements de calendrier'
+      moderate: 'Supprimer ou modifier les événements du calendrier (tous les utilisateurs peuvent modifier les leurs)'
+      view: 'Afficher les événements'
   forum:
     button:
-      create: 'Nouvel évènement'
-      landing: 'Calendrier d''évènements'
-      login: 'Ajouter votre évènement '
+      create: 'Nouvel événement'
+      landing: 'Calendrier des événements'
+      login: 'Ajouter votre événement '
     event:
-      details: 'Plus de détails à propos de cette évènement'
+      details: 'Plus d''informations sur cet événement'
     modal:
-      submit: Soumettre
+      submit: Envoyer
