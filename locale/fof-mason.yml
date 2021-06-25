@@ -6,41 +6,41 @@ fof-mason:
   admin:
     buttons:
       add-answer: 'Ajouter une réponse'
-      add-field: 'Ajouter le champ'
+      add-field: 'Ajouter un champ'
       delete-answer: 'Supprimer la réponse'
       delete-field: 'Supprimer le champ'
       edit-answer: 'Modifier la réponse'
       edit-answer-prompt: 'Modifier le contenu partout où il est utilisé'
-      edit-field: 'Cliquez pour éditer le champ'
+      edit-field: 'Cliquez pour modifier le champ'
       new-field: 'Nouveau champ'
-      save-answer: 'Enregistrer les modifications de réponse'
-      save-field: 'Enregistrer les modifications de champ'
+      save-answer: 'Enregistrer les modifications de la réponse'
+      save-field: 'Enregistrer les modifications du champ'
       show-user-answers: 'Afficher les réponses non suggérées ({count})'
     fields:
       add: 'Ajouter le champ {field}'
       description: 'Description du champ'
-      description-help: "Une description facultative pour expliquer l’utilisation / la nécessité de ce champ.\n"
-      edit: 'Editer le champ {field}'
-      enable-user-values-for-validation: 'Activer les "valeurs d’utilisateur" pour configurer les règles de validation'
+      description-help: "Une description facultative pour expliquer l'utilisation ou la nécessité de ce champ.\n"
+      edit: 'Modifier le champ {field}'
+      enable-user-values-for-validation: 'Activer les « valeurs utilisateur » pour configurer les règles de validation'
       icon: Icône
-      icon-help: "Affiche une icône devant les valeurs entrées par l’utilisateur. Pour une référence des icônes disponibles, consultez le <a>site FontAwesome</a>. Utilisez le nom complet de la classe d’icônes, y compris le préfixe, par exemple \"fas fa-bolt\"\n"
-      icon-preview: 'Aperçu: {preview}'
+      icon-help: "Affiche une icône devant les valeurs saisies par l'utilisateur. Pour une référence des icônes disponibles, consultez le <a>site de Font Awesome</a>. Utilisez le nom complet de la classe d'icônes, y compris le préfixe, comme par exemple « fas fa-bolt ».\n"
+      icon-preview: 'prévisualisation : {preview}'
       is_suggested: 'Proposer une réponse aux utilisateurs'
       name: 'Nom du champ'
-      name-help: "L’étiquette de champ visible publiquement (non traduisible).\n"
+      name-help: "Le libellé du champ visible publiquement (non traduisible).\n"
       new-answer: 'Nouvelle réponse'
       new-answer-placeholder: 'Du texte'
-      required: 'Champs obligatoires'
+      required: Obligatoire
       save-field-for-answers: 'Enregistrez le champ pour ajouter des réponses'
-      show_when_empty: 'Montrer quand vide'
-      show_when_empty-help: 'Afficher le champ sur la discussion quand elle n’a pas de réponse'
+      show_when_empty: 'Afficher lorsque vide'
+      show_when_empty-help: 'Afficher le champ sur la discussion lorsqu''elle n''a pas de réponse'
       user_values_allowed: 'Valeurs utilisateur autorisées'
-      user_values_allowed-help: "Si activé, les utilisateurs peuvent ajouter leurs propres valeurs à la place de celles définies par l’administrateur. Ces valeurs seront vérifiées par rapport au paramètre \"Validation\". Si désactivé, ils ne pourront utiliser que les réponses \"suggérées\".\n"
-      validation: 'Validation des valeurs d’utilisateur'
-      validation-help: "Consultez les <a>règles de validation Laravel</a> supportées. Ex.: \"string|min:5\" ou \"url\".\n"
+      user_values_allowed-help: "Si cette option est activée, les utilisateurs pourront ajouter leurs propres valeurs au lieu de celles définies par l'administrateur. Ces valeurs seront vérifiées par rapport au paramètre « Validation ». Si cette option est désactivée, les utilisateurs ne pourront utiliser que des réponses « suggérées ».\n"
+      validation: 'Validation des valeurs utilisateur'
+      validation-help: "Vérifiez les <a>règles de validation de Laravel</a> prises en charge. Par exemple : « string|min:5 » ou « url ».\n"
     messages:
-      delete-answer-confirmation: "Êtes-vous sûr de vouloir supprimer la réponse \"{content}\" ? Il sera supprimé de toutes les discussions qui l’utilisent. Si vous souhaitez conserver les réponses existantes, désactivez plutôt la suggestion de réponse. Supprimer la réponse?\n"
-      delete-field-confirmation: "Êtes-vous sûr de vouloir supprimer le champ \"{name}\" ? Le champ et ses réponses seront supprimés de toutes les discussions qui les utilisent. Supprimer le champ?\n"
+      delete-answer-confirmation: "Êtes-vous sûr de vouloir supprimer la réponse « {content} » ? Elle sera supprimée de toutes les discussions qui l'utilisent. Si vous souhaitez conserver les réponses existantes, désactivez plutôt la suggestion de réponse. Supprimer la réponse ?\n"
+      delete-field-confirmation: "Êtes-vous sûr de vouloir supprimer le champ « {name} » ? Le champ et ses réponses seront supprimés de toutes les discussions qui les utilisent. Supprimer le champ ?\n"
     permissions:
       fill-fields: 'Remplir les champs sur les nouvelles discussions'
       see-other-fields: 'Voir les champs sur toutes les discussions existantes'
@@ -49,36 +49,36 @@ fof-mason:
       update-other-fields: 'Mettre à jour les champs de toute discussion'
       update-own-fields: 'Mettre à jour les champs de votre propre discussion'
     settings:
-      column-count: 'Nombre de colonnes lors de l’affichage des champs'
+      column-count: 'Nombre de colonnes lors de l''affichage des champs'
       fields-in-hero: 'Afficher les champs dans la bannière de discussion au lieu du premier message'
       fields-section-title: 'Titre de la section des champs personnalisés'
-      fields-section-title-help: "Les utilisateurs verront ce texte au-dessus des champs personnalisés dans l’éditeur et dans la discussion.\n"
-      fields-section-title-placeholder: 'Par défaut, aucun titre ne sera affiché.'
+      fields-section-title-help: "Les utilisateurs verront ce texte au-dessus des champs personnalisés dans l'éditeur et dans la discussion.\n"
+      fields-section-title-placeholder: 'Aucun titre ne sera affiché par défaut'
       hide-empty-fields-section: 'Masquer le titre et les contrôles lorsque tous les champs sont vides et masqués'
-      hide-empty-fields-section-help: "Par défaut, si l’utilisateur peut modifier des champs ou si un titre a été défini, la section sera toujours affichée, même si tous les champs sont masqués. Lorsque cette option est activée, la section sera masquée et le bouton \"Éditer les champs\" ne sera disponible que dans le menu déroulant \"Répondre\" lorsque tous les champs seront vides.\n"
-      labels-as-placeholders: 'Afficher les étiquettes comme espaces réservés dans le formulaire'
-      labels-as-placeholders-help: "Les champs utiliseront moins d’espace vertical et les icônes ne seront plus affichées. N’oubliez pas que cela peut avoir un impact sur la facilité d’utilisation, en particulier lors de la modification de champs existants.\n"
+      hide-empty-fields-section-help: "Par défaut, si l'utilisateur peut modifier les champs ou si un titre a été défini, la section sera toujours affichée, même si tous les champs sont masqués. Si cette option est activée, la section sera masquée et le bouton « Modifier les champs » ne sera disponible que dans le menu déroulant « Répondre » lorsque tous les champs sont vides.\n"
+      labels-as-placeholders: 'Afficher les libellés en tant que paramètres fictifs dans le formulaire'
+      labels-as-placeholders-help: "Les champs utiliseront moins d'espace vertical et les icônes ne seront plus affichées. Cette option peut avoir un impact sur la simplicité d'utilisation, en particulier lors de la modification de champs existants.\n"
       n-columns: '{count} colonnes'
-      tags-as-field: 'Afficher les étiquettes comme sélecteur de champ'
-      tags-as-field-help: "Cela masquera le sélecteur d’étiquettes par défaut et affichera un champ déroulant personnalisé. Cela ne fonctionnera que si vous avez autorisé jusqu’à un tag principal et un tag secondaire!\n"
-      tags-field-name: 'Libellé du champ d’étiquettes'
-      tags-field-name-placeholder: '=> flagrow-mason.forum.tags.tags-label'
+      tags-as-field: 'Afficher le sélecteur d''étiquettes comme un champ'
+      tags-as-field-help: "Cela masquera le sélecteur d'étiquettes par défaut et affichera à la place un champ déroulant personnalisé. Cela ne fonctionnera que si vous avez autorisé jusqu'à une étiquette principale et une étiquette secondaire !\n"
+      tags-field-name: 'Libellé du champ d''étiquettes'
+      tags-field-name-placeholder: '=> fof-mason.forum.tags.tags-label'
     titles:
-      field-answers: 'Réponses de champs'
-      field-settings: 'Paramètres de champs'
+      field-answers: 'Réponses du champ'
+      field-settings: 'Paramètres du champ'
       fields: Champs
-      settings: Réglages
+      settings: Paramètres
   forum:
     answers-modal:
-      edit-title: 'Editer les champs pour {title}'
-      save: 'Sauvegarder les champs'
+      edit-title: 'Modifier les champs pour {title}'
+      save: 'Enregistrer les champs'
     answers:
       choose-option: 'Choisissez une option'
       no-option-selected: 'Aucune option sélectionnée'
     discussion-controls:
-      edit-answers: 'Editer les champs'
+      edit-answers: 'Modifier les champs'
     post-answers:
-      no-answer: 'Pas de réponse'
+      no-answer: 'Aucune réponse'
     tags:
-      inadequate-settings: "Les paramètres d’étiquette ne sont pas configurés correctement. Autorisez jusqu’à une balise principale et secondaire ou désactivez la fonction \"Balises en tant que champs\".\n"
-      tags-label: Etiquettes
+      inadequate-settings: "Les paramètres des étiquettes ne sont pas configurés correctement. Autorisez jusqu'à une étiquette principale et une étiquette secondaire ou désactivez la fonction « Étiquettes en tant que champs ».\n"
+      tags-label: Étiquettes

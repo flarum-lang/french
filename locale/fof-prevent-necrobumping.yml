@@ -5,18 +5,18 @@
 fof-prevent-necrobumping:
   admin:
     settings:
-      days_help: 'Une discussion sera considérée comme ancienne lorsque le nombre de jours spécifié sera écoulé depuis la publication du dernier message. Utilisez <code>0</code> pour le désactiver par défaut.'
+      days_help: 'Une discussion sera marquée comme ancienne lorsque le nombre de jours spécifié se sera écoulé depuis que le dernier message de cette discussion ait été publié. Saisissez <code>0</code> pour désactiver cette fonctionnalité par défaut.'
       days_label: Jours
-      message_agreement_label: 'Message personnalisé d’accord (case à cocher)'
-      message_description_label: 'Description du message personnalisée'
-      message_title_help: 'Utilisez <code>[time]</code> pour le texte temporel, ex. : "14 jours".'
-      message_title_label: 'Titre du message personnalisé'
-      tags_help: 'Remplacez les jours globaux pour une étiquette spécifique. Vide signifie utiliser la valeur par défaut. Si une discussion comporte plusieurs étiquettes avec des valeurs de jour différentes, elle utilisera le plus petit nombre de jours configurés.'
+      message_agreement_label: 'Accord sur les messages personnalisés (case à cocher)'
+      message_description_label: 'Description du message personnalisé'
+      message_title_help: 'Utilisez <code>[time]</code> pour saisir du texte temporel, par exemple : « 14 jours ».'
+      message_title_label: 'Titre de message personnalisé'
+      tags_help: 'Remplace les jours globaux pour une étiquette spécifique. Vide signifie utiliser la valeur par défaut. Si une discussion comporte plusieurs étiquettes avec des valeurs de jours différentes, elle utilisera le plus petit nombre de jours configurés.'
       tags_title: Étiquettes
   forum:
     composer:
       warning:
-        checkbox_label: 'Je suis conscient que cette discussion est plutôt ancienne, mais j’aimerais quand même répondre.'
-        description: 'Il est très probable que ce sujet ne nécessite pas plus de discussion, le faire remonter n’est (peut-être) pas utile.'
+        checkbox_label: 'Je suis conscient que cette discussion est assez ancienne, mais j''aimerais tout de même y répondre.'
+        description: 'Il est très probable qu''il n''y ait pas lieu d''en discuter davantage et qu''il ne serve donc à rien de remettre le sujet sur le tapis.'
         error: 'Cette discussion est trop ancienne pour y répondre.'
-        title: 'Ce sujet a plus de <b>{time}</b> jours.'
+        title: 'Cette discussion est âgée de plus de <b>{time}</b>.'

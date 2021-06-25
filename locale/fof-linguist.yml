@@ -8,50 +8,50 @@ fof-linguist:
       apply: Appliquer
       copy-original: 'Copier le texte original'
       delete-all: 'Supprimer toutes les traductions'
-      delete-all-confirm: "Cela supprimera TOUTES vos {count} traductions personnalisées. Assurez-vous d'avoir exporté ou sauvegardé tout ce que vous auriez pu conserver.\n"
+      delete-all-confirm: "Cela supprimera TOUTES vos {count} traductions personnalisées. Assurez-vous d'avoir exporté ou sauvegardé tout ce que vous souhaitez conserver.\n"
       delete-redundant: 'Supprimer les traductions redondantes'
-      delete-redundant-confirm: "Cela va supprimer {count} traductions qui ont des valeurs originales et personnalisées semblables. Cela peut être utile de faire un trie après la mise à jour d'un paquetage de langue.\n"
-      load-more: 'Lire la suite'
+      delete-redundant-confirm: "Cela supprimera {count} traductions qui ont des valeurs originales et personnalisées identiques. Cela peut être utile pour faire le ménage après la mise à jour d'une traduction.\n"
+      load-more: 'Charger davantage'
       reset: 'Restaurer l''original'
     clear-cache:
       button: 'Effacer le cache maintenant'
-      text: "Les nouvelles traductions n'ont pas encore été appliquées. Remarque : vider le cache peut ralentir momentanément votre forum.\n"
+      text: "Les nouvelles traductions n'ont pas encore été prises en compte. Note : vider le cache peut momentanément ralentir votre forum.\n"
     coverage:
       all-namespaces: Toutes
       apply-missing-filter: 'Afficher les traductions manquantes correspondantes'
       column-options:
         locale: 'Par langue'
-        namespace: 'Par front-end'
+        namespace: 'Par application frontale'
       columns:
-        all-except-admin: 'Forum et autres front-end'
-        all-frontends: 'Montrer tous les front-end'
-        namespace: 'Espace de noms'
+        all-except-admin: 'Forum et autres applications frontales'
+        all-frontends: 'Afficher toutes les applications frontales'
+        namespace: 'Espace de nommage'
         total: Total
       count:
-        details: '{total} totales / {original} originales / {custom} personnalisées'
+        details: '{total} totales/{original} originales/{custom} personnalisées'
         percent: '{percent} %'
-        total: '{translated} / {total}'
+        total: '{translated}/{total}'
       total-options:
         count: Nombre
         percent: Pourcentage
     export:
       download: Télécharger
-      include-all: 'Inclure les traduction définies pour "Toutes" les langues'
+      include-all: 'Inclure les traductions définies pour « Toutes » les langues'
       include-originals: 'Inclure les traductions originales'
-      locale: Locale
-      locale-all: 'Pseudo-locale "Toutes"'
-      namespace: 'Espace de noms'
+      locale: 'Variable linguistique'
+      locale-all: 'Pseudo-variable linguistique « Toutes »'
+      namespace: 'Espace de nommage'
       namespace-all: Toutes
       output: Sortie
       output-empty: 'Sortie vide'
-      output-loading: 'Charger les sorties ...'
+      output-loading: 'Chargement des sorties...'
       title: Exporter
-      warning: "Le format d'exportation utilise les fichiers de traduction Yaml de Flarum et est conçu pour partager les traductions entre les forums et avec les mainteneurs des packs de langue. Le format n'est pas conçu pour déplacer toutes les traductions vers un nouveau forum. Selon votre cas d'utilisation, copier directement la base de données peut être une meilleure idée.\n"
+      warning: "Le format d'exportation utilise les fichiers de traduction basés sur YAML de Flarum et est conçu pour partager les traductions entre les forums et avec les responsables des traductions. Le format n'est pas conçu pour déplacer toutes les traductions vers un nouveau forum. En fonction de votre cas d'utilisation, copier directement la base de données peut s'avérer être une meilleure idée.\n"
     filters:
       for-extension: 'Par extension'
-      frontend: 'Par front-end'
-      frontend-all-except-admin: 'Tout sauf l’administrateur'
-      mass-edit: 'Édition de masse'
+      frontend: 'Par application frontale'
+      frontend-all-except-admin: 'Tous sauf l''administrateur'
+      mass-edit: 'Modification de masse'
       missing: 'Trouver des traductions manquantes'
       missing-middle-label: 'traductions dans'
       negation-options:
@@ -59,38 +59,38 @@ fof-linguist:
         without: Sans
       operation-options:
         and: Tous
-        or: 'L’un ou l’autre'
-      results: 'Montrer {shown} de {total} traductions correspondantes'
-      search: 'Rechercher des chaînes de traduction ...'
+        or: 'L''un ou l''autre'
+      results: 'Afficher {shown} sur {total} traductions correspondantes'
+      search: 'Rechercher des chaînes de traduction...'
       type-options:
-        any: 'D’origine ou personnalisée'
-        original: D’origine
+        any: 'Originale ou personnalisée'
+        original: Originale
         own: Personnalisée
       with-own-translations: 'Mes traductions'
     import:
-      input: Contribution
-      input-placeholder: 'Glisser et déposer ou coller un fichier Yaml ici'
-      locale: Locale
-      locale-all: 'Pseudo-locale "Toutes"'
-      override-existing: 'Passer-outre mes traduction personnalisées existantes'
-      results: "L'importation est terminée. {imported} chaînes ont été importées et {identical} chaînes identiques ont été ignorées. La page va être rafraîchit pour montrer les nouvelles traductions.\n"
-      results-with-ignore: "L'importation est terminée. {imported} chaînes ont été importées, {ignored} chaînes existantes ont été ignorées et {identical} chaînes identiques ont été ignorées. La page va maintenant être rafraîchir pour montrer les nouvelles traductions.\n"
+      input: Entrée
+      input-placeholder: 'Glissez et déposez ou collez un fichier YAML ici'
+      locale: 'Variable linguistique'
+      locale-all: 'Pseudo-variable linguistique « Toutes »'
+      override-existing: 'Remplacer mes traductions personnalisées existantes'
+      results: "L'importation est terminée. {imported} chaînes ont été importées et {identical} chaînes identiques ont été ignorées. La page va maintenant être actualisée pour afficher les nouvelles traductions.\n"
+      results-with-ignore: "L'importation est terminée. {imported} chaînes ont été importées, {ignored} chaînes existantes ont été ignorées et {identical} chaînes identiques ont été ignorées. La page va maintenant être actualisée pour afficher les nouvelles traductions.\n"
       submit: Importer
       title: Importer
     known-frontend:
       admin: Administrateur
       api: API
       forum: Forum
-      lib: 'Lib (utilisé à la fois sur le Forum et le panneau d''administration)'
-      ref: 'Ref (utilisé à nouveau dans d''autres clés)'
+      lib: 'Lib (utilisé à la fois sur le forum et le panneau d''administration)'
+      ref: 'Ref (recyclé dans d''autres clés)'
     known-namespace:
-      core: 'Flarum Core'
+      core: 'Noyau de Flarum'
       validation: 'Erreurs de validation'
     locales:
       all: Tout
     placeholder:
       all-locales: 'Un texte défini ici sera affiché dans toutes les langues'
-      hint: 'Valeur d’origine :'
+      hint: 'Valeur d''origine :'
       not-translated: 'Non traduit'
     tabs:
       coverage: Couverture

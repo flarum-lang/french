@@ -5,19 +5,19 @@
 fof-pretty-mail:
   admin:
     css_settings:
-      help: 'Vous pouvez choisir d’inclure le code CSS du forum dans le code HTML de l’e-mail. Si vous l’activez, vous pourriez avoir des problèmes avec certains fournisseurs de messagerie.'
-      label: 'Paramètres CSS'
-      switch_label: 'inclure le CSS complet du forum'
+      help: 'Vous pouvez choisir d’inclure le code CSS du forum dans le code HTML du courriel. Si vous activez cette option, vous pourriez rencontrer des problèmes avec certains fournisseurs de messagerie.'
+      label: 'Paramètres du CSS'
+      switch_label: 'Inclure le CSS complet du forum'
     nav:
-      desc: 'Personnalisez vos modèles d’e-mail HTML.'
+      desc: 'Personnalisez vos modèles HTML de courriels.'
     settings:
-      confirm: 'Voulez-vous vraiment revenir au modèle d’e-mail de stock pour'
+      confirm: 'Êtes-vous sûr de vouloir revenir au modèle de courriel standard concernant'
       default: 'Modèle par défaut'
-      help: '"$body" contient le contenu actuel de l’e-mail, "$forumStyle" contient le <strong>CSS entier du forum</strong>, "$baseUrl" contient l’URL de votre forum ;  "$settings" vous permet d’interagir avec SettingsRepositoryInterface, et "$link"contient le lien dans l’e-mail. Voir chaque modèle pour savoir comment utiliser chaque variable.'
-      label: 'Modèles d’e-mail'
-      newPost: 'Flarum/abonnements nouveau message'
-      notificationHelp: 'Il est recommandé d’utiliser "$forumStyle" pour ces e-mails, car ils peuvent contenir du BBCODE. "$User" est également disponible dans ces e-mails, qui contient le modèle complet de l’utilisateur envoyé par e-mail.'
+      help: '« $body » contiendra le contenu réel du courriel, « $forumStyle » contient le <strong>CSS complet du forum</strong> du forum, « $url » est le générateur d''URL de Flarum, « $settings » vous permet d''interagir avec SettingsRepositoryInterface, et « $link » contient le lien dans le courriel. Consultez chaque modèle pour savoir comment utiliser chaque variable.'
+      label: 'Modèles de courriels'
+      newPost: 'Flarum/subscriptions Nouveau courriel'
+      notificationHelp: 'Il est recommandé d''utiliser « $forumStyle » pour ces courriels car ils peuvent contenir du BBCode. Ces courriels ont également « $user » de disponible, contenant le modèle d''utilisateur complet de l''utilisateur qui reçoit le courriel.'
       notifications: 'Modèles de notification'
-      postMentioned: 'Flarum/mentions mention d’un message'
+      postMentioned: 'Flarum/mentions Courriel mentionné'
       reset: 'Revenir à la valeur par défaut'
-      userMentioned: 'Flarum/mentions mention d’un utilisateur'
+      userMentioned: 'Flarum/mentions Courriel mentionné par l''utilisateur'

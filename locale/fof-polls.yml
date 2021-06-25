@@ -5,7 +5,7 @@
 fof-polls:
   admin:
     permissions:
-      change_vote: 'Changer de vote'
+      change_vote: 'Modifier le vote'
       moderate: 'Modifier et supprimer les sondages'
       self_edit: 'Autoriser les utilisateurs à modifier leurs propres sondages'
       start: 'Démarrer un sondage'
@@ -21,20 +21,20 @@ fof-polls:
       add_title: 'Ajouter un sondage'
       date_placeholder: 'Date de fin du sondage (facultatif)'
       edit_title: 'Modifier le sondage'
-      include_question: 'Vous devez inclure une question'
+      include_question: 'Vous devez ajouter une question'
       max: 'Vous pouvez avoir un maximum de 10 réponses'
-      min: 'Vous devez inclure au minimum de 2 réponses'
+      min: 'Vous devez ajouter au moins 2 réponses'
       no_voters: 'Aucun vote'
       option_placeholder: Répondre
       options_label: Réponses
       public_poll_label: 'Permettre aux utilisateurs de voir qui a voté'
       question_placeholder: Question
-      submit: Soumettre
+      submit: Envoyer
     moderation:
       delete: 'Supprimer le sondage'
       delete_confirm: 'Êtes-vous sûr de vouloir supprimer ce sondage ?'
       edit: 'Modifier le sondage'
-    no_permission: 'Vous n’avez pas la permission de voter'
+    no_permission: 'Vous n''avez pas la permission de voter'
     poll_ended: 'Ce sondage est terminé.'
     public_poll: 'Voir les votants'
     tooltip:

@@ -5,13 +5,13 @@
 fof-recaptcha:
   admin:
     permissions:
-      post_without_captcha: 'Créez des messages et des discussions sans captcha'
+      post_without_captcha: 'Créez des messages et des discussions sans CAPTCHA'
     settings:
-      help_text: 'Obtenez vos informations d’identification Google reCAPTCHA <a>ici</a>.'
+      help_text: 'Obtenez vos informations d''identification Google reCAPTCHA <a>ici</a>.'
       secret_key_label: 'Clé secrète'
       site_key_label: 'Clé du site'
-      type_label: 'type de reCAPTCHA'
+      type_label: 'Type de reCAPTCHA'
   forum:
-    error: 'Une erreur s’est produite lors de la soumission de reCAPTCHA. Réessayer.'
+    error: 'Une erreur est survenue lors de la soumission de reCAPTCHA. Veuillez réessayer.'
 validation:
-  recaptcha: 'La validation de reCAPTCHA a échouée.'
+  recaptcha: 'La validation de reCAPTCHA a échoué.'

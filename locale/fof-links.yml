@@ -6,7 +6,7 @@ fof-links:
   admin:
     edit_link:
       delete_link_button: 'Supprimer le lien'
-      delete_link_confirmation: 'Êtes-vous sûr de vouloir supprimer ce lien ?'
+      delete_link_confirmation: 'Êtes-vous sûr de vouloir supprimer ce lien ?'
       everyone-label: 'Tout le monde'
       guests-label: Invités
       icon_label: '=> core.ref.icon'

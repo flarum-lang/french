@@ -6,7 +6,7 @@ fof-pages:
   admin:
     badges:
       hidden: Brouillon
-      restricted: Restreint
+      restricted: 'Accès restreint'
     edit_page:
       content_label: '=> fof-pages.ref.content'
       content_placeholder: '=> fof-pages.ref.content'
@@ -14,9 +14,9 @@ fof-pages:
       delete_page_confirmation: 'Êtes-vous sûr de vouloir supprimer cette page ?'
       hidden_label: 'Enregistrer comme brouillon'
       html_label: 'Activer le HTML'
-      restricted_label: 'Restreindre l’accès (configurer les personnes autorisées à accéder dans l’onglet Autorisations)'
-      set_as_home_page_confirmation: 'Êtes-vous sûr de vouloir définir cette page comme page d’accueil ?'
-      set_as_home_page_done: 'Page d’accueil mise à jour'
+      restricted_label: 'Restreindre l''accès (configurez qui peut avoir accès dans l''onglet « Permissions »)'
+      set_as_home_page_confirmation: 'Êtes-vous sûr de vouloir définir cette page comme votre page d''accueil ?'
+      set_as_home_page_done: 'Page d''accueil mise à jour'
       slug_label: '=> fof-pages.ref.slug'
       slug_placeholder: '=> fof-pages.ref.slug'
       submit_button: '=> core.ref.save_changes'
@@ -28,14 +28,14 @@ fof-pages:
     pages:
       create_button: '=> fof-pages.ref.create_page'
     pages_list:
-      empty_text: 'On dirait qu’il n’y a pas de pages ici.'
+      empty_text: 'Il semble qu''il n''y ait pas de pages ici.'
       title: '=> fof-pages.ref.title'
     permissions:
-      restricted: 'Afficher les pages restreintes'
+      restricted: 'Afficher les pages à accès restreint'
   ref:
     content: Contenu
     create_page: 'Créer une page'
     pages: Pages
-    slug: Slug
+    slug: 'Identifiant texte unique'
     title: Titre
-    url: Lien
+    url: URL

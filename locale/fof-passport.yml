@@ -6,14 +6,14 @@ fof-passport:
   admin:
     popup:
       field:
-        app-auth-url: 'URL d’autorisation OAuth'
-        app-id: 'Identifiant de l’application OAuth'
-        app-scopes: 'OAuth portées à la demande'
-        app-secret: 'Secret de l’application OAuth'
+        app-auth-url: 'URL d''autorisation OAuth'
+        app-id: 'Identifiant de l''application OAuth'
+        app-scopes: 'Portées OAuth à demander'
+        app-secret: 'Code secret de l''application OAuth'
         app-token-url: 'URL du jeton OAuth'
-        app-user-url: 'URL de l’API fournissant les détails de l’utilisateur, lors de l’authentification'
-        button-icon: 'Icône pour le bouton de connexion'
-        button-title: 'Intitulé pour le bouton de connexion'
+        app-user-url: 'URL de l''API fournissant des informations sur l''utilisateur lors de son authentification'
+        button-icon: 'Icône du bouton de connexion'
+        button-title: 'Libellé du bouton de connexion'
         button-title-placeholder: '=> fof-passport.api.default-login-button-title'
   api:
     default-login-button-title: '=> core.ref.log_in'

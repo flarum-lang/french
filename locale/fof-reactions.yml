@@ -7,11 +7,11 @@ fof-reactions:
     page:
       convert:
         button: 'Convertir les anciennes réactions'
-        converted: 'Les {number} likes ont été convertis avec succès'
-        converting: 'Vos réactions sont en train d’être converties. Actualisez votre site après quelques minutes pour voir le processus terminé. (Le temps de conversion peut prendre un certain temps en fonction du nombre total de réactions)'
-        help: 'Si vous venez de mettre à jour votre extension, vos réactions devront être converties. Si vous venez d’installer cette extension, vous pouvez ignorer ce message en toute sécurité.'
+        converted: 'Les {number} mentions « j''aime » ont été converties'
+        converting: 'Vos réactions sont en train d’être converties. Actualisez votre site après quelques minutes pour voir la fin du processus. (Le temps de conversion peut prendre un certain temps en fonction du nombre total de réactions)'
+        help: 'Si vous venez de mettre à jour votre extension, vos réactions devront être converties. Si vous venez d''installer cette extension, vous pouvez ignorer ce message en toute sécurité.'
       reactions:
-        Helptext: 'Indiquez le nom (identifiant) de l’icône emoji ou de l’icône font-awesome et sélectionnez le type de votre choix.'
+        Helptext: 'Saisissez le nom (identifiant) de l''émoji ou de l''icône de Font Awesome et sélectionnez le type que vous souhaitez.'
         help:
           display: Afficher
           identifier: Identifiant
@@ -20,17 +20,17 @@ fof-reactions:
       settings:
         integrations:
           gamification:
-            downvoteHelptext: 'Indiquez l’identifiant de la réaction que vous souhaitez convertir automatiquement en vote négatif'
+            downvoteHelptext: 'Saisissez l''identifiant de la réaction que vous souhaitez convertir automatiquement en vote négatif'
             downvoteLabel: 'Convertir les réactions en votes négatifs'
-            legend: Gamification
-            upvoteHelptext: 'Indiquez l’identifiant de la réaction que vous souhaitez convertir automatiquement en vote positif'
+            legend: Ludification
+            upvoteHelptext: 'Saisissez l''identifiant de la réaction que vous souhaitez convertir automatiquement en vote positif'
             upvoteLabel: 'Convertir les réactions en votes positifs'
           legend: Intégrations
           likes:
-            Helptext: 'Entrez l’identifiant de la réaction que vous souhaitez convertir automatiquement en likes'
-            Label: 'Convertir les réactions en likes'
-            legend: Likes
-          warning: 'Une même réaction <strong>ne peut pas</strong> être convertie en like <strong>et</strong> en vote positif.'
+            Helptext: 'Saisissez l''identifiant de la réaction que vous souhaitez convertir automatiquement en mentions « j''aime »'
+            Label: 'Convertir les réactions en mentions « j''aime »'
+            legend: 'Mentions « j''aime »'
+          warning: 'La même réaction <strong>ne peut pas</strong> être convertie en un « j''aime » <strong>et</strong> en un vote positif'
         save_settings: 'Enregistrer les paramètres'
     permissions:
       react_posts_label: 'Réagir aux messages'
@@ -43,5 +43,5 @@ fof-reactions:
     notification: '{username} a réagi avec {reaction} à votre message'
     reacting-own-post: 'Vous ne pouvez pas réagir à votre propre message'
     settings:
-      notify_post_reacted_label: 'Quelqu’un a réagi à l’un de mes messages'
+      notify_post_reacted_label: 'Quelqu''un a réagi à l''un de mes messages'
     warning: 'Votre réaction a été convertie'

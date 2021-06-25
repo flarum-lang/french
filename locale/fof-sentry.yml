@@ -5,9 +5,9 @@
 fof-sentry:
   admin:
     settings:
-      dsn_label: 'Nom de la source de données (DSN) Sentry'
+      dsn_label: 'Nom de la source de données (DSN) de Sentry'
       javascript_console_label: 'Capturer la console JavaScript'
       javascript_label: 'Signaler des erreurs JavaScript'
-      javascript_trace_sample_rate: 'Taux de surveillance des performances du front-end (0 - 100)'
-      monitor_performance_label: 'Taux de surveillance des performances du back-end (0 - 100)'
+      javascript_trace_sample_rate: 'Taux de surveillance des performances de l''application frontale (0 - 100)'
+      monitor_performance_label: 'Taux de surveillance des performances de l''application dorsale (0 - 100)'
       user_feedback_label: 'Commentaires des utilisateurs'
