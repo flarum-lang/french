@@ -12,7 +12,7 @@ the-turk-regrole:
       roleIdsHelp: 'Choisissez les rôles que les utilisateurs sont autorisés à s''attribuer.'
       title: 'Paramètres des rôles de l''inscription'
   forum:
-    chooseRole: 'Choisir un rôle'
-    chooseRoleHelp: 'Veuillez choisir un rôle pour continuer à utiliser notre forum.'
-    requiredRegRole: 'Vous devez choisir un rôle pour poursuivre l''inscription.'
+    chooseRole: 'Sélectionner un rôle'
+    chooseRoleHelp: 'Veuillez sélectionner un rôle pour continuer à utiliser notre forum.'
+    requiredRegRole: 'Vous devez sélectionner un rôle pour poursuivre l''inscription.'
     save: '=> core.ref.save_changes'

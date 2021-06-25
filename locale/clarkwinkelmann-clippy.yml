@@ -17,6 +17,6 @@ clarkwinkelmann-clippy:
         jsdelivr: jsDelivr
         s3: 'Amazon S3'
       events: Événements
-      events-help: 'Choisissez les animations et les bulles de dialogue à afficher pour chacun de ces événements.'
+      events-help: 'Sélectionnez les animations et les bulles de dialogue à afficher pour chacun de ces événements'
       path: 'Chemin du CDN personnalisé'
       path-help: 'Une URL entièrement définie, sans barre oblique, vers un dossier contenant le contenu du <a>dépôt de clippy.js</a>.'

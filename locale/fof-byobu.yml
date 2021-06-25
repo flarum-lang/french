@@ -46,10 +46,10 @@ fof-byobu:
       user_deleted: '-supprimé(e)-'
     modal:
       help:
-        add_recipients: 'Cette discussion ne sera visible que par les utilisateurs que vous choisissez ici. Au moins 1 destinataire (autre que vous-même) est requis.'
+        add_recipients: 'Cette discussion ne sera visible qu''aux utilisateurs que vous sélectionnez ici. Au moins 1 destinataire (autre que vous-même) est requis.'
         click_user_to_remove_tooltip: 'Cliquez pour supprimer'
         selected_users: 'Cliquez sur le nom d''un utilisateur pour le supprimer.'
-        update_recipients: 'Cette discussion ne sera visible que par les utilisateurs que vous choisissez ici.'
+        update_recipients: 'Cette discussion ne sera visible qu''aux utilisateurs que vous sélectionnez ici.'
       labels:
         search_field: 'Rechercher un utilisateur'
         selected_users: 'Utilisateurs sélectionnés'

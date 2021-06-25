@@ -291,7 +291,7 @@ core:
       title: 'Mot de passe oublié'
     header:
       admin_button: Administration
-      back_to_index_tooltip: 'Revenir à la liste de discussions'
+      back_to_index_tooltip: 'Retourner à la liste de discussions'
       locale_dropdown_accessible_label: 'Modifier la langue du forum'
       log_in_link: '=> core.ref.log_in'
       log_out_button: '=> core.ref.log_out'

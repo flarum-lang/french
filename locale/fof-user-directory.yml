@@ -12,7 +12,7 @@ fof-user-directory:
       use-small-cards: 'Utiliser de petites cartes d''utilisateur'
   forum:
     header:
-      back_to_user_directory_tooltip: 'Retour au répertoire des utilisateurs'
+      back_to_user_directory_tooltip: 'Retourner au répertoire des utilisateurs'
     page:
       empty_text: 'Nous n''avons trouvé aucun utilisateur correspondant à votre recherche.'
       filter_button: 'Groupes de filtres'

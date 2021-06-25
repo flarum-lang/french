@@ -5,7 +5,7 @@
 fof-pretty-mail:
   admin:
     css_settings:
-      help: 'Vous pouvez choisir d’inclure le code CSS du forum dans le code HTML du courriel. Si vous activez cette option, vous pourriez rencontrer des problèmes avec certains fournisseurs de messagerie.'
+      help: 'Vous pouvez décider d''inclure le code CSS du forum dans le code HTML du courriel. Si vous activez cette option, vous pourriez rencontrer des problèmes avec certains fournisseurs de messagerie.'
       label: 'Paramètres du CSS'
       switch_label: 'Inclure le CSS complet du forum'
     nav:

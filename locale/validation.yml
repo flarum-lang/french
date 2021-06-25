@@ -20,7 +20,7 @@ validation:
     tag_count_primary: 'nombre d''étiquettes primaires'
     tag_count_secondary: 'nombre d''étiquettes secondaires'
     title: titre
-    username: 'nom d’utilisateur'
+    username: 'nom d''utilisateur'
   before: 'Le :attribute doit être une date antérieure au :date.'
   before_or_equal: 'Le :attribute doit être une date antérieure ou égale au :date.'
   between:
@@ -98,7 +98,7 @@ validation:
   required_unless: 'Le champ du :attribute est obligatoire sauf si :other est :values.'
   required_with: 'Le champ du :attribute est obligatoire lorsque le :values est présent.'
   required_with_all: 'Le champ du :attribute est obligatoire lorsque le :values sont présents.'
-  required_without: 'Le champ du :attribute est obligatoire lorsque le :values n’est pas présent.'
+  required_without: 'Le champ du :attribute est obligatoire lorsque le :values n''est pas présent.'
   required_without_all: 'Le champ du :attribute est obligatoire lorsque le :values ne sont pas présents.'
   same: 'Le :attribute et le :other doivent être identiques.'
   size:

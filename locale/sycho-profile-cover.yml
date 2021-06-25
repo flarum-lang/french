@@ -4,7 +4,7 @@
 
 sycho-profile-cover:
   admin:
-    max_size: 'Taille maximale de l''image de couverture du profil (en kilooctets)'
+    max_size: 'Taille maximale de l''image de couverture du profil (en kilo-octets)'
     permission:
       set_cover: 'Définir la couverture du profil'
     thumbnails: 'Créer des miniatures'

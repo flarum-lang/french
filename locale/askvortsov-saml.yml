@@ -8,7 +8,7 @@ askvortsov-saml:
       text: 'Assurez-vous que l''URL des métadonnées ou les métadonnées sont renseignés.'
     labels:
       authn_requests_signed: 'Signer les requêtes d''autorisation ?'
-      idp_metadata: 'XML des métadonnées du fournisseur d’identité (alternative à l''URL)'
+      idp_metadata: 'XML des métadonnées du fournisseur d''identité (alternative à l''URL)'
       idp_metadata_url: 'URL des métadonnées du fournisseur d''identité (alternative à XML)'
       logout_request_signed: 'Signer les requêtes de déconnexion ?'
       logout_response_signed: 'Signer les réponses de déconnexion ?'

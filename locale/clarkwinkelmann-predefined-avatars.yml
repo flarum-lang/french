@@ -6,7 +6,7 @@ clarkwinkelmann-predefined-avatars:
   admin:
     permissions:
       setCustomAvatarAlways: 'Définir un avatar personnalisé à tout moment'
-      setPredefinedAvatar: 'Choisir un avatar depuis la liste prédéfinie'
+      setPredefinedAvatar: 'Sélectionner un avatar depuis la liste prédéfinie'
     settings:
       defaultOptions:
         first: 'Premier avatar de la liste'
@@ -22,7 +22,7 @@ clarkwinkelmann-predefined-avatars:
       predefinedAvatarsOnlyHelp: 'Supprime la possibilité de transférer des images d''avatars personnalisés, sauf si vous avez la permission ci-dessous.'
   forum:
     editor:
-      setPredefinedAvatar: 'Choisir un avatar prédéfini'
+      setPredefinedAvatar: 'Sélectionner un avatar prédéfini'
     modal:
       imageAlt: Avatar
-      title: 'Choisir un avatar'
+      title: 'Sélectionner un avatar'

@@ -23,7 +23,7 @@ kilowhat-formulaire:
       seeOwnUser: '=> kilowhat-formulaire.ref.permissions.seeOwnUser'
     settings:
       history-controls: 'Afficher les commandes annuler/refaire sur la page de soumission'
-      max-file-size: 'Taille maximale du fichier (en kilooctets)'
+      max-file-size: 'Taille maximale du fichier (en kilo-octets)'
       side-nav-on-submission: 'Afficher la navigation latérale sur la page de soumission'
       title: 'Paramètres globaux du formulaire'
   api:

@@ -20,7 +20,7 @@ clarkwinkelmann-shadow-ban:
       quickChoiceReset: 'Pas banni'
       submit: Enregistrer
       title: 'Suspendre {username}'
-      until: 'Jusqu’à la date (au format UTC)'
+      until: 'Jusqu''à la date (au format UTC)'
     discussionControl:
       hide: 'Masquage furtif'
       restore: 'Restauration furtive'

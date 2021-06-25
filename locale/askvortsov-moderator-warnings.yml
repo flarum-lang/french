@@ -23,7 +23,7 @@ askvortsov-moderator-warnings:
       warning: '{strikes, plural, one {A reçu # avertissement de la part de {mod_username}} other {A reçu # avertissements de la part de {mod_username}}}'
       warning_no_strikes: 'Vous avez été averti sans aucune sanction par {mod_username}'
     post_controls:
-      warning_button: 'Avertir l’utilisateur'
+      warning_button: 'Avertir l''utilisateur'
     settings:
       warning_notification_label: 'Un modérateur m''a averti'
     user:

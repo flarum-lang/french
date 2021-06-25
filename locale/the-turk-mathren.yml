@@ -36,7 +36,7 @@ the-turk-mathren:
       minRuleThickness: 'Épaisseur minimale (en unités em)'
       otherOptionsHeading: 'Autres options'
       outputMode: 'Mode de sortie'
-      outputModeHelp: 'Choisissez le langage de balisage pour le mode de sortie'
+      outputModeHelp: 'Sélectionnez le langage de balisage pour le mode de sortie'
       regexInfo: 'Ils ne doivent être composés que de lettres majuscules ou minuscules et de tirets.'
       saved_message: '=> core.admin.basics.saved_message'
       sizeSettings: 'Options de dimensionnement'

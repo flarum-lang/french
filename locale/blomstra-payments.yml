@@ -35,7 +35,7 @@ blomstra-payments:
       purchase-control: 'Payer pour voir'
       purchase-log-in: 'Se connecter et payer pour voir'
     payment-options-modal:
-      description: "Choisissez l'une des options suivantes pour commencer à accéder au groupe. Vous serez redirigé vers notre fournisseur de paiement Stripe pour le traitement du paiement.\n"
+      description: "Sélectionnez l'une des options suivantes pour commencer à accéder au groupe. Vous serez redirigé vers notre fournisseur de paiement Stripe pour le traitement du paiement.\n"
       title: 'Options de paiement pour accéder à {group}'
     tag:
       require-payment-label: 'Paiement requis'

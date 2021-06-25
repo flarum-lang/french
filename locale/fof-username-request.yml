@@ -5,7 +5,7 @@
 fof-username-request:
   admin:
     permissions:
-      moderate_requests: 'Approuver les demandes de changement de nom d’utilisateur/pseudonyme'
+      moderate_requests: 'Approuver les demandes de changement de nom d''utilisateur/pseudonyme'
       request_nickname: 'Demander une modification de pseudonyme'
       request_username: 'Demander une modification de nom d''utilisateur'
   forum:

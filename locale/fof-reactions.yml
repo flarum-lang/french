@@ -8,7 +8,7 @@ fof-reactions:
       convert:
         button: 'Convertir les anciennes réactions'
         converted: 'Les {number} mentions « j''aime » ont été converties'
-        converting: 'Vos réactions sont en train d’être converties. Actualisez votre site après quelques minutes pour voir la fin du processus. (Le temps de conversion peut prendre un certain temps en fonction du nombre total de réactions)'
+        converting: 'Vos réactions sont en train d''être converties. Actualisez votre site après quelques minutes pour voir la fin du processus. (Le temps de conversion peut prendre un certain temps en fonction du nombre total de réactions)'
         help: 'Si vous venez de mettre à jour votre extension, vos réactions devront être converties. Si vous venez d''installer cette extension, vous pouvez ignorer ce message en toute sécurité.'
       reactions:
         Helptext: 'Saisissez le nom (identifiant) de l''émoji ou de l''icône de Font Awesome et sélectionnez le type que vous souhaitez.'

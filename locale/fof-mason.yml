@@ -73,7 +73,7 @@ fof-mason:
       edit-title: 'Modifier les champs pour {title}'
       save: 'Enregistrer les champs'
     answers:
-      choose-option: 'Choisissez une option'
+      choose-option: 'Sélectionnez une option'
       no-option-selected: 'Aucune option sélectionnée'
     discussion-controls:
       edit-answers: 'Modifier les champs'

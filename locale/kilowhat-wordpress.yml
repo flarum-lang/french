@@ -37,7 +37,7 @@ kilowhat-wordpress:
       excerpt_html_nodes: 'Longueur de l''extrait de contenu (en nombre de nœuds HTML)'
       excerpt_html_whitelist: 'Liste blanche des balises HTML à conserver dans l''extrait (séparées par des virgules)'
       excerpt_length: 'Longueur de l''extrait de contenu (en caractères)'
-      force_username_choice: 'Faire en sorte que les utilisateurs choisissent leur nom d''utilisateur lors de la première visite'
+      force_username_choice: 'Faire en sorte que les utilisateurs spécifient leur nom d''utilisateur lors de la première visite'
       force_username_choice_help: 'Une valeur par défaut sera fournie avec la règle choisie ci-dessus.'
       post_delete: 'Action lorsqu''un article WordPress est supprimé définitivement'
       post_delete_options:
@@ -127,7 +127,7 @@ kilowhat-wordpress:
       not_now: 'Ignorer et lire en tant qu''invité pour le moment'
       submit: 'Activer le compte du forum'
       title: 'Bienvenue !'
-      username: 'Choisissez un nom d''utilisateur'
+      username: 'Sélectionnez un nom d''utilisateur'
   views:
     error:
       missing_wordpress_embed: "Cet article n'a pas encore de fil de commentaires. Si vous êtes l'administrateur du blog, publiez l'article ou désactivez puis réactivez les commentaires pour lancer un fil de discussion.\n"

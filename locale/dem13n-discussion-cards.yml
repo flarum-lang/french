@@ -7,7 +7,7 @@ dem13n:
     settings:
       actor_info: 'Afficher l''auteur'
       badges: 'Afficher les badges'
-      choose_tags: 'Choisir les étiquettes'
+      choose_tags: 'Sélectionner les étiquettes'
       default_img: 'Image par défaut'
       desktop_card_width: 'Largeur des cartes primaires sur les écrans de bureau : {percent} %'
       output_on_index_page: 'Sortie sur la page d''index'

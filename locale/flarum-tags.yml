@@ -56,7 +56,7 @@ flarum-tags:
     discussion_controls:
       edit_tags_button: 'Modifier les étiquettes'
     header:
-      back_to_tags_tooltip: 'Revenir à la liste d''étiquettes'
+      back_to_tags_tooltip: 'Retourner à la liste d''étiquettes'
     index:
       more_link: Plus…
       tags_link: '=> flarum-tags.ref.tags'

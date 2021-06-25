@@ -32,7 +32,7 @@ askvortsov-categories:
       meta_description_text: 'Toutes les catégories'
       meta_title_text: '=> askvortsov-categories.ref.categories'
     header:
-      back_to_categories_tooltip: 'Retour aux catégories'
+      back_to_categories_tooltip: 'Retourner aux catégories'
     index:
       categories_link: '=> askvortsov-categories.ref.categories'
     last_discussion_widget:
