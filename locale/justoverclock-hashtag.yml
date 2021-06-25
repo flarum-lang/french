@@ -5,4 +5,4 @@
 justoverclock-hashtag:
   forum:
     post:
-      hashtag_link_tooltip: 'Chercher ce mot-dièse dans Flarum'
+      hashtag_link_tooltip: 'Rechercher ce mot-dièse dans Flarum'

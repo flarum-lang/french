@@ -72,4 +72,6 @@ the-turk-diff:
       revisionWithNumber: '=> the-turk-diff.ref.revisionWithNumber'
       sideBySide: 'Côte à côte'
   ref:
+    currentContent: 'contenu actuel'
     originalContent: 'contenu original'
+    revisionWithNumber: 'révision {number}'

@@ -4,14 +4,14 @@
 
 flarum-ext-newsletter:
   admin:
-    listn: 'Liste de noms'
-    listndesc: 'Ajouter le nom de votre liste créée sur elasticmail'
-    pubacc: 'Identifiant public de compte'
-    pubaccdesc: 'Trouver votre identifiant public de compte ici https://elasticemail.com/account#/account/security'
+    listn: 'Nom de la liste'
+    listndesc: 'Ajoutez le nom de votre liste créée chez Elastic Email'
+    pubacc: 'Identifiant de compte public'
+    pubaccdesc: 'Obtenez ici votre identifiant de compte public https://elasticemail.com/account#/account/security'
   forum:
-    accept: 'J''aimerai y souscrire'
-    modaltext: 'Vous êtes inscrit à notre liste de diffusion.'
+    accept: 'Je souhaite m''abonner'
+    modaltext: 'Vous êtes à présent abonné à notre lettre d''information.'
     modalthanku: 'Merci !'
-    prconsent: 'Consentement à la confidentialité'
+    prconsent: 'Accord de confidentialité'
     submitbutton: Envoyer
-    subscribe: 'Souscrire à notre liste de diffusion. Veuillez entrer votre adresse mél et appuyer sur envoyer.'
+    subscribe: 'Abonnez-vous à notre lettre d''information. Veuillez saisir votre adresse de courriel et cliquer sur envoyer.'

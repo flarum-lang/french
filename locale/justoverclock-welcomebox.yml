@@ -4,10 +4,15 @@
 
 flarum-ext-welcomebox:
   admin:
-    enablepostbox: 'Activer le message de bienvenue pou les invités'
+    enablepostbox: 'Activer la zone de bienvenue pour les invités'
   forum:
+    SettingsLink: Paramètres
     discussion: '=> core.ref.discussions'
-    notregistered: 'Vous n''êtes pas actuellement connecté à ce forum.'
+    goToProfile: Profil
+    notregistered: 'Vous n''êtes actuellement pas inscrit à ce forum.'
     npost: '=> core.ref.posts'
+    tooltipDisclist: 'Ma liste de discussions'
+    tooltipMentions: Mentions
+    tooltipProfile: Profil
     wback: 'Content de vous revoir,'
-    welcomeguest: 'Bienvenue Invité'
+    welcomeguest: 'Bienvenue invité'

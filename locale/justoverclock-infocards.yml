@@ -4,23 +4,23 @@
 
 flarum-ext-infocards:
   admin:
-    apikeyhelp: 'Créer une clé de l''api gratuite sur https://countapi.xyz/'
-    createapikey: 'Clé de l''api'
+    apikeyhelp: 'Créez gratuitement une clé API sur https://countapi.xyz/'
+    createapikey: 'Clé API'
   forum:
     forumstats: 'Statistiques du forum'
     friday: Vendredi
-    geninfo: 'Information générale'
-    groups: 'Vos groupes'
+    geninfo: 'Informations générales'
+    groups: 'Vos groupes actuels'
     monday: Lundi
-    opthread: 'Fils de discussions ouverts'
+    opthread: 'Fils de discussion ouverts'
     saturday: Samedi
     sunday: Dimanche
     thursday: Jeudi
     times: 'Nombre de fois'
-    totalpost: 'Totalité des messages'
-    totdisc: 'Totalité des discussions'
+    totalpost: 'Nombre total de messages'
+    totdisc: 'Nombre total de discussions'
     tuesday: Mardi
     viscounter: 'Nombre de visites'
     wasviewed: 'Cette page a été consultée'
     wednesday: Mercredi
-    welcome_back: 'Bon retour,'
+    welcome_back: 'Bienvenue à nouveau,'

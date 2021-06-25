@@ -10,6 +10,6 @@ flarum-ext-socialcards:
       showGithub: 'Activer GitHub'
       showfacebook: 'Activer Facebook'
       showtwitter: 'Activer Twitter'
-      showyoutube: 'Activer Youtube'
+      showyoutube: 'Activer YouTube'
       twlink: 'Lien Twitter'
-      ytlink: 'Lien Youtube'
+      ytlink: 'Lien YouTube'

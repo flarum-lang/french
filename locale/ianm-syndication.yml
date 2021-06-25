@@ -5,13 +5,13 @@
 ianm-syndication:
   admin:
     settings:
-      entries-count: 'Combien d’entrées par flux ?'
+      entries-count: 'Combien d''entrées par flux ?'
       full-text:
-        help: 'S’il est désactivé, les flux ne contiendront que des extraits de messages et les utilisateurs devront se rendre sur le forum pour tout lire.'
+        help: 'Si cette option est désactivée, les flux ne contiendront que des extraits de messages et les utilisateurs devront se rendre sur le forum lire leur intégralité.'
         label: 'Flux de texte intégral'
-        recommendation: 'Il est recommandé de laisser cette option active afin de respecter les personnes qui suivent le forum depuis un agrégateur RSS - le cas échéant.'
+        recommendation: 'Nous recommandons de laisser cette option active pour respecter les personnes qui suivent le forum depuis un agrégateur RSS — si tel est le cas.'
       html:
-        help: 'Cochez cette case pour conserver le HTML dans les flux générés. Si désactivé, les flux seront en texte brut.'
+        help: 'Cochez cette case pour conserver le HTML dans les flux générés. Si désactivée, les flux seront en texte brut.'
         label: 'Flux formatés'
       title: 'Paramètres de syndication'
   forum:
@@ -19,8 +19,8 @@ ianm-syndication:
       discussion_last_posts: 'Cette discussion'
       forum_activity: 'Activité du forum'
       forum_new_discussions: 'Nouvelles discussions du forum'
-      tag_activity: 'Activité pour l’étiquette {tag}'
-      tag_new_discussions: 'Discussions dans l’étiquette {tag}'
+      tag_activity: 'Activité sous l''étiquette {tag}'
+      tag_new_discussions: 'Discussions sous l''étiquette {tag}'
     feeds:
       titles:
         discussion_subtitle: 'Derniers messages de cette discussion'
@@ -29,7 +29,7 @@ ianm-syndication:
         main_d_title: 'Nouvelles discussions dans {forum_name}'
         main_subtitle: 'Derniers messages sur le forum'
         main_title: '{forum_name}'
-        tag_d_subtitle: 'Les dernières discussions dans l’étiquette {tag}'
-        tag_d_title: 'Nouvelles discussions dans l’étiquette {tag}'
-        tag_subtitle: 'Derniers messages dans l’étiquette {tag}'
-        tag_title: 'Activité dans l’étiquette {tag}'
+        tag_d_subtitle: 'Les dernières discussions sous l''étiquette {tag}'
+        tag_d_title: 'Nouvelles discussions sous l''étiquette {tag}'
+        tag_subtitle: 'Derniers messages sous l''étiquette {tag}'
+        tag_title: 'Activité sous l''étiquette {tag}'

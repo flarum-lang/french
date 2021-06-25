@@ -5,11 +5,11 @@
 flarum-ext-keywords:
   admin:
     definition: Définition
-    parseonce: 'Décrire les mots une fois dans un message'
-    removedef: 'Définition supprimée'
+    parseonce: 'Analyser les mots une fois dans un message'
+    removedef: 'Supprimer la définition'
     word: Mot
   forum:
     pagetitle: 'Page du glossaire'
-    searchtext: 'Effectuer une recherche à travers le glossaire ...'
-    tagline: 'Voulez-vous en savoir plus sur les termes utilisés sur ce site ? Regarder le glossaire pour en savoir plus'
+    searchtext: 'Recherchez à travers le glossaire...'
+    tagline: 'Souhaitez-vous en savoir plus sur les termes utilisés sur ce site ? Consultez le glossaire pour en savoir plus'
     title: Glossaire

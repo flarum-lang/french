@@ -4,23 +4,23 @@
 
 flarum-ext-dontgoaway:
   admin:
-    altdesc: 'Définir l''attribut "alternative" de votre image'
-    altext: 'Texte alternatif pour l''image'
-    btn: 'Personnaliser le bouton. Exemple de syntaxe dans l''espace réservé'
-    btndesc: 'vous pouvez paramétrer le texte et l''icône fontawesome de votre bouton'
-    enableExtLink: 'Activer les fenêtres surgissantes pour un lien externe'
-    heightdesc: 'Définir la hauteur de votre image (ex. 450)'
+    altdesc: 'Définissez les attributs alternatifs de votre image'
+    altext: 'Attributs alternatifs de l''image'
+    btn: 'Personnalisez le bouton. Exemple de syntaxe dans le paramètre fictif'
+    btndesc: 'Vous pouvez paramétrer le texte et l''icône de Font Awesome du bouton'
+    enableExtLink: 'Activer la fenêtre intruse sur un lien externe'
+    heightdesc: 'Définissez la hauteur de votre image (par exemple 450)'
     heightext: 'Hauteur de l''image'
-    modtext: 'Texte modal'
-    modtextdesc: 'Ici vous pouvez personnaliser le texte de votre fenêtre surgissante modale.'
-    modtitle: 'Titre modal'
-    modtitledesc: 'Personnaliser le titre de la fenêtre surgissante'
-    urltext: 'Lien de votre image personnalisée'
-    urltextdesc: 'Coller ici le lien de votre image personnalisée'
-    widthdesc: 'Définir la largeur de votre image (ex. 450)'
+    modtext: 'Texte de la fenêtre'
+    modtextdesc: 'Vous pouvez personnaliser ici le texte de votre fenêtre intruse.'
+    modtitle: 'Titre de la fenêtre'
+    modtitledesc: 'Personnaliser le titre de la fenêtre intruse'
+    urltext: 'URL de votre image personnalisée'
+    urltextdesc: 'Collez ici l''URL de votre image personnalisée'
+    widthdesc: 'Définissez la largeur de votre image (par exemple 450)'
     widthtext: 'Largeur de l''image'
   forum:
-    cancelbutton: 'Rester ici !'
-    confbutton: Continuer
+    cancelbutton: 'Restez ici !'
+    confbutton: Poursuivre
     extlinktext: 'Vous quittez le site en cliquant sur un lien externe'
     extlinktitle: 'Lien externe'

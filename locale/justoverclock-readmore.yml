@@ -4,9 +4,9 @@
 
 flarum-ext-readmore:
   admin:
-    AlsoPost: 'Activer l''extrait pour PostStream'
-    AlsoPostdesc: 'Ceci permettra à l''extension de fonctionner avec toutes vos publications Flarum (pas seulement sur la page de profil)'
-    charlenght: 'Taille du caractère'
-    charlenghtdesc: 'Définir le nombre de caractères au-delà duquel il faut insérer le lien « lire la suite »'
+    AlsoPost: 'Activer l''extrait concernant PostStream'
+    AlsoPostdesc: 'Cela permettra à l''extension de fonctionner avec tous vos messages Flarum (pas seulement sur la page de profil)'
+    charlenght: 'Longueur des caractères'
+    charlenghtdesc: 'Définissez le nombre de caractères au-delà duquel le lien « lire la suite » doit être inséré'
   forum:
-    readmore: 'Lire la suite ...'
+    readmore: 'Lire la suite...'

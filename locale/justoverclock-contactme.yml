@@ -5,24 +5,24 @@
 flarum-ext-contactme:
   admin:
     settings:
-      emaillabel: 'Mél auquel le formulaire de contact sera envoyé'
+      emaillabel: 'Courriel auquel le formulaire de contact sera envoyé'
   email:
     contact:
-      body: "Bonjour !\n\nVous avez reçu une nouvelle soumission du formulaire de contact provenant de {username} (mél : {email})\n\nLe messages est :\n\n{message}"
-      subject: 'Nouveau contacte via le formulaire'
+      body: "Bonjour !\n\nVous avez reçu un nouveau formulaire de contact de la part de {username} (adresse de courriel : {email}).\n\nSon message est :\n\n{message}"
+      subject: 'Nouveau contact via le formulaire'
   forum:
-    backsoon: 'nous reviendrons vers vous rapidement'
-    emailfield: 'Renseigner votre adresse mél'
+    backsoon: 'nous reviendrons vers vous sous peu'
+    emailfield: 'Indiquez ici votre adresse de courriel'
     messagesent: 'Message envoyé !'
     notloggedin: 'Veuillez vous connecter pour utiliser le formulaire de contact'
-    pText: "<p>En remplissant ce formulaire de contact, vous pouvez nous envoyer des communications commerciales, des partenariats ou tout simplement tout type de questions, auxquelles nous répondrons dans un délai maximum de 7 jours..</p>\n<p><strong>TRAITEMENT DES DONNÉES PERSONNELLES</strong></p>\n<p>(Politique de confidentialité art. 13 del d.lgs. 196/2003)</p>\n<p>Nous vous informons que les données que vous fournirez à l'exploitant de ce site lors du remplissage du \"formulaire de contact\" (également appelé formulaire de courrier) du site lui-même, seront traitées conformément aux dispositions du décret législatif 196/2003, Code en matière de protection des données personnelles.\n   Le formulaire de contact mis à disposition sur le site a pour seul but de permettre aux visiteurs du site de contacter, s'ils le souhaitent, le gestionnaire du site, en adressant un courriel au gestionnaire via le formulaire susvisé.\n   Ces informations concernent les données personnelles transmises par l'utilisateur visiteur lors du remplissage du formulaire de contact.</p>\n<p>Merci de suivre ces règles :</p>\n<li>Ne pas abuser du formulaire de contact pour les requêtes qui peuvent être règles sur le forum</li>\n<li>Ne pas envoyer le même courriel plusieurs fois</li>\n"
+    pText: "<p>En remplissant ce formulaire de contact, vous pouvez nous adresser des communications commerciales, des partenariats ou tout simplement tout type de question, qui recevra une réponse dans un délai maximum de 7 jours.</p>.\n<p><strong>TRAITEMENT DES DONNÉES PERSONNELLES</strong></p>\n<p>(Politique de confidentialité art. 13 del d.lgs. 196/2003)</p>.\n<p>Nous vous informons que les données que vous fournirez à l'opérateur de ce site en remplissant le formulaire de contact du site lui-même, seront traitées conformément aux dispositions du décret législatif 196/2003, code en matière de protection des données personnelles.\n   Le formulaire de contact mis à disposition sur le site a pour seul but de permettre aux visiteurs du site de contacter, s'ils le souhaitent, le responsable du site, en envoyant un courrier électronique au responsable via le formulaire susmentionné.\n   Ces informations concernent les données personnelles transmises par l'utilisateur visiteur lors du remplissage du formulaire de contact.</p>\n<p>Veuillez respecter ces règles :</p>\n<li>Ne pas abuser du formulaire de contact pour des demandes qui peuvent être faites dans le forum</li>\n<li>Ne pas envoyer le même courriel plusieurs fois</li>\n"
     pageTitle: '.Nous contacter'
-    placeholderName: 'Renseigner votre nom ici'
+    placeholderName: 'Indiquez ici votre nom'
     plsregister: 'Veuillez vous inscrire ou vous connecter'
     sendForm: 'Envoyer le message'
     subject: 'Message du formulaire de contact'
-    textAreaField: 'Écrire votre message ici'
+    textAreaField: 'Écrivez ici votre message'
     title: 'Nous contacter'
     tocontinue: 'pour continuer avec ce formulaire de contact'
   settings:
-    emaillabel: 'Mél auquel le formulaire de contact sera envoyé'
+    emaillabel: 'Courriel auquel le formulaire de contact sera envoyé'

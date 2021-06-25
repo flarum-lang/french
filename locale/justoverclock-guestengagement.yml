@@ -3,8 +3,21 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-ext-guestengagement:
+  admin:
+    afterxpost: 'Afficher une zone d''alerte après X messages'
+    afterxpostdesc: 'accepter un nombre, par défaut 0 (la zone sera affichée en haut des flux de messages)'
+    autohide: 'Masquer automatiquement la zone après X secondes'
+    autohidedesc: 'utiliser des millisecondes, comme par exemple 5000 pour 5 secondes'
+    changetextbox: 'Modifier le texte de la zone'
+    changetextboxdesc: 'Vous pouvez définir ici le texte de la zone d''alerte située ENTRE LES MESSAGES'
+    enablealbox: 'Activer/désactiver la zone d''alerte sur la page d''accueil'
+    enablepostbox: 'Activer/désactiver la zone « entre les messages »'
+    maintitle: 'Modifier le TITRE de la zone'
+    maintitledesc: 'Vous pouvez définir ici le titre de la zone d''alerte située ENTRE LES MESSAGES'
   forum:
-    hello: 'Bonjour ! Vous semblez être intéressé par ce forum, mais vous n’avez pas encore créé de compte.'
+    hello: 'Bonjour ! Vous semblez être intéressé par ce forum, mais vous n''avez pas encore créé de compte.'
     hellops: 'Bonjour ! Vous semblez être intéressé par ce message !'
-    uwillreceive: 'Vous recevrez des notifications, ici ou par e-mail, lorsque quelqu’un vous répondra. Vous pouvez également « aimer » pour montrer votre appréciation.'
-    whenucreate: 'Lorsque vous créez un compte, nous pouvons nous souvenir pour vous de ce que vous avez lu, afin que vous puissiez reprendre exactement là où vous vous êtes arrêté.'
+    uwillreceive: 'Vous recevrez des notifications, ici ou par courriel, lorsque quelqu''un vous répondra. Vous pouvez également ajouter des mentions « j''aime » pour afficher votre intérêt.'
+    uwillreceiveps: 'des notifications, ici ou par courriel, lorsque quelqu''un vous répond. Vous pouvez également ajouter des mentions « j''aime » pour afficher votre intérêt.'
+    whenucreate: 'Lorsque vous créerez un compte, nous pourrons nous souvenir exactement de ce que vous avez lu, afin que vous puissiez reprendre exactement là où vous vous êtes arrêté.'
+    whenucreateps: 'Lorsque vous créez un compte, nous serons en mesure de nous souvenir exactement de ce que vous avez lu et vous recevrez'

@@ -4,5 +4,5 @@
 
 flarum-ext-newsfeed:
   admin:
-    feedurldesc: 'coller ici un lien valide de votre flux RSS'
-    feedutltitle: 'Lien flux RSS'
+    feedurldesc: 'Collez ici une URL valide de votre flux RSS'
+    feedutltitle: 'URL du flux RSS'

@@ -4,7 +4,7 @@
 
 flarum-ext-realtimecode:
   forum:
-    description: 'Cet éditeur HTML supporte le code HTML/CSS, écrire simplement votre code et regarder le résultat en temps réel dans le cadre de prévisualisation'
+    description: 'Cet éditeur HTML supporte le code HTML/CSS, il suffit d''écrire votre code et de voir le résultat en temps réel dans la zone de prévisualisation'
     htmleditor: 'Éditeur HTML'
-    outputtitle: 'Cadre de prévisualisation en temps réel'
+    outputtitle: 'Boîte de prévisualisation en temps réel'
     title: 'Éditeur HTML'
