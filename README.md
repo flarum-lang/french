@@ -38,7 +38,7 @@ Includes the following French locales compatible with:
 | Status | Component | Maintainer
 | --- | --- | ---
 [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/fr/) | [core](https://github.com/flarum/core) | [Qiaeru](https://github.com/qiaeru)
-[![Weblate](https://weblate.rob006.net/widgets/flarum/fr/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/fr/) | [validation](https://github.com/laravel/laravel/blob/8.x/resources/lang/en/validation.php) | [Qiaeru](https://github.com/qiaeru)
+[![Weblate](https://weblate.rob006.net/widgets/flarum/fr/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/fr/) | [validation](https://github.com/laravel/laravel) | [Qiaeru](https://github.com/qiaeru)
 
 ### Official extensions
 
