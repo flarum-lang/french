@@ -7,13 +7,13 @@ v17development-flarum-badges:
     auto_moderator:
       action_drivers:
         badge_id: 'Identifiant du badge'
-        give_badge: 'Donner un badge'
+        give_badge: 'Distribuer un badge'
         remove_badge: 'Retirer un badge'
       badge_selector:
         loading_badges: 'Chargement des badges'
         placeholder: 'Sélectionner un badge'
       metric_drivers:
-        badges_received: 'Badges reçus'
+        badges_received: 'Badges obtenus'
       not_installed:
         content: 'Cette extension offre plus de fonctionnalités lorsque l''extension <a>Auto Moderator</a> est installée et activée. Lorsque vous installez cette extension, les utilisateurs peuvent être automatiquement récompensés par des badges sans l''intervention d''un membre de la communauté !'
         dismiss: 'Ne plus afficher'
@@ -28,6 +28,8 @@ v17development-flarum-badges:
       visible: Visible
       visible_description: 'Activer ce badge. Lorsque cette option est désactivée, le badge n''est pas visible.'
     badge_category:
+      blockview: 'Vue en bloc'
+      blockview_description: 'Afficher les badges de catégorie dans un bloc sur la vue d''ensemble des badges. Lorsque cette option est désactivée, tous les badges sont affichés dans un tableau.'
       description: 'Description de la catégorie'
       enabled: Activée
       enabled_description: 'Activer cette catégorie. Lorsque cette option est désactivée, tous les badges sont désactivés et la catégorie est masquée.'
@@ -44,8 +46,9 @@ v17development-flarum-badges:
     new_badge: 'Nouveau badge'
     nothing_here_yet: 'Vous n''avez pas encore créé de badges ou de catégories.'
     permissions:
-      give_badge: 'Donner un badge à l''utilisateur'
-      take_badge: 'Prendre le badge de l''utilisateur'
+      badge_detail_users: 'Peut voir les utilisateurs sur la page d''informations des badges'
+      give_badge: 'Distribuer un badge à l''utilisateur'
+      take_badge: 'Retirer le badge de l''utilisateur'
     uncategorized: 'Sans catégorie'
     update_badge: 'Mettre à jour le badge'
     update_category: 'Mettre à jour la catégorie'
@@ -54,23 +57,30 @@ v17development-flarum-badges:
     all_users: 'Voir tous les utilisateurs'
     badge:
       badge: Badge
+      badge_details: 'Informations sur le badge'
       badges: Badges
       category: 'Catégorie de badge'
       description: 'Description du badge'
+      earned_by_count: '{count, plural, one {Obtenu par <b># utilisateur</b>} other {Obtenu par <b># utilisateurs</b>}}'
       earned_count: '{count, plural, one {<b># utilisateur</b> a obtenu ce badge} other {<b># utilisateurs</b> ont obtenu ce badge}}'
       earned_on: 'Badge obtenu le'
       earning_reason: 'Motif d''obtention du badge'
       name: 'Nom du badge'
-      no_earning_reason: 'Aucun motif d''obtention défini'
+      no_earning_reason: 'Aucun motif d''obtention n''a été défini'
+      received_on: 'Obtenu le {date}'
       update_earning_reason: 'Mettre à jour le motif d''obtention'
     badge_information: 'Informations sur les badges'
-    give_badge: 'Donner un badge'
+    give_badge: 'Distribuer un badge'
     moderation:
-      give_badge: 'Donner un badge'
+      give_badge: 'Distribuer un badge'
       remove_badge: 'Retirer le badge de l''utilisateur'
       remove_badge_confirm: 'Êtes-vous sûr de vouloir retirer ce badge à cet utilisateur ?'
+    no_received: 'Aucun utilisateur n''a obtenu ce badge.'
+    notification:
+      settings: 'J''ai obtenu un badge'
+      title: 'Vous avez obtenu un nouveau badge'
     select_badge: 'Sélectionner le badge'
     uncategorized: '=> v17development-flarum-badges.admin.uncategorized'
     update_badge: 'Mettre à jour le badge'
     user_has_badge: 'L''utilisateur possède déjà ce badge.'
-    user_no_badges: 'Cet utilisateur n''a pas encore de badge.'
+    user_no_badges: 'Cet utilisateur n''a pas encore obtenu de badge.'
