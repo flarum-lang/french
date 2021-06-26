@@ -27,7 +27,7 @@ php flarum cache:clear
 
 This project uses a [Weblate](https://weblate.org/) instance hosted and managed by [rob006](https://github.com/rob006).
 
-**You can help us very easily to improve our translation [on this page](https://weblate.rob006.net/engage/flarum/fr/) which allows you to contribute without any specific knowledge (no code editing, everything is visual). Thank you, we are looking forward for your contributions!**
+**You can help us very easily to improve our translation [on this page](https://weblate.rob006.net/engage/flarum/fr/) where you can contribute without any specific knowledge (no code editing, everything is visual). Thanks, we are looking for your contributions!**
 
 ## Features
 
