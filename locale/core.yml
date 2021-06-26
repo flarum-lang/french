@@ -179,7 +179,7 @@ core:
       signup_closed_button: Refuser
       signup_open_button: Autoriser
     settings:
-      saved_message: 'Vos modifications ont été sauvegardées.'
+      saved_message: 'Vos modifications ont été enregistrées.'
       submit_button: '=> core.ref.save_changes'
     upload_image:
       remove_button: '=> core.ref.remove'

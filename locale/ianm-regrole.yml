@@ -9,7 +9,7 @@ the-turk-regrole:
       multipleRoles: 'Autoriser les utilisateurs à avoir plusieurs rôles assignés'
       otherOptions: 'Autres options'
       roleIds: 'Rôles autorisés'
-      roleIdsHelp: 'Choisissez les rôles que les utilisateurs sont autorisés à s''attribuer.'
+      roleIdsHelp: 'Sélectionnez les rôles que les utilisateurs sont autorisés à s''attribuer.'
       title: 'Paramètres des rôles de l''inscription'
   forum:
     chooseRole: 'Sélectionner un rôle'

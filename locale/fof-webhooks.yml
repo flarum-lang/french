@@ -46,7 +46,7 @@ fof-webhooks:
             renamed: '=> fof-webhooks.ref.renamed'
             restored: '=> fof-webhooks.ref.restored'
             started: Démarrée
-            title: 'Flarum Discussion'
+            title: 'Discussion Flarum'
           group:
             created: Créé
             deleted: '=> fof-webhooks.ref.deleted'

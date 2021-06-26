@@ -31,7 +31,7 @@ flarum-subscriptions:
       ignoring_button: '=> flarum-subscriptions.ref.ignoring'
       ignoring_text: 'Ne jamais être notifié. Masquer de la liste de discussions.'
       not_following_button: 'Non abonné'
-      not_following_text: 'Être notifié que lorsque je suis @mentionné.'
+      not_following_text: 'N''être notifié que lorsque je suis @mentionné.'
       notify_alert_tooltip: 'Recevoir une notification du forum lorsque de nouveaux messages sont publiés'
       notify_email_tooltip: 'Recevoir un courriel lorsque de nouveaux messages sont publiés'
   ref:
