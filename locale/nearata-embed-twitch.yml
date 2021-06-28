@@ -6,6 +6,8 @@ nearata-embed-twitch:
   admin:
     allowfullscreen: 'Autoriser le mode plein écran'
     autoplay: 'Lecture automatique'
+    permissions:
+      create_twitch: 'Intégrer Twitch'
   forum:
     button_tooltip_title: 'Embed Twitch'
     modal:
