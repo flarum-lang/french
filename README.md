@@ -259,6 +259,7 @@ Includes the following French locales compatible with:
 [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/v17development-user-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-user-badges/fr/) | [v17development-user-badges](https://github.com/v17development/flarum-user-badges) | Free | [Hiob](https://github.com/Hiobi)
 [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/webbinaro-calendar/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-calendar/fr/) | [webbinaro-calendar](https://github.com/eddiewebb/flarum-calendar) | Free | [Hiob](https://github.com/Hiobi)
 [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/xelson-chat/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/xelson-chat/fr/) | [xelson-chat](https://github.com/Xelson/flarum-ext-chat) | Free | [Hiob](https://github.com/Hiobi)
+[![Weblate](https://weblate.rob006.net/widgets/flarum/fr/zerosonesfun-expired-posts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/zerosonesfun-expired-posts/fr/) | [zerosonesfun-expired-posts](https://github.com/zerosonesfun/expired-posts) | Free | [Hiob](https://github.com/Hiobi)
 
 ## License
 
