@@ -64,6 +64,7 @@ Includes the following French locales compatible with:
 
 | Type | Name | Status | Maintainer
 | --- | --- | --- | ---
+[![Weblate](https://weblate.rob006.net/widgets/flarum/fr/afrux-asirem/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/afrux-asirem/fr/) | [afrux-asirem](https://github.com/afrux/asirem) | Free | [Hiob](https://github.com/Hiobi)
 [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/amaurycarrade-syndication/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/amaurycarrade-syndication/fr/) | [amaurycarrade-syndication](https://github.com/AmauryCarrade/flarum-ext-syndication) | Free | [Hiob](https://github.com/Hiobi)
 [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/andre-pullinen-ads/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/andre-pullinen-ads/fr/) | [andre-pullinen-ads](https://github.com/andre-pullinen/ads) | Free | [Hiob](https://github.com/Hiobi)
 [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/askvortsov-auth-sync/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-auth-sync/fr/) | [askvortsov-auth-sync](https://github.com/askvortsov1/flarum-auth-sync) | Free | [Hiob](https://github.com/Hiobi)
