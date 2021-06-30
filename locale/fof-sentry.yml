@@ -10,4 +10,5 @@ fof-sentry:
       javascript_label: 'Signaler des erreurs JavaScript'
       javascript_trace_sample_rate: 'Taux de surveillance des performances de l''application frontale (0 - 100)'
       monitor_performance_label: 'Taux de surveillance des performances de l''application dorsale (0 - 100)'
+      send_user_emails_label: "Envoyer les adresses courriels des utilisateurs avec les rapports Sentry\_?"
       user_feedback_label: 'Commentaires des utilisateurs'

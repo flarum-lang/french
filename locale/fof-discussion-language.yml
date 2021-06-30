@@ -10,6 +10,7 @@ fof-discussion-language:
       composer_default_label: 'Présélectionner la langue actuelle dans la zone de rédaction des discussions'
       locale_sort_label: 'Utiliser la langue détectée pour le filtre de discussion par défaut'
       native_label: 'Utiliser des noms dans la langue maternelle'
+      show_any_lang_opt_label: 'Affichez l''option pour sélectionner "Toute langue".'
       show_flag_label: 'Afficher les drapeaux des pays avec les noms des langues'
   api:
     discussion:
