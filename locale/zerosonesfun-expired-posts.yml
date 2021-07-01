@@ -8,7 +8,7 @@ expired-posts:
       days_help: 'Une discussion sera marquée comme expirée lorsque le nombre de jours spécifié s''est écoulé depuis la publication du dernier message sur cette discussion. Utilisez <code>0</code> pour le désactiver par défaut.'
       days_label: Jours
       message_description_label: 'Description du message personnalisé'
-      message_title_help: 'Utilisez <code>[time]</code> pour le texte de l''heure, par ex. "14 jours".'
+      message_title_help: 'Utilisez <code>[time]</code> pour le texte de l''heure, par exemple « 14 jours ».'
       message_title_label: 'Titre du message personnalisé'
       tags_help: 'Remplacez les jours globaux pour une étiquette spécifique. Vide signifie utiliser la valeur par défaut. Si une discussion a plusieurs étiquettes avec des valeurs de jour différentes, elle utilisera le plus petit nombre de jours configuré.'
       tags_title: Étiquettes

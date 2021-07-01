@@ -8,8 +8,8 @@ the-turk-nodp:
       double_posting_label: 'Double publication'
     settings:
       time_limit_label: 'Limite de temps'
-      time_limit_text: 'Si plus de <b>xxx</b> minutes se sont écoulées depuis le dernier message d''une discussion, le dernier auteur sera obligé de modifier son message. Réglez-le sur <b>0</b> pour désactiver la limite de temps.'
+      time_limit_text: 'Si plus de <b>xxx</b> minutes se sont écoulées depuis le dernier message d''une discussion, le dernier auteur sera obligé de modifier son message. Réglez cette option sur <b>0</b> pour désactiver la limite de temps.'
   forum:
     composer_edit:
-      double_posting_warning_description: 'Comme vous avez déjà répondu à cette discussion il y a peu de temps, veuillez éditer votre dernier message au lieu d''en créer un nouveau.'
-      double_posting_warning_title: 'Vous êtes le dernier auteur à avoir publier sur cette discussion.'
+      double_posting_warning_description: 'Comme vous avez déjà répondu à cette discussion il y a peu de temps, veuillez modifier votre dernier message au lieu d''en créer un nouveau.'
+      double_posting_warning_title: 'Vous êtes le dernier à avoir publié dans cette discussion.'

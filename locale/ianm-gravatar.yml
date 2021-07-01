@@ -6,29 +6,29 @@ ianm-gravatar:
   admin:
     settings:
       defaults:
-        helptext: "Que se passe-t-il lorsqu'une adresse courriel n'a pas d'image Gravatar correspondante\_? Gravatar a un certain nombre d'options intégrées que vous pouvez utiliser par défaut. La plupart d'entre eux fonctionnent en prenant le hachage de courriel demandé et en l'utilisant pour générer une image thématique unique à cette adresse courriel."
-        identicon_label: "identicon\_: un motif géométrique basé sur un hachage du courriel"
-        monsterid_label: 'monsterid : un ''monstre'' généré avec différentes couleurs, visages, etc.'
-        mp_label: "mp\_: (personne-mystère) une silhouette simple de style dessin animé d'une personne (ne varie pas selon le hachage du courriel)"
-        retro_label: "rétro\_: superbes visages pixelisés de style arcade générés en 8\_bits"
+        helptext: "Que se passe-t-il lorsqu'une adresse de courriel n'a pas d'image Gravatar correspondante\_? Gravatar dispose d'un certain nombre d'options intégrées que vous pouvez utiliser par défaut. La plupart d'entre elles fonctionnent en prenant le hachage de l'adresse de courriel demandée et en l'utilisant pour générer une image thématique unique à cette adresse de courriel."
+        identicon_label: "identicon\_: un motif géométrique basé sur le hachage de l'adresse de courriel"
+        monsterid_label: 'monsterid : un « monstre » généré avec différentes couleurs, visages, etc.'
+        mp_label: "mp\_: (personne-mystère) un simple contour silhouetté d'une personne, dans le style d'un dessin animé (ne varie pas selon le hachage de l'adresse de courriel)"
+        retro_label: "retro\_: des visages pixellisés générés de manière impressionnante, style arcade 8 bits"
         robohash_label: 'robohash : un robot généré avec différentes couleurs, visages, etc.'
         title: 'Valeurs par défaut'
-        wavatar_label: 'wavatar : visages générés avec des caractéristiques et des arrière-plans différents'
+        wavatar_label: 'wavatar : des visages générés avec des caractéristiques et des arrière-plans différents'
       force-default:
-        helptext: 'Force l''utilisation d''un ensemble de réglages par défaut, même si le hachage du courriel renvoie à un avatar personnalisé téléchargé par un utilisateur'
+        helptext: 'Force l''utilisation d''un ensemble de réglages par défaut, même si le hachage de l''adresse de courriel renvoie à un avatar personnalisé téléchargé par un utilisateur'
         title: 'Forcer la valeur par défaut'
       proxy:
-        helptext: 'Par défaut, les URL de gravatar sont récupérées directement depuis gravatar.com. Cela permet à toutes les demandes de gravatar d''être servies directement par le forum lui-même.'
-        title: 'Proxy les gravatars'
+        helptext: 'Par défaut, les URL des Gravatars sont récupérées directement depuis gravatar.com. Cela permet à toutes les demandes de Gravatars d''être traitées directement par le forum lui-même.'
+        title: 'Proxy des Gravatars'
       rating:
-        g_label: "g\_: adapté à l'affichage sur tous les sites Web avec tout type d'audience"
-        helptext: "Gravatar permet aux utilisateurs d'auto-évaluer leurs images afin qu'ils puissent indiquer si une image est appropriée pour un certain public. Par défaut, seules les images classées «\_G\_» sont affichées, sauf si vous indiquez que vous souhaitez voir des notes plus élevées. Vous pouvez spécifier l'un des classements suivants pour demander des images jusqu'à ce classement y compris."
-        pg_label: "pg\_: peut contenir des gestes grossiers, des individus vêtus de manière provocante, des jurons mineurs ou de la violence légère"
-        r_label: "r\_: peut contenir des choses telles que des grossièretés, une violence intense, de la nudité ou la consommation de drogues dures"
-        title: Notation
+        g_label: "g\_: adapté à l'affichage sur tous les sites internet, quel que soit le type d'audience"
+        helptext: 'Gravatar permet aux utilisateurs de noter eux-mêmes leurs images afin d''indiquer si une image est appropriée pour un certain public. Par défaut, seules les images classées « G » sont affichées, à moins que vous n''indiquiez que vous souhaitez voir des images mieux classées. Vous pouvez spécifier l''une des classifications suivantes pour demander des images jusqu''à et y compris cette classification.'
+        pg_label: "pg\_: peut contenir des gestes grossiers, des personnes habillées de manière provocante, des jurons ou de la violence modérée"
+        r_label: "r\_: peut contenir des éléments tels que des blasphèmes, de la violence intense, de la nudité ou l'utilisation de drogues dures"
+        title: Classification
         x_label: "x\_: peut contenir des images sexuelles hardcore ou de la violence extrêmement dérangeante"
       replace-flarum-custom:
-        helptext: 'Remplacez les avatars personnalisés déjà téléchargés sur le forum par un Gravatar'
+        helptext: 'Remplacer les avatars personnalisés déjà téléchargés sur le forum par un Gravatar'
         title: 'Remplacer les avatars personnalisés téléchargés sur le forum'
   forum:
     settings:

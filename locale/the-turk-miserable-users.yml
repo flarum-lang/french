@@ -8,30 +8,30 @@ the-turk-miserable-users:
       miserable_user_label: '=> the-turk-miserable-users.ref.miserable_user'
     settings:
       broken_page_chance_label: 'Chance de page cassée'
-      broken_page_chance_text: 'Vous pouvez afficher de temps en temps aux utilisateurs pénibles une page cassée. Entrez le pourcentage de chance que cela se produise.'
+      broken_page_chance_text: 'Vous pouvez afficher de temps en temps aux utilisateurs pénibles une page cassée. Saisissez le pourcentage de chance que cela se produise.'
       flood_time_multiplier_label: 'Multiplicateur de temps de flood'
       flood_time_multiplier_text: 'Le temps minimum standard (qui est de 10 secondes) entre les messages peut être multiplié pour que les utilisateurs pénibles attendent plus longtemps entre les publications.'
       loading_delay_label: 'Délai de chargement'
       loading_delay_text: 'Les utilisateurs pénibles seront soumis à un délai de chargement de page d''une période aléatoire entre les deux valeurs fournies ici.'
       log_out_chance_label: 'Déconnexion hasardeuse'
-      log_out_chance_text: "Entrez le pourcentage de chance qu'un utilisateur pénible soit déconnecté et redirigé vers la page d'accueil. <b>Rappelez-vous\_!</b> Une fois déconnectés, ils ne sont plus pénibles."
-      range_seconds_text: ' Secondes'
+      log_out_chance_text: 'Saisissez le pourcentage de chance pour qu''un utilisateur pénible soit déconnecté et redirigé vers la page d''accueil. <b>N''oubliez pas !</b> Une fois déconnectés, ils ne sont plus considérés comme pénibles.'
+      range_seconds_text: ' secondes'
       range_separator_text: ' à '
       redirection_chance_label: 'Chance de redirection'
-      redirection_chance_text: 'Entrez le pourcentage de chance qu''un utilisateur pénible soit redirigé vers l''URL de la page de redirection.'
+      redirection_chance_text: 'Saisissez le pourcentage de chance qu''un utilisateur pénible soit redirigé vers l''URL de la page de redirection.'
       redirection_page_url_label: 'URL de la page de redirection'
       redirection_page_url_text: 'Vous pouvez rediriger au hasard des utilisateurs pénibles vers une autre page. Laissez ce champ vide pour rediriger vers la page d''accueil du forum.'
       shuffle_post_chance_label: 'Chance de publication aléatoire'
-      shuffle_post_chance_text: 'Vous pouvez mélanger au hasard le message d''un utilisateur pénible. Entrez le pourcentage de chance que cela se produise.'
+      shuffle_post_chance_text: 'Vous pouvez mélanger au hasard le message d''un utilisateur pénible. Saisissez le pourcentage de chance que cela se produise.'
   forum:
     miserable_user:
       indefinitely_label: 'Pénible indéfiniment'
       limited_time_days_text: ' jours'
-      limited_time_label: 'Pénible pour un temps limité...'
+      limited_time_label: 'Pénible pour un temps limité…'
       not_miserable_label: 'Non pénible'
-      status_heading: 'Statut pénible'
+      status_heading: 'Statut de pénible'
       submit_button: '=> core.ref.save_changes'
-      title: 'Pénible {username}'
+      title: '{username} pénible'
     user_badge:
       miserable_user_tooltip: '=> the-turk-miserable-users.ref.miserable_user'
     user_controls:
