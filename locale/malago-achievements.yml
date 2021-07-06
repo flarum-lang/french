@@ -64,6 +64,10 @@ malago-achievements:
       instructions_header: Instructions
       instructions_text: "<li>Pour créer un succès, vous devez introduire un nom.</li>\n<li>La description est facultative.</li>\n<li>Sélectionnez dans la liste la variable que vous souhaitez calculer pour ce succès.</li>\n<li>Introduisez le seuil pour que le succès soit activé. Vous pouvez introduire deux nombres séparés par une virgule (,) pour indiquer un seuil minimum et un seuil maximum (les deux nombres sont inclusifs).</li>\n<li>Le succès avec deux seuils seront supprimés si le décompte est au-delà du seuil supérieur.</li>\n<li>Pour le succès « Contenu du message », vous devez introduire le mot spécifié puis le seuil, séparés par une virgule (par exemple « épinard,5 » ou « épinard,5,10 » pour le seuil minimum et maximum).</li>\n<li>Introduire l'URL de l'image avec l'icône à utiliser pour ce succès.</li>\n<li>Introduire la largeur et la hauteur de l'icône.</li>\n<li>Optionnel : si l'image a plus d'une icône de succès, vous pouvez sélectionner la ligne et la colonne à afficher pour l'icône.</li>\n"
       list_heading: Succès
+      show: 'Afficher la liste des succès sur :'
+    settings:
+      show-post-footer: 'Pied de page de chaque message'
+      show-user-card: 'Carte d''utilisateur'
   forum:
     achievement_points: Points
     achievement_total_points: Total
