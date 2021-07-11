@@ -21,6 +21,7 @@ flagrow-ads:
       adsense-enable: 'AdSense activé'
       adsense-title: 'Paramètres d''AdSense'
       between-n-posts: 'Indiquez après combien de messages vous souhaitez insérer une publicité'
+      header-only-frontpage: 'Sous l''en-tête de navigation et s''affiche uniquement sur la page d''accueil'
       position-title: 'Placements publicitaires'
       start-from-post: 'Précisez à partir de quel message il faut commencer à diffuser une publicité'
     tab:
