@@ -34,6 +34,7 @@ fof-webhooks:
   admin:
     errors:
       service_not_found: 'Le service « {service} » est introuvable.'
+      tag_invalid: 'Ce webhook est restreint à une étiquette non valide. La restriction ne s''appliquera pas. Assurez-vous que cette action est volontaire.'
       url_invalid: 'L''URL n''est pas valide pour le service sélectionné.'
     nav:
       desc: 'Des webhooks sortants personnalisables pour votre forum.'
@@ -64,6 +65,8 @@ fof-webhooks:
             registered: Inscrit
             renamed: '=> fof-webhooks.ref.renamed'
             title: 'Utilisateur Flarum'
+      debug_help: 'Ajoute des journaux d''événements supplémentaires au fichier journal de Flarum pour déboguer les problèmes avec les webhooks et/ou les événements qui ne fonctionnent pas correctement.'
+      debug_label: Débogage
       help:
         disabled: 'Ce webhook est désactivé car il n''a aucun événement activé.'
         general: 'Vous pouvez ajouter, modifier et supprimer ici des webhooks pour votre forum.'

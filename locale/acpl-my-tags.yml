@@ -5,8 +5,8 @@
 acpl-my-tags:
   admin:
     settings:
-      enable-placeholder: 'Activer le texte d''espace réservé lorsque l''utilisateur ne suit aucune étiquette'
+      enable-placeholder: 'Activer le texte de paramètre fictif lorsque l''utilisateur ne suit aucune étiquette'
   forum:
     index:
       my_tags: 'Mes étiquettes'
-      placeholder: 'Vous ne suivez pas encore d''étiquettes. <a>Voir les étiquettes</a>'
+      placeholder: 'Vous ne suivez encore aucune étiquette. <a>Voir les étiquettes</a>'

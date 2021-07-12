@@ -6,9 +6,9 @@ the-turk-flamoji:
   admin:
     custom_emojis_section:
       edit_emoji:
-        delete_emoji_button: 'Supprimer l''emoji'
-        delete_emoji_confirmation: "Voulez-vous vraiment supprimer cet emoji\_?"
-        emoji_title_label: 'Titre de l''Emoji'
+        delete_emoji_button: 'Supprimer l''émoji'
+        delete_emoji_confirmation: "Êtes-vous sûr de vouloir supprimer cet émoji\_?"
+        emoji_title_label: 'Titre de l''émoji'
         modal_title: 'Ajouter un émoji'
         path_or_url_label: 'Chemin ou URL'
         saved_message: '=> core.admin.settings.saved_message'
@@ -16,14 +16,14 @@ the-turk-flamoji:
         text_to_replace_label: 'Texte à remplacer'
       emoji_list:
         load_more_button: '=> core.forum.post_stream.load_more_button'
-      export_json_button: 'Exporter JSON'
-      heading_title: 'Emojis personnalisés'
-      import_emojis_message: 'Cela importera uniquement les configurations d''emoji. Vous devez télécharger les images emoji manuellement.'
-      import_json_button: 'Importer JSON'
+      export_json_button: 'Exporter au format JSON'
+      heading_title: 'Émojis personnalisés'
+      import_emojis_message: 'Cela n''importera que les configurations des émojis. Vous devez télécharger manuellement les images des émojis.'
+      import_json_button: 'Importer au format JSON'
     settings:
-      auto_hide_label: 'Masquage automatique'
-      auto_hide_text: 'Masquez le sélecteur lorsqu''un emoji est sélectionné.'
-      category_settings_heading: 'Paramètres de catégorie'
+      auto_hide_label: 'Masquer automatiquement'
+      auto_hide_text: 'Masque le sélecteur lorsqu''un émoji est sélectionné.'
+      category_settings_heading: 'Paramètres des catégories'
       emoji_categories:
         activities: '=> the-turk-flamoji.ref.emoji_categories.activities'
         animals: '=> the-turk-flamoji.ref.emoji_categories.animals'
@@ -34,29 +34,29 @@ the-turk-flamoji:
         smileys: '=> the-turk-flamoji.ref.emoji_categories.smileys'
         symbols: '=> the-turk-flamoji.ref.emoji_categories.symbols'
         travel: '=> the-turk-flamoji.ref.emoji_categories.travel'
-      emoji_data_label: 'Données d''Emoji'
-      emoji_data_text: 'Ceci est généralement utilisé pour fournir des noms d''emoji traduits.'
-      emoji_settings_heading: 'Paramètres d''émoji'
-      emoji_style_label: 'Style émoji'
+      emoji_data_label: 'Données de l''émoji'
+      emoji_data_text: 'Ceci est généralement utilisé pour fournir des noms d''émojis traduits.'
+      emoji_settings_heading: 'Paramètres des émojis'
+      emoji_style_label: 'Style de l''émoji'
       emoji_style_native_option: Original
-      emoji_version_label: 'Version d’Émoji'
-      emoji_version_text: 'La version de la spécification Émoji à utiliser.'
-      general_ui_settings_heading: 'Paramètres généraux de l''interface utilisateur'
+      emoji_version_label: 'Version de l''émoji'
+      emoji_version_text: 'La version de la spécification émoji à utiliser.'
+      general_ui_settings_heading: 'Paramètres de l''interface utilisateur générale'
       initial_category_label: 'Catégorie initiale'
-      initial_category_text: 'Par défaut, le sélecteur commence par afficher la catégorie Smileys & Émotion.'
-      recents_count_label: 'Nombre d’émoji récemment utilisés'
+      initial_category_text: 'Par défaut, le sélecteur commence par afficher la catégorie « Smileys et émotion ».'
+      recents_count_label: 'Nombre d’émojis récemment utilisés'
       recents_count_text: 'Le nombre d’émojis récents à enregistrer.'
       show_category_buttons_label: 'Afficher les boutons de catégorie'
-      show_preview_label: 'Afficher la section d''aperçu'
-      show_recents_label: 'Afficher (et enregistrer) les emojis les plus récemment utilisés'
+      show_preview_label: 'Afficher la section de prévisualisation'
+      show_recents_label: 'Afficher (et enregistrer) les émojis les plus récemment utilisés'
       show_search_label: 'Afficher l''entrée de recherche'
-      show_variants_label: 'Afficher les variantes'
-      show_variants_text: 'Certains emojis ont des variantes de teint. Lorsqu''un emoji est sélectionné dans le sélecteur contenant des variantes, une fenêtre contextuelle de variante apparaît afin que l''utilisateur puisse sélectionner la variante souhaitée.'
+      show_variants_label: 'Afficher les variants'
+      show_variants_text: 'Certains émojis ont des variations de couleur de peau. Lorsqu''un émoji est sélectionné dans le sélecteur, une fenêtre contextuelle apparaît pour que l''utilisateur puisse sélectionner le variant souhaitée.'
       specify_categories_label: 'Spécifiez les catégories'
-      specify_categories_text: 'Vous pouvez spécifier une liste de catégories ici, et le sélecteur n''affichera que ces catégories.'
+      specify_categories_text: 'Vous pouvez spécifier ici une liste de catégories, et le sélecteur n''affichera que ces catégories.'
   forum:
     composer:
-      emoji_tooltip: 'Insérer un emoji'
+      emoji_tooltip: 'Insérer un émoji'
     emoji-button:
       categories:
         activities: '=> the-turk-flamoji.ref.emoji_categories.activities'
@@ -70,18 +70,18 @@ the-turk-flamoji:
         smileys: '=> the-turk-flamoji.ref.emoji_categories.smileys'
         symbols: '=> the-turk-flamoji.ref.emoji_categories.symbols'
         travel: '=> the-turk-flamoji.ref.emoji_categories.travel'
-      no_emojis_found_message: 'Aucun emoji trouvé'
+      no_emojis_found_message: 'Aucun émoji n''a été trouvé'
       search_placeholder: 'Rechercher des émojis'
   ref:
     emoji_categories:
       activities: Activités
-      animals: 'Animaux & Nature'
+      animals: 'Animaux et nature'
       custom: Personnalisé
       flags: Drapeaux
-      food: 'Nourriture & Boisson'
+      food: 'Nourriture et boisson'
       objects: Objets
-      people: 'Personnes et Corps'
+      people: 'Personnes et corps'
       recents: 'Émojis récents'
-      smileys: 'Smileys & Émotion'
+      smileys: 'Smileys et émotion'
       symbols: Symboles
-      travel: 'Voyages et Lieux'
+      travel: 'Voyages et lieux'

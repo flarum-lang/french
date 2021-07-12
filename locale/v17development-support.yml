@@ -71,7 +71,7 @@ v17development-flarum-support:
       article_ratings:
         article_not_rated: 'Cet article n''a pas encore été évalué.'
         confirm_delete_rating: 'Êtes-vous sûr de vouloir supprimer cette évaluation ?'
-        feedback: Commentaire
+        feedback: 'Retour d''expérience'
         loading_ratings: 'Chargement des évaluations'
         no_ratings_found: 'Aucune évaluation ne correspond à vos critères de recherche'
         rated_on: 'Évalué sur'
@@ -116,15 +116,15 @@ v17development-flarum-support:
     send: Envoyer
     settings: '=> core.ref.settings'
     support_ratings:
-      enter_feedback: 'Saisissez ici votre commentaire'
-      feedback: 'Merci pour votre avis, avez-vous des commentaires à formuler ?'
+      enter_feedback: 'Saisissez ici votre retour d''expérience'
+      feedback: 'Merci pour votre avis, avez-vous un retour d''expérience à formuler ?'
       feedback_not_helpful: 'Désolé que cet article n''ait pas été utile, que recherchiez-vous ?'
-      finished: 'Merci ! Votre commentaire a été enregistré.'
+      finished: 'Merci ! Votre retour d''expérience a été enregistré.'
       helful_article: 'Cet article vous a été utile ?'
       helful_support: 'Êtes-vous satisfait de la façon dont nous avons traité votre ticket d''assistance ?'
       score: Score
       switch_sort_score:
-        description: 'Afficher uniquement les articles qui ont reçu des commentaires, en triant les articles les moins bien notés.'
+        description: 'Afficher uniquement les articles qui ont reçu des retours d''expérience, en triant les articles les moins bien notés.'
         label: 'Afficher les articles dont la note est faible ou élevée'
       validation:
         cannot_rate_article: 'Vous ne pouvez pas évaluer cet article.'
