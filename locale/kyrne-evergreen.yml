@@ -3,6 +3,17 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-mentions:
+  admin:
+    settings:
+      allow_username_format_label: 'Autoriser le format de mention du nom d''utilisateur (@Nom d''utilisateur)'
+      allow_username_format_text: "Le format actuel des mentions d'utilisateur est @\"Nom d'affichage\"#Identifiant.\nCe paramètre permet d'utiliser l'ancien format de @Nom d'utilisateur, mais il sera toujours converti au nouveau format lors de l'enregistrement.\n"
+  email:
+    post_mentioned:
+      body: "Bonjour {recipient_display_name} !\n\n{replier_display_name} a répondu à votre message (#{post_number}) dans {title}.\n\n{url}\n\n---\n\n{content}\n"
+      subject: '{replier_display_name} a répondu à votre message dans {title}'
+    user_mentioned:
+      body: "Bonjour {recipient_display_name} !\n\n{mentioner_display_name} vous a mentionné dans un message dans {title}.\n\n{url}\n\n---\n\n{content}\n"
+      subject: '{mentioner_display_name} vous a mentionné dans {title}'
   forum:
     composer:
       mention_tooltip: 'Mentionner un utilisateur ou un message'
@@ -18,6 +29,8 @@ flarum-mentions:
       quote_button: Citer
       reply_link: '=> core.ref.reply'
       you_text: '=> core.ref.you'
+    post_mention:
+      deleted_text: '[inconnu]'
     settings:
       notify_post_mentioned_label: 'Quelqu''un répond à l''un de mes messages'
       notify_user_mentioned_label: 'Quelqu''un me mentionne dans un message'
