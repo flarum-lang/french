@@ -15,18 +15,32 @@ ianm-follow-users:
     new_post_subject: '[Suivi] Nouveau message dans {title}'
   forum:
     badge:
-      label: 'Utilisateur suivi'
+      label:
+        follow: 'Discussions suivies'
+        lurk: 'Suivi global'
     filter:
       following: 'Utilisateurs suivis'
     index:
-      follow_tag_button: Suivre
-      unfollow_tag_button: 'Ne plus suivre'
+      follow_tag_button: '=> ianm-follow-users.lib.follow'
+      unfollow_tag_button: '=> ianm-follow-users.lib.change_follow_type'
+    modals:
+      select_follow_level:
+        cancel_btn: Annuler
+        description: 'Choisissez comment vous souhaitez suivre <em>{username}</em>.'
+        follow_levels_heading: 'Niveaux de suivi'
+        follow_select_label: 'Type de suivi'
+        no_user_attr_provided_err: 'Oh oh, quelque chose s''est mal passé en ouvrant cette fenêtre.'
+        no_user_attr_provided_err_debug: 'Aucun attribut `user` n''a été transmis à la fenêtre SelectFollowUserLevel lors de sa création. Le rendu de la fenêtre est impossible.'
+        save_btn: Enregistrer
+        title: 'Sélectionner le niveau de suivi pour {username}'
     notifications:
       new_discussion_text: '{username} a démarré'
       new_follower_text: '{username} vous a suivi'
       new_post_text: '{username} a publié un message dans une discussion'
       new_unfollower_text: '{username} a arrêté de vous suivre'
     profile_link: '=> ianm-follow-users.lib.following_link'
+    profile_page:
+      no_following: 'Il semble que vous ne suivez personne.'
     settings:
       block_follow: 'Empêcher les utilisateurs de me suivre'
       notify_new_discussion_label: 'Quelqu''un que je suis démarre une discussion'
@@ -34,9 +48,21 @@ ianm-follow-users:
       notify_new_post_label: 'Quelqu''un que je suis publie un message dans une discussion existante'
       notify_new_unfollower_label: 'Quelqu''un arrête de me suivre'
     user_controls:
-      follow_button: Suivre
+      follow_button: '=> ianm-follow-users.lib.follow'
       follow_confirmation: 'Êtes-vous sûr de vouloir suivre cet utilisateur ?'
-      unfollow_button: 'Ne plus suivre'
+      unfollow_button: '=> ianm-follow-users.lib.change_follow_type'
       unfollow_confirmation: 'Êtes-vous sûr de ne plus vouloir suivre cet utilisateur ?'
   lib:
+    change_follow_type: 'Modifier le type de suivi'
+    follow: Suivre
+    follow_levels:
+      follow:
+        description: "Recevoir des notifications lorsque <em>{username}</em> démarre une nouvelle discussion.\n"
+        name: 'Suivre les discussions'
+      lurk:
+        description: "Recevoir des notifications lorsque <em>{username}</em> démarre une nouvelle discussion ou publie un message dans une discussion.\n"
+        name: 'Tout suivre'
+      unfollow:
+        description: "Ne pas recevoir de notifications pour l'activité de <em>{username}</em>.\n"
+        name: 'Ne pas suivre'
     following_link: 'Utilisateurs suivis'
