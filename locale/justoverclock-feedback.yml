@@ -6,10 +6,24 @@ justoverclock-feedback:
   admin:
     background-color: 'Couleur d''arrière-plan du widget'
     background-color-help: 'Saisissez un code de couleur hexadécimal à utiliser comme couleur d''arrière-plan, tel que ''#fff'''
+    box-title: 'Titre de la boîte'
+    box-title-help: 'Définissez le titre du widget de retours d''expérience contextuels (ancien "Flarum feedback")'
     collect-email: 'Afficher le champ de l''adresse de courriel aux utilisateurs (facultatif)'
     collect-email-help: 'Lorsque cette option est activée, les utilisateurs peuvent ajouter leur adresse de courriel aux retours d''expérience'
     contactdesc: 'Ce champ doit être rempli pour activer complètement le widget des retours d''expérience'
     contactmail: 'Adresse de courriel à laquelle envoyer les retours d''expérience'
+    feedback1-icon: 'Icône pour le retour d''expérience de type 1'
+    feedback1-icon-help: 'Mettez une icône de texte comme "⚠, ☎, ✎" - Trouvez plus d''icônes sur https://coolsymbol.com/'
+    feedback1-title: 'Type de retour d''expérience 1'
+    feedback1-title-help: 'Personnalisez ici le nom de votre "type de retour d''expérience"'
+    feedback2-icon: 'Icône pour le retour d''expérience de type 2'
+    feedback2-icon-help: 'Mettez une icône de texte comme "⚠, ☎, ✎" - Trouvez plus d''icônes sur https://coolsymbol.com/'
+    feedback2-title: 'Type de retour d''expérience 2'
+    feedback2-title-help: 'Personnalisez ici le nom de votre "type de retour d''expérience 2"'
+    feedback3-icon: 'Icône pour le retour d''expérience de type 3'
+    feedback3-icon-help: 'Mettez une icône de texte comme "⚠, ☎, ✎" - Trouvez plus d''icônes sur https://coolsymbol.com/'
+    feedback3-title: 'Type de retour d''expérience 3'
+    feedback3-title-help: 'Personnalisez ici le nom de votre "type de retour d''expérience 3"'
     font-color: 'Couleur de la police du widget'
     font-color-help: 'Saisissez un code de couleur hexadécimal à utiliser comme couleur de police, tel que ''#000'''
     left_label: Gauche
@@ -27,6 +41,8 @@ justoverclock-feedback:
     feedback-widget:
       back: Retour
       contact-text: 'Ou envoyez un courriel !'
+      email-field-placeholder: 'Courriel (champs optionnel)'
+      email-placeholder: 'Courriel (optionnel)'
       failed-message: 'Veuillez réessayer. Si le problème persiste, essayez plutôt d''envoyer un courriel.'
       failed-title: 'Oups, une erreur est survenue'
       placeholder: 'Saisissez ici votre retour d''expérience'
