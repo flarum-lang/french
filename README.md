@@ -42,8 +42,7 @@ Includes the following French locales compatible with:
 
 ### Extensions
 
-<!-- all-extensions-list-start -->
-<!-- all-extensions-list-stop -->
+<!-- all-extensions-list-start --><!-- all-extensions-list-stop -->
 
 ## License
 
