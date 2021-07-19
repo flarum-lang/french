@@ -37,8 +37,8 @@ Includes the following French locales compatible with:
 
 | Component | Status |
 | --- | --- |
-| [Core](https://github.com/flarum/core) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/fr/) |
-| Validation | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/fr/) |
+| [`core`](https://github.com/flarum/core) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/fr/) |
+| `validation` | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/fr/) |
 
 ### Extensions
 
