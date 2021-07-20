@@ -46,6 +46,7 @@ Includes the following French locales compatible with:
 
 | Extension | Status |
 | --- | --- |
+| [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/acpl-mobile-tab/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-mobile-tab/fr/) |
 | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/acpl-my-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-my-tags/fr/) |
 | [`amaurycarrade/flarum-ext-syndication`](https://github.com/AmauryCarrade/flarum-ext-syndication) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/amaurycarrade-syndication/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/amaurycarrade-syndication/fr/) |
 | [`askvortsov/flarum-auth-sync`](https://github.com/askvortsov1/flarum-auth-sync) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/askvortsov-auth-sync/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-auth-sync/fr/) |
@@ -199,6 +200,7 @@ Includes the following French locales compatible with:
 | [`justoverclock/flarum-ext-toastme`](https://github.com/justoverclockl/flarum-ext-toastme) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/justoverclock-toastme/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-toastme/fr/) |
 | [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/justoverclock-welcomebox/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-welcomebox/fr/) |
 | [`justoverclock/header-slideshow`](https://github.com/justoverclockl/header-slideshow) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/justoverclock-header-slideshow/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-header-slideshow/fr/) |
+| [`justoverclock/image-gallery`](https://github.com/justoverclockl/image-gallery) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/justoverclock-image-gallery/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-image-gallery/fr/) |
 | [`katosdev/signature`](https://github.com/katosdev/signature) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/katosdev-signature/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/katosdev-signature/fr/) |
 | [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/kilowhat-audit-free/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-audit-free/fr/) |
 | [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/kilowhat-audit-pro/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-audit-pro/fr/) |
