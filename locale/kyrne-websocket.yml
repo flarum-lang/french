@@ -10,7 +10,7 @@ kyrne-websocket:
       auth_only: 'N''autoriser que les utilisateurs authentifiés à se connecter au serveur WebSocket, ce qui permet de réduire la charge du processeur.'
       auto_update: 'Ne pas afficher la bannière jaune de mise à jour, mettre immédiatement à jour la liste de discussions.'
       cert_path: 'Nécessaire uniquement si vous utilisez SSL et NON le reverse proxy. Chemin d''accès à votre certificat SSL (HTTPS) SUR LE SERVEUR où se trouve votre serveur WebSocket - généralement un fichier .crt ou .pem.'
-      host: 'Hôte de votre serveur WebSocket - laissez tel quel si le serveur est le même hôte que votre forum.'
+      host: 'Hôte de votre serveur WebSocket - laissez tel quel si le serveur est le même hôte que votre administrateur.'
       passphrase: 'Nécessaire uniquement si vous utilisez SSL et NON le reverse proxy. La phrase de passe utilisée pour encoder votre certificat - généralement non nécessaire.'
       pk_path: 'Nécessaire uniquement si vous utilisez SSL et NON le reverse proxy. Chemin d''accès à votre clé privée SSL (HTTPS) SUR LE SERVEUR où se trouve votre serveur WebSocket - généralement un fichier .key ou .pem.'
       port: 'Port de votre serveur WebSocket - laissez tel quel si vous ne modifiez pas le port du serveur intégré.'
