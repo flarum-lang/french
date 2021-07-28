@@ -2,6 +2,25 @@
 # Use https://weblate.rob006.net/projects/flarum/therealsujitk-gifs/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+therealsujitk-gifs:
+  admin:
+    apiKey: 'Clé API'
+    engine: 'Moteur de recherche'
+    rating: 'Classement du contenu / Filtre du contenu'
+    ratingHigh: 'G / Élevé'
+    ratingLow: 'PG-13 / Faible'
+    ratingMedium: 'PG / Intermédiaire'
+    ratingOff: 'R / Désactivé'
+  forum:
+    addFavourite: 'Ajouter aux favoris'
+    favourites: Favoris
+    label: 'Insérer un GIF'
+    removeFavourite: 'Supprimer des favoris'
+    search: Rechercher
+    searchGiphy: 'Rechercher dans Giphy'
+    searchTenor: 'Rechercher dans Tenor'
+    title: 'Sélectionnez un GIF à ajouter à votre message'
+    trending: 'GIF tendances'
 therealsujitk:
   admin:
     gifs:

@@ -15,7 +15,7 @@ dem13n:
       preview_text: 'Afficher un texte court'
       settings_error: 'Videz le cache, désactivez cette extension, cliquez sur le bouton « Désinstaller » (sur la droite), confirmez la suppression des données puis activez l''extension'
       show_replies: 'Afficher les réponses'
-      show_views: 'Afficher les vues (lorsque l''extension "Flarumite Simple Discussion Views" est installée et activée)'
+      show_views: 'Afficher les vues (lorsque l''extension « Flarumite Simple Discussion Views » est installée)'
       small_cards: 'Nombre de cartes primaires'
       tablet_card_width: 'Largeur des cartes primaires sur les tablettes : {percent} %'
   forum:

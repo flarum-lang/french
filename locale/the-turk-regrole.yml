@@ -5,14 +5,31 @@
 the-turk-regrole:
   admin:
     settings:
+      allow_multiple_roles_label: 'Permettre aux utilisateurs de se voir attribuer plusieurs rôles'
+      allowed_roles_label: 'Rôles autorisés'
+      allowed_roles_text: 'Choisissez les rôles que les utilisateurs sont autorisés à s''attribuer.'
       forceUsers: 'Forcer les utilisateurs à s''attribuer au moins un rôle'
+      force_users_label: 'Obliger les utilisateurs à s''attribuer au moins un rôle'
+      force_users_text: 'Si cette option est désactivée, les utilisateurs qui n''ont aucun des rôles sélectionnés ci-dessus seront suspendus et ne pourront pas utiliser le forum jusqu''à ce qu''ils s''attribuent un rôle (les utilisateurs qui ont le droit de modifier les groupes d''utilisateurs seront exclus).'
       multipleRoles: 'Autoriser les utilisateurs à se voir attribuer plusieurs rôles'
       otherOptions: 'Autres options'
+      other_options_heading: 'Autres options'
       roleIds: 'Rôles autorisés'
       roleIdsHelp: 'Sélectionnez les rôles que les utilisateurs sont autorisés à s''attribuer.'
       title: 'Paramètres des rôles d''inscription'
   forum:
     chooseRole: 'Sélectionner un rôle'
     chooseRoleHelp: 'Veuillez sélectionner un rôle pour continuer à utiliser notre forum.'
+    choose_role_button_label: '=> the-turk-regrole.ref.choose_a_role'
+    choose_role_modal:
+      choose_role_heading: '=> the-turk-regrole.ref.choose_a_role'
+      choose_role_text: 'Veuillez choisir un rôle pour continuer à utiliser notre forum.'
+      save_button: '=> core.ref.save_changes'
     requiredRegRole: 'Vous devez sélectionner un rôle pour poursuivre l''inscription.'
+    required_role_message: 'Vous devez choisir un rôle.'
     save: '=> core.ref.save_changes'
+    sign_up_modal:
+      choose_role_heading: '=> the-turk-regrole.ref.choose_a_role'
+    suspended_temporarily_message: 'Nous avons suspendu temporairement votre compte jusqu''à ce que vous choisissiez un rôle.'
+  ref:
+    choose_a_role: 'Choisir un rôle'

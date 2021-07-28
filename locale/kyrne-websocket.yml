@@ -4,6 +4,8 @@
 
 kyrne-websocket:
   admin:
+    chart:
+      title: 'Statistiques de Websocket'
     help:
       app_id: 'Identifiant d''application Pusher - laissez tel quel si vous utilisez le serveur WebSocket intégré.'
       app_key: 'Clé d''application Pusher - laissez tel quel si vous utilisez le serveur WebSocket intégré.'
@@ -18,6 +20,7 @@ kyrne-websocket:
       secret: 'Secret d''application Pusher - laissez tel quel si vous utilisez le serveur WebSocket intégré.'
       secure: 'Forcer le WebSocket à utiliser des protocoles sécurisés - activez cette option si vous utilisez un serveur WebSocket sécurisé mais pas le site internet.'
       self_signed: 'Nécessaire uniquement si vous utilisez SSL et NON le reverse proxy. Activez cette option si votre certificat SSL (HTTPS) est auto-signé.'
+      stats: 'Le délai entre les sauvegardes de statistiques - en secondes. Il est recommandé de régler cette option entre 3600 (1 heure) et 21600 (6 heures). Par défaut à 7200.'
     pusher_settings:
       app_host_label: Hôte
       app_id_label: 'Identifiant de l''application'
@@ -32,7 +35,10 @@ kyrne-websocket:
       passphrase: '(Facultatif) Phrase de passe de la clé SSL'
       reverse_proxy: 'Support du proxy inverse'
       secure: 'Forcer WSS/HTTPS pour WebSocket'
+      stats_label: 'Intervalle des statistiques'
       title: 'Paramètres de WebSocket/Pusher'
   forum:
     discussion_list:
       show_updates_text: '{count, plural, one {Afficher # discussion mise à jour} other {Afficher # discussions mises à jour}}'
+    discussion_page:
+      viewing_title: 'Ici à présent :'

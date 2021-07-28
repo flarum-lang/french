@@ -4,6 +4,9 @@
 
 the-turk-stickiest:
   admin:
+    permissions:
+      super_sticky_discussions_label: 'Discussions super épinglées'
+      tag_sticky_discussions_label: 'Baliser les discussions épinglées'
     settings:
       badge_icon_label: 'Icône de badge super épinglé'
       badge_icon_text: '=> core.ref.icon_text'
