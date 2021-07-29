@@ -27,9 +27,9 @@ clarkwinkelmann-who-read:
       remove-unread: 'Supprimer les messages non lus'
       set-unread: 'Marquer comme non lu'
     footer:
-      read-no-further: '{0} Tout le monde a lu plus loin|{1} Un utilisateur n''a pas lu plus loin|]1,Inf] {count} utilisateurs n''ont pas lu plus loin'
-      read-this-post: '{0} Personne n''a lu ce message|{1} Un utilisateur a lu ce message|]1,Inf] {count} utilisateurs ont lu ce message'
-      read-to-end: '{0} Personne n''a lu jusqu''à la fin|{1} Un utilisateur a lu jusqu''à la fin|]1,Inf] {count} utilisateurs ont lu jusqu''à la fin'
+      read-no-further: '{count, plural, =0 {Tout le monde a lu plus loin} one {Un utilisateur n''a pas lu plus loin} other {# utilisateurs n''ont pas lu plus loin}}'
+      read-this-post: '{count, plural, =0 {Personne n''a lu ce message} one {Un utilisateur a lu ce message} other {# utilisateurs ont lu ce message}}'
+      read-to-end: '{count, plural, =0 {Personne n''a lu jusqu''à la fin} one {Un utilisateur a lu jusqu''à la fin} other {# utilisateurs ont lu jusqu''à la fin}}'
     modal:
       behind: 'Utilisateurs qui n''ont pas lu jusqu''à la fin'
       past-this-post: 'Utilisateurs ayant lu après ce message'

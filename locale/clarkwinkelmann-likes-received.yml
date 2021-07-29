@@ -8,4 +8,4 @@ clarkwinkelmann-likes-received:
       view: 'Voir les mentions « j''aime » reçues'
   forum:
     user-card:
-      likes: '{likes} mentions « j''aime » reçues'
+      likes: '{likes, plural, one {# mention « j''aime » reçue} other {# mentions « j''aime » reçues}}'
