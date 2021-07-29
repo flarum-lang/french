@@ -33,7 +33,7 @@ This project uses a [Weblate](https://weblate.org/) instance hosted and managed 
 
 Includes the following French locales compatible with:
 
-### Flarum's core
+### Flarum
 
 | Component | Status |
 | --- | --- |
