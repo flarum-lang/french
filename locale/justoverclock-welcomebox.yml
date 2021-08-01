@@ -5,6 +5,8 @@
 flarum-ext-welcomebox:
   admin:
     enablepostbox: 'Activer la zone de bienvenue pour les invités'
+    img: 'URL de l''image (Boîte d''invité)'
+    img-help: 'mettre ici l''URL de l''image pour la boîte d''invité'
   forum:
     SettingsLink: Paramètres
     discussion: '=> core.ref.discussions'
