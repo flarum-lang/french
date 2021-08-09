@@ -34,3 +34,35 @@ Xengine-signature:
       loading:
         content: 'Patientez, s''il vous plaît...'
         title: Enregistrement
+signature:
+  admin:
+    settings:
+      maximum_char_limit:
+        description: 'Limite maximale de caractères de la signature (inclut les caractères sans tenir compte des balises HTML)'
+        placeholder: '1000 (par défaut)'
+      maximum_image_count:
+        description: 'Maximum d''images insérées.'
+        placeholder: '5 (par défaut)'
+      maximum_image_height:
+        description: 'Hauteur maximale de la somme des hauteurs des images insérées dans l''éditeur.'
+        placeholder: '500 (par défaut)'
+      maximum_image_width:
+        description: 'Largeur maximale des images sur l''éditeur.'
+        placeholder: '350 (par défaut)'
+    title: Signature
+  forum:
+    buttons:
+      save: 'Enregistrer la signature'
+      signature: Signature
+    errors:
+      max_char_limit_exceed: 'La limite maximale de caractères a été dépassée.'
+      max_image_count_exceed: 'Le nombre maximum d''images a été dépassé.'
+      max_image_height_exceed: 'La limite de hauteur maximale de l''image a été dépassée.'
+      max_image_width_exceed: 'La limite de largeur maximale de l''image a été dépassée.'
+    modal:
+      error:
+        content: 'Liste des erreurs :'
+        title: 'Oups ! Des erreurs sont survenues lors de l''enregistrement…'
+      loading:
+        content: 'Veuillez patienter…'
+        title: Enregistrement

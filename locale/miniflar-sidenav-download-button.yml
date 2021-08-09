@@ -14,6 +14,7 @@ miniflar-sidenav-download-button:
       enter_link_message: 'Veuillez saisir une URL valide.'
       labels:
         add_separator: 'Ajouter un séparateur ?'
+        disable_widget: 'Désactiver le widget natif et utiliser à la place le widget supporté par Afrux'
       separator_order_heading: 'Ordre des séparateurs'
       separator_order_text: 'Modifiez ce paramètre pour ajuster la position du séparateur pour ce widget sur la navigation latérale de votre forum Flarum. Plus le nombre est élevé, plus le séparateur sera haut dans la liste des éléments de la navigation latérale (cette valeur peut être positive ou négative).'
   forum:
