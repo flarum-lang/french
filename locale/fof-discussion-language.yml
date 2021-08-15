@@ -8,6 +8,8 @@ fof-discussion-language:
       allow_change_language_label: 'Autoriser la modification de la langue'
     settings:
       composer_default_label: 'Présélectionner la langue actuelle dans la zone de rédaction des discussions'
+      errors:
+        loading_data: 'Une erreur s''est produite lors de la récupération des données locales et nationales. Essayez de désactiver et de réactiver l''extension.'
       locale_sort_label: 'Utiliser la langue détectée pour le filtre de discussion par défaut'
       native_label: 'Utiliser des noms dans la langue maternelle'
       show_any_lang_opt_label: 'Afficher l''option pour sélectionner « N''importe quelle langue ».'

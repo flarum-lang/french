@@ -8,6 +8,8 @@ justoverclock-events-countdown:
     endTime-help: 'Même format que cet exemple - « Dec 24 2021 00:00 » pour Noël'
     evTitle: 'Titre des événements'
     evTitle-help: 'Voici où va le titre de vos événements personnalisés'
+    fontaw: 'Icône Fontawesome personnalisée'
+    fontaw-help: 'utilisez votre icône de fontawesome personnalisée (par exemple, fas fa-bullhorn)'
   forum:
     days: Jours
     endDateText: 'L''événement a commencé !'

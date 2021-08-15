@@ -3,12 +3,21 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-socialprofile:
+  admin:
+    permissions:
+      editAny: 'Modifier n''importe quel profil social'
+      editOwn: 'Modifier son propre profil social'
+      view: 'Voir le profil social'
+    settings:
+      allow_external_favicons_label: 'Autoriser les icônes de sites Web externes'
   forum:
     edit:
-      add: Ajouter
+      add: 'Ajouter des boutons à vos réseaux sociaux'
       delete: Supprimer
       deletetitle: 'Bouton de suppression'
-      edit: Modifier
+      edit: 'Modifier vos boutons de réseaux sociaux'
+      favicon: Favicon
+      grey_favicon: 'Favicon gris'
       headtitle: 'Bouton de modification'
       save_disabled_fetching_favicons: 'Une ou plusieurs icônes sont en train d''être récupérées. Veuillez patienter.'
       submit: Enregistrer

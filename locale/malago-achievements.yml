@@ -66,6 +66,7 @@ malago-achievements:
       list_heading: Succès
       show: 'Afficher la liste des succès sur :'
     settings:
+      link-left-column: 'Ajouter un lien vers les succès dans la barre latérale'
       show-post-footer: 'Pied de page de chaque message'
       show-user-card: 'Carte d''utilisateur'
   forum:
