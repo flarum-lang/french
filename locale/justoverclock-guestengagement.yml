@@ -17,6 +17,7 @@ flarum-ext-guestengagement:
   forum:
     hello: 'Bonjour ! Vous semblez être intéressé par ce forum, mais vous n''avez pas encore créé de compte.'
     hellops: 'Bonjour ! Vous semblez être intéressé par ce message !'
+    signupbtn: Inscription
     uwillreceive: 'Vous recevrez des notifications, ici ou par courriel, lorsque quelqu''un vous répondra. Vous pouvez également ajouter des mentions « j''aime » pour afficher votre intérêt.'
     uwillreceiveps: 'des notifications, ici ou par courriel, lorsque quelqu''un vous répond. Vous pouvez également ajouter des mentions « j''aime » pour afficher votre intérêt.'
     whenucreate: 'Lorsque vous créerez un compte, nous pourrons nous souvenir exactement de ce que vous avez lu, afin que vous puissiez reprendre exactement là où vous vous êtes arrêté.'
