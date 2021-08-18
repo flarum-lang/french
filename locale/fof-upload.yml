@@ -75,6 +75,8 @@ fof-upload:
       upload_label: 'Transférer les fichiers'
       view_user_uploads_label: 'Afficher les transferts des utilisateurs'
     templates:
+      bbcode-image: 'Modèle d''image BBCode'
+      bbcode-image_description: "Affiche l'image en ligne complète en utilisant BBCode. <strong>L'extension flarum/bbcode doit être installée et activée pour que cette option fonctionne.</strong> Aucune fonctionnalité de téléchargement ni aucune statistique n'est collectée, et la protection des liens chauds est ignorée.\n"
       file: 'Modèle de téléchargement de fichiers par défaut'
       file_description: "Affiche le nom du fichier et quelques informations générales. Les téléchargements par proxy sont effectué via PHP, ce qui permet la collecte de statistiques et la protection contre les liens hypertextes automatiques.\n"
       image: 'Modèle de téléchargement d''images par défaut'
@@ -83,6 +85,8 @@ fof-upload:
       image_description: "Affiche une miniature de l'image et permet le téléchargement par proxy via PHP. Cela permet de recueillir des statistiques et de protéger contre les liens hypertextes automatiques.\n"
       just-url: 'Juste l''URL'
       just-url_description: "Insère uniquement l'URL. Le rendu peut être géré par d'autres extensions ayant la capacité de créer des liens automatiques. Il n'y a pas de fonctionnalité de téléchargement, aucune statistique n'est collectée et la protection contre les liens hypertextes automatiques est ignorée.\n"
+      markdown-image: 'Modèle d''image Markdown'
+      markdown-image_description: "Affiche l'image en ligne complète en utilisant Markdown. <strong>L’extension flarum/markdown doit être installée et activée pour que cette option puisse fonctionner.</strong> Aucune fonctionnalité de téléchargement ni aucune statistique n'est collectée, et la protection des liens chauds est ignorée.\n"
     upload_methods:
       aws-s3: 'Compatible avec Amazon S3'
       imgur: Imgur
