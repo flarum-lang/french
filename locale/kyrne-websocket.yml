@@ -42,3 +42,6 @@ kyrne-websocket:
       show_updates_text: '{count, plural, one {Afficher # discussion mise à jour} other {Afficher # discussions mises à jour}}'
     discussion_page:
       viewing_title: 'Ici à présent :'
+    widget:
+      empty: 'Aucun utilisateur n''est actuellement en ligne.'
+      title: 'Utilisateurs en ligne'

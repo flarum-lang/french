@@ -12,7 +12,11 @@ fof-oauth:
           description: 'Vous pouvez enregistrer l''application ici {link}'
   forum:
     log_in:
+      with_button: 'Se connecter avec {provider}'
       with_vkontakte: 'Se connecter avec {provider}'
+      with_vkontakte_button: '=> fof-oauth.forum.log_in.with_button'
   lib:
     providers:
       vkontakte: Vkontakte
+  providers:
+    vkontakte: '=> fof-oauth.lib.providers.vkontakte'
