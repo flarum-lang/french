@@ -4,11 +4,17 @@
 
 fof-best-answer:
   admin:
+    edit_tag:
+      qna_label: 'Permettre à l''extension Best Answers d''être paramétrée dans cette balise'
+      reminders: 'Envoyer des rappels pour définir une meilleure réponse pour les discussions avec cette balise'
     permissions:
       best_answer: 'Sélectionnez la meilleure réponse (sur sa propre discussion)'
       best_answer_not_own_discussion: 'Sélectionnez la meilleure réponse (pas sur sa propre discussion)'
     settings:
       allow_select_own_post: 'Autoriser les utilisateurs à sélectionner leurs propres publications'
+      allow_select_own_post_help: 'Autoriser l''auteur original à sélectionner l''un de ses propres messages de la discussion comme meilleure réponse'
+      documentation: Documentation
+      introduction: "Active quelles balises doivent supporter les meilleures réponses dans l'extension <code>flarum/tags</code>, et, optionnellement, la ou les balises qui doivent prendre en charge les rappels. Lorsqu'une balise est activée avec l'extension Best Answer, cela attribue des autorisations à chaque groupe d'utilisateurs qui peut définir des réponses (dans sa propre discussion ou dans toute discussion). Les autorisations peuvent être attribuées globalement (pour toute balise activée avec l'extension Best Answer), ou sur une base par balise.\n"
       label:
         advanced: Avancé
         general: Général
@@ -16,10 +22,14 @@ fof-best-answer:
         reminders_notice: 'Pour que les rappels fonctionnent correctement, vous devez configurer correctement le planificateur de Flarum.'
       remind_tag_ids: 'Pour restreindre les rappels à des étiquettes particulières, entrez les identifiants des étiquettes ici (séparés par des virgules)'
       schedule_log_output: 'Ajouter la sortie du planificateur au stockage des journaux'
-      schedule_on_one_server: 'Utilisez la directive ''onOneServer ()'' pour le planificateur de tâches (nécessite Redis/Memcache)'
-      schedule_stop_overnight: 'Empêcher le planificateur de rappels de s''exécuter pendant les heures non sociales (21h - 8h, heures du serveur)'
-      select_best_answer_reminder_days: 'Rappelez aux utilisateurs de sélectionner une meilleure réponse après X jours'
-      use_alt_ui: 'Utiliser une mise en page alternative (boutons de meilleure réponse dans le pied de page des messages)'
+      schedule_on_one_server: 'Utilisez la directive ''onOneServer ()'' pour le planificateur de tâches'
+      schedule_on_one_server_help: 'Nécessite Redis/Memcache'
+      schedule_stop_overnight: 'Empêcher l''envoi de notifications de rappel pendant les heures creuses'
+      schedule_stop_overnight_help: '9h00 - 8h00 (heure du serveur)'
+      select_best_answer_reminder_days: 'Fréquence des rappels'
+      select_best_answer_reminder_days_help: 'Envoyer un rappel à l''auteur original après le nombre de jours configurable pour sélectionner une meilleure réponse, 0 = désactive les rappels.'
+      use_alt_ui: 'Mise en page alternative'
+      use_alt_ui_help: 'Contrôles de la meilleure réponse dans le pied de page du message'
   email:
     body:
       awarded: "Bonjour {recipient_display_name},\n\nBravo, {actor_display_name} vient de définir votre message comme la meilleure réponse pour la discussion : {discussion_title}. Merci pour votre aide.\n\nConsultez-le ici : {discussion_url}\n"
