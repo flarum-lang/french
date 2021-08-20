@@ -11,7 +11,7 @@ fof-best-answer:
       best_answer: 'Sélectionnez la meilleure réponse (sur sa propre discussion)'
       best_answer_not_own_discussion: 'Sélectionnez la meilleure réponse (pas sur sa propre discussion)'
     settings:
-      allow_select_own_post: 'Autoriser les utilisateurs à sélectionner leurs propres publications'
+      allow_select_own_post: 'Sélectionner ses propres publications'
       allow_select_own_post_help: 'Autoriser l''auteur original à sélectionner l''un de ses propres messages de la discussion comme meilleure réponse'
       documentation: Documentation
       introduction: "Active quelles balises doivent supporter les meilleures réponses dans l'extension <code>flarum/tags</code>, et, optionnellement, la ou les balises qui doivent prendre en charge les rappels. Lorsqu'une balise est activée avec l'extension Best Answer, cela attribue des autorisations à chaque groupe d'utilisateurs qui peut définir des réponses (dans sa propre discussion ou dans toute discussion). Les autorisations peuvent être attribuées globalement (pour toute balise activée avec l'extension Best Answer), ou sur une base par balise.\n"
@@ -19,7 +19,7 @@ fof-best-answer:
         advanced: Avancé
         general: Général
         reminders: Rappels
-        reminders_notice: 'Pour que les rappels fonctionnent correctement, vous devez configurer correctement le planificateur de Flarum.'
+        reminders_notice: 'Pour que les rappels puissent fonctionner, vous devez configurer correctement le planificateur de Flarum.'
       remind_tag_ids: 'Pour restreindre les rappels à des étiquettes particulières, entrez les identifiants des étiquettes ici (séparés par des virgules)'
       schedule_log_output: 'Ajouter la sortie du planificateur au stockage des journaux'
       schedule_on_one_server: 'Utilisez la directive ''onOneServer ()'' pour le planificateur de tâches'
@@ -43,8 +43,20 @@ fof-best-answer:
     answered_badge: Répondu
     best_answer_button: 'Meilleure réponse'
     best_answer_label: 'sélectionnée par <a>{username}</a> {time_set}'
+    composer:
+      titlePlaceholder: 'Titre de la question'
     errors:
       mismatch: 'Le message sélectionné n''existe pas dans cette discussion.'
+    filter:
+      accessible_label: 'Sélection résolue/non résolue'
+      all_label: 'Toutes les questions'
+      solved_label: 'Questions résolues'
+      unsolved_label: 'Questions non résolues'
+    index:
+      ask_question: 'Poser une question'
+      cannot_ask_question: 'Ne peut pas poser de question'
+      solved_link: 'Discussions résolues'
+      unsolved_link: 'Discussions non résolues'
     notification:
       awarded: 'Votre message a été défini comme la meilleure réponse par {username}'
       best_answer_in_discussion: '{username} a défini la meilleure réponse dans cette discussion'
