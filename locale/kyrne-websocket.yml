@@ -44,4 +44,5 @@ kyrne-websocket:
       viewing_title: 'Ici à présent :'
     widget:
       empty: 'Aucun utilisateur n''est actuellement en ligne.'
+      guests: '{count, plural, one {1 invité} other {{count} invités}}'
       title: 'Utilisateurs en ligne'

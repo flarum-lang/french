@@ -456,6 +456,7 @@ core:
     change_email: 'Modifier l''adresse de courriel'
     change_password: 'Modifier le mot de passe'
     color: Couleur
+    confirm_email: 'Confirmer l''adresse de courriel'
     confirm_password: 'Confirmer le mot de passe'
     confirmation_email_sent: 'Nous avons envoyé un courriel de confirmation à {email}. Veuillez vérifier vos pourriels si vous ne le recevez pas d''ici une minute ou deux.'
     custom_footer_text: 'Ajoutez du code HTML à afficher tout en bas de la page.'
@@ -497,6 +498,10 @@ core:
     write_a_reply: Répondre…
     you: Vous
   views:
+    confirm_email:
+      submit_button: '=> core.ref.confirm_email'
+      text: 'Veuillez cliquer sur le bouton ci-dessous pour confirmer l''adresse de courriel associée à votre compte.'
+      title: '=> core.ref.confirm_email'
     content:
       javascript_disabled_message: 'Ce site est optimisé pour être consulté depuis un navigateur moderne dans lequel JavaScript est activé.'
       load_error_message: 'Une erreur est survenue lors du chargement de la version complète de ce site. Veuillez vider le cache de votre navigateur et rafraîchir cette page pour corriger cette erreur.'
