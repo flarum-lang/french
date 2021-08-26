@@ -267,6 +267,7 @@ Includes the following French locales compatible with:
 | [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/v17development-seo/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-seo/fr/) |
 | [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/v17development-support/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-support/fr/) |
 | [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/v17development-user-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-user-badges/fr/) |
+| [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/webbinaro-calendar/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-calendar/fr/) |
 | [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/zerosonesfun-expired-posts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/zerosonesfun-expired-posts/fr/) |
 
 <!-- all-extensions-list-stop -->
