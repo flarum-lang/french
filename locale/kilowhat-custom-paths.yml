@@ -9,6 +9,11 @@ kilowhat-custom-paths:
       extensions:
         askvortsov-categories: 'Categories de Askvortsov'
         clarkwinkelmann-group-list: 'Group List de ClarkWinkelmann'
+        flamarkt-balance: 'Solde de Flamarkt'
+        flamarkt-categories: 'Catégories de Flamarkt'
+        flamarkt-core: 'Noyau de Flamarkt'
+        flamarkt-identity: 'Identité de Flamarkt'
+        flamarkt-signup-page: 'Page d''inscription de Flamarkt'
         flarum-flags: 'Signalements de Flarum'
         flarum-subscriptions: 'Abonnements de Flarum'
         flarum-tags: 'Étiquettes de Flarum'
@@ -26,6 +31,17 @@ kilowhat-custom-paths:
         clarkwinkelmann-group-list: 'Liste des groupes'
         discussion: Discussion
         flags: 'Signalements (sur mobile)'
+        flamarkt-account: Compte
+        flamarkt-balance: 'Solde du compte'
+        flamarkt-cart: Panier
+        flamarkt-categories: 'Liste des catégories'
+        flamarkt-category: 'Produits de la catégorie'
+        flamarkt-identity: 'Identité du compte'
+        flamarkt-order: Commande
+        flamarkt-orders: 'Commandes du compte'
+        flamarkt-product: Produit
+        flamarkt-products: 'Index des produits'
+        flamarkt-signup: 'S''inscrire'
         fof-byobu: 'Discussions privées'
         fof-byobu-profile: 'Discussions des utilisateurs'
         fof-gamification: Classements
