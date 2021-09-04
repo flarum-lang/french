@@ -469,6 +469,7 @@ core:
     edit: Modifier
     edit_user: 'Modifier l''utilisateur'
     email: 'Adresse de courriel'
+    extensions: Extensions
     icon: Icône
     icon_text: 'Saisissez le nom de n''importe quelle classe d''icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe <code>fas fa-</code>.'
     load_more: 'Charger davantage'
@@ -498,6 +499,18 @@ core:
     write_a_reply: Répondre…
     you: Vous
   views:
+    admin:
+      extensions:
+        caption: '=> core.ref.extensions'
+        disable: Désactiver
+        empty: 'Aucune extension installée'
+        enable: Activer
+        name: 'Nom de l''extension'
+        package_name: 'Nom du paquet'
+        version: Version
+      info:
+        caption: 'Informations sur l''application'
+      title: Administration
     confirm_email:
       submit_button: '=> core.ref.confirm_email'
       text: 'Veuillez cliquer sur le bouton ci-dessous pour confirmer l''adresse de courriel associée à votre compte.'
