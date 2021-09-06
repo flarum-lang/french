@@ -42,6 +42,8 @@ validation:
   ends_with: 'Le :attribute doit terminer avec une des valeurs suivantes : :values.'
   exists: 'Le :attribute sélectionné est invalide.'
   file: 'Le :attribute doit être un fichier.'
+  file_too_large: 'Le :attribute est trop volumineux.'
+  file_upload_failed: 'La transfert de :attribute a échoué.'
   filled: 'Le champ du :attribute doit contenir une valeur.'
   gt:
     array: 'Le tableau :attribute doit contenir plus de :value éléments.'
