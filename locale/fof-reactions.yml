@@ -41,6 +41,7 @@ fof-reactions:
     modal:
       title: Réactions
     notification: '{username} a réagi avec {reaction} à votre message'
+    react_button_label: Réagir
     reacting-own-post: 'Vous ne pouvez pas réagir à votre propre message'
     settings:
       notify_post_reacted_label: 'Quelqu''un a réagi à l''un de mes messages'

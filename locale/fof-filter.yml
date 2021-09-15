@@ -4,6 +4,8 @@
 
 fof-filter:
   admin:
+    auto_merge_title: 'Fusion automatique'
+    bad_words_help: 'Saisissez du texte ou des mots à filtrer, un par ligne. Si le contenu de la publication d''un utilisateur contient une chaîne que vous souhaitez filtrer, elle sera signalée pour approbation. Résistant contre 133t.'
     cooldownLabel: 'Délai de fusion de message'
     countLabel: 'Tolérance de la censure'
     email:
@@ -25,6 +27,8 @@ fof-filter:
     nav:
       desc: 'Filtrer les messages par mots'
       text: Filtre
+    permission:
+      bypass_filter_label: 'Ignorer le(s) filtre(s) de mots'
     title: Filtre
   forum:
     flag_message: 'Chaînes bloquées contenues'
