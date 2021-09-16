@@ -11,6 +11,7 @@ flarum-ext-welcomebox:
     SettingsLink: Paramètres
     discussion: '=> core.ref.discussions'
     goToProfile: Profil
+    lastSeen: 'Derniere visite'
     notregistered: 'Vous n''êtes actuellement pas inscrit à ce forum.'
     npost: '=> core.ref.posts'
     tooltipDisclist: 'Ma liste de discussions'
