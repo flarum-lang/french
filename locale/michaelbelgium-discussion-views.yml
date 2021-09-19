@@ -15,9 +15,12 @@ michaelbelgium-discussion-views:
     settings:
       abbr_numbers_label: 'Abréger le nombre de vues'
       max_viewcount_label: 'Nombre maximal d''éléments de la liste d''affichage'
+      max_viewcount_text: 'Cela s''applique à la liste de visualisation du pied de page et à la liste de visualisation de la barre latérale'
       show_filter_label: 'Activer le champ de tri (im)populaire'
+      show_footer_viewlist_label: 'Activer la liste de visualisation du pied de page'
       show_viewlist_label: 'Activer la liste d''affichage'
       title: 'Paramètres des vues de la discussion'
+      track_guests: 'Suivre les invités'
       track_unique_label: 'Suivre les vues uniques'
   forum:
     discussion_controls:
@@ -26,6 +29,11 @@ michaelbelgium-discussion-views:
       label: '{count, plural, one {Cela supprimera {count} vue de cette discussion. Continuer ?} other {Cela supprimera {count} vues de cette discussion. Continuer ?}}'
       submit_button: 'Oui, tout supprimer'
       title: 'Réinitialiser le nombre de vues de la discussion'
+    post:
+      modal_title_text: 'Utilisateurs ayant vu cette discussion pour la dernière fois'
+      others_link: '=> core.ref.some_others'
+      viewed_by: '{users} ont vu ceci.'
+      you: '=> core.ref.you'
     viewlist:
       guest: Invité
       title: 'Derniers visiteurs'

@@ -5,6 +5,6 @@
 justoverclock-hot-discussions:
   admin:
     discLimit: 'Discussions à afficher (la valeur par défaut est 10 si vide)'
-    discLimit-help: 'accepte les nombres, par exemple écrire "5" si vous voulez afficher seulement 5 discussions actives'
+    discLimit-help: 'Accepte les nombres, saisissez par exemple « 5 » si vous souhaitez afficher seulement 5 discussions actives'
   forum:
     widget-title: 'Discussions actives'

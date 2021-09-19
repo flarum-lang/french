@@ -11,8 +11,8 @@ askvortsov-article-series:
       title: '{series} séries d''articles'
     article_series_modal:
       order_label: 'Ordonner l''index (trié par ordre croissant)'
-      submit_button: Soumettre
-      tag_id_label: 'Étiquette de séries d''articles'
-      title: 'Paramètres de la série d''articles'
+      submit_button: Envoyer
+      tag_id_label: 'Étiquette des séries d''articles'
+      title: 'Paramètres des séries d''articles'
     discussion_controls:
       article_series_button: 'Paramètres des séries d''articles'

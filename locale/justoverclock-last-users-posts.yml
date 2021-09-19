@@ -5,8 +5,8 @@
 justoverclock-last-users-posts:
   admin:
     charlength: 'Longueur des caractères (la valeur par défaut est 80 si vide)'
-    charlength-help: 'écrivez ici la longueur maximum du message (caractère)'
-    limit: 'Limite de publication (la valeur par défaut est 10 si vous laissez vide)'
-    limit-help: 'écrivez ici le nombre de messages que vous souhaitez afficher'
+    charlength-help: 'Saisissez ici la longueur maximale du message (nombre de caractères)'
+    limit: 'Limite de publication (la valeur par défaut est 10 si vide)'
+    limit-help: 'Saisissez ici le nombre de messages que vous souhaitez afficher'
   forum:
     widget-title: 'Derniers messages'

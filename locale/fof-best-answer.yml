@@ -5,8 +5,8 @@
 fof-best-answer:
   admin:
     edit_tag:
-      qna_label: 'Permettre à l''extension Best Answers d''être paramétrée dans cette balise'
-      reminders: 'Envoyer des rappels pour définir une meilleure réponse pour les discussions avec cette balise'
+      qna_label: 'Permettre à l''extension « Best Answers » d''être paramétrée dans cette étiquette'
+      reminders: 'Envoyer des rappels pour définir une meilleure réponse pour les discussions avec cette étiquette'
     permissions:
       best_answer: 'Sélectionnez la meilleure réponse (sur sa propre discussion)'
       best_answer_not_own_discussion: 'Sélectionnez la meilleure réponse (pas sur sa propre discussion)'
@@ -15,8 +15,8 @@ fof-best-answer:
       allow_select_own_post_help: 'Autoriser l''auteur original à sélectionner l''un de ses propres messages de la discussion comme meilleure réponse'
       documentation: Documentation
       enable_all_tags_button: 'Activer toutes les étiquettes pour les meilleures réponses'
-      enable_all_tags_reminder_button: 'Activer toutes les étiquettes pour les rappels de Meilleure réponse'
-      introduction: "Active quelles balises doivent supporter les meilleures réponses dans l'extension <code><a>flarum/tags</a></code>, et, optionnellement, la ou les balises qui doivent prendre en charge les rappels. Lorsqu'une balise est activée avec l'extension Best Answer, cela attribue des autorisations à chaque groupe d'utilisateurs qui peut définir des réponses (dans sa propre discussion ou dans toute discussion). Les autorisations peuvent être attribuées globalement (pour toute balise activée avec l'extension Best Answer), ou sur une base par balise.\n"
+      enable_all_tags_reminder_button: 'Activer toutes les étiquettes pour les rappels d''une meilleure réponse'
+      introduction: "Active quelles étiquettes doivent supporter les meilleures réponses dans l'extension <code><a>flarum/tags</a></code>, et, optionnellement, la ou les étiquettes qui doivent prendre en charge les rappels. Lorsqu'une étiquette est activée avec l'extension « Best Answer », cela attribue des autorisations à chaque groupe d'utilisateurs qui peut définir des réponses (dans sa propre discussion ou dans toute discussion). Les autorisations peuvent être attribuées globalement (pour toute étiquette activée avec l'extension « Best Answer »), ou sur une base par étiquette.\n"
       label:
         advanced: Avancé
         general: Général
@@ -30,8 +30,8 @@ fof-best-answer:
       schedule_stop_overnight_help: '9h00 - 8h00 (heure du serveur)'
       select_best_answer_reminder_days: 'Fréquence des rappels'
       select_best_answer_reminder_days_help: 'Envoyer un rappel à l''auteur original après le nombre de jours configurable pour sélectionner une meilleure réponse, 0 = désactive les rappels.'
-      show_filter_help: 'Pour les étiquettes pour lesquelles Meilleures réponses est activée, choisissez d''afficher l''option de filtre résolu/non résolu dans la liste de discussion'
-      show_filter_label: 'Afficher la liste déroulante du filtre Meilleure réponse'
+      show_filter_help: 'Pour les étiquettes avec lesquelles l''extension « Best Answers » est activée, choisissez d''afficher l''option de filtre résolu/non résolu dans la liste de discussions'
+      show_filter_label: 'Afficher la liste déroulante du filtre de meilleure réponse'
       use_alt_ui: 'Mise en page alternative'
       use_alt_ui_help: 'Contrôles de la meilleure réponse dans le pied de page du message'
   email:
