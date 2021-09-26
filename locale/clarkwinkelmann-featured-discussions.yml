@@ -7,17 +7,17 @@ clarkwinkelmann-featured-discussions:
     permissions:
       feature: 'Gérer les discussions mises en avant'
     settings:
-      duration: 'Durée par défaut (secondes)'
+      duration: 'Durée par défaut (en secondes)'
       eventPost: 'Générer la publication de l''événement lorsque l''horaire est modifié'
       schedule: 'Planifier (syntaxe CRON)'
   forum:
     badge: 'Mis en avant'
     controls:
-      feature: 'Discussion  mise en avant'
+      feature: 'Discussion mise en avant'
     modal:
       action:
         cancel: Annuler
-        submit: Soumettre
+        submit: Envoyer
       fields:
         from: De
         until: 'Jusqu''à'
@@ -27,12 +27,12 @@ clarkwinkelmann-featured-discussions:
         not: 'Non présenté'
       title: 'Discussion mise en avant'
       until:
-        auto: Auto
+        auto: Automatique
         manual: 'Date manuelle'
     nav:
       schedule: 'Planifier les mises en avant'
     post:
-      auto: (auto)
+      auto: (automatique)
       scheduled: 'Prévu pour être présenté du {from} au {until}'
       unscheduled: 'N''est plus programmé pour être mis en avant'
     schedule:
@@ -40,4 +40,4 @@ clarkwinkelmann-featured-discussions:
       drop-error: 'Lien de discussion invalide'
       drop-here: 'Déposez ici pour planifier'
       empty: 'Aucune discussion'
-      help: "Glissez-déposez les discussions dans la page ou depuis une autre fenêtre pour modifier leur horaire. Pour supprimer l'horaire, utilisez le menu à 3 points.\n"
+      help: "Glissez et déposez les discussions dans la page ou depuis une autre fenêtre pour modifier leur horaire. Pour supprimer l'horaire, utilisez le menu à 3 points.\n"
