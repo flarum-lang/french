@@ -10,10 +10,12 @@ fof-discussion-language:
       composer_default_label: 'Présélectionner la langue actuelle dans la zone de rédaction des discussions'
       errors:
         loading_data: 'Une erreur s''est produite lors de la récupération des données locales et nationales. Essayez de désactiver et de réactiver l''extension.'
+        missing_assets: 'Nous n''avons pas pu charger les ressources nécessaires à cette extension. Essayez d''exécuter <code>php flarum assets:publish</code> et vérifiez si cela résout le problème.'
       locale_sort_label: 'Utiliser la langue détectée pour le filtre de discussion par défaut'
       native_label: 'Utiliser des noms dans la langue maternelle'
-      show_any_lang_opt_label: 'Afficher l''option pour sélectionner « N''importe quelle langue ».'
+      show_any_lang_opt_label: 'Afficher l''option pour sélectionner « n''importe quelle langue »'
       show_flag_label: 'Afficher les drapeaux des pays avec les noms des langues'
+      tags_page_discussion_locale_label: 'Afficher uniquement les discussions de la variable linguistique actuelle de l''utilisateur sur la page des étiquettes'
   api:
     discussion:
       validation_error: 'Vous devez sélectionner la langue de votre discussion.'
