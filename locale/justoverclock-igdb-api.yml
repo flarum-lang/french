@@ -6,18 +6,18 @@ justoverclock-igdb-api:
   admin:
     composerAlert: 'Afficher l''alerte du compositeur sur les nouvelles discussions'
     rawgApi: 'Clé API RawG'
-    rawgApi-help: 'Collez ici votre clé Api gratuite récupérée sur https://rawg.io/signup'
+    rawgApi-help: 'Collez ici votre clé API gratuite récupérée sur https://rawg.io/signup'
   forum:
     availableOn: 'Disponible sur'
     game-title-alert-box: 'Est-ce une discussion sur un jeu ?'
-    game-title-alert-box-description: 'Si vous êtes sur le point de démarrer une discussion sur un jeu, afin de récupérer toutes les informations, utilisez UNIQUEMENT le nom du jeu vidéo comme titre (par exemple, Call of Duty modern warfare) sans autre mot.'
+    game-title-alert-box-description: 'Si vous êtes sur le point de démarrer une discussion sur un jeu, afin de récupérer toutes les informations, utilisez UNIQUEMENT le nom du jeu vidéo comme titre (par exemple, Call of Duty Modern Warfare) sans autre mot.'
     gamesPage: 'Nouveaux et prochains jeux'
     genres: Genres
     genresPage: Genres
     metacriticScore: 'Score MetaCritic'
-    noConnection: 'Oups ! La base de données des jeux vidéo ne répond actuellement pas. S''il vous plaît revenez consulter le site ultérieurement.'
+    noConnection: 'Oups ! La base de données des jeux vidéo n''est actuellement pas accessible. Veuillez réessayer ultérieurement.'
     offwebsite: 'Site officiel'
-    pageText: 'Si vous vous demandez quels jeux sortiront en 2021, nous les avons tous regroupés sur une seule page. Cette liste sera continuellement mise à jour pour servir de calendrier vivant et respirant à mesure que de nouvelles dates sont annoncées, que les titres sont retardés et que de grandes révélations se produisent. Cela devrait vous aider à planifier vos prochains mois de jeu et au-delà. Comme le calendrier des jeux change constamment, nous vous recommandons fortement de mettre cette page en favori.'
+    pageText: 'Si vous vous demandez quels jeux sortiront en 2021, nous les avons tous regroupés sur une seule page. Cette liste sera continuellement mise à jour à mesure que de nouvelles dates sont annoncées, que des titres sont retardés et lors de grandes révélations. Cela devrait vous aider à planifier vos prochains mois de jeux et au-delà. Comme le calendrier des jeux change constamment, nous vous recommandons fortement de mettre cette page en favori.'
     pageTitle: 'Nouveaux et prochains jeux'
     pagetitle: 'Nouveaux et prochains jeux'
     publisher: Éditeur

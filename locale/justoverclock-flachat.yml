@@ -5,8 +5,8 @@
 justoverclock-flachat:
   admin:
     publishKey: 'Clé de publication PubNub (gratuite)'
-    publishKey-help: 'collez ici la clé de publication récupérée sur https://dashboard.pubnub.com/signup'
+    publishKey-help: 'Collez ici la clé de publication récupérée sur https://dashboard.pubnub.com/signup'
     subscribeKey: 'Clé d''abonnement PubNub (gratuite)'
-    subscribeKey-help: 'collez ici la clé de publication récupérée sur https://dashboard.pubnub.com/signup'
+    subscribeKey-help: 'Collez ici la clé de publication récupérée sur https://dashboard.pubnub.com/signup'
   forum:
-    writeinchat: 'Écrire dans le chat...'
+    writeinchat: 'Écrire dans le chat…'

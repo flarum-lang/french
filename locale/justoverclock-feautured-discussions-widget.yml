@@ -5,6 +5,6 @@
 justoverclock-feautured-discussions-widget:
   admin:
     limit: 'Nombre de discussions en vedette à afficher'
-    limit-help: 'le nombre de discussion que vous souhaitez afficher (par exemple 5, par défaut)'
+    limit-help: 'Le nombre de discussion que vous souhaitez afficher (par exemple 5, par défaut)'
   forum:
     widget-title: 'Discussions en vedette'
