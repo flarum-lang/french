@@ -2,9 +2,32 @@
 # Use https://weblate.rob006.net/projects/flarum/afrux-asirem/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
-afrux-asirem:
+afrux-theme-base:
   admin:
-    permissions:
-      edit_group: Modifier
-      edit_group_permissions: Permissions
-      filter_scopes: 'Portées du filtre'
+    extension:
+      sections:
+        content: 'Réglages principaux'
+        permissions: Autorisations
+    extensions:
+      description: 'Liste de toutes les extensions installées.'
+      title: Extensions
+    header:
+      go_back: 'Revenir au forum'
+    settings:
+      edit_footer_links: 'Modifier les liens de pied de page'
+      footer_bottom_line: 'Bas de page du pied de page'
+      footer_description: 'Description de pied de page'
+      hero_banner: 'Image de bienvenue de Hero'
+      hero_banner_position: "Position CSS de l'image de Hero (exemple\_: 'center top' ou 'center 20%')"
+      links_modal:
+        add_group: 'Nouveau groupe de liens'
+        add_link: 'Ajouter un lien'
+        group_name: 'Nom du groupe {number}'
+        group_title: 'Titre du groupe de liens'
+        link_label: 'Libellé du lien'
+        link_url: 'URL du lien'
+    users:
+      grid:
+        columns:
+          avatar:
+            title: Avatar
