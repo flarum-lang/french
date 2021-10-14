@@ -4,6 +4,7 @@
 
 fof-oauth:
   admin:
+    configure_button_label: 'Configurer avec FoF OAuth'
     settings:
       only_icons_label: 'Afficher uniquement les icônes du bouton de connexion (disposition alternative)'
       providers:
@@ -58,6 +59,8 @@ fof-oauth:
       google: '=> fof-oauth.lib.providers.google'
       linkedin: '=> fof-oauth.lib.providers.linkedin'
       twitter: '=> fof-oauth.lib.providers.twitter'
+    signup:
+      username_help: 'Veuillez choisir un nom d''utilisateur pour être connu ici'
   lib:
     providers:
       discord: Discord
