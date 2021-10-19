@@ -444,6 +444,7 @@ core:
       payload_too_large_message: 'La charge utile de la requête était trop importante.'
       permission_denied_message: 'Vous n''avez pas la permission de faire cela.'
       rate_limit_exceeded_message: 'Vous allez un peu trop vite. Veuillez réessayer dans quelques secondes.'
+      render_failed_message: 'Désolé, nous avons rencontré une erreur lors de l''affichage de ce contenu. Si vous êtes un utilisateur, veuillez réessayer plus tard. Si vous êtes administrateur, consultez vos fichiers journaux Flarum pour plus d''informations.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
     number_suffix:

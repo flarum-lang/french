@@ -5,10 +5,11 @@
 clarkwinkelmann-see-past-first-post:
   admin:
     permissions:
-      see-past-first-post: 'Voir le premier message précédent'
+      see-past-first-post: 'Voir l''ancien premier message'
     settings:
-      hide-comment-count: 'Masquer le nombre de commentaires de la liste de discussion'
-      hide-last-post: 'Masquer l''utilisateur et la date du dernier message de la liste de discussion'
+      hide-comment-count: 'Masquer le nombre de commentaires sur la liste de discussion'
+      hide-first-post: 'Masquer également le premier message'
+      hide-last-post: 'Masquer l''utilisateur et la date du dernier message sur la liste de discussion'
   forum:
     cant-see: 'Vous n''avez pas la permission de voir les réponses'
     login-to-see: 'Se connecter pour voir les réponses'
