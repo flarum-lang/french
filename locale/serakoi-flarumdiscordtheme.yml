@@ -5,5 +5,5 @@
 serakoi-flarumdiscordtheme:
   admin:
     authorBadge:
-      help: 'Le texte du badge de l''auteur (auteur par par défaut)'
+      help: 'Le texte du badge de l''auteur (« Auteur » par défaut)'
       label: 'Texte du badge de l''auteur'
