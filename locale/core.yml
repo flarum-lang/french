@@ -95,6 +95,7 @@ core:
       title: '=> core.ref.email'
     extension:
       configure_scopes: 'Configurer Scopes'
+      confirm_purge: 'La purge supprime toutes les entrées de la base de données et les ressources liées à l''extension. Elle ne désinstallera pas l''extension ; cela doit être effectué depuis Composer. Êtes-vous sûr de vouloir continuer ?'
       confirm_uninstall: 'La désinstallation supprimera toutes les entrées de la base de données et les ressources liées à l''extension. Êtes-vous sûr de vouloir continuer ?'
       disabled: Désactivée
       enable_to_see: 'Activez l''extension pour afficher et modifier ses paramètres.'
@@ -110,6 +111,11 @@ core:
       no_settings: 'Cette extension n''a pas de paramètre.'
       open_modal: 'Ouvrir les paramètres'
       permissions_title: Permissions
+      purge_button: Purger
+      readme:
+        button_label: README
+        no_readme: 'Cette extension ne semble pas avoir de fichier README'
+        title: 'Documentation de {extName}'
       uninstall_button: Désinstaller
     header:
       get_help: 'Obtenir de l''aide'
@@ -281,6 +287,8 @@ core:
       mark_as_read_tooltip: 'Marquer comme lu'
       replied_text: '{username} a répondu à cette discussion {ago}'
       started_text: '{username} a démarré cette discussion {ago}'
+      total_replies_a11y_label: '{count, plural, one {# réponse} other {# réponses}}'
+      unread_replies_a11y_label: '{count, plural, one {# réponse non lue} other {# réponses non lues}}. Marquer {count, plural, one {réponse non lue comme lue} other {réponses non lues comme lues}}.'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
