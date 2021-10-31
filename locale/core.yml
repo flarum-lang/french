@@ -429,6 +429,7 @@ core:
   lib:
     badge:
       hidden_tooltip: Masquée
+    debug_button: Déboguer
     dropdown:
       toggle_dropdown_accessible_label: 'Afficher le menu déroulant'
     edit_user:
