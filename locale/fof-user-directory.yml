@@ -8,6 +8,7 @@ fof-user-directory:
       view_user_directory: 'Voir le répertoire des utilisateurs'
     settings:
       default-sort: 'Tri par défaut'
+      disable-global-search-source: 'Ne pas ajouter l''annuaire des utilisateurs au champ de recherche globale de Flarum'
       link: 'Ajouter un lien sur la page d''accueil pour que les utilisateurs puissent voir le répertoire'
       use-small-cards: 'Utiliser de petites cartes d''utilisateur'
   forum:
@@ -22,6 +23,9 @@ fof-user-directory:
     search:
       field:
         placeholder: 'Rechercher tous les utilisateurs'
+      kinds:
+        group: Groupe
+        text: 'Texte libre'
       users_heading: 'Rechercher tous les utilisateurs pour « {query} »'
   lib:
     sort:

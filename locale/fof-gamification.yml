@@ -6,9 +6,12 @@ core:
   forum:
     index_sort:
       hot_button: Tendances
+      votes_button: 'Votes positifs'
 fof-gamification:
   admin:
     page:
+      alt_votes:
+        icon_name: 'Nom de l''icône de mise en page Alt'
       convert:
         button: 'Convertir les « j''aime » en votes positifs'
         converted: 'Les {number} « j''aime » ont été convertis'
@@ -35,7 +38,8 @@ fof-gamification:
         title: Rangs
       save_settings: 'Enregistrer les paramètres'
       votes:
-        alternate_layout: 'Utiliser une mise en page alternative pour afficher et/ou faire des votes positifs/négatifs'
+        alternate_layout: 'Utiliser une disposition de vote alternative sur la liste de discussions'
+        alternate_post_layout: 'Utiliser une disposition de vote alternative sur les messages'
         auto_upvote: 'Attribuer automatiquement un vote positif lorsqu''un message est publié'
         color_holder: '#ffffff'
         discussion_page: 'Afficher le nombre total de votes du message original sur la liste de discussions'
@@ -45,10 +49,12 @@ fof-gamification:
         points_title: 'Espace réservé aux points'
         rate_limit: 'Appliquer une limite de taux de vote (10 secondes)'
         title: Votes
+        upvotes_only: 'Autoriser uniquement le vote positif'
         vote_color: 'Couleur votée'
     permissions:
       see_ranking_page: 'Voir la page de classement'
-      see_votes_label: 'Voir les votes positifs/négatifs des messages'
+      see_voters_label: 'Voir qui a voté'
+      see_votes_label: 'Voir le nombre de votes positifs/négatifs'
       vote_label: 'Votes positifs/négatifs des messages'
   forum:
     mod_item: 'Voir les votants'
