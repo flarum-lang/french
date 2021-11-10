@@ -456,6 +456,8 @@ core:
       render_failed_message: 'Désolé, une erreur est survenue lors de l''affichage du contenu. Si vous êtes un utilisateur, veuillez réessayer plus tard. Si vous êtes un administrateur, consultez vos fichiers journaux de Flarum pour obtenir plus d''informations.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
+    nav:
+      drawer_button: 'Ouvrir le tiroir de navigation'
     number_suffix:
       kilo_text: k
       mega_text: M
