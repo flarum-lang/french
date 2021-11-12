@@ -417,6 +417,8 @@ core:
       alert_message: '=> core.ref.confirmation_email_sent'
       resend_button: 'Renvoyer le courriel de confirmation'
       sent_message: Envoyé
+    welcome_hero:
+      hide: 'Masquer le message de bienvenue'
   group:
     admin: Administrateur
     admins: Administrateurs
@@ -456,6 +458,8 @@ core:
       render_failed_message: 'Désolé, une erreur est survenue lors de l''affichage du contenu. Si vous êtes un utilisateur, veuillez réessayer plus tard. Si vous êtes un administrateur, consultez vos fichiers journaux de Flarum pour obtenir plus d''informations.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
+    modal:
+      close: Fermer
     nav:
       drawer_button: 'Ouvrir le tiroir de navigation'
     number_suffix:
