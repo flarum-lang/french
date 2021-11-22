@@ -46,6 +46,7 @@ Includes the following French locales compatible with:
 
 | Extension | Status |
 | --- | --- |
+| [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/acpl-lscache/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-lscache/fr/) |
 | [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/acpl-mobile-tab/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-mobile-tab/fr/) |
 | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/acpl-my-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-my-tags/fr/) |
 | [`afrux/asirem`](https://github.com/afrux/asirem) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/afrux-asirem/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/afrux-asirem/fr/) |
@@ -96,6 +97,7 @@ Includes the following French locales compatible with:
 | [`clarkwinkelmann/flarum-ext-username-blacklist`](https://github.com/clarkwinkelmann/flarum-ext-username-blacklist) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/clarkwinkelmann-username-blacklist/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-username-blacklist/fr/) |
 | [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/clarkwinkelmann-who-read/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-who-read/fr/) |
 | [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/datitisev-backup/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/datitisev-backup/fr/) |
+| [`datitisev/flarum-discussion-agree-message`](https://github.com/datitisev/flarum-discussion-agree-message) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/datitisev-discussion-agree-message/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/datitisev-discussion-agree-message/fr/) |
 | [`datitisev/flarum-maintenance`](https://extiverse.com/extension/datitisev/flarum-maintenance) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/datitisev-maintenance/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/datitisev-maintenance/fr/) |
 | [`datitisev/flarum-webhooks-pro`](https://extiverse.com/extension/datitisev/flarum-webhooks-pro) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/datitisev-webhooks-pro/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/datitisev-webhooks-pro/fr/) |
 | [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links) | [![Translation status](https://weblate.rob006.net/widgets/flarum/fr/davwheat-custom-sidenav-links/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/davwheat-custom-sidenav-links/fr/) |
