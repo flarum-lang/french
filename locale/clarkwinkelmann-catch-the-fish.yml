@@ -14,10 +14,31 @@ clarkwinkelmann-catch-the-fish:
     settings:
       alert-round: 'Afficher une alerte avec le nom et la durée du round sur la page d''accueil'
       animate-flip: 'Retourner les images de poissons en fonction de la direction'
+      discussion: Discussions
       discussion-age: 'Quelle ancienneté doivent avoir les discussions pour qu''un poisson puisse y être placé (en jours)'
+      discussion-tags: 'Liste blanche d''étiquette'
+      discussion-tags-help: "Si vous ne sélectionnez aucune étiquette, toute discussion correspondant aux paramètres de temps ci-dessus peut être choisie. Si un nombre quelconque d'étiquettes est sélectionné, une discussion doit avoir au moins une des étiquettes sélectionnées pour être choisie. La probabilité est la chance d'être choisi après que tous les choix précédents ont été essayés. La dernière étiquette de la liste servira toujours de solution de secours, alors assurez-vous que cette étiquette contient au moins une discussion valide.\n"
+      discussion-tags-unavailable: 'Paramètre non disponible car l''extension Tags est désactivée.'
+      general: Général
+      post: Messages
       post-age: 'Quelle ancienneté doivent avoir les messages pour qu''un poisson puisse y être placé (en jours)'
+      post-probability: 'Probabilité d''être placé sur un message plutôt que sur la discussion (%)'
+      tags-control:
+        add: 'Ajouter à la liste blanche'
+        choose: 'Choisir une étiquette'
+        delete: 'Supprimer de la liste blanche'
+        down: Descendre
+        up: Monter
+      tags-fallback:
+        last-line: 'Solution de secours'
+        single-line: 'Au moins 2 étiquettes requises pour la probabilité'
+      tags-header:
+        probability: Probabilité
+        tag: Étiquette
       time-to-place: 'Temps alloué pour placer le poisson avant qu''il ne soit placé au hasard (en minutes)'
+      user: Utilisateurs
       user-age: 'Depuis combien de temps un utilisateur doit être actif pour qu''un poisson puisse y être placé (jours)'
+      user-probability: 'Probabilité d''être placé sur un profil utilisateur (%)'
   api:
     cannot-catch-hold-fish: 'Le pêcheur précédent doit relâcher le poisson avant que vous ne puissiez l''attraper'
     cannot-catch-own-fish: 'Vous ne pouvez pas attraper un poisson que vous avez vous-même placé'
@@ -36,6 +57,7 @@ clarkwinkelmann-catch-the-fish:
     random-error: 'Impossible de générer un placement aléatoire des poissons'
     round-finished: 'Ce round est terminé'
     round-not-started: 'Ce round n''a pas commencé'
+    tag-not-allowed: 'Vous ne pouvez pas placer de poisson sous cette étiquette'
     too-many-placement-models: 'Un seul placement est possible à la fois'
     user-suspended: 'Impossible de placer un poisson sur un utilisateur suspendu'
     wrong-catch-placement: 'Il n''y a pas de poisson ici. Peut-être que vous n''avez pas été assez rapide et que quelqu''un d''autre l''a attrapé en premier'
@@ -118,6 +140,7 @@ clarkwinkelmann-catch-the-fish:
       new-from-image: 'Créer de nouveaux poissons via l''importation d''images en masse'
       no-user-name: 'Pas renommé'
       no-user-place: Aléatoire
+      placement: 'Localisation actuelle'
       title: 'Poissons du round {name}'
       upload: 'Transférer une nouvelle image'
       user-name: 'Dernière nomination par'

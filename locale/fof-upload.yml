@@ -51,6 +51,7 @@ fof-upload:
       preferences:
         max_file_size: 'Taille maximale du fichier (en kilo-octets)'
         mime_types: 'Configurez votre type MIME (téléversez la cartographie de téléchargement)'
+        php_ini_values: 'Vos valeurs <code>php.ini</code> sont <code>post_max_size={post}</code> et <code>upload_max_filesize={upload}</code>. Assurez-vous que la valeur définie ici est inférieure à ces seuils ou ajustez-les en conséquence. Si vous utilisez <code>Nginx</code>, assurez-vous également que <code>client_max_body_size</code> est d''une taille suffisante pour la limite maximale choisie.'
         title: 'Préférences générales'
       qiniu:
         bucket: 'Espace de stockage mémoire'
@@ -125,3 +126,5 @@ fof-upload:
       error: Erreur
       loading: Transfert
       unauthorized: 'Vous n''êtes pas autorisé à télécharger des fichiers'
+    validation:
+      max_size: 'Les téléchargements de plus de {max} kb ne sont pas acceptés.'
