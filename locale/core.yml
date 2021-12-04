@@ -559,6 +559,9 @@ core:
       log_out_button: '=> core.ref.log_out'
       log_out_confirmation: 'Êtes-vous sûr de vouloir vous déconnecter de {forum} ?'
       title: '=> core.ref.log_out'
+    meta_titles:
+      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle} : Page # - {forumName}}}'
+      without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}'
     reset_password:
       confirm_password_label: 'Confirmer le nouveau mot de passe'
       new_password_label: 'Nouveau mot de passe'
