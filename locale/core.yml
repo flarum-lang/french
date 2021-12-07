@@ -276,7 +276,7 @@ core:
       delete_button: '=> core.ref.delete'
       delete_confirmation: 'Êtes-vous sûr de vouloir supprimer cette discussion ?'
       delete_forever_button: '=> core.ref.delete_forever'
-      log_in_to_reply_button: 'Se connecter pour répondre'
+      log_in_to_reply_button: Répondre
       rename_button: '=> core.ref.rename'
       reply_button: '=> core.ref.reply'
       restore_button: '=> core.ref.restore'
