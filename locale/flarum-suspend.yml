@@ -6,18 +6,34 @@ flarum-suspend:
   admin:
     permissions:
       suspend_users_label: 'Suspendre les utilisateurs'
+  email:
+    suspended:
+      body: "Bonjour {recipient_display_name},\n\nVous avez été suspendu pour le motif suivant :\n\n---\n{suspension_message}\n---\n"
+      subject: 'Votre compte a été suspendu'
+    unsuspended:
+      body: "Bonjour {recipient_display_name},\n\nVous n'êtes plus suspendu. Vous pouvez retourner sur le forum en cliquant sur le lien suivant :\n\n{forum_url}\n"
+      subject: 'Votre compte n''est plus suspendu'
   forum:
     notifications:
+      user_suspended_indefinite_text: 'Vous avez été suspendu pour une durée indéterminée'
       user_suspended_text: 'Vous avez été suspendu pour {timeReadable}'
       user_unsuspended_text: 'Vous n''êtes plus suspendu'
     suspend_user:
+      display_message: 'Message d''affichage pour l''utilisateur'
       indefinitely_label: 'Suspendre indéfiniment'
       limited_time_days_text: ' jour(s)'
       limited_time_label: 'Suspendre temporairement…'
       not_suspended_label: 'Non suspendu'
+      placeholder_optional: Optionnel
+      reason: 'Motif de la suspension'
       status_heading: 'Statut de la suspension'
       submit_button: '=> core.ref.save_changes'
       title: 'Suspendre {username}'
+    suspension_info:
+      dismiss_button: Rejeter
+      indefinite: 'Il s''agit d''une suspension pour une durée indéterminée'
+      limited: 'Cette suspension sera en vigueur jusqu''au {date}'
+      title: 'Ce compte est suspendu'
     user_badge:
       suspended_tooltip: Suspendu
     user_controls:
