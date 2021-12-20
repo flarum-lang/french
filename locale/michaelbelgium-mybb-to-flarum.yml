@@ -18,7 +18,7 @@ michaelbelgium-mybb-to-flarum:
           host_label: 'Hôte de la base de données'
           password_label: 'Mot de passe de la base de données'
           path_label: 'Chemin absolu de MyBB'
-          prefix_label: 'Préfixe de la table'
+          prefix_label: 'Préfixe de table'
           title: 'Paramètres de MyBB'
           user_label: 'Utilisateur de la base de données'
         options:
