@@ -4,9 +4,14 @@
 
 acpl-lscache:
   admin:
-    public_cache_ttl_help: 'Spécifiez combien de temps, en secondes, les pages publiques sont mises en cache. La valeur par défaut est de 300 secondes'
+    cache_exclude_help: 'Les chemins contenant ces chaînes ne seront pas mis en cache. Par exemple, pour <code>/mypath/mypage?aa=bb</code>, <code>mypage?aa=</code> peut être utilisé ici. Pour faire correspondre le début, ajoutez <code>^</code> au début de l''élément. Pour faire une correspondance exacte, ajoutez <code>$</code> à la fin de l''URL. Un par ligne.'
+    cache_exclude_label: 'Ne pas mettre en cache les chemins'
+    clearing_cache_listener_label: 'Purger LSCache lorsque le cache Flarum est vidé'
+    public_cache_ttl_help: 'Spécifiez combien de temps, en secondes, les pages publiques sont mises en cache. La valeur par défaut est de 300 secondes.'
     public_cache_ttl_label: 'TTL du cache public par défaut'
     purge_all: 'Purger tous les LSCache'
     purge_all_success: 'Serveur Web LiteSpeed notifié pour purger toutes les entrées LSCache'
-    purge_on_discussion_update_help: 'Spécifiez une URL ou une balise par ligne. L''URL doit commencer par <code>/</code>, par ex. <code>/rankings</code> et la balise de cache doivent commencer par <code>tag=</code>, par ex. <code>tag=rankings</code>. Cette extension balise chaque route, aussi si vous avez beaucoup de routes que vous aimeriez purger, il est préférable d''ajouter une règle dans .htaccess avec une expression régulière qui balisera les routes, ainsi qu''ici dans les paramètres où vous n''indiquerez que cette balise. Cette méthode sera beaucoup plus rapide. <a>En savoir plus</a>. Par défaut, le cache de la page d''accueil est purgé, ainsi que le cache des discussions mises à jour'
+    purge_on_discussion_update_help: 'Spécifiez une URL ou une balise par ligne. L''URL doit commencer par <code>/</code>, par ex. <code>/rankings</code> et la balise de cache doivent commencer par <code>tag=</code>, par ex. <code>tag=rankings</code>. Cette extension balise chaque route, aussi si vous avez beaucoup de routes que vous aimeriez purger, il est préférable d''ajouter une règle dans .htaccess avec une expression régulière qui balisera les routes, ainsi qu''ici dans les paramètres où vous n''indiquerez que cette balise. Cette méthode sera beaucoup plus rapide. <a>En savoir plus</a>. Par défaut, le cache de la page d''accueil est purgé, ainsi que le cache des discussions mises à jour.'
     purge_on_discussion_update_label: 'Purger les URL ou les étiquettes lorsqu''une discussion ou un message est mis à jour'
+    serve_stale_help: 'Si cette option est activée, la copie obsolète d''une page en cache sera affichée aux visiteurs jusqu''à ce qu''une nouvelle copie en cache soit disponible. Réduit la charge du serveur pour les visites suivantes. Si OFF, la page sera générée dynamiquement pendant que les visiteurs attendent. De par sa conception, cette option peut servir du contenu périmé. N''activez pas cette option, si cela ne vous convient pas.'
+    serve_stale_label: 'Servir du contenu obsolète'

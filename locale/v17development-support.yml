@@ -177,7 +177,26 @@ v17development-flarum-support:
       overview:
         all_tickets: 'Tous les tickets'
         description: 'Souriez, vous êtes le héros qui sauve la journée d''autres personnes.'
+        filter:
+          assignees:
+            search: 'Rechercher un assigné'
+            title: 'Filtrer les assignés'
+            unassigned: 'Non attribué'
+          language:
+            any: 'N''importe quel langage'
+          status:
+            filter_count: '{count, plural, one {# filtre} other {# filtres}}'
+            title: 'Statut du ticket'
         no_tickets: 'Il n''y a pas de billets qui correspondent à vos critères, vous faites probablement du bon travail !'
+        refresh: Actualiser
+        selection_closed: 'Tickets fermés'
+        selection_open: 'Tickets ouverts'
+        selection_unfiltered: 'Non filtré'
+        sort:
+          least_recent: 'Activité la moins récente'
+          newest: 'Le plus récent d''abord'
+          oldest: 'Le plus âgé en premier'
+          recent_activity: 'Activité récente'
         title: 'Vue d''ensemble des tickets'
       reminders_sent: '{count, plural, one {Un rappel envoyé} other {# rappels envoyés}}'
       return_to_overview: 'Retourner à la vue d''ensemble des tickets'

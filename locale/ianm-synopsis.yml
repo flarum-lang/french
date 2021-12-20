@@ -6,10 +6,18 @@ ianm-synopsis:
   admin:
     settings:
       excerpt-label: 'Longueur de l''extrait du résumé en caractères'
+      excerpt-length:
+        help: 'Combien de caractères du message doivent être affichés.'
+        label: 'Longueur de l''extrait du résumé en nombre de caractères'
       excerpt-type: 'Quel message doit être affiché comme extrait ?'
+      excerpt-type.help: 'Sélectionnez si le premier ou le dernier message doit être utilisé pour le contenu du synopsis'
+      excerpt-type.label: "Quel message doit être affiché comme extrait\_?"
       first-label: 'Premier message'
       last-label: 'Dernier message'
       rich-excerpts: 'Afficher des extraits à l''aide d''un contenu riche (à utiliser avec précaution)'
+      rich-excerpts.help: 'Lorsqu''il est activé, des images, des intégrations et d''autres éléments non textuels peuvent être inclus dans le synopsis'
+      rich-excerpts.label: 'Afficher des extraits à l''aide de contenu riche'
+      tags-enabled: 'Vous avez activé <code>flarum/tags</code>. Ces paramètres deviendront par défaut, à moins que les étiquettes individuelles n''aient leur propre paramètre.'
   forum:
     user:
       settings:

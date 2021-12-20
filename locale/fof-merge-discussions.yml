@@ -9,6 +9,7 @@ fof-merge-discussions:
   api:
     error:
       deleting_failed: 'Échec de la suppression des discussions vides.'
+      fixing_posts_number_failed: 'Échec de la correction des numéros de messages.'
       merging_failed: 'Échec de la fusion des discussions.'
       updating_failed: 'Échec de la mise à jour des informations de la discussion.'
   forum:

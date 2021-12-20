@@ -3,6 +3,10 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 justoverclock-hashtag:
+  admin:
+    settings:
+      regexdesc: 'Un exemple est montré ci-dessous comme espace réservé. Ne modifiez que si vous comprenez les expressions régulières.'
+      regexlabel: 'Expression régulière de mot-dièse'
   forum:
     post:
-      hashtag_link_tooltip: 'Trouvez d''autres messages liés à ce mot-dièse'
+      hashtag_link_tooltip: 'Trouvez les messages liés à ce mot-dièse'

@@ -43,6 +43,7 @@ fof-gamification:
         auto_upvote: 'Attribuer automatiquement un vote positif lorsqu''un message est publié'
         color_holder: '#ffffff'
         discussion_page: 'Afficher le nombre total de votes du message original sur la liste de discussions'
+        first_post_only: 'Autoriser uniquement les votes positifs/négatifs dans le premier message d''une discussion'
         icon_help: 'Entrez n''importe quelle icône Font Awesome ayant le suffixe -up et -down. Exemples : flèche, pouce, chevron'
         icon_name: 'Icône de vote positif/négatif'
         points_placeholder: 'Points : '
@@ -56,6 +57,11 @@ fof-gamification:
       see_voters_label: 'Voir qui a voté'
       see_votes_label: 'Voir le nombre de votes positifs/négatifs'
       vote_label: 'Votes positifs/négatifs des messages'
+  email:
+    body:
+      postVoted: "Salut {recipient_display_name},\n\n{actor_display_name} vient de voter pour votre message dans {discussion_title}.\n\nVoir ici\_: {discussion_url}\n"
+    subject:
+      postVoted: 'Votre message a été voté par {display_name}'
   forum:
     mod_item: 'Voir les votants'
     modal:
@@ -65,7 +71,12 @@ fof-gamification:
       name: Classements
     notification:
       downvote: '{username} a voté négativement votre message'
+      prefrences:
+        vote: 'Lorsqu''un de mes messages est voté'
       upvote: '{username} a voté positivement votre message'
+    post:
+      downvote_button: 'Voter contre le message'
+      upvote_button: 'Voter pour le message'
     ranking:
       amount: Points
       name: Utilisateur
@@ -74,4 +85,8 @@ fof-gamification:
       points: 'Points : {points}'
       rank: '{rank}'
     vote_title: 'Afficher qui a voté'
+    voters:
+      label: Votants
+      label_none: 'Pas de votants'
+      none: 'Pas encore de votants'
     votes: Votes

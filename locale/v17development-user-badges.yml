@@ -22,8 +22,15 @@ v17development-flarum-badges:
       requirement_drivers:
         has_badge: 'Possède un badge'
     badge:
+      background_color: 'Couleur d''arrière-plan'
       description: 'Description du badge'
       icon: 'Icône du badge'
+      icon_color: 'Couleur de l''icône'
+      image: 'URL de l''image du badge'
+      image_placeholder: 'Saisissez l''URL vers l''image du badge'
+      is_image: 'Le badge est une image'
+      is_image_description: 'Utiliser une image au lieu du badge par défaut'
+      label_color: 'Couleur du texte'
       name: 'Nom du badge'
       visible: Visible
       visible_description: 'Activer ce badge. Lorsque cette option est désactivée, le badge n''est pas visible.'

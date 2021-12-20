@@ -6,4 +6,5 @@ afrux-news-widget:
   admin:
     settings:
       add_line: 'Ajouter une ligne d''actualités'
+      html_warning: 'Faites attention, tout HTML sera rendu.'
       lines: 'Lignes d''actualités'

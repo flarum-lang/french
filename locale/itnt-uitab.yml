@@ -5,5 +5,11 @@
 itnt-uitab:
   admin:
     settings:
+      composer_icon_label: 'Icône du compositeur'
+      discussions_icon_label: 'Icône de discussion'
       help_text: 'Si votre forum Flarum est installé dans un sous-répertoire, veuillez spécifier le sous-répertoire ci-dessous (en terminant par une barre oblique), auquel cas veuillez laisser la valeur par défaut, par exemple <code>/sub/</code>'
       home_page_label: Sous-répertoire
+      icon_help: 'Laissez vide pour utiliser l''icône par défaut.'
+      notifications_icon_label: 'Icône de notifications'
+      settings_icon_label: 'Icône de paramètres'
+      tags_icon_label: 'Icône d''étiquettes'
