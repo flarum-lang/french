@@ -10,9 +10,12 @@ fof-byobu:
       create_private_discussions_with_users: 'Créer des discussions privées avec des utilisateurs'
       edit_group_recipients: 'Modifier les groupes participant à des discussions privées'
       edit_user_recipients: 'Modifier les utilisateurs participant à des discussions privées'
+      make_private_into_public: 'Transformer une discussion privée en discussion publique'
       view_private_discussions-when-flagged: 'Afficher les discussions privées d''autres utilisateurs qui ont été signalées'
     settings:
       badge-icon: 'Badge de discussion Byobu'
+      enable-make-public-option: "Activer la capacité «\_rendre public\_»"
+      enable-make-public-option-help: 'Ajoute la possibilité pour les personnes autorisées de supprimer tous les destinataires, d''attribuer une nouvelle étiquette et de rendre la discussion visible publiquement (selon les paramètres de visibilité de l''étiquette choisie).'
       post-event-icon: 'Événements de publication Byobu'
   email:
     body:
@@ -33,12 +36,15 @@ fof-byobu:
       add_recipients: Destinataires
       cancel: Annuler
       edit_recipients: 'Modifier les destinataires'
+      make_public: 'Rendre cette discussion publique'
       remove_from_discussion: 'Quitter cette discussion privée'
       send_pd: 'Envoyer un message à {username}'
       submit: OK
     composer_private_discussion:
       submit_button: 'Publier une discussion privée'
       title_placeholder: 'Titre de la discussion privée'
+    confirm:
+      make_public: "Voulez-vous vraiment supprimer les destinataires et rendre cette discussion visible à tous ceux qui peuvent voir l'étiquette attribuée\_?"
     input:
       search_recipients: 'Rechercher un destinataire en saisissant ses trois premiers caractères…'
     labels:
@@ -72,6 +78,7 @@ fof-byobu:
       recipients_modified:
         added: '{username} a ajouté {added} aux destinataires.'
         added_and_removed: '{username} a ajouté {added} et a supprimé {removed} aux destinataires.'
+        made_public: '{username} a supprimé tous les destinataires et rendu la discussion publique'
         removed: '{username} a supprimé {removed} des destinataires.'
         removed_self: '{username} a quitté la discussion privée.'
     search:

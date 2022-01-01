@@ -49,7 +49,7 @@ xelson-chat:
           users:
             edit: 'Sélectionner et modifier les utilisateurs'
         moderator:
-          got: 'Vous venez de recevoir les droits de modérateur dans le chat {chatname} !'
+          got: 'Vous venez d''obtenir les droits de modérateur sur le chat {chatname} !'
           lost: 'Vous venez de perdre vos droits de modérateur dans le chat {chatname}.'
         save_button: '=> core.ref.save_changes'
         search:
@@ -83,6 +83,7 @@ xelson-chat:
           search:
             failed: 'Aucun utilisateur correspondant n''a été trouvé'
             invited: Invité
+            more_results: 'Et {more_results} plus...'
             placeholder: 'Rechercher des utilisateurs'
           title: 'Sélectionner les utilisateurs'
         pin: 'Épingler le panneau'

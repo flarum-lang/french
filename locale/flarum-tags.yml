@@ -46,6 +46,7 @@ flarum-tags:
       meta_description_text: 'Toutes les étiquettes'
       meta_title_text: '=> flarum-tags.ref.tags'
     choose_tags:
+      bypass_requirements: 'Ignorer les exigences relatives aux étiquettes'
       choose_primary_placeholder: '{count, plural, one {Sélectionnez une étiquette primaire} other {Sélectionnez # étiquettes primaires}}'
       choose_secondary_placeholder: '{count, plural, one {Sélectionnez une étiquette secondaire} other {Sélectionnez # étiquettes secondaires}}'
       edit_title: 'Modifiez les étiquettes de {title}'

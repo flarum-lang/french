@@ -429,6 +429,8 @@ core:
     mod: Modérateur
     mods: Modérateurs
   lib:
+    alert:
+      dismiss_a11y_label: 'Ignorer l''alerte'
     badge:
       hidden_tooltip: Masquée
     debug_button: Déboguer
