@@ -460,6 +460,9 @@ core:
       render_failed_message: 'Désolé, une erreur est survenue lors de l''affichage du contenu. Si vous êtes un utilisateur, veuillez réessayer plus tard. Si vous êtes un administrateur, consultez vos fichiers journaux de Flarum pour obtenir plus d''informations.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
+    meta_titles:
+      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle} : Page # - {forumName}}}'
+      without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}'
     modal:
       close: Fermer
     nav:
