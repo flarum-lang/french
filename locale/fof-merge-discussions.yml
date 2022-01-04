@@ -6,12 +6,19 @@ fof-merge-discussions:
   admin:
     permissions:
       merge_discussions_label: 'Fusionner les discussions'
+    settings:
+      search_result_help: "Combien de discussions doivent être renvoyées lors de la recherche dans le modal «\_Fusionner les discussions\_». La valeur par défaut est 4"
+      search_result_label: 'Limite de recherche de fusion de discussion'
   api:
     error:
       deleting_failed: 'Échec de la suppression des discussions vides.'
       fixing_posts_number_failed: 'Échec de la correction des numéros de messages.'
       merging_failed: 'Échec de la fusion des discussions.'
       updating_failed: 'Échec de la mise à jour des informations de la discussion.'
+  email:
+    merged:
+      body: "Salut {recipient_display_name},\n\nVotre discussion, {merged_discussion_title}, a été fusionnée dans {discussion_title} par {actor_display_name}.\n\nConsultez-le ici {discussion_url} .\n"
+      subject: 'Votre discussion "{merged_discussion_title}" a été fusionnée'
   forum:
     discussion:
       merge: '=> fof-merge-discussions.ref.merge'
@@ -23,6 +30,10 @@ fof-merge-discussions:
       type_from_label: 'Fusionner cette discussion avec une autre'
       type_target_help_text: 'Sélectionnez une ou plusieurs discussions à fusionner avec <b>{title}</b>.'
       type_target_label: 'Fusionner avec moi'
+    notification:
+      discussion_merged: 'Votre discussion <b>{oldTitle}</b> a été fusionnée dans cette discussion par {username}.'
+      preferences:
+        discussion_merged: 'Quelqu''un a fusionné une de mes discussions avec une autre'
     post:
       merged: '{count, plural, one {Fusion de <b>#</b> message de {titles}.} other {Fusion de <b>#</b> messages de {titles}.}}'
   ref:
