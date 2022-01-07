@@ -4,12 +4,17 @@
 
 justoverclock-frontend-blog:
   admin:
+    charLim: 'Limite de caractères'
+    charLim-help: 'Mettez ici le nombre de caractère max à afficher'
     numberOfPost: 'Nombre de messages'
     numberOfPost-help: 'Mettez ici le nombre de message que vous souhaitez afficher'
     sorting: "Discussions les plus récentes ou les plus chaudes\_? (la valeur par défaut est la plus récente)"
     sorting-help: 'Si vous souhaitez afficher les dernières discussions, écrivez "-createdAt", pour les discussions chaudes, écrivez "-commentCount"'
   forum:
+    allDiscussions: 'Toutes les discussions'
     linkToDiscussion: ' Lien vers la discussion'
+    menuButton: Menu
     post: '{count, plural, one {# MESSAGE} other {# MESSAGES}}'
+    postedOn: ' Posté sur : '
     recentDiscussions: "Discussions récentes\_:"
     titlePage: 'Discussions sur le forum'
