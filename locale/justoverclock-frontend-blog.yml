@@ -6,15 +6,24 @@ justoverclock-frontend-blog:
   admin:
     charLim: 'Limite de caractères'
     charLim-help: 'Mettez ici le nombre de caractère max à afficher'
+    defaultImage: 'Image de publication par défaut'
+    defaultImage-help: 'ici vous pouvez définir l''image par défaut pour les publications qui n''en ont pas'
     numberOfPost: 'Nombre de messages'
     numberOfPost-help: 'Mettez ici le nombre de message que vous souhaitez afficher'
+    setBlogIndexPage: 'Définir l''extension Frontend Blog comme page principale'
+    showHeaderHero: 'Afficher Welcome Hero'
+    showPinnedDiscussions: 'Afficher les 3 dernières discussions épinglées'
     sorting: "Discussions les plus récentes ou les plus chaudes\_? (la valeur par défaut est la plus récente)"
     sorting-help: 'Si vous souhaitez afficher les dernières discussions, écrivez "-createdAt", pour les discussions chaudes, écrivez "-commentCount"'
   forum:
-    allDiscussions: 'Toutes les discussions'
+    allDiscussions: Forum
     linkToDiscussion: ' Lien vers la discussion'
+    loginButton: Connexion
     menuButton: Menu
     post: '{count, plural, one {# MESSAGE} other {# MESSAGES}}'
     postedOn: ' Posté sur : '
+    readMore: 'Lire la suite'
     recentDiscussions: "Discussions récentes\_:"
+    signupButton: Inscription
+    stickyTitle: 'Discussions épinglées'
     titlePage: 'Discussions sur le forum'

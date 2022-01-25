@@ -89,6 +89,7 @@ fof-upload:
       markdown-image: 'Modèle d''image Markdown'
       markdown-image_description: "Affiche l'image en ligne complète en utilisant Markdown. <strong>L’extension flarum/markdown doit être installée et activée pour que cette option puisse fonctionner.</strong> Aucune fonctionnalité de téléchargement ni aucune statistique n'est collectée, et la protection des liens chauds est ignorée.\n"
       text-preview: 'Aperçu du texte'
+      text-preview_description: "Insère un aperçu (5 premières lignes) du fichier texte, avec une option de développement pour révéler le contenu complet du fichier.\n"
     upload_methods:
       aws-s3: 'Compatible avec Amazon S3'
       imgur: Imgur
@@ -127,5 +128,11 @@ fof-upload:
       error: Erreur
       loading: Transfert
       unauthorized: 'Vous n''êtes pas autorisé à télécharger des fichiers'
+    text_preview:
+      collapse: 'Réduire l''aperçu'
+      error: "Erreur lors de la prévisualisation du fichier. Il a peut-être été supprimé ou l'ID de fichier fourni n'est pas valide.\n"
+      expand: 'Développer l''aperçu'
+      no_snippet: '<aucun extrait d''aperçu disponible>'
+      no_snippet_preview: '<l''aperçu apparaîtra ici après la publication>'
     validation:
       max_size: 'Les téléchargements de plus de {max} kb ne sont pas acceptés.'
