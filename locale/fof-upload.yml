@@ -88,6 +88,7 @@ fof-upload:
       just-url_description: "Insère uniquement l'URL. Le rendu peut être géré par d'autres extensions ayant la capacité de créer des liens automatiques. Il n'y a pas de fonctionnalité de téléchargement, aucune statistique n'est collectée et la protection contre les liens hypertextes automatiques est ignorée.\n"
       markdown-image: 'Modèle d''image Markdown'
       markdown-image_description: "Affiche l'image en ligne complète en utilisant Markdown. <strong>L’extension flarum/markdown doit être installée et activée pour que cette option puisse fonctionner.</strong> Aucune fonctionnalité de téléchargement ni aucune statistique n'est collectée, et la protection des liens chauds est ignorée.\n"
+      text-preview: 'Aperçu du texte'
     upload_methods:
       aws-s3: 'Compatible avec Amazon S3'
       imgur: Imgur

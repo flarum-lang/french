@@ -5,10 +5,14 @@
 flarum-bbcode-button:
   admin:
     settings:
-      codedesc: 'Tapez les balises BBCode d''ouverture et de fermeture ci-dessous et enregistrez.'
-      codelabel: 'BBCode personnalisé'
-      posdesc: 'Vous voudrez que le curseur se trouve par défaut entre les balises d''ouverture et de fermeture. Ajustez ce nombre pour y parvenir. Plus le nombre est grand, plus le curseur apparaîtra vers la droite.'
-      poslabel: 'Placement du curseur'
+      codedesc: 'Saisissez les balises d''ouverture et de fermeture du BBCode.'
+      codelabel: 'Balises BBCode'
+      icondesc: 'Entrez le nom de la class Font Awesome.'
+      iconlabel: 'Icône du bouton'
+      introdesc: 'Configurez et enregistrez ces paramètres avant d''essayer de les utiliser. Cette extension ajoute un nouveau bouton à la barre d''outils de l''éditeur. Il a été construit pour permettre d''insérer un BBCode personnalisé. Cependant, n''hésitez pas à utiliser votre imagination. Utilisez-le pour insérer un Markdown personnalisé ou une phrase courante.'
+      introlabel: 'Bouton BBCode personnalisé [ ]'
+      posdesc: 'Plus le nombre est grand, plus le curseur apparaîtra vers la droite.'
+      poslabel: 'Placement du curseur après avoir appuyé sur le bouton'
   forum:
     composer:
       bbcode_tooltip: 'Insérer un BBCode'

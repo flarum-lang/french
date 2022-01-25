@@ -3,6 +3,16 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 datlechin-birthdays:
+  admin:
+    permissions:
+      edit_own_birthday_label: 'Modifier son propre anniversaire'
+    settings:
+      date_format_help: 'Utilisez le format de date de <a>dayjs</a>. Laissez vide pour utiliser le format par défaut.'
+      date_format_label: 'Format de date'
+      date_none_year_label: 'Format de date sans année'
+      set_on_registration_label: 'Autoriser le paramétrage des anniversaires lors de l''inscription'
+  api:
+    invalid_dob_message: 'Votre date de naissance doit être inférieure à 100 ans.'
   forum:
     change_dob:
       date_of_birth_text: 'Date de naissance'
@@ -11,8 +21,16 @@ datlechin-birthdays:
       show_dob_year_help: 'Cela permettra aux gens de voir votre âge.'
       submit_button: '=> core.ref.save_changes'
       title: 'Modifier la date de naissance'
+    edit_user:
+      dob_heading: 'Date de naissance'
     header:
       edit_dob_button: 'Modifier la date de naissance'
+    settings:
+      change_dob_label: 'Modifier la date de naissance'
+      dob_heading: 'Date de naissance'
+      show_dob_date_label: 'Afficher le jour et le mois de naissance'
+      show_dob_year_help: 'Cela permettra aux gens de voir votre âge.'
+      show_dob_year_label: 'Afficher l''année de naissance'
     user:
       age_text: "Âge\_: {age}"
       birthday_text: 'Date d''anniversaire : {date}'

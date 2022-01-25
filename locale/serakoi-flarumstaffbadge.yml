@@ -17,3 +17,6 @@ serakoi-flarumstaffbadge:
     edit_user:
       heading: 'Badge de l''équipe activé'
       placeholder: "Définissez l'entrée sur «\_true » pour activer le badge"
+      tagList:
+        heading: 'Liste des étiquettes utilisateur'
+        placeholder: 'Séparer avec ,'

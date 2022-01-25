@@ -6,6 +6,7 @@ davwheat-virtual-authors:
   admin:
     permissions:
       set_virtual_authors: 'Définir des auteurs virtuels sur les discussions'
+      view_virtual_authors_page: 'Voir la page détaillant tous les auteurs virtuels'
     settings:
       authors_in_sidebar: 'Afficher les auteurs dans la barre latérale au lieu du premier message ci-dessus'
       authors_in_sidebar_help: 'Cela n''a aucun effet sur l''extension Blog.'
@@ -17,6 +18,8 @@ davwheat-virtual-authors:
       next: 'Page suivante'
       prev: 'Page précédente'
       search_placeholder: 'Recherche par nom'
+      virtual_authors_page_disabled: 'Désactivez la liste des auteurs virtuels pour tous les utilisateurs.'
+      virtual_authors_page_disabled_help: 'Cela remplace toutes les autorisations définies pour cette fonctionnalité.'
     virtual_author_item:
       delete_a11y_tooltip: Supprimer
       delete_confirmation: 'Supprimer l''auteur virtuel ?'
@@ -44,8 +47,16 @@ davwheat-virtual-authors:
       virtual_author_exists: 'Déjà sélectionné !'
     virtual_author_page:
       credited_discussions: 'Discussions créditées à {displayName}'
-      discussion_count: '{count, plural, one {# discussion}, other {# discussions}}'
+      discussion_count: '=> davwheat-virtual-authors.ref.discussion_count'
       meta_title: '{displayName} - Auteurs'
+    virtual_authors_list:
+      discussion_count: '=> davwheat-virtual-authors.ref.discussion_count'
+      empty_text: 'Il semble qu''il n''y ait pas d''auteurs ici.'
+      filter_name_placeholder: 'Filtrer par nom'
+      meta_title: 'Tous les auteurs'
+      no_description: 'Cet auteur garde un air de mystère à son sujet.'
+      sidebar_link: Auteurs
+      title: 'Tous les auteurs'
     virtual_authors_panel:
       error: 'Échec du chargement des auteurs.'
       heading: Auteurs
@@ -61,4 +72,5 @@ davwheat-virtual-authors:
       title_edit: 'Modifier l''auteur virtuel'
       title_new: 'Nouvel auteur virtuel'
   ref:
+    discussion_count: '{count, plural, one {# discussion}, other {# discussions}}'
     no_description: '(aucune description définie)'

@@ -18,6 +18,8 @@ v17development-flarum-blog:
       categories_heading: Catégories
       default_article_image_label: 'Image par défaut de l''article'
       default_article_image_text: 'Sélectionnez une image d''article par défaut à afficher lorsqu''aucune image n''est définie.'
+      featured_count_label: 'Maximum de messages en vedette'
+      featured_count_text: "Combien de messages doivent être affichés dans une grande grille en haut d'une page de blog\_?"
       hide_on_discussion_list_label: 'Ne pas afficher sur la liste de discussions'
       hide_on_discussion_list_text: 'Masquer les articles de blog de la liste de discussions.'
       hide_tags_in_taglist_label: 'Masquer les étiquettes dans la liste des étiquettes'

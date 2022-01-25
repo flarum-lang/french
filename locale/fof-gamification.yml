@@ -65,6 +65,7 @@ fof-gamification:
   forum:
     mod_item: 'Voir les votants'
     modal:
+      downvotes_label: 'Votants négatifs'
       title: Votants
       upvotes_label: 'Votants positifs :'
     nav:
