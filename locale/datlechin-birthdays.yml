@@ -6,6 +6,7 @@ datlechin-birthdays:
   admin:
     permissions:
       edit_own_birthday_label: 'Modifier son propre anniversaire'
+      view_birthday_label: 'Afficher l''anniversaire'
     settings:
       date_format_help: 'Utilisez le format de date de <a>dayjs</a>. Laissez vide pour utiliser le format par défaut.'
       date_format_label: 'Format de date'
