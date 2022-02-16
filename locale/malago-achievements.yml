@@ -35,7 +35,7 @@ malago-achievements:
         discussions: 'Nombre minimum de discussions créées (par exemple 10) ou plage inclusive (par exemple 10,19)'
         edits: 'Nombre minimum de messages modifiés (par exemple 10) ou plage inclusive (par exemple 10,19)'
         likes: 'Nombre minimal de mentions « j''aime » distribuées (par exemple 10) ou plage inclusive (par exemple 10, 19)'
-        meanwords: 'Mot à rechercher et nombre minimum d''apparitions moyennes (par exemple poulet,10) ou plage inclusive (par exemple poulet,10,19)'
+        meanwords: 'Mots moyens par message, le minimum est de 10 (par exemple 10) ou plage inclusive (par exemple 10,19)'
         posts: 'Nombre minimum de messages (par exemple 10) ou plage inclusive (par exemple 10,19)'
         selflikes: 'Nombre minimal de mentions « j''aime » reçues (par exemple 10) ou plage inclusive (par exemple 10, 19)'
         tagposts: 'Identifiant texte unique de l''étiquette à rechercher et nombre minimum de messages (par exemple hors sujet,10) ou plage inclusive (par exemple hors sujet,10,19)'

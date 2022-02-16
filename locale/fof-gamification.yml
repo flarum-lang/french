@@ -53,9 +53,11 @@ fof-gamification:
         upvotes_only: 'Autoriser uniquement le vote positif'
         vote_color: 'Couleur votée'
     permissions:
+      downvote_notifications: 'Recevoir des notifications sur les votes négatifs'
       see_ranking_page: 'Voir la page de classement'
       see_voters_label: 'Voir qui a voté'
       see_votes_label: 'Voir le nombre de votes positifs/négatifs'
+      upvote_notifications: 'Recevoir des notifications sur les votes positifs'
       vote_label: 'Votes positifs/négatifs des messages'
   email:
     body:

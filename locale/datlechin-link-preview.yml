@@ -3,5 +3,12 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 datlechin-link-preview:
+  admin:
+    settings:
+      blacklist_help: 'Saisissez une liste de domaines ou d''URL séparés par des virgules à exclure de l''aperçu du lien.'
+      blacklist_label: 'Liste noire'
+      blacklist_placeholder: 'par exemple : facebook.com, https://domain.com/path'
+      convert_media_urls_help: 'Si activé, cela convertira toutes les URL des médias en aperçus de liens.'
+      convert_media_urls_label: 'Convertir les URL des médias'
   forum:
     site_cannot_be_reached: 'Ce site n''est pas accessible.'
