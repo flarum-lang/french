@@ -5,6 +5,7 @@
 flarum-ext-auth-keycloak:
   admin:
     keycloak_settings:
+      attribute_mapping_label: 'Mappage d''attributs personnalisés'
       client_id_label: 'Identifiant du client'
       client_secret_label: 'Secret du client'
       delegate_avatars_label: 'Délégation des avatars'
