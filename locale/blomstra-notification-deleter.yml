@@ -5,5 +5,5 @@
 blomstra-notification-deleter:
   forum:
     notifications:
-      delete_all_confirm: 'Êtes-vous sûr(e) de vouloir supprimer toutes les notifications ? Cette action n''est pas réversible.'
+      delete_all_confirm: 'Êtes-vous sûr(e) de vouloir supprimer toutes les notifications ? Cette action n''est pas réversible'
       delete_all_tooltip: 'Effacer toutes les notifications'
