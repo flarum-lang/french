@@ -4,6 +4,7 @@
 
 afrux-forum-widgets-core:
   admin:
+    cache_not_writable_warning: 'Le cache n''est actuellement pas accessible en écriture, ce qui empêchera certains widgets de fonctionner. Veuillez corriger les permissions de votre répertoire de stockage.'
     settings:
       prefer_data_with_initial_load: 'Préférer le chargement de toutes les données des widgets avec la réponse initiale de la page.'
       prefer_data_with_initial_load_help: 'Au lieu de charger les données des widgets après le chargement initial de la page en envoyant des requêtes API, les données seront (si possible) chargées lors du chargement initial.'

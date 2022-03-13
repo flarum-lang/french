@@ -7,7 +7,7 @@ datlechin-title-length:
     settings:
       limit_help: 'Activer pour utiliser la limite de longueur de titre personnalisée. Si elle est désactivée, la limite de longueur de titre par défaut de Flarum sera utilisée.'
       limit_label: 'Activer la longueur limite du titre'
-      max_help: 'La longueur maximale d''un titre. Cette valeur doit être supérieure à la longueur minimale.'
+      max_help: 'La longueur maximale du titre, la valeur maximale est de 1000.'
       max_label: 'Longueur maximale'
-      min_help: 'La longueur minimale d''un titre. Cette valeur doit être supérieure à 0.'
+      min_help: 'La longueur minimale du titre, la valeur minimale est 1.'
       min_label: 'Longueur minimale'

@@ -11,9 +11,14 @@ datlechin-birthdays:
       date_format_help: 'Utilisez le format de date de <a>dayjs</a>. Laissez vide pour utiliser le format par défaut.'
       date_format_label: 'Format de date'
       date_none_year_label: 'Format de date sans année'
+      min_age_help: 'Âge minimum pour s''inscrire'
+      min_age_label: 'Âge minimum'
+      required_help: 'Vous devez activer l''option Saisir à l''inscription pour que cette option fonctionne'
+      required_label: 'Saisie obligatoire des anniversaires'
       set_on_registration_label: 'Autoriser le paramétrage des anniversaires lors de l''inscription'
   api:
-    invalid_dob_message: 'Votre date de naissance doit être inférieure à 100 ans.'
+    invalid_age_message: 'Votre âge doit être d''au moins {minAge} ans.'
+    invalid_dob_message: 'Date de naissance invalide'
   forum:
     change_dob:
       date_of_birth_text: 'Date de naissance'

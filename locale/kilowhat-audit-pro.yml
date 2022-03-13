@@ -9,15 +9,25 @@ kilowhat-audit:
       pro: Professionnel
       title: Audit
       upgrade: 'Mise à niveau vers la version professionnelle'
+    limitedSettings:
+      configure: Configurer
+      introduction: 'Configurer ce que les utilisateurs ayant des droits d''accès limités peuvent voir'
+      requiresExtension: 'Requiers une extension {extension}'
+      title: 'Paramètres d''accès limité'
     permissions:
       view: 'Afficher le journal d''audit'
+      viewLimited: 'Voir le journal d''audit limité'
+    settings:
+      limitedIpAddress: 'Afficher l''adresse IP'
   forum:
     link:
       actor-audit: 'Journal d''Audit (utilisateur en tant qu''acteur)'
+      all-audit: 'Journal d''audit'
       discussion-audit: 'Journal d''Audit'
       user-audit: 'Journal d''Audit (modifications du compte)'
     modal:
       actor-title: 'Journal d''Audit d''acteur'
+      all-title: 'Journal d''audit'
       discussion-title: 'Journal d''Audit de discussion'
       user-title: 'Journal d''Audit d''utilisateur'
   lib:

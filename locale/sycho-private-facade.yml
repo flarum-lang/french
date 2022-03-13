@@ -14,6 +14,7 @@ sycho-private-facade:
         title: 'Disposition de l''en-tête'
       illustration_path: 'Image d''illustration'
       primary_color_bg: 'Utiliser un arrière-plan de couleur primaire'
+      route_exclusions: 'Routes à exclure de la redirection vers la page de connexion/inscription.'
       screen_banner_description: 'Message d''écran'
       screen_banner_heading: 'Bannière d''écran'
       screen_banner_title: 'Titre d''écran'
