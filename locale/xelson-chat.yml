@@ -19,7 +19,7 @@ xelson-chat:
       charlimit: 'Nombre maximum de caractères dans le message'
       display:
         censor: 'Censure des messages pour les utilisateurs non autorisés'
-        minimize: 'Minimiser au début'
+        minimize: 'Minimiser initialement'
         title: Affichage
       floodgate:
         number: 'Nombre de messages à la suite'
@@ -135,7 +135,7 @@ xelson-chat:
       unauthenticated: 'Seuls les utilisateurs inscrits peuvent utiliser le chat'
     index:
       chat_link: Chat
-    pusher_not_found: 'Pusher ou WebSockets est nécessaire pour que le chat soit mis à jour en temps réel.'
+    pusher_not_found: 'Pusher ou Websockets est nécessaire pour que le chat se mette à jour en temps réel.'
     toolbar:
       chat:
         settings: 'Paramètres du chat'

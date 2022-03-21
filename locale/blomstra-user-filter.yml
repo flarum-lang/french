@@ -12,9 +12,9 @@ blomstra-user-filter:
       filter_user:
         accessible_label: 'Filtrer par auteur'
         all: Tous
-        keep_typing: 'Continuez à taper...'
+        keep_typing: 'Continuer à taper...'
         label: 'Filtrer par auteur : {text}'
         no_results: 'Aucun résultat'
-        remove_filter: 'Retirez le filtre de l''auteur'
-        search_label: 'Recherchez des utilisateurs...'
-        start_typing: 'Commencez à taper...'
+        remove_filter: 'Supprimer le filtre d''auteur'
+        search_label: 'Rechercher des utilisateurs...'
+        start_typing: 'Commencer à écrire...'

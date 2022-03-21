@@ -4,8 +4,8 @@
 
 justoverclock-discord-widget:
   admin:
-    channelId: 'ID du salon'
-    channelId-help: 'Activez le Widget sur votre serveur et collez ici l''ID de votre salon'
+    channelId: 'Identifiant du salon'
+    channelId-help: 'Activez le widget sur votre serveur et collez ici l''identifiant de votre salon'
   forum:
     channels: Salons
     close: Fermer

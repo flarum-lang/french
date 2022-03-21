@@ -6,8 +6,8 @@ glowingblue-localizd:
   admin:
     settings:
       redirect_en: 'Rediriger l''anglais vers la langue par défaut du forum'
-      redirect_en_help: 'Cela vous permet effectivement de ne pas fournir une expérience en anglais dans le forum, mais permet au pack de langue anglaise de rester installé (pour que <code>fof/linguist</code> reconnaissent les clés, etc)'
-      title: 'Paramètres de localisation'
+      redirect_en_help: 'Vous permet effectivement de ne pas fournir une expérience en anglais dans le forum, mais permet au paquet de langue anglaise de rester installé (pour que <code>fof/linguist</code> reconnaisse les clés, etc.)'
+      title: 'Paramètres de Localizd'
     translation_key:
       help: 'Cette option est multilingue via <a>Linguist</a>.'
       modal_title: 'Ajouter des traductions avec Linguist'

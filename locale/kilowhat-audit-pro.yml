@@ -12,7 +12,7 @@ kilowhat-audit:
     limitedSettings:
       configure: Configurer
       introduction: 'Configurer ce que les utilisateurs ayant des droits d''accès limités peuvent voir'
-      requiresExtension: 'Requiers une extension {extension}'
+      requiresExtension: 'Nécessite l''extension {extension}'
       title: 'Paramètres d''accès limité'
     permissions:
       view: 'Afficher le journal d''audit'

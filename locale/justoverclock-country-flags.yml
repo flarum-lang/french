@@ -7,7 +7,7 @@ justoverclock-country-flags:
     countryColumn: Pays
     showFlagsOnPosts: 'Afficher les drapeaux sur les messages'
   forum:
-    clickToSelectCountry: 'Cliquer pour sélectionner votre pays'
+    clickToSelectCountry: 'Cliquez pour sélectionner votre pays'
     countrySaved: 'Le pays a été enregistré avec succès !'
     inputCountryCode: 'Code du pays'
     saveButton: Enregistrer

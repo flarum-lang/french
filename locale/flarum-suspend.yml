@@ -19,7 +19,7 @@ flarum-suspend:
       user_suspended_text: 'Vous avez été suspendu pour {timeReadable}'
       user_unsuspended_text: 'Vous n''êtes plus suspendu'
     suspend_user:
-      display_message: 'Message d''affichage pour l''utilisateur'
+      display_message: 'Afficher le message pour l''utilisateur'
       indefinitely_label: 'Suspendre indéfiniment'
       limited_time_days_text: ' jour(s)'
       limited_time_label: 'Suspendre temporairement…'
