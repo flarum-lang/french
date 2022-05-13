@@ -9,6 +9,6 @@ glowingblue-localizd:
       redirect_en_help: 'Vous permet effectivement de ne pas fournir une expérience en anglais dans le forum, mais permet au paquet de langue anglaise de rester installé (pour que <code>fof/linguist</code> reconnaisse les clés, etc.)'
       title: 'Paramètres de Localizd'
     translation_key:
-      help: 'Cette option est multilingue via <a>Linguist</a>.'
+      help: 'Cette option est multilingue grâce à <b>Localizd</b> et <a>Linguist</a>.'
       modal_title: 'Ajouter des traductions avec Linguist'
       translate: Traduire
