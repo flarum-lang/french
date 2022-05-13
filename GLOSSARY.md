@@ -1,6 +1,6 @@
 # Glossary of the French Language Pack for [Flarum](https://flarum.org/)
 
-You can find here and [on our Weblate instance](https://weblate.rob006.net/dictionaries/flarum/fr/) the main translations used in the French language pack for English terms. Please note that this list is not exhaustive and, of course, as with any piece of language, the context of the sentence is extremely important and the translation of a term may vary. That is why you will notice that some terms have different translations depending on the context.
+You can find here and [on our Weblate instance](https://weblate.rob006.net/browse/flarum/glossary/fr/) the main translations used in the French language pack for English terms. Please note that this list is not exhaustive and, of course, as with any piece of language, the context of the sentence is extremely important and the translation of a term may vary. That is why you will notice that some terms have different translations depending on the context.
 
 ## Rules
 
@@ -220,6 +220,7 @@ You can find here and [on our Weblate instance](https://weblate.rob006.net/dicti
 | Slug | Identifiant texte unique |
 | Spacer | Espacement |
 | Split | Séparer |
+| Spoiler | Divulgâcher |
 | Standalone | Autonome |
 | Start | Démarrer |
 | Statistic | Statistique |
