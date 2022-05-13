@@ -1,5 +1,3 @@
-![Logo](https://www.qiaeru.com/files/flarum-french-language-pack.png)
-
 # French Language Pack for [Flarum](https://flarum.org/)
 
 [![Weblate](https://weblate.rob006.net/widgets/flarum/fr/svg-badge.svg)](https://weblate.rob006.net/languages/fr/flarum/)
