@@ -451,6 +451,7 @@ core:
       username_label: '=> core.ref.username'
     error:
       dependent_extensions_message: 'Impossible de désactiver {extension} tant que les extensions dépendantes suivantes ne sont pas désactivées : {extensions}'
+      extension_initialiation_failed_message: '{extension} n''a pas réussi à s''initialiser, veuillez vérifier la console du navigateur pour plus d''informations.'
       generic_message: 'Oups ! Une erreur est survenue. Veuillez actualiser la page puis réessayer.'
       missing_dependencies_message: 'Impossible d''activer {extension} tant que les dépendances suivantes ne sont pas activées : {extensions}'
       not_found_message: 'La ressource demandée est introuvable.'

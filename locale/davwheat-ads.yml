@@ -5,8 +5,11 @@
 davwheat:
   ads:
     admin:
+      permissions:
+        bypassAds: 'Masquer les publicités du forum'
       settings:
         add_script: Nouveau
+        admin_bypass_warning: "En raison de la nature du système de permissions de Flarum, les membres du groupe\ndes administrateurs ne verront pas de publicité sur le forum. Si vous souhaitez tester\nvos publicités, veuillez visiter le forum dans une fenêtre de navigation privée.\n"
         alert:
           code_has_script: 'Une ou plusieurs de vos unités publicitaires contiennent des balises de script, qui ne sont pas autorisées. Veuillez les supprimer puis réessayer.'
           fix_errors: 'Veuillez corriger les erreurs ci-dessus avant d''enregistrer les modifications'
