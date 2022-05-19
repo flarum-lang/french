@@ -6,9 +6,9 @@ flamarkt-matomo:
   admin:
     settings:
       siteId: 'Identifiant du site'
-      trackAccounts: 'Suivi des comptes utilisateurs individuels'
+      trackAccounts: 'Suivre les comptes d''utilisateurs individuels'
       trackAccountsOptions:
-        email: 'Suivi par e-mail'
+        email: 'Suivre par adresse de courriel'
         none: 'Ne pas suivre'
-        username: 'Suivi par nom d''utilisateur'
+        username: 'Suivre par nom d''utilisateur'
       url: 'Domaine ou URL du serveur Matomo'
