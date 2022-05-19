@@ -12,8 +12,8 @@ flamarkt-taxonomies:
         color: '=> flamarkt-taxonomies.ref.field.color'
         countRequired: 'Nombre de termes requis'
         countRequiredDescription: "Saisissez le nombre minimum et maximum de termes de cette taxonomie qui peuvent être appliqués à une discussion.\n"
-        customValueSlugger: 'Slugger pour les valeurs personnalisées'
-        customValueSluggerDescription: "Choisissez comment vous souhaitez que le slug soit généré. Si un slug existe déjà, un préfixe numérique sera automatiquement ajouté. Pour l'option de translitération, vous devez installer et configurer cette autre extension au préalable.\n"
+        customValueSlugger: 'Identifiant texte unique pour les valeurs personnalisées'
+        customValueSluggerDescription: "Choisissez comment vous souhaitez que l'identifiant texte unique soit généré. Si un identifiant texte unique existe déjà, un préfixe numérique sera automatiquement ajouté. Pour l'option de translitération, vous devez installer et configurer cette autre extension au préalable.\n"
         customValueValidation: 'Validation des valeurs personnalisées'
         description: '=> flamarkt-taxonomies.ref.field.description'
         icon: '=> flamarkt-taxonomies.ref.field.icon'
@@ -24,9 +24,9 @@ flamarkt-taxonomies:
         showLabel: 'Afficher l''étiquette taxonomique avec le terme'
         slug: '=> flamarkt-taxonomies.ref.field.slug'
         type: Type
-        typeDescription: "Les taxonomies peuvent être utilisées sur plusieurs ressources de Flarum. Le type ne peut pas être modifié après la création. Vous pouvez utiliser des noms et des slugs identiques pour des taxonomies de types différents.\n"
+        typeDescription: "Les taxonomies peuvent être utilisées sur plusieurs ressources de Flarum. Le type ne peut pas être modifié après la création. Vous pouvez utiliser des noms et des identifiants texte uniques identiques pour des taxonomies de types différents.\n"
       slugger-options:
-        alpha_dash: 'Slugger alphanumérique ASCII'
+        alpha_dash: 'Identifiant texte unique alphanumérique ASCII'
         random: 'Identificateur aléatoire'
         transliterator: 'Utiliser l''extension FoF Transliterator'
       submit:
@@ -46,6 +46,7 @@ flamarkt-taxonomies:
         regex: 'Expression régulière'
     edit-term:
       delete: '=> flamarkt-taxonomies.ref.delete'
+      deleteConfirmation: "Souhaitez-vous vraiment supprimer le terme {name} ? Les discussions utilisant ce terme ne seront PAS supprimées.\n"
       field:
         color: '=> flamarkt-taxonomies.ref.field.color'
         description: '=> flamarkt-taxonomies.ref.field.description'
@@ -53,6 +54,9 @@ flamarkt-taxonomies:
         iconDescription: '=> flamarkt-taxonomies.ref.field.iconDescription'
         name: '=> flamarkt-taxonomies.ref.field.name'
         slug: '=> flamarkt-taxonomies.ref.field.slug'
+      submit:
+        edit: '=> flamarkt-taxonomies.ref.submit.edit'
+        new: '=> flamarkt-taxonomies.ref.submit.new'
       title:
         edit: 'Modifier le terme'
         new: 'Créer un terme'
@@ -65,3 +69,50 @@ flamarkt-taxonomies:
         term: 'Créer un terme'
       reset-term-order: 'Réinitialiser la liste des termes par ordre alphabétique'
       title: Taxonomies
+    permissions:
+      editAnyDiscussion: 'Modifier les taxonomies sur n''importe quelle discussion'
+      editAnyUser: 'Modifier les taxonomies sur n''importe quel utilisateur'
+      editOwnDiscussion: 'Modifier les taxonomies sur ses propres discussions'
+      editOwnUser: 'Modifier les taxonomies sur son propre utilisateur'
+      heading: Taxonomies
+      moderate: 'Configurer les taxonomies disponibles'
+      ownDisabledEveryone: 'Membres non activés et suspendus'
+      ownDisabledMembers: 'Membres activés'
+      seeAnyDiscussion: 'Voir les taxonomies sur toutes les discussions'
+      seeAnyUser: 'Voir les taxonomies sur n''importe quel utilisateur'
+      seeOwnDiscussion: 'Voir les taxonomies sur ses propres discussions'
+      seeOwnUser: 'Voir les taxonomies sur son propre utilisateur'
+    settings:
+      goToPage: 'Aller à la page de configuration'
+  api:
+    error:
+      invalid_filter_taxonomy: 'Clé de filtre taxonomique « {type} » invalide pour « {slug} »'
+  forum:
+    composer:
+      choose: 'Choisir {taxonomy}'
+    discussion:
+      edit: 'Modifier {taxonomy}'
+    user:
+      edit: 'Modifier {taxonomy}'
+      nav: Taxonomies
+  lib:
+    modal:
+      custom: 'Utiliser {value}'
+      placeholder: '{count, plural, one {Choisir un terme…} other {Choisir # termes…}}'
+      placeholderOptional: Choisir…
+      submit: Valider
+      title:
+        edit: 'Modifier {taxonomy} pour {title}'
+        new: 'Choisir {taxonomy} pour votre discussion'
+  ref:
+    delete: Supprimer
+    field:
+      color: Couleur
+      description: Description
+      icon: Icône
+      iconDescription: 'Saisissez le nom de n''importe quelle classe d''icônes <a>FontAwesome</a>, <em>y compris</em> le préfixe <code>fas fa-</code>.'
+      name: Nom
+      slug: 'Identifiant texte unique'
+    submit:
+      edit: Enregistrer
+      new: Créer

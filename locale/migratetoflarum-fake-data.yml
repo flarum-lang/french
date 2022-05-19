@@ -45,7 +45,7 @@ migratetoflarum-fake-data:
       discussion-tags-none: Aucune
       discussion-tags-random: Aléatoire
       post-count: 'Nombre de messages à créer'
-      refresh: 'Fermer et rafraîchir la page'
+      refresh: 'Fermer et actualiser la page'
       reset: 'Génération terminée ! Cliquez ici pour réinitialiser'
       send: 'Générer des données'
       user-count: 'Nombre d''utilisateurs à créer'
