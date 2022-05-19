@@ -66,7 +66,8 @@ fof-best-answer:
       best_answer_in_discussion: '{username} a défini la meilleure réponse dans cette discussion'
       content: 'Veuillez sélectionner la meilleure réponse si une réponse a été apportée à votre question'
       preferences:
-        awarded_best_answer: 'Lorsque quelqu''un définit mon message comme meilleure réponse'
-        best_answer_in_discussion: 'Lorsqu''une meilleure réponse est définie dans une discussion à laquelle j''ai participé'
+        awarded_best_answer: 'Quelqu''un a indiqué mon message comme meilleure réponse'
+        best_answer_in_discussion: 'Une meilleure réponse a été indiquée dans une discussion à laquelle j''ai participé'
+        select_best_answer: 'Un rappel automatique pour sélectionner la meilleure réponse dans une discussion que j''ai démarrée'
     remove_best_answer: 'Désélectionner la meilleure réponse'
     this_best_answer: 'Sélectionner la meilleure réponse'

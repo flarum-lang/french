@@ -4,22 +4,23 @@
 
 justoverclock-steam-api:
   admin:
-    steamApiKey: 'Clé Api Steam'
-    steamApiKey-help: 'Obtenez votre clé api GRATUITE sur https://steamcommunity.com/dev/apikey'
+    steamApiKey: 'Clé API de Steam'
+    steamApiKey-help: 'Obtenez GRATUITEMENT votre clé API sur https://steamcommunity.com/dev/apikey'
   forum:
-    LatestGamesPlayed: 'Les derniers jeux joués'
+    LatestGamesPlayed: 'Derniers jeux joués'
+    accountCreated: 'Membre depuis le : '
     country: 'Pays : '
     gamesOwned: 'Jeux possédés : '
-    lastLogin: 'Dernière connexion : '
+    lastLogin: 'Dernière connexion le : '
     realName: 'Nom réel : '
     status: 'Statut : '
     statusAway: Absent
     statusBusy: Occupé
     statusOffline: 'Hors ligne'
     statusOnline: 'En ligne'
-    statusPlay: 'Vous voulez jouer'
+    statusPlay: 'Prêt à jouer'
     statusSnooze: Inactif
-    statusTrade: 'Vous voulez échanger'
+    statusTrade: 'Prêt à échanger'
     steamId: 'Identifiant du profil Steam'
-    steamIdSaved: 'L''identifiant Steam a été enregistré avec succès'
+    steamIdSaved: 'L''identifiant Steam a été enregistré'
     visitProfile: 'Visiter le profil'

@@ -38,6 +38,7 @@ fof-oauth:
           api_key_label: 'Clé de l''API'
           api_secret_label: 'Code secret de l''API'
           description: 'Créez une application sur {link}. Vous devrez définir un lien vers les conditions d''utilisation et un lien vers la politique de confidentialité. Veillez ensuite à ajouter l''autorisation de demander un courriel.'
+    settings_accessibility_label: 'Paramètres de {name}'
   forum:
     error:
       bad_verification_code: 'Jeton de vérification invalide ou expiré. Veuillez réessayer.'

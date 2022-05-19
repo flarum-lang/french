@@ -11,6 +11,7 @@ justoverclock-related-discussions:
     relatedTitle-help: 'Remplacez le titre par défaut de la discussion connexe par le vôtre'
     showExcerpt: 'Afficher l''extrait de résumé'
   forum:
+    hasBestAnswer: Résolu
     participants: Participants
     postedOn: 'au :'
     postnumber: 'Nombre de messages'
