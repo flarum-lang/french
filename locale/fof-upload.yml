@@ -58,6 +58,7 @@ fof-upload:
       imgur:
         client_id: 'Identifiant client d''Imgur'
         title: 'Paramètres de stockage des images d''Imgur'
+        tos: 'Il est de votre responsabilité de vous assurer que les utilisateurs de votre forum adhèrent aux <a>conditions d''utilisation</a> d''Imgur'
       inspect-mime: 'Type MIME du fichier de test'
       local:
         cdn_url: 'URL de diffusion du contenu (préfixe des fichiers)'
