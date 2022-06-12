@@ -6,8 +6,14 @@ ianm-syndication:
   admin:
     settings:
       entries-count: 'Combien d''entrées par flux ?'
+      forum-icons:
+        help: 'Affiche des icônes dans « Toutes les discussions », « Balises » et « Discussions » pour permettre un accès facile aux flux.'
+        label: 'Afficher les liens vers les flux Atom/RSS sur le forum'
+      forum-link-format:
+        help: 'Sélectionnez le format (Atom ou RSS) à utiliser lorsque les liens sont affichés sur le forum.'
+        label: 'Format du flux du forum'
       full-text:
-        help: 'Si cette option est désactivée, les flux ne contiendront que des extraits de messages et les utilisateurs devront se rendre sur le forum lire leur intégralité.'
+        help: 'Si cette option est désactivée, les flux ne contiendront que des extraits de messages et les utilisateurs devront se rendre sur le forum lire leur intégralité. Il est recommandé de laisser cette option active afin de respecter les personnes qui suivent le forum à partir d''un agrégateur RSS - s''il y en a un.'
         label: 'Flux de texte intégral'
         recommendation: 'Nous recommandons de laisser cette option active pour respecter les personnes qui suivent le forum depuis un agrégateur RSS — si tel est le cas.'
       html:

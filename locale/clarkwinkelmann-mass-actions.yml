@@ -8,14 +8,24 @@ clarkwinkelmann-mass-actions:
       controls: 'Afficher les commandes de sélection en masse'
   forum:
     actions:
+      delete: 'Supprimer définitivement sélectionné'
+      deleteConfirmation: '{count, plural, one {Êtes-vous sûr de vouloir supprimer définitivement la discussion sélectionnée ?} other {Êtes-vous sûr de vouloir supprimer définitivement les # discussions sélectionnées ?}}'
       hide: 'Supprimer la sélection'
       lock: 'Verrouiller la sélection'
       markAsRead: 'Marquer comme lu la sélection'
       restore: 'Restaurer la sélection'
+      sticky: 'Épingler sélectionné'
       tags: Étiquettes
       tags-add: 'Ajouter <em>{tag}</em>'
       tags-edit: 'Modifier les étiquettes'
       unlock: 'Déverrouiller la sélection'
+      unsticky: 'Non épingler sélectionné'
     select:
-      all: 'Tout sélectionner'
-      none: 'Tout déselectionner'
+      all: Tous
+      hidden: 'Supprimé sans destruction'
+      locked: Verrouillé
+      none: Aucun
+      read: Lu
+      unlocked: Déverrouillé
+      unread: 'Non lu'
+      visible: 'Non supprimé'

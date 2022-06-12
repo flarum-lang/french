@@ -8,6 +8,10 @@ blomstra-payments:
       select-pta-product: '(PPA) Produit nécessaire'
       select-pta-product-description: "La sélection d'un produit permettra l'accès au groupe après paiement. Dans le cas d'un abonnement, l'accès sera révoqué automatiquement après l'annulation de l'abonnement. Créez un produit dans votre tableau de bord Stripe et copiez l'identifiant commençant par <code>prod_</code> dans ce champ.\n"
     edit-tag:
+      bump-others: '(PPR) Permettre aux autres de remonter les discussions'
+      bump-others-description: "Si cette option est activée, l'auteur de la discussion ne sera pas le seul à pouvoir remonter les discussions en payant.\n"
+      select-ptb-product: '(PPR) Produit requis'
+      select-ptb-product-description: "La sélection d'un produit nécessite le paiement de ce produit avant de pouvoir remonter une discussion.\n"
       select-ptp-product: '(PPP) Produit nécessaire'
       select-ptp-product-description: "La sélection d'un produit nécessitera le paiement de ce produit pour chaque discussion avec cette étiquette. Par exemple, le paiement par message est idéal pour les publireportages. Créez un produit avec un prix unique « en une seule fois » dans votre tableau de bord Stripe et copiez l'identifiant commençant par <code>prod_</code> dans ce champ.\n"
       select-ptv-product: '(PPV) Produit nécessaire'
@@ -25,6 +29,10 @@ blomstra-payments:
       purchase: achat
     nav:
       access_portal: 'Portail d''accès'
+    pay-to-bump:
+      description: '{count, plural, one {Cette discussion a été remontée} other {{count} personnes ont remonté cette discussion}}.'
+      purchase-control: 'Payer pour remonter'
+      purchase-log-in: 'Se connecter et payer pour remonter'
     pay-to-post:
       purchase: 'Acheter pour publier'
       purchase-control: 'Payer pour publier'

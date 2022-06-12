@@ -11,6 +11,13 @@ fof-pretty-mail:
     nav:
       desc: 'Personnalisez vos modèles HTML de courriels.'
     settings:
+      attributes:
+        body: 'Contient le contenu réel du courriel'
+        forumStyle: 'Contient le <strong>CSS intégral du forum</strong>'
+        link: 'Contient le lien dans le courriel'
+        settings: 'Vous permet d''interagir avec SettingsRepositoryInterface'
+        url: '<code>UrlGenerator</code> de Flarum'
+      attributes_label: 'Attributs disponibles'
       confirm: 'Êtes-vous sûr de vouloir revenir au modèle de courriel standard concernant'
       default: 'Modèle par défaut'
       help: '« $body » contiendra le contenu réel du courriel, « $forumStyle » contient le <strong>CSS complet du forum</strong> du forum, « $url » est le générateur d''URL de Flarum, « $settings » vous permet d''interagir avec SettingsRepositoryInterface, et « $link » contient le lien dans le courriel. Consultez chaque modèle pour savoir comment utiliser chaque variable.'
@@ -20,4 +27,5 @@ fof-pretty-mail:
       notifications: 'Modèles de notification'
       postMentioned: 'Flarum/mentions Courriel mentionné'
       reset: 'Revenir à la valeur par défaut'
+      template_help: 'Voir chaque modèle pour savoir comment utiliser chaque attribut.'
       userMentioned: 'Flarum/mentions Courriel mentionné par l''utilisateur'

@@ -7,6 +7,7 @@ flarum-suspend:
     permissions:
       suspend_users_label: 'Suspendre les utilisateurs'
   email:
+    no_reason_given: 'Aucune raison n''a été spécifiée pour cette suspension.'
     suspended:
       body: "Bonjour {recipient_display_name},\n\nVous avez été suspendu pour le motif suivant :\n\n---\n{suspension_message}\n---\n"
       subject: 'Votre compte a été suspendu'

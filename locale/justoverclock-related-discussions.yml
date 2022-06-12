@@ -12,6 +12,7 @@ justoverclock-related-discussions:
     showExcerpt: 'Afficher l''extrait de résumé'
   forum:
     hasBestAnswer: Résolu
+    hasBestAnswer-title: 'Cette discussion est marquée comme résolue'
     participants: Participants
     postedOn: 'au :'
     postnumber: 'Nombre de messages'
