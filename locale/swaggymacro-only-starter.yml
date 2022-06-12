@@ -4,10 +4,10 @@
 
 swaggymacro:
   admin:
-    setting_only_starter: 'Seulement le lanceur'
-    setting_show_topic_starter: 'Afficher le signalement du lanceur du sujet'
+    setting_only_starter: 'Uniquement l''auteur original'
+    setting_show_topic_starter: 'Afficher le signalement de l''auteur original'
   forum:
     blog_article_author: Auteur
-    not_only_starter: 'Pas seulement le lanceur'
-    only_starter: 'Seulement le lanceur'
-    topic_starter: 'Lanceur du sujet'
+    not_only_starter: 'Ne pas afficher uniquement l''auteur original'
+    only_starter: 'Afficher uniquement l''auteur original'
+    topic_starter: 'Auteur original'

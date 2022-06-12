@@ -11,6 +11,7 @@ justoverclock-related-discussions:
     relatedTitle-help: 'Remplacez le titre par défaut de la discussion connexe par le vôtre'
     showExcerpt: 'Afficher l''extrait de résumé'
   forum:
+    deleted: Supprimée
     hasBestAnswer: Résolu
     hasBestAnswer-title: 'Cette discussion est marquée comme résolue'
     participants: Participants

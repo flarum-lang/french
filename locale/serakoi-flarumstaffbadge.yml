@@ -5,18 +5,18 @@
 serakoi-flarumstaffbadge:
   admin:
     staffBadge:
-      help: "Le texte du badge de l'équipe (par défaut, «\_STAFF\_»)"
+      help: "Le texte du badge de l'équipe (par défaut sur «\_STAFF\_»)"
       label: 'Texte du badge de l''équipe'
     staffBadgeTextBg:
-      help: 'Couleur du badge (par défaut "rgb (70, 209, 96)")'
-      label: 'Couleur d''arrière-plan du badge de l''équipe'
+      help: 'Couleur du badge (par défaut sur « rgb (70, 209, 96) »)'
+      label: 'Couleur de l''arrière-plan du badge de l''équipe'
     staffBadgeTextColor:
-      help: "Couleur du badge (la valeur par défaut est «\_#fff\_»)"
+      help: "Couleur du badge (par défaut sur «\_#fff\_»)"
       label: 'Couleur du badge de l''équipe'
   forum:
     edit_user:
       heading: 'Badge de l''équipe activé'
       placeholder: "Définissez l'entrée sur «\_true » pour activer le badge"
       tagList:
-        heading: 'Liste des étiquettes utilisateur'
+        heading: 'Liste des étiquettes de l''utilisateur'
         placeholder: 'Séparer avec ,'

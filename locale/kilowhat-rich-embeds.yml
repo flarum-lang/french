@@ -19,8 +19,10 @@ kilowhat-rich-embeds:
       blacklistHelp: 'Consultez la documentation pour connaître le format. Ces URL n''auront jamais de contenu riche et ne peuvent pas être transmises par le proxy d''image'
       cacheProxy: 'Mise en cache des images sous proxy'
       cacheProxyHelp: 'Les images seront mises en cache sur le disque en fonction de leurs en-têtes HTTP'
-      imageProxy: 'Proxy d''image'
-      imageProxyHelp: 'Toutes les images seront transmises par Flarum au lieu d''être récupérées par le navigateur du visiteur'
+      imageEmbeds: 'Incrustations riches pour les images'
+      imageEmbedsHelp: "Cette fonctionnalité permet de récupérer et d'afficher des informations supplémentaires sur les images externes insérées dans les articles avec BBCode ou Markdown. Pour le moment, elle réutilise la même liste noire ou liste blanche et les mêmes permissions que les liens riches. Ces images ne sont pas transmises par le proxy d'image d'OpenGraph. Vous devez vider le cache de Flarum après avoir modifié ce paramètre.\n"
+      imageProxy: 'Proxy d''image OpenGraph'
+      imageProxyHelp: 'Toutes les images OpenGraph et les favicons seront transmises par Flarum au lieu d''être récupérées par le navigateur du visiteur'
       layout: 'Mise en page'
       layoutOptions:
         block: Bloc
@@ -47,6 +49,9 @@ kilowhat-rich-embeds:
     controls:
       disable: 'Désactiver les contenus riches sur ce message'
       disableConfirmation: 'Tous les contenus riches seront supprimés de ce message. Souhaitez-vous continuer ?'
+      imgCopied: 'Copié !'
+      imgCopy: 'Copier l''URL de l''image'
+      imgOpen: 'Ouvrir l''image dans un nouvel onglet'
       refresh: 'Actualiser les données'
     embed:
       altFavicon: 'Icône de {website}'
