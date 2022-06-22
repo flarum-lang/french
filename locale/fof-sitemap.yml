@@ -6,6 +6,8 @@ fof-sitemap:
   admin:
     settings:
       advanced_options_label: 'Options avancées'
+      exclude_users: 'Exclure tous les profils d''utilisateurs du plan du site'
+      exclude_users_help: 'Par défaut, tout utilisateur visible par les invités sera indexé'
       frequency:
         daily: Quotidiennement
         hourly: 'Toutes les heures'
