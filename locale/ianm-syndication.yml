@@ -27,6 +27,8 @@ ianm-syndication:
       forum_new_discussions: 'Nouvelles discussions du forum'
       tag_activity: 'Activité sous l''étiquette {tag}'
       tag_new_discussions: 'Discussions sous l''étiquette {tag}'
+    discussion:
+      feed_link: Flux
     feeds:
       titles:
         discussion_subtitle: 'Derniers messages de cette discussion'
