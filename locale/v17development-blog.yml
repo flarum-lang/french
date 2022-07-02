@@ -43,6 +43,15 @@ v17development-flarum-blog:
       slug: 'Identifiant texte unique'
       summary: Résumé
       title: Titre
+    article_settings:
+      fields:
+        image:
+          title: 'Image de l''article'
+        summary:
+          helper_text: 'Ce résumé sera visible sur la page de présentation du blog et sera utilisé à des fins de référencement.'
+          placeholder: 'Veuillez rédiger un résumé'
+          title: 'Résumé de l''article'
+      title: 'Paramètres de publication du blog'
     blog: Blog
     categories: Catégories
     category_empty: 'Il n''y a aucun article de blog dans cette catégorie.'
