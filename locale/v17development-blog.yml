@@ -45,7 +45,11 @@ v17development-flarum-blog:
       title: Titre
     article_settings:
       fields:
+        highlight:
+          helper_text: 'Attribuez à ce message une grande image sur la page de présentation du blog.'
+          title: 'Message mis en évidence'
         image:
+          helper_text: 'Meilleure résolution d''image des médias pour les réseaux sociaux : 1200x630'
           title: 'Image de l''article'
         summary:
           helper_text: 'Ce résumé sera visible sur la page de présentation du blog et sera utilisé à des fins de référencement.'

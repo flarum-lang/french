@@ -87,6 +87,13 @@ v17development-flarum-support:
       description: 'Désolé, cet article ou cette catégorie n''existe plus à cet endroit.'
       solution: 'Vous pouvez utiliser la zone de recherche ci-dessus pour trouver ce que vous cherchiez.'
       title: 'Objet introuvable'
+    notifications:
+      replied_to_ticket:
+        content: '=> v17development-flarum-support.emails.replied_to_ticket.subject'
+        name: 'Quelqu''un a répondu à mon ticket'
+      ticket_resolved:
+        content: '=> v17development-flarum-support.emails.ticket_resolved.subject'
+        name: 'Mon ticket a été résolu'
     or: ou
     overview:
       back_to: 'Retourner à {category}'
@@ -155,6 +162,12 @@ v17development-flarum-support:
           empty: 'Aucune langue sélectionnée'
           placeholder: 'Sélectionner une langue'
           title: Langue
+        private_note:
+          edit_button: 'Modifier la note'
+          info: 'Les notes privées ne sont pas visibles pour le client et sont destinées aux agents d''assistance.'
+          placeholder: 'Exemple : 1er janvier 2022 - Nom de l''agent : client supprimé de la base de données'
+          tip: 'CONSEIL : si vous travaillez avec plusieurs agents sur un même ticket, ajoutez votre nom et une date à la note.'
+          title: 'Notes privées'
         status:
           placeholder: 'Le statut du ticket'
           title: Statut
@@ -236,6 +249,7 @@ v17development-flarum-support:
         assign_me: 'Me l''attribuer'
         close_ticket: 'Clôturer le ticket'
         remove_me: 'Me retirer'
+        update_note: 'Mettre à jour la note privée'
         update_status: 'Mettre à jour le statut du ticket'
         update_subject: 'Mettre à jour le sujet'
         view_ticket: 'Voir le ticket'
