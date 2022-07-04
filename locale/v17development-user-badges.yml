@@ -79,7 +79,7 @@ v17development-flarum-badges:
       earning_reason: 'Motif d''obtention du badge'
       name: 'Nom du badge'
       no_earning_reason: 'Aucun motif d''obtention n''a été défini'
-      others_link: '+ {count} Plus'
+      others_link: '+ {count} de plus'
       received_on: 'Obtenu le {date}'
       update_earning_reason: 'Mettre à jour le motif d''obtention'
     badge_information: 'Informations sur les badges'
