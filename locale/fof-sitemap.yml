@@ -29,4 +29,6 @@ fof-sitemap:
         cache_disk: Disque
         multi_file: 'Fichiers multiples'
         runtime: 'Durée d''exécution'
+      risky_performance_improvements: 'Activer l''amélioration des performances à risque'
+      risky_performance_improvements_help: 'Ces améliorations accélèrent l''exécution de la tâche CRON sur des ensembles de données de plusieurs millions de lignes, mais peuvent nuire à la compatibilité avec certaines extensions.'
       title: 'Sitemap de FoF'
