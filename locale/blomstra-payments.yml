@@ -27,8 +27,10 @@ blomstra-payments:
     access-portal:
       options: options
       purchase: achat
+      subscribed: 'abonné à'
     nav:
       access_portal: 'Portail d''accès'
+      user_subscriptions: Abonnements
     pay-to-bump:
       description: '{count, plural, one {Cette discussion a été remontée} other {{count} personnes ont remonté cette discussion}}.'
       purchase-control: 'Payer pour remonter'
@@ -45,5 +47,14 @@ blomstra-payments:
     payment-options-modal:
       description: "Sélectionnez l'une des options suivantes pour commencer à accéder au groupe. Vous serez redirigé vers notre fournisseur de paiement Stripe pour le traitement du paiement.\n"
       title: 'Options de paiement pour accéder à {group}'
+    stripe:
+      interval_once: 'une fois'
+    subscription-card:
+      cancel-control: Annuler
+      none: 'Aucun paiement ou abonnement actif'
+      pta: 'Payé pour accéder'
+      ptb: 'Payé pour remonter'
+      ptp: 'Payé pour publier'
+      ptv: 'Payé pour voir'
     tag:
       require-payment-label: 'Paiement requis'
