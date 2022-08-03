@@ -10,15 +10,18 @@ the-turk-stickiest:
     settings:
       badge_icon_label: 'Icône de badge super épinglé'
       badge_icon_text: '=> core.ref.icon_text'
+      display_tag_sticky_label: 'Afficher les étiquettes dans la liste de « Toutes les discussions »'
+      display_tag_sticky_text: 'Elles seront traitées comme des discussions ordinaires et ne resteront pas dans la partie supérieure.'
   forum:
     badge:
       sticky_tooltip: '=> the-turk-stickiest.ref.sticky'
       super_sticky_tooltip: '=> the-turk-stickiest.ref.super_sticky'
+      super_tag_sticky_tooltip: '=> the-turk-stickiest.ref.super_tag_sticky'
       tag_sticky_tooltip: '=> the-turk-stickiest.ref.tag_sticky'
     discussion_controls:
       all_sticky_button: 'Toutes les épingles'
       common_sticky_button: 'Épingle commune'
-      sticky_button: '=> the-turk-stickiest.ref.sticky'
+      sticky_button: '=> flarum-sticky.forum.discussion_controls.sticky_button'
       super_sticky_button: '=> the-turk-stickiest.ref.super_sticky'
       tag_sticky_button: '=> the-turk-stickiest.ref.tag_sticky'
       unsticky_button: '=> flarum-sticky.forum.discussion_controls.unsticky_button'
@@ -27,7 +30,18 @@ the-turk-stickiest:
       discussion_stickied_text: '=> flarum-sticky.forum.post_stream.discussion_stickied_text'
       discussion_super_stickied_text: '{username} a marqué la discussion comme super épinglée.'
       discussion_unstickied_text: '=> flarum-sticky.forum.post_stream.discussion_unstickied_text'
+    stickiest_modal:
+      sticky_label: '=> flarum-sticky.ref.sticky'
+      sticky_text: 'Les discussions épinglées resteront dans la partie supérieure de la liste de « Toutes les discussions » si elles ne sont pas lues. Lors de l''affichage d''une étiquette spécifique appartenant à la discussion, ils resteront en haut de la liste à tout moment.'
+      submit_button: '=> core.ref.save_changes'
+      super_sticky_label: '=> the-turk-stickiest.ref.super_sticky'
+      super_sticky_text: 'Les discussions super épinglées colleront à la partie supérieure quoi qu''il arrive.'
+      tag_sticky_label: '=> the-turk-stickiest.ref.tag_sticky'
+      tag_sticky_text: 'Les étiquettes épinglées sont masquées par défaut de la liste de « Toutes les discussions ». Elles ne seront affichées et épinglées dans la partie supérieure que lors de la consultation d''une étiquette spécifique, c''est-à-dire une des étiquettes que vous choisirez ici. Cette option peut être combinée avec « Super épingle ».'
+      tags_label: '=> flarum-tags.ref.tags'
+      title: 'Épingle {title}'
   ref:
     sticky: '=> flarum-sticky.ref.sticky'
     super_sticky: 'Super épinglée'
+    super_tag_sticky: 'Super étiquette épinglée'
     tag_sticky: 'Étiquette épinglée'

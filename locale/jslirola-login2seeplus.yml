@@ -16,3 +16,4 @@ jslirola-login2seeplus:
     image: 'Se connecter pour voir l''image'
     link: 'Se connecter pour voir le lien'
     post: 'Vous devez vous {login} ou vous {register} pour consulter l''intégralité du message'
+    post_login: 'Vous devez vous {login} pour voir l''intégralité du message'

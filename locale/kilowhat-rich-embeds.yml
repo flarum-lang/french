@@ -10,15 +10,35 @@ kilowhat-rich-embeds:
       refreshOnAnyPost: 'Actualiser les contenus riches sur n''importe quel message'
       refreshOnOwnPost: 'Actualiser les contenus riches sur votre propre message'
       useOnOwnPost: 'Utilisez des contenus riches dans votre propre message'
+      viewGoogleDriveThumbnails: 'Voir les vignettes Google Drive alimentées par l''API'
     preview:
       loading: Chargement…
       refresh: Actualiser
       title: Prévisualiser
+    section:
+      flarum: Flarum
+      github: GitHub
+      google: Google
+      googledrive: 'Google Drive'
+      siteSpecificHelp: "Vous trouverez ci-dessous des paramètres spécifiques au site qui améliorent les intégrations utilisant des données non disponibles via OpenGraph et HTML Scraping. Toutes les options sont facultatives. Certaines de ces options nécessitent l'accès à une API tierce, ce qui peut entraîner des limites tarifaires ou des frais.\n"
+      youtube: YouTube
     settings:
       blacklist: 'Liste noire d''URL'
       blacklistHelp: 'Consultez la documentation pour connaître le format. Ces URL n''auront jamais de contenu riche et ne peuvent pas être transmises par le proxy d''image'
       cacheProxy: 'Mise en cache des images sous proxy'
       cacheProxyHelp: 'Les images seront mises en cache sur le disque en fonction de leurs en-têtes HTTP'
+      flarumApiPreviews: 'Activer les prévisualisations avancées de Flarum'
+      flarumApiPreviewsHelp: "Cette fonctionnalité analyse les données JSON additionnelles déjà incluses dans le HTML de tous les forums propulsés par Flarum. Elle fonctionnera avec tous les forums qui utilisent Flarum 1.4+ et qui affichent l'en-tête de Flarum <code>X-Powered-By</code>.\n"
+      githubApiKey: 'Clé API de GitHub'
+      githubApiKeyHelp: 'Remplissez ce champ pour activer les prévisualisions enrichies de GitHub par l''API pour les dépôts, les problèmes et les PR, y compris les dépôts privés.'
+      githubOrgWhitelist: 'Liste blanche des organisations'
+      githubOrgWhitelistHelp: "Liste, séparée par des virgules, des organisations GitHub qui utiliseront la prévisualisation alimentée par l'API. Utilisez ce champ pour empêcher l'exposition de tous les dépôts privés accessibles par la clé API pour réduire l'utilisation de l'API ou pour modifier uniquement le style d'intégration de votre propre organisation. S'il est laissé vide, tout dépôt auquel la clé API peut accéder peut être prévisualisé.\n"
+      googleApiAuthConfig: 'Chemin d''accès à la configuration Auth du SDK de Google ou JSON'
+      googleApiAuthConfigHelp: "Ce paramètre est utilisé en combinaison avec les paramètres YouTube et Google Drive ci-dessous. Il doit contenir un chemin absolu vers le fichier d'authentification JSON sur le système de fichiers local, ou le contenu de ce fichier. S'il est laissé vide, une clé API ou un compte de service sera automatiquement découvert par le SDK API de Google via des variables d'environnement.\n"
+      googleApiKey: 'Clé API de Google SDK'
+      googleApiKeyHelp: "Ce paramètre est utilisé en combinaison avec les paramètres YouTube et Google Drive ci-dessous. S'il est laissé vide, une clé API ou un compte de service sera automatiquement découvert par le SDK API de Google via des variables d'environnement.\n"
+      googledriveApiPreviews: 'Activer les prévisualisations enrichies de Google Drive alimentées par l''API'
+      googledriveApiPreviewsHelp: "Le SDK de l'API de Google doit être configuré ci-dessus. Cette fonctionnalité permet d'afficher le titre et l'aperçu des fichiers Google Drive. Utilisez un compte de service ayant accès à un Drive privé pour activer la prévisualisation des fichiers privés.\n"
       imageEmbeds: 'Incrustations riches pour les images'
       imageEmbedsHelp: "Cette fonctionnalité permet de récupérer et d'afficher des informations supplémentaires sur les images externes insérées dans les articles avec BBCode ou Markdown. Pour le moment, elle réutilise la même liste noire ou liste blanche et les mêmes permissions que les liens riches. Ces images ne sont pas transmises par le proxy d'image d'OpenGraph. Vous devez vider le cache de Flarum après avoir modifié ce paramètre.\n"
       imageProxy: 'Proxy d''image OpenGraph'
@@ -41,7 +61,71 @@ kilowhat-rich-embeds:
       whitelistHelp: 'Consultez la documentation pour connaître le format. Si une valeur est définie, toutes les autres URL seront considérées comme sur liste noire'
       withoutOpengraph: 'Générer des contenus riches pour les pages sans données OpenGraph'
       withoutOpengraphHelp: 'Le titre, la description et l''image seront extraits de la page HTML'
+      youtubeApiPreviews: 'Activer les prévisualisations riches de YouTube alimentées par l''API'
+      youtubeApiPreviewsHelp: "Le SDK de l'API de Google doit être configuré ci-dessus. Cette fonctionnalité permet d'afficher plus de statistiques sur les vidéos et peut afficher des vidéos privées auxquelles l'utilisateur du SDK a accès.\n"
+      youtubeNoCookie: 'Utiliser le domaine des fenêtres imbriquées sans cookie de YouTube'
+      youtubeNoCookieHelp: "Passe au domaine alternatif sans cookie proposé par YouTube. Il se peut que certaines vidéos ne puissent pas être lues dans la fenêtre imbriquée si cette option est activée. Cette fonction peut être utilisée sans accès à l'API.\n"
+      youtubePlayer: 'Autoriser la lecture de vidéos YouTube à partir de la prévisualisation'
+      youtubePlayerHelp: "Un lecteur dans une fenêtre imbriquée sera chargé à la demande lorsque l'utilisateur cliquera sur le bouton de lecture dans la prévisualisation. Vous devez configurer votre CSP et les en-têtes des fenêtres pour autoriser les fenêtres provenant du nom de domaine YouTube. Cette fonctionnalité peut être utilisée sans accès à l'API.\n"
   api:
+    embed:
+      flarum:
+        discussion:
+          stats:
+            commentCount: Réponses
+            createdAt: 'Date de début'
+            participantCount: Participants
+          type: Discussion
+        user:
+          avatarAlt: Avatar
+          stats:
+            commentCount: Commentaires
+            discussionCount: Discussions
+            joinTime: 'Date d''inscription'
+          type: Profil
+      github:
+        issue:
+          stats:
+            commentCount: Commentaires
+            createdAt: 'Créée à'
+          type: Problème
+        privateRepoSuffix: '[privé]'
+        pull:
+          stats:
+            commentCount: Commentaires
+            commitCount: Commits
+            createdAt: 'Créé à'
+            reviewCount: Avis
+          type: 'Pull request'
+        repo:
+          stats:
+            forkCount: Fourches
+            openIssueCount: 'Problèmes ouverts'
+            stargazerCount: Étoiles
+            subscriberCount: Observateurs
+          type:
+            private: 'Dépôt privé'
+            public: 'Dépôt public'
+        siteName: GitHub
+      googledrive:
+        file:
+          stats:
+            createdTime: 'Créé à'
+            modifiedTime: 'Modifié à'
+            size: 'Taille du fichier'
+          thumbnailAlt: 'Prévisualisation du fichier Google Drive'
+          type: Fichier
+        siteName: 'Google Drive'
+      youtube:
+        siteName: YouTube
+        video:
+          stats:
+            commentCount: Commentaires
+            likeCount: 'J''aime'
+            publishedAt: 'Publié à'
+            viewCount: Vues
+          thumbnailAlt: 'Miniature de la vidéo'
+          type: Vidéo
     error:
       blacklistedUrl: 'L''URL {url} n''a pas été autorisée à être intégrée.'
       invalidUrl: 'L''URL {url} n''est pas valide.'
@@ -49,10 +133,16 @@ kilowhat-rich-embeds:
     controls:
       disable: 'Désactiver les contenus riches sur ce message'
       disableConfirmation: 'Tous les contenus riches seront supprimés de ce message. Souhaitez-vous continuer ?'
+      expandDescription: 'Développer la description'
       imgCopied: 'Copié !'
       imgCopy: 'Copier l''URL de l''image'
       imgOpen: 'Ouvrir l''image dans un nouvel onglet'
+      play: 'Cliquez pour lire les médias en utilisant un lecteur intégré'
       refresh: 'Actualiser les données'
     embed:
+      altAvatar: 'Avatar de l''auteur'
       altFavicon: 'Icône de {website}'
       altImageFallback: 'Image OpenGraph de {website}'
+      missing:
+        other: 'Aucune prévisualisation n''a pu être générée pour ce lien'
+        retrieving: Récupération…
