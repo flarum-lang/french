@@ -7,7 +7,7 @@ fof-merge-discussions:
     permissions:
       merge_discussions_label: 'Fusionner les discussions'
     settings:
-      search_result_help: "Combien de discussions doivent être renvoyées lors de la recherche dans le modal «\_Fusionner les discussions\_». La valeur par défaut est 4"
+      search_result_help: "Combien de discussions doivent être renvoyées lors de la recherche dans le modal «\_Fusionner les discussions\_»."
       search_result_label: 'Limite de recherche de fusion de discussion'
   api:
     error:

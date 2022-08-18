@@ -19,7 +19,7 @@ fof-analytics:
         piwikTrackAccounts: 'Suivre les comptes d''utilisateurs individuels'
         piwikTrackSubdomain: 'Suivre les visiteurs dans tous les sous-domaines de Flarum'
         piwikUrl: 'Domaine ou URL de Matomo'
-        statusGoogle: 'Activer Google Analytics'
+        statusGoogle: 'Activer Google Analytics (UA/GA4)'
         statusPiwik: 'Activer Matomo'
       placeholder:
         piwikAuthToken: "Remplissez ce jeton pour activer un widget de statistiques Matomo dans le panneau d'administration.\nVous pouvez le trouver dans Paramètres > Personnel > Jeton d'authentification API.\n"

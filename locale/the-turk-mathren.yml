@@ -5,12 +5,19 @@
 the-turk-mathren:
   admin:
     settings:
+      alias_block_asciimath_delimiters_text: 'Délimiteurs <strong>Alias</strong> pour les expressions AsciiMath en bloc'
       alias_block_delimiters_text: 'Délimiteurs <strong>Alias</strong> pour les expressions de bloc'
+      alias_inline_asciimath_delimiters_text: 'Délimiteurs <strong>Alias</strong> pour les expressions AsciiMath dans une ligne'
       alias_inline_delimiters_text: 'Délimiteurs <strong>Alias</strong> pour les expressions en ligne'
       aliases_as_primary_label: 'Utiliser les délimiteurs Alias comme délimiteurs primaires lorsque cela est possible'
+      allow_asciimath_label: 'Autoriser la syntaxe AsciiMath'
       bbcode_delimiters_rule_text: 'Les délimiteurs BBCode ne doivent être composés que de lettres majuscules ou minuscules et de tirets.'
       blockDelimiters: 'Délimiteurs <strong>BBCode</strong> pour les expressions en bloc'
+      block_asciimath_delimiters_text: 'Délimiteurs <strong>BBCode</strong> pour les expressions AsciiMath en bloc'
       block_delimiters_text: 'Délimiteurs <strong>BBCode</strong> pour les expressions de bloc'
+      cdn_asciimath2tex_text: 'URL du CDN pour <strong>asciimath2tex</strong>'
+      cdn_katex_text: 'URL du CDN pour <strong>KaTeX</strong>'
+      cdn_options_heading: 'Options du CDN'
       color_is_text_color_label: 'Autoriser la commande <code>\color</code> à prendre en compte deux arguments (colorIsTextColor)'
       decisiveKeywords: 'Liste des mots-clés décisifs pour ignorer les expressions'
       decisiveKeywordsHelp: 'Vous rédigerez l''un de ces mots-clés décisifs sous la forme <code>[math=<strong>mot-clé</strong>]%e%[/math]</code> afin d''empêcher le rendu des expressions.'
@@ -39,6 +46,7 @@ the-turk-mathren:
       ignoringExpressions: 'Ignorer les expressions'
       ignoringExpressionsHelp: 'Séparez-les par des virgules.'
       inlineDelimiters: 'Délimiteurs <strong>BBCode</strong> pour les expressions en ligne'
+      inline_asciimath_delimiters_text: 'Délimiteurs <strong>BBCode</strong> pour les expressions AsciiMath dans une ligne'
       inline_delimiters_text: 'Délimiteurs <strong>BBCode</strong> pour les expressions en ligne'
       java_syntax_text: 'Vous devez les écrire en utilisant la syntaxe de JavaScript.'
       katexOptionsHeading: 'Options de KaTeX'
@@ -69,14 +77,19 @@ the-turk-mathren:
       sizeSettings: 'Options de dimensionnement'
       sizeSettingsHelp: 'Utilisez un <strong>point</strong> comme séparateur décimal.'
       sizing_options_heading: 'Options de dimensionnement'
+      sri_asciimath2tex_text: 'Hachage SRI pour <strong>asciimath2tex</strong>'
+      sri_katex_text: 'Hachage SRI pour <strong>KaTeX</strong>'
       syntaxInfo: 'Vous devez les rédiger en utilisant la syntaxe de JavaScript.'
       throw_on_error_label: 'Afficher une erreur sur une commande non supportée ou un LaTeX invalide'
       title: MathRen
       validation: 'La validation du champ « {field_key} » a échoué.'
   forum:
     composer:
+      asciimath_only: 'AsciiMath uniquement'
       block_expression: 'Expression de bloc'
+      block_expression_asciimath: 'Expression en bloc (AsciiMath)'
       inline_expression: 'Expression en ligne'
+      inline_expression_asciimath: 'Expression dans la ligne (AsciiMath)'
     textEditor:
       blockExpression: 'Expression en bloc'
       inlineExpression: 'Expression en ligne'

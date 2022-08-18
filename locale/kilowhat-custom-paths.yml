@@ -8,7 +8,10 @@ kilowhat-custom-paths:
       disabled: 'Extension non activée'
       extensions:
         askvortsov-categories: 'Categories de Askvortsov'
+        clarkwinkelmann-discussion-bookmarks: 'Discussion Bookmarks de ClarkWinkelmann'
+        clarkwinkelmann-discussion-lists: 'Discussion Lists de ClarkWinkelmann'
         clarkwinkelmann-group-list: 'Group List de ClarkWinkelmann'
+        clarkwinkelmann-post-bookmarks: 'Post Bookmarks de ClarkWinkelmann'
         flamarkt-balance: 'Solde de Flamarkt'
         flamarkt-categories: 'Catégories de Flamarkt'
         flamarkt-core: 'Noyau de Flamarkt'
@@ -28,7 +31,11 @@ kilowhat-custom-paths:
         path: Chemin
       paths:
         askvortsov-categories: Catégories
+        clarkwinkelmann-discussion-bookmarks: 'Favoris de discussion'
+        clarkwinkelmann-discussion-list: Liste
+        clarkwinkelmann-discussion-lists-profile: 'Listes des utilisateurs'
         clarkwinkelmann-group-list: 'Liste des groupes'
+        clarkwinkelmann-post-bookmarks: 'Favoris de message'
         discussion: Discussion
         flags: 'Signalements (sur mobile)'
         flamarkt-account: Compte
@@ -45,6 +52,7 @@ kilowhat-custom-paths:
         fof-byobu: 'Discussions privées'
         fof-byobu-profile: 'Discussions des utilisateurs'
         fof-gamification: Classements
+        fof-gamification-user-votes: 'Votes des utilisateurs'
         fof-pages: Page
         fof-user-directory: 'Répertoire des utilisateurs'
         following: Abonné

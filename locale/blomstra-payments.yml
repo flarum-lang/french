@@ -10,6 +10,8 @@ blomstra-payments:
     edit-tag:
       bump-others: '(PPR) Permettre aux autres de remonter les discussions'
       bump-others-description: "Si cette option est activée, l'auteur de la discussion ne sera pas le seul à pouvoir remonter les discussions en payant.\n"
+      select-bounty-description: "Sélectionnez un produit pour le configurer pour les primes. Le produit ne peut avoir qu'un seul prix avec le modèle « Le client choisit le prix ». Copiez l'identifiant du produit commençant par <code>prod_</code> dans ce champ.\n"
+      select-bounty-product: '(Prime) Produit requis'
       select-ptb-product: '(PPR) Produit requis'
       select-ptb-product-description: "La sélection d'un produit nécessite le paiement de ce produit avant de pouvoir remonter une discussion.\n"
       select-ptp-product: '(PPP) Produit nécessaire'
@@ -18,16 +20,33 @@ blomstra-payments:
       select-ptv-product-description: "La sélection d'un produit nécessitera le paiement de ce produit pour obtenir un accès permanent à tous les messages au-delà du seuil. Créez un produit dans votre tableau de bord Stripe et copiez l'identifiant commençant par <code>prod_</code> dans ce champ.\n"
       visible-from: 'Masquer les messages à ce seuil'
       visible-from-description: "Le nombre que vous spécifiez ici définit à quel moment les messages seront masqués aux utilisateurs qui n'ont pas payé pour accéder au contenu. Utilisez 0 pour les masquer tous, 1 pour ne masquer que les messages publiés après celui de l'auteur de la discussion.\n"
+    permission:
+      enable-bounties: 'Activer les primes'
     settings:
       link-access-portal: 'Lien vers le portail d''accès sous le menu déroulant de la session de l''utilisateur'
+      link-to-terms: 'URL des conditions de paiement'
       pk: 'Clé publiable (API)'
       sk: 'Clé secrète (API)'
       webhook-secret: 'Signature secrète du Webhook'
   forum:
+    accept-terms-modal:
+      accept_label: 'J''ai lu et j''accepte les <link>conditions de paiement</link>.'
+      continue_button: 'Continuer le paiement'
+      title: 'Accepter les conditions'
     access-portal:
       options: options
       purchase: achat
       subscribed: 'abonné à'
+    backers-widget:
+      label: '{sum} de don'
+      none: 'Aucun financeur pour l''instant.'
+    bounties:
+      enable-control: 'Activer les primes'
+      purchase-control: 'Ajouter une prime'
+    choose-bounty-amount-modal:
+      checkout-control: Commander
+      description: 'Sélectionnez votre montant pour soutenir « {subject} » ou choisissez un montant personnalisé.'
+      title: 'Choisir le montant de la prime'
     nav:
       access_portal: 'Portail d''accès'
       user_subscriptions: Abonnements
@@ -50,6 +69,7 @@ blomstra-payments:
     stripe:
       interval_once: 'une fois'
     subscription-card:
+      bounty: Prime
       cancel-control: Annuler
       none: 'Aucun paiement ou abonnement actif'
       pta: 'Payé pour accéder'
@@ -58,3 +78,7 @@ blomstra-payments:
       ptv: 'Payé pour voir'
     tag:
       require-payment-label: 'Paiement requis'
+core:
+  forum:
+    index_sort:
+      mostBacked_button: 'Les plus soutenus'
