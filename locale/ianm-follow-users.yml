@@ -54,9 +54,7 @@ ianm-follow-users:
       notify_new_unfollower_label: 'Quelqu''un arrête de me suivre'
     user_controls:
       follow_button: '=> ianm-follow-users.lib.follow'
-      follow_confirmation: 'Êtes-vous sûr de vouloir suivre cet utilisateur ?'
       unfollow_button: '=> ianm-follow-users.lib.change_follow_type'
-      unfollow_confirmation: 'Êtes-vous sûr de ne plus vouloir suivre cet utilisateur ?'
   lib:
     change_follow_type: 'Modifier le type de suivi'
     follow: Suivre

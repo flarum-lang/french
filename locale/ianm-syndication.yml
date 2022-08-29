@@ -15,11 +15,9 @@ ianm-syndication:
       full-text:
         help: 'Si cette option est désactivée, les flux ne contiendront que des extraits de messages et les utilisateurs devront se rendre sur le forum lire leur intégralité. Il est recommandé de laisser cette option active afin de respecter les personnes qui suivent le forum à partir d''un agrégateur RSS - s''il y en a un.'
         label: 'Flux de texte intégral'
-        recommendation: 'Nous recommandons de laisser cette option active pour respecter les personnes qui suivent le forum depuis un agrégateur RSS — si tel est le cas.'
       html:
         help: 'Cochez cette case pour conserver le HTML dans les flux générés. Si désactivée, les flux seront en texte brut.'
         label: 'Flux formatés'
-      title: 'Paramètres de syndication'
   forum:
     autodiscovery:
       discussion_last_posts: 'Cette discussion'

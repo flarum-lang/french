@@ -7,6 +7,5 @@ justoverclock-last-registered-users:
     showUsers: 'Derniers utilisateurs enregistrés à afficher'
     showUsers-help: 'Accepte les nombres, saisissez ici le nombre d''utilisateurs à afficher (« 2 » par exemple)'
   forum:
-    welcomeText: 'Bienvenue à nos nouveaux membres'
     welcomeTexts: 'Bienvenue à nos nouveaux membres :'
     widget-title: 'Derniers utilisateurs enregistrés'

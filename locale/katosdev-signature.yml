@@ -2,38 +2,6 @@
 # Use https://weblate.rob006.net/projects/flarum/katosdev-signature/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
-Xengine-signature:
-  admin:
-    settings:
-      maximum_char_limit:
-        description: 'Limite maximale de caractères de la signature (compte des caractères, ne tient pas compte des balises HTML)'
-        placeholder: '1000 (par défaut)'
-      maximum_image_count:
-        description: 'Nombre maximal d''images insérées.'
-        placeholder: '5 (par défaut)'
-      maximum_image_height:
-        description: 'Hauteur maximale de la hauteur totale du total des images insérées dans l''éditeur.'
-        placeholder: '500 (par défaut)'
-      maximum_image_width:
-        description: 'Largeur maximale des images sur l''éditeur.'
-        placeholder: '350 (par défaut)'
-    title: Signature
-  forum:
-    buttons:
-      save: 'Enregistrer la signature'
-      signature: Signature
-    errors:
-      max_char_limit_exceed: 'Limite maximale de caractères dépassée.'
-      max_image_count_exceed: 'Nombre maximal d''images dépassé.'
-      max_image_height_exceed: 'Limite de hauteur d''image maximale dépassée.'
-      max_image_width_exceed: 'Limite de largeur d''image maximale dépassée.'
-    modal:
-      error:
-        content: 'Liste des erreurs :'
-        title: "Oups\_! J'ai rencontré des erreurs lors de l'enregistrement..."
-      loading:
-        content: 'Patientez, s''il vous plaît...'
-        title: Enregistrement
 signature:
   admin:
     settings:

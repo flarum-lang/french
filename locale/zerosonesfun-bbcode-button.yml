@@ -19,8 +19,6 @@ flarum-bbcode-button:
       iconlabel3: '3. Icône de bouton'
       introdesc: 'Configurez et enregistrez ces paramètres avant d''essayer de les utiliser. Cette extension ajoute un nouveau bouton à la barre d''outils de l''éditeur. Il a été construit pour permettre d''insérer un BBCode personnalisé. Cependant, n''hésitez pas à utiliser votre imagination. Utilisez-le pour insérer un Markdown personnalisé ou une phrase courante.'
       introlabel: 'Bouton BBCode personnalisé [ ]'
-      posdesc: 'Plus le nombre est grand, plus le curseur apparaîtra vers la droite.'
-      poslabel: 'Placement du curseur après avoir appuyé sur le bouton'
   forum:
     composer:
       bbcode_tooltip: 'Insérer un BBCode'

@@ -3,8 +3,6 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 justoverclock-discussion-info:
-  admin:
-    my_cool_key: 'Ma clé cool'
   forum:
     createdAt: 'Créé le'
     lastReadAt: 'Dernière lecture'

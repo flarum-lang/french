@@ -96,7 +96,6 @@ core:
     extension:
       configure_scopes: 'Configurer Scopes'
       confirm_purge: 'La purge supprime toutes les entrées de la base de données et les ressources liées à l''extension. Elle ne désinstallera pas l''extension ; cela doit être effectué depuis Composer. Êtes-vous sûr de vouloir continuer ?'
-      confirm_uninstall: 'La désinstallation supprimera toutes les entrées de la base de données et les ressources liées à l''extension. Êtes-vous sûr de vouloir continuer ?'
       disabled: Désactivée
       enable_to_see: 'Activez l''extension pour afficher et modifier ses paramètres.'
       enabled: Activée
@@ -116,7 +115,6 @@ core:
         button_label: README
         no_readme: 'Cette extension ne semble pas avoir de fichier README'
         title: 'Documentation de {extName}'
-      uninstall_button: Désinstaller
     header:
       get_help: 'Obtenir de l''aide'
       log_out_button: '=> core.ref.log_out'
@@ -284,7 +282,6 @@ core:
     discussion_list:
       empty_text: 'Il semble qu''il n''y ait pas de discussions ici.'
       load_more_button: '=> core.ref.load_more'
-      mark_as_read_tooltip: 'Marquer comme lu'
       replied_text: '{username} a répondu à cette discussion {ago}'
       started_text: '{username} a démarré cette discussion {ago}'
       total_replies_a11y_label: '{count, plural, one {# réponse} other {# réponses}}'
@@ -565,9 +562,6 @@ core:
       log_out_button: '=> core.ref.log_out'
       log_out_confirmation: 'Êtes-vous sûr de vouloir vous déconnecter de {forum} ?'
       title: '=> core.ref.log_out'
-    meta_titles:
-      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle} : Page # - {forumName}}}'
-      without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}'
     reset_password:
       confirm_password_label: 'Confirmer le nouveau mot de passe'
       new_password_label: 'Nouveau mot de passe'

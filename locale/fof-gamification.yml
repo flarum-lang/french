@@ -87,7 +87,6 @@ fof-gamification:
     user:
       card:
         points: '{count, plural, one { {count} point} other {{count} points}}'
-      points: 'Points : {points}'
       rank: '{rank}'
       votes_link: Votes
     vote_title: 'Afficher qui a voté'

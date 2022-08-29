@@ -4,8 +4,6 @@
 
 fof-subscribed:
   admin:
-    menu:
-      description: 'Configurer les abonnements des utilisateurs (par défaut)'
     permission:
       subscribe_to_discussion_created: 'Autorisé à recevoir une notification lors du démarrage d''une nouvelle discussion'
       subscribe_to_post_created: 'Autorisé à recevoir une notification en cas de nouveau message ou de nouvelle réponse'

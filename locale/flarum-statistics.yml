@@ -5,7 +5,6 @@
 flarum-statistics:
   admin:
     statistics:
-      active_users_text: '{count, plural, one {# actif} other {# actifs}}'
       discussions_heading: '=> core.ref.discussions'
       last_12_months_label: '12 derniers mois'
       last_28_days_label: '28 derniers jours'

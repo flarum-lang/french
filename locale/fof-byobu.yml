@@ -49,7 +49,6 @@ fof-byobu:
       search_recipients: 'Rechercher un destinataire en saisissant ses trois premiers caractères…'
     labels:
       recipients: '{count, plural, one {{count} destinataire} other {{count} destinataires}}'
-      user_deleted: '-supprimé(e)-'
     modal:
       help:
         add_recipients: 'Cette discussion ne sera visible qu''aux utilisateurs que vous sélectionnez ici. Au moins 1 destinataire (autre que vous-même) est requis.'

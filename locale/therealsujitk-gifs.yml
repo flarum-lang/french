@@ -21,16 +21,3 @@ therealsujitk-gifs:
     searchTenor: 'Rechercher dans Tenor'
     title: 'Sélectionnez un GIF à ajouter à votre message'
     trending: 'GIF tendances'
-therealsujitk:
-  admin:
-    gifs:
-      giphyAPIkey: 'Clé API de Giphy'
-  forum:
-    gifs:
-      label: 'Insérer un GIF'
-      loading: Chargement...
-      loadmore: 'Charger davantage'
-      noresults: 'Aucun résultat'
-      search: Rechercher
-      searchbar: 'Rechercher des GIF'
-      title: 'Sélectionner un GIF'

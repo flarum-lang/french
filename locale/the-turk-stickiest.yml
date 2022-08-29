@@ -19,12 +19,7 @@ the-turk-stickiest:
       super_tag_sticky_tooltip: '=> the-turk-stickiest.ref.super_tag_sticky'
       tag_sticky_tooltip: '=> the-turk-stickiest.ref.tag_sticky'
     discussion_controls:
-      all_sticky_button: 'Toutes les épingles'
-      common_sticky_button: 'Épingle commune'
       sticky_button: '=> flarum-sticky.forum.discussion_controls.sticky_button'
-      super_sticky_button: '=> the-turk-stickiest.ref.super_sticky'
-      tag_sticky_button: '=> the-turk-stickiest.ref.tag_sticky'
-      unsticky_button: '=> flarum-sticky.forum.discussion_controls.unsticky_button'
     post_stream:
       discussion_common_stickied_text: '{username} n''a plus marqué la discussion comme super épinglée.'
       discussion_stickied_text: '=> flarum-sticky.forum.post_stream.discussion_stickied_text'

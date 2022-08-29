@@ -6,7 +6,6 @@ ianm-level-ranks:
   admin:
     settings:
       levelText: 'Saisissez le texte à afficher pour les points (par exemple : rang, niveau)'
-      title: 'Paramètres de Level Ranks'
   forum:
     desc:
       expText: '{expTotal} XP'

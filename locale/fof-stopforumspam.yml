@@ -13,10 +13,8 @@ fof-stopforumspam:
       email_hash_help: 'Transmettez un hachage MD5 de l''adresse de courriel si vous ne souhaitez pas transmettre l''adresse de courriel en question. Cette méthode permet de contourner toutes les listes noires et les contrôles de normalisation et de dissimulation.'
       email_hash_label: 'Utiliser une adresse de courriel hachée'
       email_label: 'Vérification anti-spam du courriel'
-      frequency_example_text: 'Exemple : si le courriel a 1 résultat, et l''IP a 2 résultats, il y aura 3 résultats au total. Si le seuil est fixé à 3 ou moins, cela empêchera l''inscription.'
       frequency_help: "Le nombre de rapports de spam entre toutes les vérifications activées qui déclencheront le filtre anti-spam.\nExemple : si le courriel a 1 résultat et l'IP a 2 résultats, il y aura 3 résultats au total. Si le seuil est défini sur 3 ou moins, nous empêcherons l'enregistrement.\n"
       frequency_label: Seuil
-      frequency_text: 'Le nombre de rapports de spam entre toutes les vérifications activées qui déclencheront le filtre anti-spam.'
       introduction: "Vérifie les nouvelles inscriptions d'utilisateurs par rapport à la base de données de <a>StopForumSpam</a>. Si les seuils de <code>confiance</code> ou de <code>fréquence</code> sont atteints, l'utilisateur est empêché de terminer son inscription sur votre forum.\n\nL'enregistrement SSO via <code>fof/oauth</code> et <code>fof/passport</code> est également pris en charge. D'autres fournisseurs d'authentification unique devraient fonctionner, mais n'ont pas été testés.\n"
       ip_label: 'Vérification anti-spam de l''adresse IP'
       region_closest_label: 'Le plus proche'
@@ -24,7 +22,6 @@ fof-stopforumspam:
       region_us_label: États-Unis
       regional_endpoint_help: 'Par défaut, nous dirigerons la recherche vers le serveur régional le plus proche afin de fournir la réponse la plus rapide. Si vous souhaitez restreindre le trafic à une région spécifique, par exemple pour se conformer aux réglementations de confidentialité de l''entreprise ou du pays, vous pouvez forcer une connexion à une région spécifique.'
       regional_endpoint_label: 'Accès géographique'
-      title: 'Stop Forum Spam de FriendsOfFlarum'
       username_label: 'Vérification anti-spam du nom d''utilisateur'
   api:
     error:

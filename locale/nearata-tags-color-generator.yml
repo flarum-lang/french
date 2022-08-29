@@ -22,12 +22,3 @@ nearata-tags-color-generator:
       light: Eclairé
       random: Aléatoire
     generate_color_button: 'Générer une couleur aléatoire'
-    text_color:
-      custom_helptext: 'Doit être au format hexadécimal (en incluant « # »), RGB(A) ou HLS(A).'
-      custom_label: 'Couleur de texte personnalisée'
-      label: 'Couleur du texte'
-      options:
-        custom: 'Couleur personnalisée'
-        default: 'Par défaut'
-        theme_primary_color: 'Couleur primaire du thème'
-        theme_secondary_color: 'Couleur secondaire du thème'

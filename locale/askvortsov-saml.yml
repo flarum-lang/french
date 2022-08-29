@@ -16,7 +16,6 @@ askvortsov-saml:
       only_option: 'Utiliser SAML2 SSO comme seule option de connexion ?'
       sign_metadata: 'Signer les métadonnées ?'
       slo: 'Activer SLO ? Si votre IDP ne prend pas en charge cette fonction, cela ne servira à rien.'
-      sync_attributes: 'Synchroniser les attributs (avatar, groupes, biographie et profil) ? Requiert l''extension askvortsov/auth-sync.'
       want_assertions_encrypted: 'Souhaitez-vous que les assertions soient chiffrées ?'
       want_assertions_signed: 'Souhaitez-vous que les assertions soient signées ?'
       want_messages_signed: 'Souhaitez-vous que les messages soient signés ?'

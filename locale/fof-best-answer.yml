@@ -22,7 +22,6 @@ fof-best-answer:
         general: Général
         reminders: Rappels
         reminders_notice: 'Pour que les rappels puissent fonctionner, vous devez configurer correctement le planificateur de Flarum.'
-      remind_tag_ids: 'Pour restreindre les rappels à des étiquettes particulières, entrez les identifiants des étiquettes ici (séparés par des virgules)'
       schedule_log_output: 'Ajouter la sortie du planificateur au stockage des journaux'
       schedule_on_one_server: 'Utilisez la directive ''onOneServer ()'' pour le planificateur de tâches'
       schedule_on_one_server_help: 'Nécessite Redis/Memcache'

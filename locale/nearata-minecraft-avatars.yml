@@ -8,16 +8,11 @@ nearata-minecraft-avatars:
       help: 'S''il n''existe aucun compte Minecraft associé à ce nom d''utilisateur, l''apparence de Steve ou d''Alex sera sélectionnée par défaut.'
       label: 'Récupérer l''avatar lors de l''inscription'
   forum:
-    avatar_changed: 'L''avatar a été modifié.'
-    change_button: 'Modifier l''avatar de Minecraft'
-    dismiss_button: OK
     help_text: 'Le nom d''utilisateur sera converti en UUID.'
     minotar_enabled: Activé
     page_title: 'Avatars de Minecraft'
     placeholder: 'Nom d''utilisateur ou UUID'
     submit_button: 'Enregistrer les modifications'
-    title: 'Avatars de Minecraft'
-    use_button: 'Utiliser l''avatar de Minecraft'
     username_not_found: 'Nom d''utilisateur introuvable.'
     username_uuid_not_valid: 'Nom d''utilisateur ou UUID non valide.'
     userpage_nav_button: 'Avatars de Minecraft'

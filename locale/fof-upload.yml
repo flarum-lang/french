@@ -4,8 +4,6 @@
 
 fof-upload:
   admin:
-    buttons:
-      save: 'Enregistrer les paramètres'
     help_texts:
       client_extension: "Par défaut, l'extension Upload sélectionnera une extension de fichier sûre en fonction du type MIME.\nPour certains types de fichiers basés sur des données ZIP ou binaires, cela peut entraîner l'utilisation d'extensions génériques au lieu de l'extension attendue.\nVous pouvez saisir ici une liste d'extensions de fichiers, séparées par des virgules, qui seront conservées mot pour mot.\n"
       composer_buttons: "Par défaut, le bouton du gestionnaire de médias et le bouton de téléchargement sont tous deux visibles. Vous pouvez également décider de n'afficher qu'un seul bouton.\n"

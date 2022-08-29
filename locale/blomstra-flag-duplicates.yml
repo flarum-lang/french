@@ -17,7 +17,6 @@ blomstra-flag-duplicates:
     post_stream:
       deleted_discussion: '[discussion supprimée]'
       flagged_duplicate_text: '{username} a marqué cette discussion comme un doublon potentiel de {duplicate}. Un modérateur enquêtera sous peu.'
-      not_found: 'Pas trouvé'
 flarum-flags:
   forum:
     flag_post:
