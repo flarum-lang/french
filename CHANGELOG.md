@@ -14,7 +14,6 @@ CHANGELOG
 
 * [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
 * [`blomstra/s3-assets`](https://extiverse.com/extension/blomstra/s3-assets)
-* [`clarkwinkelmann/flarum-ext-ipsum-autocomplete`](https://github.com/clarkwinkelmann/flarum-ext-ipsum-autocomplete)
 * [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed)
 * [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview)
 * [`ianm/no-meta-title`](https://github.com/imorland/no-meta-title)
@@ -68,7 +67,45 @@ CHANGELOG
 
 **Removed support for outdated extensions**:
 
+* [`amaurycarrade/flarum-ext-syndication`](https://github.com/AmauryCarrade/flarum-ext-syndication)
+* [`andre-pullinen/ads`](https://github.com/andre-pullinen/ads)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`antoinefr/flarum-ext-online`](https://github.com/AntoineFr/flarum-ext-online)
+* [`askvortsov/flarum-auth-sync`](https://github.com/askvortsov1/flarum-auth-sync)
+* [`clarkwinkelmann/flarum-ext-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-bookmarks)
+* [`clarkwinkelmann/flarum-ext-email-as-display-name`](https://github.com/clarkwinkelmann/flarum-ext-email-as-display-name)
+* [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
+* [`clarkwinkelmann/flarum-ext-manual-discussion-slug`](https://github.com/clarkwinkelmann/flarum-ext-manual-discussion-slug)
+* [`datitisev/flarum-ext-dashboard`](https://github.com/datitisev/flarum-ext-dashboard)
+* `flarumi-oauth-vkontakte`
+* `flarumi-oauth-yandex`
+* [`fof/transliterator`](https://github.com/FriendsOfFlarum/transliterator)
+* [`ianm/flarum-diff`](https://github.com/imorland/flarum-diff)
+* [`ianm/flarum-regrole`](https://github.com/imorland/flarum-regrole)
+* `justoverclock-discussion-sentiment-analyzer`
+* [`justoverclock/image-gallery`](https://github.com/justoverclockl/image-gallery)
+* [`justoverclock/flarum-ext-readmore`](https://github.com/justoverclockl/flarum-ext-readmore)
 * [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+* [`kvothe/reply-to-see`](https://github.com/oaklinq/flarum-ext-reply2see)
+* [`kyrne/aegis`](https://extiverse.com/extension/kyrne/aegis)
+* [`kyrne/shout`](https://github.com/KyrneDev/Shout-public)
+* [`luuhai48/oauth-google`](https://github.com/luuhai48/oauth-google)
+* [`luuhai48/oauth-linkedin`](https://github.com/luuhai48/oauth-linkedin)
+* [`malago/flarum-linkpreview`](https://github.com/malago86/flarum-linkpreview)
+* [`reflar/level-ranks`](https://github.com/ReFlar/level-ranks)
+* `reflar-recache`
+* [`saleksin/flarum-auth-google`](https://github.com/saleksin/flarum-auth-google)
+* [`serakoi/flarumdiscordtheme`](https://github.com/Serakoi/flarum-discord-theme-2)
+* [`shriker/flarum-pronouns`](https://github.com/shriker/flarum-pronouns)
+* [`simonxeko/follow-users`](https://github.com/simonxeko/follow-users)
+* [`simonxeko/preview-discussion`](https://github.com/simonxeko/flarum-ext-preview-discussion)
+* [`squeevee/flarum-ext-fancybox`](https://github.com/squeevee/flarum-ext-fancybox)
+* [`sycho/flarum-action-log`](https://github.com/SychO9/flarum-action-log)
+* [`tank/perspective`](https://github.com/flarum-tank/flarum-perspective)
+* [`the-turk/flarum-ext-fancybox`](https://github.com/the-turk/flarum-ext-fancybox)
+* [`the-turk/flarum-stargazing-theme`](https://github.com/the-turk/flarum-stargazing-theme)
+* [`therealsujitk/flarum-ext-hljs`](https://github.com/therealsujitk/flarum-ext-hljs)
+* [`therealsujitk/flarum-ext-show-password`](https://github.com/therealsujitk/flarum-ext-show-password)
 
 
 
