@@ -10,6 +10,7 @@ justoverclock-related-discussions:
     relatedTitle: "Titre de «\_Discussions connexes\_»"
     relatedTitle-help: 'Remplacez le titre par défaut de la discussion connexe par le vôtre'
     showExcerpt: 'Afficher l''extrait de résumé'
+    showTooltip: 'Afficher l''info-bulle avec l''extrait'
   forum:
     deleted: Supprimée
     hasBestAnswer: Résolu

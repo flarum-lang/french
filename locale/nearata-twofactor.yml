@@ -4,6 +4,8 @@
 
 nearata-twofactor:
   admin:
+    permissions:
+      can_enable_twofactor: 'Peut activer le système à deux facteurs'
     settings:
       generate_backups: 'Générer des codes de sauvegarde.'
   forum:

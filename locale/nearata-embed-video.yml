@@ -10,10 +10,13 @@ nearata-embed-video:
         hotkey: 'Touche de raccourci'
         lang: 'Langue du lecteur'
         logo: 'URL du logo'
-        quality_switching: 'Permettre le changement de qualité'
+        modal_enabled: 'Fenêtre activée'
+        modal_enabled_help: 'Activez la fenêtre ou insérez simplement le BBCode dans le compositeur.'
+        quality_switching: 'Changement de qualité'
         theme: 'Couleur du thème'
       permissions:
         can_create_video_player: 'Peut créer un lecteur vidéo'
+        can_view_video_player: 'Peut voir le lecteur vidéo'
       video_types:
         dash: 'Tableau de bord'
         flv: FLV
@@ -22,8 +25,18 @@ nearata-embed-video:
         webtorrent: WebTorrent
   forum:
     button_tooltip_title: 'Intégrer la vidéo'
+    cannot_view: 'Erreur : vous n''êtes pas autorisé à voir ce contenu'
     modal:
+      add_pointer: 'Ajouter un pointeur'
+      add_quality: 'Ajouter la qualité'
       live_mode: 'Mode en direct'
+      pointer_label: Pointeur
+      pointer_option_new: Nouveau
+      qualities_label: 'Qualités (facultatif)'
+      quality_option_new: Nouveau
+      quality_switching_tutorial: 'Tutoriel sur le changement de qualité'
+      remove_pointer: 'Supprimer le pointeur'
+      remove_quality: 'Supprimer la qualité'
       submit_button: 'Enregistrer les modifications'
       title: 'Intégrer la vidéo'
       video_type_label: 'Type de vidéo'

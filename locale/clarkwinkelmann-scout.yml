@@ -15,6 +15,12 @@ clarkwinkelmann-scout:
         algolia: Algolia
         meilisearch: Meilisearch
         'null': Néant
+        tntsearch: TNTSearch
       meilisearchHost: 'Hôte de Meilisearch'
       meilisearchKey: 'Clé de Meilisearch'
       prefix: 'Préfixe du nom de l''index (facultatif)'
+      tntsearchFuzziness: 'Caractère flou de TNTSearch (erreurs de frappe ou correspondance des variations)'
+      tntsearchFuzzyDistance: 'Distance de Levenshtein du caractère flou de TNTSearch (facultatif)'
+      tntsearchFuzzyMaxExpansions: 'Extensions maximales du caractère flou de TNTSearch (facultatif)'
+      tntsearchFuzzyPrefixLength: 'Longueur du préfixe du caractère flou de TNTSearch (facultatif)'
+      tntsearchMaxDocs: 'Documents maximum de TNTSearch (facultatif, il s''agit du nombre maximum de résultats)'

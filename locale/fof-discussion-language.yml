@@ -8,6 +8,9 @@ fof-discussion-language:
       allow_change_language_label: 'Autoriser la modification de la langue'
     settings:
       composer_default_label: 'Présélectionner la langue actuelle dans la zone de rédaction des discussions'
+      config:
+        country_label: 'Pays (pour l''affichage du drapeau)'
+        language_label: Langue
       errors:
         missing_assets: 'Nous n''avons pas pu charger les ressources nécessaires à cette extension. Essayez d''exécuter <code>php flarum assets:publish</code> et vérifiez si cela résout le problème.'
       locale_sort_label: 'Utiliser la langue détectée pour le filtre de discussion par défaut'
