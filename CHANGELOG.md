@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
 * [`blomstra/s3-assets`](https://extiverse.com/extension/blomstra/s3-assets)
+* [`clarkwinkelmann/flarum-ext-ipsum-autocomplete`](https://github.com/clarkwinkelmann/flarum-ext-ipsum-autocomplete)
 * [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed)
 * [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview)
 * [`ianm/no-meta-title`](https://github.com/imorland/no-meta-title)
@@ -76,6 +77,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-email-as-display-name`](https://github.com/clarkwinkelmann/flarum-ext-email-as-display-name)
 * [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
 * [`clarkwinkelmann/flarum-ext-manual-discussion-slug`](https://github.com/clarkwinkelmann/flarum-ext-manual-discussion-slug)
+* [`clarkwinkelmann/flarum-ext-quiz-polls`](https://github.com/clarkwinkelmann/flarum-ext-quiz-polls)
 * [`datitisev/flarum-ext-dashboard`](https://github.com/datitisev/flarum-ext-dashboard)
 * `flarumi-oauth-vkontakte`
 * `flarumi-oauth-yandex`
