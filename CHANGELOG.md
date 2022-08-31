@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.0.1 (XXXX-XX-XX)
+------------------
+
+**Mise à jour des traductions d'extensions**:
+
+* [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
+
+
+Toutes les modifications : [v4.0.0...v4.0.1](https://github.com/flarum-lang/french/compare/v4.0.0...v4.0.1).
+
+
 4.0.0 (2022-08-30)
 ------------------
 
