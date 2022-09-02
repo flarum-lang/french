@@ -12,9 +12,9 @@ flarum-statistics:
       loading: '=> core.ref.loading'
       mini_heading: 'Statistiques du forum'
       posts_heading: '=> core.ref.posts'
-      previous_28_days_label: 'Les 28 jours précédents'
-      previous_7_days_label: 'Les 7 jours précédents'
+      previous_28_days_label: '28 jours précédents'
+      previous_7_days_label: '7 jours précédents'
       today_label: 'Aujourd''hui'
       total_label: Total
       users_heading: '=> core.ref.users'
-      view_full: 'Voir plus de statistiques'
+      view_full: 'Voir davantage de statistiques'

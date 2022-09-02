@@ -7,25 +7,25 @@ flarum-suspend:
     permissions:
       suspend_users_label: 'Suspendre les utilisateurs'
   email:
-    no_reason_given: 'Aucune raison n''a été spécifiée pour cette suspension.'
+    no_reason_given: 'Aucun motif n''a été spécifié concernant cette suspension.'
     suspended:
       body: "Bonjour {recipient_display_name},\n\nVous avez été suspendu pour le motif suivant :\n\n---\n{suspension_message}\n---\n"
       subject: 'Votre compte a été suspendu'
     unsuspended:
-      body: "Bonjour {recipient_display_name},\n\nVous n'êtes plus suspendu. Vous pouvez retourner sur le forum en cliquant sur le lien suivant :\n\n{forum_url}\n"
+      body: "Bonjour {recipient_display_name},\n\nVous n'êtes plus suspendu. Vous pouvez revenir sur le forum en cliquant sur le lien suivant :\n\n{forum_url}\n"
       subject: 'Votre compte n''est plus suspendu'
   forum:
     notifications:
-      user_suspended_indefinite_text: 'Vous avez été suspendu pour une durée indéterminée'
+      user_suspended_indefinite_text: 'Vous avez été suspendu indéfiniment'
       user_suspended_text: 'Vous avez été suspendu pour {timeReadable}'
       user_unsuspended_text: 'Vous n''êtes plus suspendu'
     suspend_user:
       display_message: 'Afficher le message pour l''utilisateur'
       indefinitely_label: 'Suspendre indéfiniment'
-      limited_time_days_text: ' jour(s)'
+      limited_time_days_text: ' jours'
       limited_time_label: 'Suspendre temporairement…'
-      not_suspended_label: 'Non suspendu'
-      placeholder_optional: Optionnel
+      not_suspended_label: 'Pas suspendu'
+      placeholder_optional: Facultatif
       reason: 'Motif de la suspension'
       status_heading: 'Statut de la suspension'
       submit_button: '=> core.ref.save_changes'
