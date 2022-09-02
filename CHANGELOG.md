@@ -5,7 +5,12 @@ CHANGELOG
 4.0.1 (XXXX-XX-XX)
 ------------------
 
-**Mise à jour des traductions d'extensions**:
+**Modifications générales**:
+
+* Mise à jour de traductions du noyau de Flarum.
+
+
+**Mise à jour de traductions de certaines extensions**:
 
 * [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
 * [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
@@ -17,7 +22,7 @@ CHANGELOG
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
 
 
-Toutes les modifications : [v4.0.0...v4.0.1](https://github.com/flarum-lang/french/compare/v4.0.0...v4.0.1).
+Journal de toutes les modifications : [v4.0.0...v4.0.1](https://github.com/flarum-lang/french/compare/v4.0.0...v4.0.1).
 
 
 4.0.0 (2022-08-30)
