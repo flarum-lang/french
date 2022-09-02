@@ -7,7 +7,14 @@ CHANGELOG
 
 **Mise à jour des traductions d'extensions**:
 
+* [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
 * [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
+* [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
 
 
 Toutes les modifications : [v4.0.0...v4.0.1](https://github.com/flarum-lang/french/compare/v4.0.0...v4.0.1).
