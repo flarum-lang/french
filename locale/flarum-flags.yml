@@ -32,7 +32,7 @@ flarum-flags:
       title: '=> flarum-flags.ref.flagged_posts'
       tooltip: '=> flarum-flags.ref.flagged_posts'
     post:
-      dismiss_flag_button: 'Annuler le signalement'
+      dismiss_flag_button: 'Rejeter le signalement'
       flagged_by_text: 'Signalé par {username}'
       flagged_by_with_reason_text: 'Signalé par {username} comme {reason}'
     post_controls:

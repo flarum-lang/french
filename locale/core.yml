@@ -106,7 +106,7 @@ core:
         source: Source
         support: Support
         website: 'Site internet'
-      no_permissions: 'Cette extension n''a pas de permission.'
+      no_permissions: 'Cette extension n''a pas d''autorisation.'
       no_settings: 'Cette extension n''a pas de paramètre.'
       open_modal: 'Ouvrir les paramètres'
       permissions_title: Permissions
@@ -222,10 +222,10 @@ core:
   email:
     activate_account:
       body: "Bonjour {username} !\n\nQuelqu'un (en espérant que cela soit vous !) s'est inscrit sur {forum} avec cette adresse de courriel.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour que votre compte soit activé :\n{url}\n\nSi vous n'êtes pas à l'origine de cette action, veuillez ignorer ce courriel.\n"
-      subject: 'Activez votre nouveau compte'
+      subject: 'Activer votre nouveau compte'
     confirm_email:
       body: "Bonjour {username} !\n\nQuelqu'un (en espérant que cela soit vous !) a demandé à modifier l'adresse de courriel associée à votre compte sur {forum} par celle-ci.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour confirmer votre nouvelle adresse de courriel :\n{url}\n\nSi vous ne souhaitez pas modifier votre adresse de courriel, veuillez ignorer ce courriel.\n"
-      subject: 'Confirmez votre nouvelle adresse de courriel'
+      subject: 'Confirmer votre nouvelle adresse de courriel'
     reset_password:
       body: "Bonjour {username} !\n\nQuelqu'un (en espérant que cela soit vous !) a demandé à réinitialiser le mot de passe associé à votre compte sur {forum}.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour réinitialiser votre mot de passe actuel :\n{url}\n\nSi vous ne souhaitez pas réinitialiser votre mot de passe, veuillez ignorer ce courriel.\n"
       subject: '=> core.ref.reset_your_password'
@@ -258,7 +258,7 @@ core:
       title_placeholder: 'Titre de la discussion'
     composer_edit:
       discard_confirmation: 'Vous n''avez pas enregistré vos modifications. Souhaitez-vous les abandonner ?'
-      edited_message: 'Vos modifications ont été appliquées.'
+      edited_message: 'Vos modifications ont été enregistrées.'
       post_link: 'Message #{number} de {discussion}'
       submit_button: '=> core.ref.save_changes'
       view_button: '=> core.ref.view'
@@ -270,7 +270,7 @@ core:
       view_button: '=> core.ref.view'
     discussion_controls:
       cannot_reply_button: 'Impossible de répondre'
-      cannot_reply_text: 'Vous n''avez pas la permission de répondre à cette discussion.'
+      cannot_reply_text: 'Vous n''avez pas l''autorisation de répondre à cette discussion.'
       delete_button: '=> core.ref.delete'
       delete_confirmation: 'Êtes-vous sûr de vouloir supprimer cette discussion ?'
       delete_forever_button: '=> core.ref.delete_forever'
@@ -280,23 +280,23 @@ core:
       restore_button: '=> core.ref.restore'
       toggle_dropdown_accessible_label: 'Afficher le menu déroulant des actions de discussion'
     discussion_list:
-      empty_text: 'Il semble qu''il n''y ait pas de discussions ici.'
+      empty_text: 'Il semble qu''il n''y ait aucune discussion ici.'
       load_more_button: '=> core.ref.load_more'
       replied_text: '{username} a répondu à cette discussion {ago}'
       started_text: '{username} a démarré cette discussion {ago}'
       total_replies_a11y_label: '{count, plural, one {# réponse} other {# réponses}}'
-      unread_replies_a11y_label: '{count, plural, one {# réponse non lue} other {# réponses non lues}}. Marquer {count, plural, one {réponse non lue comme lue} other {réponses non lues comme lues}}.'
+      unread_replies_a11y_label: '{count, plural, one {# réponse non lue} other {# réponses non lues}}. Marquer {count, plural, one {la réponse non lue comme lue} other {les réponses non lues comme lues}}.'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
-      email_sent_message: 'Nous vous avons envoyé un courriel contenant un lien pour réinitialiser votre mot de passe. Veuillez vérifier vos pourriels si vous ne le recevez pas d''ici une minute ou deux.'
+      email_sent_message: 'Nous vous avons envoyé un courriel contenant un lien pour réinitialiser votre mot de passe. Veuillez vérifier vos courriels indésirables si vous ne le recevez pas d''ici une minute ou deux.'
       not_found_message: 'Il n''y a aucun utilisateur inscrit avec cette adresse de courriel.'
       submit_button: 'Récupérer un mot de passe'
       text: 'Saisissez votre adresse de courriel et nous vous enverrons un lien pour réinitialiser votre mot de passe.'
       title: 'Mot de passe oublié'
     header:
       admin_button: Administration
-      back_to_index_tooltip: 'Retourner à la liste de discussions'
+      back_to_index_tooltip: 'Revenir à la liste de discussions'
       locale_dropdown_accessible_label: 'Modifier la langue du forum'
       log_in_link: '=> core.ref.log_in'
       log_out_button: '=> core.ref.log_out'
@@ -325,7 +325,7 @@ core:
       top_button: Popularité
     log_in:
       forgot_password_link: 'Mot de passe oublié ?'
-      invalid_login_message: 'Vos identifiants de connexion étaient erronés.'
+      invalid_login_message: 'Vos identifiants de connexion sont incorrects.'
       password_placeholder: '=> core.ref.password'
       remember_me_label: 'Se souvenir de moi'
       sign_up_text: 'Vous n''avez pas de compte ? <a>S''inscrire</a>'
@@ -336,7 +336,7 @@ core:
       discussion_renamed_text: '{username} a renommé le titre de la discussion'
       empty_text: 'Aucune notification'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
-      mark_as_read_tooltip: 'Marquer comme lu'
+      mark_as_read_tooltip: 'Marquer comme lue'
       title: '=> core.ref.notifications'
       toggle_dropdown_accessible_label: 'Voir les notifications'
       tooltip: '=> core.ref.notifications'
@@ -376,7 +376,7 @@ core:
       change_password_button: '=> core.ref.change_password'
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
-      notify_by_web_heading: Internet
+      notify_by_web_heading: Web
       notify_discussion_renamed_label: 'Quelqu''un renomme une discussion que j''ai démarrée'
       privacy_disclose_online_label: 'Autoriser les autres à voir que je suis en ligne'
       privacy_heading: Confidentialité
@@ -405,7 +405,7 @@ core:
     user_controls:
       button: Commandes
       delete_button: '=> core.ref.delete'
-      delete_confirmation: 'Êtes-vous sûr de vouloir supprimer cet utilisateur ? Veuillez noter que ses messages ne seront pas supprimés.'
+      delete_confirmation: 'Êtes-vous sûr de vouloir supprimer cet utilisateur ? Ses messages ne seront pas supprimés.'
       delete_error_message: 'La suppression de l''utilisateur <i>{username} ({email})</i> a échoué'
       delete_success_message: 'L''utilisateur <i>{username} ({email})</i> a été supprimé'
       edit_button: '=> core.ref.edit'
@@ -427,7 +427,7 @@ core:
     mods: Modérateurs
   lib:
     alert:
-      dismiss_a11y_label: 'Ignorer l''alerte'
+      dismiss_a11y_label: 'Rejeter l''alerte'
     badge:
       hidden_tooltip: Masquée
     debug_button: Déboguer
@@ -452,10 +452,10 @@ core:
       generic_message: 'Oups ! Une erreur est survenue. Veuillez actualiser la page puis réessayer.'
       missing_dependencies_message: 'Impossible d''activer {extension} tant que les dépendances suivantes ne sont pas activées : {extensions}'
       not_found_message: 'La ressource demandée est introuvable.'
-      payload_too_large_message: 'La charge utile de la requête était trop importante.'
-      permission_denied_message: 'Vous n''avez pas la permission de faire cela.'
+      payload_too_large_message: 'La charge utile de la requête est trop élevée.'
+      permission_denied_message: 'Vous n''avez pas l''autorisation de faire cela.'
       rate_limit_exceeded_message: 'Vous allez un peu trop vite. Veuillez réessayer dans quelques secondes.'
-      render_failed_message: 'Désolé, une erreur est survenue lors de l''affichage du contenu. Si vous êtes un utilisateur, veuillez réessayer plus tard. Si vous êtes un administrateur, consultez vos fichiers journaux de Flarum pour obtenir plus d''informations.'
+      render_failed_message: 'Désolé, une erreur est survenue lors de l''affichage du contenu. Si vous êtes un utilisateur, veuillez réessayer plus tard. Si vous êtes un administrateur, consultez les fichiers journaux de votre forum pour obtenir plus d''informations.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
     meta_titles:
@@ -481,7 +481,7 @@ core:
     color: Couleur
     confirm_email: 'Confirmer l''adresse de courriel'
     confirm_password: 'Confirmer le mot de passe'
-    confirmation_email_sent: 'Nous avons envoyé un courriel de confirmation à {email}. Veuillez vérifier vos pourriels si vous ne le recevez pas d''ici une minute ou deux.'
+    confirmation_email_sent: 'Nous avons envoyé un courriel de confirmation à {email}. Veuillez vérifier vos courriels indésirables si vous ne le recevez pas d''ici une minute ou deux.'
     custom_footer_text: 'Ajoutez du code HTML à afficher tout en bas de la page.'
     custom_footer_title: 'Modifier le pied de page personnalisé'
     custom_header_text: 'Ajoutez du code HTML à afficher tout en haut de la page, au-dessus de l''en-tête de Flarum.'
@@ -518,7 +518,7 @@ core:
     start_a_discussion: 'Nouvelle discussion'
     username: 'Nom d''utilisateur'
     users: Utilisateurs
-    view: Consulter
+    view: Voir
     write_a_reply: Répondre…
     you: Vous
   views:
@@ -526,7 +526,7 @@ core:
       extensions:
         caption: '=> core.ref.extensions'
         disable: Désactiver
-        empty: 'Aucune extension installée'
+        empty: 'Aucune extension n''est installée'
         enable: Activer
         name: 'Nom de l''extension'
         package_name: 'Nom du paquet'
@@ -540,15 +540,15 @@ core:
       title: '=> core.ref.confirm_email'
     content:
       javascript_disabled_message: 'Ce site est optimisé pour être consulté depuis un navigateur moderne dans lequel JavaScript est activé.'
-      load_error_message: 'Une erreur est survenue lors du chargement de la version complète de ce site. Veuillez vider le cache de votre navigateur et rafraîchir cette page pour corriger cette erreur.'
+      load_error_message: 'Une erreur est survenue lors du chargement de la version complète de ce site. Veuillez vider le cache de votre navigateur et rafraîchir cette page pour tenter de corriger cette erreur.'
       loading_text: '=> core.ref.loading'
     discussion:
       next_page_button: '=> core.ref.next_page'
       previous_page_button: '=> core.ref.previous_page'
     error:
       csrf_token_mismatch: 'Vous êtes resté inactif trop longtemps.'
-      csrf_token_mismatch_return_link: 'Revenir pour réessayer'
-      invalid_confirmation_token: 'Ce lien de confirmation a déjà été utilisé ou n''est pas valide.'
+      csrf_token_mismatch_return_link: 'Revenir en arrière pour réessayer'
+      invalid_confirmation_token: 'Ce lien de confirmation a déjà été utilisé ou est invalide.'
       not_authenticated: 'Vous n''avez pas l''autorisation d''accéder à cette page. Veuillez réessayer après vous être connecté.'
       not_found: 'La page que vous avez demandée est introuvable.'
       not_found_return_link: 'Revenir à {forum}'

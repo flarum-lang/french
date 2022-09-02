@@ -6,4 +6,4 @@ flarum-emoji:
   forum:
     composer:
       emoji_tooltip: 'Insérer un émoji'
-      type_to_search_text: 'Écrivez ici pour rechercher un émoji'
+      type_to_search_text: 'Saisissez du texte ici pour rechercher un émoji'
