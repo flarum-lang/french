@@ -7,13 +7,16 @@ CHANGELOG
 
 **Modifications générales**:
 
-* Mise à jour de traductions du noyau de Flarum.
+* Mise à jour des traductions du noyau de Flarum.
 
 
-**Mise à jour de traductions de certaines extensions**:
+**Mise à jour des traductions de certaines extensions**:
 
 * [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
 * [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`flarum/akismet`](https://github.com/flarum/akismet)
+* [`flarum/emoji`](https://github.com/flarum/emoji)
+* [`flarum/flags`](https://github.com/flarum/flags)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
