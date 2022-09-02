@@ -7,7 +7,7 @@ core:
     appearance:
       colored_header_label: 'Colorisation de l''en-tête'
       colors_heading: Couleurs
-      colors_text: 'Sélectionnez deux couleurs pour le thème de votre forum. La première couleur sera utilisée comme couleur de surbrillance, tandis que la seconde sera utilisée pour styliser les éléments d''arrière-plan.'
+      colors_text: 'Sélectionnez deux couleurs pour personnaliser le thème de votre forum. La première couleur sera utilisée comme couleur principale tandis que la seconde sera utilisée pour les éléments d''arrière-plan.'
       custom_footer_heading: 'Personnalisation du pied de page'
       custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 'Personnalisation de l''en-tête'
@@ -15,7 +15,7 @@ core:
       custom_styles_heading: 'Personnalisation des styles'
       custom_styles_text: 'Personnalisez l''apparence de votre forum en ajoutant votre propre code Less/CSS qui sera appliqué en priorité par rapport aux styles par défaut de Flarum.'
       dark_mode_label: 'Mode sombre'
-      description: 'Personnalisez les couleurs, les logos et d''autres aspects de votre forum.'
+      description: 'Personnalisez les couleurs, les logos et les autres aspects de votre forum.'
       edit_css_button: 'Modifier le CSS personnalisé'
       edit_footer_button: '=> core.ref.custom_footer_title'
       edit_header_button: '=> core.ref.custom_header_title'
@@ -28,7 +28,7 @@ core:
     basics:
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Langue par défaut'
-      description: 'Configurez le titre de votre forum, la langue et d''autres paramètres de base de votre forum.'
+      description: 'Configurez le titre, la langue et les autres paramètres de base de votre forum.'
       display_name_heading: 'Nom d''affichage de l''utilisateur'
       display_name_text: 'Sélectionnez le pilote qui doit être utilisé pour les noms d''affichage des utilisateurs. Par défaut, le nom d''utilisateur est affiché.'
       forum_description_heading: 'Description du forum'
@@ -112,8 +112,8 @@ core:
       permissions_title: Permissions
       purge_button: Purger
       readme:
-        button_label: README
-        no_readme: 'Cette extension ne semble pas avoir de fichier README'
+        button_label: Lisez-moi
+        no_readme: 'Cette extension ne semble pas avoir de fichier « Lisez-moi »'
         title: 'Documentation de {extName}'
     header:
       get_help: 'Obtenir de l''aide'
@@ -158,11 +158,11 @@ core:
       edit_users_groups_label: 'Modifier les groupes d''utilisateurs'
       edit_users_label: 'Modifier les attributs des utilisateurs'
       global_heading: Général
-      moderate_heading: Modération
+      moderate_heading: Modérer
       new_group_button: 'Nouveau groupe'
       participate_heading: Participer
       post_without_throttle_label: 'Répondre plusieurs fois sans attendre'
-      read_heading: Consulter
+      read_heading: Lire
       rename_discussions_label: 'Renommer les discussions'
       reply_to_discussions_label: 'Répondre aux discussions'
       search_users_label: 'Rechercher des utilisateurs'
@@ -170,7 +170,7 @@ core:
       start_discussions_label: 'Démarrer des discussions'
       title: Permissions
       view_forum_label: 'Voir le forum (discussions et utilisateurs)'
-      view_hidden_groups_label: 'Afficher les badges des groupes masqués'
+      view_hidden_groups_label: 'Voir les badges des groupes masqués'
       view_last_seen_at_label: 'Toujours afficher la dernière connexion des utilisateurs'
       view_post_ips_label: 'Voir les adresses IP des messages'
     permissions_controls:
@@ -242,7 +242,7 @@ core:
       title: '=> core.ref.change_email'
     change_password:
       send_button: 'Envoyer le courriel de réinitialisation'
-      text: 'Cliquez sur le bouton ci-dessous et consultez le courriel que vous allez recevoir pour modifier votre mot de passe.'
+      text: 'Cliquez sur le bouton ci-dessous puis suivez les instructions dans le courriel que vous allez recevoir pour modifier votre mot de passe.'
       title: '=> core.ref.change_password'
     composer:
       close_tooltip: Fermer
