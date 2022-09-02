@@ -36,7 +36,7 @@ fof-best-answer:
   email:
     body:
       awarded: "Bonjour {recipient_display_name},\n\nBravo, {actor_display_name} vient de définir votre message comme la meilleure réponse pour la discussion : {discussion_title}. Merci pour votre aide.\n\nConsultez-le ici : {discussion_url}\n"
-      ba-set: "Bonjour {recipient_display_name},\n\n{actor_display_name} vient de définir une meilleure réponse pour la discussion : {titre_discussion}, à laquelle tu as participé.\n\nConsultez-la : {discussion_url}\n"
+      ba-set: "Bonjour {recipient_display_name},\n\n{actor_display_name} vient de définir une meilleure réponse pour la discussion : {discussion_title}, à laquelle vous avez participé.\n\nConsultez-la : {discussion_url}\n"
       select: "Bonjour {recipient_display_name},\n\nNous venons juste vérifier ; vous devriez avoir déjà reçu de nombreuses réponses à votre question : {discussion_title}. Nous espérons que l'une d'entre elles vous a aidé à résoudre votre problème.\n\nSi tel était le cas, il serait appréciable pour les futurs membres de définir une meilleure réponse à votre question. Cela aidera les personnes ayant le même problème à trouver la réponse dont elles ont besoin, et c'est aussi une forme de remerciement aux membres qui vous ont aidé. Ils donnent leur temps bénévolement, il est donc encouragé de les inciter à continuer.\n\nVisitez la discussion ici : {discussion_url}, et sélectionnez le message le plus approprié comme meilleure réponse.\n\nMerci !\n"
     subject:
       awarded: 'Votre message a été défini comme la meilleure réponse par {display_name}'

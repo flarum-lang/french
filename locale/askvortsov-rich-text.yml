@@ -29,7 +29,7 @@ askvortsov-rich-text:
         remove_button: Supprimer
         text_placeholder: Texte
         title_placeholder: 'Titre (s''affiche au survol)'
-      italic_tooltip: 'Texte en italique  <{modifierKey}-i>'
+      italic_tooltip: 'Texte en italique <{modifierKey}-i>'
       link_tooltip: 'Ajouter un lien'
       ordered_list_tooltip: 'Liste numérotée <shift-{modifierKey}-9>'
       paragraph_tooltip: 'Changer de paragraphe <shift-{modifierKey}-0>'

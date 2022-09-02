@@ -38,7 +38,7 @@ blomstra-payments:
       purchase: achat
       subscribed: 'abonné à'
     backers-widget:
-      label: '{sum} de don'
+      label: '{sum} de promesses de dons'
       none: 'Aucun financeur pour l''instant.'
     bounties:
       enable-control: 'Activer les primes'
@@ -47,6 +47,10 @@ blomstra-payments:
       checkout-control: Commander
       description: 'Sélectionnez votre montant pour soutenir « {subject} » ou choisissez un montant personnalisé.'
       title: 'Choisir le montant de la prime'
+    exceptions:
+      out-of-bounds-amount:
+        max: 'Un paiement de {amount} n''est pas autorisé, {max} est le montant le plus élevé possible.'
+        min: 'Un paiement de {amount} n''est pas autorisé, {min} est le montant le moins élevé possible.'
     nav:
       access_portal: 'Portail d''accès'
       user_subscriptions: Abonnements

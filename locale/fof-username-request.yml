@@ -71,7 +71,7 @@ fof-username-request:
       results:
         approved: 'Votre demande de modification de nom d''utilisateur a été approuvée'
         dismiss_button: '=> core.ref.okay'
-        new_name: 'Votre nom d''utilisateur a bien été modifié par : {username}'
+        new_name: 'Votre nom d''utilisateur a été modifié en : {name}'
         reason: 'Motif du rejet : <i>« {reason} »</i>.'
         rejected: 'Votre demande de modification de nom d''utilisateur a été rejetée'
         resubmit: 'À ce stade, vous pouvez soumettre à nouveau une demande de modification de nom d''utilisateur à partir des paramètres de votre compte si vous le souhaitez.'

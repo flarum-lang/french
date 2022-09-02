@@ -46,7 +46,7 @@ fof-ban-ips:
       unban_button: '=> fof-ban-ips.ref.unban_label'
       unban_ip_confirmation: 'Êtes-vous sûr de vouloir dé-bannir cet utilisateur et tous les autres utilisateurs non bannis par d''autres IP ?'
       unban_ip_no_users: 'Personne d''autre ne sera dé-banni'
-      unban_ip_users: '{count, plural, one {L''Utilisateur {users} ne sera plus banni}, other {Les utilisateurs {users} ne seront plus bannis}}'
+      unban_ip_users: '{count, plural, one {L''utilisateur {users} ne sera plus banni}, other {Les utilisateurs {users} ne seront plus bannis}}'
       unban_options_all_ip: 'Dé-bannir toutes les adresses IP utilisées par <i>{username}</i>'
       unban_options_only_ip: 'Dé-bannir uniquement l''adresse IP actuelle (<code>{ip}</code>)'
       unban_title: '=> fof-ban-ips.ref.unban_ip_addresses'

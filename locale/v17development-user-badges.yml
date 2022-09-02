@@ -85,7 +85,7 @@ v17development-flarum-badges:
     badge_information: 'Informations sur les badges'
     badges_in_card:
       description: 'Vous pouvez remplacer les badges visibles de votre carte utilisateur par l''un de vos autres badges. Si vous n''en sélectionnez aucun, ils seront sélectionnés automatiquement.'
-      hit_limit: 'Il n''y a de place que pour <b> {limit, plural, one {<b>un badge</b>} autre {<b># badges</b>}}</b> sur votre carte. Désélectionnez un badge pour faire de la place pour ce badge.'
+      hit_limit: 'Il n''y a de place que pour <b> {limit, plural, one {<b>un badge</b>} other {<b># badges</b>}}</b> sur votre carte. Désélectionnez un badge pour faire de la place pour ce badge.'
       manage_badges: 'Gérer les badges'
       select_limit: 'Vous pouvez sélectionner {limit, plural, one {<b>one badge</b>} other {<b># badges</b>}} pour être visible dans votre carte d''utilisateur.'
       title: 'Badges dans la carte utilisateur'
