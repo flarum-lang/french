@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-4.0.1 (XXXX-XX-XX)
+4.1.0 (XXXX-XX-XX)
 ------------------
 
 **Modifications générales**:
@@ -10,10 +10,20 @@ CHANGELOG
 * Mise à jour des traductions du noyau de Flarum.
 
 
+**Prise en charge de nouvelles extensions**:
+
+* [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
+* [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth)
+* [`datlechin/flarum-who-replied`](https://github.com/datlechin/flarum-who-replied)
+* [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview)
+* [`wolfgang-demeter/flarum-ext-bbcode-5star-rating`](https://github.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating)
+
+
 **Mise à jour des traductions de certaines extensions**:
 
 * [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
 * [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 * [`flarum/akismet`](https://github.com/flarum/akismet)
 * [`flarum/emoji`](https://github.com/flarum/emoji)
 * [`flarum/flags`](https://github.com/flarum/flags)
@@ -28,10 +38,11 @@ CHANGELOG
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
 * [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
 
 
-Journal de toutes les modifications : [v4.0.0...v4.0.1](https://github.com/flarum-lang/french/compare/v4.0.0...v4.0.1).
+Journal de toutes les modifications : [v4.0.0...v4.1.0](https://github.com/flarum-lang/french/compare/v4.0.0...v4.1.0).
 
 
 4.0.0 (2022-08-30)
