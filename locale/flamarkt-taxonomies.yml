@@ -23,6 +23,9 @@ flamarkt-taxonomies:
         showFilter: 'Afficher le filtre sur la page d''accueil'
         showLabel: 'Afficher l''étiquette taxonomique avec le terme'
         slug: '=> flamarkt-taxonomies.ref.field.slug'
+        tagScope: 'Uniquement dans les étiquettes spécifiées'
+        tagScopeDescription: "La taxonomie ne sera disponible que dans les étiquettes sélectionnées. Si vous ne sélectionnez qu'une seule étiquette, le filtre de la page d'accueil ne sera visible que sur cette étiquette spécifique.\n"
+        tagScopePlaceholder: 'Saisissez du texte pour rechercher une étiquette…'
         type: Type
         typeDescription: "Les taxonomies peuvent être utilisées sur plusieurs ressources de Flarum. Le type ne peut pas être modifié après la création. Vous pouvez utiliser des noms et des identifiants texte uniques identiques pour des taxonomies de types différents.\n"
       slugger-options:
@@ -70,6 +73,7 @@ flamarkt-taxonomies:
       reset-term-order: 'Réinitialiser la liste des termes par ordre alphabétique'
       title: Taxonomies
     permissions:
+      bypassTermCounts: 'Contourner les exigences du nombre de termes'
       editAnyDiscussion: 'Modifier les taxonomies sur n''importe quelle discussion'
       editAnyUser: 'Modifier les taxonomies sur n''importe quel utilisateur'
       editOwnDiscussion: 'Modifier les taxonomies sur ses propres discussions'
@@ -86,8 +90,13 @@ flamarkt-taxonomies:
       goToPage: 'Aller à la page de configuration'
   api:
     error:
+      cannot_use_taxonomies_on_model: 'Vous n''êtes pas autorisé à utiliser des taxonomies dans ce contexte'
+      discussion_taxonomy_not_in_scope: 'La taxonomie « {slug} » n''est pas disponible dans la combinaison d''étiquettes actuelle'
       invalid_filter_taxonomy: 'Clé de filtre taxonomique « {type} » invalide pour « {slug} »'
   forum:
+    blog:
+      widget:
+        title: Taxonomies
     composer:
       choose: 'Choisir {taxonomy}'
     discussion:
@@ -97,6 +106,7 @@ flamarkt-taxonomies:
       nav: Taxonomies
   lib:
     modal:
+      bypassTermCounts: 'Contourner les comptes de terme'
       custom: 'Utiliser {value}'
       placeholder: '{count, plural, one {Choisir un terme…} other {Choisir # termes…}}'
       placeholderOptional: Choisir…

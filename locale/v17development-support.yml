@@ -146,6 +146,10 @@ v17development-flarum-support:
         not_allowed: 'Vous ne pouvez pas ouvrir un nouveau ticket de support pour le moment'
         private_support: 'Pour une assistance privée, vous pouvez utiliser ce formulaire pour créer un nouveau ticket dans notre plateforme d''assistance. Pour les questions de support non privé, veuillez consulter <a>nos forums publics</a>.'
         title: 'Rédiger un nouveau ticket'
+      convert_to_discussion:
+        button: 'Convertir en discussion'
+        confirm: 'Êtes-vous sûr de vouloir convertir ce ticket en une discussion publique ? Si quelqu''un a partagé des informations privées, celles-ci deviendront également publiques.'
+        event: "Le ticket {ticket_title} a été converti en discussion.\n\nSouhaitez-vous aller à cette discussion maintenant ?\n"
       convert_to_ticket:
         button: 'Convertir en ticket'
         confirm: 'Êtes-vous sûr de vouloir convertir cette discussion en ticket ?'
