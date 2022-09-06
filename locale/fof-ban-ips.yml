@@ -25,7 +25,7 @@ fof-ban-ips:
     ban_ip_button: '=> fof-ban-ips.ref.ban_ip_button'
     modal:
       ban_ip_no_users: 'Personne d''autre ne sera banni'
-      ban_options_all_ip: 'Bannir toutes les adresses IP utilisées par<i>{username}</i>'
+      ban_options_all_ip: 'Bannir toutes les adresses IP utilisées par <i>{username}</i>'
       ban_options_only_ip: 'Bannir uniquement l''adresse IP actuelle (<code>{ip}</code>)'
     unban_ip_button: '=> fof-ban-ips.ref.unban_ip_button'
     user_badge:
@@ -44,19 +44,19 @@ fof-ban-ips:
       save_button: Enregistrer
       title: '=> fof-ban-ips.ref.ban_ip_addresses'
       unban_button: '=> fof-ban-ips.ref.unban_label'
-      unban_ip_confirmation: 'Êtes-vous sûr de vouloir dé-bannir cet utilisateur et tous les autres utilisateurs non bannis par d''autres IP ?'
-      unban_ip_no_users: 'Personne d''autre ne sera dé-banni'
+      unban_ip_confirmation: 'Êtes-vous sûr de vouloir débannir cet utilisateur et tous les autres utilisateurs non bannis par d''autres adresses IP ?'
+      unban_ip_no_users: 'Personne d''autre ne sera débanni'
       unban_ip_users: '{count, plural, one {L''utilisateur {users} ne sera plus banni}, other {Les utilisateurs {users} ne seront plus bannis}}'
-      unban_options_all_ip: 'Dé-bannir toutes les adresses IP utilisées par <i>{username}</i>'
-      unban_options_only_ip: 'Dé-bannir uniquement l''adresse IP actuelle (<code>{ip}</code>)'
+      unban_options_all_ip: 'Débannir toutes les adresses IP utilisées par <i>{username}</i>'
+      unban_options_only_ip: 'Débannir uniquement l''adresse IP actuelle (<code>{ip}</code>)'
       unban_title: '=> fof-ban-ips.ref.unban_ip_addresses'
-      unbanned_ips: 'Dé-bannir <code>{ips}</code>.'
+      unbanned_ips: 'Débannir <code>{ips}</code>.'
   ref:
     address_label: 'Adresse IP'
     ban_ip_addresses: 'Bannir des adresses IP'
     ban_ip_button: 'Bannir une adresse IP'
     ban_label: Bannir
     reason_label: Motif
-    unban_ip_addresses: 'Dé-bannir des adresses IP'
-    unban_ip_button: 'Dé-bannir une adresse IP'
-    unban_label: Dé-bannir
+    unban_ip_addresses: 'Débannir des adresses IP'
+    unban_ip_button: 'Débannir une adresse IP'
+    unban_label: Débannir
