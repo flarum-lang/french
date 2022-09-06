@@ -22,6 +22,7 @@ CHANGELOG
 **Mise à jour des traductions de certaines extensions**:
 
 * [`afrux/forum-widgets-core`](https://github.com/afrux/forum-widgets-core)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
 * [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
