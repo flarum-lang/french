@@ -10,9 +10,13 @@ datlechin-flarum-scroll-buttons:
         help: 'Personnalisez l''icône du bouton. Laissez vide pour utiliser l''icône par défaut.'
         label: 'Icône « défiler vers le bas »'
       label: 'Défiler vers le bas'
+    scroll_to_bottom_help: 'Afficher un bouton pour faire défiler vers le bas de la page'
+    scroll_to_bottom_label: 'Défiler vers le bas'
     scroll_to_top:
       help: 'Afficher un bouton pour faire défiler vers le haut de la page'
       icon:
         help: 'Personnalisez l''icône du bouton. Laissez vide pour utiliser l''icône par défaut.'
         label: 'Icône « défiler vers le haut »'
       label: 'Défiler vers le haut'
+    scroll_to_top_help: 'Afficher un bouton pour faire défiler vers le haut de la page'
+    scroll_to_top_label: 'Défiler vers le haut'
