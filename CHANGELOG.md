@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
 * [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth)
+* [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
 * [`datlechin/flarum-who-replied`](https://github.com/datlechin/flarum-who-replied)
 * [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview)
 * [`wolfgang-demeter/flarum-ext-bbcode-5star-rating`](https://github.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating)
@@ -26,6 +27,7 @@ CHANGELOG
 * [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
 * [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
 * [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
+* [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons)
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 * [`flarum/akismet`](https://github.com/flarum/akismet)
 * [`flarum/emoji`](https://github.com/flarum/emoji)
@@ -39,6 +41,7 @@ CHANGELOG
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
 * [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
 * [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
