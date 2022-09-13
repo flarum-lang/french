@@ -6,6 +6,9 @@ flarum-likes:
   admin:
     permissions:
       like_posts_label: 'Aimer les messages'
+    settings:
+      like_own_posts_help: 'Lorsque cette option est activée, les utilisateurs pourront, sous réserve d''en avoir la permission, « aimer » leurs propres messages sur le forum. Désactivez cette option pour empêcher les utilisateurs de placer un « j''aime » sur leurs propres messages.'
+      like_own_posts_label: 'Les utilisateurs peuvent aimer leurs propres messages'
   forum:
     notifications:
       others_text: '=> core.ref.some_others'
@@ -21,3 +24,5 @@ flarum-likes:
       title: 'Utilisateurs qui aiment ça'
     settings:
       notify_post_liked_label: 'Quelqu''un aime un de mes messages'
+    user:
+      likes_link: 'J''aime'

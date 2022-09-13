@@ -7,6 +7,8 @@ core:
     appearance:
       colored_header_label: 'Colorisation de l''en-tête'
       colors_heading: Couleurs
+      colors_primary_label: 'Couleur principale'
+      colors_secondary_label: 'Couleur secondaire'
       colors_text: 'Sélectionnez deux couleurs pour personnaliser le thème de votre forum. La première couleur sera utilisée comme couleur principale tandis que la seconde sera utilisée pour les éléments d''arrière-plan.'
       custom_footer_heading: 'Personnalisation du pied de page'
       custom_footer_text: '=> core.ref.custom_footer_text'
@@ -45,8 +47,12 @@ core:
     dashboard:
       clear_cache_button: 'Effacer le cache'
       description: 'Votre forum en un coup d''œil.'
+      io_error_message: 'Impossible d''écrire dans le système de fichiers. Veuillez vérifier les permissions de votre système de fichiers puis réessayer. Vous pouvez également essayer d''écrire dans le système de fichiers par ligne de commande à partir de la console.'
       title: 'Tableau de bord'
       tools_button: Outils
+    debug-warning:
+      detail: "Lorsque le mode <code>débogage</code> est actif, Flarum reconstruit ses ressources <code>JavaScript</code> et <code>CSS</code> à chaque requête, et peut aussi potentiellement divulguer d'autres informations, comme les clés secrètes de la base de données, les variables d'environnement, etc.\n\nIl est fortement recommandé de désactiver le mode <code>débogage</code> dans votre fichier <code>config.php</code> si votre forum est dans un environnement de production. Pour plus d'informations, veuillez consulter <link>la documentation de Flarum</link>.\n"
+      label: 'Mode débogage actif'
     edit_css:
       customize_text: 'Personnalisez l''apparence de votre forum en ajoutant votre propre code Less/CSS à appliquer en priorité par rapport <a>aux styles par défaut</a> de Flarum.'
       submit_button: '=> core.ref.save_changes'
@@ -333,6 +339,8 @@ core:
       title: '=> core.ref.log_in'
       username_or_email_placeholder: 'Nom d''utilisateur ou adresse de courriel'
     notifications:
+      delete_all_confirm: 'Êtes-vous sûr de vouloir supprimer toutes les notifications ? Cette action est irréversible'
+      delete_all_tooltip: 'Supprimer toutes les notifications'
       discussion_renamed_text: '{username} a renommé le titre de la discussion'
       empty_text: 'Aucune notification'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
@@ -374,6 +382,7 @@ core:
       account_heading: Compte
       change_email_button: '=> core.ref.change_email'
       change_password_button: '=> core.ref.change_password'
+      notification_checkbox_a11y_label_template: 'Recevoir les notifications « {description} » par le biais de {method}'
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
       notify_by_web_heading: Web
