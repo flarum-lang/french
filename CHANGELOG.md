@@ -12,9 +12,11 @@ CHANGELOG
 
 **Prise en charge de nouvelles extensions**:
 
+* [`annonny/flarum-dice`](https://github.com/mizhiyugan529/flarum-dice)
 * [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
 * [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth)
 * [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
+* [`clarkwinkelmann/flarum-ext-discussion-lists`](https://github.com/clarkwinkelmann/flarum-ext-discussion-lists)
 * [`datlechin/flarum-who-replied`](https://github.com/datlechin/flarum-who-replied)
 * [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview)
 * [`wolfgang-demeter/flarum-ext-bbcode-5star-rating`](https://github.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating)
