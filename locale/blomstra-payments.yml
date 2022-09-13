@@ -26,6 +26,7 @@ blomstra-payments:
       link-access-portal: 'Lien vers le portail d''accès sous le menu déroulant de la session de l''utilisateur'
       link-to-terms: 'URL des conditions de paiement'
       pk: 'Clé publiable (API)'
+      recount-total-discussion-bounties: 'Recompter le total des primes de discussion'
       sk: 'Clé secrète (API)'
       webhook-secret: 'Signature secrète du Webhook'
   forum:
@@ -38,8 +39,10 @@ blomstra-payments:
       purchase: achat
       subscribed: 'abonné à'
     backers-widget:
-      label: '{sum} de promesses de dons'
+      backers: Financeurs
+      label: '{sum} {currency} de promesses de dons'
       none: 'Aucun financeur pour l''instant.'
+      pledged: Promis
     bounties:
       enable-control: 'Activer les primes'
       purchase-control: 'Ajouter une prime'
@@ -70,6 +73,8 @@ blomstra-payments:
     payment-options-modal:
       description: "Sélectionnez l'une des options suivantes pour commencer à accéder au groupe. Vous serez redirigé vers notre fournisseur de paiement Stripe pour le traitement du paiement.\n"
       title: 'Options de paiement pour accéder à {group}'
+    post_stream:
+      bounty_added_text: '{username} a ajouté une prime de {amount}.'
     stripe:
       interval_once: 'une fois'
     subscription-card:
@@ -85,4 +90,4 @@ blomstra-payments:
 core:
   forum:
     index_sort:
-      mostBacked_button: 'Les plus soutenus'
+      mostBacked_button: 'Les plus financés'

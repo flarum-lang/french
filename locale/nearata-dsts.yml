@@ -9,10 +9,24 @@ nearata-dsts:
       can_bypass_login: 'Peut contourner la connexion'
       can_bypass_reply: 'Peut contourner de répondre'
     settings:
+      fof_upload:
+        require_like: 'Nécessite d''aimer'
+        require_like_help: 'Nécessite l''extension <strong>flarum/likes</strong>.'
+        require_reply: 'Nécessite de répondre'
+        section_title: 'Upload de FoF'
+      hide_only_files: 'Masquer uniquement les fichiers'
+      hide_only_files_help: 'Nécessite l''extension <strong>fof/upload</strong>.'
+      hide_only_first_post: 'Masquer uniquement le premier message'
+      hide_only_first_post_help: 'Cette option est remplacée par du BBCode.'
       require_like: 'Exiger d''aimer'
-      require_like_help: 'Note : nécessite l''extension Likes de Flarum.'
+      require_like_help: 'Nécessite l''extension <strong>flarum/likes</strong>.'
       require_reply: 'Exiger de répondre'
   forum:
+    button: DSTS
+    fof_upload:
+      like: 'Vous devez aimer pour voir le fichier.'
+      login: 'Vous devez vous connecter pour voir le fichier.'
+      reply: 'Vous devez répondre pour voir le fichier.'
     like: 'Vous devez aimer le message pour voir le contenu.'
     login: 'Vous devez vous connecter pour voir le contenu.'
     reply: 'Vous devez répondre à la discussion pour en voir le contenu.'
