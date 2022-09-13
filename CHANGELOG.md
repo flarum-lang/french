@@ -2,6 +2,59 @@ CHANGELOG
 =========
 
 
+4.1.0 (2022-09-13)
+------------------
+
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
+**Prise en charge de nouvelles extensions**:
+
+* [`annonny/flarum-dice`](https://github.com/mizhiyugan529/flarum-dice)
+* [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
+* [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth)
+* [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
+* [`clarkwinkelmann/flarum-ext-discussion-lists`](https://github.com/clarkwinkelmann/flarum-ext-discussion-lists)
+* [`datlechin/flarum-who-replied`](https://github.com/datlechin/flarum-who-replied)
+* [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview)
+* [`wolfgang-demeter/flarum-ext-bbcode-5star-rating`](https://github.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`afrux/forum-widgets-core`](https://github.com/afrux/forum-widgets-core)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
+* [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons)
+* [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
+* [`flarum/akismet`](https://github.com/flarum/akismet)
+* [`flarum/emoji`](https://github.com/flarum/emoji)
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/markdown`](https://github.com/flarum/markdown)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`nearata/flarum-ext-auth-minecraft`](https://github.com/Nearata/flarum-ext-auth-minecraft)
+* [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
+* [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
+
+
+Journal de toutes les modifications : [v4.0.0...v4.1.0](https://github.com/flarum-lang/french/compare/v4.0.0...v4.1.0).
+
+
 4.0.0 (2022-08-30)
 ------------------
 
