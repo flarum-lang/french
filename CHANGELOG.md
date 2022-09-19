@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.1.1 (XXXX-XX-XX)
+------------------
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
+
+
+Journal de toutes les modifications : [v4.1.0...v4.1.1](https://github.com/flarum-lang/french/compare/v4.1.0...v4.1.1).
+
+
 4.1.0 (2022-09-13)
 ------------------
 
