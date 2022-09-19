@@ -8,6 +8,7 @@ kilowhat-custom-paths:
       disabled: 'Extension non activée'
       extensions:
         askvortsov-categories: 'Categories de Askvortsov'
+        clarkwinkelmann-composer-page: 'Page du compositeur de ClarkWinkelmann'
         clarkwinkelmann-discussion-bookmarks: 'Discussion Bookmarks de ClarkWinkelmann'
         clarkwinkelmann-discussion-lists: 'Discussion Lists de ClarkWinkelmann'
         clarkwinkelmann-group-list: 'Group List de ClarkWinkelmann'
@@ -31,6 +32,8 @@ kilowhat-custom-paths:
         path: Chemin
       paths:
         askvortsov-categories: Catégories
+        clarkwinkelmann-composer-page: 'Page Compositeur'
+        clarkwinkelmann-composer-page-tag: 'Page de l''éditeur d''étiquette'
         clarkwinkelmann-discussion-bookmarks: 'Favoris de discussion'
         clarkwinkelmann-discussion-list: Liste
         clarkwinkelmann-discussion-lists-profile: 'Listes des utilisateurs'
@@ -57,6 +60,7 @@ kilowhat-custom-paths:
         fof-user-directory: 'Répertoire des utilisateurs'
         following: Abonné
         formulaire-form: Formulaire
+        formulaire-profile: 'Champs de profil'
         formulaire-submission: Soumission
         index: 'Liste de discussions (en dehors de la page d''accueil)'
         notifications: 'Notifications (sur mobile)'
@@ -65,6 +69,7 @@ kilowhat-custom-paths:
         tags: 'Liste des étiquettes'
         user: 'Profil de l''utilisateur'
         user-discussions: 'Discussions des utilisateurs'
+        user-likes: 'J''aime des utilisateurs'
         user-mentions: 'Mentions de l''utilisateur'
         v17development-blog-category: Catégorie
         v17development-blog-compose: Composer
