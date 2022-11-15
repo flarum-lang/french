@@ -5,8 +5,14 @@ CHANGELOG
 4.1.1 (XXXX-XX-XX)
 ------------------
 
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
 **Mise à jour des traductions de certaines extensions**:
 
+* [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
 
 
