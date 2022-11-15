@@ -4,16 +4,30 @@
 
 flarum-statistics:
   admin:
+    date_selection_modal:
+      description: "Sélectionnez une plage de dates personnalisée pour l'affichage des statistiques.\nLe chargement des données peut prendre plusieurs minutes sur les forums très actifs.\n"
+      end_date: 'Date de fin (incluse)'
+      errors:
+        end_before_start: 'La date de fin doit être postérieure à la date de début.'
+      start_date: 'Date de début (incluse)'
+      submit_button: 'Confirmer la plage de dates'
+      title: 'Sélectionner une plage de dates personnalisée'
     statistics:
+      current_period: 'Période actuelle'
+      custom_label: 'Sélectionner une plage personnalisée…'
+      custom_label_specified: 'De {fromDate} à {toDate}'
       discussions_heading: '=> core.ref.discussions'
+      export_chart_button: 'Exporter le graphique en SVG'
       last_12_months_label: '12 derniers mois'
       last_28_days_label: '28 derniers jours'
       last_7_days_label: '7 derniers jours'
       loading: '=> core.ref.loading'
       mini_heading: 'Statistiques du forum'
+      no_data: 'Il n''y a aucune donnée disponible pour cette plage de dates.'
       posts_heading: '=> core.ref.posts'
       previous_28_days_label: '28 jours précédents'
       previous_7_days_label: '7 jours précédents'
+      previous_period: 'Période précédente'
       today_label: 'Aujourd''hui'
       total_label: Total
       users_heading: '=> core.ref.users'
