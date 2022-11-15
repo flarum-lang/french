@@ -13,6 +13,7 @@ CHANGELOG
 **Mise à jour des traductions de certaines extensions**:
 
 * [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
 * [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
 
 
