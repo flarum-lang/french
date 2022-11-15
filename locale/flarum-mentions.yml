@@ -4,10 +4,14 @@
 
 flarum-mentions:
   admin:
+    permissions:
+      mention_groups_label: 'Mentionner les groupes'
     settings:
       allow_username_format_label: 'Autoriser le format de mention du nom d''utilisateur (@utilisateur)'
       allow_username_format_text: "Le format actuel des mentions d'utilisateur est @\"Nom d'affichage\"#Identifiant.\nCe paramètre permet d'utiliser l'ancien format @\"Nom d'utilisateur\" qui sera néanmoins converti au nouveau format lors de l'enregistrement.\n"
   email:
+    group_mentioned:
+      subject: '{mentioner_display_name} a mentionné un groupe dont vous êtes membre dans {title}'
     post_mentioned:
       body: "Bonjour {recipient_display_name} !\n\n{replier_display_name} a répondu à votre message (#{post_number}) dans {title}.\n\n{url}\n\n---\n\n{content}\n"
       subject: '{replier_display_name} a répondu à votre message dans {title}'
@@ -16,9 +20,12 @@ flarum-mentions:
       subject: '{mentioner_display_name} vous a mentionné dans {title}'
   forum:
     composer:
-      mention_tooltip: 'Mentionner un utilisateur ou un message'
+      mention_tooltip: 'Mentionner un utilisateur, un groupe ou un message'
       reply_to_post_text: 'Répondre à #{number}'
+    group_mention:
+      deleted_text: '[groupe inconnu]'
     notifications:
+      group_mentioned_text: '{username} a mentionné un groupe dont vous êtes membre'
       others_text: '=> core.ref.some_others'
       post_mentioned_text: '{username} a répondu à votre message'
       user_mentioned_text: '{username} vous a mentionné'
@@ -32,6 +39,7 @@ flarum-mentions:
     post_mention:
       deleted_text: '[inconnu]'
     settings:
+      notify_group_mentioned_label: 'Quelqu''un mentionne un groupe dont je suis membre dans un message'
       notify_post_mentioned_label: 'Quelqu''un répond à un de mes messages'
       notify_user_mentioned_label: 'Quelqu''un me mentionne dans un message'
     user:

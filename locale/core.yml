@@ -295,7 +295,7 @@ core:
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
-      email_sent_message: 'Nous vous avons envoyé un courriel contenant un lien pour réinitialiser votre mot de passe. Veuillez vérifier vos courriels indésirables si vous ne le recevez pas d''ici une minute ou deux.'
+      email_sent_message: 'Si l''adresse de courriel que vous avez saisie est enregistrée sur ce site, nous vous enverrons un courriel contenant un lien pour réinitialiser votre mot de passe. Veuillez vérifier vos courriels indésirables si vous ne le recevez pas d''ici une minute ou deux.'
       not_found_message: 'Il n''y a aucun utilisateur inscrit avec cette adresse de courriel.'
       submit_button: 'Récupérer un mot de passe'
       text: 'Saisissez votre adresse de courriel et nous vous enverrons un lien pour réinitialiser votre mot de passe.'
