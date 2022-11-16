@@ -17,6 +17,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-money-rewards`](https://github.com/clarkwinkelmann/flarum-ext-money-rewards)
 * [`clarkwinkelmann/flarum-ext-money-to-all`](https://github.com/clarkwinkelmann/flarum-ext-money-to-all)
 * [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget)
+* [`finteger/ratings`](https://github.com/finteger/ratings)
 * [`justoverclock/staff-members-widget`](https://github.com/justoverclockl/staff-member-widget)
 * [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
 * [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
