@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-4.1.1 (XXXX-XX-XX)
+4.2.0 (XXXX-XX-XX)
 ------------------
 
 **Modifications générales**:
@@ -10,14 +10,23 @@ CHANGELOG
 * Mise à jour des traductions du noyau de Flarum.
 
 
+**Prise en charge de nouvelles extensions**:
+
+* [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
+
+
 **Mise à jour des traductions de certaines extensions**:
 
 * [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
 
 
-Journal de toutes les modifications : [v4.1.0...v4.1.1](https://github.com/flarum-lang/french/compare/v4.1.0...v4.1.1).
+Journal de toutes les modifications : [v4.1.0...v4.2.0](https://github.com/flarum-lang/french/compare/v4.1.0...v4.2.0).
 
 
 4.1.0 (2022-09-13)
