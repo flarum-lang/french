@@ -11,23 +11,35 @@ flamarkt-taxonomies:
         allowCustomValues: 'Autoriser les valeurs personnalisées'
         color: '=> flamarkt-taxonomies.ref.field.color'
         countRequired: 'Nombre de termes requis'
-        countRequiredDescription: "Saisissez le nombre minimum et maximum de termes de cette taxonomie qui peuvent être appliqués à une discussion.\n"
+        countRequiredDescription: "Saisissez le nombre minimum et maximum de termes de cette taxonomie qui peuvent être appliqués à une ressource.\n"
         customValueSlugger: 'Identifiant texte unique pour les valeurs personnalisées'
         customValueSluggerDescription: "Choisissez comment vous souhaitez que l'identifiant texte unique soit généré. Si un identifiant texte unique existe déjà, un préfixe numérique sera automatiquement ajouté. Pour l'option de translitération, vous devez installer et configurer cette autre extension au préalable.\n"
         customValueValidation: 'Validation des valeurs personnalisées'
         description: '=> flamarkt-taxonomies.ref.field.description'
+        enableFilter: 'Activer les filtres de chaînes de requêtes et d''API'
+        enableFilterDescription: "Permet d'établir des liens profonds entre les filtres de taxonomie et les discussions, les utilisateurs et les produits pour les utilisateurs ayant la permission de « tout voir » du type de taxonomie. Cela permet également à ces mêmes utilisateurs d'utiliser les filtres de recherche avec l'API REST. Sans le paramètre « Afficher les filtres », les utilisateurs n'ont pas de moyen évident d'obtenir ces liens pour les utilisateurs et les produits. Pour les discussions, le lien profond peut être trouvé dans le bandeau même si « Afficher les filtres » est désactivé.\n"
+        enableFulltextSearch: 'Termes d''index pour la recherche plein texte'
+        enableFulltextSearchDescription: "N'a d'effet que lorsque l'intégration Scout est active. Les noms des termes feront partie des données disponibles dans la recherche en plein texte pour les utilisateurs réguliers. Les données seront disponibles pour la recherche pour tout utilisateur ayant la permission de lister la ressource (« Voir le forum » pour les discussions, « Chercher les utilisateurs » pour les utilisateurs et tout le monde pour les produits), pas les utilisateurs qui ont la permission de voir la taxonomie ! Vous devez reconstruire manuellement l'index de recherche Scout pour la ressource après avoir modifié ce paramètre pour les taxonomies existantes, de même si vous supprimez la taxonomie alors que des termes sont encore attribués.\n"
+        enableFulltextSearchWarning: "Vos autorisations de recherche dans la ressource (« Voir le forum » pour les discussions, « Rechercher les utilisateurs » pour les utilisateurs) sont différentes des autorisations « Tout voir » des taxonomies. Avant d'activer cette option, assurez-vous que vous êtes en mesure de rendre les données consultables par ces utilisateurs, même s'ils ne peuvent normalement pas voir les taxonomies !\n"
         icon: '=> flamarkt-taxonomies.ref.field.icon'
         iconDescription: '=> flamarkt-taxonomies.ref.field.iconDescription'
         name: '=> flamarkt-taxonomies.ref.field.name'
         rangeSeparatorText: à
-        showFilter: 'Afficher le filtre sur la page d''accueil'
+        showFilter: 'Afficher les filtres sur les pages des listes et des répertoires'
+        showFilterDescription: "Afficher les filtres aux visiteurs réguliers dans la liste de discussions, le répertoire des utilisateurs ou l'index des boutiques. Ne fonctionne que si l'option « Activer les filtres » est activée. Les administrateurs de boutiques peuvent toujours filtrer par n'importe quelle taxonomie dans le backoffice.\n"
         showLabel: 'Afficher l''étiquette taxonomique avec le terme'
+        showLabelDescription: "Style d'affichage pour la liste de discussions et le bandeau. Il n'est actuellement pas utilisé pour les autres types de ressources.\n"
         slug: '=> flamarkt-taxonomies.ref.field.slug'
         tagScope: 'Uniquement dans les étiquettes spécifiées'
         tagScopeDescription: "La taxonomie ne sera disponible que dans les étiquettes sélectionnées. Si vous ne sélectionnez qu'une seule étiquette, le filtre de la page d'accueil ne sera visible que sur cette étiquette spécifique.\n"
         tagScopePlaceholder: 'Saisissez du texte pour rechercher une étiquette…'
         type: Type
         typeDescription: "Les taxonomies peuvent être utilisées sur plusieurs ressources de Flarum. Le type ne peut pas être modifié après la création. Vous pouvez utiliser des noms et des identifiants texte uniques identiques pour des taxonomies de types différents.\n"
+      section:
+        browsing: Navigation
+        filling: Remplissage
+        info: Information
+        scope: 'Champ d''application'
       slugger-options:
         alpha_dash: 'Identifiant texte unique alphanumérique ASCII'
         random: 'Identificateur aléatoire'
@@ -65,7 +77,10 @@ flamarkt-taxonomies:
         new: 'Créer un terme'
     menu:
       description: 'Créer des taxonomies et des termes personnalisés.'
+      discussions: 'Taxonomies des discussions'
+      products: 'Taxonomies des produits'
       title: Taxonomies
+      users: 'Taxonomies des utilisateurs'
     page:
       create:
         taxonomy: 'Créer une taxonomie'

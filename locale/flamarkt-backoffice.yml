@@ -21,6 +21,7 @@ flamarkt-backoffice:
       head:
         email: 'Adresse de courriel'
       new: 'Créer un utilisateur'
+      searchPlaceholder: 'Rechercher des utilisateurs…'
       title: Utilisateurs
   lib:
     header:

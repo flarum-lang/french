@@ -28,6 +28,11 @@ datlechin-birthdays:
       dob_heading: 'Date de naissance'
     header:
       edit_dob_button: 'Modifier la date de naissance'
+    nav:
+      nav_item: 'Anniversaires du jour'
+    page:
+      discussion_count: '{count, plural, one {Discussion : #} other {Discussions : #}}'
+      post_count: '{count, plural, one {Message : #} other {Messages : #}}'
     settings:
       change_dob_label: 'Modifier la date de naissance'
       dob_heading: 'Date de naissance'

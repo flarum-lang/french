@@ -108,6 +108,7 @@ v17development-flarum-support:
         change_icon: 'Modifier l''icône'
         edit_description: 'Modifier la description'
         new_article: 'Nouvel article'
+        recount_articles: 'Recompter les articles'
         rename_category: 'Renommer la catégorie'
     reopen: rouvrir
     return_to_home: 'Retourner à l''accueil de la base de connaissances'
@@ -168,7 +169,7 @@ v17development-flarum-support:
           title: Langue
         private_note:
           edit_button: 'Modifier la note'
-          info: 'Les notes privées ne sont pas visibles pour le client et sont destinées aux agents d''assistance.'
+          info: 'Les notes privées ne sont visibles que par les autres agents d''assistance. Elles ne sont pas visibles pour le client.'
           placeholder: 'Exemple : 1er janvier 2022 - Nom de l''agent : client supprimé de la base de données'
           tip: 'CONSEIL : si vous travaillez avec plusieurs agents sur un même ticket, ajoutez votre nom et une date à la note.'
           title: 'Notes privées'

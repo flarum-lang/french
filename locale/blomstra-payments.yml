@@ -23,6 +23,7 @@ blomstra-payments:
     permission:
       enable-bounties: 'Activer les primes'
     settings:
+      assign-bounty-tag-id: 'Étiquette à attribuer à la discussion après la première prime soumise'
       link-access-portal: 'Lien vers le portail d''accès sous le menu déroulant de la session de l''utilisateur'
       link-to-terms: 'URL des conditions de paiement'
       pk: 'Clé publiable (API)'

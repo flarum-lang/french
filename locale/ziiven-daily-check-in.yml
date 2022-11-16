@@ -3,5 +3,24 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ziven-checkin:
+  admin:
+    settings:
+      Alert: Alerte
+      Modal: Fenêtre
+      None: Aucun
+      allow-check-in: 'Autoriser l''enregistrement'
+      auto-check-in: 'Enregistrement automatique'
+      auto-check-in-delay: 'Délai d''enregistrement automatique (en millions de secondes)'
+      check-in-success-prompt-example-reward-text: 'Exemple : vous avez obtenu [reward] comme récompense'
+      check-in-success-prompt-example-text: 'Exemple : vous vous êtes enregistré pendant [days] jours'
+      check-in-success-prompt-reward-text: 'Texte d''incitation à la récompense'
+      check-in-success-prompt-text: 'Texte d''invite'
+      check-in-success-prompt-type: 'Type d''invite lors du succès de l''enregistrement'
+      reward-money: 'Récompense d''enregistrement'
+      reward-money-requirement: 'Nécessite l''extension <code>antoinefr/flarum-ext-money</code>'
+      timezone: 'Fuseau horaire'
   forum:
-    check-in: Inscription
+    check-in: Enregistrement
+    check-in-success: 'Enregistrement avec succès'
+    checked-in-day: 'Enregistrement dans {count} jour'
+    checked-in-days: 'Enregistrement dans {count} jours'
