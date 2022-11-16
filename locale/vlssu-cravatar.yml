@@ -6,10 +6,30 @@ vlssu-flarum-cravatar:
   admin:
     settings:
       defaults:
+        helptext: 'Que se passe-t-il lorsqu''une adresse de courriel n''est pas associée à une image cravatar ? Cravatar dispose d''un certain nombre d''options intégrées que vous pouvez utiliser comme valeurs par défaut. La plupart d''entre elles fonctionnent en prenant le hachage de l''adresse de courriel demandé et en l''utilisant pour générer une image à thème qui est unique à cette adresse de courriel.'
+        identicon_label: 'identicon : un motif géométrique basé sur le hachage du courriel'
+        monsterid_label: 'monsterid : un « monstre » généré avec différentes couleurs, visages, etc.'
+        mp_label: 'mp : (mystery-person) une silhouette simple de style bande dessinée (ne varie pas selon le hachage du courriel)'
+        retro_label: 'retro : visages pixellisés générés de manière impressionnante, style arcade 8 bits'
+        robohash_label: 'robohash : un robot généré avec différentes couleurs, visages, etc.'
         title: 'Par défaut'
+        wavatar_label: 'wavatar : visages générés avec des caractéristiques et des arrière-plans différents'
+      force-default:
+        helptext: 'Force l''utilisation d''un ensemble par défaut, même si le hachage du courriel renvoie à un avatar personnalisé transféré par l''utilisateur'
+        title: 'Forcer le choix par défaut'
       proxy:
         helptext: 'Par défaut, les URL des cravatars sont récupérées directement de cravatar.cn. Cela permet à toutes les demandes de cravatars d''être servies directement par le forum lui-même.'
         title: 'Proxy des cravatars'
+      rating:
+        g_label: 'g : convient pour l''affichage sur tous les sites internet avec tout type d''audience'
+        helptext: 'Cravatar permet aux utilisateurs de noter eux-mêmes leurs images afin d''indiquer si une image est appropriée pour un certain public. Par défaut, seules les images classées « G » sont affichées, à moins que vous n''indiquiez que vous souhaitez voir des images mieux classées. Vous pouvez spécifier l''une des catégories suivantes pour demander des images jusqu''à cette catégorie.'
+        pg_label: 'pg : peut contenir des gestes grossiers, des individus habillés de façon provocante, des jurons ou une violence légère'
+        r_label: 'r : peut contenir des éléments tels que de graves jurons, une violence intense, de la nudité ou l''utilisation de drogues dures'
+        title: Évaluation
+        x_label: 'x : peut contenir des images sexuelles violentes ou une violence extrêmement dérangeante'
       replace-flarum-custom:
         helptext: 'Remplacer les avatars personnalisés déjà transférés sur le forum par un cravatar'
         title: 'Remplacer les avatars personnalisés transférés sur le forum'
+  forum:
+    settings:
+      edit-cravatar: 'Gérer un avatar sur cravatar.cn'
