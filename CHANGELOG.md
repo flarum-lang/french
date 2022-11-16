@@ -2,6 +2,68 @@ CHANGELOG
 =========
 
 
+4.2.0 (XXXX-XX-XX)
+------------------
+
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
+**Prise en charge de nouvelles extensions**:
+
+* [`blomstra/oauth-apple`](https://github.com/blomstra/flarum-ext-oauth-apple)
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
+* [`clarkwinkelmann/flarum-ext-money-rewards`](https://github.com/clarkwinkelmann/flarum-ext-money-rewards)
+* [`clarkwinkelmann/flarum-ext-money-to-all`](https://github.com/clarkwinkelmann/flarum-ext-money-to-all)
+* [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget)
+* [`finteger/ratings`](https://github.com/finteger/ratings)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
+* [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line)
+* [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch)
+* [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
+* [`justoverclock/discussion-tags`](https://extiverse.com/extension/justoverclock/discussion-tags)
+* [`justoverclock/staff-members-widget`](https://github.com/justoverclockl/staff-member-widget)
+* [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
+* [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
+* [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`blessing/flarum-oauth-client`](https://github.com/bs-community/flarum-oauth-client)
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`clarkwinkelmann/flarum-ext-scout`](https://github.com/clarkwinkelmann/flarum-ext-scout)
+* [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button)
+* [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
+* [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
+* [`flarum/akismet`](https://github.com/flarum/akismet)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/passport`](https://github.com/FriendsOfFlarum/passport)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq)
+* [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info)
+* [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
+* [`kyrne/websocket`](https://github.com/KyrneDev/websocket)
+* [`maicol07/flarum-oidc-client`](https://extiverse.com/extension/maicol07/flarum-oidc-client)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+* [`nomiscz/flarum-ext-auth-wechat`](https://github.com/NomisCZ/flarum-ext-auth-wechat)
+* [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
+* [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview)
+
+
+Journal de toutes les modifications : [v4.1.0...v4.2.0](https://github.com/flarum-lang/french/compare/v4.1.0...v4.2.0).
+
+
 4.1.0 (2022-09-13)
 ------------------
 
