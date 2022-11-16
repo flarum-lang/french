@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-4.2.0 (XXXX-XX-XX)
+4.2.0 (2022-11-16)
 ------------------
 
 **Modifications générales**:
