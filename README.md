@@ -392,6 +392,7 @@ The language pack includes the following French locales compatible with:
 | [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat) | [![Statut de la traduction](https://weblate.rob006.net/widgets/flarum/fr/xelson-chat/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/xelson-chat/fr/) |
 | [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts) | [![Statut de la traduction](https://weblate.rob006.net/widgets/flarum/fr/zerosonesfun-expired-posts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/zerosonesfun-expired-posts/fr/) |
 | [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button) | [![Statut de la traduction](https://weblate.rob006.net/widgets/flarum/fr/zerosonesfun-bbcode-button/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/zerosonesfun-bbcode-button/fr/) |
+| [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in) | [![Statut de la traduction](https://weblate.rob006.net/widgets/flarum/fr/ziiven-daily-check-in/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-daily-check-in/fr/) |
 
 <!-- all-extensions-list-stop -->
 
