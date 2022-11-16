@@ -7,7 +7,7 @@ blessing-oauth-client:
     popup:
       field:
         app-id: 'Identifiant client OAuth'
-        app-secret: 'Code secret du client OAuth'
+        app-secret: 'Clé secrète du client OAuth'
         base-url: 'URL racine de Blessing Skin'
         button-icon: 'Icône du bouton de connexion'
         button-title: 'Libellé du bouton de connexion'

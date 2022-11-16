@@ -17,7 +17,7 @@ kyrne-websocket:
       pk_path: 'Nécessaire uniquement si vous utilisez SSL et NON le reverse proxy. Chemin d''accès à votre clé privée SSL (HTTPS) SUR LE SERVEUR où se trouve votre serveur WebSocket - généralement un fichier .key ou .pem.'
       port: 'Port de votre serveur WebSocket - laissez tel quel si vous ne modifiez pas le port du serveur intégré.'
       reverse_proxy: 'Les WebSockets se connecteront sur le port 443 lorsque cette option est activée - utilisez cette option si vous utilisez un proxy inverse du port 443 vers votre serveur WebSocket.'
-      secret: 'Secret d''application Pusher - laissez tel quel si vous utilisez le serveur WebSocket intégré.'
+      secret: 'Clé secrète de l''application Pusher - laissez le champ tel quel si vous utilisez le serveur WebSocket intégré.'
       secure: 'Forcer le WebSocket à utiliser des protocoles sécurisés - activez cette option si vous utilisez un serveur WebSocket sécurisé mais pas le site internet.'
       self_signed: 'Nécessaire uniquement si vous utilisez SSL et NON le reverse proxy. Activez cette option si votre certificat SSL (HTTPS) est auto-signé.'
       stats: 'Le délai entre les sauvegardes de statistiques - en secondes. Il est recommandé de régler cette option entre 3600 (1 heure) et 21600 (6 heures). Par défaut à 7200.'
@@ -26,7 +26,7 @@ kyrne-websocket:
       app_id_label: 'Identifiant de l''application'
       app_key_label: 'Clé d''application'
       app_port_label: Port
-      app_secret_label: 'Secret d''application'
+      app_secret_label: 'Clé secrète de l''application'
       auth_only: 'WebSocket uniquement pour les utilisateurs connectés'
       auto_update: 'Mettre à jour automatiquement les discussions'
       cert_self_signed: 'Support des certificats auto-signés'

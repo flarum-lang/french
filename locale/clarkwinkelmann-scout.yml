@@ -8,7 +8,7 @@ clarkwinkelmann-scout:
       algoliaConnectTimeout: 'Délai de connexion d''Algolia (facultatif)'
       algoliaId: 'Identifiant d''Algolia'
       algoliaReadTimeout: 'Délai de lecture d''Algolia (facultatif)'
-      algoliaSecret: 'Secret d''Algolia'
+      algoliaSecret: 'Clé secrète d''Algolia'
       algoliaWriteTimeout: 'Délai d''écriture d''Algolia (facultatif)'
       driver: Pilote
       driverOption:
@@ -16,9 +16,17 @@ clarkwinkelmann-scout:
         meilisearch: Meilisearch
         'null': Néant
         tntsearch: TNTSearch
+      limit: 'Limite des résultats par défaut'
+      limitHelp: "Cela annule le nombre de résultats demandés au moteur de recherche et influence le nombre de pages de résultats qui peuvent être générées (la limite compte également le contenu que l'utilisateur ne pourra pas voir). Certains moteurs peuvent nécessiter une configuration supplémentaire pour modifier le maximum autorisé.\n"
+      limitPlaceholder: Automatique
       meilisearchHost: 'Hôte de Meilisearch'
       meilisearchKey: 'Clé de Meilisearch'
       prefix: 'Préfixe du nom de l''index (facultatif)'
+      queryMinLength: 'Longueur minimale des requêtes pour les suggestions'
+      queryMinLengthHelp: "Ce paramètre n'affecte que la liste déroulante des suggestions de l'entrée de recherche dans l'en-tête. Flarum a une longueur de requête par défaut de 3 caractères avant de récupérer les suggestions, que vous pouvez remplacer par ce paramètre. La page complète de résultats de recherche n'a jamais de longueur de requête minimale. Vous devez vider le cache après avoir modifié cette valeur.\n"
+      queryMinLengthPlaceholder: Automatique
+      queue: 'Traiter les mises à jour d''index dans la file d''attente'
+      queueHelp: 'Ce paramètre n''a d''effet que si un pilote de file d''attente asynchrone est configuré dans Flarum.'
       tntsearchFuzziness: 'Caractère flou de TNTSearch (erreurs de frappe ou correspondance des variations)'
       tntsearchFuzzyDistance: 'Distance de Levenshtein du caractère flou de TNTSearch (facultatif)'
       tntsearchFuzzyMaxExpansions: 'Extensions maximales du caractère flou de TNTSearch (facultatif)'

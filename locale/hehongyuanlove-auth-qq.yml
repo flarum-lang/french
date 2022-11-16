@@ -6,7 +6,7 @@ hehongyuanlove-auth-qq:
   admin:
     qq_settings:
       client_id_label: 'Identifiant de l''application'
-      client_secret_label: 'Secret de l''application'
+      client_secret_label: 'Clé secrète de l''application'
       title: 'Paramètres de QQ'
   forum:
     log_in:

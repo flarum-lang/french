@@ -9,7 +9,7 @@ fof-passport:
         app-auth-url: 'URL d''autorisation OAuth'
         app-id: 'Identifiant de l''application OAuth'
         app-scopes: 'Portées OAuth à demander'
-        app-secret: 'Code secret de l''application OAuth'
+        app-secret: 'Clé secrète de l''application OAuth'
         app-token-url: 'URL du jeton OAuth'
         app-user-url: 'URL de l''API fournissant des informations sur l''utilisateur lors de son authentification'
         button-icon: 'Icône du bouton de connexion'

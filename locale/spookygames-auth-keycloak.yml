@@ -7,7 +7,7 @@ flarum-ext-auth-keycloak:
     keycloak_settings:
       attribute_mapping_label: 'Mappage d''attributs personnalisés'
       client_id_label: 'Identifiant du client'
-      client_secret_label: 'Secret du client'
+      client_secret_label: 'Clé secrète du client'
       delegate_avatars_label: 'Délégation des avatars'
       encryption_algorithm_label: 'Algorithme de chiffrement'
       encryption_key_label: 'Clé (ou certificat) de chiffrement'

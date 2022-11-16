@@ -9,7 +9,7 @@ maicol07-oidc-client:
       callback_subtitle: 'Il s''agit des URI de rappel que vous devez enregistrer sur votre fournisseur pour obtenir le code d''autorisation du client et pour vous déconnecter du fournisseur, si l''option correspondante a été activée.'
       callback_title: 'URI de rappel'
       client_id: 'Identifiant du client'
-      client_secret: 'Secret du client'
+      client_secret: 'Clé secrète du client'
       client_settings_subtitle: 'Ajoutez ici les informations client fournies par votre fournisseur OpenID Connect. Pour plus d''informations, veuillez consulter la documentation.'
       client_settings_title: 'Paramètres du client'
       endpoints:

@@ -5,7 +5,7 @@
 flarum-akismet:
   admin:
     akismet_settings:
-      api_key_label: 'Clé de l''API'
+      api_key_label: 'Clé API'
       delete_blatant_spam_help: 'Si Akismet a déterminé que le commentaire est un message indésirable flagrant, il supprimera automatiquement le message au lieu de le signaler'
       delete_blatant_spam_label: 'Supprimer automatiquement les messages indésirables flagrants'
       title: 'Paramètres d''Akismet'

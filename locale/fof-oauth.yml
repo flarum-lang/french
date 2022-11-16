@@ -35,8 +35,8 @@ fof-oauth:
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Créer une application sur {link}.'
         twitter:
-          api_key_label: 'Clé de l''API'
-          api_secret_label: 'Code secret de l''API'
+          api_key_label: 'Clé API'
+          api_secret_label: 'Clé secrète de l''API'
           description: 'Créez une application sur {link}. Vous devrez définir un lien vers les conditions d''utilisation et un lien vers la politique de confidentialité. Veillez ensuite à ajouter l''autorisation de demander un courriel.'
     settings_accessibility_label: 'Paramètres de {name}'
   forum:
@@ -85,6 +85,6 @@ fof-oauth:
   ref:
     settings:
       app_id: 'Identifiant de l''application'
-      app_secret: 'Code secret de l''application'
+      app_secret: 'Clé secrète de l''application'
       client_id: 'Identifiant du client'
-      client_secret: 'Code secret du client'
+      client_secret: 'Clé secrète du client'

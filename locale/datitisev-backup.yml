@@ -30,8 +30,8 @@ datitisev-backup:
             description: 'Clé d''identification d''AWS'
             label: Clé
           secret:
-            description: 'Secret d''identification d''AWS'
-            label: Secret
+            description: 'Clé secrète de l''identification d''AWS'
+            label: 'Clé secrète'
         path-prefix:
           description: 'Préfixe de chemin par défaut facultatif pour les fichiers.'
           label: 'Préfixe du chemin'
@@ -83,11 +83,11 @@ datitisev-backup:
       gdrive:
         client:
           id:
-            description: "Suivez les instructions sur https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md pour créer un projet Google et récupérer votre identifiant client et votre secret du client.\n"
+            description: "Suivez les instructions sur https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md pour créer un projet Google et récupérer votre identifiant client et votre clé secrète du client.\n"
             label: 'Identifiant du client'
           secret:
             description: ' '
-            label: 'Secret du client'
+            label: 'Clé secrète du client'
         folder:
           description: 'https://drive.google.com/drive/u/0/folders/ID'
           label: 'Identifiant du dossier'

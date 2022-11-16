@@ -5,7 +5,7 @@
 gpx-preview:
   admin:
     settings:
-      gkey: 'Clé de l''API Google avec accès à l''API de Google Maps.'
+      gkey: 'Clé API de Google avec accès à l''API de Google Maps.'
     templates:
       gpx: 'Aperçu de l''itinéraire GPX'
       gpx.file_description: 'Incorpore une carte de Google Maps avec le fichier GPX téléchargé en superposition.'

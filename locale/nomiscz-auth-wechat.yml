@@ -6,7 +6,7 @@ nomiscz-auth-wechat:
   admin:
     settings:
       api_app_id: 'Identifiant API de l''application'
-      api_app_secret: 'Secret API de l''application'
+      api_app_secret: 'Clé secrète de l''API de l''application'
       title: 'Paramètres d''authentification de WeChat'
   forum:
     alerts:

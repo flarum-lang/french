@@ -14,7 +14,7 @@ fof-upload:
       resize: "Choisissez si vous souhaitez redimensionner vos images avant qu'elles ne soient téléchargées. Vous pouvez indiquer une largeur et une hauteur maximales, en pixels. Le processus de redimensionnement conserve le rapport hauteur/largeur des images.\n"
       s3_acl: "L'ACL qui doit être appliquée à l'objet téléchargé (par défaut : privé). Pour les valeurs possibles, veuillez consulter https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n"
       s3_compatible_storage: "Les paramètres suivants ne sont obligatoires que si vous utilisez un stockage compatible S3. Si vous utilisez AWS, vous pouvez les laisser vides.\n"
-      s3_instance_profile: "Laissez la clé et le secret vides pour utiliser les informations d'identification dans le profil de l'instance.\n"
+      s3_instance_profile: "Laissez la clé et la clé secrète vides pour utiliser les informations d'identification dans le profil de l'instance.\n"
       watermark: "Choisissez si un filigrane sera ajouté aux images lors du téléchargement. Les filigranes sont ajoutés aux images qui ne sont pas des GIFS en fonction de vos préférences définies ci-dessous.\n"
     inspect-mime:
       description: "FoF Upload utilise la bibliothèque <a>PHP Mime Detector</a> pour les types MIME courants et PHP Fileinfo comme solution de repli.\nLa valeur MIME renvoyée par Fileinfo peut être différente d'un serveur à l'autre !\n"
@@ -36,7 +36,7 @@ fof-upload:
         endpoint: 'Point d''accès'
         key: Clé
         region: Région
-        secret: Secret
+        secret: 'Clé secrète'
         title: 'Paramètres de stockage AWS S3'
         use_path_style_endpoint: 'Utiliser un point d''entrée de type chemin'
       client_extension:
@@ -69,7 +69,7 @@ fof-upload:
       qiniu:
         bucket: 'Espace de stockage mémoire'
         key: Clé
-        secret: Secret
+        secret: 'Clé secrète'
         title: 'Paramètres de stockage d''Qiniu'
       resize:
         max_width: 'Largeur/hauteur maximale de l''image'
