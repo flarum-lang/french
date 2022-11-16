@@ -17,10 +17,19 @@ fof-gamification:
         converted: 'Les {number} « j''aime » ont été convertis'
         converting: 'Vos « j''aime » sont en cours de conversion. Actualisez votre site après quelques minutes pour voir le résultat. (Le temps de conversion peut prendre un certain temps en fonction du nombre total de « j''aime » sur votre forum)'
         help: 'Converti vos anciens « j''aime » de l''extension flarum-ext-likes en votes positifs et calcule la popularité de toutes les discussions en cours.'
+      groups:
+        add: 'Ajouter une nouvelle règle'
+        column:
+          group: Groupe
+          maxPoints: 'Points maximums (inclus)'
+          minPoints: 'Points minimums (inclus)'
+        delete: 'Supprimer la règle'
+        help: "Les groupes sélectionnés seront automatiquement ajoutés ou supprimés si nécessaire lorsque le nombre de points d'un utilisateur change. Si vous avez apporté des modifications à la configuration, vous devez exécuter la commande <code>php flarum fof:gamification:assign-groups</code> pour mettre à jour les utilisateurs existants. Si vous souhaitez supprimer une règle et retirer tous les utilisateurs du groupe, définissez les valeurs minimale et maximale sur une chaîne vide, enregistrez les paramètres et exécutez la commande en ligne. Enfin, vous pouvez supprimer entièrement la règle à partir des paramètres.\n"
+        title: 'Groupes assignés automatiquement'
       rankings:
         blocked:
           help: 'Ces utilisateurs ne seront pas affichés sur la page de classement. Les noms d''utilisateur doivent être séparés par une virgule suivie d''un espace.'
-          placeholder: 'CDK2020, Ralkage, AngelAvila'
+          placeholder: 'administrateur, utilisateur1, utilisateur2'
           title: 'Utilisateurs ignorés'
         custom_image_1: 'Image de la 1ère place'
         custom_image_2: 'Image de la 2ème place'
@@ -38,6 +47,7 @@ fof-gamification:
         title: Rangs
       save_settings: 'Enregistrer les paramètres'
       votes:
+        allow_self_votes: 'Les utilisateurs peuvent voter sur leurs propres messages'
         alternate_layout: 'Utiliser une disposition de vote alternative sur la liste de discussions'
         alternate_post_layout: 'Utiliser une disposition de vote alternative sur les messages'
         auto_upvote: 'Attribuer automatiquement un vote positif lorsqu''un message est publié'

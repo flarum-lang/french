@@ -62,6 +62,17 @@ fof-oauth:
       twitter: '=> fof-oauth.lib.providers.twitter'
     signup:
       username_help: 'Veuillez choisir un nom d''utilisateur pour être connu ici'
+    unlink: 'Supprimer le lien'
+    user:
+      settings:
+        linked-account:
+          help: 'Ces comptes liés vous permettent de vous connecter au forum en utilisant d''autres fournisseurs.'
+          identifier-label: 'Identifiant de {provider}'
+          label: 'Comptes liés'
+          last-used-label: 'Dernière utilisation'
+          link-created-label: 'Lien créé'
+          orphaned-account: 'Vous vous êtes déjà connecté via ce fournisseur mais ce forum a désactivé depuis la connexion avec cette méthode.'
+          unlink-confirm: 'Êtes-vous sûr de vouloir supprimer le lien avec {provider} ? Vous ne pourrez plus vous connecter à ce forum à moins de vous authentifier à nouveau à l''avenir.'
   lib:
     providers:
       discord: Discord

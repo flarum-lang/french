@@ -4,7 +4,20 @@
 
 maicol07-sso:
   admin:
+    forum:
+      manage_account_btn: 'Gérer le compte'
     settings:
+      client_api_key: 'Clé API'
+      client_api_key_help: 'La clé API de votre instance Flarum.'
+      client_name: Nom
+      client_name_help: 'Nom de l''instance Flarum'
+      client_password_token: 'Jeton de mot de passe'
+      client_password_token_help: 'Un mot de passe aléatoire à utiliser lors de l''inscription à l''instance Flarum.'
+      client_url: URL
+      client_url_help: 'URL de l''instance Flarum'
+      client_verify_ssl: 'Vérifier le SSL'
+      client_verify_ssl_help: 'Vérifiez l''état SSL de l''instance Flarum lorsque vous lui adressez des requêtes (recommandé).'
+      cookies_prefix: 'Préfixe du nom des cookies'
       jwt_iss: 'Domaine de l''émetteur'
       jwt_section_subtitle: 'Paramètres de l''addon JWT'
       jwt_signer_key: 'Clé du signataire'
@@ -13,6 +26,7 @@ maicol07-sso:
       logout_url: 'URL de déconnexion'
       manage_account_btn_open_in_new_tab: 'Ouvrir la gestion du compte dans un nouvel onglet'
       manage_account_url: 'Gérer l''URL du compte'
+      provider_mode: 'Activez cette option pour utiliser le mode fournisseur (SSO entre les instances Flarum). Cela permet aux autres instances Flarum de se connecter à un utilisateur de cette instance Flarum. Ceci désactivera la fonction SSO standard avec d''autres sites internet.'
       remove_login_btn: 'Supprimer le bouton de connexion'
       remove_signup_btn: 'Supprimer le bouton d''inscription'
       signup_url: 'URL d''inscription'

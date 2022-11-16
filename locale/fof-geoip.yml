@@ -9,7 +9,7 @@ fof-geoip:
       security_label: 'Module de sécurité (nécessite une licence Professionnel Plus)'
       service_freegeoip_description: 'Utilisez <b>https://freegeoip.app/</b> pour récupérer gratuitement jusqu''à 15 000 codes de pays par heure.'
       service_freegeoip_label: FreeGeoIP
-      service_ipapi_description: 'Utilisez <b>http://ip-api.com</b> pour effectuer gratuitement jusqu''à 150 recherches par minute. Si vous en faites davantage, votre adresse IP peut être placée sur liste noire, après quoi vous pouvez la retirer à cette adresse : <b>http://ip-api.com/docs/unban</b>.'
+      service_ipapi_description: 'Utilisez <b>http://ip-api.com</b> pour effectuer gratuitement jusqu''à 45 recherches par minute. Si vous en faites davantage, votre adresse IP peut être placée sur liste noire, après quoi vous pouvez la retirer à cette adresse : <b>http://ip-api.com/docs/unban</b>.'
       service_ipapi_label: 'IP API'
       service_ipdata_description: 'Utilisez <b>https://ipdata.co</b> pour effectuer gratuitement jusqu''à 1 500 recherches par jour.'
       service_ipdata_label: IPData
