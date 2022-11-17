@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.2.1 (XXXX-XX-XX)
+------------------
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
+
+
+Journal de toutes les modifications : [v4.2.0...v4.2.1](https://github.com/flarum-lang/french/compare/v4.2.0...v4.2.1).
+
+
 4.2.0 (2022-11-16)
 ------------------
 
