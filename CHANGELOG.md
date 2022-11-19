@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-4.3.0 (XXXX-XX-XX)
+4.3.0 (2022-11-19)
 ------------------
 
 **Prise en charge de nouvelles extensions**:
