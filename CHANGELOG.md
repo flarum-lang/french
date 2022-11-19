@@ -12,6 +12,7 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
 * [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
 
 
