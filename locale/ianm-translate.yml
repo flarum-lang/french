@@ -6,15 +6,32 @@ ianm-translate:
   admin:
     permission:
       translate: 'Voir les traductions'
+      translate-to-all-locales: 'Afficher la traduction dans toutes les langues du forum'
+      translate-to-locale: 'Afficher la traduction dans la langue actuelle'
     settings:
       any-language: 'Toutes les langues'
       any-language-help: 'Lorsque cette option est activée, toutes les langues de traduction prises en charge par le fournisseur actuel seront disponibles. Pour limiter les langues de traduction à celles qui sont activées sur votre forum, veuillez laisser cette option désactivée.'
-      provider: 'Moteur du fournisseur de traduction'
+      google-cloud:
+        api_key:
+          help: 'Enregistrez-vous pour obtenir une clé API sur {link}. Ce pilote utilise l''API V2 - Basique.'
+          label: 'Clé API'
+      provider: 'Fournisseur de services de traduction'
+      readme-info: 'Pour plus d''informations, veuillez consulter la documentation dans le fichier README.'
   forum:
     detected-language: 'Ce message est en {postLang}'
     discussion:
       post:
         close-translation: 'Fermer la traduction'
         translated-header: 'Traduction par intelligence artificielle de {from} à {to}'
-        translated-updated: 'Dernière mise à jour de la traduction le {time}'
+        translated-updated: 'Dernière mise à jour de la traduction le {time} en utilisant {provider}'
     unknown-language: '[non détecté]'
+    user:
+      settings:
+        heading: Traduction
+        source-language:
+          help: 'Lorsque cette option est désactivée, seuls les messages écrits dans une langue autre que la langue actuelle du forum seront étiquetés. Pour étiqueter tous les messages avec leur langue détectée, veuillez activez ce paramètre.'
+          label: 'Toujours montrer la langue du message'
+  lib:
+    providers:
+      google-cloud: 'Google Cloud Translate'
+      google-free: 'Google (gratuit)'

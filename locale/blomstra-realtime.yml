@@ -7,8 +7,12 @@ blomstra-realtime:
     permission:
       view-who-types: 'Voir qui rédige'
     settings:
+      release-discussion-updates: 'Mises à jour de DiscussionList'
+      release-discussion-updates-help: 'Lorsque cette option est activée, les nouvelles discussions seront poussées dans la <code>DiscussionList</code> à l''intervalle défini ci-dessous.'
       release-discussion-updates-interval: 'Intervalle pour pousser automatiquement une nouvelle activité de discussion'
       release-discussion-updates-interval-help: 'En secondes. 0 désactive la poussée automatique.'
+      typing-indicator: 'Indicateur de frappe'
+      typing-indicator-help: 'Lorsque cette option est activée et sous réserve d''en avoir l''autorisation, les utilisateurs peuvent voir le nombre d''autres utilisateurs en train de saisir du texte dans une discussion. Lorsque l''option est désactivée, l''indicateur de frappe est supprimé à la fois de l''interface utilisateur et de la charge utile du WebSocket.'
   forum:
     push:
       discussion-list-new-activity: '{count, plural, one {Afficher la discussion mise à jour} other {Afficher les # discussions mises à jour}}'
