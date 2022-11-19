@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+4.3.0 (2022-11-19)
+------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
+
+
+Journal de toutes les modifications : [v4.2.0...v4.3.0](https://github.com/flarum-lang/french/compare/v4.2.0...v4.3.0).
+
+
 4.2.0 (2022-11-16)
 ------------------
 
