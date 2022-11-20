@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+4.4.0 (XXXX-XX-XX)
+------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`clarkwinkelmann/flarum-ext-sudo-mode`](https://github.com/clarkwinkelmann/flarum-ext-sudo-mode)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+
+
+Journal de toutes les modifications : [v4.3.0...v4.4.0](https://github.com/flarum-lang/french/compare/v4.3.0...v4.4.0).
+
+
 4.3.0 (2022-11-19)
 ------------------
 
