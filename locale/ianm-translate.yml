@@ -5,6 +5,7 @@
 ianm-translate:
   admin:
     permission:
+      refresh-translation: 'Forcer une retraduction d''une traduction mise en cache'
       translate: 'Voir les traductions'
       translate-to-all-locales: 'Afficher la traduction dans toutes les langues du forum'
       translate-to-locale: 'Afficher la traduction dans la langue actuelle'
@@ -34,4 +35,4 @@ ianm-translate:
   lib:
     providers:
       google-cloud: 'Google Cloud Translate'
-      google-free: 'Google (gratuit)'
+      google-free: 'Google Traduction'
