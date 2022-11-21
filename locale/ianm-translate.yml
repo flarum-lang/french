@@ -22,10 +22,17 @@ ianm-translate:
           options:
             en-GB: 'Anglais (UK) en-GB'
             en-US: 'Anglais (US) en-US'
+        formality:
+          help: 'Lorsque cela est possible, les traductions pourront utiliser différents niveaux de formalité. Sélectionnez votre préférence ici.'
+          label: Formalité
+          options:
+            default: 'Par défaut'
+            prefer_less: 'Moins formel'
+            prefer_more: 'Plus formel'
       google-cloud:
         api_key:
           help: 'Enregistrez-vous pour obtenir une clé API sur {link}. Ce pilote utilise l''API V2 - Basique.'
-          label: 'Clé API'
+          label: '=> ianm-translate.lib.settings.api-key'
       provider: 'Fournisseur de services de traduction'
       readme-info: 'Pour plus d''informations, veuillez consulter la documentation dans le fichier README.'
   forum:
@@ -44,5 +51,8 @@ ianm-translate:
           label: 'Toujours montrer la langue du message'
   lib:
     providers:
+      deepl: DeepL
       google-cloud: 'Google Cloud Translate'
       google-free: 'Google Traduction'
+    settings:
+      api-key: 'Clé API'
