@@ -20,8 +20,8 @@ ianm-translate:
           help: 'Lors de la traduction en anglais, sélectionnez la variante à utiliser.'
           label: 'Variante en anglais'
           options:
-            en-GB: 'Anglais (UK) en-GB'
-            en-US: 'Anglais (US) en-US'
+            en-GB: 'Anglais (britannique) en-GB'
+            en-US: 'Anglais (américain) en-US'
         formality:
           help: 'Lorsque cela est possible, les traductions pourront utiliser différents niveaux de formalité. Sélectionnez votre préférence ici.'
           label: Formalité
@@ -40,7 +40,7 @@ ianm-translate:
     discussion:
       post:
         close-translation: 'Fermer la traduction'
-        translated-header: 'Traduction par intelligence artificielle de {from} à {to}'
+        translated-header: 'Traduction par intelligence artificielle de {from} en {to}'
         translated-updated: 'Dernière mise à jour de la traduction le {time} en utilisant {provider}'
     unknown-language: '[non détecté]'
     user:
