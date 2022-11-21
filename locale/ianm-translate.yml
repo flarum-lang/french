@@ -12,6 +12,16 @@ ianm-translate:
     settings:
       any-language: 'Toutes les langues'
       any-language-help: 'Lorsque cette option est activée, toutes les langues de traduction prises en charge par le fournisseur actuel seront disponibles. Pour limiter les langues de traduction à celles qui sont activées sur votre forum, veuillez laisser cette option désactivée.'
+      deepl:
+        api_key:
+          help: 'Enregistrez-vous sur {link}. Le pilote détectera automatiquement le type de clé, gratuite ou professionnelle.'
+          label: '=> ianm-translate.lib.settings.api-key'
+        en_choice:
+          help: 'Lors de la traduction en anglais, sélectionnez la variante à utiliser.'
+          label: 'Variante en anglais'
+          options:
+            en-GB: 'Anglais (UK) en-GB'
+            en-US: 'Anglais (US) en-US'
       google-cloud:
         api_key:
           help: 'Enregistrez-vous pour obtenir une clé API sur {link}. Ce pilote utilise l''API V2 - Basique.'
