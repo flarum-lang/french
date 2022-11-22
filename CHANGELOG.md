@@ -12,6 +12,8 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
 
 
