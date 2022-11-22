@@ -11,6 +11,8 @@ fof-polls:
       start: 'Démarrer un sondage'
       view_results_without_voting: 'Afficher les résultats sans voter'
       vote: 'Voter sur les sondages'
+    settings:
+      allow_option_image: 'Permettre de fournir l''URL d''une image pour chaque option de sondage'
   forum:
     composer_discussion:
       add_poll: 'Ajouter un sondage'
@@ -21,6 +23,7 @@ fof-polls:
       add_title: 'Ajouter un sondage'
       date_placeholder: 'Date de fin du sondage (facultatif)'
       edit_title: 'Modifier le sondage'
+      image_option_placeholder: 'URL de l''image (facultatif)'
       include_question: 'Vous devez ajouter une question'
       max: 'Vous pouvez avoir un maximum de 10 réponses'
       min: 'Vous devez ajouter au moins 2 réponses'

@@ -12,6 +12,7 @@ blomstra-payments:
       bump-others-description: "Si cette option est activée, l'auteur de la discussion ne sera pas le seul à pouvoir remonter les discussions en payant.\n"
       select-bounty-description: "Sélectionnez un produit pour le configurer pour les primes. Le produit ne peut avoir qu'un seul prix avec le modèle « Le client choisit le prix ». Copiez l'identifiant du produit commençant par <code>prod_</code> dans ce champ.\n"
       select-bounty-product: '(Prime) Produit requis'
+      select-bounty-product-description: "Sélectionnez un produit pour le configurer pour les primes. Le produit ne peut avoir qu'un seul prix avec le modèle « Le client choisit le prix ». Copiez l'identifiant du produit commençant par <code>prod_</code> dans ce champ.\n"
       select-ptb-product: '(PPR) Produit requis'
       select-ptb-product-description: "La sélection d'un produit nécessite le paiement de ce produit avant de pouvoir remonter une discussion.\n"
       select-ptp-product: '(PPP) Produit nécessaire'
