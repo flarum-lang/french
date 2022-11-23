@@ -7,12 +7,15 @@ CHANGELOG
 
 **Prise en charge de nouvelles extensions**:
 
+* [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
 * [`clarkwinkelmann/flarum-ext-sudo-mode`](https://github.com/clarkwinkelmann/flarum-ext-sudo-mode)
+* [`clarkwinkelmann/flarum-ext-vote-with-money`](https://github.com/clarkwinkelmann/flarum-ext-vote-with-money)
 
 
 **Mise à jour des traductions de certaines extensions**:
 
 * [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
 
