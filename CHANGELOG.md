@@ -16,6 +16,8 @@ CHANGELOG
 
 * [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
 * [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
+* [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
+* [`finteger/ratings`](https://github.com/finteger/ratings)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
 
