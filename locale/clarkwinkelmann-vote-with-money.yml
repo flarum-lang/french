@@ -24,7 +24,7 @@ clarkwinkelmann-vote-with-money:
       label:
         custom: 'Montant personnalisé'
       optionCustom: Personnalisé
-      submit: Soumettre
+      submit: Envoyer
       success: 'Le vote a été soumis !'
       target: "Confirmez votre promesse de vote pour l'option « {answer} ». Vous ne pourrez pas modifier votre vote ultérieurement.\n"
       title: 'Confirmer le vote'

@@ -7,6 +7,6 @@ finteger-ratings:
     discussionTitle: 'Saisissez ici le titre de la discussion pour laquelle vous souhaitez obtenir des évaluations (veuillez noter qu''il est sensible à la casse et qu''il ne fonctionnera pas s''il ne correspond pas exactement au titre).'
     permissions:
       moderate: 'Modérer les évaluations'
-      submit: 'Soumettre des évaluations'
+      submit: 'Envoyer les évaluations'
       view: 'Afficher les évaluations'
     seeBar: 'Ajouter les discussions les plus populaires (limitées à 5) dans la barre supérieure (juste en dessous de la navigation).'
