@@ -5,7 +5,10 @@
 blomstra-turnstile:
   admin:
     settings:
+      forgot: '=> core.forum.forgot_password.title'
       secret_key: 'Clé secrète'
+      signin: '=> core.forum.log_in.title'
+      signup: '=> core.forum.sign_up.title'
       site_key: 'Clé du site'
   forum:
     not_loaded_error: 'Échec du chargement de Cloudflare Turnstile. Veuillez rafraîchir la page et vérifier votre bloqueur de publicités.'

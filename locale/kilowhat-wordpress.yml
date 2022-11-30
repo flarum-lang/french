@@ -142,6 +142,10 @@ kilowhat-wordpress:
       unlink: 'Détacher cet utilisateur de l''utilisateur WordPress'
       unlink_help: 'Si l''adresse de courriel correspond à un utilisateur de WordPress, il sera lié à nouveau la prochaine fois que cet utilisateur se connectera dans WordPress.'
       warning: "Cet utilisateur est maintenu en synchronisation avec WordPress. Vous devez modifier l'adresse de courriel et le mot de passe depuis WordPress.\n"
+    embed-link-modal:
+      message: 'La page essaie de vous rediriger vers {href}'
+      open: 'Ouvrir le lien'
+      title: 'Quitter le fil de commentaires'
     embed:
       title: Commentaires
     log_in:
