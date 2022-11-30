@@ -42,6 +42,7 @@ ianm-translate:
         close-translation: 'Fermer la traduction'
         translated-header: 'Traduction par intelligence artificielle de {from} en {to}'
         translated-updated: 'Dernière mise à jour de la traduction le {time} en utilisant {provider}'
+    translate-button-label: Traduire
     unknown-language: '[non détecté]'
     user:
       settings:
