@@ -7,6 +7,7 @@ CHANGELOG
 
 **Prise en charge de nouvelles extensions**:
 
+* [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
 * [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
 * [`clarkwinkelmann/flarum-ext-sudo-mode`](https://github.com/clarkwinkelmann/flarum-ext-sudo-mode)
 * [`clarkwinkelmann/flarum-ext-vote-with-money`](https://github.com/clarkwinkelmann/flarum-ext-vote-with-money)
@@ -21,6 +22,7 @@ CHANGELOG
 * [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
 * [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
 * [`finteger/ratings`](https://github.com/finteger/ratings)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
 * [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
