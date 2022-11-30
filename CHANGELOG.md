@@ -10,6 +10,8 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
 * [`clarkwinkelmann/flarum-ext-sudo-mode`](https://github.com/clarkwinkelmann/flarum-ext-sudo-mode)
 * [`clarkwinkelmann/flarum-ext-vote-with-money`](https://github.com/clarkwinkelmann/flarum-ext-vote-with-money)
+* [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
+* [`ziiven/view-history`](https://github.com/Ziiven/view-history)
 
 
 **Mise à jour des traductions de certaines extensions**:
@@ -17,9 +19,11 @@ CHANGELOG
 * [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
 * [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
 * [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
 * [`finteger/ratings`](https://github.com/finteger/ratings)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
 
 
 Journal de toutes les modifications : [v4.3.0...v4.4.0](https://github.com/flarum-lang/french/compare/v4.3.0...v4.4.0).
