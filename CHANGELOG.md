@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+4.4.1 (XXXX-XX-XX)
+------------------
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
+* [`davwheat/virtual-authors`](https://extiverse.com/extension/davwheat/virtual-authors)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+
+
+Journal de toutes les modifications : [v4.4.0...v4.4.1](https://github.com/flarum-lang/french/compare/v4.4.0...v4.4.1).
+
+
 4.4.0 (2022-12-01)
 ------------------
 
