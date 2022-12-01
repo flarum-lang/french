@@ -62,7 +62,7 @@ davwheat-virtual-authors:
       heading: Auteurs
       item_link_tooltip: 'Afficher toutes les discussions par {displayName}'
   lib:
-    discussion-badge: '{count, plural, one {A un auteur virtuel}, other {A des auteurs virtuels}}'
+    discussion-badge: '{count, plural, one {A un auteur virtuel} other {A des auteurs virtuels}}'
     edit_modal:
       fields:
         description: 'Description (à propos de l''auteur)'
@@ -72,5 +72,5 @@ davwheat-virtual-authors:
       title_edit: 'Modifier l''auteur virtuel'
       title_new: 'Nouvel auteur virtuel'
   ref:
-    discussion_count: '{count, plural, one {# discussion}, other {# discussions}}'
+    discussion_count: '{count, plural, one {# discussion} other {# discussions}}'
     no_description: '(aucune description définie)'

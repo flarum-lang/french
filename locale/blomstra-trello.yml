@@ -60,7 +60,7 @@ blomstra-trello:
         board: 'Sélectionner un tableau Trello'
         lane: 'Sélectionner une ligne Trello'
         member: 'Sélectionner un membre de Trello'
-        member_selected: '{count, plural, one {# membre sélectionné}, other {# membres sélectionnés}}'
+        member_selected: '{count, plural, one {# membre sélectionné} other {# membres sélectionnés}}'
       no_available_board_lanes: 'Aucune ligne de tableau disponible'
       no_available_board_members: 'Aucun membre du tableau disponible'
       no_available_boards_label: 'Aucun tableau disponible'
