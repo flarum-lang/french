@@ -10,6 +10,12 @@ CHANGELOG
 * [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
 * [`davwheat/virtual-authors`](https://extiverse.com/extension/davwheat/virtual-authors)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
+* [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+* [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
 
 
 Journal de toutes les modifications : [v4.4.0...v4.4.1](https://github.com/flarum-lang/french/compare/v4.4.0...v4.4.1).
