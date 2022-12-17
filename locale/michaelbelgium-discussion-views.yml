@@ -14,14 +14,21 @@ michaelbelgium-discussion-views:
       view_number_label: 'Afficher le compteur de vues de la discussion'
     settings:
       abbr_numbers_label: 'Abréger le nombre de vues'
+      abbr_numbers_text: 'Si cette option est activée, le nombre élevé de vues sera abrégé (par exemple, 1000 = 1K)'
+      ignore_crawlers_label: 'Ignorer les robots et les moteurs d''indexation'
+      ignore_crawlers_text: 'Empêche les robots et les moteurs d''indexation d''augmenter le nombre de vues'
       max_viewcount_label: 'Nombre maximal d''éléments de la liste d''affichage'
-      max_viewcount_text: 'Cela s''applique à la liste de visualisation du pied de page et à la liste de visualisation de la barre latérale'
+      max_viewcount_text: 'Définir un nombre maximum d''utilisateurs dans une liste de visualisation (s''applique à la liste de visualisation du pied de page et de la barre latérale)'
       show_filter_label: 'Activer le champ de tri (im)populaire'
       show_footer_viewlist_label: 'Activer la liste de visualisation du pied de page'
+      show_footer_viewlist_text: 'Activer une liste de visiteurs dans le pied de page du message initial d''une discussion'
       show_viewlist_label: 'Activer la liste d''affichage'
+      show_viewlist_text: 'Activer une liste des derniers visiteurs dans la barre latérale d''une discussion'
       title: 'Paramètres des vues de la discussion'
       track_guests: 'Suivre les invités'
+      track_guests_label: 'Suivre les invités'
       track_unique_label: 'Suivre les vues uniques'
+      track_unique_text: 'Augmenter les vues en fonction de l''adresse IP'
   forum:
     discussion_controls:
       resetviews_button: 'Réinitialiser les vues'

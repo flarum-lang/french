@@ -32,6 +32,7 @@ kilowhat-audit:
       user-title: 'Journal d''Audit d''utilisateur'
   lib:
     browser:
+      audit_log_cleared: 'Suppression de {deleted_count} entrées des journaux d''audit'
       cache_cleared: 'Nettoyage manuel du cache'
       client:
         access_token: 'Jeton d''accès'

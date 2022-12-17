@@ -14,6 +14,8 @@ fof-byobu:
       view_private_discussions-when-flagged: 'Afficher les discussions privées d''autres utilisateurs qui ont été signalées'
     settings:
       badge-icon: 'Badge de discussion Byobu'
+      delete_on_last_recipient_left: 'Suppression des discussions privées lors du départ du dernier utilisateur'
+      delete_on_last_recipient_left_help: 'Si cette option est activée, les discussions privées seront définitivement supprimées de la base de données lorsque le dernier utilisateur partira de la conversation. Sinon, les discussions privées seront supprimées en douceur et cachées.'
       enable-make-public-option: "Activer la capacité «\_rendre public\_»"
       enable-make-public-option-help: 'Ajoute la possibilité pour les personnes autorisées de supprimer tous les destinataires, d''attribuer une nouvelle étiquette et de rendre la discussion visible publiquement (selon les paramètres de visibilité de l''étiquette choisie).'
       post-event-icon: 'Événements de publication Byobu'
