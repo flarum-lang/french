@@ -21,6 +21,8 @@ ziven-checkin:
       timezone: 'Fuseau horaire'
   forum:
     check-in: Enregistrement
+    check-in-failed: 'L''enregistrement a échoué'
     check-in-success: 'Enregistrement avec succès'
     checked-in-day: 'Enregistrement dans {count} jour'
     checked-in-days: 'Enregistrement dans {count} jours'
+    try-again-later: 'Veuillez réessayer ultérieurement'
