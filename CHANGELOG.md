@@ -2,8 +2,15 @@ CHANGELOG
 =========
 
 
-4.4.1 (XXXX-XX-XX)
+4.5.0 (XXXX-XX-XX)
 ------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`clarkwinkelmann/flarum-ext-meilisearch-dashboard`](https://github.com/clarkwinkelmann/flarum-ext-meilisearch-dashboard)
+* [`finteger/shorts`](https://extiverse.com/extension/finteger/shorts)
+* [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
+
 
 **Mise à jour des traductions de certaines extensions**:
 
@@ -16,9 +23,10 @@ CHANGELOG
 * [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
+* [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
 
 
-Journal de toutes les modifications : [v4.4.0...v4.4.1](https://github.com/flarum-lang/french/compare/v4.4.0...v4.4.1).
+Journal de toutes les modifications : [v4.4.0...v4.5.0](https://github.com/flarum-lang/french/compare/v4.4.0...v4.5.0).
 
 
 4.4.0 (2022-12-01)
