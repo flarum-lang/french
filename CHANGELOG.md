@@ -8,7 +8,7 @@ CHANGELOG
 **Prise en charge de nouvelles extensions**:
 
 * [`clarkwinkelmann/flarum-ext-meilisearch-dashboard`](https://github.com/clarkwinkelmann/flarum-ext-meilisearch-dashboard)
-* [`finteger/shorts`](https://extiverse.com/extension/finteger/shorts)
+* `finteger-shorts`
 * [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
 
 
