@@ -2,6 +2,38 @@ CHANGELOG
 =========
 
 
+4.5.0 (2023-01-15)
+------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`clarkwinkelmann/flarum-ext-meilisearch-dashboard`](https://github.com/clarkwinkelmann/flarum-ext-meilisearch-dashboard)
+* `finteger-shorts`
+* [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+* [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
+* [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`davwheat/virtual-authors`](https://extiverse.com/extension/davwheat/virtual-authors)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
+* [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+* [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
+* [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
+
+
+Journal de toutes les modifications : [v4.4.0...v4.5.0](https://github.com/flarum-lang/french/compare/v4.4.0...v4.5.0).
+
+
 4.4.0 (2022-12-01)
 ------------------
 
