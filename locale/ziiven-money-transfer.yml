@@ -6,17 +6,25 @@ ziven-transfer-money:
   admin:
     permission:
       allow_use_transfer_money: 'Permettre le transfert d''argent'
+    transfer-money-client-customization: 'Personnalisation du client'
+    transfer-money-client-customization-help: 'Fonctionnalités développées pour un client. Elles peuvent provoquer des erreurs inattendues chez d''autres utilisateurs.'
+    transfer-money-timezone: 'Fuseau horaire'
+    transfer-money-timezone-default: Asie/Shanghai
+    transfer-money-timezone-help: 'Définissez le fuseau horaire pour l''heure de transfert. La valeur par défaut est « Asie/Shanghai ».'
   forum:
     cancel: Annuler
-    current-money-amount: 'Argent actuel :'
+    current-money-amount: 'Argent actuel : '
+    need-money-amount: 'Montant total du transfert : '
     notifications:
       user-transfer-money-details: 'Vous avez reçu {cost}. Identifiant du transfert : {id}'
       user-transfer-money-to-you: '{username} vous a transféré de l''argent'
     ok: Valider
     receive-transfer-from-user: 'Réception d''un transfert d''argent d''un autre utilisateur'
+    search_user_header: Utilisateur
     transfer-error: 'Erreur lors du transfert'
     transfer-error-insufficient-fund: 'Fonds insuffisant'
     transfer-error-no-permission: 'Vous n''avez pas la permission'
+    transfer-error-no-target-user-selected: 'Veuillez sélectionner un utilisateur cible à transférer'
     transfer-list-assign-at: 'Date de transfert'
     transfer-list-empty: 'L''historique des transferts est vide'
     transfer-list-from-user: 'De l''utilisateur'
@@ -24,11 +32,20 @@ ziven-transfer-money:
     transfer-list-load-more: 'Charger davantage'
     transfer-list-target-user: 'Utilisateur cible'
     transfer-list-transfer-amount: Montant
+    transfer-list-transfer-notes: Notes
+    transfer-list-transfer-notes-none: Aucun
     transfer-list-type: Type
     transfer-money: 'Transférer de l''argent'
     transfer-money-history: 'Historique des transferts'
     transfer-money-in: 'Transfert interne'
+    transfer-money-input-placeholder: 'Saisir le montant du transfert'
+    transfer-money-no-user-selected: 'Aucun utilisateur sélectionné'
+    transfer-money-notes: 'Notes (facultatif)'
     transfer-money-out: 'Transfert externe'
+    transfer-money-search-user: 'Ajouter un utilisateur'
+    transfer-money-search-user-empty: 'Aucun utilisateur trouvé'
+    transfer-money-search-user-placeholder: 'Saisir les trois premiers caractères de l''utilisateur'
     transfer-money-success: 'Transféré avec succès'
     transfer-money-to: 'Transférer de l''argent à {username}'
+    transfer-money-to-user: 'Transférer de l''argent à l''utilisateur (cliquez pour supprimer)'
     transfered-money-to: 'a transféré {money} à'

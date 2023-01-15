@@ -9,11 +9,15 @@ blomstra-web3:
       ffi-disabled: "L'extension PHP FFI n'est pas activée. Les portefeuilles Dotsama ne fonctionneront pas.\n"
       infura-project-id: 'Identifiant du projet Infura'
       infura-project-id-help: "Votre identifiant de projet Infura. Vous pouvez en obtenir un sur https://infura.io. Il est nécessaire pour les portefeuilles suivants : Coinbase et WalletConnect.\n"
+      no-email-signup-message: "Message à afficher pour les utilisateurs qui ne se sont pas inscrits avec une adresse de courriel (laissez vide pour ne pas afficher de message).\n"
+      no-email-signup-message-help: 'Utiliser du [link]texte[/link] pour vous connecter à la page de modification de l''adresse de courriel.'
       prioritize-web3-auth-modals: 'Ouvrir la connexion et l''inscription web3 par défaut'
+      signup-with-email: 'S''inscrire avec une adresse de courriel'
   forum:
     connect-wallet-modal:
       could-not-sign: 'Impossible de signer cryptographiquement le nom d''utilisateur sur le compte sélectionné.'
       evm-wallets: 'Portefeuilles EVM'
+      goback: Retour
       polkadot-wallets: '=> blomstra-web3.ref.polkadot-wallets'
       signature-invalid: 'La signature n''est pas valide.'
       title: 'Connecter le portefeuille'
