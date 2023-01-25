@@ -24,6 +24,7 @@ pay-to-see:
     ok: Valider
     pay_to_see_content: 'Payer pour voir le contenu'
     pay_to_see_content_bypass: 'Payer pour voir le contenu (dérogatoire avec les permissions)'
+    pay_to_see_content_label: 'Payer pour voir le contenu'
     pay_to_see_owner_bypass: 'Payer pour voir le contenu (dérogatoire pour l''auteur)'
     purchase_button: 'Acheter le contenu'
     purchase_confirmation: 'Acheter le contenu'
