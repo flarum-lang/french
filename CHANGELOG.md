@@ -2,15 +2,20 @@ CHANGELOG
 =========
 
 
-4.5.1 (XXXX-XX-XX)
+4.6.0 (XXXX-XX-XX)
 ------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket)
+
 
 **Mise à jour des traductions de certaines extensions**:
 
 * [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
 
 
-Journal de toutes les modifications : [v4.5.0...v4.5.1](https://github.com/flarum-lang/french/compare/v4.5.0...v4.5.1).
+Journal de toutes les modifications : [v4.5.0...v4.6.0](https://github.com/flarum-lang/french/compare/v4.5.0...v4.6.0).
 
 
 4.5.0 (2023-01-15)
