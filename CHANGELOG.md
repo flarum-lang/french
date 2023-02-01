@@ -7,11 +7,14 @@ CHANGELOG
 
 **Prise en charge de nouvelles extensions**:
 
+* [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
+* [`justoverclock/export-post-to-pdf`](https://extiverse.com/extension/justoverclock/export-post-to-pdf)
 * [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket)
 
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions)
 * [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
 
 
