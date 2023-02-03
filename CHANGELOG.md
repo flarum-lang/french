@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
 * [`justoverclock/export-post-to-pdf`](https://extiverse.com/extension/justoverclock/export-post-to-pdf)
+* [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions)
 * [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket)
 
 
