@@ -25,6 +25,8 @@ fof-links:
     links:
       create_button: '=> fof-links.ref.create_link'
       links: '=> fof-links.ref.links'
+    settings:
+      show_icons_only_on_mobile: 'Afficher les icônes uniquement sur les mobiles'
   ref:
     create_link: 'Créer un lien'
     links: Liens

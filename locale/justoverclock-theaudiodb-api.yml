@@ -4,6 +4,8 @@
 
 justoverclock-theaudiodb-api:
   admin:
+    apiKey: 'Obtenez votre clé API sur https://www.theaudiodb.com/api_apply.php'
+    apiKeyHelp: 'La clé API est nécessaire pour effectuer la demande et récupérer les données.'
     langcode: 'Code de langue'
     langcode-help: 'Indiquez ici le code de langue (codes disponibles, EN, DE, FR, CN, IT, JP, RU, ES, PT, SE, NL, HU, NO, IL, PL)'
   forum:
