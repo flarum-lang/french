@@ -2,6 +2,30 @@ CHANGELOG
 =========
 
 
+4.6.0 (2023-02-09)
+------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
+* [`justoverclock/export-post-to-pdf`](https://extiverse.com/extension/justoverclock/export-post-to-pdf)
+* [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions)
+* [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
+* [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions)
+* [`justoverclock/theaudiodb-api`](https://extiverse.com/extension/justoverclock/theaudiodb-api)
+* [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
+
+
+Journal de toutes les modifications : [v4.5.0...v4.6.0](https://github.com/flarum-lang/french/compare/v4.5.0...v4.6.0).
+
+
 4.5.0 (2023-01-15)
 ------------------
 
