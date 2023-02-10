@@ -29,7 +29,7 @@ This project uses a [Weblate](https://weblate.org/) instance hosted and managed 
 
 You can use [our glossary](https://weblate.rob006.net/browse/flarum/glossary/fr/) to help you to choose the right term to use in order to meet the desired standardization of the language pack.
 
-For information, our current language pack maintainers are [Hiobi](https://github.com/Hiobi) and [Qiaeru](https://github.com/qiaeru). Also, our past and present contributors are [adaur](https://github.com/adaur), [elamotte](https://github.com/elamotte), [luceos](https://github.com/luceos), [Magicalex](https://github.com/Magicalex), [rob006](https://github.com/rob006), [sijad](https://github.com/sijad), [Technowix](https://github.com/Technowix) and [tobyzerner](https://github.com/tobyzerner). You rocks!
+For information, our current language pack maintainer is [Qiaeru](https://github.com/qiaeru). Also, our past and present contributors are [adaur](https://github.com/adaur), [elamotte](https://github.com/elamotte), [Hiobi](https://github.com/Hiobi), [luceos](https://github.com/luceos), [Magicalex](https://github.com/Magicalex), [rob006](https://github.com/rob006), [sijad](https://github.com/sijad), [Technowix](https://github.com/Technowix) and [tobyzerner](https://github.com/tobyzerner). You rocks!
 
 ## Features
 
