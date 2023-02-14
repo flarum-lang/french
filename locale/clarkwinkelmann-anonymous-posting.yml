@@ -7,8 +7,10 @@ clarkwinkelmann-anonymous-posting:
     permissions:
       moderate: 'Anonymiser ou désanonymiser une discussion ou un message'
       reveal: 'Voir les véritables auteurs des discussions et des messages anonymes'
-      use: 'Publier anonymement'
+      use: 'Possibilité de changer l''option d''anonymat du contenu pendant la rédaction d''un message'
     settings:
+      alwaysAnonymiseEdits: 'Toujours anonymiser les modifications'
+      alwaysAnonymiseEditsHelp: "Par défaut, les modifications et les masquages effectués par l'auteur du message anonyme sont anonymisés, mais tout modérateur modifiant un message ou une discussion sera toujours affiché comme l'auteur de la modification ou du masquage. Lorsque cette option est activée, l'auteur de la modification ou du masquage ne sera jamais identifié sur le contenu anonyme, peu importe qui il est.\n"
       avatarAdd: 'Ajouter une règle pour les avatars'
       avatarAvatarUrl: 'URL de l''avatar'
       avatarFieldKey: 'Clé du champ'
@@ -17,9 +19,12 @@ clarkwinkelmann-anonymous-posting:
       avatars: 'Avatars anonymes'
       avatarsHelp: "Cette fonctionnalité nécessite l'extension premium <a>Formulaire</a>. L'utilisation de cette fonctionnalité entraîne un léger impact sur les performances car des requêtes supplémentaires à la base de données sont nécessaires pour récupérer les discussions et les messages. Veillez consulter le fichier README pour plus d'informations sur le format de chaque entrée.\n"
       composerHelpTextPosition: 'Position du texte d''aide de compositeur'
+      composerHelpTextPositionHelp: 'La case à cocher et ce texte n''apparaissent qu''aux utilisateurs disposant de l''autorisation de commutation.'
       composerHelpTextPositionHidden: Caché
       composerHelpTextPositionTooltip: 'Infobulle (après l''étiquette)'
       composerHelpTextPositionVisible: 'Visible (sous l''étiquette)'
+      defaultAnonymity: 'Le nouveau contenu est anonyme par défaut'
+      defaultAnonymityWhenAbleToSwitch: 'Le nouveau contenu est anonyme par défaut pour les utilisateurs disposant d''une autorisation de commutation'
   forum:
     composerControls:
       anonymize: 'Publier anonymement'

@@ -12,6 +12,8 @@ datlechin-link-preview:
       cache_time_label: 'Durée du cache'
       convert_media_urls_help: 'Si activé, cela convertira toutes les URL des médias en aperçus de liens.'
       convert_media_urls_label: 'Convertir les URL des médias'
+      open_links_in_new_tab_help: 'Si cette option est activée, les liens seront ouverts dans un nouvel onglet.'
+      open_links_in_new_tab_label: 'Ouvrir les liens dans un nouvel onglet'
       use_google_favicons_help: 'Si cette option est activée, un service de Google sera utilisé dans l''interface pour demander le favicon du site concerné.'
       use_google_favicons_label: 'Utiliser l''API de Google Favicon'
       whitelist_help: 'Saisissez une liste de domaines ou d''URL séparés par une virgule pour permettre la prévisualisation des liens.'

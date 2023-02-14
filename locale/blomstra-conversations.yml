@@ -6,3 +6,10 @@ blomstra-conversations:
   admin:
     permissions:
       view-conversation-source: 'Voir la source de la conversation'
+      view-raw-source: 'Afficher le HTML natif ou la source HTML des messages entrants'
+  forum:
+    post:
+      controls:
+        view: 'Voir la version HTML'
+        view-code: 'Inspecter la source HTML'
+      source-raw-heading: 'Voir le HTML'

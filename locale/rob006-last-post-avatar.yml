@@ -5,6 +5,9 @@
 rob006-last-post-avatar:
   admin:
     settings:
+      ignorePrivateDiscussions:
+        help: 'Cochez cette option si vous ne souhaitez pas modifier le comportement de l''avatar pour les discussions privées.'
+        label: 'Ignorer les discussions privées (FoF Byōbu)'
       mode:
         help: 'Sélectionnez quand et où l''avatar de l''auteur du dernier message doit être affiché sur la liste des discussions. Consultez le fichier README pour voir la visualisation de chaque option.'
         label: 'Mode d''affichage de l''avatar du dernier message'
