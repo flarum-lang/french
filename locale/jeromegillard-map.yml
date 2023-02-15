@@ -32,3 +32,5 @@ jeromegillard-map:
     text_editor:
       bbcode_tooltip: 'Insérer une carte'
       location_placeholder: OÙ
+      marker_description_placeholder: 'Contenu de la fenêtre contextuelle du marqueur. Laissez le titre et la description vides pour masquer le marqueur.'
+      marker_title_placeholder: 'Titre du marqueur'
