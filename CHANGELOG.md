@@ -10,6 +10,7 @@ CHANGELOG
 * [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
 * [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
 * [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 
 
