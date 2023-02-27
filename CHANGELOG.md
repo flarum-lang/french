@@ -2,8 +2,13 @@ CHANGELOG
 =========
 
 
-4.6.1 (XXXX-XX-XX)
+4.7.0 (XXXX-XX-XX)
 ------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`peruguitar/flarum-ext-user-portrait`](https://github.com/Anexsoft/peruguitar-flarum-ext-user-portrait)
+
 
 **Mise à jour des traductions de certaines extensions**:
 
@@ -14,7 +19,7 @@ CHANGELOG
 * [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 
 
-Journal de toutes les modifications : [v4.6.0...v4.6.1](https://github.com/flarum-lang/french/compare/v4.6.0...v4.6.1).
+Journal de toutes les modifications : [v4.6.0...v4.7.0](https://github.com/flarum-lang/french/compare/v4.6.0...v4.7.0).
 
 
 4.6.0 (2023-02-09)
