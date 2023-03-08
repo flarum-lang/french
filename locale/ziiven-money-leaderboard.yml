@@ -4,12 +4,17 @@
 
 ziven-money-leaderboard:
   admin:
+    permission:
+      allow_view_leaderboard: 'Autoriser l''affichage du classement'
     settings:
       leaderboard-entry-position: 'Position d''entrée au classement'
       leaderboard-entry-sideNav: 'Menu de navigation latéral'
       leaderboard-entry-topRightMenu: 'Menu en haut à droite'
       leaderboard-icon: 'Icône du classement'
       leaderboard-icon-help: 'Saisissez le nom de n''importe quelle classe d''icône FontAwesome, y compris le préfixe <code>fas fa-</code>.'
+      leaderboard-init-load-count: 'Nombre initial de charges'
+      leaderboard-load-more-count: 'Charger plus de comptages'
+      leaderboard-max-load-count: 'Nombre maximal de charges'
   forum:
     leaderboard-list-money: 'Argent possédé'
     leaderboard-list-rank: Rang

@@ -50,7 +50,7 @@ datitisev-backup:
           label: 'Point d''accès'
       dropbox:
         access-token:
-          description: 'Générer un jeton d''accès oAuth 2 sur https://www.dropbox.com/developers/apps.'
+          description: 'Générez un jeton d''accès oAuth 2 sur https://www.dropbox.com/developers/apps. Donnez à l''application la permission « files.metadata.write » avant de générer votre jeton.'
           label: 'Jeton d''accès'
       ftp:
         host:
