@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+4.7.0 (2023-03-08)
+------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`peruguitar/flarum-ext-user-portrait`](https://github.com/Anexsoft/peruguitar-flarum-ext-user-portrait)
+* [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
+* [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
+* [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+
+
+Journal de toutes les modifications : [v4.6.0...v4.7.0](https://github.com/flarum-lang/french/compare/v4.6.0...v4.7.0).
+
+
 4.6.0 (2023-02-09)
 ------------------
 
