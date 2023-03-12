@@ -15,6 +15,27 @@ CHANGELOG
 * [`ziiven/flarum-fireworks`](https://github.com/Ziiven/flarum-fireworks)
 
 
+**Mise à jour des traductions de certaines extensions**:
+
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
+* [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup)
+* [`davwheat/virtual-authors`](https://extiverse.com/extension/davwheat/virtual-authors)
+* [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`justoverclock/geo-weather`](https://github.com/justoverclockl/geo-weather)
+* [`justoverclock/last-tweet`](https://github.com/justoverclockl/last-tweet)
+* [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
+* [`the-turk/flarum-regrole`](https://github.com/the-turk/flarum-regrole)
+* [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
+
+
 Journal de toutes les modifications : [v4.7.0...v4.8.0](https://github.com/flarum-lang/french/compare/v4.7.0...v4.8.0).
 
 
