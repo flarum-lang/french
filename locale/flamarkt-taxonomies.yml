@@ -13,7 +13,7 @@ flamarkt-taxonomies:
         countRequired: 'Nombre de termes requis'
         countRequiredDescription: "Saisissez le nombre minimum et maximum de termes de cette taxonomie qui peuvent être appliqués à une ressource.\n"
         customValueSlugger: 'Identifiant texte unique pour les valeurs personnalisées'
-        customValueSluggerDescription: "Choisissez comment vous souhaitez que l'identifiant texte unique soit généré. Si un identifiant texte unique existe déjà, un préfixe numérique sera automatiquement ajouté. Pour l'option de translitération, vous devez installer et configurer cette autre extension au préalable.\n"
+        customValueSluggerDescription: "Décidez comment vous souhaitez que l'identifiant texte unique soit généré. Si un identifiant texte unique existe déjà, un préfixe numérique sera automatiquement ajouté. Pour l'option de translitération, vous devez installer et configurer cette autre extension au préalable.\n"
         customValueValidation: 'Validation des valeurs personnalisées'
         description: '=> flamarkt-taxonomies.ref.field.description'
         enableFilter: 'Activer les filtres de chaînes de requêtes et d''API'
@@ -113,7 +113,7 @@ flamarkt-taxonomies:
       widget:
         title: Taxonomies
     composer:
-      choose: 'Choisir {taxonomy}'
+      choose: 'Sélectionner {taxonomy}'
     discussion:
       edit: 'Modifier {taxonomy}'
     user:
@@ -123,12 +123,12 @@ flamarkt-taxonomies:
     modal:
       bypassTermCounts: 'Contourner les comptes de terme'
       custom: 'Utiliser {value}'
-      placeholder: '{count, plural, one {Choisir un terme…} other {Choisir # termes…}}'
-      placeholderOptional: Choisir…
+      placeholder: '{count, plural, one {Sélectionner un terme…} other {Sélectionner # termes…}}'
+      placeholderOptional: Sélectionner…
       submit: Valider
       title:
         edit: 'Modifier {taxonomy} pour {title}'
-        new: 'Choisir {taxonomy} pour votre discussion'
+        new: 'Sélectionner {taxonomy} pour votre discussion'
   ref:
     delete: Supprimer
     field:

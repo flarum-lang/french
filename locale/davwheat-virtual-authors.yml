@@ -33,7 +33,7 @@ davwheat-virtual-authors:
       set_virtual_authors: 'Définir des auteurs virtuels'
     set_modal:
       add_button: Ajouter
-      add_new: 'Choisissez de nouveaux auteurs virtuels'
+      add_new: 'Sélectionnez de nouveaux auteurs virtuels'
       added_button: Ajouté
       credit_placeholder: 'Crédit (facultatif)'
       delete_button: Supprimer

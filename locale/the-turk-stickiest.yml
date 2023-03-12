@@ -32,7 +32,7 @@ the-turk-stickiest:
       super_sticky_label: '=> the-turk-stickiest.ref.super_sticky'
       super_sticky_text: 'Les discussions super épinglées colleront à la partie supérieure quoi qu''il arrive.'
       tag_sticky_label: '=> the-turk-stickiest.ref.tag_sticky'
-      tag_sticky_text: 'Les étiquettes épinglées sont masquées par défaut de la liste de « Toutes les discussions ». Elles ne seront affichées et épinglées dans la partie supérieure que lors de la consultation d''une étiquette spécifique, c''est-à-dire une des étiquettes que vous choisirez ici. Cette option peut être combinée avec « Super épingle ».'
+      tag_sticky_text: 'Les étiquettes épinglées sont masquées par défaut de la liste de « Toutes les discussions ». Elles ne seront affichées et épinglées dans la partie supérieure que lors de la consultation d''une étiquette spécifique, c''est-à-dire une des étiquettes que vous sélectionnerez ici. Cette option peut être combinée avec « Super épingle ».'
       tags_label: '=> flarum-tags.ref.tags'
       title: 'Épingle {title}'
   ref:

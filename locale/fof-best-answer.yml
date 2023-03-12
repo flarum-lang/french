@@ -29,7 +29,7 @@ fof-best-answer:
       schedule_stop_overnight_help: '9h00 - 8h00 (heure du serveur)'
       select_best_answer_reminder_days: 'Fréquence des rappels'
       select_best_answer_reminder_days_help: 'Envoyer un rappel à l''auteur original après le nombre de jours configurable pour sélectionner une meilleure réponse, 0 = désactive les rappels.'
-      show_filter_help: 'Pour les étiquettes avec lesquelles l''extension « Best Answers » est activée, choisissez d''afficher l''option de filtre résolu/non résolu dans la liste de discussions'
+      show_filter_help: 'Pour les étiquettes avec lesquelles l''extension « Best Answers » est activée, décidez d''afficher l''option de filtre résolu/non résolu dans la liste de discussions'
       show_filter_label: 'Afficher la liste déroulante du filtre de meilleure réponse'
       use_alt_ui: 'Mise en page alternative'
       use_alt_ui_help: 'Contrôles de la meilleure réponse dans le pied de page du message'

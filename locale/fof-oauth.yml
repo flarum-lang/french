@@ -61,7 +61,7 @@ fof-oauth:
       linkedin: '=> fof-oauth.lib.providers.linkedin'
       twitter: '=> fof-oauth.lib.providers.twitter'
     signup:
-      username_help: 'Veuillez choisir un nom d''utilisateur pour être connu ici'
+      username_help: 'Veuillez sélectionner un nom d''utilisateur pour être connu ici'
     unlink: 'Supprimer le lien'
     user:
       settings:

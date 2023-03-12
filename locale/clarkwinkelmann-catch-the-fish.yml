@@ -5,7 +5,7 @@
 clarkwinkelmann-catch-the-fish:
   admin:
     permissions:
-      choose-name: 'Choisir le nom du poisson après l''avoir attrapé'
+      choose-name: 'Saisir le nom du poisson après l''avoir attrapé'
       choose-place: 'Sélectionnez le placement du poisson après sa capture'
       list-rankings: 'Accéder à la page des classements'
       moderate: 'Modérer les rounds et les poissons'
@@ -25,7 +25,7 @@ clarkwinkelmann-catch-the-fish:
       post-probability: 'Probabilité d''être placé sur un message plutôt que sur la discussion (%)'
       tags-control:
         add: 'Ajouter à la liste blanche'
-        choose: 'Choisir une étiquette'
+        choose: 'Sélectionner une étiquette'
         delete: 'Supprimer de la liste blanche'
         down: Descendre
         up: Monter

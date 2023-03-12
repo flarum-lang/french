@@ -51,7 +51,16 @@ datitisev-backup:
       dropbox:
         access-token:
           description: 'Générez un jeton d''accès oAuth 2 sur https://www.dropbox.com/developers/apps. Donnez à l''application la permission « files.metadata.write » avant de générer votre jeton.'
-          label: 'Jeton d''accès'
+          label: 'Jeton d''accès OAuth2'
+        key:
+          description: 'La clé de l''application Dropbox.'
+          label: 'Clé de l''application'
+        refresh-token:
+          description: 'Générer une actualisation de jeton. Veuillez vous rendre sur https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually pour consulter les instructions.'
+          label: 'Actualiser le jeton'
+        secret:
+          description: 'La clé secrète de l''application Dropbox.'
+          label: 'Clé secrète de l''application'
       ftp:
         host:
           description: 'Le nom d''hôte auquel se connecter avec FTP, par exemple : <em>ftp.votredomaine.local</em>.'

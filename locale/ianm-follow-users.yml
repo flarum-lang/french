@@ -31,7 +31,7 @@ ianm-follow-users:
     modals:
       select_follow_level:
         cancel_btn: Annuler
-        description: 'Choisissez comment vous souhaitez suivre <em>{username}</em>.'
+        description: 'Décidez de comment vous souhaitez suivre <em>{username}</em>.'
         follow_levels_heading: 'Niveaux de suivi'
         follow_select_label: 'Type de suivi'
         no_user_attr_provided_err: 'Oh oh, quelque chose s''est mal passé en ouvrant cette fenêtre.'

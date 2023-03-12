@@ -7,7 +7,7 @@ justoverclock-last-tweet:
     profile: 'URL du profil'
     profile-help: 'exemple - https://twitter.com/flarum'
     theme: Thème
-    theme-help: 'Choisissez entre un thème « sombre » ou « clair » (le thème par défaut est clair)'
+    theme-help: 'Sélectionnez un thème « sombre » ou un thème « clair » (le thème par défaut est clair)'
     tweet_number: 'Nombre de tweets'
     tweet_number-help: 'Insérez ici le nombre de tweets à récupérer (2 par défaut)'
   forum:

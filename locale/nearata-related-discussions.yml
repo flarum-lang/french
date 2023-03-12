@@ -18,6 +18,7 @@ nearata-related-discussions:
       position_options:
         first_post: 'Après le premier message'
         last_post: 'Après le dernier message'
+        reply_block: 'Après le bloc de réponse'
   forum:
     discussion_list_title: 'Discussions connexes'
     no_results: 'Aucune discussion connexe n''a été trouvée'

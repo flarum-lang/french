@@ -4,4 +4,24 @@
 
 ziven-fireworks:
   admin:
+    option-acceleration: Accélération
+    option-brightness: Luminosité
+    option-decay: Déclin
+    option-delay: Délai
+    option-explosion: Explosion
+    option-flickering: Scintillement
+    option-frication: Friction
+    option-gravity: Gravité
+    option-hue: Teinte
+    option-intensity: Intensité
+    option-line-width-explosion: 'Largeur de la ligne (explosion)'
+    option-line-width-trace: 'Largeur de la ligne (trace)'
+    option-lineStyle: 'Style de ligne'
+    option-lineStyle-round: Rond
+    option-lineStyle-square: Carré
+    option-opacity: Opacité
+    option-particles: Particules
+    option-rockets-point: 'Point des fusées'
+    option-trace-length: 'Longueur de la trace'
+    option-trace-speed: 'Vitesse de la trace'
     show-fireworks: 'Afficher les feux d''artifice'
