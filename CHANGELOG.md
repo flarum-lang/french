@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+4.8.0 (XXXX-XX-XX)
+------------------
+
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
+**Prise en charge de nouvelles extensions**:
+
+* [`ziiven/flarum-fireworks`](https://github.com/Ziiven/flarum-fireworks)
+
+
+Journal de toutes les modifications : [v4.7.0...v4.8.0](https://github.com/flarum-lang/french/compare/v4.7.0...v4.8.0).
+
+
 4.7.0 (2023-03-08)
 ------------------
 
