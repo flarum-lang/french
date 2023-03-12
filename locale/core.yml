@@ -14,6 +14,7 @@ core:
       custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 'Personnalisation de l''en-tête'
       custom_header_text: '=> core.ref.custom_header_text'
+      custom_styles_cannot_use_less_features: 'Les fonctionnalités @import et data-uri ne sont pas autorisées dans les fichiers LESS personnalisés.'
       custom_styles_heading: 'Personnalisation des styles'
       custom_styles_text: 'Personnalisez l''apparence de votre forum en ajoutant votre propre code Less/CSS qui sera appliqué en priorité par rapport aux styles par défaut de Flarum.'
       dark_mode_label: 'Mode sombre'
@@ -48,6 +49,11 @@ core:
       clear_cache_button: 'Effacer le cache'
       description: 'Votre forum en un coup d''œil.'
       io_error_message: 'Impossible d''écrire dans le système de fichiers. Veuillez vérifier les permissions de votre système de fichiers puis réessayer. Vous pouvez également essayer d''écrire dans le système de fichiers par ligne de commande à partir de la console.'
+      status:
+        scheduler:
+          active: Actif
+          inactive: Inactif
+          never-run: 'Ne jamais exécuter'
       title: 'Tableau de bord'
       tools_button: Outils
     debug-warning:
@@ -153,6 +159,7 @@ core:
     permissions:
       allow_post_editing_label: 'Autoriser la modification des messages'
       allow_renaming_label: 'Autoriser le renommage'
+      create_access_token_label: 'Créer un jeton d''accès'
       create_heading: Créer
       delete_discussions_forever_label: 'Supprimer définitivement les discussions'
       delete_discussions_label: 'Supprimer les discussions'
@@ -164,6 +171,7 @@ core:
       edit_users_groups_label: 'Modifier les groupes d''utilisateurs'
       edit_users_label: 'Modifier les attributs des utilisateurs'
       global_heading: Général
+      moderate_access_tokens_label: 'Modérer les jetons d''accès'
       moderate_heading: Modérer
       new_group_button: 'Nouveau groupe'
       participate_heading: Participer
@@ -171,7 +179,7 @@ core:
       read_heading: Lire
       rename_discussions_label: 'Renommer les discussions'
       reply_to_discussions_label: 'Répondre aux discussions'
-      search_users_label: 'Rechercher des utilisateurs'
+      search_users_label: '=> core.ref.search_users'
       sign_up_label: 'S''inscrire'
       start_discussions_label: 'Démarrer des discussions'
       title: Permissions
@@ -198,6 +206,8 @@ core:
       description: 'Une liste paginée de tous les utilisateurs de votre forum.'
       grid:
         columns:
+          display_name:
+            title: 'Nom d''affichage'
           edit_user:
             button: '=> core.ref.edit'
             title: '=> core.ref.edit_user'
@@ -219,8 +229,12 @@ core:
         invalid_column_content: Invalide
       pagination:
         back_button: 'Page précédente'
+        first_button: 'Aller à la première page'
+        go_to_page_textbox_a11y_label: 'Aller directement au numéro de page'
+        last_button: 'Aller à la dernière page'
         next_button: 'Page suivante'
         page_counter: 'Page {current} sur {total}'
+      search_placeholder: '=> core.ref.search_users'
       title: '=> core.ref.users'
       total_users: 'Nombre total d''utilisateurs : {count}'
   api:
@@ -367,7 +381,7 @@ core:
       viewing_text: '{count, plural, one {{index} sur {formattedCount} message} other {{index} sur {formattedCount} messages}}'
     post_stream:
       discussion_renamed_old_tooltip: 'L''ancien titre était : « {old} »'
-      discussion_renamed_text: '{username} a renommé le titre en {new}.'
+      discussion_renamed_text: '{username} a renommé le titre en {new} le {time}.'
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: '{period} plus tard'
@@ -378,6 +392,38 @@ core:
       all_discussions_button: 'Rechercher « {query} » dans toutes les discussions'
       discussions_heading: '=> core.ref.discussions'
       users_heading: '=> core.ref.users'
+    security:
+      browser_on_operating_system: '{browser} sur {os}'
+      cannot_terminate_current_session: 'Impossible de mettre fin à la session active en cours. Veuillez vous déconnecter à la place.'
+      created: Créée
+      current_active_session: 'Session active en cours'
+      developer_tokens_heading: 'Jetons de développeur'
+      empty_text: 'Il semble qu''il n''y ait rien à voir ici.'
+      global_logout:
+        heading: 'Déconnexion générale'
+        help_text: 'Efface la session de cookies en cours, met fin à toutes les sessions, révoque les jetons de développeur et invalide les courriels de confirmation ou de réinitialisation de mot de passe.'
+        log_out_button: '=> core.ref.log_out'
+      hide_access_token: 'Masquer le jeton'
+      last_activity: 'Dernière activité'
+      never: Jamais
+      new_access_token_button: '=> core.ref.new_token'
+      new_access_token_modal:
+        submit_button: 'Créer un jeton'
+        title: '=> core.ref.new_token'
+        title_placeholder: Titre
+      revoke_access_token: Révoquer
+      revoke_access_token_confirmation: '=> core.ref.generic_confirmation_message'
+      session_terminated: '{count, plural, one {Session terminée} other {# sessions terminées}}.'
+      session_termination_failed: 'Une erreur s''est produite lors de la fermeture de vos sessions.'
+      sessions_heading: 'Sessions actives'
+      show_access_token: 'Voir le jeton'
+      terminate_all_other_sessions: 'Mettre fin à toutes les autres sessions'
+      terminate_all_other_sessions_confirmation: '=> core.ref.generic_confirmation_message'
+      terminate_session: 'Mettre fin'
+      title: '=> core.ref.security'
+      token_item_title: '{title} - {token}'
+      token_revoked: 'Jeton révoqué.'
+      token_title_placeholder: /
     settings:
       account_heading: Compte
       change_email_button: '=> core.ref.change_email'
@@ -410,6 +456,7 @@ core:
       posts_empty_text: 'Il semble qu''il n''y ait aucun message ici.'
       posts_link: '=> core.ref.posts'
       posts_load_more_button: '=> core.ref.load_more'
+      security_link: '=> core.ref.security'
       settings_link: '=> core.ref.settings'
     user_controls:
       button: Commandes
@@ -439,6 +486,8 @@ core:
       dismiss_a11y_label: 'Rejeter l''alerte'
     badge:
       hidden_tooltip: Masquée
+    data_segment:
+      label: '{label} :'
     debug_button: Déboguer
     dropdown:
       toggle_dropdown_accessible_label: 'Afficher le menu déroulant'
@@ -458,6 +507,7 @@ core:
     error:
       dependent_extensions_message: 'Impossible de désactiver {extension} tant que les extensions dépendantes suivantes ne sont pas désactivées : {extensions}'
       extension_initialiation_failed_message: '{extension} n''a pas réussi à s''initialiser, veuillez vérifier la console du navigateur pour plus d''informations.'
+      generic_cross_origin_message: 'Oups ! Un problème s''est produit lors d''une demande d''origine croisée. Veuillez recharger la page puis réessayer.'
       generic_message: 'Oups ! Une erreur est survenue. Veuillez actualiser la page puis réessayer.'
       missing_dependencies_message: 'Impossible d''activer {extension} tant que les dépendances suivantes ne sont pas activées : {extensions}'
       not_found_message: 'La ressource demandée est introuvable.'
@@ -502,6 +552,7 @@ core:
     edit_user: 'Modifier l''utilisateur'
     email: 'Adresse de courriel'
     extensions: Extensions
+    generic_confirmation_message: 'Êtes-vous sûr de vouloir continuer ? Cette action est irréversible.'
     icon: Icône
     icon_text: 'Saisissez le nom de n''importe quelle classe d''icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe <code>fas fa-</code>.'
     load_more: 'Charger davantage'
@@ -509,6 +560,7 @@ core:
     log_in: 'Se connecter'
     log_out: 'Se déconnecter'
     mark_all_as_read: 'Tout marquer comme lu'
+    new_token: 'Nouveau jeton'
     next_page: 'Page suivante'
     notifications: Notifications
     okay: Valider
@@ -521,6 +573,8 @@ core:
     reset_your_password: 'Réinitialiser votre mot de passe'
     restore: Restaurer
     save_changes: Enregistrer
+    search_users: 'Rechercher des utilisateurs'
+    security: Sécurité
     settings: Paramètres
     sign_up: 'S''inscrire'
     some_others: '{count, plural, one {# autre} other {# autres}}'
