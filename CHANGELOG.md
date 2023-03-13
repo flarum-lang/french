@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-4.8.0 (XXXX-XX-XX)
+4.8.0 (2023-03-13)
 ------------------
 
 **Modifications générales**:
