@@ -12,6 +12,7 @@ CHANGELOG
 
 **Prise en charge de nouvelles extensions**:
 
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
 * [`ziiven/flarum-fireworks`](https://github.com/Ziiven/flarum-fireworks)
 
 
