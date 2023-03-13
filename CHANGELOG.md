@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.8.1 (2023-03-13)
+------------------
+
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
+Journal de toutes les modifications : [v4.8.0...v4.8.1](https://github.com/flarum-lang/french/compare/v4.8.0...v4.8.1).
+
+
 4.8.0 (2023-03-13)
 ------------------
 
