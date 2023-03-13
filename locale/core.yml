@@ -50,6 +50,9 @@ core:
       description: 'Votre forum en un coup d''œil.'
       io_error_message: 'Impossible d''écrire dans le système de fichiers. Veuillez vérifier les permissions de votre système de fichiers puis réessayer. Vous pouvez également essayer d''écrire dans le système de fichiers par ligne de commande à partir de la console.'
       status:
+        headers:
+          queue-driver: 'Pilote de file d''attente'
+          scheduler-status: Planificateur
         scheduler:
           active: Actif
           inactive: Inactif

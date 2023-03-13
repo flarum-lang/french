@@ -52,12 +52,18 @@ datitisev-backup:
         access-token:
           description: 'Générez un jeton d''accès oAuth 2 sur https://www.dropbox.com/developers/apps. Donnez à l''application la permission « files.metadata.write » avant de générer votre jeton.'
           label: 'Jeton d''accès OAuth2'
+        help:
+          obtain-access-code-button: 'Ouvrir Dropbox'
+          obtain-access-code-label: 'Obtenir un code d''accès (nécessite une clé d''application)'
+          obtain-refresh-token-button: 'Utiliser un code'
+          obtain-refresh-token-label: 'Utiliser le code d''accès pour obtenir un jeton d''actualisation (nécessite la clé publique et la clé secrète de l''application)'
+          obtain-refresh-token-success: 'Le jeton d''actualisation a été obtenu et mis à jour ci-dessus ! Sauvegardez les modifications pour le conserver.'
         key:
           description: 'La clé de l''application Dropbox.'
           label: 'Clé de l''application'
         refresh-token:
-          description: 'Générer une actualisation de jeton. Veuillez vous rendre sur https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually pour consulter les instructions.'
-          label: 'Actualiser le jeton'
+          description: 'Utilisez les champs ci-dessous pour obtenir le jeton d''actualisation ou suivez manuellement les instructions à l''adresse https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually.'
+          label: 'Jeton d''actualisation'
         secret:
           description: 'La clé secrète de l''application Dropbox.'
           label: 'Clé secrète de l''application'
