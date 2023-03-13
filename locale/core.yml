@@ -53,6 +53,7 @@ core:
         headers:
           queue-driver: 'Pilote de file d''attente'
           scheduler-status: Planificateur
+          session-driver: 'Pilote de session'
         scheduler:
           active: Actif
           inactive: Inactif
