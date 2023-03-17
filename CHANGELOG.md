@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.8.2 (XXXX-XX-XX)
+------------------
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
+
+
+Journal de toutes les modifications : [v4.8.1...v4.8.2](https://github.com/flarum-lang/french/compare/v4.8.1...v4.8.2).
+
+
 4.8.1 (2023-03-13)
 ------------------
 
