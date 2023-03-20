@@ -2,15 +2,21 @@ CHANGELOG
 =========
 
 
-4.8.2 (XXXX-XX-XX)
+4.9.0 (XXXX-XX-XX)
 ------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator)
+
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
 * [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
 
 
-Journal de toutes les modifications : [v4.8.1...v4.8.2](https://github.com/flarum-lang/french/compare/v4.8.1...v4.8.2).
+Journal de toutes les modifications : [v4.8.1...v4.9.0](https://github.com/flarum-lang/french/compare/v4.8.1...v4.9.0).
 
 
 4.8.1 (2023-03-13)
