@@ -11,7 +11,13 @@ justoverclock-steam-api:
     accountCreated: 'Membre depuis le : '
     country: 'Pays : '
     gamesOwned: 'Jeux possédés : '
+    lastLogOff: 'Dernière déconnexion : '
     lastLogin: 'Dernière connexion le : '
+    noCountry: 'Non rempli'
+    noGamesAvailable: 'Aucun jeu n''a été joué au cours des deux dernières semaines.'
+    privateProfile: 'Profil privé'
+    profile: 'Profil : '
+    publicProfile: 'Profil public'
     realName: 'Nom réel : '
     status: 'Statut : '
     statusAway: Absent
@@ -21,6 +27,6 @@ justoverclock-steam-api:
     statusPlay: 'Prêt à jouer'
     statusSnooze: Inactif
     statusTrade: 'Prêt à échanger'
-    steamId: 'Identifiant du profil Steam'
+    steamId: 'Identifiant du profil Steam ou nom propre'
     steamIdSaved: 'L''identifiant Steam a été enregistré'
     visitProfile: 'Visiter le profil'
