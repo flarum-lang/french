@@ -4,8 +4,19 @@
 
 justoverclock-job-cards:
   forum:
+    actualOccupationField: 'Profession ou poste actuel'
+    actualSalaryField: 'Salaire actuel'
+    available: 'Disponible à l''embauche'
+    availableForHireField: 'Disponible à l''embauche'
     avatarField: 'Avatar (URL)'
+    companyNameField: 'Nom de l''entreprise'
+    fieldNotFilled: 'Champ non renseigné !'
     formSaved: 'Formulaire enregistré avec succès'
     fullNameField: 'Nom complet'
     jobFormTitle: 'Fiche de poste'
+    'no': Non
+    notAvailable: 'Pas disponible'
     saveBtn: Enregistrer
+    showInsidePostsField: 'Afficher la fiche de poste dans les messages ?'
+    yearOfExperienceField: 'Nombre d''années d''expérience'
+    'yes': Oui
