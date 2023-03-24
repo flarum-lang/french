@@ -9,11 +9,14 @@ CHANGELOG
 
 * [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator)
 * [`justoverclock/job-cards`](https://extiverse.com/extension/justoverclock/job-cards)
+* [`nearata/flarum-ext-cloudflare`](https://github.com/Nearata/flarum-ext-cloudflare)
 
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
 * [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
 
