@@ -8,10 +8,12 @@ CHANGELOG
 **Prise en charge de nouvelles extensions**:
 
 * [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator)
+* [`justoverclock/job-cards`](https://extiverse.com/extension/justoverclock/job-cards)
 
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
 * [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
 
