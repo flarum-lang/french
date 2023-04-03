@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+4.9.1 (XXXX-XX-XX)
+------------------
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`ianm/synopsis`](https://github.com/imorland/synopsis)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
+
+
+Journal de toutes les modifications : [v4.9.0...v4.9.1](https://github.com/flarum-lang/french/compare/v4.9.0...v4.9.1).
+
+
 4.9.0 (2023-03-25)
 ------------------
 
