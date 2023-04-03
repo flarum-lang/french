@@ -26,6 +26,8 @@ kilowhat-wordpress:
       validation-errors: 'Nous avons trouvé quelques erreurs dans votre soumission'
     settings:
       api_key: 'Clé API de Flarum'
+      comment_author_sync: 'Attribuer un auteur de discussion à partir du SSO'
+      comment_author_sync_help: 'Si l''auteur de Wordpress a créé un compte Flarum via SSO, ce compte Flarum sera défini comme le propriétaire de la discussion du commentaire.'
       comment_tag: 'Étiquette pour les nouveaux fils de commentaires'
       comment_tag_custom: 'Valeurs personnalisées'
       comment_tag_custom_help: 'Liste d''identifiants d''étiquettes séparés par des virgules'
@@ -51,6 +53,8 @@ kilowhat-wordpress:
         hide: 'Masquer la discussion de Flarum'
         ignore: 'Ignorer (verrouiller la discussion en fonction de l''option « Autoriser les commentaires »)'
         lock: 'Verrouiller la discussion de Flarum'
+      post_thumbnail_list: 'Afficher la miniature de l''article sur WordPress dans la liste de discussions de Flarum'
+      post_thumbnail_summary: 'Afficher la miniature de l''article sur WordPress au-dessus de l''extrait'
       section_comments_intro: "Cette fonctionnalité remplace les commentaires WordPress par une fenêtre imbriquée de Flarum. La publication en tant qu'invité n'est plus possible. Les discussions ne sont créées que pour les articles dont les commentaires sont activés dans WordPress. L'activation ou la désactivation des commentaires est synchronisée avec le verrouillage des discussions de Flarum. Si votre blog contient déjà des articles lorsque vous activez cette fonctionnalité, vous devez à nouveau activer et désactiver les commentaires sur chaque article pour que la discussion Flarum soit créée.\n"
       section_general_intro: 'Les paramètres de base requis pour que l''extension fonctionne.'
       section_sso_intro: "Cette fonctionnalité permettra de connecter de manière transparente les utilisateurs de WordPress à Flarum. Un compte sera automatiquement créé pour ces derniers et synchronisé avec WordPress. Si vous avez des comptes existants dans Flarum, ils seront automatiquement associés à leur adresse de courriel. Si vous supprimez un utilisateur dans Flarum, il sera recréé la prochaine fois que le compte WordPress se connectera. Pour bloquer un utilisateur de Flarum, suspendez le compte dans Flarum.\n"
@@ -156,6 +160,7 @@ kilowhat-wordpress:
       blog_link: 'Lire sur le blog'
       head_label: 'Article WordPress'
       read_more: 'Lire la suite'
+    thumbnail_alt_fallback: 'Miniature d''article WordPress'
     welcome-modal:
       default_message: 'Bienvenue sur le forum. Choisissez un nom d''utilisateur et c''est parti !'
       not_now: 'Ignorer et lire en tant qu''invité pour le moment'

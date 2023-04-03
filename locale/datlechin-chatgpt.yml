@@ -15,5 +15,7 @@ datlechin-chatgpt:
       max_tokens_label: 'Nombre maximal de jetons'
       model_help: 'En savoir plus sur les <a>modèles</a> (<code>text-davinci-003</code> par défaut).'
       model_label: Modèle
+      user_prompt_badge_help: 'Texte qui sera affiché à côté de l''invite de l''utilisateur.'
+      user_prompt_badge_label: 'Badge d''invite utilisateur'
       user_prompt_help: 'L''invite qui sera utilisée pour générer la réponse. La valeur par défaut est celui ou celle qui a démarré la discussion.'
       user_prompt_label: 'Invite de l''utilisateur'
