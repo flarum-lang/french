@@ -43,6 +43,7 @@ ziven-guaguale:
       guaguale-item-settings: 'Paramètres des billets'
       guaguale-item-status: Statut
       guaguale-item-title: Titre
+      guaguale-item-unlimited: 'Aucune limite'
       guaguale-timezone: 'Fuseau horaire'
       guaguale-timezone-default: Asie/Shanghai
       guaguale-timezone-help: 'Définissez le fuseau horaire pour l''heure de transfert. La valeur par défaut est « Asie/Shanghai »'
@@ -62,7 +63,7 @@ ziven-guaguale:
     guaguale-history-list-title: 'Titre du ticket de loterie'
     guaguale-list-empty: 'Il n''y a aucun contenu'
     guaguale-list-item-available: 'Restant : {available} tickets'
-    guaguale-list-item-cost: 'Coût : {cost}/ticket'
+    guaguale-list-item-cost: 'Coût total : {cost}/ticket'
     guaguale-list-item-soldout: 'Restant : épuisé'
     guaguale-list-item-soldout-text: Épuisé
     guaguale-open-error: 'Erreur lors de l''ouverture du ticket de loterie'

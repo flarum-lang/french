@@ -9,5 +9,20 @@ hehongyuanlove-auth-qq:
       client_secret_label: 'Clé secrète de l''application'
       title: 'Paramètres de QQ'
   forum:
+    buttons:
+      link: 'Associer un compte QQ'
+      login: '=> hehongyuanlove-auth-qq.forum.log_in.with_qq_button'
+      unlink: 'Désassocier le compte QQ'
     log_in:
       with_qq_button: QQ
+    modals:
+      link:
+        title: 'Associer un compte QQ'
+      unlink:
+        buttons:
+          cancel: Annuler
+          confirm: Désassocier
+        info:
+          confirm: 'Êtes-vous sûr de vouloir désassocier votre compte QQ ?'
+          no_providers: 'Vous n''avez pas d''autres méthodes de connexion. Veuillez d''abord réinitialiser le mot de passe de votre compte.'
+        title: 'Désassocier le compte QQ'
