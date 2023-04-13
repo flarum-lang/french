@@ -7,9 +7,14 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
+* [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
+* [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth)
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq)
 * [`ianm/synopsis`](https://github.com/imorland/synopsis)
 * [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
+* [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket)
 
 
 Journal de toutes les modifications : [v4.9.0...v4.9.1](https://github.com/flarum-lang/french/compare/v4.9.0...v4.9.1).
