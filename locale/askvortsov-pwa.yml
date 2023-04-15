@@ -36,6 +36,8 @@ askvortsov-pwa:
       other:
         force_portrait_text: 'Forcer l''orientation en mode portrait ?'
         heading: Autre
+        user_max_subscriptions_label: 'Nombre maximum d''abonnements push par utilisateur'
+        user_max_subscriptions_text: 'Combien d''abonnements push chaque utilisateur peut-il avoir à la fois ? Lorsqu''un utilisateur reçoit une notification push, chaque abonnement entraîne un appel à l''API. Chaque abonnement correspond généralement à un navigateur utilisé par l''utilisateur.'
       refreshed_message: 'La configuration de l''application web progressive a été actualisée.'
       status_check_heading: 'Vérification du statut'
       submit_button: 'Enregistrer les paramètres'
@@ -43,7 +45,7 @@ askvortsov-pwa:
     status:
       config_no_https: 'L''URL dans votre fichier config.php n''utilise pas HTTPS. HTTPS est nécessaire pour que les applications web progressives puissent fonctionner.'
       key_gen_failed: 'La génération des clés nécessaires aux notifications poussées a échouée. Le message d''erreur complet est : {error}'
-      no_logo: 'Vous devez transférer au moins un logo, avec une taille d''au moins 196 pixels, pour que votre application fonctionne.'
+      no_logo: 'Vous devez transférer au moins un logo, d''une taille minimale de 144x144 pixels, pour que l''application web progressive puisse être installée.'
       no_name: 'Vous devez fournir un nom complet pour que votre application fonctionne.'
       no_vapid_keys: 'Aucune clé VAPID trouvée. Celles-ci sont requises pour l''envoi des notifications push. Vous pouvez réinitialiser les clés VAPID ci-dessous.'
       possible_https_disabled: 'Votre site n''est peut-être pas exécuté en HTTPS. Vider votre cache (page du tableau de bord d''administration => bouton outils) peut aider. Si tel est le cas, ignorez ce message. Si ce n''est pas le cas, gardez à l''esprit que HTTPS est nécessaire pour que les applications web progressives puissent fonctionner.'
