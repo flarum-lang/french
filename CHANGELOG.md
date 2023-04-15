@@ -7,9 +7,11 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
 * [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
 * [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth)
+* [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
 * [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq)
 * [`ianm/synopsis`](https://github.com/imorland/synopsis)
