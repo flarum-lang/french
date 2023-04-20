@@ -2,6 +2,32 @@ CHANGELOG
 =========
 
 
+4.10.0 (2023-04-20)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
+* [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
+* [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth)
+* [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq)
+* [`ianm/synopsis`](https://github.com/imorland/synopsis)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
+* [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket)
+
+
+Journal de toutes les modifications : [v4.9.0...v4.10.0](https://github.com/flarum-lang/french/compare/v4.9.0...v4.10.0).
+
+
 4.9.0 (2023-03-25)
 ------------------
 
