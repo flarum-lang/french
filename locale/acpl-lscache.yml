@@ -7,7 +7,7 @@ acpl-lscache:
     cache_exclude_help: 'Les chemins contenant ces chaînes ne seront pas mis en cache. Par exemple, pour <code>/mypath/mypage?aa=bb</code>, <code>mypage?aa=</code> peut être utilisé ici. Pour faire correspondre le début, ajoutez <code>^</code> au début de l''élément. Pour faire une correspondance exacte, ajoutez <code>$</code> à la fin de l''URL. Un par ligne.'
     cache_exclude_label: 'Ne pas mettre en cache les chemins'
     clearing_cache_listener_label: 'Purger LSCache lorsque le cache Flarum est vidé'
-    public_cache_ttl_help: 'Spécifiez combien de temps, en secondes, les pages publiques sont mises en cache. La valeur par défaut est de 300 secondes.'
+    public_cache_ttl_help: 'Spécifiez la durée, en secondes, pendant laquelle les pages publiques sont mises en cache. La valeur par défaut est de 604800 secondes (une semaine).'
     public_cache_ttl_label: 'TTL du cache public par défaut'
     purge_all: 'Purger tous les LSCache'
     purge_all_success: 'Serveur Web LiteSpeed notifié pour purger toutes les entrées LSCache'

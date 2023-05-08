@@ -7,15 +7,20 @@ ziven-money-leaderboard:
     permission:
       allow_view_leaderboard: 'Autoriser l''affichage du classement'
     settings:
+      leaderboard-additional-info: 'Informations complémentaires'
+      leaderboard-additional-info-help: 'Affiche des informations supplémentaires au début du classement. Laissez le champ vide pour masquer le paragraphe.'
       leaderboard-entry-position: 'Position d''entrée au classement'
       leaderboard-entry-sideNav: 'Menu de navigation latéral'
       leaderboard-entry-topRightMenu: 'Menu en haut à droite'
+      leaderboard-hide-money-text: 'Masquer le nom de l''argent après le nom d''utilisateur'
       leaderboard-icon: 'Icône du classement'
       leaderboard-icon-help: 'Saisissez le nom de n''importe quelle classe d''icône FontAwesome, y compris le préfixe <code>fas fa-</code>.'
       leaderboard-init-load-count: 'Nombre initial de charges'
       leaderboard-load-more-count: 'Charger plus de comptages'
       leaderboard-max-load-count: 'Nombre maximal de charges'
+      leaderboard-slug: 'Identifiant texte unique'
   forum:
+    leaderboard-list-empty: 'Il n''y a pas de contenu'
     leaderboard-list-money: 'Argent possédé'
     leaderboard-list-rank: Rang
     leaderboard-list-title: 'Classement des gains'
