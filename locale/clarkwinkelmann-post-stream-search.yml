@@ -11,12 +11,14 @@ clarkwinkelmann-post-stream-search:
       dropdownAccessHelp: 'Si cette option est désactivée, la barre d''outils ne sera disponible que par le biais du raccourci clavier ou de l''un des autres raccourcis activés ci-dessous.'
       originalPosterBadge: 'Afficher le badge interactif de l''auteur du message'
       originalPosterBadgeHelp: 'Un badge sera ajouté à côté des messages de l''auteur des messages. En cliquant sur le badge, vous filtrerez automatiquement les messages de cet utilisateur.'
+      sideNavAccess: 'Accès par la navigation latérale de la discussion'
+      sideNavAccessHelp: 'Identique au paramètre précédent, mais le bouton sera ajouté en tant qu''entrée séparée dans la barre latérale au lieu de la liste déroulante.'
   forum:
     cannotGoToPost:
       action: 'Essayez d''effacer les filtres'
       message: 'Impossible d''accéder au message'
     discussionControls:
-      searchInDiscussion: 'Rechercher dans la discussion'
+      searchInDiscussion: 'Rechercher une discussion'
     post:
       opBadge: 'Début de la discussion'
       opBadgeTooltip: 'Cliquez ici pour afficher uniquement les réponses de cet utilisateur'
