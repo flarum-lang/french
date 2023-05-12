@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+4.11.0 (2023-05-12)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`marchccc/flarum-ext-mentions-group-users`](https://github.com/Marchccc/flarum-ext-mentions-group-users)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
+* [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+
+
+Journal de toutes les modifications : [v4.10.0...v4.11.0](https://github.com/flarum-lang/french/compare/v4.10.0...v4.11.0).
+
+
 4.10.0 (2023-04-20)
 -------------------
 
