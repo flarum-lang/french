@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+4.12.0 (XXXX-XX-XX)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`widayn/flarum-avatar-cropper`](https://github.com/WiDayn/flarum-avatar-cropper)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+
+
+Journal de toutes les modifications : [v4.11.0...v4.12.0](https://github.com/flarum-lang/french/compare/v4.11.0...v4.12.0).
+
+
 4.11.0 (2023-05-12)
 -------------------
 
