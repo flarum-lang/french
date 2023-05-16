@@ -36,6 +36,8 @@ askvortsov-pwa:
       other:
         force_portrait_text: 'Forcer l''orientation en mode portrait ?'
         heading: Autre
+        push_notif_preference_default_to_email_label: 'Définir les préférences de poussée par défaut vers l''envoi de courriel ?'
+        push_notif_preference_default_to_email_text: 'Si la valeur est activée, les notifications de poussée seront activées par défaut pour tous les types de notification pour lesquels les notifications par courriel sont activées par défaut. Si cette valeur est désactivée, les notifications de poussée seront désactivées par défaut pour les utilisateurs.'
         user_max_subscriptions_label: 'Nombre maximum d''abonnements push par utilisateur'
         user_max_subscriptions_text: 'Combien d''abonnements push chaque utilisateur peut-il avoir à la fois ? Lorsqu''un utilisateur reçoit une notification push, chaque abonnement entraîne un appel à l''API. Chaque abonnement correspond généralement à un navigateur utilisé par l''utilisateur.'
       refreshed_message: 'La configuration de l''application web progressive a été actualisée.'

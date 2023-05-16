@@ -7,6 +7,9 @@ askvortsov-article-series:
     edit_tags:
       is_article_series: 'Est-ce une série d''articles ?'
   forum:
+    article_item:
+      next_article: 'Article suivant'
+      prev_article: 'Article précédent'
     article_list:
       title: '{series} séries d''articles'
     article_series_modal:
