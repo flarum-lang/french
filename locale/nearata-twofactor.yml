@@ -7,6 +7,7 @@ nearata-twofactor:
     permissions:
       can_enable_twofactor: 'Peut activer le système à deux facteurs'
     settings:
+      generate_app_backups: 'Générer des codes de sauvegarde pour les applications'
       generate_backups: 'Générer des codes de sauvegarde.'
   forum:
     invalid_twofa_code: 'Code à deux facteurs non valide.'
@@ -15,6 +16,42 @@ nearata-twofactor:
       otp_placeholder: 'Code d''accès à deux facteurs'
       submit_button: Connexion
       title: 'Deux facteurs'
+    login:
+      app:
+        invalid_passcode: 'Code d''accès non valide.'
+        passcode_placeholder: 'Code d''accès à 6 chiffres'
+      auth_buttons:
+        app: 'Application d''authentification'
+      placeholder_label: 'Choisir une méthode d''authentification…'
+      submit_button_label: 'Se connecter'
+      title: 'Authentification à deux facteurs'
+    settings:
+      app:
+        button_help: 'Vous recevrez un code d''accès via votre application d''authentification.'
+        button_label: 'Application d''authentification'
+        setup:
+          close_button_label: Fermer
+          disable:
+            button_label: Désactiver
+            enter_code_disable: 'Saisissez le code pour désactiver l''application d''authentification à deux facteurs.'
+            success: 'L''application d''authentification est désactivée.'
+          enable:
+            backups:
+              copy_button_label: Copier
+              download_button_label: Télécharger
+              download_file_format: "{website_title} | {website_url}\n\nConservez ces codes de sauvegarde dans un endroit sûr mais accessible.\n\nLISTE DES CODES\n\n{codes}\n\n* Vous ne pouvez utiliser chaque code de sauvegarde qu'une seule fois.\n* Ces codes DOIVENT être utilisés dans l'ordre indiqué.\n* Ces codes ont été générés le : {date}.\n"
+              message: "Conservez ces codes de récupération en lieu sûr. Si vous perdez votre appareil à deux facteurs, ces codes à usage unique peuvent être utilisés dans l'ordre indiqué pour vous connecter à votre compte.\n"
+            button_label: Activer
+            enter_code_manually: 'Saisir la clé manuellement à la place'
+            scan_qr: 'Scannez ce code QR avec votre dispositif d''authentification à deux facteurs pour créer votre compte.'
+            success: 'L''application d''authentification est activée.'
+          invalid_passcode: 'Le mot de passe ou le code d''accès n''est pas valide.'
+          passcode_placeholder: 'Code d''accès à 6 chiffres'
+          password_placeholder: 'Mot de passe'
+          title: 'Configurer l''application d''authentification'
+      configured: Configurée
+      not_configured: 'Non configurée'
+      section_title: 'Authentification à deux facteurs'
     setup_button: 'Deux facteurs'
     setup_modal:
       backups:
@@ -34,3 +71,10 @@ nearata-twofactor:
         disable: Désactiver
         enable: Activer
       title: 'Deux facteurs'
+  lib:
+    edit_user:
+      app:
+        label: 'Application d''authentification'
+      disable_confirmation: 'Êtes-vous sûr ? Vous êtes sur le point de désactiver cette méthode d''authentification pour l''utilisateur.'
+      placeholder_text: 'Rien à désactiver'
+      section_title: 'Authentification à deux facteurs'
