@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
 
 
 Journal de toutes les modifications : [v4.11.0...v4.12.0](https://github.com/flarum-lang/french/compare/v4.11.0...v4.12.0).
