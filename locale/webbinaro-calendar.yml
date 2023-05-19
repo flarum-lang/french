@@ -10,12 +10,26 @@ flarum-calendar:
       add: 'Créer de nouveaux événements de calendrier'
       moderate: 'Supprimer ou modifier les événements du calendrier (tous les utilisateurs peuvent modifier les leurs)'
       view: 'Afficher les événements'
+    settings:
+      hide_host: 'Masquer l''organisateur (organisé par…)'
   forum:
     button:
       create: 'Nouvel événement'
       landing: 'Calendrier des événements'
       login: 'Ajouter votre événement '
     event:
+      confirm_delete: 'Êtes-vous sûr de vouloir supprimer cet événement ?'
+      deleted: 'Cet événement a été supprimé'
       details: 'Plus d''informations sur cet événement'
+      ends: 'Fin :'
+      hosted_by: 'Organisé par :'
+      starts: 'Début :'
     modal:
+      dates_label: Quand
+      description_label: Informations
+      description_placeholder: 'Informations sur l''événement'
+      requirement_message: 'Les événements nécessitent un nom et une description'
       submit: Envoyer
+      title_create: 'Créer un nouvel événement de calendrier'
+      title_edit: 'Modifier les informations de l''événement'
+      title_label: 'Ce qu''il y a'
