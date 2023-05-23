@@ -17,7 +17,7 @@
         "forum": "https://discuss.flarum.org/d/615"
     },
     "require": {
-        "flarum/core": "^1.7"
+        "flarum/core": "^1.8"
     },
     "extra": {
         "branch-alias": {
