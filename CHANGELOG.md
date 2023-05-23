@@ -2,6 +2,35 @@ CHANGELOG
 =========
 
 
+4.12.0 (2023-05-23)
+-------------------
+
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
+**Prise en charge de nouvelles extensions**:
+
+* [`flarum/bbcode`](https://github.com/flarum/bbcode)
+* [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+* [`widayn/flarum-avatar-cropper`](https://github.com/WiDayn/flarum-avatar-cropper)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
+* [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
+
+
+Journal de toutes les modifications : [v4.11.0...v4.12.0](https://github.com/flarum-lang/french/compare/v4.11.0...v4.12.0).
+
+
 4.11.0 (2023-05-12)
 -------------------
 
