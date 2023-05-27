@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.12.1 (XXXX-XX-XX)
+-------------------
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
+
+
+Journal de toutes les modifications : [v4.12.0...v4.12.1](https://github.com/flarum-lang/french/compare/v4.12.0...v4.12.1).
+
+
 4.12.0 (2023-05-23)
 -------------------
 
