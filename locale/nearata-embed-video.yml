@@ -25,6 +25,7 @@ nearata-embed-video:
         webtorrent: WebTorrent
   forum:
     button_tooltip_title: 'Intégrer la vidéo'
+    cannot_create: 'Vous n''êtes pas autorisé à intégrer une vidéo'
     cannot_view: 'Erreur : vous n''êtes pas autorisé à voir ce contenu'
     modal:
       add_pointer: 'Ajouter un pointeur'
