@@ -18,6 +18,13 @@ nearata-cloudflare:
         js: 'Réduire le JS'
         js_help: 'Réduit automatiquement la taille de tous les fichiers JavaScript de votre site web.'
         section_title: 'Réduire le paramètre'
+      r2:
+        access_key_id: 'Identifiant de la clé d''accès'
+        access_key_secret: 'Clé secrète de la clé d''accès'
+        bucket_name: 'Nom de l''espace de stockage mémoire'
+        public_domain: 'Domaine public'
+        s3_api: 'API de S3'
+        section_title: R2
       refer_to: 'Reportez-vous à <strong><url>cette page</url></strong> pour plus d''informations.'
       refresh_zone_button_label: 'Actualiser l''identifiant de la zone'
       refresh_zone_help: 'Cliquez sur le bouton ci-dessus <strong>uniquement</strong> si le nom de domaine a changé.'

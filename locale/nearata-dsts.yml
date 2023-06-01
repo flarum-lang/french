@@ -8,8 +8,11 @@ nearata-dsts:
       can_bypass_like: 'Peut contourner d''aimer'
       can_bypass_login: 'Peut contourner la connexion'
       can_bypass_reply: 'Peut contourner de répondre'
+      can_use_bbcode: 'Peut utiliser du BBCode'
     settings:
+      enabled: Activé
       fof_upload:
+        enabled: Activé
         require_like: 'Nécessite d''aimer'
         require_like_help: 'Nécessite l''extension <strong>flarum/likes</strong>.'
         require_reply: 'Nécessite de répondre'
@@ -23,10 +26,25 @@ nearata-dsts:
       require_reply: 'Exiger de répondre'
   forum:
     button: DSTS
+    composer:
+      dsts_tooltip: DSTS
     fof_upload:
       like: 'Vous devez aimer pour voir le fichier.'
       login: 'Vous devez vous connecter pour voir le fichier.'
       reply: 'Vous devez répondre pour voir le fichier.'
     like: 'Vous devez aimer le message pour voir le contenu.'
     login: 'Vous devez vous connecter pour voir le contenu.'
+    post:
+      bbcode:
+        hidden_content: 'Contenu masqué'
+        like_text: 'Vous devez aimer le message pour voir ce contenu'
+        login_text: 'Vous devez vous connecter pour voir ce contenu'
+        reply_text: 'Vous devez répondre à la discussion pour voir ce contenu'
+      fof_upload:
+        like_text: 'Vous devez aimer le message pour voir le fichier'
+        login_text: 'Vous devez vous connecter pour voir le fichier'
+        reply_text: 'Vous devez répondre à la discussion pour voir le fichier'
+      like_tooltip: 'Vous devez aimer le message pour en voir le contenu'
+      login_tooltip: 'Vous devez vous connecter pour voir le contenu'
+      reply_tooltip: 'Vous devez répondre à la discussion pour en voir le contenu'
     reply: 'Vous devez répondre à la discussion pour en voir le contenu.'

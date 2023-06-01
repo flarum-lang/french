@@ -5,7 +5,7 @@
 clarkwinkelmann-prominent-post-numbers:
   admin:
     settings:
-      floating: 'Numéro d''article flottant en haut à droite du message au lieu d''être dans l''en-tête du message'
+      floating: 'Numéro de message flottant en haut à droite du message au lieu d''être dans l''en-tête du message'
       prefix: Préfixe
       prefixPlaceholder: 'Laisser vide pour personnaliser via le traducteur'
   views:
