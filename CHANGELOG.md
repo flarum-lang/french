@@ -7,7 +7,9 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
 * [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`ianm/synopsis`](https://github.com/imorland/synopsis)
 * [`nearata/flarum-ext-cloudflare`](https://github.com/Nearata/flarum-ext-cloudflare)
 * [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
