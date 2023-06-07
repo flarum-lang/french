@@ -4,12 +4,16 @@
 
 flarum-ext-keywords:
   admin:
+    addRow: 'Ajouter une définition'
     definition: Définition
     parseonce: 'Analyser les mots une fois dans un message'
     removedef: 'Supprimer la définition'
     word: Mot
   forum:
+    definition: Définition
+    loadMore: 'Charger plus'
     pagetitle: 'Page du glossaire'
     searchtext: 'Recherchez à travers le glossaire...'
     tagline: 'Souhaitez-vous en savoir plus sur les termes utilisés sur ce site ? Consultez le glossaire pour en savoir plus'
+    term: Terme
     title: Glossaire

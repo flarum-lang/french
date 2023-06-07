@@ -18,14 +18,18 @@ fof-polls:
       add_poll: 'Ajouter un sondage'
       edit_poll: '=> fof-polls.forum.moderation.edit'
     days_remaining: 'Le sondage se termine dans {time}.'
+    max_votes_allowed: 'Le sondage permet de voter pour {max, plural, one {# option} other {# options}}.'
     modal:
       add_option_label: 'Ajouter une option'
       add_title: 'Ajouter un sondage'
+      allow_multiple_votes_label: 'Permettre de voter pour plusieurs options'
       date_placeholder: 'Date de fin du sondage (facultatif)'
       edit_title: 'Modifier le sondage'
       image_option_placeholder: 'URL de l''image (facultatif)'
       include_question: 'Vous devez ajouter une question'
       max: 'Vous pouvez avoir un maximum de 10 réponses'
+      max_votes_help: 'Réglez cette option sur 0 pour permettre aux utilisateurs de voter pour toutes les options.'
+      max_votes_label: 'Nombre maximum de votes par utilisateur'
       min: 'Vous devez ajouter au moins 2 réponses'
       no_voters: 'Aucun vote'
       option_placeholder: Répondre
