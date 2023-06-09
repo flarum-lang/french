@@ -17,6 +17,7 @@ fof-webhooks:
       deleted: 'Groupe `{1}` supprimé'
       renamed: 'Renommé un groupe en `{1}`'
     post:
+      approved: 'Message approuvé dans `{1}`'
       deleted: 'Message supprimé dans `{1}`'
       hidden: 'Message masqué dans `{1}`'
       posted: 'Nouveau message dans `{1}`'
@@ -41,6 +42,9 @@ fof-webhooks:
     settings:
       actions:
         flarum:
+          approval:
+            postwasapproved: 'Message approuvé'
+            title: 'Approbation de Flarum'
           discussion:
             deleted: '=> fof-webhooks.ref.deleted'
             hidden: '=> fof-webhooks.ref.hidden'
