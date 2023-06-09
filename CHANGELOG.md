@@ -11,6 +11,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`ianm/synopsis`](https://github.com/imorland/synopsis)
 * [`justoverclock/flarum-ext-keywords`](https://github.com/justoverclockl/flarum-ext-keywords)
 * [`nearata/flarum-ext-cloudflare`](https://github.com/Nearata/flarum-ext-cloudflare)
