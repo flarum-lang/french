@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+4.12.1 (2023-06-15)
+-------------------
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`ianm/synopsis`](https://github.com/imorland/synopsis)
+* [`justoverclock/job-cards`](https://extiverse.com/extension/justoverclock/job-cards)
+* [`justoverclock/flarum-ext-keywords`](https://github.com/justoverclockl/flarum-ext-keywords)
+* [`nearata/flarum-ext-cloudflare`](https://github.com/Nearata/flarum-ext-cloudflare)
+* [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
+* [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
+
+
+Journal de toutes les modifications : [v4.12.0...v4.12.1](https://github.com/flarum-lang/french/compare/v4.12.0...v4.12.1).
+
+
 4.12.0 (2023-05-23)
 -------------------
 
