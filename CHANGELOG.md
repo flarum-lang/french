@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-4.12.1 (XXXX-XX-XX)
+4.12.1 (2023-06-15)
 -------------------
 
 **Mise à jour des traductions de certaines extensions**:
