@@ -14,6 +14,7 @@ justoverclock-job-cards:
     formSaved: 'Formulaire enregistré avec succès'
     fullNameField: 'Nom complet'
     jobFormTitle: 'Fiche de poste'
+    jobProfile: 'Profil du poste'
     'no': Non
     notAvailable: 'Pas disponible'
     saveBtn: Enregistrer
