@@ -13,6 +13,7 @@ CHANGELOG
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`ianm/synopsis`](https://github.com/imorland/synopsis)
+* [`justoverclock/job-cards`](https://extiverse.com/extension/justoverclock/job-cards)
 * [`justoverclock/flarum-ext-keywords`](https://github.com/justoverclockl/flarum-ext-keywords)
 * [`nearata/flarum-ext-cloudflare`](https://github.com/Nearata/flarum-ext-cloudflare)
 * [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
