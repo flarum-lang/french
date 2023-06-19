@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.12.2 (XXXX-XX-XX)
+-------------------
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+
+
+Journal de toutes les modifications : [v4.12.1...v4.12.2](https://github.com/flarum-lang/french/compare/v4.12.1...v4.12.2).
+
+
 4.12.1 (2023-06-15)
 -------------------
 
