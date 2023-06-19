@@ -27,3 +27,14 @@ fof-sitemap:
         runtime: 'Durée d''exécution'
       risky_performance_improvements: 'Activer l''amélioration des performances à risque'
       risky_performance_improvements_help: 'Ces améliorations accélèrent l''exécution de la tâche CRON sur des ensembles de données de plusieurs millions de lignes, mais peuvent nuire à la compatibilité avec certaines extensions.'
+      soft_404:
+        heading: 'Prévention douce des 404'
+        help: 'Lorsqu''un modèle n''a pas ou peu de contenu pertinent, Google et d''autres robots d''indexation peuvent signaler ces pages comme des pages erreurs 404 « douces ». Pour éviter cela, définissez ici un nombre minimum d''éléments requis pour chaque élément admissible.'
+        tags:
+          discussion:
+            minimum_item_threshold_help: 'Le nombre minimum de discussions qu''une étiquette doit avoir pour apparaître dans le plan du site.'
+            minimum_item_threshold_label: 'Étiquette : nombre minimum de discussions'
+        user:
+          comments:
+            minimum_item_threshold_help: 'Le nombre minimum de commentaires ou de messages qu''un utilisateur doit publier pour que son profil apparaisse dans le plan du site.'
+            minimum_item_threshold_label: 'Utilisateur : nombre minimum de commentaires ou de messages'
