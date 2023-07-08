@@ -35,6 +35,7 @@ fof-webhooks:
   admin:
     errors:
       service_not_found: 'Le service « {service} » est introuvable.'
+      tag_disabled: 'Ce webhook avait une restriction d''étiquette configurée. L''extension Tags est désactivée. La restriction ne s''appliquera pas. Assurez-vous que ceci est prévu.'
       tag_invalid: 'Ce webhook est restreint à une étiquette non valide. La restriction ne s''appliquera pas. Assurez-vous que cette action est volontaire.'
       url_invalid: 'L''URL n''est pas valide pour le service sélectionné.'
     nav:
@@ -74,9 +75,10 @@ fof-webhooks:
       help:
         disabled: 'Ce webhook est désactivé car il n''a aucun événement activé.'
         general: 'Vous pouvez ajouter, modifier et supprimer ici des webhooks pour votre forum.'
+        tags: 'Vous pouvez limiter les webhooks à des étiquettes spécifiques. Si vous sélectionnez des étiquettes, le webhook ne sera déclenché que si l''événement est déclenché sur une ressource qui possède l''une des étiquettes sélectionnées.'
         url: 'Le point d''entrée du webhook à exécuter'
       item:
-        tag_any_label: 'N''importe lequel'
+        tag_any_label: 'N''importe quelle étiquette'
       modal:
         description: 'Vous pouvez modifier ici les événements sur lesquels le webhook est déclenché.'
         events_label: Événements

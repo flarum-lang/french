@@ -13,6 +13,8 @@ fof-geoip:
       service_ipapi_label: 'IP de l''API'
       service_ipdata_description: 'Utilisez <b>https://ipdata.co</b> pour effectuer gratuitement jusqu''à 1 500 recherches par jour.'
       service_ipdata_label: IPData
+      service_iplocation_description: 'Utilisez <b>https://www.iplocation.net/</b> pour récupérer les données relatives au pays et au fournisseur d''accès à internet. Les limites du taux de consultation sont inconnues.'
+      service_iplocation_label: 'Localisation de l''adresse IP'
       service_ipstack_description: 'Utilisez <b>https://ipstack.com</b> pour effectuer gratuitement jusqu''à 10 000 recherches par mois. Les forfaits payants incluent les informations de connexion (FAI, organisation) et le niveau de menace.'
       service_ipstack_label: IPStack
       service_label: Service

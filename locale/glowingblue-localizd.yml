@@ -12,3 +12,10 @@ glowingblue-localizd:
       help: 'Cette option est multilingue grâce à <b>Localizd</b> et <a>Linguist</a>.'
       modal_title: 'Ajouter des traductions avec Linguist'
       translate: Traduire
+  forum:
+    errors:
+      causes: 'Cela peut être dû à une ou plusieurs des raisons suivantes'
+      deleted: 'La page peut avoir été supprimée'
+      does_not_exist: 'La page n''existe peut-être pas'
+      logged_in_only: 'La page peut n''être accessible qu''aux utilisateurs connectés'
+      no_permission: 'Vous n''avez peut-être pas l''autorisation de voir cette page'

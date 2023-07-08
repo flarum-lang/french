@@ -7,8 +7,11 @@ fof-recaptcha:
     permissions:
       post_without_captcha: 'Créez des messages et des discussions sans CAPTCHA'
     settings:
+      forgot: '=> core.forum.forgot_password.title'
       help_text: 'Obtenez vos informations d''identification Google reCAPTCHA <a>ici</a>.'
       secret_key_label: 'Clé secrète'
+      signin: '=> core.forum.log_in.title'
+      signup: '=> core.forum.sign_up.title'
       site_key_label: 'Clé du site'
       type_label: 'Type de reCAPTCHA'
   forum:
