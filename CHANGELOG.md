@@ -7,7 +7,14 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+* [`glowingblue/localizd`](https://extiverse.com/extension/glowingblue/localizd)
+* [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
 
 
 Journal de toutes les modifications : [v4.12.1...v4.12.2](https://github.com/flarum-lang/french/compare/v4.12.1...v4.12.2).
