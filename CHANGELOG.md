@@ -2,22 +2,32 @@ CHANGELOG
 =========
 
 
-4.12.2 (XXXX-XX-XX)
+4.13.0 (XXXX-XX-XX)
 -------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
+
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
 * [`glowingblue/localizd`](https://extiverse.com/extension/glowingblue/localizd)
+* [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
+* [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
+* [`nearata/flarum-ext-cakeday`](https://github.com/Nearata/flarum-ext-cakeday)
 * [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
 
 
-Journal de toutes les modifications : [v4.12.1...v4.12.2](https://github.com/flarum-lang/french/compare/v4.12.1...v4.12.2).
+Journal de toutes les modifications : [v4.12.1...v4.13.0](https://github.com/flarum-lang/french/compare/v4.12.1...v4.13.0).
 
 
 4.12.1 (2023-06-15)
