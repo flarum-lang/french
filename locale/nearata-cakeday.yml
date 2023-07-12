@@ -8,13 +8,15 @@ nearata-cakeday:
       can_view_anniversaries_page: 'Afficher la page des anniversaires'
     settings:
       anniversaries_page_label: 'Activer la page des anniversaires'
-      cake_bg_color_help: 'Aide : ce paramètre modifie la couleur d''arrière-plan du gâteau. Laissez vide pour la valeur par défaut.'
+      cake_bg_color_help: 'Ce paramètre modifie la couleur d''arrière-plan du gâteau. Laissez vide pour utiliser la valeur par défaut.'
       cake_bg_color_label: 'Couleur de l''arrière plan'
-      cake_txt_color_help: 'Aide : ce paramètre modifie la couleur du texte du gâteau. Laissez vide pour la valeur par défaut.'
+      cake_txt_color_help: 'Ce paramètre modifie la couleur du texte du gâteau. Laissez vide pour utiliser la valeur par défaut.'
       cake_txt_color_label: 'Couleur de l''icône'
+      general_section_title: Général
+      members_section_title: Membres
       new_members: 'Afficher une icône de gâteau sur les nouveaux membres'
-      new_members_changelabel: '(Nouveaux membres) Remplacer le libellé par : Nouveau membre'
-      new_members_howlong: '(Nouveaux membres) Pour combien de temps'
+      new_members_changelabel: 'Modifier le libellé par : nouveau membre'
+      new_members_howlong: 'Pour combien de temps'
       new_members_howlong_help: 'Exprimé en jours.'
   forum:
     anniversary: Anniversaire

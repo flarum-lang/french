@@ -8,7 +8,7 @@ kilowhat-custom-paths:
       disabled: 'Extension non activée'
       extensions:
         askvortsov-categories: 'Categories de Askvortsov'
-        clarkwinkelmann-composer-page: 'Page du compositeur de ClarkWinkelmann'
+        clarkwinkelmann-composer-page: 'Composer Page de ClarkWinkelmann'
         clarkwinkelmann-discussion-bookmarks: 'Discussion Bookmarks de ClarkWinkelmann'
         clarkwinkelmann-discussion-lists: 'Discussion Lists de ClarkWinkelmann'
         clarkwinkelmann-group-list: 'Group List de ClarkWinkelmann'
@@ -18,15 +18,17 @@ kilowhat-custom-paths:
         flamarkt-core: 'Noyau de Flamarkt'
         flamarkt-identity: 'Identité de Flamarkt'
         flamarkt-signup-page: 'Page d''inscription de Flamarkt'
-        flarum-flags: 'Signalements de Flarum'
-        flarum-subscriptions: 'Abonnements de Flarum'
-        flarum-tags: 'Étiquettes de Flarum'
+        flarum-flags: 'Flags de Flarum'
+        flarum-subscriptions: 'Subscriptions de Flarum'
+        flarum-tags: 'Tags de Flarum'
         fof-byobu: 'Byobu de FriendsOfFlarum'
         fof-gamification: 'Gamification de FriendsOfFlarum'
+        fof-masquerade: 'Masquerade de FriendsOfFlarum'
         fof-pages: 'Pages de FriendsOfFlarum'
         fof-user-directory: 'User Directory de FriendsOfFlarum'
         kilowhat-formulaire: 'Formulaire de KILOWHAT'
         v17development-blog: 'Flarum Blog de v17development'
+        v17development-user-badges: 'User Badges de v17development'
       head:
         name: Nom
         path: Chemin
@@ -56,6 +58,8 @@ kilowhat-custom-paths:
         fof-byobu-profile: 'Discussions des utilisateurs'
         fof-gamification: Classements
         fof-gamification-user-votes: 'Votes des utilisateurs'
+        fof-masquerade: 'Page de profil'
+        fof-moderator-notes-user-notes: 'Notes de profil'
         fof-pages: Page
         fof-user-directory: 'Répertoire des utilisateurs'
         following: Abonné
@@ -71,9 +75,12 @@ kilowhat-custom-paths:
         user-discussions: 'Discussions des utilisateurs'
         user-likes: 'J''aime des utilisateurs'
         user-mentions: 'Mentions de l''utilisateur'
+        user-security: Sécurité
         v17development-blog-category: Catégorie
         v17development-blog-compose: Composer
         v17development-blog-overview: 'Vue d''ensemble'
         v17development-blog-post: Message
+        v17development-user-badges-overview: 'Vue d''ensemble des badges'
+        v17development-user-badges-user-badges: 'Badges de profil'
       redirect: 'Rediriger les chemins par défaut de Flarum vers de nouveaux chemins'
       reset: 'Réinitialisation du chemin'

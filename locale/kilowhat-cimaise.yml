@@ -51,6 +51,16 @@ kilowhat-cimaise:
         bottomRight: 'En bas à droite'
         topLeft: 'En haut à gauche'
         topRight: 'En haut à droite'
+    status:
+      loading: Chargement…
+      pictures:
+        drafts: '({count} brouillons)'
+        section: Photos
+      refresh: Actualiser
+      storage:
+        conversions: 'Conversions : {size}'
+        originals: 'Originaux : {size}'
+        section: 'Stockage (estimation)'
   api:
     post-edit:
       cannotAttachAlreadySubmitted: 'Impossible de joindre la photo {id} car elle a déjà été envoyée'

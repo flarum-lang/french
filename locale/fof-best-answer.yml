@@ -29,8 +29,12 @@ fof-best-answer:
       schedule_stop_overnight_help: '9h00 - 8h00 (heure du serveur)'
       select_best_answer_reminder_days: 'Fréquence des rappels'
       select_best_answer_reminder_days_help: 'Envoyer un rappel à l''auteur original après le nombre de jours configurable pour sélectionner une meilleure réponse, 0 = désactive les rappels.'
+      select_best_answer_tags_help: 'Sélectionnez, le cas échéant, les étiquettes à ajouter aux discussions lorsqu''une meilleure réponse est définie. Seules les étiquettes secondaires sont autorisées. Ces étiquettes seront supprimées si la meilleure réponse est supprimée.'
+      select_best_answer_tags_label: 'Étiquettes pour les discussions avec meilleures réponses'
       show_filter_help: 'Pour les étiquettes avec lesquelles l''extension « Best Answers » est activée, décidez d''afficher l''option de filtre résolu/non résolu dans la liste de discussions'
       show_filter_label: 'Afficher la liste déroulante du filtre de meilleure réponse'
+      show_max_lines_help: 'Réglez cette valeur à 0 pour désactiver cette option. Si un message est plus long que le nombre de lignes configuré, il sera tronqué dans la prévisualisation du message avec un effet de fondu.'
+      show_max_lines_label: 'Nombre maximal de lignes à afficher dans la prévisualisation du message'
       use_alt_ui: 'Mise en page alternative'
       use_alt_ui_help: 'Contrôles de la meilleure réponse dans le pied de page du message'
   email:
@@ -72,3 +76,8 @@ fof-best-answer:
     this_best_answer: 'Sélectionner la meilleure réponse'
     user:
       best-answer-count: '{count, plural, one { {count} meilleure réponse} other {{count} meilleures réponses}}'
+fof-user-directory:
+  lib:
+    sort:
+      least_best_answers: 'Moins bonnes réponses'
+      most_best_answers: 'Principales meilleures réponses'

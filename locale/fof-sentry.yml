@@ -5,6 +5,7 @@
 fof-sentry:
   admin:
     settings:
+      dsn_help: 'Si vous utilisez un DSN relais comme DSN principal, ne cochez pas « Retour d''expérience des utilisateurs » car cela ne fonctionnera pas.'
       dsn_label: 'Nom de la source de données (DSN) de Sentry'
       environment_label: 'Environnement de Sentry'
       javascript_console_label: 'Capturer la console JavaScript'
