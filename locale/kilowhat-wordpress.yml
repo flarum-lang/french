@@ -77,7 +77,7 @@ kilowhat-wordpress:
       welcome_message: 'Message d''introduction'
       welcome_message_help: 'Ce message sera affiché lors de la première visite de l''utilisateur sur le forum, ainsi que le choix du nom d''utilisateur, s''il est activé.'
       wordpress_login_only: 'Autoriser uniquement la connexion WordPress'
-      wordpress_login_only_help: "Désactive la connexion Flarum et ouvre directement la fenêtre de connexion WordPress lorsque la connexion est requise. Ceci mettra automatiquement la permission « S'inscrire » sur « Fermé ».\n"
+      wordpress_login_only_help: "Désactive la connexion Flarum et ouvre directement la fenêtre de connexion WordPress lorsque la connexion est requise. Ceci mettra automatiquement l'autorisation « S'inscrire » sur « Fermé ».\n"
       wordpress_login_path: 'Chemin d''accès à WordPress'
       wordpress_login_path_help: 'Uniquement nécessaire si vous avez renommé votre point d''accès manuellement ou via un plugin'
       wordpress_url: 'URL de WordPress'

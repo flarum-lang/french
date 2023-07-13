@@ -78,7 +78,7 @@ kilowhat-audit:
       permissionGroup:
         everyone: '=> core.admin.permissions_controls.everyone_button'
         members: '=> core.admin.permissions_controls.members_button'
-      permission_changed: 'Modification de la permission {permission} de {old_groups} par {new_groups}'
+      permission_changed: 'Modification de l''autorisation {permission} de {old_groups} par {new_groups}'
       post:
         approved: 'Approbation de {post} par {postuser} dans {discussion}'
         create_date_changed: 'Modification de la date de démarrage de {post} par {postuser} de {old_date} à {new_date}'

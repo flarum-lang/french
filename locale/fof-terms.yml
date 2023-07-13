@@ -19,7 +19,7 @@ fof-terms:
       see-user-policies-state: 'Voir l''état des politiques de l''utilisateur'
     policies:
       export-url: 'URL d''exportation'
-      export-url-help: "Tout utilisateur ayant la permission « Exporter les données de toutes les politiques » peut accéder à ces URL pour télécharger la liste des utilisateurs qui ont accepté cette politique. Vous pouvez trouver plus d'informations sur les options disponibles sur le <a>wiki de l'extension</a> (en anglais).\n"
+      export-url-help: "Tout utilisateur ayant l'autorisation « Exporter les données de toutes les politiques » peut accéder à ces URL pour télécharger la liste des utilisateurs qui ont accepté cette politique. Vous pouvez trouver plus d'informations sur les options disponibles sur le <a>wiki de l'extension</a> (en anglais).\n"
       name: Nom
       name-help: 'Ce nom sera affiché à côté de la case à cocher et comme titre de la fenêtre de mise à jour.'
       terms-updated-at: 'Mis à jour à'

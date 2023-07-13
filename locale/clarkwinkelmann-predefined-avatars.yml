@@ -17,9 +17,9 @@ clarkwinkelmann-predefined-avatars:
       predefinedAvatarsDefaultHelp: 'S''applique aux nouveaux utilisateurs lors de l''inscription.'
       predefinedAvatarsHelp: "Les fichiers ne sont ni redimensionnés ni convertis. Assurez-vous de les redimensionner, de les compresser et de les exporter dans le format de votre choix avant de les transférer. Flarum fonctionne mieux avec des images carrées 100x100 au format PNG ou JPG, mais vous pouvez tirer parti d'autres résolutions avec un CSS personnalisé.\n"
       predefinedAvatarsNoRemove: 'Empêcher l''absence d''avatar'
-      predefinedAvatarsNoRemoveHelp: 'Les utilisateurs qui ont déjà un avatar personnalisé ou prédéfini ne pourront pas revenir à l''avatar « initial » par défaut à moins qu''ils ne disposent de la permission ci-dessous.'
+      predefinedAvatarsNoRemoveHelp: 'Les utilisateurs qui ont déjà un avatar personnalisé ou prédéfini ne pourront pas revenir à l''avatar « initial » par défaut à moins qu''ils ne disposent de l''autorisation ci-dessous.'
       predefinedAvatarsOnly: 'Autoriser uniquement les avatars prédéfinis'
-      predefinedAvatarsOnlyHelp: 'Supprime la possibilité de transférer des images d''avatars personnalisés, sauf si vous avez la permission ci-dessous.'
+      predefinedAvatarsOnlyHelp: 'Supprime la possibilité de transférer des images d''avatars personnalisés, sauf si vous avez l''autorisation ci-dessous.'
   forum:
     editor:
       setPredefinedAvatar: 'Sélectionner un avatar prédéfini'

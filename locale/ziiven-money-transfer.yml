@@ -23,7 +23,7 @@ ziven-transfer-money:
     search_user_header: Utilisateur
     transfer-error: 'Erreur lors du transfert'
     transfer-error-insufficient-fund: 'Fonds insuffisant'
-    transfer-error-no-permission: 'Vous n''avez pas la permission'
+    transfer-error-no-permission: 'Vous n''avez pas l''autorisation de faire cela'
     transfer-error-no-target-user-selected: 'Veuillez sélectionner un utilisateur cible à transférer'
     transfer-list-assign-at: 'Date de transfert'
     transfer-list-empty: 'L''historique des transferts est vide'

@@ -16,7 +16,7 @@ datitisev-maintenance:
     settings:
       active_label: 'État du mode de maintenance'
       allow_bypass_hint: 'Ne sera pas contourné si la base de données n''est pas accessible. S''applique au forum et à l''API (sauf si l''API est complètement désactivée via <code>config.php</code>). Si elle est désactivée, les administrateurs pourront toujours accéder à l''API (sauf si l''API est complètement désactivée) pour éviter de se bloquer.'
-      allow_bypass_label: 'Permettre de contourner la maintenance du forum et de l''API en utilisant une permission'
+      allow_bypass_label: 'Permettre de contourner la maintenance du forum et de l''API en utilisant une autorisation'
       disable_admin_label: 'Désactiver l''accès administrateur'
       disable_api_label: 'Désactiver tout accès à l''API'
       error_page_file_hint: 'Chemin depuis la racine de Flarum - où se trouvent les répertoires <code>vendor</code> et <code>storage</code>.'

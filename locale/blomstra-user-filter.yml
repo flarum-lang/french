@@ -5,7 +5,7 @@
 blomstra-user-filter:
   admin:
     settings:
-      intro: 'Les utilisateurs sans la permission <code>Rechercher des utilisateurs</code> ne verront pas le champ de recherche. Définissez cette option sur <code>Tout le monde</code> pour tous les utilisateurs, ou quel que soit votre niveau de préférence.'
+      intro: 'Les utilisateurs sans l''autorisation <code>Rechercher des utilisateurs</code> ne verront pas le champ de recherche. Définissez cette option sur <code>Tout le monde</code> pour tous les utilisateurs, ou quel que soit votre niveau de préférence.'
       min_length: 'Minimum de caractères pour commencer la recherche'
       result_count: 'Résultats maximums dans l''autocomplétion des listes déroulantes'
   forum:

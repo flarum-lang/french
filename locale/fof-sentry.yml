@@ -5,12 +5,21 @@
 fof-sentry:
   admin:
     settings:
+      dsn_backend_help: 'Ce DSN ne sera utilisé que pour les erreurs de l''application dorsale. Ceci est particulièrement utile dans le cas où vous souhaitez utiliser un projet différent pour les erreurs de l''application dorsale ou si vous souhaitez plutôt utiliser un relais pour envoyer les erreurs de l''application dorsale à Sentry (pour améliorer les performances par exemple).'
+      dsn_backend_label: 'Sentry DSN (application dorsale uniquement)'
       dsn_help: 'Si vous utilisez un DSN relais comme DSN principal, ne cochez pas « Retour d''expérience des utilisateurs » car cela ne fonctionnera pas.'
       dsn_label: 'Nom de la source de données (DSN) de Sentry'
       environment_label: 'Environnement de Sentry'
       javascript_console_label: 'Capturer la console JavaScript'
       javascript_label: 'Signaler des erreurs JavaScript'
+      javascript_replays_error_sample_rate: 'Taux de relecture des erreurs de l''application frontale (0 - 100)'
+      javascript_replays_error_sample_rate_help: 'Le taux d''échantillonnage pour les rediffusions enregistrées lorsqu''une erreur se produit. Jusqu''à 1 minute avant, l''erreur sera enregistré et continuera jusqu''à la fin de la session. {br}✱ L''activation de n''importe quelle option de relecture augmente la taille du paquet d''environ 150 Ko.'
+      javascript_replays_session_sample_rate: 'Taux de relecture des sessions de l''application frontale (0 - 100)'
+      javascript_replays_session_sample_rate_help: 'La fréquence d''échantillonnage pour les rediffusions qui commencent à enregistrer immédiatement et durent toute la session de l''utilisateur. {br}✱ L''activation de n''importe quelle option de rediffusion augmente la taille du paquet d''environ 150 Ko.'
       javascript_trace_sample_rate: 'Taux de surveillance des performances de l''application frontale (0 - 100)'
+      javascript_trace_sample_rate_help: 'Le taux d''échantillonnage pour toutes les transactions. {br}✱ L''activation de cette fonctionnalité augmente la taille des paquets d''environ 30 Ko.'
       monitor_performance_label: 'Taux de surveillance des performances de l''application dorsale (0 - 100)'
+      profile_rate_help: "Ceci est relatif au taux de surveillance des performances. La surveillance des performances doit être activée pour que cette fonction fonctionne.\n\n{br}✱ L'activation de cette fonction affecte le temps de réponse en raison de la surcharge liée au profilage et aux demandes envoyées à Sentry. Apprenez à compenser ce problème à l'adresse <a>https://docs.sentry.io/platforms/php/profiling/#improve-response-time</a>.\n{br}{icon} <bold>Cette fonctionnalité nécessite le profileur d'échantillonnage Excimer de Wikipédia, qui n'est disponible que pour Linux.</bold>\n"
+      profile_rate_label: 'Taux de profilage de l''application dorsale (0 - 100)'
       send_user_emails_label: 'Envoyer les adresses de courriel des utilisateurs avec les rapports de Sentry ?'
       user_feedback_label: 'Retour d''expérience de l''utilisateur'

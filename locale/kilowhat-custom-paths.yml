@@ -24,6 +24,7 @@ kilowhat-custom-paths:
         fof-byobu: 'Byobu de FriendsOfFlarum'
         fof-gamification: 'Gamification de FriendsOfFlarum'
         fof-masquerade: 'Masquerade de FriendsOfFlarum'
+        fof-moderator-notes: 'Moderator Notes de FriendsOfFlarum'
         fof-pages: 'Pages de FriendsOfFlarum'
         fof-user-directory: 'User Directory de FriendsOfFlarum'
         kilowhat-formulaire: 'Formulaire de KILOWHAT'
@@ -80,6 +81,7 @@ kilowhat-custom-paths:
         v17development-blog-compose: Composer
         v17development-blog-overview: 'Vue d''ensemble'
         v17development-blog-post: Message
+        v17development-user-badges-item: 'Informations sur le badge'
         v17development-user-badges-overview: 'Vue d''ensemble des badges'
         v17development-user-badges-user-badges: 'Badges de profil'
       redirect: 'Rediriger les chemins par défaut de Flarum vers de nouveaux chemins'

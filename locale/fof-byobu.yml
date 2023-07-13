@@ -87,7 +87,7 @@ fof-byobu:
         removed_self: '{username} a quitté la discussion privée.'
     search:
       headings:
-        groups: 'Groupes de permissions'
+        groups: 'Groupes d''autorisations'
     user:
       byobu_link: 'Discussions privées'
       dropdown_label: 'Discussions privées'

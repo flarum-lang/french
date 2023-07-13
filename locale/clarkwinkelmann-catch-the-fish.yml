@@ -90,7 +90,7 @@ clarkwinkelmann-catch-the-fish:
       delete: 'Supprimer le poisson'
       delete-confirmation: 'Supprimer le poisson « {name} » ?'
       name: Nom
-      name-help: 'Le nom actuel du poisson. Peut être modifié par les joueurs s''ils ont la permission de renommer les poissons'
+      name-help: 'Le nom actuel du poisson. Peut être modifié par les joueurs s''ils ont l''autorisation de renommer les poissons'
       save: 'Enregistrer le poisson'
     edit-round-modal:
       title: 'Modifier le round « {name} »'
@@ -125,7 +125,7 @@ clarkwinkelmann-catch-the-fish:
       title: 'Nouveau round'
     page-ranking:
       nothing: 'Aucun round actif'
-      permission: 'Vous n''avez pas la permission de voir les classements'
+      permission: 'Vous n''avez pas l''autorisation de voir les classements'
       title: Classements
     round-alert:
       message: 'Round « {name} », attrape autant de poissons que possible jusqu''à {time}'

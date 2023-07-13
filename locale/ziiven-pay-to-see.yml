@@ -27,7 +27,7 @@ pay-to-see:
       notification_setting_some_one_purchase_content: 'Quelqu''un a acheté mon contenu'
     ok: Valider
     pay_to_see_content: 'Payer pour voir le contenu'
-    pay_to_see_content_bypass: 'Payer pour voir le contenu (dérogatoire avec les permissions)'
+    pay_to_see_content_bypass: 'Payer pour voir le contenu (dérogatoire avec les autorisations)'
     pay_to_see_content_label: 'Payer pour voir le contenu'
     pay_to_see_owner_bypass: 'Payer pour voir le contenu (dérogatoire pour l''auteur)'
     purchase_button: 'Acheter le contenu'
@@ -35,7 +35,7 @@ pay-to-see:
     purchase_confirmation_text: 'Êtes-vous sûr de vouloir payer {costText} ?'
     purchase_count: 'Nombre d''achats : {count}'
     purchase_error_insufficient_fund: 'Fonds insuffisants'
-    purchase_error_no_permission: 'Permission refusée'
+    purchase_error_no_permission: 'Autorisation refusée'
     purchase_error_not_found: 'Impossible d''acheter le contenu'
     purchase_success: 'Achat effectué'
     purchase_unlocked_button: 'Contenu déverrouillé'

@@ -7,7 +7,8 @@ fof-polls:
     permissions:
       change_vote: 'Modifier le vote'
       moderate: 'Modifier et supprimer les sondages'
-      self_edit: 'Autoriser les utilisateurs à modifier leurs propres sondages'
+      self_edit: 'Modifier les sondages créés (nécessite l''autorisation de modifier les messages)'
+      self_post_edit: 'Modifier *tous* les sondages sur ses propres messages (nécessite l''autorisation de modifier les messages)'
       start: 'Démarrer un sondage'
       view_results_without_voting: 'Afficher les résultats sans voter'
       vote: 'Voter sur les sondages'
@@ -15,8 +16,9 @@ fof-polls:
       allow_option_image: 'Permettre de fournir l''URL d''une image pour chaque option de sondage'
   forum:
     composer_discussion:
-      add_poll: 'Ajouter un sondage'
+      add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
+      no_permission_alert: 'Vous n''avez pas l''autorisation de démarrer un sondage.'
     days_remaining: 'Le sondage se termine dans {time}.'
     max_votes_allowed: 'Le sondage permet de voter pour {max, plural, one {# option} other {# options}}.'
     modal:
@@ -38,10 +40,11 @@ fof-polls:
       question_placeholder: Question
       submit: Envoyer
     moderation:
+      add: 'Ajouter un sondage'
       delete: 'Supprimer le sondage'
       delete_confirm: 'Êtes-vous sûr de vouloir supprimer ce sondage ?'
       edit: 'Modifier le sondage'
-    no_permission: 'Vous n''avez pas la permission de voter'
+    no_permission: 'Vous n''avez pas l''autorisation de voter'
     poll_ended: 'Ce sondage est terminé.'
     public_poll: 'Voir les votants'
     tooltip:
