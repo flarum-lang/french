@@ -14,6 +14,7 @@ fof-polls:
       vote: 'Voter sur les sondages'
     settings:
       allow_option_image: 'Permettre de fournir l''URL d''une image pour chaque option de sondage'
+      max_options: 'Nombre maximum d''options par sondage'
   forum:
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
@@ -27,9 +28,10 @@ fof-polls:
       allow_multiple_votes_label: 'Permettre de voter pour plusieurs options'
       date_placeholder: 'Date de fin du sondage (facultatif)'
       edit_title: 'Modifier le sondage'
+      hide_votes_label: 'Masquer les votes jusqu''à la fin du sondage'
       image_option_placeholder: 'URL de l''image (facultatif)'
       include_question: 'Vous devez ajouter une question'
-      max: 'Vous pouvez avoir un maximum de 10 réponses'
+      max: 'Vous pouvez avoir un maximum de {max} réponses'
       max_votes_help: 'Réglez cette option sur 0 pour permettre aux utilisateurs de voter pour toutes les options.'
       max_votes_label: 'Nombre maximum de votes par utilisateur'
       min: 'Vous devez ajouter au moins 2 réponses'
