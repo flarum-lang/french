@@ -18,6 +18,8 @@ fof-reactions:
         reactions: 'Réactions actuelles'
         title: 'Réactions personnalisées'
       settings:
+        allow-anonymous: 'Autoriser les réactions anonymes (invités)'
+        allow-anonymous-help: 'Si cette option est activée, les invités et les utilisateurs anonymes pourront réagir aux messages. Les réactions anonymes ne seront pas liées à un profil d''utilisateur et seront regroupées dans la liste des réactions.'
         integrations:
           gamification:
             downvoteHelptext: 'Saisissez l''identifiant de la réaction que vous souhaitez convertir automatiquement en vote négatif'
@@ -41,6 +43,7 @@ fof-reactions:
     disabled-reaction: 'Vous ne pouvez pas utiliser cette réaction pour le moment, veuillez actualiser la page'
     mod_item: 'Voir les réactions'
     modal:
+      anonymous_count: '{count, plural, one {# utilisateur anonyme} other {# utilisateurs anonymes}}'
       title: Réactions
     notification: '{username} a réagi avec {reaction} à votre message'
     react_button_label: Réagir
