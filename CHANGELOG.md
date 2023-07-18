@@ -8,6 +8,7 @@ CHANGELOG
 **Mise à jour des traductions de certaines extensions**:
 
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 
 
 Journal de toutes les modifications : [v4.13.0...v4.13.1](https://github.com/flarum-lang/french/compare/v4.13.0...v4.13.1).
