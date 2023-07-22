@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`justoverclock/igdb-api`](https://extiverse.com/extension/justoverclock/igdb-api)
 
 
 Journal de toutes les modifications : [v4.13.0...v4.13.1](https://github.com/flarum-lang/french/compare/v4.13.0...v4.13.1).
