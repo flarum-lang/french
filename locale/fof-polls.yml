@@ -25,6 +25,7 @@ fof-polls:
     modal:
       add_option_label: 'Ajouter une option'
       add_title: 'Ajouter un sondage'
+      allow_change_vote_label: 'Permettre aux utilisateurs de modifier leur vote'
       allow_multiple_votes_label: 'Permettre de voter pour plusieurs options'
       date_placeholder: 'Date de fin du sondage (facultatif)'
       edit_title: 'Modifier le sondage'
@@ -47,6 +48,9 @@ fof-polls:
       delete_confirm: 'Êtes-vous sûr de vouloir supprimer ce sondage ?'
       edit: 'Modifier le sondage'
     no_permission: 'Vous n''avez pas l''autorisation de voter'
+    poll:
+      cannot_change_vote: 'Vous ne pouvez pas modifier votre vote après avoir voté.'
+      submit_button: Voter
     poll_ended: 'Ce sondage est terminé.'
     public_poll: 'Voir les votants'
     tooltip:

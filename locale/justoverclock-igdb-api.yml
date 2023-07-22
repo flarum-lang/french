@@ -17,7 +17,7 @@ justoverclock-igdb-api:
     metacriticScore: 'Score MetaCritic'
     noConnection: 'Oups ! La base de données des jeux vidéo n''est actuellement pas accessible. Veuillez réessayer ultérieurement.'
     offwebsite: 'Site officiel'
-    pageText: 'Si vous vous demandez quels jeux sortiront en 2021, nous les avons tous regroupés sur une seule page. Cette liste sera continuellement mise à jour à mesure que de nouvelles dates sont annoncées, que des titres sont retardés et lors de grandes révélations. Cela devrait vous aider à planifier vos prochains mois de jeux et au-delà. Comme le calendrier des jeux change constamment, nous vous recommandons fortement de mettre cette page en favori.'
+    pageText: 'Si vous vous demandez quels jeux sortiront cette année, nous les avons tous regroupés sur une seule page. Cette liste sera continuellement mise à jour à mesure que de nouvelles dates sont annoncées, que des titres sont retardés et lors de grandes révélations. Cela devrait vous aider à planifier vos prochains mois de jeux et au-delà. Comme le calendrier des jeux change constamment, nous vous recommandons fortement de mettre cette page en favori.'
     pageTitle: 'Nouveaux et prochains jeux'
     pagetitle: 'Nouveaux et prochains jeux'
     publisher: Éditeur
