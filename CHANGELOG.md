@@ -7,6 +7,7 @@ CHANGELOG
 
 **Prise en charge de nouvelles extensions**:
 
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
 * [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content)
 
 
@@ -14,6 +15,7 @@ CHANGELOG
 
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 
 
 Journal de toutes les modifications : [v4.13.1...v4.14.0](https://github.com/flarum-lang/french/compare/v4.13.1...v4.14.0).
