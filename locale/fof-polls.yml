@@ -15,6 +15,8 @@ fof-polls:
     settings:
       allow_option_image: 'Permettre de fournir l''URL d''une image pour chaque option de sondage'
       max_options: 'Nombre maximum d''options par sondage'
+      options_color_blend: 'Mélange de couleurs du texte dans les options de sondage'
+      options_color_blend_help: 'Utilisez cette option pour mélanger les couleurs afin de rendre les options du sondage plus lisibles. Désactivez cette fonction si elle provoque des problèmes d''apparence à votre forum qui pourraient réduire sa lisibilité.'
   forum:
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'

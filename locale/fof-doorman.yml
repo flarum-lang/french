@@ -35,7 +35,8 @@ fof-doorman:
         key: Clé
         max_uses: 'Utilisations maximales'
         title: 'Codes d''invitation'
-        used_times: '{remaining, plural, one {{remaining} utilisation restante} other {{remaining} utilisations restantes}}'
+        total_uses: '{totalUses, plural, one {Utilisé {totalUses} fois} other {Utilisé {totalUses} fois}}'
+        used_times: '{remaining, plural, =0 {Utilisations illimitées} one {{remaining} utilisation restante} other {{remaining} utilisations restantes}}'
         warning: 'Ce code d''invitation a été utilisé le nombre maximum de fois.'
       title: Doorman
   forum:
