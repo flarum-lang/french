@@ -5,3 +5,6 @@
 matteociaroni-old-content:
   admin:
     time_label: 'Nombre de jours pour considérer un message comme « ancien »'
+  forum:
+    message: 🟡
+    tooltip: 'Ce {contentType} est ancien et peut être obsolète'

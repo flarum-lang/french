@@ -111,9 +111,17 @@ fof-upload:
       qiniu: QiNiu
   api:
     upload_errors:
+      cannot_write_to_disk: 'Impossible d''écrire sur le disque.'
       could_not_detect_mime: 'Impossible de détecter le type MIME de ce fichier, veuillez réessayer.'
       forbidden_type: 'Le transfert de fichiers de ce type n''est pas autorisé.'
+      max_upload_file_size_form: 'La limite maximale de la taille des fichiers transférés a été atteinte à partir du formulaire.'
+      max_upload_file_size_ini: 'La limite de taille maximale des fichiers transférés a été atteinte dans le fichier php.ini.'
+      no_file_uploaded: 'Aucun fichier n''a été transféré.'
+      no_files_made_it_to_upload: 'Veillez à ne transférer que des fichiers ne dépassant pas {max} Ko.'
+      no_upload_tmp_folder: 'Absence du dossier tmp pour le transfert des fichiers.'
+      partial_upload: 'Transfert partiel.'
       unsupported_type: 'L''adaptateur de transfert ne prend pas en charge le type MIME fourni : {mime}.'
+      upload_blocked_by_php_extension: 'Une extension PHP a bloqué le transfert.'
   forum:
     buttons:
       attach: Joindre
