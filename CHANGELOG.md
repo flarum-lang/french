@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+4.14.0 (XXXX-XX-XX)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+
+
+Journal de toutes les modifications : [v4.13.1...v4.14.0](https://github.com/flarum-lang/french/compare/v4.13.1...v4.14.0).
+
+
 4.13.1 (2023-07-22)
 -------------------
 
