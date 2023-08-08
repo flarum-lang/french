@@ -16,6 +16,8 @@ CHANGELOG
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
+* [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro)
 
 
 Journal de toutes les modifications : [v4.13.1...v4.14.0](https://github.com/flarum-lang/french/compare/v4.13.1...v4.14.0).
