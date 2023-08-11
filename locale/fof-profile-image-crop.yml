@@ -8,6 +8,7 @@ fof-profile-image-crop:
       error:
         failed_to_load_cropper: 'Échec du chargement du recadreur d''image.'
         generic: 'Un problème s''est produit lors du recadrage de l''image.'
+        generic_resize: 'Une erreur s''est produite lors du recadrage et du redimensionnement de l''image.'
         get_image_data: 'Échec du recadrage. Assurez-vous que la protection contre la prise d''empreintes numériques de votre navigateur soit désactivée.'
       help_text: "Le transfert de l'image peut échouer si les paramètres de confidentialité de votre navigateur sont réglés pour être très stricts. Si vous rencontrez des difficultés, essayez de désactiver la protection contre la prise d'empreintes numériques. Vous pouvez sinon soit <disableResize>désactiver la compression de l'image recadrée</disableResize>, soit <disableCrop>désactiver le recadrage</disableCrop>.\n"
       submit_button: Transférer

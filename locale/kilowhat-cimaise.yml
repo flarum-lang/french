@@ -62,6 +62,22 @@ kilowhat-cimaise:
         originals: 'Originaux : {size}'
         section: 'Stockage (estimation)'
   api:
+    picture-edit:
+      unauthorized:
+        author: 'Auteur non valide, modification non autorisée'
+        crop: 'Recadrage non valide, modification non autorisée'
+        description: 'Description non valide, modification non autorisée'
+        isApprovedApprove: 'État d''approbation non valide, non autorisé à approuver'
+        isApprovedUnApprove: 'État d''approbation non valide, non autorisé à annuler l''approbation'
+        isDraftSubmit: 'État de brouillon non valide, non autorisé à soumettre'
+        isDraftUnSubmit: 'État de brouillon non valide, non autorisé à annuler la soumission'
+        isFavorite: 'État de favori non valide, modification non autorisée'
+        isHiddenHide: 'État de masquage non valide, non autorisé à masquer'
+        isHiddenRestore: 'État de masquage non valide, non autorisé à restaurer'
+        license: 'Licence non valide, modification non autorisée'
+        stickers: 'Autocollants non valides, modification non autorisée'
+        takenAt: 'Date de prise non valide, modification non autorisée'
+        title: 'Titre non valide, modification non autorisée'
     post-edit:
       cannotAttachAlreadySubmitted: 'Impossible de joindre la photo {id} car elle a déjà été envoyée'
       cannotAttachFromExternalAlbum: 'Impossible de joindre l''image {id} car elle appartient à un album externe'
@@ -172,6 +188,7 @@ kilowhat-cimaise:
       drop-file: 'ou glisser-déposer ici'
       processing: 'Traitement en cours'
       publishSilently: 'Publier discrètement'
+      reload: 'Recharger la liste des brouillons'
       select-file: 'Sélectionner un fichier'
       submit: Envoyer
       submitInComposer: Continuer
