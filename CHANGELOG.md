@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+4.14.0 (2023-08-11)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+* [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
+* [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro)
+* [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
+
+
+Journal de toutes les modifications : [v4.13.1...v4.14.0](https://github.com/flarum-lang/french/compare/v4.13.1...v4.14.0).
+
+
 4.13.1 (2023-07-22)
 -------------------
 
