@@ -5,12 +5,17 @@
 clarkwinkelmann-composer-page:
   admin:
     settings:
+      forPrivateDiscussions: 'Utiliser pour les discussions privées'
+      forPrivateDiscussionsHelp: 'Intègre le compositeur de discussion Byobu dans la page'
       onlyInTags: 'Uniquement dans les étiquettes suivantes (facultatif)'
       onlyInTagsHelp: "Liste des étiquettes séparées par des virgules. Laissez vide ce champ pour toujours utiliser la page même avant qu'une étiquette ne soit sélectionnée.\n"
   forum:
     nav:
       cancel: 'Quitter le compositeur'
       continue: 'Continuer la discussion'
+    page-private:
+      heading: 'Démarrer une discussion privée'
+      title: 'Démarrer une discussion privée'
     page:
       heading: 'Démarrer une discussion'
       title: 'Démarrer une discussion'

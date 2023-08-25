@@ -13,8 +13,17 @@ fof-recaptcha:
       signin: '=> core.forum.log_in.title'
       signup: '=> core.forum.sign_up.title'
       site_key_label: 'Clé du site'
+      type_help: 'Cette extension ne prend en charge que reCAPTCHA v2. Le type sélectionné doit correspondre au type de vos informations d''identification reCAPTCHA.'
       type_label: 'Type de reCAPTCHA'
+    test:
+      help_text: "Ce test utilisera les valeurs actuelles saisies ci-dessus. Veillez à recharger le test après avoir modifié les paramètres, et n'oubliez pas de sauvegarder une fois le test réussi !\nLes résultats ci-dessous peuvent ne pas refléter les paramètres enregistrés.\n"
+      load_test_button: Charger
+      reload_button: Actualiser
+      submit_button: Envoyer
+      success_message: 'Félicitations ! reCAPTCHA est configuré correctement.'
+      title: 'Tester le reCAPTCHA'
   forum:
     error: 'Une erreur est survenue lors de la soumission de reCAPTCHA. Veuillez réessayer.'
 validation:
   recaptcha: 'La validation de reCAPTCHA a échoué.'
+  recaptcha-unknown: 'Une erreur inconnue s''est produite lors de la validation du reCAPTCHA ({errors}).'

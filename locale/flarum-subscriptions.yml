@@ -5,7 +5,7 @@
 flarum-subscriptions:
   email:
     new_post:
-      body: "Bonjour {recipient_display_name} !\n\n{poster_display_name} a publié un message dans une discussion dont vous êtes abonné : {title}.\n\nPour consulter ce nouveau message, veuillez cliquer sur le lien suivant :\n{url}\n\n---\n\n{content}\n\n---\n\nVous ne recevrez plus de notification concernant cette discussion jusqu'à ce que vous soyez à jour.\n"
+      body: "Bonjour {recipient_display_name} !\n\n{poster_display_name} a publié un message dans une discussion à laquelle vous êtes abonné : {title}.\n\nPour consulter ce nouveau message, veuillez cliquer sur le lien suivant :\n{url}\n\n---\n\n{content}\n\n---\n\nVous ne recevrez plus de notification concernant cette discussion jusqu'à ce que vous soyez à jour.\n"
       subject: '[Nouveau message] {title}'
   forum:
     badge:

@@ -74,7 +74,7 @@ fof-byobu:
       pd_added_text: '{username} vous a ajouté à une discussion privée'
       pd_label: 'Quelqu''un m''a ajouté à une nouvelle discussion privée'
       pd_reply_label: 'Quelqu''un a publié un message dans une discussion privée dont je suis destinataire'
-      pd_reply_text: '{username} a publié un message dans une discussion privée dont vous faites partie'
+      pd_reply_text: '{username} a publié un message dans une discussion privée à laquelle vous faites partie'
       pd_text: '{username} a démarré une nouvelle discussion privée avec vous'
       pd_user_left_label: 'Un utilisateur destinataire a quitté une discussion privée dont je fais partie'
       pd_user_left_text: '{username} a quitté la discussion privée'
