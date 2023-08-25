@@ -7,6 +7,7 @@ CHANGELOG
 
 **Prise en charge de nouvelles extensions**:
 
+* [`dalez/flarum-msemoji`](https://github.com/DellZHackintosh/flarum-msemoji)
 * [`dalez/flarum-twemoji`](https://github.com/DellZHackintosh/flarum-twemoji)
 * [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
 
