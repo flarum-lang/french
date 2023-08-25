@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+4.15.0 (2023-08-25)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`dalez/flarum-msemoji`](https://github.com/DellZHackintosh/flarum-msemoji)
+* [`dalez/flarum-twemoji`](https://github.com/DellZHackintosh/flarum-twemoji)
+* [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+
+
+Journal de toutes les modifications : [v4.14.0...v4.15.0](https://github.com/flarum-lang/french/compare/v4.14.0...v4.15.0).
+
+
 4.14.0 (2023-08-11)
 -------------------
 
