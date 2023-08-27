@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+4.16.0 (XXXX-XX-XX)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`datlechin/flarum-oauth-envato`](https://github.com/datlechin/flarum-oauth-envato)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+
+
+Journal de toutes les modifications : [v4.15.0...v4.16.0](https://github.com/flarum-lang/french/compare/v4.15.0...v4.16.0).
+
+
 4.15.0 (2023-08-25)
 -------------------
 
