@@ -8,6 +8,7 @@ CHANGELOG
 **Prise en charge de nouvelles extensions**:
 
 * [`datlechin/flarum-oauth-envato`](https://github.com/datlechin/flarum-oauth-envato)
+* [`datlechin/flarum-oauth-spotify`](https://github.com/datlechin/flarum-oauth-spotify)
 
 
 **Mise à jour des traductions de certaines extensions**:
