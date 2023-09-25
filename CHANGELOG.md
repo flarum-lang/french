@@ -9,11 +9,21 @@ CHANGELOG
 
 * [`datlechin/flarum-oauth-envato`](https://github.com/datlechin/flarum-oauth-envato)
 * [`datlechin/flarum-oauth-spotify`](https://github.com/datlechin/flarum-oauth-spotify)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`clarkwinkelmann/flarum-ext-typewriter`](https://github.com/clarkwinkelmann/flarum-ext-typewriter)
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`justoverclock/flarum-ext-dontgoaway`](https://github.com/justoverclockl/flarum-ext-dontgoaway)
 
 
 Journal de toutes les modifications : [v4.15.0...v4.16.0](https://github.com/flarum-lang/french/compare/v4.15.0...v4.16.0).
