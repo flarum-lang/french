@@ -11,7 +11,7 @@ clarkwinkelmann-typewriter:
         file: Fichier
         keys: Clés
       muteByDefault: 'Muet par défaut'
-      showIntroductionPopup: 'Afficher la fenêtre intruse d''introduction la première fois'
+      showIntroductionPopup: 'Afficher la fenêtre contextuelle d''introduction la première fois'
       sounds: 'Sons supplémentaires'
   forum:
     enable: 'Activer les sons de frappe'

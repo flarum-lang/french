@@ -35,6 +35,7 @@ ianm-translate:
           label: '=> ianm-translate.lib.settings.api-key'
       provider: 'Fournisseur de services de traduction'
       readme-info: 'Pour plus d''informations, veuillez consulter la documentation dans le fichier README.'
+      readme-none: 'Aucun paramètre supplémentaire n''est requis pour ce pilote.'
   forum:
     detected-language: 'Ce message est en {postLang}'
     discussion:
@@ -42,14 +43,16 @@ ianm-translate:
         close-translation: 'Fermer la traduction'
         translated-header: 'Traduction par intelligence artificielle de {from} en {to}'
         translated-updated: 'Dernière mise à jour de la traduction le {time} en utilisant {provider}'
+      title:
+        detected-language: '{postLang}'
     translate-button-label: Traduire
     unknown-language: '[non détecté]'
     user:
       settings:
         heading: Traduction
         source-language:
-          help: 'Lorsque cette option est désactivée, seuls les messages écrits dans une langue autre que la langue actuelle du forum seront étiquetés. Pour étiqueter tous les messages avec leur langue détectée, veuillez activez ce paramètre.'
-          label: 'Toujours montrer la langue du message'
+          help: 'Lorsque ce paramètre est désactivé, seul le contenu traduisible rédigé dans une langue autre que la langue courante du forum sera étiqueté. Pour étiqueter tout le contenu avec la langue détectée, activez ce paramètre.'
+          label: 'Toujours montrer la langue'
   lib:
     providers:
       deepl: DeepL

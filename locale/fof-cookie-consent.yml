@@ -17,7 +17,7 @@ fof-cookie-consent:
       learnMoreLinkUrl: Lien
       textColor: Texte
       theme_dismiss_title: 'Couleurs du bouton de rejet'
-      theme_popup_title: 'Couleurs de la fenêtre intruse'
+      theme_popup_title: 'Couleurs de la fenêtre contextuelle'
       theme_title: 'Options du thème'
       themes:
         blocky: Blocky

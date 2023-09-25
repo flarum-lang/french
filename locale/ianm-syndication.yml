@@ -25,9 +25,13 @@ ianm-syndication:
       forum_new_discussions: 'Nouvelles discussions du forum'
       tag_activity: 'Activité sous l''étiquette {tag}'
       tag_new_discussions: 'Discussions sous l''étiquette {tag}'
+      user_last_posts: 'Messages et commentaires de cet utilisateur'
     discussion:
       feed_link: Flux
     feeds:
+      entries:
+        user_posts:
+          title_reply: 'Re : {discussion}'
       titles:
         discussion_subtitle: 'Derniers messages de cette discussion'
         discussion_title: '{discussion_name}'
@@ -39,3 +43,5 @@ ianm-syndication:
         tag_d_title: 'Nouvelles discussions sous l''étiquette {tag}'
         tag_subtitle: 'Derniers messages sous l''étiquette {tag}'
         tag_title: 'Activité sous l''étiquette {tag}'
+        user_subtitle: 'Derniers messages et commentaires de cet utilisateur.'
+        user_title: '{username}'

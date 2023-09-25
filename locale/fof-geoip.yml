@@ -11,7 +11,7 @@ fof-geoip:
       service_freegeoip_label: FreeGeoIP
       service_ipapi_description: 'Utilisez <b>http://ip-api.com</b> pour effectuer gratuitement jusqu''à 45 recherches par minute. Si vous en faites davantage, votre adresse IP peut être placée sur liste noire, après quoi vous pouvez la retirer à cette adresse : <b>http://ip-api.com/docs/unban</b>.'
       service_ipapi_label: 'IP de l''API'
-      service_ipdata_description: 'Utilisez <b>https://ipdata.co</b> pour effectuer gratuitement jusqu''à 1 500 recherches par jour.'
+      service_ipdata_description: 'Utilisez <b>https://ipdata.co</b> pour effectuer gratuitement jusqu''à 1 500 recherches par jour. Des forfaits payants pour des limites d''utilisation plus élevées sont également disponibles.'
       service_ipdata_label: IPData
       service_iplocation_description: 'Utilisez <b>https://www.iplocation.net/</b> pour récupérer les données relatives au pays et au fournisseur d''accès à internet. Les limites du taux de consultation sont inconnues.'
       service_iplocation_label: 'Localisation de l''adresse IP'
@@ -22,3 +22,14 @@ fof-geoip:
   forum:
     alerts:
       ip_copied: 'Adresse IP copiée'
+    map_button_label: 'Informations sur l''adresse IP'
+    map_modal:
+      country_code: 'Code pays'
+      error: Erreur
+      ip_address: 'Adresse IP'
+      isp: FAI
+      organization: Organisation
+      threat_level: 'Niveau de menace'
+      threat_types: 'Types de menaces'
+      title: 'Informations sur l''adresse IP'
+      zip_code: 'Code postal'

@@ -8,6 +8,14 @@ fof-username-request:
       moderate_requests: 'Approuver les demandes de changement de nom d''utilisateur/pseudonyme'
       request_nickname: 'Demander une modification de pseudonyme'
       request_username: 'Demander une modification de nom d''utilisateur'
+  email:
+    body:
+      approved: "Bonjour {recipient_display_name},\n\nVotre demande de modification du nom d'utilisateur en « {new_username} » a été approuvée par {actor_display_name}.\n\nVous pouvez dès à présent vous connecter avec votre nouveau nom d'utilisateur : {login_url}\n"
+      noReasonProvided: 'Aucun motif n''a été fourni.'
+      rejected: "Bonjour {recipient_display_name},\n\nVotre demande de modification du nom d'utilisateur de « {old_username} » à « {requested_username} » a été rejetée par {actor_display_name}.\n\nMotif : {reason}\n"
+    subject:
+      approved: '{display_name} a approuvé la modification de votre nom d''utilisateur en {requested_username}'
+      rejected: '{display_name} a rejeté la modification de votre nom d''utilisateur en {requested_username}'
   forum:
     nickname_modals:
       action:

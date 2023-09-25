@@ -12,7 +12,7 @@ fof-best-answer:
       best_answer_not_own_discussion: 'Sélectionnez la meilleure réponse (pas sur sa propre discussion)'
     settings:
       allow_select_own_post: 'Sélectionner ses propres publications'
-      allow_select_own_post_help: 'Autoriser l''auteur original à sélectionner l''un de ses propres messages de la discussion comme meilleure réponse'
+      allow_select_own_post_help: 'Autoriser un utilisateur de sélectionner son propre message comme meilleure réponse à une discussion'
       documentation: Documentation
       enable_all_tags_button: 'Activer toutes les étiquettes pour les meilleures réponses'
       enable_all_tags_reminder_button: 'Activer toutes les étiquettes pour les rappels d''une meilleure réponse'

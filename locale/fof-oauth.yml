@@ -6,7 +6,13 @@ fof-oauth:
   admin:
     configure_button_label: 'Configurer avec FoF OAuth'
     settings:
+      fullscreen_popup_help: 'Lorsque cette option est activée, la connexion OAuth s''ouvre dans une fenêtre contextuelle plein écran. Si cette option est activée, les paramètres de largeur et de hauteur seront ignorés.'
+      fullscreen_popup_label: 'Utiliser une fenêtre contextuelle plein écran pour OAuth'
       only_icons_label: 'Afficher uniquement les icônes du bouton de connexion (disposition alternative)'
+      popup_height_help: 'Définit la hauteur de la fenêtre contextuelle d''OAuth. Ce paramètre sera ignoré si l''option « Utiliser une fenêtre contextuelle plein écran pour OAuth » est activée.'
+      popup_height_label: 'Hauteur de la fenêtre contextuelle d''OAuth'
+      popup_width_help: 'Définit la largeur de la fenêtre contextuelle d''OAuth. Ce paramètre sera ignoré si l''option « Utiliser une fenêtre contextuelle plein écran pour OAuth » est activée.'
+      popup_width_label: 'Largeur de la fenêtre contextuelle d''OAuth'
       providers:
         callback_url_text: 'Si nécessaire, définissez l''URL de rappel vers {url}.'
         discord:
