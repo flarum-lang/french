@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+4.17.0 (XXXX-XX-XX)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`foskym/nickname-group-formatter`](https://github.com/FoskyM/flarum-nickname-group-formatter)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+
+
+Journal de toutes les modifications : [v4.16.0...v4.17.0](https://github.com/flarum-lang/french/compare/v4.16.0...v4.17.0).
+
+
 4.16.0 (2023-09-25)
 -------------------
 
