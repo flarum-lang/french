@@ -10,6 +10,7 @@ fof-user-directory:
       default-sort: 'Tri par défaut'
       disable-global-search-source: 'Ne pas ajouter l''annuaire des utilisateurs au champ de recherche globale de Flarum'
       link: 'Ajouter un lien sur la page d''accueil pour que les utilisateurs puissent voir le répertoire'
+      link-group-mentions: 'Lier les mentions de groupes dans les messages à l''annuaire des utilisateurs'
       use-small-cards: 'Utiliser de petites cartes d''utilisateur'
   forum:
     header:

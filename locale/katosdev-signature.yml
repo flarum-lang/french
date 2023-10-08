@@ -6,7 +6,7 @@ signature:
   admin:
     settings:
       maximum_char_limit:
-        description: 'Limite maximale de caractères de la signature (inclut les caractères sans tenir compte des balises HTML)'
+        description: 'Limite maximale de caractères de la signature (caractères uniquement, les balises HTML ne sont pas prises en compte).'
         placeholder: '1000 (par défaut)'
       maximum_image_count:
         description: 'Maximum d''images insérées.'

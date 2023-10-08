@@ -39,6 +39,7 @@ fof-follow-tags:
       follow_button: '=> fof-follow-tags.ref.follow'
       following_button: '=> fof-follow-tags.ref.following'
       following_text: 'Être notifié de toutes les nouvelles discussions.'
+      header: 'Abonnement à {tagName}'
       hiding_button: '=> fof-follow-tags.ref.hiding'
       hiding_text: 'Masquer les discussions de la page listant toutes les discussions.'
       ignoring_button: '=> fof-follow-tags.ref.ignoring'
@@ -49,6 +50,8 @@ fof-follow-tags:
       not_following_text: 'N''être notifié que lorsque @mentionné.'
       notify_alert_tooltip: 'Recevoir une notification du forum lors de la publication de nouvelles discussions ou de nouveaux messages'
       notify_email_tooltip: 'Recevoir un courriel lors de la publication de nouvelles discussions ou de nouveaux messages'
+      submit_button: 'Confirmer l''abonnement'
+      subscription_label: 'Sélectionnez votre niveau d''abonnement pour {tagName}'
     user:
       settings:
         filter_label: 'Quels éléments afficher par défaut dans la page des abonnements'
