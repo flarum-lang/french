@@ -36,6 +36,8 @@ ianm-translate:
       provider: 'Fournisseur de services de traduction'
       readme-info: 'Pour plus d''informations, veuillez consulter la documentation dans le fichier README.'
       readme-none: 'Aucun paramètre supplémentaire n''est requis pour ce pilote.'
+      translate-all-enabled: 'Activer toutes les langues de traduction'
+      translate-all-help: 'Lorsque cette option est activée, les administrateurs et les autres utilisateurs autorisés peuvent traduire le contenu dans n''importe quelle langue installée sur le forum.'
   forum:
     detected-language: 'Ce message est en {postLang}'
     discussion:

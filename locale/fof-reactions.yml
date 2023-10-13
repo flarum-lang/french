@@ -34,7 +34,7 @@ fof-reactions:
             legend: 'Mentions « j''aime »'
           warning: 'La même réaction <strong>ne peut pas</strong> être convertie en un « j''aime » <strong>et</strong> en un vote positif'
         react_own_posts_help: 'Lorsque cette option est activée, les utilisateurs peuvent, sous réserve de disposer de l''autorisation, réagir à leurs propres messages sur le forum. Pour empêcher les utilisateurs de réagir à leurs propres messages, désactivez cette option.'
-        react_own_posts_label: 'Les utilisateurs peuvent réagir à leurs propres messages'
+        react_own_posts_label: 'Les utilisateurs peuvent réagir à leurs propres messages,'
         save_settings: 'Enregistrer les paramètres'
     permissions:
       react_posts_label: 'Réagir aux messages'
