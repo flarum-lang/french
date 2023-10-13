@@ -15,7 +15,10 @@ CHANGELOG
 
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
 
 
