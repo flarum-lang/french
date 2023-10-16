@@ -13,6 +13,7 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
