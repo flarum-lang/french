@@ -19,6 +19,8 @@ foskym-oauth-center:
       clients: 'Gérer les clients'
       index: accueil
       scopes: 'Gérer les champs d''application'
+    permission:
+      use_oauth: 'Utiliser OAuth'
     scopes:
       add_button: 'Ajouter un champ d''application'
       is_default: 'Par défaut'
