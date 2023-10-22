@@ -33,6 +33,7 @@ ianm-twofactor:
     security:
       backup_codes: 'Vos codes de sauvegarde'
       backup_codes_instruction: 'Veuillez conserver ces codes dans un endroit sûr. Ils peuvent être utilisés pour accéder à votre compte si vous perdez votre méthode d''authentification principale. Ils ne seront plus affichés.'
+      backup_codes_remaining: 'Codes de sauvegarde restants :'
       cancel_button: Annuler
       cannot_disable: 'La configuration actuelle ne permet pas de désactiver l''authentification à deux facteurs.'
       cannot_disable_tooltip: 'Impossible de désactiver l''A2F'
