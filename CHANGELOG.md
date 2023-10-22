@@ -20,6 +20,7 @@ CHANGELOG
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
 
 
