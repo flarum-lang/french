@@ -24,6 +24,9 @@ ianm-twofactor:
   email:
     body:
       status_changed: "Bonjour {recipient_display_name},\n\nL'authentification à deux facteurs a été {type} pour votre compte sur {forum_url}.\n\nSi vous êtes à l'origine de cette action, aucune autre démarche n'est nécessaire. Si vous n'avez pas autorisé cette modification, veuillez contacter immédiatement les administrateurs du forum.\n"
+    status_type:
+      disabled: désactivé
+      enabled: activé
     subject:
       status_changed: 'Authentification à deux facteurs {type} pour votre compte'
   forum:
