@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-4.17.0 (XXXX-XX-XX)
+4.17.0 (2023-10-24)
 -------------------
 
 **Prise en charge de nouvelles extensions**:
