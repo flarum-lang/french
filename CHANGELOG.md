@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+4.18.0 (XXXX-XX-XX)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`nodeloc/flarum-chatgpt`](https://github.com/nodeloc/flarum-chatgpt)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+
+
+Journal de toutes les modifications : [v4.17.0...v4.18.0](https://github.com/flarum-lang/french/compare/v4.17.0...v4.18.0).
+
+
 4.17.0 (2023-10-24)
 -------------------
 
