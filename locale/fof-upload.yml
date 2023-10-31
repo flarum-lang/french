@@ -2,6 +2,13 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-upload/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      uploads:
+        anonymize_description: 'Supprime la référence de l''utilisateur des fichiers transférés. Les fichiers eux-mêmes restent accessibles aux utilisateurs qui pouvaient les consulter avant l''anonymisation.'
+        delete_description: 'Supprime tous les fichiers transférés par l''utilisateur.'
+        export_description: 'Tous les fichiers transférés par l''utilisateur.'
 fof-upload:
   admin:
     help_texts:

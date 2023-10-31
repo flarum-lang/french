@@ -2,6 +2,13 @@
 # Use https://weblate.rob006.net/projects/flarum/ianm-follow-users/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      followuser:
+        anonymize_description: '=> blomstra-gdpr.lib.data.followuser.delete_description'
+        delete_description: 'Supprime toutes les données relatives aux utilisateurs suivants.'
+        export_description: 'Exporte les informations sur les utilisateurs suivis et les utilisateurs qui suivent.'
 ianm-follow-users:
   admin:
     permissions:
