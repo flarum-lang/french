@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-follow-tags/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      tagsubscription:
+        anonymize_description: 'Supprime l''abonnement de l''utilisateur pour l''étiquette.'
+        export_description: 'Exporte les informations du niveau d''abonnement pour une étiquette, si elle existe.'
 fof-follow-tags:
   admin:
     settings:
