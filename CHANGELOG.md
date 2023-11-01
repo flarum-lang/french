@@ -13,6 +13,7 @@ CHANGELOG
 **Mise à jour des traductions de certaines extensions**:
 
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 
