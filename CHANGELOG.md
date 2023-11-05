@@ -7,7 +7,7 @@ CHANGELOG
 
 **Prise en charge de nouvelles extensions**:
 
-* [`nodeloc/flarum-chatgpt`](https://github.com/nodeloc/flarum-chatgpt)
+* `nodeloc-chatgpt`
 
 
 **Mise à jour des traductions de certaines extensions**:
