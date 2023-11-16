@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/ianm-twofactor/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      twofactordata:
+        delete_description: 'Supprime toutes les données relatives à l''A2F.'
+        export_description: 'Exporte le statut de l''A2F et les codes de sauvegarde chiffrés.'
 ianm-twofactor:
   admin:
     edit_group:

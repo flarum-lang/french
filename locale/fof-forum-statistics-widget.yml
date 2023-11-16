@@ -10,6 +10,8 @@ fof-forum-statistics-widget:
       view_posts_count_label: 'Afficher le widget du nombre de messages dans les statistiques du forum'
       view_users_count_label: 'Afficher le widget du nombre d''utilisateurs dans les statistiques du forum'
     settings:
+      cache_duration_help: 'Indique la durée pendant laquelle les statistiques du widget doivent être mises en cache (en secondes). <code>0</code> permet de désactiver la mise en cache (non recommandé).'
+      cache_duration_label: 'Durée du cache'
       widget_helper_text: 'Modifiez ce paramètre pour ajuster la position de ce widget sur la section de la navigation latérale de votre forum. Plus le nombre est élevé, plus ce widget sera haut dans la liste des éléments de la navigation latérale (cette valeur peut être positive ou négative).'
       widget_ignore_private_discussions_label: 'Ignorer les discussions privées'
       widget_order_label: 'Ordre des widgets'
