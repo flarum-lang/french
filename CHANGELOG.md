@@ -2,6 +2,34 @@ CHANGELOG
 =========
 
 
+4.18.0 (2023-11-17)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`imdong/flarum-ext-spam-alert`](https://github.com/imdong/flarum-ext-spam-alert)
+* [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only)
+* `nodeloc-chatgpt`
+* [`sycho/flarum-force-password-reset`](https://github.com/SychO9/flarum-force-password-reset)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+
+
+Journal de toutes les modifications : [v4.17.0...v4.18.0](https://github.com/flarum-lang/french/compare/v4.17.0...v4.18.0).
+
+
 4.17.0 (2023-10-24)
 -------------------
 
