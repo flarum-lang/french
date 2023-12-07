@@ -11,6 +11,8 @@ datlechin-chatgpt:
       api_key_label: 'Clé API'
       enable_on_discussion_started_help: 'La discussion recevra une réponse basée sur le contenu du premier message lors du lancement de la discussion.'
       enable_on_discussion_started_label: 'Activé lors du lancement d''une discussion'
+      enabled_tags_help: 'Sélectionnez les étiquettes qui seront utilisées pour générer la réponse.'
+      enabled_tags_label: 'Étiquettes activées'
       max_tokens_help: '<a>Qu''est-ce que les jetons et comment les compter?</a>'
       max_tokens_label: 'Nombre maximal de jetons'
       model_help: 'En savoir plus sur les <a>modèles</a> (<code>text-davinci-003</code> par défaut).'

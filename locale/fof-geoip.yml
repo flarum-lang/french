@@ -6,10 +6,13 @@ fof-geoip:
   admin:
     settings:
       access_key_label: 'Clé d''accès'
+      quota_label: 'Consulter les quotas'
       security_label: 'Module de sécurité (nécessite une licence Professionnel Plus)'
       service_freegeoip_description: 'Utilisez <b>https://freegeoip.app/</b> pour récupérer gratuitement jusqu''à 15 000 codes de pays par heure.'
       service_freegeoip_label: FreeGeoIP
-      service_ipapi_description: 'Utilisez <b>http://ip-api.com</b> pour effectuer gratuitement jusqu''à 45 recherches par minute. Si vous en faites davantage, votre adresse IP peut être placée sur liste noire, après quoi vous pouvez la retirer à cette adresse : <b>http://ip-api.com/docs/unban</b>.'
+      service_ipapi-pro_description: 'Utilisez <b>https://members.ip-api.com/#pricing</b>. Le plan Pro permet une utilisation illimitée.'
+      service_ipapi-pro_label: 'Adresse IP de l''API Pro'
+      service_ipapi_description: 'Utilisez <b>COPY00</b> pour effectuer gratuitement jusqu''à 45 recherches par minute. Si vous en faites plus, les demandes seront mises en file d''attente et consultées une fois que la fenêtre de temps sera réinitialisée.'
       service_ipapi_label: 'IP de l''API'
       service_ipdata_description: 'Utilisez <b>https://ipdata.co</b> pour effectuer gratuitement jusqu''à 1 500 recherches par jour. Des forfaits payants pour des limites d''utilisation plus élevées sont également disponibles.'
       service_ipdata_label: IPData
@@ -24,10 +27,12 @@ fof-geoip:
       ip_copied: 'Adresse IP copiée'
     map_button_label: 'Informations sur l''adresse IP'
     map_modal:
+      as: ASN
       country_code: 'Code pays'
       error: Erreur
       ip_address: 'Adresse IP'
       isp: FAI
+      mobile: 'Réseau cellulaire'
       organization: Organisation
       threat_level: 'Niveau de menace'
       threat_types: 'Types de menaces'

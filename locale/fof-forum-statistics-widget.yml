@@ -12,6 +12,8 @@ fof-forum-statistics-widget:
     settings:
       cache_duration_help: 'Indique la durée pendant laquelle les statistiques du widget doivent être mises en cache (en secondes). <code>0</code> permet de désactiver la mise en cache (non recommandé).'
       cache_duration_label: 'Durée du cache'
+      flush_cache_on_new_registration_help: 'Si cette option est activée, le cache des statistiques sera vidé lorsqu''un nouvel utilisateur s''inscrit sur le forum.'
+      flush_cache_on_new_registration_label: 'Vider le cache des statistiques lors d''une nouvelle inscription'
       widget_helper_text: 'Modifiez ce paramètre pour ajuster la position de ce widget sur la section de la navigation latérale de votre forum. Plus le nombre est élevé, plus ce widget sera haut dans la liste des éléments de la navigation latérale (cette valeur peut être positive ou négative).'
       widget_ignore_private_discussions_label: 'Ignorer les discussions privées'
       widget_order_label: 'Ordre des widgets'

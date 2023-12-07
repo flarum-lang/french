@@ -16,12 +16,17 @@ fof-best-answer:
       documentation: Documentation
       enable_all_tags_button: 'Activer toutes les étiquettes pour les meilleures réponses'
       enable_all_tags_reminder_button: 'Activer toutes les étiquettes pour les rappels d''une meilleure réponse'
+      enabled_tags_help: 'Sélectionnez, le cas échéant, les étiquettes pour lesquelles vous souhaitez activer les meilleures réponses. Ces étiquettes deviendront des étiquettes au format « questions-réponses » et pourront définir des meilleures réponses.'
+      enabled_tags_label: 'Étiquettes activées'
       introduction: "Active quelles étiquettes doivent supporter les meilleures réponses dans l'extension <code><a>flarum/tags</a></code>, et, optionnellement, la ou les étiquettes qui doivent prendre en charge les rappels. Lorsqu'une étiquette est activée avec l'extension « Best Answer », cela attribue des autorisations à chaque groupe d'utilisateurs qui peut définir des réponses (dans sa propre discussion ou dans toute discussion). Les autorisations peuvent être attribuées globalement (pour toute étiquette activée avec l'extension « Best Answer »), ou sur une base par étiquette.\n"
       label:
         advanced: Avancé
         general: Général
         reminders: Rappels
         reminders_notice: 'Pour que les rappels puissent fonctionner, vous devez configurer correctement le planificateur de Flarum.'
+        tags: 'Étiquettes de la meilleure réponse'
+      remind_tags_help: 'Sélectionnez, le cas échéant, les étiquettes pour lesquelles vous souhaitez envoyer des rappels. Les rappels ne seront envoyés que pour les discussions sous ces étiquettes.'
+      remind_tags_label: 'Étiquettes de rappel'
       schedule_log_output: 'Ajouter la sortie du planificateur au stockage des journaux'
       schedule_on_one_server: 'Utilisez la directive ''onOneServer ()'' pour le planificateur de tâches'
       schedule_on_one_server_help: 'Nécessite Redis/Memcache'
@@ -35,6 +40,7 @@ fof-best-answer:
       show_filter_label: 'Afficher la liste déroulante du filtre de meilleure réponse'
       show_max_lines_help: 'Réglez cette valeur à 0 pour désactiver cette option. Si un message est plus long que le nombre de lignes configuré, il sera tronqué dans la prévisualisation du message avec un effet de fondu.'
       show_max_lines_label: 'Nombre maximal de lignes à afficher dans la prévisualisation du message'
+      tags_info: "Lorsqu'une étiquette est activée pour la meilleure réponse, attribuez des autorisations à chaque groupe d'utilisateurs qui peut définir des réponses (sa propre discussion ou toute discussion). Les autorisations peuvent être attribuées globalement (pour toute étiquette activée pour la meilleure réponse) ou pour chaque étiquette.\n"
       use_alt_ui: 'Mise en page alternative'
       use_alt_ui_help: 'Contrôles de la meilleure réponse dans le pied de page du message'
   email:

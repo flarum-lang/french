@@ -6,6 +6,10 @@ fof-oauth:
   admin:
     configure_button_label: 'Configurer avec FoF OAuth'
     settings:
+      advanced:
+        heading: Avancé
+        log-oauth-errors-help: 'Si cette option est activée, les erreurs d''OAuth seront enregistrées dans le journal de Flarum. Cela peut aider à déboguer les problèmes d''OAuth mais peut aussi contenir des informations sensibles.'
+        log-oauth-errors-label: 'Journaliser les erreurs d''OAuth'
       fullscreen_popup_help: 'Lorsque cette option est activée, la connexion OAuth s''ouvre dans une fenêtre contextuelle plein écran. Si cette option est activée, les paramètres de largeur et de hauteur seront ignorés.'
       fullscreen_popup_label: 'Utiliser une fenêtre contextuelle plein écran pour OAuth'
       only_icons_label: 'Afficher uniquement les icônes du bouton de connexion (disposition alternative)'
@@ -36,6 +40,7 @@ fof-oauth:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Créez une application sur {link}.'
+          hosted_domain_label: 'Domaine hébergé (G suite/Google Apps for Business, optionnel)'
         linkedin:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'

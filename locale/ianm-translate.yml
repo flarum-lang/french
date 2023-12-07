@@ -12,6 +12,8 @@ ianm-translate:
     settings:
       any-language: 'Toutes les langues'
       any-language-help: 'Lorsque cette option est activée, toutes les langues de traduction prises en charge par le fournisseur actuel seront disponibles. Pour limiter les langues de traduction à celles qui sont activées sur votre forum, veuillez laisser cette option désactivée.'
+      bind-browser-language: 'Ajouter la langue du navigateur'
+      bind-browser-language-help: 'Lorsque cette option est activée, la ou les langues du navigateur de l''utilisateur sont ajoutées à la liste des langues disponibles pour la traduction.'
       deepl:
         api_key:
           help: 'Enregistrez-vous sur {link}. Le pilote détectera automatiquement le type de clé, gratuite ou professionnelle.'
@@ -38,6 +40,8 @@ ianm-translate:
       readme-none: 'Aucun paramètre supplémentaire n''est requis pour ce pilote.'
       translate-all-enabled: 'Activer toutes les langues de traduction'
       translate-all-help: 'Lorsque cette option est activée, les administrateurs et les autres utilisateurs autorisés peuvent traduire le contenu dans n''importe quelle langue installée sur le forum.'
+      use-native-locale-names: 'Utiliser les noms locaux natifs'
+      use-native-locale-names-help: 'Si cette option est activée, le nom de la langue native sera utilisé à la place de la version locale actuelle du nom.'
   forum:
     detected-language: 'Ce message est en {postLang}'
     discussion:
