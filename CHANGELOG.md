@@ -13,6 +13,7 @@ CHANGELOG
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork)
 * [`hikarilan/flarum-passkey-login`](https://github.com/shaokeyibb/flarum-passkey-login)
+* [`litalino/flarum-adblock`](https://github.com/Litalino/flarum-adblock)
 * [`litalino/flarum-geo-weather-widget`](https://github.com/Litalino/flarum-geo-weather-widget)
 * [`umhelper/oauth-clerk`](https://github.com/UMHelper/flarum-ext-oauth-clerk)
 
@@ -26,6 +27,7 @@ CHANGELOG
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
 
 
 Journal de toutes les modifications : [v4.18.0...v4.19.0](https://github.com/flarum-lang/french/compare/v4.18.0...v4.19.0).
