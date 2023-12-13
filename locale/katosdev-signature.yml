@@ -4,12 +4,17 @@
 
 signature:
   admin:
+    permissions:
+      allow_signature: 'Autoriser les utilisateurs à utiliser des signatures'
+      edit_signature_others: 'Modifier les signatures des autres utilisateurs'
     settings:
       maximum_char_limit:
-        description: 'Limite maximale de caractères de la signature (caractères uniquement, les balises HTML ne sont pas prises en compte).'
+        description: 'Limite maximale de caractères de la signature.'
+        help: 'Lorsque l''utilisateur dépasse la limite maximale de caractères dans sa signature, il ne peut plus enregistrer jusqu''à ce que le nombre de caractères soit réduit en conséquence.'
         placeholder: '1000 (par défaut)'
       maximum_image_count:
         description: 'Maximum d''images insérées.'
+        help: 'Lorsque l''utilisateur dépasse le nombre maximal d''images dans sa signature, il ne peut plus enregistrer jusqu''à ce que le nombre d''images soit réduit en conséquence.'
         placeholder: '5 (par défaut)'
       maximum_image_height:
         description: 'Hauteur maximale de la somme des hauteurs des images insérées dans l''éditeur.'
@@ -20,6 +25,7 @@ signature:
     title: Signature
   forum:
     buttons:
+      edit: 'Modifier la signature'
       save: 'Enregistrer la signature'
       signature: Signature
     errors:
@@ -34,3 +40,5 @@ signature:
       loading:
         content: 'Veuillez patienter…'
         title: Enregistrement
+    profile:
+      click: 'Cliquez ici pour définir votre signature'

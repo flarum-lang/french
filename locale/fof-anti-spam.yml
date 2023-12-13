@@ -51,6 +51,8 @@ fof-anti-spam:
         region_us_label: 'États-Unis d''Amérique'
         regional_endpoint_help: 'Par défaut, nous dirigeons la recherche vers le serveur régional le plus proche afin de fournir la réponse la plus rapide. Si vous souhaitez restreindre le trafic à une région spécifique, par exemple pour respecter les règles de confidentialité de l''entreprise ou du pays, vous pouvez forcer la connexion à une région spécifique.'
         regional_endpoint_label: 'Accès géographique'
+        report_blocked_registrations_help: 'Lorsqu''une inscription est bloquée par la fonction de consultation des inscriptions, la tentative est signalée à StopForumSpam afin de mieux confirmer l''activité indésirable. Une clé API StopForumSpam doit être définie (voir ci-dessous).'
+        report_blocked_registrations_label: 'Signaler les inscriptions bloquées'
         sfs_lookup_help: 'Si cette option est activée, nous vérifierons la base de données de StopForumSpam lorsqu''un nouvel utilisateur s''inscrit sur votre forum. Si l''utilisateur est trouvé (nom d''utilisateur, adresse IP, adresse de courriel) et que ce point de données est activé et que le niveau de confiance de SFS atteint le niveau que vous avez défini, l''utilisateur ne pourra pas finaliser son inscription.'
         sfs_lookup_label: 'Consulter les inscriptions'
         username_label: 'Vérification du nom d''utilisateur'
