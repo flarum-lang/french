@@ -21,13 +21,16 @@ CHANGELOG
 **Mise à jour des traductions de certaines extensions**:
 
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
+* [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
 
 
 Journal de toutes les modifications : [v4.18.0...v4.19.0](https://github.com/flarum-lang/french/compare/v4.18.0...v4.19.0).
