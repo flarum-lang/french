@@ -5,7 +5,7 @@
 signature:
   admin:
     permissions:
-      allow_signature: 'Autoriser les utilisateurs à utiliser des signatures'
+      allow_signature: 'Peut avoir une signature'
       edit_signature_others: 'Modifier les signatures des autres utilisateurs'
     settings:
       maximum_char_limit:

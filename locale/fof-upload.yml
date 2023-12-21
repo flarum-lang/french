@@ -87,14 +87,24 @@ fof-upload:
         position: 'Position du filigrane'
         title: 'Images en filigrane'
         toggle: 'Images en filigrane'
+    nav:
+      shared-uploads-button: 'Transferts partagés'
     pane:
       description: 'Configurez les services de transfert et les préférences.'
       title: Transférer
     permissions:
+      access_shared_label: 'Accéder aux fichiers partagés dans le gestionnaire de médias'
       delete_uploads_of_others_label: 'Supprimer les transferts des utilisateurs'
       download_label: 'Télécharger les fichiers'
       upload_label: 'Transférer les fichiers'
+      upload_shared_label: 'Transférer des fichiers partagés'
       view_user_uploads_label: 'Afficher les transferts des utilisateurs'
+    shared-uploads:
+      description: 'Transférez des fichiers qui peuvent être utilisés par tous les utilisateurs de votre forum.'
+      introduction: "Les transferts partagés sont des fichiers qui peuvent être utilisés par tous les utilisateurs de votre forum. Ils ne sont pas attachés à un message, mais peuvent être insérés dans les messages en utilisant le gestionnaire de médias.\n\n<strong>Attention :</strong> les transferts partagés ne sont protégés par aucune autorisation. Toute personne possédant l'URL peut les consulter.\n"
+      no-files: 'Aucun fichier partagé n''a encore été transféré.'
+      title: 'Transferts partagés'
+      upload-new-button: 'Transférer un nouveau fichier'
     templates:
       bbcode-image: 'Modèle d''image BBCode'
       bbcode-image_description: "Affiche l'image en ligne complète en utilisant BBCode. <strong>L'extension flarum/bbcode doit être installée et activée pour que cette option fonctionne.</strong> Aucune fonctionnalité de téléchargement ni aucune statistique n'est collectée, et la protection des liens chauds est ignorée.\n"
@@ -134,7 +144,9 @@ fof-upload:
       attach: Joindre
       cancel: Annuler
       media: 'Mes médias'
+      shared_media: 'Média partagé'
       upload: Transférer
+      upload_shared: Partagé
       user_uploads: 'Transferts de l''utilisateur'
     file_list:
       confirm_selection_btn: '{fileCount, plural, =0 {Aucun fichier sélectionné} one {Sélectionnez un fichier} other {Sélectionnez des fichiers}}'
@@ -164,3 +176,40 @@ fof-upload:
       no_snippet_preview: '<l''aperçu apparaîtra ici après la publication>'
     validation:
       max_size: 'Les téléchargements de plus de {max} kb ne sont pas acceptés.'
+  lib:
+    file_list:
+      confirm_selection_btn: '{fileCount, plural, =0 {Aucun fichier sélectionné} one {Sélectionner le fichier} other {Sélectionner les fichiers}}'
+      delete_confirmation: 'Êtes-vous sûr de vouloir supprimer « {fileName} » ?'
+      delete_file_a11y_label: 'Supprimer le fichier « {fileName} »'
+      empty: 'Il n''y a aucun fichier à afficher.'
+      hide_file:
+        btn_a11y_label_hide: 'Masquer « {fileName} » du gestionnaire de médias'
+        btn_a11y_label_show: 'Afficher « {fileName} » dans le gestionnaire de médias'
+        hide_confirmation: 'Êtes-vous sûr de vouloir masquer « {fileName} » ? Le masquage d''un fichier ne fera que le supprimer de votre gestionnaire de médias et n''affectera pas les messages existants.'
+        hide_fail: 'Impossible de masquer le fichier « {fileName} »'
+        hide_success: 'Fichier caché'
+        loading: 'Masquer le fichier…'
+        show_confirmation: 'Êtes-vous sûr de vouloir afficher « {fileName} » ? L''affichage d''un fichier le rendra visible dans votre gestionnaire de médias.'
+        show_fail: 'Impossible d''afficher le fichier « {fileName} »'
+        show_success: 'Fichier affiché'
+      hide_shared_file:
+        btn_a11y_label_hide: 'Rendre « {fileName} » privé (pas d''URL publique)'
+        btn_a11y_label_show: 'Rendre « {fileName} » public (avec une URL publique)'
+        hide_confirmation: 'Êtes-vous sûr de vouloir rendre « {fileName} » privé ? Le fait de rendre un fichier privé supprime son URL publique, mais n''affecte pas les messages existants. Il ne sera plus visible dans le gestionnaire de médias par les utilisateurs non autorisés.'
+        hide_fail: 'Impossible de rendre le fichier « {fileName} » privé'
+        hide_success: 'Fichier rendu privé'
+        loading: 'En train de rendre le fichier privé…'
+        show_confirmation: 'Êtes-vous sûr de vouloir rendre « {fileName} » public ? Rendre un fichier public le rendra accessible à toute personne disposant d''une URL publique et toute personne pourra le partager à l''aide du gestionnaire de médias.'
+        show_fail: 'Impossible de rendre le fichier « {fileName} » public'
+        show_success: 'Fichier rendu public'
+      load_more_files_btn: 'Charger d''autres fichiers'
+      loading: 'Chargement des fichiers…'
+      modal_empty_desktop: 'Votre liste de fichiers est vide. Cliquez sur le bouton ou faites glisser un fichier ici pour le transférer.'
+      modal_empty_phone: 'Votre liste de fichiers est vide. Appuyez sur le bouton ci-dessus pour transférer un fichier.'
+      release_to_upload: 'Lâcher pour transférer'
+      select_file_a11y_label: 'Sélectionner le fichier « {fileName} »'
+    upload-shared-file-modal:
+      dropzone: 'Glissez et déposez ici les fichiers ou cliquez pour les parcourir'
+      hide-from-media-gallery: 'Masquer dans la galerie de médias de l''utilisateur'
+      title: 'Nouveau fichier partagé'
+      upload: Transférer

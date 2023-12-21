@@ -48,6 +48,9 @@ kilowhat-rich-embeds:
         block: Bloc
         inline: 'Dans la ligne'
         separated: Séparateur
+      maxImageCount: 'Nombre maximum d''images dans la prévisualisation'
+      maxImageCountHelp: "Nombre d'images provenant d'Opengraph ou de l'analyseur de substitution qui seront affichées. Toutes les URL des images sont toujours enregistrées, ce qui vous permet de modifier ce paramètre ultérieurement.\n"
+      maxImageCountPlaceholder: 'Laissez vide pour un nombre illimité'
       position: Position
       positionOptions:
         above: 'En haut du lien'
