@@ -2,6 +2,41 @@ CHANGELOG
 =========
 
 
+4.19.0 (2023-12-26)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork)
+* [`hikarilan/flarum-passkey-login`](https://github.com/shaokeyibb/flarum-passkey-login)
+* [`litalino/flarum-adblock`](https://github.com/Litalino/flarum-adblock)
+* [`litalino/flarum-geo-weather-widget`](https://github.com/Litalino/flarum-geo-weather-widget)
+* [`umhelper/oauth-clerk`](https://github.com/UMHelper/flarum-ext-oauth-clerk)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+* [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
+* [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
+
+
+Journal de toutes les modifications : [v4.18.0...v4.19.0](https://github.com/flarum-lang/french/compare/v4.18.0...v4.19.0).
+
+
 4.18.0 (2023-11-17)
 -------------------
 
