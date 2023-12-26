@@ -31,6 +31,7 @@ CHANGELOG
 * [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
 * [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
+* [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
 
 
 Journal de toutes les modifications : [v4.18.0...v4.19.0](https://github.com/flarum-lang/french/compare/v4.18.0...v4.19.0).
