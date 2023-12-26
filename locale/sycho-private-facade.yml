@@ -18,6 +18,7 @@ sycho-private-facade:
       screen_banner_description: 'Message d''écran'
       screen_banner_heading: 'Bannière d''écran'
       screen_banner_title: 'Titre d''écran'
+      url_exclusions: 'URL à exclure de la redirection vers la page d''inscription et de connexion.'
       use_welcome_hero_text: 'Utiliser le texte de la bannière de bienvenue'
   forum:
     log_in_label: '=> core.ref.log_in'

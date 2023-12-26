@@ -8,6 +8,9 @@ signature:
       allow_signature: 'Peut avoir une signature'
       edit_signature_others: 'Modifier les signatures des autres utilisateurs'
     settings:
+      allow_inline_editing:
+        description: 'Modification en ligne de la signature.'
+        help: 'Lorsque cette option est activée, les utilisateurs peuvent modifier leur signature lorsqu''ils consultent un message.'
       maximum_char_limit:
         description: 'Limite maximale de caractères de la signature.'
         help: 'Lorsque l''utilisateur dépasse la limite maximale de caractères dans sa signature, il ne peut plus enregistrer jusqu''à ce que le nombre de caractères soit réduit en conséquence.'
