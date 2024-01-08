@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+4.20.0 (XXXX-XX-XX)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`litalino/flarum-blog-article-series`](https://github.com/Litalino/flarum-blog-article-series)
+* [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags)
+* [`litalino/flarum-top-bar`](https://github.com/Litalino/flarum-top-bar)
+
+
+Journal de toutes les modifications : [v4.19.0...v4.20.0](https://github.com/flarum-lang/french/compare/v4.19.0...v4.20.0).
+
+
 4.19.0 (2023-12-26)
 -------------------
 
