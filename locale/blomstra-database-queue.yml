@@ -4,6 +4,17 @@
 
 blomstra-database-queue:
   admin:
+    settings:
+      backoff_help: "Le nombre de secondes à attendre avant de relancer une tâche qui a rencontré une exception non capturée.\n"
+      backoff_label: 'Retour au début'
+      memory_help: "La limite de mémoire en mégaoctets.\n"
+      memory_label: Mémoire
+      rest_help: "Le nombre de secondes de repos entre les tâches.\n"
+      rest_label: Repos
+      retries_help: "Le nombre de tentatives d'exécution d'une tâche avant d'enregistrer l'échec.\n"
+      retries_label: Tentatives
+      timeout_help: "Le nombre de secondes pendant lesquelles un processus enfant peut s'exécuter.\n"
+      timeout_label: 'Délai d''expiration'
     stats:
       auto_refresh: 'Actualisation automatique'
       data:
