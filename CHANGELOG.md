@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+4.20.0 (2024-01-12)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`litalino/flarum-blog-article-series`](https://github.com/Litalino/flarum-blog-article-series)
+* [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags)
+* [`litalino/flarum-top-bar`](https://github.com/Litalino/flarum-top-bar)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
+
+
+Journal de toutes les modifications : [v4.19.0...v4.20.0](https://github.com/flarum-lang/french/compare/v4.19.0...v4.20.0).
+
+
 4.19.0 (2023-12-26)
 -------------------
 
