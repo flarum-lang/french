@@ -21,11 +21,11 @@ datlechin-birthdays:
     invalid_dob_message: 'Date de naissance invalide'
   forum:
     change_dob:
-      date_of_birth_text: 'Date de naissance'
+      date_of_birth_text: '=> datlechin-birthdays.ref.date_of_birth'
       submit_button: '=> core.ref.save_changes'
       title: 'Modifier la date de naissance'
     edit_user:
-      dob_heading: 'Date de naissance'
+      dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
     header:
       edit_dob_button: 'Modifier la date de naissance'
     nav:
@@ -33,12 +33,16 @@ datlechin-birthdays:
     page:
       discussion_count: '{count, plural, one {Discussion : #} other {Discussions : #}}'
       post_count: '{count, plural, one {Message : #} other {Messages : #}}'
+      sign_up:
+        dob_placeholder: '=> datlechin-birthdays.ref.date_of_birth'
     settings:
       change_dob_label: 'Modifier la date de naissance'
-      dob_heading: 'Date de naissance'
+      dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
       show_dob_date_label: 'Afficher le jour et le mois de naissance'
       show_dob_year_help: 'Cela permettra de voir votre âge.'
       show_dob_year_label: 'Afficher l''année de naissance'
     user:
       age_text: "Âge\_: {age}"
       birthday_text: 'Date d''anniversaire : {date}'
+  ref:
+    date_of_birth: 'Date de naissance'

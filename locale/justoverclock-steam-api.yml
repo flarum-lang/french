@@ -13,6 +13,7 @@ justoverclock-steam-api:
     gamesOwned: 'Jeux possédés : '
     lastLogOff: 'Dernière déconnexion : '
     lastLogin: 'Dernière connexion le : '
+    lastLogoff: 'Dernière déconnexion : '
     noCountry: 'Non rempli'
     noGamesAvailable: 'Aucun jeu n''a été joué au cours des deux dernières semaines.'
     privateProfile: 'Profil privé'
