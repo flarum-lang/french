@@ -2,6 +2,27 @@ CHANGELOG
 =========
 
 
+4.21.0 (XXXX-XX-XX)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
+* [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer)
+* [`nodeloc/flarum-ignore-hidden-tags`](https://github.com/nodeloc/flarum-ignore-hidden-tags)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
+
+
+Journal de toutes les modifications : [v4.20.0...v4.21.0](https://github.com/flarum-lang/french/compare/v4.20.0...v4.21.0).
+
+
 4.20.0 (2024-01-12)
 -------------------
 
