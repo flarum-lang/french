@@ -2,6 +2,32 @@ CHANGELOG
 =========
 
 
+4.21.0 (2024-02-01)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
+* [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
+* [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer)
+* [`nodeloc/dislikes`](https://github.com/nodeloc/Dislikes)
+* [`nodeloc/flarum-ignore-hidden-tags`](https://github.com/nodeloc/flarum-ignore-hidden-tags)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
+* [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
+* [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags)
+
+
+Journal de toutes les modifications : [v4.20.0...v4.21.0](https://github.com/flarum-lang/french/compare/v4.20.0...v4.21.0).
+
+
 4.20.0 (2024-01-12)
 -------------------
 
