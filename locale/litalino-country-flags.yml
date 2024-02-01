@@ -4,6 +4,8 @@
 
 justoverclock-country-flags:
   admin:
+    bind_help: 'Forcer le pays pour les comptes qui n''ont pas enregistré de pays après la connexion'
+    bind_label: 'Liaison obligatoire avec le pays d''entrée'
     countryColumn: Pays
     required_help: 'Pour que cette option fonctionne, vous devez activer l''option « Définir le pays »'
     required_label: 'Obliger la saisie du pays'
@@ -11,6 +13,8 @@ justoverclock-country-flags:
     showFlagsOnPosts: 'Afficher les drapeaux sur les messages'
     showFlagsOnPosts_text: 'Afficher les drapeaux (texte) sur les messages'
   forum:
+    binding_country: 'Nous avons découvert que vous n''aviez pas indiqué où vous vous trouviez. Veuillez d''abord lier votre pays. Vous ne pourrez publier des messages qu''après avoir lié votre pays.'
+    binding_country_click: 'Cliquez ici'
     clickToSelectCountry: 'Sélectionnez votre pays'
     countrySaved: 'Le pays a été sauvegardé !'
     field_placeholder: 'Confirmer les drapeaux des pays'

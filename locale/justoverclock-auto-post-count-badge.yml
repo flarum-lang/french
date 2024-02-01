@@ -12,6 +12,8 @@ justoverclock-auto-post-count-badge:
     levelOne-help: 'collez ici l''icône de fontawesome que vous souhaitez afficher pour l''échelon 1 (par exemple, « fas fa-square »)'
     levelSix: 'Changer l''icône pour l''échelon 6 - « Le gourou ! »'
     levelSix-help: 'collez ici l''icône de fontawesome que vous souhaitez afficher pour l''échelon 6 (par exemple, « fas fa-square »)'
+    levelThree: 'Changer l''icône pour l''échelon 3 - « Le bavard »'
+    levelThree-help: 'collez ici l''icône fontawesome que vous souhaitez afficher pour l''échelon 3 (par exemple, « fas fa-square »)'
     levelTree: 'Changer l''icône pour l''échelon 3 - « Le bavard »'
     levelTree-help: 'collez ici l''icône de fontawesome que vous souhaitez afficher pour l''échelon 3 (par exemple, « fas fa-square »)'
     levelTwo: 'Changer l''icône pour l''échelon 2 - « Le débutant »'
