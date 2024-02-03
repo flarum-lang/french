@@ -6,10 +6,13 @@ fof-share-social:
   admin:
     settings:
       canonical-urls: 'Utiliser des URL canoniques pour le partage'
+      default-option: 'Option de partage par défaut'
+      default-option-help: "Le choix d'une option par défaut convertira la fenêtre en un bouton déroulant.\nSi l'option « Partage natif » est sélectionnée, elle ne sera affichée que si le navigateur la prend en charge, sinon la fenêtre d'origine sera rétablie.\n"
       plain-copy: 'Afficher la copie de l''URL en clair'
   forum:
     discussion:
       share_button: Partager
+      share_dropdown_accessible_label: 'Afficher le menu déroulant du partage de la discussion'
     modal:
       copy_button: Copier
       title: Partager

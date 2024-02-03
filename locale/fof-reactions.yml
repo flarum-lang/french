@@ -7,7 +7,7 @@ fof-reactions:
     page:
       cdn:
         default-url: 'Par défaut : {url}'
-        help: "Par défaut, nous servons les ressources de réaction à partir du réseau de diffusion de contenu (CDN) de Cloudflare.\nVous pouvez néanmoins spécifier une autre adresse CDN au besoin.\nLe point de code <code>[codepoint]</code> sera remplacé par le point de code de l'émoji.\n\nPar exemple, pour passer à Noto Emoji via jsdelivr, vous devez saisir <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Ce champ ne doit JAMAIS être laissé vide.\n"
+        help: "Par défaut, nous servons les ressources de réaction à partir du réseau de diffusion de contenu (CDN) de Cloudflare.\nVous pouvez néanmoins spécifier une autre adresse CDN au besoin. Le point de code <code>[codepoint]</code> sera remplacé par le point de code de l'émoji.\n\nPar exemple, pour passer à Noto Emoji via jsdelivr, vous devez saisir <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Ce champ ne doit JAMAIS être laissé vide.\n"
         label: URL
         title: CDN
       convert:
@@ -42,6 +42,7 @@ fof-reactions:
         react_own_posts_label: 'Les utilisateurs peuvent réagir à leurs propres messages,'
         save_settings: 'Enregistrer les paramètres'
     permissions:
+      delete_post_reactions_label: 'Supprimer les réactions aux messages'
       react_posts_label: 'Réagir aux messages'
       see_reactions_label: 'Voir qui a réagi aux messages'
   forum:
@@ -49,6 +50,7 @@ fof-reactions:
     mod_item: 'Voir les réactions'
     modal:
       anonymous_count: '{count, plural, one {# utilisateur anonyme} other {# utilisateurs anonymes}}'
+      no_reactions: 'Il n''y a aucune réaction pour le moment'
       title: Réactions
     notification: '{username} a réagi avec {reaction} à votre message'
     react_button_label: Réagir
