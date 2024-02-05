@@ -2,8 +2,13 @@ CHANGELOG
 =========
 
 
-4.21.1 (XXXX-XX-XX)
+4.22.0 (XXXX-XX-XX)
 -------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`nodeloc/telegram`](https://github.com/nodeloc/telegram)
+
 
 **Mise à jour des traductions de certaines extensions**:
 
@@ -12,7 +17,7 @@ CHANGELOG
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
 
 
-Journal de toutes les modifications : [v4.21.0...v4.21.1](https://github.com/flarum-lang/french/compare/v4.21.0...v4.21.1).
+Journal de toutes les modifications : [v4.21.0...v4.22.0](https://github.com/flarum-lang/french/compare/v4.21.0...v4.22.0).
 
 
 4.21.0 (2024-02-01)
