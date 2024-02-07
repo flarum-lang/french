@@ -8,6 +8,7 @@ CHANGELOG
 **Prise en charge de nouvelles extensions**:
 
 * [`nodeloc/telegram`](https://github.com/nodeloc/telegram)
+* [`nodeloc/whisper`](https://github.com/nodeloc/whisper)
 
 
 **Mise à jour des traductions de certaines extensions**:
@@ -15,6 +16,7 @@ CHANGELOG
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 
 
 Journal de toutes les modifications : [v4.21.0...v4.22.0](https://github.com/flarum-lang/french/compare/v4.21.0...v4.22.0).
