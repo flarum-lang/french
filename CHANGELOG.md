@@ -14,6 +14,8 @@ CHANGELOG
 **Mise à jour des traductions de certaines extensions**:
 
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
