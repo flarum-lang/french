@@ -4,6 +4,8 @@
 
 blomstra-horizon:
   admin:
+    settings:
+      trim_title: 'Réglages de la compensation'
     stats:
       auto_refresh: 'Actualisation automatique'
       data:

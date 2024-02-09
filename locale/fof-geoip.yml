@@ -18,6 +18,8 @@ fof-geoip:
       service_ipdata_label: IPData
       service_iplocation_description: 'Utilisez <b>https://www.iplocation.net/</b> pour récupérer les données relatives au pays et au fournisseur d''accès à internet. Les limites du taux de consultation sont inconnues.'
       service_iplocation_label: 'Localisation de l''adresse IP'
+      service_ipsevenex_description: 'Rendez-vous sur <b>https://7x.ax</b> pour obtenir une clé API gratuite pour un maximum de 20 requêtes par minute. Des plans payants pour des limites d''utilisation plus élevées sont également disponibles.'
+      service_ipsevenex_label: 'API de géolocalisation 7x'
       service_ipstack_description: 'Utilisez <b>https://ipstack.com</b> pour effectuer gratuitement jusqu''à 10 000 recherches par mois. Les forfaits payants incluent les informations de connexion (FAI, organisation) et le niveau de menace.'
       service_ipstack_label: IPStack
       service_label: Service
@@ -33,6 +35,7 @@ fof-geoip:
       ip_address: 'Adresse IP'
       isp: FAI
       mobile: 'Réseau cellulaire'
+      not_enough_data: 'Il n''y a pas assez de données pour dessiner une carte'
       organization: Organisation
       threat_level: 'Niveau de menace'
       threat_types: 'Types de menaces'
