@@ -17,6 +17,7 @@ fof-reactions:
         help: 'Si vous venez de mettre à jour votre extension, vos réactions devront être converties. Si vous venez d''installer cette extension, vous pouvez ignorer ce message en toute sécurité.'
       reactions:
         Helptext: 'Saisissez le nom (identifiant) de l''émoji ou de l''icône de Font Awesome et sélectionnez le type que vous souhaitez.'
+        delete_confirmation: 'Êtes-vous sûr de vouloir supprimer cette réaction ? Cette action ne peut pas être annulée.'
         help:
           display: Afficher
           identifier: Identifiant

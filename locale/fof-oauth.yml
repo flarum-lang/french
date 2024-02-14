@@ -5,6 +5,8 @@
 fof-oauth:
   admin:
     configure_button_label: 'Configurer avec FoF OAuth'
+    permissions:
+      moderate_user_providers: 'Modérer les comptes liés de l''utilisateur'
     settings:
       advanced:
         heading: Avancé

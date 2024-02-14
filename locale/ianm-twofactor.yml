@@ -47,6 +47,7 @@ ianm-twofactor:
       cannot_disable: 'La configuration actuelle ne permet pas de désactiver l''authentification à deux facteurs.'
       cannot_disable_tooltip: 'Impossible de désactiver l''A2F'
       confirm_disable_2fa_text: 'Êtes-vous sûr de vouloir désactiver l''authentification à deux facteurs ?'
+      confirm_disable_2fa_text_other_user: 'Êtes-vous sûr de vouloir désactiver l''authentification à deux facteurs pour {username} ? Cela supprimera tous les codes de sauvegarde et désactivera l''authentification à deux facteurs pour son compte.'
       confirm_disable_2fa_title: 'Confirmer la désactivation de l''authentification à deux facteurs'
       disable_2fa_button: 'Désactiver l''A2F'
       enable_2fa_button: 'Activer l''A2F'

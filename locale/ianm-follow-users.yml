@@ -60,8 +60,9 @@ ianm-follow-users:
       notify_new_post_label: 'Quelqu''un que je suis publie un message dans une discussion existante'
       notify_new_unfollower_label: 'Quelqu''un arrête de me suivre'
     user_controls:
+      change_button: '=> ianm-follow-users.lib.change_follow_type'
       follow_button: '=> ianm-follow-users.lib.follow'
-      unfollow_button: '=> ianm-follow-users.lib.change_follow_type'
+      unfollow_button: '=> ianm-follow-users.lib.unfollow'
   lib:
     change_follow_type: 'Modifier le type de suivi'
     follow: Suivre
@@ -76,3 +77,4 @@ ianm-follow-users:
         description: "Ne pas recevoir de notifications pour l'activité de <em>{username}</em>.\n"
         name: 'Ne pas suivre'
     following_link: 'Utilisateurs suivis'
+    unfollow: 'Ne plus suivre'
