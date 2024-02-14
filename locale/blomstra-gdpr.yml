@@ -52,12 +52,61 @@ blomstra-gdpr:
     confirm_erasure:
       body: "Bonjour {display_name} !\n\nQuelqu'un (en espérant que cela soit vous !) a demandé à effacer le compte `{display_name}`.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour confirmer votre demande d'effacement :\n\n{erasure_confirm_url}\n"
       subject: 'Confirmer la demande d''effacement de votre compte'
+    erasure_cancelled:
+      body: "Bonjour {display_name} !\n\nCeci est une notification automatique indiquant que votre demande d'annulation de la suppression de votre compte a été traitée.\n\nVotre compte ne sera plus supprimé.\n"
+      subject: 'Demande d''effacement de compte annulée'
     erasure_completed:
       anonymization:
-        subject: 'L''anonymisation des comptes est terminée'
+        body: "Bonjour {display_name} !\n\nCeci est une notification automatique et définitive indiquant que votre compte a été rendu anonyme.\n"
+        subject: 'L''anonymisation du compte est terminée'
       deletion:
-        body: "Bonjour {display_name} !\n\nCeci est une notification automatique et définitive vous confirmant la bonne suppression de votre compte.\n"
+        body: "Bonjour {display_name} !\n\nCeci est une notification automatique et définitive indiquant que votre compte a été supprimé.\n"
         subject: 'Suppression du compte terminée'
+    export_available:
+      body: "Bonjour {display_name} !\n\nVous avez demandé une exportation des données du compte de {username}. Cette exportation a été générée avec succès et est maintenant disponible :\n\n{url}\n\nCette exportation restera disponible jusqu'au {destroys_at}.\n"
+      subject: 'Exportation de données disponible'
+  forum:
+    badges:
+      anonymized_user: 'Utilisateur anonymisé'
+    delete_user:
+      delete_button: Effacer
+      modal_delete_button: 'Effacer en utilisant l''action par défaut'
+      text: "Êtes-vous sûr de vouloir effacer le compte de {username} ?\n\nCette action est irréversible.\n"
+      title: 'Effacer le compte de {username}'
+    erasure_request_confirmed: 'Vous avez confirmé votre demande d''effacement de compte. Une action sera entreprise dans les 30 jours comme l''exige le RGPD.'
+    erasure_requests:
+      empty_text: 'Aucune demande d''effacement de compte en attente'
+      item_text: '{name} a demandé l''effacement de son compte'
+      title: 'Demandes d''effacement de compte'
+      tooltip: 'Demandes d''effacement de compte'
+    export_file: 'Exportation des données de l''utilisateur pour {username} ({email}) préparée à {date} à partir de {forumTitle} ({url})'
+    notification:
+      export-ready: 'Votre exportation de données concernant {username} est maintenant prête à être téléchargée.'
+    process_erasure:
+      anonymization_button: 'Anonymiser l''utilisateur'
+      comments_label: 'Commentaires (facultatif)'
+      confirm: 'Êtes-vous sûr de vouloir effacer le compte de {name} en mode {mode} ?'
+      deletion_button: 'Supprimer l''utilisateur'
+      text: '{name} a demandé l''effacement de son compte.'
+      title: 'Traiter la demande d''effacement'
+    request_erasure:
+      cancel_button: 'Annuler la demande'
+      password_label: 'Confirmer le mot de passe'
+      reason: 'Vous avez indiqué le motif suivant : {reason}'
+      reason_label: 'Motif (facultatif)'
+      request_button: 'Demander un effacement'
+      status:
+        awaiting_user_confirmation: "Vous devriez recevoir un courriel confirmant votre demande d'effacement du compte.\n"
+        user_confirmed: "Vous avez confirmé votre demande d'effacement du compte. Une action sera entreprise dans les 30 jours comme l'exige le RGPD.\n"
+      text: 'Une fois la demande reçue et confirmée, un administrateur l''examinera dans les 30 jours comme l''exige le RGPD.'
+      title: 'Demander l''effacement du compte'
+    settings:
+      data:
+        heading: 'Données personnelles'
+      export_data_button: 'Exporter les données'
+      export_data_help: 'En demandant l''exportation des données, vous obtiendrez une copie téléchargeable de toutes les informations associées à votre compte. Cela comprend les messages, les commentaires et les informations de votre profil.'
+      request_erasure_button: 'Effacer le compte'
+      request_erasure_help: 'Demander l''effacement supprimera définitivement votre compte et toutes les données qui y sont associées. Cette action est irréversible. Avant de procéder, assurez-vous d''avoir sauvegardé tout contenu que vous souhaitez conserver.'
   lib:
     data:
       avatar:
