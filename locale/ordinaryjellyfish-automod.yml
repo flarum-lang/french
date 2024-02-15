@@ -6,31 +6,52 @@ ordinaryjellyfish-automod:
   admin:
     settings:
       filter_enable: 'Activer les filtres prédéfinis'
+      filter_help: 'Il s''agit de filtres que j''ai personnellement créés pour contribuer à la sécurité de votre forum. Les filtres activés seront signalés automatiquement, tout comme les catégories de modération.'
+      filter_label: 'Filtres prédéfinis'
       filters:
         doxxing: 'Diffusion d''informations personnelles'
         doxxing_help: 'L''acte de révéler publiquement des informations personnelles sur une personne ou une organisation, généralement dans une intention malveillante.'
         flag_unsafe_images: 'Images peu sûres'
         flag_unsafe_images_help: 'Exécute la détection Google Safe Search et signale les images qui ne sont pas sûres. Notez que cela peut ajouter un certain temps de latence lors de la publication de votre commentaire.'
+      moderate_categories_enable: 'Activer les catégories de modération'
       moderate_categories_label: 'Catégories de modération'
       moderate_categories_label_help: 'Catégories qui signalent automatiquement les contenus à modérer lorsqu''ils sont activés et qu''ils répondent à des règles de confiance.'
+      service_account: 'Compte de service'
       threshold: 'Seuil de confiance'
       threshold_help: 'Le seuil de confiance se situe entre 0,00 et 1,00 et reflète la probabilité que l''entrée ou la réponse appartienne à une catégorie donnée. Un seuil plus bas entraînera moins de faux positifs, mais aussi plus de faux négatifs. Un seuil plus élevé entraînera plus de faux positifs, mais aussi moins de faux négatifs.'
+  forum:
+    flag_reason: 'Automod a signalé ce message pour {reason}'
   lib:
     moderate_categories:
       death: 'Mort, préjudice et tragédie'
       death_help: 'Les morts humaines, les tragédies, les accidents, les catastrophes et l''automutilation.'
       derogatory: Dénigrant
       derogatory_help: 'Commentaires négatifs ou préjudiciables visant l''identité ou les attributs protégés.'
+      drugs: 'Drogues illicites'
+      drugs_help: 'Drogues récréatives et illicites ; attirail et culture de drogues, magasins de vente de drogues, etc. Comprend l''usage médical de drogues généralement utilisées à des fins récréatives (par exemple, la marijuana).'
+      finance: Finances
+      finance_help: 'Services financiers aux consommateurs et aux entreprises, tels que les banques, les prêts, les crédits, les investissements et les assurances.'
+      health: Santé
+      health_help: 'Domaines de la santé, comprenant : les états de santé, les maladies et les troubles, les thérapies médicales, les médicaments, les vaccinations, les pratiques médicales et les ressources de guérison, y compris les groupes de soutien.'
       insult: Injure
       insult_help: 'Commentaire insultant, incendiaire ou négatif à l''égard d''une personne ou d''un groupe de personnes.'
+      legal: Juridique
+      legal_help: 'Contenu lié au droit, y compris les cabinets d''avocats, les informations juridiques, les documents juridiques de base, les services parajuridiques, les publications et technologies juridiques, les témoins experts, les consultants en matière de litiges et les autres prestataires de services juridiques.'
+      politics: Politique
+      politics_help: 'Actualités et médias politiques ; discussions sur les politiques sociales, gouvernementales et publiques.'
       profanity: Profane
       profanity_help: 'Langage obscène ou vulgaire, tel que les jurons.'
       public_safety: 'Sécurité publique'
+      public_safety_help: 'Services et organisations qui fournissent des secours et assurent la sécurité publique.'
+      religion: 'Religion et croyance'
+      religion_help: 'Systèmes de croyances qui traitent de la possibilité de lois et d''êtres surnaturels ; religion, foi, croyance, pratique spirituelle, églises et lieux de culte. Inclut l''astrologie et l''occultisme.'
       sexual: Sexuel
       sexual_help: 'Contient des références à des actes sexuels ou d''autres contenus obscènes.'
       toxic: Toxique
       toxic_help: 'Contenu impoli, irrespectueux ou déraisonnable.'
       violent: Violent
       violent_help: 'Décrit des scénarios de violence à l''encontre d''un individu ou d''un groupe, ou des descriptions générales de scènes sanglantes.'
+      war: 'Guerre et conflits'
+      war_help: 'Guerres, conflits militaires et conflits majeurs impliquant un grand nombre de personnes. Inclut la discussion sur les services militaires, même s''ils ne sont pas directement liés à une guerre ou à un conflit.'
       weapons: 'Armes à feu et armes'
       weapons_help: 'Contenu mentionnant des couteaux, des fusils, des armes personnelles et des accessoires tels que des munitions, des étuis, etc.'
