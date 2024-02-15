@@ -5,7 +5,32 @@
 ordinaryjellyfish-automod:
   admin:
     settings:
+      filter_enable: 'Activer les filtres prédéfinis'
+      filters:
+        doxxing: 'Diffusion d''informations personnelles'
+        doxxing_help: 'L''acte de révéler publiquement des informations personnelles sur une personne ou une organisation, généralement dans une intention malveillante.'
+        flag_unsafe_images: 'Images peu sûres'
+        flag_unsafe_images_help: 'Exécute la détection Google Safe Search et signale les images qui ne sont pas sûres. Notez que cela peut ajouter un certain temps de latence lors de la publication de votre commentaire.'
       moderate_categories_label: 'Catégories de modération'
       moderate_categories_label_help: 'Catégories qui signalent automatiquement les contenus à modérer lorsqu''ils sont activés et qu''ils répondent à des règles de confiance.'
       threshold: 'Seuil de confiance'
       threshold_help: 'Le seuil de confiance se situe entre 0,00 et 1,00 et reflète la probabilité que l''entrée ou la réponse appartienne à une catégorie donnée. Un seuil plus bas entraînera moins de faux positifs, mais aussi plus de faux négatifs. Un seuil plus élevé entraînera plus de faux positifs, mais aussi moins de faux négatifs.'
+  lib:
+    moderate_categories:
+      death: 'Mort, préjudice et tragédie'
+      death_help: 'Les morts humaines, les tragédies, les accidents, les catastrophes et l''automutilation.'
+      derogatory: Dénigrant
+      derogatory_help: 'Commentaires négatifs ou préjudiciables visant l''identité ou les attributs protégés.'
+      insult: Injure
+      insult_help: 'Commentaire insultant, incendiaire ou négatif à l''égard d''une personne ou d''un groupe de personnes.'
+      profanity: Profane
+      profanity_help: 'Langage obscène ou vulgaire, tel que les jurons.'
+      public_safety: 'Sécurité publique'
+      sexual: Sexuel
+      sexual_help: 'Contient des références à des actes sexuels ou d''autres contenus obscènes.'
+      toxic: Toxique
+      toxic_help: 'Contenu impoli, irrespectueux ou déraisonnable.'
+      violent: Violent
+      violent_help: 'Décrit des scénarios de violence à l''encontre d''un individu ou d''un groupe, ou des descriptions générales de scènes sanglantes.'
+      weapons: 'Armes à feu et armes'
+      weapons_help: 'Contenu mentionnant des couteaux, des fusils, des armes personnelles et des accessoires tels que des munitions, des étuis, etc.'
