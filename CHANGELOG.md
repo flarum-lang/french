@@ -10,6 +10,7 @@ CHANGELOG
 * [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
 * [`nodeloc/telegram`](https://github.com/nodeloc/telegram)
 * [`nodeloc/whisper`](https://github.com/nodeloc/whisper)
+* [`ordinaryjellyfish/automod`](https://extiverse.com/extension/ordinaryjellyfish/automod)
 
 
 **Mise à jour des traductions de certaines extensions**:
