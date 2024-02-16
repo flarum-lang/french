@@ -8,6 +8,7 @@ CHANGELOG
 **Prise en charge de nouvelles extensions**:
 
 * [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
+* [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
 * [`nodeloc/telegram`](https://github.com/nodeloc/telegram)
 * [`nodeloc/whisper`](https://github.com/nodeloc/whisper)
 * [`ordinaryjellyfish/automod`](https://extiverse.com/extension/ordinaryjellyfish/automod)
