@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
 * [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
+* [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini)
 * [`nodeloc/telegram`](https://github.com/nodeloc/telegram)
 * [`nodeloc/whisper`](https://github.com/nodeloc/whisper)
 * [`ordinaryjellyfish/automod`](https://extiverse.com/extension/ordinaryjellyfish/automod)
@@ -18,6 +19,8 @@ CHANGELOG
 
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
