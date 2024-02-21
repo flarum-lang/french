@@ -24,6 +24,7 @@ fof-best-answer:
         general: Général
         reminders: Rappels
         reminders_notice: 'Pour que les rappels puissent fonctionner, vous devez configurer correctement le planificateur de Flarum.'
+        search: Rechercher
         tags: 'Étiquettes de la meilleure réponse'
       remind_tags_help: 'Sélectionnez, le cas échéant, les étiquettes pour lesquelles vous souhaitez envoyer des rappels. Les rappels ne seront envoyés que pour les discussions sous ces étiquettes.'
       remind_tags_label: 'Étiquettes de rappel'
@@ -40,6 +41,8 @@ fof-best-answer:
       show_filter_label: 'Afficher la liste déroulante du filtre de meilleure réponse'
       show_max_lines_help: 'Réglez cette valeur à 0 pour désactiver cette option. Si un message est plus long que le nombre de lignes configuré, il sera tronqué dans la prévisualisation du message avec un effet de fondu.'
       show_max_lines_label: 'Nombre maximal de lignes à afficher dans la prévisualisation du message'
+      solution_search: 'Recherche de solution'
+      solution_search_help: 'Activer la possibilité de rechercher des discussions avec les meilleures réponses'
       tags_info: "Lorsqu'une étiquette est activée pour la meilleure réponse, attribuez des autorisations à chaque groupe d'utilisateurs qui peut définir des réponses (sa propre discussion ou toute discussion). Les autorisations peuvent être attribuées globalement (pour toute étiquette activée pour la meilleure réponse) ou pour chaque étiquette.\n"
       use_alt_ui: 'Mise en page alternative'
       use_alt_ui_help: 'Contrôles de la meilleure réponse dans le pied de page du message'
@@ -79,6 +82,9 @@ fof-best-answer:
         best_answer_in_discussion: 'Une meilleure réponse a été indiquée dans une discussion à laquelle j''ai participé'
         select_best_answer: 'Un rappel automatique pour sélectionner la meilleure réponse dans une discussion que j''ai démarrée'
     remove_best_answer: 'Désélectionner la meilleure réponse'
+    search:
+      all_discussions_solutions_button: 'Rechercher toutes les discussions avec des solutions concernant « {query} »'
+      discussions_solutions_heading: 'Discussions avec des solutions'
     this_best_answer: 'Sélectionner la meilleure réponse'
     user:
       best-answer-count: '{count, plural, one { {count} meilleure réponse} other {{count} meilleures réponses}}'
