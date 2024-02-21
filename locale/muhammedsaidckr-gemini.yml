@@ -4,10 +4,15 @@
 
 muhammedsaidckr-gemini:
   admin:
+    permissions:
+      use_gemini_assistant_label: 'Utiliser l''assistant Gemini'
     settings:
       api_key_help: 'Obtenez la clé API de Gemini sur <a>google.gemini.com</a>.'
       api_key_label: 'Clé API'
+      enable_on_discussion_started_help: 'La discussion recevra une réponse basée sur le contenu du premier message lorsque la discussion a démarré.'
       enable_on_discussion_started_label: 'Activer lorsque la discussion a démarré'
+      enabled_tags_help: 'Sélectionnez les étiquettes qui seront utilisées pour générer la réponse.'
+      enabled_tags_label: 'Étiquettes activées'
       model_help: 'Sélectionnez le modèle à utiliser.'
       model_label: Modèle
       user_prompt_badge_help: 'Le texte qui sera affiché à côté de l''invite de l''utilisateur.'
