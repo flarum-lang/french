@@ -12,6 +12,7 @@ foskym-oauth-center:
       client_id: 'Identifiant du client'
       client_name: Nom
       client_secret: 'Clé secrète du client'
+      edit_client: 'Modifier le client'
       grant_types: 'Types de demandes'
       redirect_uri: 'Redirection de l''URI'
       scope: 'Champ d''application'
@@ -23,6 +24,7 @@ foskym-oauth-center:
       use_oauth: 'Utiliser OAuth'
     scopes:
       add_button: 'Ajouter un champ d''application'
+      edit_scope: 'Modifier le champ d''application'
       is_default: 'Par défaut'
       method: Méthode
       resource_path: 'Chemin d''accès aux ressources'
@@ -33,6 +35,8 @@ foskym-oauth-center:
     settings:
       access_lifetime: 'Durée de vie du jeton d''accès (en secondes)'
       allow_implicit: 'Autoriser l''octroi implicite (response_type=token)'
+      authorization_method_fetch: 'Méthode d''autorisation de Fetch (ne redirige pas directement vers ce service)'
+      display_mode: 'Mode d''affichage'
       enforce_state: 'Renforcer la validation de l''état (paramètre d''état)'
       require_exact_redirect_uri: 'Exiger un URI de redirection exact'
   forum:
@@ -40,6 +44,10 @@ foskym-oauth-center:
       access: 'Accès à'
       agree: Accorder
       deny: Refuser
+      require_these_scopes: 'Rendre obligatoire ces champs d''application'
+    authorized:
+      load_more: 'Charger plus'
+      no_more_records: 'Il n''y a plus d''enregistrements'
     page:
       label:
         authorized: 'Journaux autorisés'
