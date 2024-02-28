@@ -2,6 +2,37 @@ CHANGELOG
 =========
 
 
+4.22.0 (2024-02-28)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
+* [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
+* [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini)
+* [`nodeloc/telegram`](https://github.com/nodeloc/telegram)
+* [`nodeloc/whisper`](https://github.com/nodeloc/whisper)
+* [`ordinaryjellyfish/automod`](https://extiverse.com/extension/ordinaryjellyfish/automod)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+
+
+Journal de toutes les modifications : [v4.21.0...v4.22.0](https://github.com/flarum-lang/french/compare/v4.21.0...v4.22.0).
+
+
 4.21.0 (2024-02-01)
 -------------------
 
