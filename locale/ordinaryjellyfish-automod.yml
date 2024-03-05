@@ -4,6 +4,8 @@
 
 ordinaryjellyfish-automod:
   admin:
+    permissions:
+      bypass: 'Contourner les filtres de modération automatique'
     settings:
       filter_enable: 'Activer les filtres prédéfinis'
       filter_help: 'Il s''agit de filtres que j''ai personnellement créés pour contribuer à la sécurité de votre forum. Les filtres activés seront signalés automatiquement, tout comme les catégories de modération.'
