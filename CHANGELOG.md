@@ -7,6 +7,7 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`ordinaryjellyfish/automod`](https://extiverse.com/extension/ordinaryjellyfish/automod)
 
 
