@@ -10,14 +10,23 @@ fof-polls:
       self_edit: 'Modifier les sondages créés (nécessite l''autorisation de modifier les messages)'
       self_post_edit: 'Modifier *tous* les sondages sur ses propres messages (nécessite l''autorisation de modifier les messages)'
       start: 'Démarrer un sondage'
+      start_global: 'Démarrer un sondage global'
       view_results_without_voting: 'Afficher les résultats sans voter'
       vote: 'Voter sur les sondages'
     settings:
       allow_option_image: 'Permettre de fournir l''URL d''une image pour chaque option de sondage'
+      enable_global_polls: 'Activer les sondages globaux'
+      enable_global_polls_help: 'Les sondages globaux ne sont pas liés à un message spécifique et sont accessibles à partir d''une page dédiée aux sondages.'
       max_options: 'Nombre maximum d''options par sondage'
       options_color_blend: 'Mélange de couleurs du texte dans les options de sondage'
       options_color_blend_help: 'Utilisez cette option pour mélanger les couleurs afin de rendre les options du sondage plus lisibles. Désactivez cette fonction si elle provoque des problèmes d''apparence à votre forum qui pourraient réduire sa lisibilité.'
   forum:
+    answers: Réponses
+    compose:
+      continue_editing: 'Continuer la modification'
+      polls_manager: 'Gestionnaire de sondages'
+      polls_preview: 'Voir le sondage'
+      success: 'Le sondage a été enregistré.'
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
@@ -30,6 +39,7 @@ fof-polls:
       allow_change_vote_label: 'Permettre aux utilisateurs de modifier leur vote'
       allow_multiple_votes_label: 'Permettre de voter pour plusieurs options'
       date_placeholder: 'Date de fin du sondage (facultatif)'
+      delete: Supprimer
       edit_title: 'Modifier le sondage'
       hide_votes_label: 'Masquer les votes jusqu''à la fin du sondage'
       image_option_placeholder: 'URL de l''image (facultatif)'
@@ -41,22 +51,48 @@ fof-polls:
       no_voters: 'Aucun vote'
       option_placeholder: Répondre
       options_label: Réponses
+      poll_image:
+        alt_help_text: 'Ce texte est requis lorsqu''une image est définie ; il sera affiché si l''image ne parvient pas à se charger.'
+        alt_label: 'Texte d''accompagnement de l''image'
+        help: 'Transférez une image à afficher à côté du sondage (facultatif).'
+        label: 'Image du sondage'
       public_poll_label: 'Permettre aux utilisateurs de voir qui a voté'
       question_placeholder: Question
       submit: Envoyer
+      subtitle_placeholder: 'Sous-titre ou description (facultatif)'
+      tooltip:
+        options:
+          add-button: 'Ajouter une réponse'
     moderation:
       add: 'Ajouter un sondage'
       delete: 'Supprimer le sondage'
       delete_confirm: 'Êtes-vous sûr de vouloir supprimer ce sondage ?'
       edit: 'Modifier le sondage'
     no_permission: 'Vous n''avez pas l''autorisation de voter'
+    page:
+      nav: Sondages
+      nav-all: 'Tous les sondages globaux'
     poll:
       cannot_change_vote: 'Vous ne pouvez pas modifier votre vote après avoir voté.'
+      cannot_start_poll_button: 'Impossible de démarrer le sondage'
+      start_poll_button: 'Démarrer un sondage global'
       submit_button: Voter
+    poll_controls:
+      delete_confirmation: 'Êtes-vous sûr de vouloir supprimer ce sondage ?'
+      edit_label: Modifier
     poll_ended: 'Ce sondage est terminé.'
+    polls_count: '{count, plural, one { {count} vote} other {{count} votes}}'
     public_poll: 'Voir les votants'
+    showcase:
+      active-polls: 'Sondages actifs'
+      ended-polls: 'Sondages terminés'
+      no-active-polls: 'Il n''y a aucun sondage actif pour le moment.'
+      no-recent-polls: 'Il n''y a aucun sondage récemment terminé pour le moment.'
     tooltip:
       badge: Sondage
       votes: '{count, plural, one {# vote} other {# votes}}'
+    upload_image:
+      remove_button: 'Supprimer l''image'
+      upload_button: 'Sélectionner une image'
     votes_modal:
       title: Votants
