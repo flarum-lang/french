@@ -23,7 +23,9 @@ fof-polls:
   forum:
     answers: Réponses
     compose:
+      add_title: 'Ajouter un sondage'
       continue_editing: 'Continuer la modification'
+      edit_title: 'Modifier le sondage'
       polls_manager: 'Gestionnaire de sondages'
       polls_preview: 'Voir le sondage'
       success: 'Le sondage a été enregistré.'
@@ -79,9 +81,20 @@ fof-polls:
       submit_button: Voter
     poll_controls:
       delete_confirmation: 'Êtes-vous sûr de vouloir supprimer ce sondage ?'
+      delete_error_message: 'Un problème est survenu lors de la suppression du sondage.'
+      delete_label: Supprimer
+      delete_success_message: 'Le sondage a été supprimé.'
       edit_label: Modifier
+      view_label: Voir
     poll_ended: 'Ce sondage est terminé.'
+    poll_form:
+      delete: 'Supprimer le sondage'
+      error: 'Une erreur est survenue lors de l''enregistrement du sondage, veuillez contacter un administrateur.'
+    poll_never_ends: 'Le sondage ne se termine jamais'
     polls_count: '{count, plural, one { {count} vote} other {{count} votes}}'
+    polls_list:
+      empty_text: 'Il semble qu''il n''y ait pas de sondage communautaire ici.'
+      load_more_button: 'Charger plus'
     public_poll: 'Voir les votants'
     showcase:
       active-polls: 'Sondages actifs'
