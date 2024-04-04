@@ -2,8 +2,13 @@ CHANGELOG
 =========
 
 
-4.22.1 (XXXX-XX-XX)
+4.23.0 (XXXX-XX-XX)
 -------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
+
 
 **Mise à jour des traductions de certaines extensions**:
 
@@ -11,7 +16,7 @@ CHANGELOG
 * [`ordinaryjellyfish/automod`](https://extiverse.com/extension/ordinaryjellyfish/automod)
 
 
-Journal de toutes les modifications : [v4.22.0...v4.22.1](https://github.com/flarum-lang/french/compare/v4.22.0...v4.22.1).
+Journal de toutes les modifications : [v4.22.0...v4.23.0](https://github.com/flarum-lang/french/compare/v4.22.0...v4.23.0).
 
 
 4.22.0 (2024-02-28)
