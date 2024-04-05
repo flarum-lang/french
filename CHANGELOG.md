@@ -7,12 +7,14 @@ CHANGELOG
 
 **Prise en charge de nouvelles extensions**:
 
+* [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login)
 * [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
 
 
 **Mise à jour des traductions de certaines extensions**:
 
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
 * [`ordinaryjellyfish/automod`](https://extiverse.com/extension/ordinaryjellyfish/automod)
 
 
