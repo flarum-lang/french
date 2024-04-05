@@ -51,6 +51,18 @@ ianm-translate:
         translated-updated: 'Dernière mise à jour de la traduction le {time} en utilisant {provider}'
       title:
         detected-language: '{postLang}'
+    manage-translations:
+      button-label: 'Gérer les traductions'
+      poll:
+        image-alt: 'Texte ALT de l''image du sondage (si elle existe)'
+        option: 'Option {number} de sondage'
+        original-title: 'Langue d''origine'
+        question: 'Question du sondage'
+        subtitle: 'Sous-titre du sondage'
+        title: 'Gérer les traductions du sondage'
+      save-changes: '=> core.ref.save_changes'
+      translations-label: Traductions
+    refresh-translation: 'Actualiser la traduction'
     translate-button-label: Traduire
     unknown-language: '[non détecté]'
     user:

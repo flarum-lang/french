@@ -17,6 +17,8 @@ fof-polls:
       allow_option_image: 'Permettre de fournir l''URL d''une image pour chaque option de sondage'
       enable_global_polls: 'Activer les sondages globaux'
       enable_global_polls_help: 'Les sondages globaux ne sont pas liés à un message spécifique et sont accessibles à partir d''une page dédiée aux sondages.'
+      image_height: 'Redimensionner la hauteur de l''image'
+      image_width: 'Redimensionner la largeur de l''image'
       max_options: 'Nombre maximum d''options par sondage'
       options_color_blend: 'Mélange de couleurs du texte dans les options de sondage'
       options_color_blend_help: 'Utilisez cette option pour mélanger les couleurs afin de rendre les options du sondage plus lisibles. Désactivez cette fonction si elle provoque des problèmes d''apparence à votre forum qui pourraient réduire sa lisibilité.'
@@ -58,6 +60,9 @@ fof-polls:
         alt_label: 'Texte d''accompagnement de l''image'
         help: 'Transférez une image à afficher à côté du sondage (facultatif).'
         label: 'Image du sondage'
+      poll_option_image:
+        help: 'Transférer une image qui sera affichée à côté de la réponse au sondage (facultatif).'
+        label: 'Image de la réponse au sondage'
       public_poll_label: 'Permettre aux utilisateurs de voir qui a voté'
       question_placeholder: Question
       submit: Envoyer
@@ -95,6 +100,8 @@ fof-polls:
     polls_list:
       empty_text: 'Il semble qu''il n''y ait pas de sondage communautaire ici.'
       load_more_button: 'Charger plus'
+    polls_page:
+      title: Sondages
     public_poll: 'Voir les votants'
     showcase:
       active-polls: 'Sondages actifs'
