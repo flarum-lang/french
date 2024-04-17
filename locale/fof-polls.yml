@@ -43,8 +43,9 @@ fof-polls:
       allow_change_vote_label: 'Permettre aux utilisateurs de modifier leur vote'
       allow_multiple_votes_label: 'Permettre de voter pour plusieurs options'
       date_placeholder: 'Date de fin du sondage (facultatif)'
-      delete: Supprimer
+      delete: '=> core.ref.delete'
       edit_title: 'Modifier le sondage'
+      error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Masquer les votes jusqu''à la fin du sondage'
       image_option_placeholder: 'URL de l''image (facultatif)'
       include_question: 'Vous devez ajouter une question'
@@ -87,10 +88,10 @@ fof-polls:
     poll_controls:
       delete_confirmation: 'Êtes-vous sûr de vouloir supprimer ce sondage ?'
       delete_error_message: 'Un problème est survenu lors de la suppression du sondage.'
-      delete_label: Supprimer
+      delete_label: '=> core.ref.delete'
       delete_success_message: 'Le sondage a été supprimé.'
-      edit_label: Modifier
-      view_label: Voir
+      edit_label: '=> core.ref.edit'
+      view_label: '=> core.ref.view'
     poll_ended: 'Ce sondage est terminé.'
     poll_form:
       delete: 'Supprimer le sondage'
@@ -99,7 +100,7 @@ fof-polls:
     polls_count: '{count, plural, one { {count} vote} other {{count} votes}}'
     polls_list:
       empty_text: 'Il semble qu''il n''y ait pas de sondage communautaire ici.'
-      load_more_button: 'Charger plus'
+      load_more_button: '=> core.ref.load_more'
     polls_page:
       title: Sondages
     public_poll: 'Voir les votants'

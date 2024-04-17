@@ -22,6 +22,12 @@ askvortsov-pwa:
         heading: Couleurs
         theme_color_label: 'Couleur du thème'
         theme_color_text: 'Cette couleur est parfois utilisée par les appareils lorsqu''ils affichent votre application, par exemple sur le sélecteur de tâches d''Android, comme la couleur qui entoure le site.'
+      firebase_config:
+        heading: Firebase
+        help_text: 'Pour ajouter la prise en charge des notifications push lors de la publication de votre application dans l''App Store d''Apple, vous devez utiliser Firebase pour ajouter des notifications push à votre application. Veuillez générer votre configuration de service Firebase et la télécharger ici.'
+        see_documentation_here: 'Voir la documentation ici'
+        upload_file: 'Transférer un fichier'
+        upload_successful: 'Votre configuration Firebase a été transférée avec succès'
       heading: 'Configuration de l''application web progressive'
       logo_heading: 'Logos et icônes'
       logo_size_text: 'Transférez un logo qui sera mis à l''échelle à une taille de {size} pixels par {size} pixels.'

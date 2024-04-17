@@ -48,6 +48,7 @@ foskym-oauth-center:
     authorized:
       load_more: 'Charger plus'
       no_more_records: 'Il n''y a plus d''enregistrements'
+      no_records: 'Aucun enregistrement'
     page:
       label:
         authorized: 'Journaux autorisés'
