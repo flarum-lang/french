@@ -8,13 +8,16 @@ CHANGELOG
 **Prise en charge de nouvelles extensions**:
 
 * [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login)
+* [`nodeloc/flarum-ext-my-emoji`](https://github.com/nodeloc/flarum-ext-my-emoji)
 * [`nodeloc/flarum-ext-referral`](https://github.com/nodeloc/flarum-ext-referral)
 * [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
 
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
 * [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
 * [`ordinaryjellyfish/automod`](https://extiverse.com/extension/ordinaryjellyfish/automod)
 
