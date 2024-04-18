@@ -11,11 +11,14 @@ CHANGELOG
 * [`nodeloc/flarum-ext-my-emoji`](https://github.com/nodeloc/flarum-ext-my-emoji)
 * [`nodeloc/flarum-ext-referral`](https://github.com/nodeloc/flarum-ext-referral)
 * [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
+* [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
 
 
 **Mise à jour des traductions de certaines extensions**:
 
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`blomstra/s3-assets`](https://extiverse.com/extension/blomstra/s3-assets)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
 * [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
