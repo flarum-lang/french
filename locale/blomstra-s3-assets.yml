@@ -9,6 +9,27 @@ blomstra-s3-assets:
       configured_by_environment: 'Les paramètres de votre espace de stockage mémoire ont été préconfigurés, il n''y a rien à voir ici.'
       s3-compatible-section: 'Ces paramètres ne sont requis que pour les espaces de stockage mémoire compatibles avec S3'
       s3-compatible-section-help: 'Laissez ces paramètres vides si vous utilisez AWS S3'
+      s3acl:
+        help: 'Spécifier l''ACL pour cet espace de stockage mémoire'
+        label: ACL
+      s3bucket:
+        help: 'Espace de stockage mémoire S3'
+        label: 'Espace de stockage mémoire'
+      s3endpoint:
+        help: 'Point d''accès S3'
+        label: 'Point d''accès'
       s3key:
-        help: aide
+        help: 'Clé d''accès S3'
         label: Clé
+      s3path-style-endpoint:
+        help: 'Passer au chemin de stockage du style'
+        label: 'Chemin du point d''accès de style S3'
+      s3region:
+        help: 'Région S3'
+        label: Région
+      s3secret:
+        help: 'Clé secrète d''accès S3'
+        label: 'Clé secrète'
+      s3url:
+        help: 'URL S3'
+        label: URL
