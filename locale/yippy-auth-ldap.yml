@@ -5,15 +5,35 @@
 yippy-auth-ldap:
   admin:
     settings:
+      display_detailed_error: 'Afficher les erreurs LDAP détaillées pour les tentatives de connexion échouées'
       domains:
         add: 'Ajouter un domaine'
         banner: 'Domaine {index}'
         data:
-          base_dn: 'Noms de domaine de la base'
+          admin_dn: 'Nom distinctif (DN)'
+          admin_dn_help: 'Laisser vide pour une liaison anonyme'
+          admin_password: 'Mot de passe'
+          admin_password_help: 'Laisser vide pour une liaison anonyme'
+          base_dn: 'Noms distinctifs de la base'
           base_dn_help: 'Séparés par un point-virgule'
           filter: 'Filtre à appliquer'
+          filter_help: 'Facultatif, doit exclure les « Champs de recherche » du filtre. Par exemple, si le filtre est « (objectclass=user) » et que l''on sélectionne « uid » dans « Champs de recherche », le filtre sera modifié comme suit : ''(&(objectclass=user)(uid=[User''s Input]))"'
+          follow_referrals: 'Suivre les références pour se lier au serveur LDAP'
           host: 'Domaines ou adresses IP des serveurs'
           host_help: 'Séparés par une virgule'
+          port: Port
+          port_help: 'Non SSL (port 389) ou SSL (port 636).'
+          search_user_fields: 'Champs de recherche'
+          search_user_fields_help: 'Sélectionnez plusieurs champs de recherche à l''aide des options déroulantes. Par exemple, en sélectionnant « mail », vous n''autoriserez que l''adresse de courriel, tandis que « uid,mail » autorisera soit l''adresse de courriel, soit le nom d''utilisateur.'
+          use_ssl: 'Utiliser SSL'
+          use_tls: 'Utiliser TLS'
+          user_mail: 'Attribuer un champ d''adresse de courriel'
+          user_mail_help: 'Laissez vide pour permettre aux utilisateurs de définir leur propre adresse de courriel lors de l''inscription'
+          user_nickname_fields: 'Attribuer un pseudonyme avec des champs'
+          user_nickname_fields_help: 'L''extension de pseudonyme doit être activée, compiler le pseudonyme avec plusieurs champs LDAP en utilisant les options du menu déroulant. Par exemple, en sélectionnant « givenname,sn », le pseudonyme sera « [Prénom] [Nom] »'
+          user_username: 'Attribuer un champ de nom d''utilisateur'
+          version: 'Version LDAP'
+          version_help: 'Ne peut être réglé que sur 2 ou 3 (3 est la valeur par défaut).'
         description: 'Saisissez tous les domaines LDAP disponibles que Flarum doit utiliser pour se connecter'
         header:
           admin: 'Administrateur LDAP'
@@ -24,6 +44,7 @@ yippy-auth-ldap:
           server: 'Paramètres du serveur LDAP'
         title: 'Domaines LDAP'
       method_name: 'Nom du serveur LDAP (apparaîtra après « Se connecter avec »)'
+      onlyUse: 'Masquer la méthode de connexion standard de Flarum'
       title: 'Paramètres LDAP'
   forum:
     account_found: 'Compte trouvé dans {server}'
