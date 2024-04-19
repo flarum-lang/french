@@ -20,6 +20,7 @@ foskym-oauth-center:
       clients: 'Gérer les clients'
       index: accueil
       scopes: 'Gérer les champs d''application'
+      tokens: 'Gérer les jetons'
     permission:
       use_oauth: 'Utiliser OAuth'
     scopes:
@@ -32,6 +33,7 @@ foskym-oauth-center:
       scope_desc: Description
       scope_icon: Icône
       scope_name: Nom
+      visible_fields: 'Champs visibles'
     settings:
       access_lifetime: 'Durée de vie du jeton d''accès (en secondes)'
       allow_implicit: 'Autoriser l''octroi implicite (response_type=token)'
@@ -39,6 +41,9 @@ foskym-oauth-center:
       display_mode: 'Mode d''affichage'
       enforce_state: 'Renforcer la validation de l''état (paramètre d''état)'
       require_exact_redirect_uri: 'Exiger un URI de redirection exact'
+    tokens:
+      add_token: 'Ajouter un jeton'
+      delete_token: 'Supprimer le jeton'
   forum:
     authorize:
       access: 'Accès à'
