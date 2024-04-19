@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+4.23.0 (2024-04-19)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login)
+* [`nodeloc/lottery`](https://github.com/nodeloc/lottery)
+* [`nodeloc/flarum-ext-my-emoji`](https://github.com/nodeloc/flarum-ext-my-emoji)
+* [`nodeloc/flarum-ext-referral`](https://github.com/nodeloc/flarum-ext-referral)
+* [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
+* [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`blomstra/s3-assets`](https://extiverse.com/extension/blomstra/s3-assets)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`ordinaryjellyfish/automod`](https://extiverse.com/extension/ordinaryjellyfish/automod)
+
+
+Journal de toutes les modifications : [v4.22.0...v4.23.0](https://github.com/flarum-lang/french/compare/v4.22.0...v4.23.0).
+
+
 4.22.0 (2024-02-28)
 -------------------
 
