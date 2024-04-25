@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.23.1 (XXXX-XX-XX)
+-------------------
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
+
+
+Journal de toutes les modifications : [v4.23.0...v4.23.1](https://github.com/flarum-lang/french/compare/v4.23.0...v4.23.1).
+
+
 4.23.0 (2024-04-19)
 -------------------
 
