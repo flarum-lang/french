@@ -4,6 +4,23 @@
 
 yippy-tag-with-themes:
   admin:
+    designs:
+      add: 'Ajouter une conception pour les étiquettes'
+      banner: 'Thème de conception {index}'
+      data:
+        child_background_color: 'Modifier la couleur d''arrière-plan de l''enfant'
+        is_enabled: 'Activer le thème de conception'
+        outline_background_color: 'Modifier la couleur du contour'
+        primary_background_color: 'Modifier la couleur d''arrière-plan primaire'
+        tags: 'Étiquettes primaires sélectionnées'
+        tags_help: 'Sélectionnez une ou plusieurs étiquettes pour ce thème de conception personnalisé'
+        themeName: 'Sélectionner un thème'
+        unread_color: 'Modifier la couleur d''arrière-plan des messages non lus'
+      description: 'Permet de définir une liste de règles pour l''affichage de différents thèmes pour des étiquettes spécifiques'
+      header:
+        color_theme: 'Personnalisation de la palette de couleurs par défaut'
+        theme: 'Thème personnalisé'
+      title: 'Thème personnalisé pour les étiquettes'
     helps:
       design_default: 'Sélectionner une mise en page de conception par défaut'
     labels:
@@ -18,6 +35,14 @@ yippy-tag-with-themes:
         basic_outline_tag: 'Schéma de base (étiquette primaire)'
         basic_tab: 'Essentiel (onglet primaire)'
         basic_tag: 'Essentiel (étiquette primaire)'
+        flat: Plat
+        flat_banner: 'Plat (bannière primaire)'
+        flat_border: 'Bordure plate'
+        flat_border_banner: 'Bordure plate (bannière primaire)'
+        flat_border_tab: 'Bordure plate (onglet primaire)'
+        flat_border_tag: 'Bordure plate (étiquette primaire)'
+        flat_tab: 'Plat (onglet primaire)'
+        flat_tag: 'Plat (étiquette primaire)'
         sticky_note: 'Note épinglée'
         sticky_note_banner: 'Note épinglée (bannière primaire)'
         sticky_note_outline: 'Schéma de note épinglée'
