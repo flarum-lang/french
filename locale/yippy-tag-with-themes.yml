@@ -9,9 +9,12 @@ yippy-tag-with-themes:
       banner: 'Thème de conception {index}'
       data:
         child_background_color: 'Modifier la couleur d''arrière-plan de l''enfant'
+        child_font_class: 'Modifier la police enfant'
         is_enabled: 'Activer le thème de conception'
         outline_background_color: 'Modifier la couleur du contour'
         primary_background_color: 'Modifier la couleur d''arrière-plan primaire'
+        primary_font_class: 'Modifier la police primaire'
+        secondary_font_class: 'Modifier la police secondaire'
         tags: 'Étiquettes primaires sélectionnées'
         tags_help: 'Sélectionnez une ou plusieurs étiquettes pour ce thème de conception personnalisé'
         themeName: 'Sélectionner un thème'

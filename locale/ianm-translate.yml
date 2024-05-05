@@ -36,9 +36,21 @@ ianm-translate:
         api_key:
           help: 'Enregistrez-vous pour obtenir une clé API sur {link}. Ce pilote utilise l''API V2 - Basique.'
           label: '=> ianm-translate.lib.settings.api-key'
+      libre:
+        api_key:
+          help: '(facultatif) Si votre serveur LibreTranslate a besoin d''une clé API, saisissez-la ici.'
+          label: '=> ianm-translate.lib.settings.api-key'
+        port:
+          help: 'Le port du serveur LibreTranslate. Si vous utilisez votre propre instance, entrez le port ici.'
+          label: 'Port du serveur'
+        url:
+          help: 'L''URL du serveur LibreTranslate. Si vous utilisez votre propre instance, entrez l''URL ici. Le schéma doit être `http` ou `https`.'
+          label: 'URL du serveur'
       provider: 'Fournisseur de services de traduction'
       readme-info: 'Pour plus d''informations, veuillez consulter la documentation dans le fichier README.'
       readme-none: 'Aucun paramètre supplémentaire n''est requis pour ce pilote.'
+      seemless: 'Traduction en continu'
+      seemless-help: 'Fonctionnalité bêta. Lorsqu''elle est activée, tout le contenu des utilisateurs est traduit automatiquement dans toutes les autres langues disponibles sur le forum. Lorsqu''un utilisateur consulte un contenu multilingue, les traductions s''affichent automatiquement.'
       translate-all-enabled: 'Activer toutes les langues de traduction'
       translate-all-help: 'Lorsque cette option est activée, les administrateurs et les autres utilisateurs autorisés peuvent traduire le contenu dans n''importe quelle langue installée sur le forum.'
       translate-polls: 'Traduire les sondages'
@@ -46,6 +58,8 @@ ianm-translate:
       use-native-locale-names: 'Utiliser les noms locaux natifs'
       use-native-locale-names-help: 'Si cette option est activée, le nom de la langue native sera utilisé à la place de la version locale actuelle du nom.'
   forum:
+    composer:
+      multi-languages: 'Astuce : vous pouvez écrire avec la langue de votre choix, le forum la traduira pour vous.'
     detected-language: 'Ce message est en {postLang}'
     discussion:
       post:
@@ -65,6 +79,9 @@ ianm-translate:
         title: 'Gérer les traductions du sondage'
       save-changes: '=> core.ref.save_changes'
       translations-label: Traductions
+    original-content:
+      title: 'Contenu original'
+      view: 'Voir le contenu original'
     refresh-translation: 'Actualiser la traduction'
     translate-button-label: Traduire
     unknown-language: '[non détecté]'
@@ -79,5 +96,6 @@ ianm-translate:
       deepl: DeepL
       google-cloud: 'Google Cloud Translate'
       google-free: 'Google Traduction'
+      libre: 'Libre Translate'
     settings:
       api-key: 'Clé API'
