@@ -7,6 +7,8 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
 * [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
 
 
