@@ -11,9 +11,12 @@ fof-polls:
       self_post_edit: 'Modifier *tous* les sondages sur ses propres messages (nécessite l''autorisation de modifier les messages)'
       start: 'Démarrer un sondage'
       start_global: 'Démarrer un sondage global'
+      upload_images: 'Autoriser les utilisateurs à télécharger des images pour les sondages'
       view_results_without_voting: 'Afficher les résultats sans voter'
       vote: 'Voter sur les sondages'
     settings:
+      allow_image_uploads: 'Autoriser le téléchargement d''images pour les sondages et leurs options'
+      allow_image_uploads_help: 'Si cette option est activée, les utilisateurs pourront télécharger des images en fournissant également l''URL de l''image (si cette option est activée pour les options, elle est toujours activée pour le sondage lui-même).'
       allow_option_image: 'Permettre de fournir l''URL d''une image pour chaque option de sondage'
       enable_global_polls: 'Activer les sondages globaux'
       enable_global_polls_help: 'Les sondages globaux ne sont pas liés à un message spécifique et sont accessibles à partir d''une page dédiée aux sondages.'
@@ -61,6 +64,7 @@ fof-polls:
         alt_label: 'Texte d''accompagnement de l''image'
         help: 'Transférez une image à afficher à côté du sondage (facultatif).'
         label: 'Image du sondage'
+        later_help: 'Vous pourrez transférer une image après avoir créé le sondage.'
       poll_option_image:
         help: 'Transférer une image qui sera affichée à côté de la réponse au sondage (facultatif).'
         label: 'Image de la réponse au sondage'
@@ -114,6 +118,6 @@ fof-polls:
       votes: '{count, plural, one {# vote} other {# votes}}'
     upload_image:
       remove_button: 'Supprimer l''image'
-      upload_button: 'Sélectionner une image'
+      upload_button: 'Transférer une image'
     votes_modal:
       title: Votants

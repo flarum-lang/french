@@ -25,6 +25,12 @@ datitisev-backup:
         bucket:
           description: 'Seau (bucket) S3 à transférer.'
           label: 'Seau (Bucket)'
+        credentials-key:
+          description: 'Clé d''identification AWS'
+          label: Clé
+        credentials-secret:
+          description: 'Clé secrète d''identification AWS'
+          label: 'Clé secrète'
         credentials:
           key:
             description: 'Clé d''identification d''AWS'
@@ -96,6 +102,12 @@ datitisev-backup:
           description: 'Le nom d''utilisateur avec lequel il faut s''authentifier sur le serveur FTP.'
           label: 'Nom d''utilisateur'
       gdrive:
+        client-id:
+          description: "Suivez les instructions à l'adresse https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md pour créer un projet Google et récupérer l'identifiant et la clé secrète du client.\n"
+          label: 'Identifiant du client'
+        client-secret:
+          description: ' '
+          label: 'Clé secrète du client'
         client:
           id:
             description: "Suivez les instructions sur https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md pour créer un projet Google et récupérer votre identifiant client et votre clé secrète du client.\n"
@@ -106,6 +118,9 @@ datitisev-backup:
         folder:
           description: 'https://drive.google.com/drive/u/0/folders/ID'
           label: 'Identifiant du dossier'
+        help:
+          test_button: 'Test de connexion'
+          test_success_alert: 'Connexion à Google Drive réussie ! Enregistrez les modifications pour sauvegarder les paramètres.'
         refresh-token:
           description: "Suivez les instructions sur https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md pour récupérer le jeton actualisé pour votre application Google oAuth.\n"
           label: 'Actualiser le jeton'
@@ -113,6 +128,7 @@ datitisev-backup:
         target:
           description: 'Spécifiez le répertoire local dans lequel les sauvegardes seront enregistrées.'
           label: 'Chemin de la cible'
+      name_label: 'Nom de l''emplacement'
       title: 'Configurer {adapter}'
     adapters:
       aliyun: 'Cloud d''Alibaba (Aliyun)'
@@ -128,6 +144,9 @@ datitisev-backup:
       sftp: SFTP
       webdav: Webdav
       zip: 'Archive Zip'
+    create_button: 'Ajouter un nouvel adaptateur'
+    delete_button: Supprimer
+    delete_confirmation: 'Êtes-vous sûr de vouloir supprimer « {name} » ({adapter}) ?'
     nav:
       description: 'Conserver des copies de votre forum.'
       label: Sauvegarde

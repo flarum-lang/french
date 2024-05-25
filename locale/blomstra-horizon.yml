@@ -31,6 +31,8 @@ blomstra-horizon:
         redis-cpu-sys: 'Redistribuer le processeur du système'
         redis-cpu-user: 'Redistribuer le processeur de l''utilisateur'
         redis-max-memory: 'Redistribuer la mémoire maximale'
+        redis-memory-policy: 'Redistribuer la politique de mémoire'
+        redis-memory-policy-tooltip: "La politique de mémoire est la façon dont Redis sélectionnera ce qui doit être supprimé lorsque\nla limite de mémoire maximale est atteinte. La valeur par défaut est `noeviction` : les nouvelles valeurs \nne sont pas sauvegardées lorsque la limite de mémoire est atteinte. Cliquez ici pour consulter la documentation.\n"
         redis-peak-memory: 'Redistribuer les pics de mémoire'
         redis-used-memory: 'Redistribuer la mémoire utilisée'
         status:
