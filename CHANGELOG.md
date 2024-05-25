@@ -2,17 +2,27 @@ CHANGELOG
 =========
 
 
-4.23.1 (XXXX-XX-XX)
+4.24.0 (XXXX-XX-XX)
 -------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
+* [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
+
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup)
 * [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
 * [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
 
 
-Journal de toutes les modifications : [v4.23.0...v4.23.1](https://github.com/flarum-lang/french/compare/v4.23.0...v4.23.1).
+Journal de toutes les modifications : [v4.23.0...v4.24.0](https://github.com/flarum-lang/french/compare/v4.23.0...v4.24.0).
 
 
 4.23.0 (2024-04-19)
