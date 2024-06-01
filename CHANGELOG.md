@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.25.0 (XXXX-XX-XX)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`tohsakarat/table-of-content`](https://github.com/tohsakrat/flarum-table-of-content)
+
+
+Journal de toutes les modifications : [v4.24.0...v4.25.0](https://github.com/flarum-lang/french/compare/v4.24.0...v4.25.0).
+
+
 4.24.0 (2024-05-26)
 -------------------
 
