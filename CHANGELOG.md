@@ -7,7 +7,17 @@ CHANGELOG
 
 **Prise en charge de nouvelles extensions**:
 
+* [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion)
 * [`tohsakarat/table-of-content`](https://github.com/tohsakrat/flarum-table-of-content)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 
 
 Journal de toutes les modifications : [v4.24.0...v4.25.0](https://github.com/flarum-lang/french/compare/v4.24.0...v4.25.0).
