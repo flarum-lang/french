@@ -27,6 +27,15 @@ ianm-twofactor:
         title: 'Groupes où l''A2F est requis'
       logo_qr: 'Logo sur le code QR'
       logo_qr_help: 'Si un logo a été transféré, il sera intégré au code QR. Laissez vide pour utiliser le logo du forum.'
+      tokens:
+        also_kill_developer_tokens: 'Mettre également fin aux jetons des développeurs'
+        also_kill_developer_tokens_help: 'Met également fin aux jetons d''accès des développeurs qui ont été inactifs pendant la période spécifiée.'
+        heading: 'Jetons d''accès'
+        help: 'Pour une sécurité accrue, vous pouvez gérer ici des comportements supplémentaires liés aux jetons d''accès.'
+        kill_inactive_tokens: 'Mettre fin aux jetons inactifs'
+        kill_inactive_tokens_age_days: 'Délai d''expiration des jetons inactifs (en jours)'
+        kill_inactive_tokens_age_days_help: 'Le nombre de jours d''inactivité après lesquels les jetons d''accès seront supprimés.'
+        kill_inactive_tokens_help: 'Met fin automatiquement aux jetons d''accès qui ont été inactifs pendant une période de temps spécifiée.'
   email:
     body:
       status_changed: "Bonjour {recipient_display_name},\n\nL'authentification à deux facteurs a été {type} pour votre compte sur {forum_url}.\n\nSi vous êtes à l'origine de cette action, aucune autre démarche n'est nécessaire. Si vous n'avez pas autorisé cette modification, veuillez contacter immédiatement les administrateurs du forum.\n"

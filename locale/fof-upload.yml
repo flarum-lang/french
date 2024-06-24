@@ -14,6 +14,7 @@ fof-upload:
     help_texts:
       client_extension: "Par défaut, l'extension Upload sélectionnera une extension de fichier sûre en fonction du type MIME.\nPour certains types de fichiers basés sur des données ZIP ou binaires, cela peut entraîner l'utilisation d'extensions génériques au lieu de l'extension attendue.\nVous pouvez saisir ici une liste d'extensions de fichiers, séparées par des virgules, qui seront conservées mot pour mot.\n"
       composer_buttons: "Par défaut, le bouton du gestionnaire de médias et le bouton de téléchargement sont tous deux visibles. Vous pouvez également décider de n'afficher qu'un seul bouton.\n"
+      custom_s3_url: "Utilisez ce paramètre si vous utilisez un service compatible S3 qui nécessite un format d'URL spécifique (par exemple, Backblaze B2) ou si vous rencontrez des problèmes avec le format d'URL par défaut. Ce paramètre n'est généralement pas nécessaire pour la plupart des services. Assurez-vous que l'URL inclut le protocole (https://) et qu'elle est correctement formatée. Par exemple : https://your-bucket.s3.your-region.backblazeb2.com\n"
       disable-download-logging: "Désactivez la journalisation de chaque téléchargement effectué par les utilisateurs de votre forum. En gardant cette option activée, vous pourrez visualiser le nombre de téléchargements en plus d'autres statistiques dans un avenir proche.\n"
       disable-hotlink-protection: "La protection contre les liens hypertextes automatiques empêche l'ouverture des téléchargements à partir d'autres sites. La méthode actuelle nécessite un jeton CSRF et un identifiant de publication.\n"
       download_templates: "Les modèles de téléchargement indiquent comment les téléchargements sont affichés sur votre forum, comme par exemple des prévisualisations ou des boutons. Actuellement disponible :\n"
@@ -40,6 +41,7 @@ fof-upload:
         acl: 'Liste de contrôle d''accès (ACL)'
         advanced_title: 'Paramètres avancés de stockage S3'
         bucket: 'Espace de stockage mémoire'
+        custom_url: 'URL S3 personnalisée'
         endpoint: 'Point d''accès'
         key: Clé
         region: Région

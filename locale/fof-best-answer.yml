@@ -13,6 +13,8 @@ fof-best-answer:
     settings:
       allow_select_own_post: 'Sélectionner ses propres publications'
       allow_select_own_post_help: 'Autoriser un utilisateur de sélectionner son propre message comme meilleure réponse à une discussion'
+      discussion_sidebar_jump_button: 'Afficher le bouton « Voir la meilleure réponse » dans la barre latérale de la discussion'
+      discussion_sidebar_jump_button_help: 'Ajoute un bouton à la barre latérale de la discussion qui permet de se rendre directement à la meilleure réponse dans le flux des messages.'
       documentation: Documentation
       enable_all_tags_button: 'Activer toutes les étiquettes pour les meilleures réponses'
       enable_all_tags_reminder_button: 'Activer toutes les étiquettes pour les rappels d''une meilleure réponse'
@@ -61,6 +63,8 @@ fof-best-answer:
     best_answer_label: 'sélectionnée par <a>{username}</a> {time_set}'
     composer:
       titlePlaceholder: 'Titre de la question'
+    discussion:
+      jump_to_best_answer_button: 'Voir la meilleure réponse'
     errors:
       mismatch: 'Le message sélectionné n''existe pas dans cette discussion.'
     filter:

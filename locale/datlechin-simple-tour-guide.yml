@@ -4,6 +4,7 @@
 
 datlechin-simple-tour-guide:
   admin:
+    add_step: 'Ajouter une nouvelle étape'
     description: Description
     description_placeholder: 'La description de l''étape.'
     edit_modal:
@@ -11,6 +12,9 @@ datlechin-simple-tour-guide:
       delete_step: 'Supprimer une étape'
       delete_step_confirmation: 'Êtes-vous sûr de vouloir supprimer cette étape ?'
       edit_step: 'Modifier {title}'
+    'no': Non
+    permissions:
+      reset_tour_guide: 'Réinitialiser le guide touristique'
     settings:
       allow_close_help: 'Permettre aux utilisateurs de fermer la fenêtre contextuelle en cliquant sur l''arrière-plan.'
       allow_close_label: 'Autoriser la fermeture'
@@ -20,8 +24,13 @@ datlechin-simple-tour-guide:
     target_placeholder: 'L''élément cible de l''étape (par exemple #element-id).'
     title: Titre
     title_placeholder: 'Le titre de l''étape.'
+    trigger_click: 'Clic de déclenchement'
+    'yes': Oui
   forum:
     done_btn_text: Effectué
     next_btn_text: Suivant
     prev_btn_text: Précédent
     progress_text: '{current} de {total}'
+    user_controls:
+      reset_tour_guide: 'Recommencer la visite'
+      reset_tour_guide_confirmation: 'Êtes-vous sûr de vouloir forcer cet utilisateur à recommencer la visite ?'
