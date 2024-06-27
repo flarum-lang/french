@@ -14,7 +14,9 @@ CHANGELOG
 **Mise à jour des traductions de certaines extensions**:
 
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`clarkwinkelmann/flarum-ext-mass-actions`](https://github.com/clarkwinkelmann/flarum-ext-mass-actions)
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
