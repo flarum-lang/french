@@ -5,7 +5,7 @@
 flarum-sticky:
   admin:
     permissions:
-      sticky_discussions_label: 'Épingler les discussions'
+      sticky_discussions_label: 'Discussions épinglées'
   forum:
     badge:
       sticky_tooltip: '=> flarum-sticky.ref.sticky'
@@ -16,4 +16,4 @@ flarum-sticky:
       discussion_stickied_text: '{username} a épinglé la discussion le {time}.'
       discussion_unstickied_text: '{username} a désépinglé la discussion le {time}.'
   ref:
-    sticky: Épingler
+    sticky: Épingle

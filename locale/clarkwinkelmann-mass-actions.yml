@@ -14,12 +14,12 @@ clarkwinkelmann-mass-actions:
       lock: 'Verrouiller la sélection'
       markAsRead: 'Marquer comme lu la sélection'
       restore: 'Restaurer la sélection'
-      sticky: 'Épingler sélectionné'
+      sticky: 'Épingle sélectionnée'
       tags: Étiquettes
       tags-add: 'Ajouter <em>{tag}</em>'
       tags-edit: 'Modifier les étiquettes'
       unlock: 'Déverrouiller la sélection'
-      unsticky: 'Non épingler sélectionné'
+      unsticky: 'Non épingle sélectionnée'
     select:
       all: Tous
       hidden: 'Supprimé sans destruction'
