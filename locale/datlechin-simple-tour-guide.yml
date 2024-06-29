@@ -20,6 +20,8 @@ datlechin-simple-tour-guide:
       allow_close_label: 'Autoriser la fermeture'
       show_progress_help: 'L''étape actuelle et le nombre total d''étapes s''afficheront en haut de la fenêtre contextuelle.'
       show_progress_label: 'Afficher l''état d''avancement'
+      skip_null_elements_help: 'Ignorer les étapes dont la cible ne correspond à aucun élément HTML. Vous pouvez l''utiliser pour cibler des langues avec « html[lang="fr"] my-selector ». Ceci cache également le bouton « Précédent » pour des raisons de cohérence, et vous devriez cacher la progression.'
+      skip_null_elements_label: 'Ignorer les éléments nuls'
     target: Cible
     target_placeholder: 'L''élément cible de l''étape (par exemple #element-id).'
     title: Titre
