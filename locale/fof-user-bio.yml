@@ -14,5 +14,10 @@ fof-user-bio:
       bioLimit: 'Limite de caractères de la biographie'
       maxLines: 'Nombre maximum de lignes à afficher à la fois'
   forum:
+    profile:
+      cancel_button: Annuler
+      cancel_confirm: 'Êtes-vous sûr de vouloir annuler la modification de votre biographie ? Vous perdrez toutes les modifications apportées.'
+      edit_bio_label: 'Modifier la biographie'
+      save_button: Enregistrer
     userbioPlaceholder: 'Écrivez quelque chose à propos de vous'
     userbioPlaceholderOtherUser: 'Rédiger une biographie pour {username}'
