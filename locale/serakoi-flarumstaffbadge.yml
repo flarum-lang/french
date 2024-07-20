@@ -4,6 +4,11 @@
 
 serakoi-flarumstaffbadge:
   admin:
+    permissions:
+      canEditStaffBadge:
+        label: 'Peut modifier le badge de l''équipe'
+      canEditTagList:
+        label: 'Peut modifier la liste des étiquettes'
     staffBadge:
       help: "Le texte du badge de l'équipe (par défaut sur «\_STAFF\_»)"
       label: 'Texte du badge de l''équipe'

@@ -15,6 +15,10 @@ muhammedsaidckr-gemini:
       enabled_tags_label: 'Étiquettes activées'
       model_help: 'Sélectionnez le modèle à utiliser.'
       model_label: Modèle
+      prompt_help: 'Saisissez l''invite qui sera utilisée pour générer la réponse. La variable [title] doit être maintenue constante.'
+      prompt_label: Invite
+      role_help: 'Sélectionnez le rôle qui sera utilisé pour générer la réponse.'
+      role_label: Rôle
       user_prompt_badge_help: 'Le texte qui sera affiché à côté de l''invite de l''utilisateur.'
       user_prompt_badge_label: 'Badge d''invite de l''utilisateur'
       user_prompt_help: 'Saisissez l''identifiant de l''utilisateur qui sera utilisé pour générer la réponse. Par défaut, il s''agit de l''utilisateur qui a démarré la discussion.'
