@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+4.26.0 (XXXX-XX-XX)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`ffans/geetest`](https://github.com/FFans/geetest)
+* [`litalino/flarum-auto-post-count-badge`](https://github.com/Litalino/flarum-auto-post-count-badge)
+* [`litalino/flarum-related-discussions`](https://github.com/Litalino/flarum-related-discussions)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini)
+* [`serakoi/flarumstaffbadge`](https://github.com/ThatKoffe/flarumstaffbadge)
+
+
+Journal de toutes les modifications : [v4.25.0...v4.26.0](https://github.com/flarum-lang/french/compare/v4.25.0...v4.26.0).
+
+
 4.25.0 (2024-07-05)
 -------------------
 
