@@ -7,6 +7,10 @@ gbcl-userip:
     permissions:
       view_ip_info_label: 'Informations sur l''adresse IP'
     service:
+      ipinfo:
+        description: 'Utilisez <b>https://ipinfo.io</b> pour obtenir des informations plus précises sur l''adresse IP (jeton requis)'
+        key: 'Jeton IpInfo (obligatoire)'
+        label: IpInfo
       ipsb:
         description: 'Utilisez <b>https://ip.sb</b> pour obtenir gratuitement des informations sur la localisation de l''adresse IP (veillez à prendre en compte de la limite de tarif)'
         label: IP.SB

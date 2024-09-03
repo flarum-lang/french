@@ -4,6 +4,10 @@
 
 foskym-oauth-center:
   admin:
+    action:
+      delete_all_records_button: 'Supprimer tous les enregistrements'
+      delete_all_records_confirm: 'Confirmer la suppression de tous les enregistrements'
+      delete_all_records_success: 'Suppression de tous les enregistrements'
     clients:
       add_button: 'Ajouter un client'
       client_desc: Description
@@ -36,6 +40,7 @@ foskym-oauth-center:
       visible_fields: 'Champs visibles'
     settings:
       access_lifetime: 'Durée de vie du jeton d''accès (en secondes)'
+      allow_delete_records: 'Autoriser la suppression des enregistrements d''autorisation'
       allow_implicit: 'Autoriser l''octroi implicite (response_type=token)'
       authorization_method_fetch: 'Méthode d''autorisation de Fetch (ne redirige pas directement vers ce service)'
       display_mode: 'Mode d''affichage'
@@ -51,6 +56,9 @@ foskym-oauth-center:
       deny: Refuser
       require_these_scopes: 'Rendre obligatoire ces champs d''application'
     authorized:
+      delete_all_button: 'Supprimer tous les journaux'
+      delete_all_confirm: 'Confirmer la suppression de tous les journaux'
+      delete_button: 'Supprimer ce journal'
       load_more: 'Charger plus'
       no_more_records: 'Il n''y a plus d''enregistrements'
       no_records: 'Aucun enregistrement'

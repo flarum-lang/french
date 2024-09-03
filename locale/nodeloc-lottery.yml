@@ -8,6 +8,7 @@ nodeloc-lottery:
       canCancelEnter: 'Peut changer d''entrée'
       enter: 'Peut participer à une loterie'
       moderate: 'Modifier et supprimer les loteries'
+      seeParticipants: 'Voir les participants'
       self_edit: 'Modifier les loteries créées (nécessite l''autorisation de modifier les messages)'
       self_post_edit: 'Modifier *toutes* les loteries sur ses propres messages (nécessite l''autorisation de modifier les messages)'
       start: 'Démarrer une loterie'
@@ -18,14 +19,19 @@ nodeloc-lottery:
       options_color_blend: 'Mélange de couleurs du texte dans les options de loterie'
       options_color_blend_help: 'Utilisez cette option pour mélanger les couleurs afin de rendre les options de la loterie plus lisibles. Désactivez cette option si elle provoque des problèmes d''apparence sur votre forum, en réduisant la lisibilité.'
   email:
+    body:
+      drawLottery: "Bonjour {recipient_display_name},\n\nFélicitations, vous avez gagné le {discussion_title} de {actor_display_name}.\n\nConsultez la discussion ici : {discussion_url}\n"
+      fail: "Bonjour {recipient_display_name},\n\nNous avons le regret d'annoncer que {discussion_title} a échoué faute d'un nombre suffisant de participants.\n\nConsultez la discussion ici : {discussion_url}\n"
+      finish: "Bonjour {recipient_display_name},\n\nFélicitations, la loterie est un succès !\n\nVisitez la discussion ici : {discussion_url}, et terminez la loterie.\n\nEn vous remerciant !\n"
     subject:
-      drawLottery: 'Notification du tirage au sort'
+      drawLottery: 'Notification du tirage au sort {discussion_title}'
   forum:
     composer_discussion:
       add_lottery: '=> nodeloc-lottery.forum.moderation.add'
       edit_lottery: '=> nodeloc-lottery.forum.moderation.edit'
       in_queue_alert: 'Vous devez participer à la loterie.'
       no_permission_alert: 'Vous n''avez pas l''autorisation de démarrer une loterie.'
+      no_post_in_discussion_alert: 'Vous n''avez pas répondu à la discussion.'
     days: Jours
     days_remaining: 'la loterie se termine à {time}.'
     endDateText: 'La loterie est terminée !'
@@ -73,6 +79,7 @@ nodeloc-lottery:
       posts_made: 'Messages créés'
       price: Prix
       public_lottery_label: 'Permettre de voir qui a voté'
+      read_permission: Autorisation
       submit: Envoyer
     moderation:
       add: 'Ajouter une loterie'
@@ -80,8 +87,14 @@ nodeloc-lottery:
       delete_confirm: 'Êtes-vous sûr de vouloir supprimer cette loterie ?'
       edit: 'Modifier la loterie'
     no_permission: 'Vous n''avez pas l''autorisation d''entrer'
+    notification:
+      drawLottery: 'Félicitations, vous avez gagné à la loterie.'
+      fail: 'La loterie a échoué faute d''un nombre suffisant de participants.'
+      finish: 'Loterie réussie, envoi aux gagnants.'
     participants_modal:
+      lottery_canceled: 'Annulé pour manque de participants.'
       title: Participants
+      title_winners: Vainqueurs
     public_lottery: 'Voir les participants'
     seconds: Secondes
     too_many_participants: 'Trop de participants'
