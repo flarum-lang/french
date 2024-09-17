@@ -12,11 +12,14 @@ CHANGELOG
 * [`foskym/flarum-better-user-directory`](https://github.com/FoskyM/flarum-better-user-directory)
 * [`foskym/flarum-issue-tracking-youtrack`](https://github.com/FoskyM/flarum-issue-tracking-youtrack)
 * [`foskym/flarum-issue-tracking`](https://github.com/FoskyM/flarum-issue-tracking)
+* [`gbcl/minecraft-oauth`](https://github.com/GBCLStudio/Flarum-MinecraftAuth)
 * [`litalino/flarum-auto-post-count-badge`](https://github.com/Litalino/flarum-auto-post-count-badge)
 * [`litalino/flarum-related-discussions`](https://github.com/Litalino/flarum-related-discussions)
 * [`mattoid/flarum-ext-store-auto-check-in`](https://github.com/Mattoids/flarum-ext-store-auto-check-in)
 * [`mattoid/flarum-ext-store-check-in`](https://github.com/Mattoids/flarum-ext-store-check-in)
 * [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
+* [`shebaoting/repost`](https://github.com/shebaoting/Repost)
+* [`xypp/flarum-invite-user`](https://github.com/zxy19/flarum-invite-user)
 * [`xypp/pay-to-read`](https://github.com/zxy19/flarum-pay-to-read)
 * [`xypp/sticky-card`](https://github.com/zxy19/flarum-sticky-card)
 * [`xypp/store-auto-checkin`](https://github.com/zxy19/flarum-store-auto-checkin)
@@ -26,10 +29,13 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
 * [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini)
 * [`nodeloc/lottery`](https://github.com/nodeloc/lottery)
+* [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
 * [`serakoi/flarumstaffbadge`](https://github.com/ThatKoffe/flarumstaffbadge)
 
 
