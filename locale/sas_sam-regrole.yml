@@ -8,7 +8,7 @@ sas_sam-regrole:
       allow_multiple_roles_label: 'Permettre aux utilisateurs de se voir attribuer plusieurs rôles'
       allowed_roles_label: 'Rôles autorisés'
       allowed_roles_text: 'Sélectionnez les rôles que les utilisateurs sont autorisés à s''attribuer.'
-      force_users_label: 'Obliger les utilisateurs à s''attribuer au moins un rôle'
+      force_users_label: 'Forcer les utilisateurs à s''attribuer au moins un rôle'
       force_users_text: 'Si cette option est désactivée, les utilisateurs qui n''ont aucun des rôles sélectionnés ci-dessus seront suspendus et ne pourront pas utiliser le forum jusqu''à ce qu''ils s''attribuent un rôle (les utilisateurs qui ont le droit de modifier les groupes d''utilisateurs seront exclus).'
       other_options_heading: 'Autres options'
   forum:

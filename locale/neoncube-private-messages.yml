@@ -5,6 +5,7 @@
 neoncube-private-messages:
   admin:
     permissions:
+      allow_users_to_receive_email_notifications: 'Autoriser les utilisateurs à recevoir des notifications par courriel lorsqu''ils reçoivent un message privé'
       start_label: 'Démarrer des conversations privées'
     settings:
       return_key: 'La touche retour envoie un message'
@@ -32,5 +33,15 @@ neoncube-private-messages:
       submit: 'Envoyer et démarrer une conversation'
       title: 'Démarrer une conversation'
     notifications:
+      email:
+        new_private_message:
+          manageEmailSettings: 'Gérer les paramètres de messagerie'
+          subject: 'Message de {user}'
+          viewMessage: 'Voir le message'
+          youHaveReceivedNewMessage: 'Vous avez reçu un nouveau message de {user} !'
       message_received: Tester
+      new_private_message: 'Quelqu''un m''envoie un message'
       notify_message_received: 'Quelqu''un m''a envoyé un message'
+      web:
+        new_private_message:
+          body: 'Message de {fromUser}'

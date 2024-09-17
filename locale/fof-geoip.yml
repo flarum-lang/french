@@ -2,6 +2,11 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-geoip/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+fof-default-user-preferences:
+  admin:
+    settings:
+      showIPCountry: 'Afficher le drapeau du pays d''où l''utilisateur publie son message'
+      showIPCountry-help: 'Ceci est basé sur leur adresse IP au moment de la publication. Le drapeau du pays (s''il est activé) sera visible par tous les utilisateurs. Les administrateurs et les modérateurs verront l''adresse IP dans l''infobulle.'
 fof-geoip:
   admin:
     settings:
@@ -23,6 +28,8 @@ fof-geoip:
       service_ipstack_description: 'Utilisez <b>https://ipstack.com</b> pour effectuer gratuitement jusqu''à 10 000 recherches par mois. Les forfaits payants incluent les informations de connexion (FAI, organisation) et le niveau de menace.'
       service_ipstack_label: IPStack
       service_label: Service
+      show_flag_help: 'Sans divulguer l''adresse IP, afficher le drapeau du pays de l''adresse IP de l''auteur du message.'
+      show_flag_label: 'Afficher le drapeau du pays pour chaque message'
       title: 'GeoIP de FriendsOfFlarum'
   forum:
     alerts:
@@ -41,3 +48,6 @@ fof-geoip:
       threat_types: 'Types de menaces'
       title: 'Informations sur l''adresse IP'
       zip_code: 'Code postal'
+    user:
+      settings:
+        ip_country: 'Afficher le drapeau du pays d''où je publie, en fonction de mon adresse IP'
