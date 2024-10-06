@@ -28,6 +28,8 @@ fof-terms:
       export-url-help: "Tout utilisateur ayant l'autorisation « Exporter les données de toutes les politiques » peut accéder à ces URL pour télécharger la liste des utilisateurs qui ont accepté cette politique. Vous pouvez trouver plus d'informations sur les options disponibles sur le <a>wiki de l'extension</a> (en anglais).\n"
       name: Nom
       name-help: 'Ce nom sera affiché à côté de la case à cocher et comme titre de la fenêtre de mise à jour.'
+      optional: 'Politique facultative'
+      optional-help: 'Lorsque cette option est activée, les utilisateurs peuvent utiliser le forum et interagir avec lui sans accepter cette politique.'
       terms-updated-at: 'Mis à jour à'
       terms-updated-at-help: "La date de la dernière mise à jour des conditions. En définissant cette valeur, tous les utilisateurs ayant accepté les conditions avant cette date devront les accepter à nouveau. La date doit être passée (sinon les utilisateurs ne pourraient jamais accepter après cette date et passer la fenêtre de mise à jour).\n"
       terms-updated-at-placeholder: 'AAAA-MM-JJ (hh:mm:ss)'

@@ -15,6 +15,8 @@ fof-best-answer:
       allow_select_own_post_help: 'Autoriser un utilisateur de sélectionner son propre message comme meilleure réponse à une discussion'
       discussion_sidebar_jump_button: 'Afficher le bouton « Voir la meilleure réponse » dans la barre latérale de la discussion'
       discussion_sidebar_jump_button_help: 'Ajoute un bouton à la barre latérale de la discussion qui permet de se rendre directement à la meilleure réponse dans le flux des messages.'
+      display_tags: 'Afficher les étiquettes dans les résultats de recherche'
+      display_tags_help: 'Afficher le(s) étiquette(s) dans les résultats de recherche pour les discussions ayant des meilleures réponses'
       documentation: Documentation
       enable_all_tags_button: 'Activer toutes les étiquettes pour les meilleures réponses'
       enable_all_tags_reminder_button: 'Activer toutes les étiquettes pour les rappels d''une meilleure réponse'

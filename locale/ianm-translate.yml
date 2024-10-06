@@ -4,6 +4,9 @@
 
 ianm-translate:
   admin:
+    glossary:
+      create_button: 'Créer un nouveau terme'
+      glossary: Glossaire
     permission:
       edit-translation: 'Modifier manuellement une traduction'
       refresh-translation: 'Forcer une retraduction d''une traduction mise en cache'

@@ -5,8 +5,11 @@
 fof-open-collective:
   admin:
     settings:
-      api_key_label: 'Clé API'
-      desc: 'Obtenez votre clé API sur <a>https://opencollective.com/applications</a>.'
+      api_key_label: 'Clé API de l''application (obsolète)'
+      desc: "Obtenez votre jeton personnel sur <a>https://opencollective.com/dashboard</a> sous Paramètres > Pour les développeurs. Ne sélectionnez pas d'autres champs d'application - conservez la sélection vide par défaut.\n"
       group_label: 'Groupe à assigner'
+      personal_token_label: 'Jeton personnel'
       slug_label: 'Identifiant texte unique collectif'
       title: 'Open Collective de FriendsOfFlarum'
+      use_legacy_api_key_help: "Si vous disposez d'une ancienne clé API, vous pouvez continuer à l'utiliser, mais il est recommandé de passer à un jeton personnel. Actuellement, les jetons personnels semblent fonctionner en mode clé API (c'est-à-dire avec l'en-tête « API-Key »), mais cela n'est pas documenté.\n"
+      use_legacy_api_key_label: 'Utiliser la clé API de l''ancienne application'

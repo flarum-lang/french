@@ -2,10 +2,41 @@
 # Use https://weblate.rob006.net/projects/flarum/foskym-custom-levels/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+fof-user-directory:
+  lib:
+    sort:
+      least_exp: '=> foskym-custom-levels.lib.integrations.user-directory.least_exp'
+      most_exp: '=> foskym-custom-levels.lib.integrations.user-directory.most_exp'
 foskym-custom-levels:
   admin:
+    auto_remove:
+      - 'Ne jamais retirer l''expérience'
+      - 'Lorsqu''un message ou une réponse est caché ou supprimé (par défaut)'
+      - 'Lorsqu''un message ou une réponse est supprimé de façon permanente'
+    go_to_forum_quests: 'Plus de paramètres dans les quêtes du forum'
+    levels:
+      add_button: 'Ajouter un niveau'
+      delete_confirmation: 'Confirmer la suppression de ce niveau ?'
+      edit_level: 'Modifier le niveau'
+      min_exp_required: 'Expérience requise'
+      name: 'Nom du niveau'
+    pages:
+      index: Accueil
+      levels: Niveaux
+    permissions:
+      edit_exp: 'Modifier l''expérience de l''utilisateur'
+    preview: Prévisualiser
     settings:
-      expDesc: 'Variables disponibles：[expTotal]'
+      autoRemove: 'Suppression automatique de l''expérience'
+      cascadeRemove: 'Lorsqu''une discussion est supprimée, l''expérience des réponses est supprimée'
+      discussionMaxTimes: 'Le nombre maximum de discussions qui peuvent être menées par jour, 0 étant illimité'
+      expDesc: 'Variables disponibles：[expTotal] [expPercent] [nextLevel] [expToNextLevel]'
+      expForDiscussion: 'L''expérience acquise lors de chaque discussion'
+      expForDiscussionDesc: 'Nombre pur, sans décimale. Ou plage, par exemple 「[1, 10]」 signifie un nombre aléatoire entre 1 et 10'
+      expForLike: 'L''expérience acquise en étant aimé'
+      expForLikeDesc: 'Nécessite l''extension flarum/likes. Nombre pur, sans décimale. Ou plage, par exemple 「[1, 10]」 signifie un nombre aléatoire entre 1 et 10'
+      expForPost: 'L''expérience gagnée pour chaque message'
+      expForPostDesc: 'Nombre pur, sans décimale. Ou plage, par exemple 「[1, 10]」 signifie un nombre aléatoire entre 1 et 10'
       expFormula: 'Saisir la formule pour le gain d''expérience（par exemple「[discussionCount] * 40 + [commentCount] / 20」）'
       expFormulaDesc1: 'Vous pouvez utiliser ces variables：'
       expFormulaDesc2: 'Noyau（[discussionCount] [commentCount]）'
@@ -15,9 +46,70 @@ foskym-custom-levels:
       levelFormula: 'Saisir la formule pour le gain de niveaux（par exemple「[expTotal] / (100 + 5 * [level])」）'
       levelFormulaDesc: 'Vous pouvez utiliser ces variables [expTotal] [level]'
       levelText: 'Saisissez le texte à afficher pour les niveaux (par exemple : rang ou niveau)'
+      postMaxTimes: 'Le nombre maximum de messages qui peuvent être publiés par jour, 0 étant illimité'
+      postMinLength: 'La longueur minimale d''un message, 0 étant illimitée'
+  forum:
+    label:
+      exp_logs: 'Journaux d''expérience'
+    log:
+      exp: 'Modification d''expérience'
+      load_more: 'Charger davantage'
+      no_more: 'Pas plus'
+      no_records: 'Aucun enregistrement'
+      reason: Motif
+      time: Durée
+      type:
+        admin_edit: 'L''administrateur a été modifié'
+        automoderator: 'Modérateur automatique'
+        comment_deleted_in_deleted_discussion: 'Le commentaire a été supprimé dans la discussion supprimée'
+        discussion_deleted: 'La discussion a été supprimée. {title}'
+        discussion_hidden: 'La discussion a été masquée. {title}'
+        discussion_restored: 'La discussion a été restaurée. {title}'
+        discussion_started: 'La discussion a commencé. {title}'
+        forum_quests: 'Quêtes du forum : {name} terminé'
+        post_deleted: 'Le message a été supprimé'
+        post_hidden: 'Le message a été masqué'
+        post_liked: 'Le message a été aimé'
+        post_posted: 'Le message a été publié'
+        post_restored: 'Le message a été restauré'
+        post_unliked: 'Le message n''a pas été aimé'
+        store_purchase: 'Acheté en magasin'
+        system_clear: 'Effacement du système'
+        system_refresh: 'Rafraîchissement du système'
+      view: Voir
+    modal:
+      current: Actuel
+      submit_button: Enregistrer
+      title: 'Modifier l''expérience'
+    notifications:
+      level_updated: 'Félicitations ! Vous avez atteint le niveau {level} !'
+    settings:
+      notify_level_updated: 'Notifier lorsque le niveau est mis à jour'
+    user_controls:
+      edit_exp_button: 'Modifier l''expérience'
   lib:
     defaults:
       exp: '[expTotal] points d''expérience'
       expFormula: '[discussionCount] * 40 + [commentCount] / 20'
       level: Niveau
       levelFormula: '[expTotal] / (100 * [level])'
+    error:
+      calculation: 'Le calcul du niveau d''expérience est erroné.'
+    integrations:
+      automoderator:
+        action_name: 'Donner de l''expérience'
+        metric_name: Expérience
+      forum-quests:
+        reward_name: Expérience
+      store:
+        item_name: Expérience
+        provider_data:
+          same_as_use_cnt: 'La même chose que les durées peut être utilisée'
+      user-directory:
+        least_exp: 'Le moins d''expérience'
+        most_exp: 'Le plus d''expérience'
+nodeloc-leaderboard:
+  lib:
+    sort:
+      least_exp: '=> foskym-custom-levels.lib.integrations.user-directory.least_exp'
+      most_exp: '=> foskym-custom-levels.lib.integrations.user-directory.most_exp'
