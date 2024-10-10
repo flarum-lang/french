@@ -5,6 +5,11 @@ CHANGELOG
 4.26.0 (XXXX-XX-XX)
 -------------------
 
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
 **Prise en charge de nouvelles extensions**:
 
 * [`datlechin/flarum-cbox`](https://github.com/datlechin/flarum-cbox)
