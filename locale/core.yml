@@ -237,6 +237,8 @@ core:
             title: Groupes
           join_time:
             title: Inscription
+          user_actions:
+            title: Actions
           user_id:
             title: Identifiant
           username:
@@ -508,6 +510,8 @@ core:
       hidden_tooltip: Masquée
     data_segment:
       label: '{label} :'
+    datetime_formats:
+      humanTimeShort: 'J MMM'
     debug_button: Déboguer
     dropdown:
       toggle_dropdown_accessible_label: 'Afficher le menu déroulant'
