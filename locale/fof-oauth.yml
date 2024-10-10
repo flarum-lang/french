@@ -82,6 +82,7 @@ fof-oauth:
       settings:
         linked-account:
           help: 'Ces comptes liés vous permettent de vous connecter au forum en utilisant d''autres fournisseurs.'
+          identification-label: 'Identifiant de {provider}'
           identifier-label: 'Identifiant de {provider}'
           label: 'Comptes liés'
           last-used-label: 'Dernière utilisation'

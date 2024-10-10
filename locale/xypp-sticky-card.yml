@@ -3,6 +3,8 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 xypp-sticky-card:
+  api:
+    already_sticky: 'La discussion a déjà été épinglée.'
   forum:
     already: 'La discussion a déjà été épinglée.'
     default: 'Par défaut'
@@ -11,6 +13,8 @@ xypp-sticky-card:
     no-card: 'Aucune carte ne peut être utilisée.'
     not-used: 'Pas utilisée'
     sticky-card: 'Carte épinglée'
+    sticky_card_expire: 'Carte épinglée expirée de {username}'
+    sticky_card_take_effect: 'Carte épinglée utilisée de {username}'
     success: 'Utilisée avec succès'
     use-sticky-card: 'Utiliser une carte épinglée'
     used: 'Utilisée sur {0}'

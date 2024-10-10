@@ -511,7 +511,9 @@ core:
     data_segment:
       label: '{label} :'
     datetime_formats:
+      humanTimeLong: ll
       humanTimeShort: 'J MMM'
+      scrubber: 'MMMM AAAA'
     debug_button: Déboguer
     dropdown:
       toggle_dropdown_accessible_label: 'Afficher le menu déroulant'
