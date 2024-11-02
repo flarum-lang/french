@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+4.27.0 (XXXX-XX-XX)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`gbcl/oauth-logto`](https://github.com/GBCLStudio/flarum-oauth-logto)
+* [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+* [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify)
+* [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
+
+
+Journal de toutes les modifications : [v4.26.0...v4.27.0](https://github.com/flarum-lang/french/compare/v4.26.0...v4.27.0).
+
+
 4.26.0 (2024-10-10)
 -------------------
 
