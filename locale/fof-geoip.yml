@@ -9,8 +9,16 @@ fof-default-user-preferences:
       showIPCountry-help: 'Ceci est basé sur leur adresse IP au moment de la publication. Le drapeau du pays (s''il est activé) sera visible par tous les utilisateurs. Les administrateurs et les modérateurs verront l''adresse IP dans l''infobulle.'
 fof-geoip:
   admin:
+    permissions:
+      see_country: 'Toujours afficher le pays de l''adresse IP'
     settings:
       access_key_label: 'Clé d''accès'
+      general:
+        heading: 'Paramètres généraux'
+        help: 'Ces paramètres contrôlent le comportement général de l''extension.'
+      providers:
+        heading: 'Service de recherche d''adresses IP'
+        help: 'Choisissez un service à utiliser pour les recherches d''adresses IP. Certains services ont des limites de débit, vérifiez donc la documentation du service pour plus d''informations.'
       quota_label: 'Consulter les quotas'
       security_label: 'Module de sécurité (nécessite une licence Professionnel Plus)'
       service_freegeoip_description: 'Utilisez <b>https://freegeoip.app/</b> pour récupérer gratuitement jusqu''à 15 000 codes de pays par heure.'
@@ -28,12 +36,13 @@ fof-geoip:
       service_ipstack_description: 'Utilisez <b>https://ipstack.com</b> pour effectuer gratuitement jusqu''à 10 000 recherches par mois. Les forfaits payants incluent les informations de connexion (FAI, organisation) et le niveau de menace.'
       service_ipstack_label: IPStack
       service_label: Service
-      show_flag_help: 'Sans divulguer l''adresse IP, afficher le drapeau du pays de l''adresse IP de l''auteur du message.'
+      show_flag_help: 'Sans divulguer l''adresse IP, afficher le drapeau du pays de l''adresse IP de l''auteur du message lorsque l''utilisateur choisit d''entrer dans le système par le biais de ses préférences.'
       show_flag_label: 'Afficher le drapeau du pays pour chaque message'
       title: 'GeoIP de FriendsOfFlarum'
   forum:
     alerts:
       ip_copied: 'Adresse IP copiée'
+    copy_ip_label: 'Copier l''adresse IP dans le presse-papiers'
     map_button_label: 'Informations sur l''adresse IP'
     map_modal:
       as: ASN

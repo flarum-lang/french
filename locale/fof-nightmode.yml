@@ -12,10 +12,14 @@ fof-default-user-preferences:
 fof-nightmode:
   admin:
     settings:
+      general:
+        heading: 'Paramètres généraux'
+        help: 'Ces paramètres contrôlent le comportement de base de l''extension.'
       modal:
         always_show_theme_toggle_on_header: 'Toujours afficher le bouton de changement de thème dans l''en-tête du forum'
         default_theme: 'Thème du forum par défaut'
         default_theme_helper: 'Le thème par défaut est automatiquement défini pour les nouveaux utilisateurs, les invités et ceux qui n''ont pas de préférence définie.'
+        show_theme_toggle_in_solid: 'Afficher l''icône du thème dans l''icône solide'
         theme_auto: '=> fof-nightmode.ref.auto'
         theme_dark: '=> fof-nightmode.ref.dark'
         theme_light: '=> fof-nightmode.ref.light'

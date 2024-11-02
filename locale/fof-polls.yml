@@ -20,6 +20,15 @@ fof-polls:
       allow_option_image: 'Permettre de fournir l''URL d''une image pour chaque option de sondage'
       enable_global_polls: 'Activer les sondages globaux'
       enable_global_polls_help: 'Les sondages globaux ne sont pas liés à un message spécifique et sont accessibles à partir d''une page dédiée aux sondages.'
+      general:
+        heading: 'Paramètres généraux'
+        help: 'Ces paramètres contrôlent les fonctions de base de l''extension Polls.'
+      global_polls:
+        heading: 'Sondages généraux'
+        help: 'Ces paramètres contrôlent la fonctionnalité des sondages globaux.'
+      image:
+        heading: 'Paramètres des images'
+        help: 'Ces paramètres contrôlent les paramètres des images pour les sondages.'
       image_height: 'Redimensionner la hauteur de l''image'
       image_width: 'Redimensionner la largeur de l''image'
       max_options: 'Nombre maximum d''options par sondage'

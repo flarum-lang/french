@@ -19,8 +19,14 @@ fof-byobu:
       delete_on_last_recipient_left_help: 'Si cette option est activée, les discussions privées seront définitivement supprimées de la base de données lorsque le dernier utilisateur partira de la conversation. Sinon, les discussions privées seront supprimées en douceur et cachées.'
       enable-make-public-option: "Activer la capacité «\_rendre public\_»"
       enable-make-public-option-help: 'Ajoute la possibilité pour les personnes autorisées de supprimer tous les destinataires, d''attribuer une nouvelle étiquette et de rendre la discussion visible publiquement (selon les paramètres de visibilité de l''étiquette choisie).'
+      general:
+        heading: 'Paramètres généraux'
+        help: 'Ces paramètres contrôlent les fonctions de base de byobu.'
       hide_from_all_discussions_page: "Masquer les discussions privées de la page «\_Toutes les discussions\_»"
       hide_from_all_discussions_page_help: "Les discussions privées ne seront accessibles que depuis la page «\_Discussions privées\_» ou sur le profil de l'utilisateur"
+      icon:
+        heading: 'Paramètres des icônes'
+        help: 'Ces paramètres contrôlent les icônes utilisées par byobu sur le forum.'
       post-event-icon: 'Événements de publication Byobu'
   email:
     body:

@@ -19,3 +19,12 @@ fof-impersonate:
       title: 'Se connecter en tant qu''autre utilisateur'
     user_controls:
       impersonate_button: 'Se connecter en tant qu''utilisateur'
+  lib:
+    modal:
+      impersonate_username: 'Se connecter en tant que {username}'
+      label: 'Un grand pouvoir implique de grandes responsabilités. En continuant, vous deviendrez {username} jusqu''à ce que vous vous déconnectiez.'
+      placeholder_optional: '(Facultatif) Indiquez la raison pour laquelle vous vous êtes connecté en tant que cet utilisateur'
+      placeholder_required: 'Vous devez indiquer la raison pour laquelle vous vous êtes connecté en tant que cet utilisateur avant de poursuivre'
+      title: 'Se connecter en tant qu''autre utilisateur'
+    user_controls:
+      impersonate_button: 'Se connecter en tant qu''utilisateur'

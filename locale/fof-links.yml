@@ -24,6 +24,11 @@ fof-links:
       url_placeholder: '=> fof-links.ref.url'
       use_rel_me: 'Ajoutez l''attribut <code>rel="me"</code> pour vérifier l''identité sur d''autres sites'
       visibility: 'Visibilité du lien'
+      visibility.guest-only.help: 'Seul {guest} peut voir ce lien. L''autorisation ci-dessus doit être définie sur « {everyone} ».'
+      visibility.guest-only.label: 'Uniquement {guest} ?'
+      visibility.help: 'Par défaut, les liens ne sont visibles que par 1<code>{admin}</code> utilisateurs. Ajustez les permissions pour spécifier qui peut voir ce lien.'
+      visibility.help-disabled: 'Enregistrez le lien avant de modifier les paramètres de visibilité.'
+      visibility.label: 'Visibilité des liens'
     links:
       create_button: '=> fof-links.ref.create_link'
       links: '=> fof-links.ref.links'

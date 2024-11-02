@@ -32,6 +32,8 @@ fof-best-answer:
         tags: 'Étiquettes de la meilleure réponse'
       remind_tags_help: 'Sélectionnez, le cas échéant, les étiquettes pour lesquelles vous souhaitez envoyer des rappels. Les rappels ne seront envoyés que pour les discussions sous ces étiquettes.'
       remind_tags_label: 'Étiquettes de rappel'
+      remove_solutions_from_main_search: 'Supprimer les solutions de la recherche principale'
+      remove_solutions_from_main_search_help: 'Supprime les discussions avec les meilleures réponses des principaux résultats de recherche de « Toutes les discussions »'
       schedule_log_output: 'Ajouter la sortie du planificateur au stockage des journaux'
       schedule_on_one_server: 'Utilisez la directive ''onOneServer ()'' pour le planificateur de tâches'
       schedule_on_one_server_help: 'Nécessite Redis/Memcache'

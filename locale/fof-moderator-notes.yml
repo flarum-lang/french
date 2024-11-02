@@ -20,6 +20,7 @@ fof-moderator-notes:
       created_text: '{username} a créé cette note le {date}'
       delete: Supprimer
       dismiss_button: Terminé
+      filter_by_me: 'Uniquement les notes que j''ai créées'
       input_heading: 'Saisissez vos notes pour <strong>{username}</strong> (le Markdown est pris en charge)'
       noNotes: 'Il semble qu''il n''y ait aucune note ici.'
       submit_button: 'Enregistrer la note'

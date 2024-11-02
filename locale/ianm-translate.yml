@@ -5,8 +5,12 @@
 ianm-translate:
   admin:
     glossary:
+      button: Glossaire
       create_button: 'Créer un nouveau terme'
       glossary: Glossaire
+      section:
+        heading: 'Configuration du glossaire'
+        help: 'Les mots ou termes du glossaire sont définis de manière à ce que le service de traduction ne les traduise pas. Ils sont utiles pour les noms propres, les termes techniques ou d''autres mots qui ne doivent pas être traduits.'
     permission:
       edit-translation: 'Modifier manuellement une traduction'
       refresh-translation: 'Forcer une retraduction d''une traduction mise en cache'
@@ -18,6 +22,7 @@ ianm-translate:
       any-language-help: 'Lorsque cette option est activée, toutes les langues de traduction prises en charge par le fournisseur actuel seront disponibles. Pour limiter les langues de traduction à celles qui sont activées sur votre forum, veuillez laisser cette option désactivée.'
       bind-browser-language: 'Ajouter la langue du navigateur'
       bind-browser-language-help: 'Lorsque cette option est activée, la ou les langues du navigateur de l''utilisateur sont ajoutées à la liste des langues disponibles pour la traduction.'
+      button: Paramètres
       deepl:
         api_key:
           help: 'Enregistrez-vous sur {link}. Le pilote détectera automatiquement le type de clé, gratuite ou professionnelle.'
@@ -35,6 +40,9 @@ ianm-translate:
             default: 'Par défaut'
             prefer_less: 'Moins formel'
             prefer_more: 'Plus formel'
+      general:
+        heading: 'Paramètres généraux'
+        help: 'Ces paramètres contrôlent le comportement général du système de traduction.'
       google-cloud:
         api_key:
           help: 'Enregistrez-vous pour obtenir une clé API sur {link}. Ce pilote utilise l''API V2 - Basique.'
@@ -50,6 +58,9 @@ ianm-translate:
           help: 'L''URL du serveur LibreTranslate. Si vous utilisez votre propre instance, entrez l''URL ici. Le schéma doit être `http` ou `https`.'
           label: 'URL du serveur'
       provider: 'Fournisseur de services de traduction'
+      providers:
+        heading: 'Paramètres du fournisseur de traduction'
+        help: 'Sélectionnez votre fournisseur de traduction préféré et configurez ses paramètres ici.'
       readme-info: 'Pour plus d''informations, veuillez consulter la documentation dans le fichier README.'
       readme-none: 'Aucun paramètre supplémentaire n''est requis pour ce pilote.'
       seemless: 'Traduction en continu'
