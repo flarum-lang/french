@@ -7,6 +7,7 @@ CHANGELOG
 
 **Prise en charge de nouvelles extensions**:
 
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`gbcl/oauth-logto`](https://github.com/GBCLStudio/flarum-oauth-logto)
 * [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress)
 
