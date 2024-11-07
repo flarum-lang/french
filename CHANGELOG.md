@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`gbcl/oauth-logto`](https://github.com/GBCLStudio/flarum-oauth-logto)
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
 * [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress)
 
 
