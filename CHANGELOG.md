@@ -15,15 +15,23 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
 * [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify)
 * [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
 
