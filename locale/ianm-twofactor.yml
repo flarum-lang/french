@@ -8,6 +8,12 @@ blomstra-gdpr:
       twofactordata:
         delete_description: 'Supprime toutes les données relatives à l''A2F.'
         export_description: 'Exporte le statut de l''A2F et les codes de sauvegarde chiffrés.'
+flarum-gdpr:
+  lib:
+    data:
+      twofactordata:
+        delete_description: 'Supprime toutes les données relatives à l''A2F.'
+        export_description: 'Exporte le statut A2F et les codes de sauvegarde chiffrés.'
 ianm-twofactor:
   admin:
     edit_group:

@@ -90,6 +90,7 @@ gtdxyz-flarum-badges:
       select_limit: 'Vous pouvez sélectionner {limit, plural, one {<b>one badge</b>} other {<b># badges</b>}} pour être visible dans votre carte d''utilisateur.'
       title: 'Badges dans la carte utilisateur'
     give_badge: 'Distribuer un badge'
+    hidden_badges: 'Cet utilisateur n''affiche pas encore de badges.'
     moderation:
       give_badge: 'Distribuer un badge'
       remove_badge: 'Retirer le badge de l''utilisateur'

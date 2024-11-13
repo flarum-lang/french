@@ -8,6 +8,12 @@ blomstra-gdpr:
       tagsubscription:
         anonymize_description: 'Supprime l''abonnement de l''utilisateur pour l''étiquette.'
         export_description: 'Exporte les informations du niveau d''abonnement pour une étiquette, si elle existe.'
+flarum-gdpr:
+  lib:
+    data:
+      tagsubscription:
+        anonymize_description: 'Supprime l''abonnement de l''utilisateur sur l''étiquette.'
+        export_description: 'Exporte les informations du niveau d''abonnement pour une étiquette, si elle existe.'
 fof-follow-tags:
   admin:
     settings:

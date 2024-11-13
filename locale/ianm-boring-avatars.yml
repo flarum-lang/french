@@ -9,6 +9,13 @@ blomstra-gdpr:
         anonymize_description: 'Supprime l''avatar ennuyeux et en régénère un nouveau au hasard.'
         delete_description: 'Supprime l''avatar ennuyeux.'
         export_description: 'Ajoute l''avatar ennuyeux au fichier compressé d''exportation.'
+flarum-gdpr:
+  lib:
+    data:
+      boringavatar:
+        anonymize_description: 'Supprime l''avatar ennuyeux et en régénère un nouveau au hasard.'
+        delete_description: 'Supprime l''avatar ennuyeux.'
+        export_description: 'Ajoute l''avatar ennuyeux à l''archive d''exportation.'
 ianm-boring-avatars:
   admin:
     settings:

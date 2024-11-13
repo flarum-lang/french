@@ -8,6 +8,12 @@ blomstra-gdpr:
       userpolicydata:
         delete_description: 'Supprime l''acceptation des conditions par l''utilisateur'
         export_description: 'Informations relatives à l''acceptation des conditions par l''utilisateur'
+flarum-gdpr:
+  lib:
+    data:
+      userpolicydata:
+        delete_description: 'Supprime l''acceptation des conditions par l''utilisateur'
+        export_description: 'Informations concernant l''acceptation des conditions par l''utilisateur'
 fof-terms:
   admin:
     buttons:

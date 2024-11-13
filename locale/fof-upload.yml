@@ -9,6 +9,13 @@ blomstra-gdpr:
         anonymize_description: 'Supprime la référence de l''utilisateur des fichiers transférés. Les fichiers eux-mêmes restent accessibles aux utilisateurs qui pouvaient les consulter avant l''anonymisation.'
         delete_description: 'Supprime tous les fichiers transférés par l''utilisateur.'
         export_description: 'Tous les fichiers transférés par l''utilisateur.'
+flarum-gdpr:
+  lib:
+    data:
+      uploads:
+        anonymize_description: 'Supprime la référence de l''utilisateur des fichiers téléchargés. Les fichiers eux-mêmes restent accessibles aux utilisateurs qui pouvaient les consulter avant l''anonymisation.'
+        delete_description: 'Supprime tous les fichiers téléchargés par l''utilisateur.'
+        export_description: 'Tous les fichiers téléchargés par l''utilisateur.'
 fof-upload:
   admin:
     help_texts:

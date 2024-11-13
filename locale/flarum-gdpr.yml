@@ -34,7 +34,7 @@ flarum-gdpr:
       allow_deletion: 'Autoriser la suppression des demandes d''effacement'
       allow_deletion_help: 'Une option beaucoup plus stricte. Dans ce mode, tous les messages et commentaires seront supprimés et l''utilisateur sera retiré de la base de données. À utiliser avec précaution.'
       default_anonymous_username: 'Nom d''utilisateur par défaut pour les utilisateurs anonymes'
-      default_anonymous_username_help: 'Lorsqu''un utilisateur est rendu anonyme, son nom d''utilisateur est remplacé par cette valeur, plus l''identifiant de la demande d''anonymisation, comme par exemple <code>Anonymous123</code>.'
+      default_anonymous_username_help: 'Lorsqu''un utilisateur est rendu anonyme, son nom d''utilisateur est remplacé par cette valeur, plus l''identifiant de la demande d''anonymisation, comme par exemple <code>Anonyme123</code>.'
       default_erasure: 'Action par défaut pour les demandes d''effacement'
       default_erasure_help: 'Quelle devrait être l''action par défaut pour les demandes d''effacement ?'
       default_erasure_options:
