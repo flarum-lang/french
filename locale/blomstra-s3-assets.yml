@@ -19,7 +19,7 @@ blomstra-s3-assets:
         help: 'Point d''accès S3'
         label: 'Point d''accès'
       s3key:
-        help: 'Clé d''accès S3'
+        help: aide
         label: Clé
       s3path-style-endpoint:
         help: 'Passer au chemin de stockage du style'

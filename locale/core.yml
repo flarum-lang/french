@@ -512,8 +512,8 @@ core:
       label: '{label} :'
     datetime_formats:
       humanTimeLong: ll
-      humanTimeShort: 'J MMM'
-      scrubber: 'MMMM AAAA'
+      humanTimeShort: 'D MMM'
+      scrubber: 'MMMM YYYY'
     debug_button: Déboguer
     dropdown:
       toggle_dropdown_accessible_label: 'Afficher le menu déroulant'
