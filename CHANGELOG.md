@@ -2,6 +2,51 @@ CHANGELOG
 =========
 
 
+4.27.0 (2024-11-17)
+-------------------
+
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
+**Prise en charge de nouvelles extensions**:
+
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`gbcl/oauth-logto`](https://github.com/GBCLStudio/flarum-oauth-logto)
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
+* [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress)
+* [`xypp/flarum-answer-bounty`](https://github.com/zxy19/flarum-answer-bounty)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`blomstra/s3-assets`](https://github.com/blomstra/flarum-ext-s3-assets)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify)
+* [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
+
+
+Journal de toutes les modifications : [v4.26.0...v4.27.0](https://github.com/flarum-lang/french/compare/v4.26.0...v4.27.0).
+
+
 4.26.0 (2024-10-10)
 -------------------
 
