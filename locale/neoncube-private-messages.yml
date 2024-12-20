@@ -9,6 +9,9 @@ neoncube-private-messages:
       start_label: 'Démarrer des conversations privées'
     settings:
       return_key: 'La touche retour envoie un message'
+      return_key_help: 'Envoyer le message lorsque la touche entré est pressé. Si cela est désactivé, la touche Entrée permettra de créer une nouvelle ligne et l''utilisateur doit cliquer sur le bouton "Envoyer un message" pour envoyer le message.'
+      show_read_receipts: 'Afficher les confirmations de lecture'
+      show_read_receipts_help: 'Afficher une coche à coté des messages lu par le destinataire.'
       title: 'Paramètres de chuchotement'
   forum:
     chat:

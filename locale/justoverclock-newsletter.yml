@@ -15,3 +15,10 @@ flarum-ext-newsletter:
     prconsent: 'Accord de confidentialité'
     submitbutton: Envoyer
     subscribe: 'Abonnez-vous à notre lettre d''information. Veuillez saisir votre adresse de courriel et cliquer sur envoyer.'
+justoverclock-newsletter:
+  admin:
+    ctaText: 'Consulter notre communauté'
+    newsLetterOptOutFooter: 'Vous n''aimez pas ces courriels ?'
+    newsLetterOptOutFooterUnsubscribe: 'Se désabonner.'
+    newsletterCountText: 'Votre lettre d''information sera envoyé à tous les abonnés ci-dessus.'
+    newsletterCountTextTwo: 'utilisateurs !'
