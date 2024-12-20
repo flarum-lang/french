@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+4.28.0 (XXXX-XX-XX)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`foskym/flarum-sorts-for-user-directory`](https://github.com/FoskyM/flarum-sorts-for-user-directory)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+* [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl)
+* [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
+* [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
+* [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store)
+* [`shebaoting/money`](https://github.com/shebaoting/money)
+* [`tohsakarat/post-camera`](https://github.com/tohsakrat/post-camera)
+* [`xypp/store`](https://github.com/zxy19/store)
+* [`xypp/user-decoration`](https://github.com/zxy19/user-decoration)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`justoverclock/newsletter`](https://github.com/justoverclockl/newsletter)
+* [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
+
+
+Journal de toutes les modifications : [v4.27.0...v4.28.0](https://github.com/flarum-lang/french/compare/v4.27.0...v4.28.0).
+
+
 4.27.0 (2024-11-17)
 -------------------
 
