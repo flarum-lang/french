@@ -6,7 +6,31 @@ huseyinfiliz-modern-footer:
   admin:
     settings:
       about: 'À propos'
-      block: Bloquer
+      about_us: 'A notre sujet'
+      about_us_help: 'Zone de texte : Ce champ ne prend pas en charge le formatage HTML. Pour créer une nouvelle ligne, il suffit d''appuyer sur la touche Entrée.'
+      all_pages: 'Montrer sur toutes les pages'
+      block: Section
       blocks: Bloqués
       bottom: Bas
+      bottom_help: 'Exemple : © 2025, tous droits réservés'
+      bottom_section: 'Section inférieure'
+      custom: Personnaliser
+      custom_html: 'Code HTML Personnalisé'
+      custom_js: 'JS Personnalisé'
+      custom_js_code: 'Code JavaScript personnalisé'
+      display_mode: 'Mode d''affichage du pied de page'
+      font_awesome_icon: 'Icône Font Awesome'
+      forum_logo: 'Logo du Forum'
+      forum_logo_help: 'Ajouter l''URL du logo du forum. Si une URL valide est fournie, le logo sera affiché. Vous pouvez également ajouter un code tel que pour qu''il se comporte comme les autres titres de blocs :'
       general: Général
+      hide_everywhere: 'Masquer sur toutes les pages'
+      hide_except_index: 'Masquer sur toutes les pages sauf la page d''index'
+      hide_on_discussions: 'Masquer sur les discussions'
+      link: Lien
+      manage_footer_sections: 'Gérer les sections du pied de page'
+      mobile_tab_height: 'Hauteur de l''onglet mobile'
+      mobile_tab_height_help: 'Si l''extension Mobile Tab est installée, vous pouvez utiliser comme valeur : var(--mobile-tab-height)'
+      social_link: 'Lien social'
+      social_media_button: 'Boutons médias sociaux'
+      text: Texte
+      title: Titre
