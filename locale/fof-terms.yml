@@ -69,7 +69,11 @@ fof-terms:
       title: 'État d''acceptation des conditions concernant l''utilisateur {username}'
     update-alert:
       can-accept-message: 'Nous avons récemment mis à jour nos conditions. Vous devez les accepter pour continuer à utiliser ce site.'
+      can-accept-optional-message: 'Nous avons récemment mis à jour les conditions d''utilisation. Vous pouvez les consulter à votre convenance.'
+      close: Fermer
       must-accept-message: 'Nous avons temporairement restreint l''accès à votre compte le temps que vous prenez connaissance des nouvelles conditions.'
       review: 'Cliquez ici pour consulter et accepter les nouvelles conditions'
     user_controls:
       state_button: 'État d''acceptation des conditions'
+    user_settings:
+      optional_policies_label: Politiques
