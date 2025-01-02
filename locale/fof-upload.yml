@@ -130,7 +130,8 @@ fof-upload:
       text-preview: 'Aperçu du texte'
       text-preview_description: "Insère un aperçu (5 premières lignes) du fichier texte, avec une option de développement pour révéler le contenu complet du fichier.\n"
     upload_methods:
-      aws-s3: 'Compatible avec Amazon S3'
+      aws-s3: 'S3 ou compatible'
+      awss3: 'AWS S3'
       imgur: Imgur
       local: Local
       ovh-svfs: 'OVH SVFS'

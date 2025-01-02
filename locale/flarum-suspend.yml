@@ -39,3 +39,6 @@ flarum-suspend:
       suspended_tooltip: Suspendu
     user_controls:
       suspend_button: Suspendre
+  validation:
+    attributes:
+      suspendedUntil: 'suspendu jusqu''au'

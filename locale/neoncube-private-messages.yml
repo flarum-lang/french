@@ -8,15 +8,18 @@ neoncube-private-messages:
       allow_users_to_receive_email_notifications: 'Autoriser les utilisateurs à recevoir des notifications par courriel lorsqu''ils reçoivent un message privé'
       start_label: 'Démarrer des conversations privées'
     settings:
+      message_recipient_background_color: 'Couleur personnalisée pour le message du destinataire'
+      message_recipient_background_color_help: .
       return_key: 'La touche retour envoie un message'
-      return_key_help: 'Envoyer le message lorsque la touche entré est pressé. Si cela est désactivé, la touche Entrée permettra de créer une nouvelle ligne et l''utilisateur doit cliquer sur le bouton "Envoyer un message" pour envoyer le message.'
-      show_read_receipts: 'Afficher les confirmations de lecture'
-      show_read_receipts_help: 'Afficher une coche à coté des messages lu par le destinataire.'
+      return_key_help: 'Faire en sorte que l''appui sur la touche « Entrée » permette d''envoyer un message. Si cette fonction est désactivée, le fait d''appuyer sur la touche d''entrée commence une nouvelle ligne et l''utilisateur doit cliquer sur le bouton « Envoyer le message » pour envoyer le message.'
+      show_read_receipts: 'Afficher les accusés de lecture'
+      show_read_receipts_help: 'Afficher une indication de lecture à côté d''un message lorsque le destinataire l''a lu.'
       title: 'Paramètres de chuchotement'
   forum:
     chat:
       cant_start: 'Impossible de démarrer la conversation'
       chat_with: 'Discuter avec {username}'
+      message_read: 'Le message a été lu'
       messages_multiple: '{count} messages totaux'
       messages_single: 'Nouvelle conversation'
       read: Lu

@@ -6,7 +6,8 @@ irmmr-rtl:
   admin:
     settings:
       ad_status_label: 'Statut d''administrateur'
+      ad_status_text: 'Activer le support du RTL (écriture de droite à gauche) pour l''administration.'
       fm_status_label: 'Statut du forum'
-      fm_status_text: 'Activer le support de l''écriture de droite à gauche pour le forum.'
+      fm_status_text: 'Activer le support du RTL (écriture de droite à gauche) pour le forum.'
       lang_base_label: 'Basé sur la langue'
       lang_base_text: 'Sélection automatique du statut RTL en fonction de la langue sélectionnée.'

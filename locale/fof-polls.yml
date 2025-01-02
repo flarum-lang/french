@@ -59,6 +59,7 @@ fof-polls:
       edit_title: 'Modifier le sondage'
       error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Masquer les votes jusqu''à la fin du sondage'
+      hide_votes_label_help: 'L''utilisateur qui a démarré le sondage pourra toujours voir les votes.'
       image_option_placeholder: 'URL de l''image (facultatif)'
       include_question: 'Vous devez ajouter une question'
       max: 'Vous pouvez avoir un maximum de {max} réponses'

@@ -88,6 +88,8 @@ fof-webhooks:
         group_label: Groupe
         max_post_content_length_help: 'Définissez un nombre pour limiter le contenu des messages dans tous les événements liés aux messages. Réglez cette option sur 0 ou laissez vide pour supprimer la limite.'
         max_post_content_length_label: 'Longueur maximale du contenu des messages'
+        name_help: 'Le nom du webhook. Il sera utilisé pour des choses comme le nom d''utilisateur Discord, le nom du robot Slack, etc.'
+        name_label: Nom
         title: 'Paramètres du webhook'
         use_plain_text_label: 'Réduire la quantité de mise en page dans le contenu des messages'
       services:
