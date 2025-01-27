@@ -33,6 +33,7 @@ CHANGELOG
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`ianm/translate`](https://flarum.org/extension/ianm/translate)
 * [`justoverclock/newsletter`](https://github.com/justoverclockl/newsletter)
 * [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
 
