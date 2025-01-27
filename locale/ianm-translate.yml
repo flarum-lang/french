@@ -57,6 +57,8 @@ ianm-translate:
         url:
           help: 'L''URL du serveur LibreTranslate. Si vous utilisez votre propre instance, entrez l''URL ici. Le schéma doit être `http` ou `https`.'
           label: 'URL du serveur'
+      multi-lang-search: 'Recherche multilingue'
+      multi-lang-search-help: 'Si cette option est activée, la recherche inclura toutes les traductions du contenu.'
       provider: 'Fournisseur de services de traduction'
       providers:
         heading: 'Paramètres du fournisseur de traduction'
@@ -65,10 +67,17 @@ ianm-translate:
       readme-none: 'Aucun paramètre supplémentaire n''est requis pour ce pilote.'
       seemless: 'Traduction en continu'
       seemless-help: 'Fonctionnalité bêta. Lorsqu''elle est activée, tout le contenu des utilisateurs est traduit automatiquement dans toutes les autres langues disponibles sur le forum. Lorsqu''un utilisateur consulte un contenu multilingue, les traductions s''affichent automatiquement.'
+      seo:
+        default-lang: 'Correspondre à la langue par défaut du forum'
+        default-lang-help: 'Lorsque cette option est activée, la langue par défaut du forum est ajoutée au chemin de la balise hreflang <code>x-default</code>.'
+        heading: 'Paramètres SEO'
+        help: 'Ces paramètres contrôlent le comportement du système de traduction en ce qui concerne l''optimisation pour les moteurs de recherche.'
       translate-all-enabled: 'Activer toutes les langues de traduction'
       translate-all-help: 'Lorsque cette option est activée, les administrateurs et les autres utilisateurs autorisés peuvent traduire le contenu dans n''importe quelle langue installée sur le forum.'
       translate-polls: 'Traduire les sondages'
-      translate-polls-help: 'Lorsque cette option est activée, les titres des sondages, les sous-titres, le texte alt des images et les options de réponse sont traduits automatiquement lors de la création ou de la modification d''un sondage.'
+      translate-polls-help: 'Lorsque cette option est activée, le titre du sondage, le sous-titre, le texte alt de l''image et les options de réponse seront automatiquement traduits lors de la création ou de la modification d''un sondage.'
+      translate-quiz: 'Traduire les questionnaires'
+      translate-quiz-help: 'Lorsque cette option est activée, le titre du questionnaire, le sous-titre, l''explication de la bonne réponse et les options de réponse sont automatiquement traduits lors de la création ou de la modification d''un questionnaire.'
       use-native-locale-names: 'Utiliser les noms locaux natifs'
       use-native-locale-names-help: 'Si cette option est activée, le nom de la langue native sera utilisé à la place de la version locale actuelle du nom.'
   forum:
@@ -84,13 +93,25 @@ ianm-translate:
         detected-language: '{postLang}'
     manage-translations:
       button-label: 'Gérer les traductions'
+      discussion:
+        title: 'Gérer les traductions des titres de discussion'
+      original-language: 'Langue originale ({detectedLang})'
       poll:
-        image-alt: 'Texte ALT de l''image du sondage (si elle existe)'
-        option: 'Option {number} de sondage'
+        image-alt: 'Texte ALT de l''image (si elle existe)'
+        option: 'Option {number}'
         original-title: 'Langue d''origine'
-        question: 'Question du sondage'
-        subtitle: 'Sous-titre du sondage'
+        question: Question
+        question-language: 'Question du sondage ({language})'
+        subtitle: Sous-titre
         title: 'Gérer les traductions du sondage'
+      post:
+        title: 'Gérer les traductions des messages'
+      quiz:
+        answer-additional: 'Explication de la réponse correcte'
+        option: 'Réponse {number}'
+        question: Question
+        subtitle: Sous-titre
+        title: 'Gérer les traductions des questionnaires'
       save-changes: '=> core.ref.save_changes'
       translations-label: Traductions
     original-content:
