@@ -7,6 +7,7 @@ CHANGELOG
 
 **Prise en charge de nouvelles extensions**:
 
+* [`dalez/flarum-identityagent`](https://github.com/DellZHackintosh/flarum-identityagent)
 * [`foskym/flarum-sorts-for-user-directory`](https://github.com/FoskyM/flarum-sorts-for-user-directory)
 * [`huseyinfiliz/flagify`](https://github.com/huseyinfiliz/flagify)
 * [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
@@ -22,6 +23,10 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
