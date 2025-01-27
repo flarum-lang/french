@@ -141,3 +141,22 @@ flarum-extension-manager:
       updater_title: 'Mises à jour'
     why_not_modal:
       title: 'Pourquoi la mise à jour ne se fait-elle pas ?'
+  validation:
+    attributes:
+      bearer: 'HTTP Bearer'
+      'bearer.*': 'HTTP Bearer'
+      extension_id: 'identifiant de l''extension'
+      github_oauth: 'GitHub OAuth'
+      'github_oauth.*': 'GitHub OAuth'
+      gitlab_oauth: 'GitLab OAuth'
+      'gitlab_oauth.*': 'GitLab OAuth'
+      gitlab_token: 'Jeton GitLab'
+      'gitlab_token.*': 'Jeton GitLab'
+      minimum_stability: 'stabilité minimale'
+      package: paquet
+      repositories: dépôts
+      'repositories.*': dépôts
+      'repositories.*.type': 'type de dépôt'
+      'repositories.*.url': 'URL du dépôt'
+      update_mode: 'mode de mise à jour'
+      version: version

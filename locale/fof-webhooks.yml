@@ -86,6 +86,7 @@ fof-webhooks:
         extra_text_label: 'Texte supplémentaire'
         group_help: 'Envoyer des ressources qui peuvent être vues par ce groupe'
         group_label: Groupe
+        include_matching_tags_label: 'Inclure les étiquettes correspondantes -- pour les webhooks limités à des étiquettes spécifiques, afficher les étiquettes auxquelles l''événement correspondait'
         max_post_content_length_help: 'Définissez un nombre pour limiter le contenu des messages dans tous les événements liés aux messages. Réglez cette option sur 0 ou laissez vide pour supprimer la limite.'
         max_post_content_length_label: 'Longueur maximale du contenu des messages'
         name_help: 'Le nom du webhook. Il sera utilisé pour des choses comme le nom d''utilisateur Discord, le nom du robot Slack, etc.'

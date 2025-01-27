@@ -4,8 +4,12 @@
 
 afrux-online-users-widget:
   admin:
+    permissions:
+      view_online_users_widget: 'Widget de visualisation des utilisateurs en ligne'
     settings:
-      max_users: 'Nombre maximum d''utilisateurs à afficher'
+      cache_ttl: 'Temps de mise en cache de la liste des utilisateurs (en secondes)'
+      last_seen_interval: 'Dernier intervalle de temps pour considérer un utilisateur comme étant en ligne (en minutes)'
+      max_users: 'Nombre maximal d''utilisateurs affichés'
   forum:
     widget:
       empty: 'Aucun utilisateur n''est actuellement en ligne.'

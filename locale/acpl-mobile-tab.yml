@@ -5,9 +5,9 @@
 acpl-mobile-tab:
   forum:
     all_discussions: Discussions
-    categories: '=> askvortsov-categories.forum.index.categories_link'
+    categories: Catégories
     home: Accueil
-    log_in: '=> core.forum.header.log_in_link'
-    notifications: '=> core.forum.notifications.title'
-    profile: '=> core.forum.header.profile_button'
-    tags: '=> flarum-tags.forum.index.tags_link'
+    log_in: 'Se connecter'
+    notifications: Notifications
+    profile: Profil
+    tags: Étiquettes

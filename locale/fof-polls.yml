@@ -99,6 +99,7 @@ fof-polls:
       cannot_start_poll_button: 'Impossible de démarrer le sondage'
       start_poll_button: 'Démarrer un sondage global'
       submit_button: Voter
+      total_votes: '{count, plural, one {# vote a été attribué} other {# votes ont été attribués}}'
     poll_controls:
       delete_confirmation: 'Êtes-vous sûr de vouloir supprimer ce sondage ?'
       delete_error_message: 'Un problème est survenu lors de la suppression du sondage.'
