@@ -4,8 +4,90 @@
 
 shebaoting-money:
   admin:
+    automoderator:
+      action_name: 'Donner de l''argent'
+      metric_name: Argent
+    autoremove:
+      - 'Ne jamais retirer d''argent'
+      - 'Lorsqu''une discussion ou un message est caché ou restauré (par défaut)'
+      - 'Lorsqu''une discussion ou un message est supprimé'
+    permissions:
+      edit_money_label: 'Modifier l''argent'
     settings:
+      autoremove: 'Mise à jour automatique de l''argent'
+      extra_char_increment: 'Incrément de caractères'
+      extra_char_increment_help: 'Tous les X caractères dépassant le seuil déclencheront un changement de point.'
+      extra_char_points: 'Points par incrément'
+      extra_char_points_help: 'Le nombre de points à ajouter ou à déduire pour chaque incrément.'
+      extra_char_threshold: 'Seuil de caractère'
+      extra_char_threshold_help: 'Le nombre minimum de caractères avant que des points supplémentaires ne soient appliqués.'
+      helpextensionlikes: 'Nécessite l''extension <code>flarum/likes</code>'
       initialmoney: 'Argent initial des nouveaux utilisateurs'
       moneyfordiscussion: 'Argent donné pour une nouvelle discussion'
+      moneyforlike: 'Argent versé lorsqu''un message est aimé'
       moneyforpost: 'Argent donné pour un nouveau message'
+      moneyname: 'Nom de l''argent (par exemple : [argent] points)'
+      noshowzero: 'Ne pas afficher si la valeur est nulle'
+      postminimumlength: 'Longueur minimale du message pour obtenir l''argent (0 pour désactiver cette fonctionnalité)'
       title: Paramètres
+  forum:
+    load_more: 'Charger plus'
+    log_amount: Montant
+    log_balance: Solde
+    log_description: Description
+    log_time: Durée
+    log_type: Type
+    log_type_deposit: Dépôt
+    log_type_reward: Récompense
+    log_type_transfer: Transfert
+    log_type_withdrawal: Retrait
+    logs_description:
+      admin_updated: 'L''administrateur a mis à jour les points, le montant a été modifié par {amount}.'
+      created_discussion: 'A créé une discussion › <a href="{url}">{title}</a>'
+      created_reply: 'A créé une réponse › <a href="{url}">{title}</a>'
+      discussion_deleted: 'A supprimé une discussion › <a href="{url}">{title}</a>'
+      discussion_hidden: 'A caché une discussion › <a href="{url}">{title}</a>'
+      discussion_restored: 'A restauré une discussion › <a href="{url}">{title}</a>'
+      discussion_started: 'A démarré une discussion › <a href="{url}">{title}</a>'
+      extra_characters: 'Le contenu a dépassé le seuil de {extra_chars} caractères, {points} points ont été {action}.'
+      initial_registration: 'Les points initiaux ont été attribués lors de l''inscription.'
+      liked: 'A aimé un message › <a href="{url}">{title}</a> par {user}'
+      liked_by: 'Message aimé par {username} › <a href="{url}">{title}</a>'
+      no_permission: 'Vous n''êtes pas autorisé à consulter les journaux de points des autres.'
+      posted_reply: 'A répondu à une discussion › <a href="{url}">{title}</a>'
+      reply_received: 'A reçu une réponse de {username} › <a href="{url}">{title}</a>'
+      unliked_by: 'Message plus aimé par {username} › <a href="{url}">{title}</a>'
+      unliked_post: 'N''a plus aimé un message › <a href="{url}">{title}</a>'
+    logs_type:
+      admin_updated: 'Administrateur mis à jour'
+      discussion_deleted: 'Discussion supprimée'
+      discussion_hidden: 'Discussion cachée'
+      discussion_replied: 'A répondu à une discussion'
+      discussion_restored: 'Discussion restaurée'
+      discussion_started: 'Discussion démarrée'
+      liked: 'Message aimé'
+      liked_by_others: 'Message aimé par un autre utilisateur'
+      post_created: 'Message créé'
+      post_deleted: 'Message supprimé'
+      post_hidden: 'Message caché'
+      post_restored: 'Message restauré'
+      registration: 'Bonus d''inscription'
+    modal:
+      current: 'Actuellement :'
+      submit_button: '=> core.ref.save_changes'
+      title: 'Argent de {username}'
+    no_money_logs: 'Aucun journal d''argent disponible'
+    point_log:
+      empty_text: 'Aucun journal de modification de point n''a été trouvé.'
+      link: 'Journaux des points'
+      load_more: 'Charger plus'
+      no_permission: 'Vous n''êtes pas autorisé à consulter les journaux de points des autres.'
+      table:
+        headers:
+          amount: Montant
+          balance: Solde
+          date: Date
+          reason: Motif
+      title: 'Journaux des modifications de points'
+    user_controls:
+      money_button: 'Modifier l''argent'

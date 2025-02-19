@@ -5,6 +5,21 @@
 xypp-store:
   forum:
     create: 'Créer un élément'
+    create-modal:
+      title: 'Créer un article'
+    edit_button: Modifier
+    price_free: Gratuit
+    provider:
+      all: Tout
+      error:
+        no-preview: 'Aucune prévisualisation'
+        title: 'Fournisseur inconnu'
+    purchase: Acheter
     purchase-history: Achats
+    show_case: Vitrine
     store: Boutique
     time_segs: jours|heures|minutes
+    unavailable:
+      common:
+        no_rest: 'Pas de repos'
+        unknown: 'Impossible d''acheter'
