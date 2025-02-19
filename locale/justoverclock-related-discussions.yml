@@ -6,7 +6,7 @@ justoverclock-related-discussions:
   admin:
     DiscussionPageLayout: 'Afficher les discussions connexes en bas des pages de discussion'
     relatedLimit: 'Discussions connexes à afficher (4 par défaut)'
-    relatedLimit-help: 'Saisissez ici le nombre de discussion que vous souhaitez consulter (« 4 » par exemple)'
+    relatedLimit-help: 'saisissez ici le nombre de discussion que vous souhaitez consulter (« 4 » par exemple)'
     relatedTitle: "Titre de «\_Discussions connexes\_»"
     relatedTitle-help: 'Remplacez le titre par défaut de la discussion connexe par le vôtre'
     showExcerpt: 'Afficher l''extrait de résumé'

@@ -4,7 +4,40 @@
 
 justoverclock-reputation-score:
   admin:
+    discussions: discussions
+    fiveYearSeniority: '5 ans d''ancienneté ou plus'
+    historyBestAnswerSet: 'Augmentation des points de réputation pour l''obtention de la meilleure réponse.'
+    historyBestAnswerUnset: 'Diminution des points de réputation pour l''annulation d''une meilleure réponse.'
+    historyDiscussionClosed: 'Diminution des points de réputation à cause de la fermeture de votre fil de discussion.'
+    historyDiscussionCreated: 'Augmentation des points de réputation pour l''ouverture d''une discussion.'
+    historyFlagCreated: 'Augmentation des points de réputation pour le signalement d''un utilisateur.'
+    historyLikeSet: 'Augmentation des points de réputation pour avoir reçu un « j''aime ».'
+    historyLikeUnset: 'Diminution des points de réputation pour avoir perdu un « j''aime ».'
+    historyPostCreated: 'Augmentation des points de réputation pour la création d''un message.'
+    historyPostDeleted: 'Les points de réputation ont diminué en raison de la suppression ou du masquage de messages.'
+    like: 'j''aime'
+    oneYearSeniority: '1 an d''ancienneté ou plus'
+    permission:
+      canEarnReputationForDiscussion: 'Peut gagner des points de réputation en créant une discussion'
+      canEarnReputationForLikes: 'Peut gagner des points de réputation en donnant des mentions « j''aime »'
+      canEarnReputationForPost: 'Peut gagner des points de réputation en créant un message'
+      canPostWithReputation: 'Accès avec un minimum de points de réputation'
+    pointsDecreased: 'points diminués'
+    pointsIncreased: 'points augmentés'
+    posts: messages
+    resetRewardDisclaimer: 'Cette action ne doit être utilisée que lorsque des mises à jour de l''extension modifient les traductions ou la logique interne d''attribution des points de réputation !'
     resetRewardsButton: 'Réinitialiser toutes les récompenses des utilisateurs'
     resetRewardsButtonHelp: 'Cette action est irreversible ! En cliquant sur ce bouton, toutes les informations sauvegardé dans la colonne récompense seront écrasé et recalculé automatiquement lors de la première interaction de l''utilisateur.'
+    resetRewardsError: 'Une erreur s''est produite après avoir tenté de réinitialiser tous les champs de récompenses'
+    resetRewardsSuccess: 'Toutes les récompenses ont été effacées avec succès'
+    settings:
+      bestAnswerHelp: 'Insérer le nombre de points qu''un utilisateur gagne en recevant une « meilleure réponse »'
+      bestAnswerPoints: 'Points pour la « meilleure réponse »'
+      discussionPoints: 'Points pour une nouvelle discussion créée'
+      discussionPointsHelp: 'Insérer le nombre de points qu''un utilisateur gagne pour la création d''une nouvelle discussion (« 0.55 » par exemple)'
+      likePoints: 'Points pour les « j''aime » reçus'
+      maxPoints: 'Nombre maximum de points de réputation'
+      maxPointsHelp: 'Insérer le nombre de points de réputation maximum autorisé, par exemple « 1000 »'
     tagMinimumReputationLabel: 'Restriction de réputation minimale'
     tagMinimumReputationLabelHelp: 'Définir les points de réputation minimaux nécessaires pour créer et répondre à une discussion.'
+    threeYearSeniority: '3 ans d''ancienneté ou plus'

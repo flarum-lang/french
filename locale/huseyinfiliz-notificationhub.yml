@@ -29,14 +29,28 @@ huseyinfiliz-notificationhub:
       save: Enregistrer
     title:
       page_title: 'Types de notification'
+  api:
+    message_required: 'Un message est requis.'
+    no_valid_recipients: 'Aucun destinataire valide n''a été trouvé.'
+    subject_id_required: 'Le type de notification est requis.'
+    user_ids_required: 'Des identifiants d''utilisateur sont requis.'
   forum:
     links:
       notification_all: 'Envoyer une notification'
       notification_individual: 'Envoyer une notification'
     modal_notification:
       message_label: Message
+      no_notification_types: 'Aucun type de notification active n''a été trouvé.'
+      notification_sent_message: 'Des notifications ont été envoyées aux utilisateurs {recipientsCount} !'
+      notification_type_label: 'Type de notification'
+      preview_message_placeholder: 'Message de notification'
+      preview_title: 'Prévisualisation de la notification'
       recipients_label: Destinataires
       recipients_placeholder: 'Saisissez un nom d''utilisateur ou un nom de groupe...'
+      submit_button: 'Envoyer une notification'
       title_text: 'Envoyer une notification'
       url_label: 'Lien cible'
       url_placeholder: 'https://www.exemple.com'
+    recipient_kinds:
+      group: Groupe
+      user: Utilisateur

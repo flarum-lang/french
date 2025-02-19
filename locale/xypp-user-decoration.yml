@@ -2,10 +2,80 @@
 # Use https://weblate.rob006.net/projects/flarum/xypp-user-decoration/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
-xypp-user-decoration:
+xypp-store:
   forum:
+    create-modal:
+      providers:
+        decoration: Décoration
+    type:
+      decoration: Décoration
+    unavailable:
+      decoration:
+        dumplicate: Possède
+xypp-user-decoration:
+  admin:
+    permissions:
+      create_decoration: 'Créer et modifier une décoration'
+      delete_decoration: 'Supprimer la décoration des autres'
+      offer_decoration: 'Proposer une décoration'
+      view-all: 'Voir toutes les décorations'
+      view_decoration: 'Voir la décoration des autres'
+    settings:
+      avatar_hijack:
+        desc: 'Ce plugin tente de détourner la méthode de l''avatar du modèle de l''utilisateur et d''insérer des informations d''identité pour reconnaître l''utilisateur. Si un autre plugin a planté à cause du détournement, vous pouvez désactiver cette fonction pour résoudre le problème.'
+        title: 'Détournement de l''avatar'
+      no_decorate_class_filter:
+        desc: 'Les noms de classe qui empêchent les avatars et les noms d''utilisateur à l''intérieur d''être déformés par la décoration. Une pré-ligne sans point de préfixe'
+        title: 'Filtre de classe non décoratif'
+      username_hijack:
+        desc: 'Ce plugin essaiera de détourner la méthode du nom d''utilisateur du modèle d''utilisateur et d''insérer des informations d''identité pour reconnaître l''utilisateur. Si un autre plugin a planté à cause du détournement, vous pouvez désactiver cette fonction pour résoudre le problème.'
+        title: 'Détournement du nom d''utilisateur'
+      view-all:
+        desc: 'L''autorisation de tout voir est-elle activée ?'
+        title: 'Voir tout'
+  forum:
+    create: Créer
+    create-modal:
+      button: Créer
+      delete-button: Supprimer
+      desc: Description
+      edit-button: Modifier
+      edit-title: 'Modifier la décoration#{0}'
+      name: nom
+      style: 'Feuille de style'
+      tip: 'Utiliser le sélecteur .base pour sélectionner la cible, .element-xxx pour ajouter un nouvel élément'
+      title: 'Créer une décoration'
+      type:
+        avatar: Avatar
+        post: Message
+        title: Type
+        usercard: 'Carte d''utilisateur'
+        username: 'Nom d''utilisateur'
+    create-success: 'Décoration créée avec succès'
     decoration-box:
       avatar: 'Style d''avatar'
+      card: 'Style de carte d''utilisateur'
+      closed: Fermé
       error: 'Type inconnu'
+      loading: Chargement
+      name: 'Style du nom d''utilisateur'
+      no-login: 'Se connecter pour prévisualiser'
+      post: 'Style de message'
     decoration-no-available: 'Aucune décoration disponible'
+    decoration:
+      change_button: Modifier
+      delete_button: Supprimer
+      delete_confirm: 'Êtes-vous sûr de vouloir supprimer cette décoration ?'
+      remove_button: Supprimer
     decorations: Décorations
+    delete-success: 'Supprimé avec succès'
+    delete_confirm: 'Êtes-vous sûr de vouloir supprimer cette décoration ?'
+    modal:
+      button: Proposer
+      loading: Chargement
+      tip: 'Veuillez sélectionner une décoration'
+      title: 'Proposer une décoration'
+    page:
+      show-decorations: Décorations
+    user_controls:
+      offer: 'Proposer une décoration'

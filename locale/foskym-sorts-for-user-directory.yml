@@ -2,15 +2,69 @@
 # Use https://weblate.rob006.net/projects/flarum/foskym-sorts-for-user-directory/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+fof-user-directory:
+  lib:
+    sort:
+      least_comments: '=> foskym-sorts-for-user-directory.lib.integrations.core.least_comments'
+      least_likes_received: '=> foskym-sorts-for-user-directory.lib.integrations.clarkwinkelmann-likes-received.least_likes_received'
+      least_money: '=> foskym-sorts-for-user-directory.lib.integrations.antoinefr-money.least_money'
+      least_recently_seen: '=> foskym-sorts-for-user-directory.lib.integrations.core.least_recently_seen'
+      most_badges_count: '=> foskym-sorts-for-user-directory.lib.integrations.v17development-user-badges.most_badges_count'
+      most_comments: '=> foskym-sorts-for-user-directory.lib.integrations.core.most_comments'
+      most_groups_count: '=> foskym-sorts-for-user-directory.lib.integrations.core.most_groups_count'
+      most_invited_user: '=> foskym-sorts-for-user-directory.lib.integrations.xypp-invite-user.most_invited_user'
+      most_likes_received: '=> foskym-sorts-for-user-directory.lib.integrations.clarkwinkelmann-likes-received.most_likes_received'
+      most_money: '=> foskym-sorts-for-user-directory.lib.integrations.antoinefr-money.most_money'
+      most_monthly_comments: '=> foskym-sorts-for-user-directory.lib.integrations.core.most_monthly_comments'
+      most_monthly_discussions: '=> foskym-sorts-for-user-directory.lib.integrations.core.most_monthly_discussions'
+      most_total_checkin: '=> foskym-sorts-for-user-directory.lib.integrations.ziven-daily-check-in.most_total_checkin'
+      most_total_continuous_checkin: '=> foskym-sorts-for-user-directory.lib.integrations.ziven-daily-check-in.most_total_continuous_checkin'
+      nickname_az: '=> foskym-sorts-for-user-directory.lib.integrations.core.nickname_az'
+      nickname_za: '=> foskym-sorts-for-user-directory.lib.integrations.core.nickname_za'
+      recently_checkin: '=> foskym-sorts-for-user-directory.lib.integrations.ziven-daily-check-in.recently_checkin'
+      recently_seen: '=> foskym-sorts-for-user-directory.lib.integrations.core.recently_seen'
 foskym-sorts-for-user-directory:
   admin:
-    go_to_user_directory_extension: 'Accéder au repertoire des utilisateurs avec plus de paramètres'
+    go_to_this_extension: 'Aller à l''extension Sorts For User Directory avec d''autres paramètres'
+    go_to_user_directory_extension: 'Accéder à l''extension User Directory avec d''autres paramètres'
     settings:
       sort_by_badges_count: 'Trier par nombre de badges (nécessite v17development/flarum-user-badges)'
       sort_by_comments: 'Trier par nombre de commentaires'
-      sort_by_groups_count: 'Trier par nombre de groupe'
+      sort_by_groups_count: 'Trier par nombre de groupes'
       sort_by_invited_user: 'Trier par nombre d''utilisateurs invités (nécessite xypp/invite-user)'
-      sort_by_likes_received: 'Trier par "j''aime" reçu ("j''aime" reçu requis)'
-      sort_by_monthly_posts: 'Trier par messages/discussions mensuel (peut causer des problèmes de performance)'
-      sort_by_nickname: 'Trier par pseudonyme (pseudonymes obligatoire)'
-      sort_by_ziven_checkin: 'Tri par enregistrement (nécessite enregistrement quotidien par Ziven)'
+      sort_by_likes_received: 'Trier par « j''aime » reçus (nécessite Likes Received)'
+      sort_by_money: 'Trier par argent (nécessite Antoinefr Money)'
+      sort_by_monthly_posts: 'Trier par messages et discussions mensuels (peut provoquer des problèmes de performance)'
+      sort_by_nickname: 'Trier par pseudonyme (nécessite Nicknames)'
+      sort_by_recently_seen: 'Trier par vues récentes'
+      sort_by_ziven_checkin: 'Trier par enregistrements (nécessite Ziven Daily Check In)'
+  forum:
+    user_card:
+      monthly_comments: '{count} commentaires mensuels'
+      monthly_discussions: '{count} discussions mensuelles'
+  lib:
+    integrations:
+      antoinefr-money:
+        least_money: 'Moins d''argent'
+        most_money: 'Plus d''argent'
+      clarkwinkelmann-likes-received:
+        least_likes_received: 'Plus petit nombre de « j''aime » reçus'
+        most_likes_received: 'Plus grand nombre de « j''aime » reçus'
+      core:
+        least_comments: 'Moins de commentaires'
+        least_recently_seen: 'Moins récemment vu'
+        most_comments: 'Plus de commentaires'
+        most_groups_count: 'Plus grand nombre de groupes'
+        most_monthly_comments: 'Plus de commentaires mensuels'
+        most_monthly_discussions: 'Plus de discussions mensuelles'
+        nickname_az: 'Pseudonyme (a-z)'
+        nickname_za: 'Pseudonyme (z-a)'
+        recently_seen: 'Récemment vu'
+      v17development-user-badges:
+        most_badges_count: 'Plus grand nombre de badges'
+      xypp-invite-user:
+        most_invited_user: 'Nombre d''utilisateurs les plus invités'
+      ziven-daily-check-in:
+        most_total_checkin: 'Plus grand nombre d''enregistrements'
+        most_total_continuous_checkin: 'Plus grand nombre d''enregistrements continus'
+        recently_checkin: 'Enregistré récemment'
