@@ -20,6 +20,7 @@ CHANGELOG
 * [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store)
 * [`ordinaryjellyfish/flarum-dicebear`](https://github.com/OrdinaryJellyfish/flarum-dicebear)
 * [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
+* [`ramon/colored`](https://github.com/ram0ng1/colored)
 * [`shebaoting/money`](https://github.com/shebaoting/money)
 * [`tohsakarat/post-camera`](https://github.com/tohsakrat/post-camera)
 * [`xypp/store`](https://github.com/zxy19/store)
@@ -42,6 +43,7 @@ CHANGELOG
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`ianm/translate`](https://flarum.org/extension/ianm/translate)
 * [`justoverclock/newsletter`](https://github.com/justoverclockl/newsletter)
+* [`justoverclock/related-discussions`](https://flarum.org/extension/justoverclock/related-discussions)
 * [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
 
 
