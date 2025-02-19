@@ -56,6 +56,8 @@ fof-byobu:
       title_placeholder: 'Titre de la discussion privée'
     confirm:
       make_public: "Voulez-vous vraiment supprimer les destinataires et rendre cette discussion visible à tous ceux qui peuvent voir l'étiquette attribuée\_?"
+    hero:
+      title: '=> fof-byobu.forum.nav.nav_item'
     input:
       search_recipients: 'Rechercher un destinataire en saisissant ses trois premiers caractères…'
     labels:

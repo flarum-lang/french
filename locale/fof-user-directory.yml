@@ -15,6 +15,8 @@ fof-user-directory:
   forum:
     header:
       back_to_user_directory_tooltip: 'Retourner au répertoire des utilisateurs'
+    hero:
+      title: '=> fof-user-directory.forum.page.nav'
     page:
       empty_text: 'Nous n''avons trouvé aucun utilisateur correspondant à votre recherche.'
       filter_button: 'Groupes de filtres'
