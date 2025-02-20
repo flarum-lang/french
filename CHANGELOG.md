@@ -2,6 +2,56 @@ CHANGELOG
 =========
 
 
+4.28.0 (2025-02-20)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`dalez/flarum-identityagent`](https://github.com/DellZHackintosh/flarum-identityagent)
+* [`foskym/flarum-sorts-for-user-directory`](https://github.com/FoskyM/flarum-sorts-for-user-directory)
+* [`huseyinfiliz/flagify`](https://github.com/huseyinfiliz/flagify)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile)
+* [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl)
+* [`justoverclock/profile-stories`](https://github.com/justoverclockl/profile-stories)
+* [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
+* [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
+* [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store)
+* [`ordinaryjellyfish/flarum-dicebear`](https://github.com/OrdinaryJellyfish/flarum-dicebear)
+* [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
+* [`ramon/colored`](https://github.com/ram0ng1/colored)
+* [`shebaoting/money`](https://github.com/shebaoting/money)
+* [`tohsakarat/post-camera`](https://github.com/tohsakrat/post-camera)
+* [`xypp/store`](https://github.com/zxy19/store)
+* [`xypp/user-decoration`](https://github.com/zxy19/user-decoration)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+* [`justoverclock/newsletter`](https://github.com/justoverclockl/newsletter)
+* [`justoverclock/related-discussions`](https://flarum.org/extension/justoverclock/related-discussions)
+* [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
+* [`nodeloc/flarum-ext-referral`](https://github.com/nodeloc/flarum-ext-referral)
+
+
+Journal de toutes les modifications : [v4.27.0...v4.28.0](https://github.com/flarum-lang/french/compare/v4.27.0...v4.28.0).
+
+
 4.27.0 (2024-11-17)
 -------------------
 
