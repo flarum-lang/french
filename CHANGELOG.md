@@ -36,6 +36,7 @@ CHANGELOG
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
@@ -45,6 +46,7 @@ CHANGELOG
 * [`justoverclock/newsletter`](https://github.com/justoverclockl/newsletter)
 * [`justoverclock/related-discussions`](https://flarum.org/extension/justoverclock/related-discussions)
 * [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
+* [`nodeloc/flarum-ext-referral`](https://github.com/nodeloc/flarum-ext-referral)
 
 
 Journal de toutes les modifications : [v4.27.0...v4.28.0](https://github.com/flarum-lang/french/compare/v4.27.0...v4.28.0).
