@@ -37,10 +37,16 @@ mattoid-store-invite:
     email-help: 'L''adresse de courriel de l''invité sera liée à l''adresse de courriel enregistrée sur le forum.'
     error:
       email-exist: 'L''adresse de courriel de l''invité existe déjà'
+      email-inconsistency: 'L''adresse de courriel et les informations relatives à l''invitation ne correspondent pas. Veuillez utiliser l''adresse de courriel qui a reçu le code d''invitation'
+      email-not-exist: 'L''adresse de courriel ne peut pas être vide'
+      exception: 'La révision automatique a échouée [{message}]'
       invite-not-exist: 'Les informations relatives à la demande ont été examinées ou n''existent pas. Veuillez actualiser la page et réessayer'
+      link-not-exist: 'le lien de l''invité ne peut pas être vide'
+      lock-resources: 'La ressource actuelle est verrouillée. Veuillez réessayer plus tard'
       review-failed: 'Vous avez récemment reçu des informations de candidature rejetées. Veuillez réessayer après le [{date}]'
       unaudited: 'Les informations relatives à la demande n''ont pas été approuvées et vous ne pouvez pas poursuivre la demande pour l''instant'
       user-balance-low: 'Solde utilisateur insuffisant'
+      username-inconsistency: 'Le nom d''utilisateur ne correspond pas aux informations de l''invitation. Veuillez vous inscrire en utilisant le nom d''utilisateur fourni dans le courriel'
     invite: 'Révision de l''invitation'
     link: 'Chaîne personnelle de l''invité'
     link-2: 'Chaîne d''invités 2'
@@ -55,3 +61,34 @@ mattoid-store-invite:
     title: Inviter
     username: 'Nom d''utilisateur de l''invité'
     username-help: 'Le nom d''utilisateur de l''invité n''est pas lié au nom d''utilisateur enregistré sur le forum'
+  lib:
+    item-apply-rmark: 'Appliquer Rmark'
+    item-button-expand: développer
+    item-button-retract: rétracter
+    item-confirm-remark: 'Commentaires de révision'
+    item-confirm-status: 'Statut de la révision'
+    item-confirm-time: 'Temps de révision'
+    item-confirm-user: Réviseur
+    item-create-time: 'Date de création'
+    item-email: 'Adresse de courriel de l''invité'
+    item-invite-code: Inviter
+    item-last-year-pass-num: 'Nombre de passages au cours de l''année écoulée'
+    item-last-year-reject-num: 'Nombre de rejets au cours de l''année écoulée'
+    item-last-year-total-num: 'Nombre de soumissions l''année précédente'
+    item-link: 'Chaîne personnelle de l''invité'
+    item-link-2: 'Chaîne d''invités 2'
+    item-pass-total-num: 'Nombre cumulé de passages'
+    item-post-num: 'Numéro du message'
+    item-query: 'Recherche par invitant, invité ou adresse de courriel'
+    item-reject-total-num: 'Nombre cumulé de rejets'
+    item-status-adopt: adopter
+    item-status-all: Tous
+    item-status-confirm: 'Non audité'
+    item-status-refuse: refuser
+    item-this-year-pass-num: 'Nombre de passages cette année'
+    item-this-year-reject-num: 'Nombre de rejets cette année'
+    item-this-year-total-num: 'Nombre d''engagements cette année'
+    item-total-num: 'Nombre cumulé de soumissions'
+    item-user: Inviteur
+    item-user-create-time: 'Date d''inscription de l''utilisateur'
+    item-username: 'Nom d''utilisateur de l''invité'

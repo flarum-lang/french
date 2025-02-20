@@ -4,8 +4,103 @@
 
 mattoid-store:
   admin:
+    error:
+      invalid-product: 'Produit non valide'
+      validate-fail: 'Échec de l''enregistrement de l''article'
     settings:
+      add-store-goods: 'Ajouter des produits'
+      days: jour
       decorationStoreTimezone: 'fuseau horaire'
-      decorationStoreTimezone-requirement: 'Définir le fuseau horaire. "Asie/Shanghai" par défaut'
-      store-name: 'Conserver le nom'
-      store-name-requirement: 'Le nom de la boutique sera affiché dans le menu de la page d''accueil et dans la barre de titre'
+      decorationStoreTimezone-requirement: 'Définir le fuseau horaire. La valeur par défaut est « Asie/Shanghai »'
+      edit-store-goods: 'Modifier les produits'
+      goods-auto-deduction: 'Déduction automatique'
+      goods-code: Code
+      goods-delete: Supprimer
+      goods-desc: Description
+      goods-discount: Réduction(%)
+      goods-discount-limit: 'Limite de réduction'
+      goods-discount-limit-unit: Unité
+      goods-edit: Modifier
+      goods-hide: 'Pas d''autorisation de cacher des produits pour une durée limitée'
+      goods-icon: Icône
+      goods-item-delete: 'Êtes-vous sûr de vouloir supprimer cet article ?'
+      goods-item-status-0: 'Êtes-vous sûr de vouloir lister cet article ?'
+      goods-item-status-1: 'Êtes-vous sûr de vouloir retirer cet article des rayons ?'
+      goods-outtime: 'Heures creuses'
+      goods-price: Prix
+      goods-repeat: 'Autoriser les doublons de produits'
+      goods-status: Statut
+      goods-stock: Stock
+      goods-title: Titre
+      goods-type: 'Type d''achat'
+      goods-upload-button: Transférer
+      group-view: 'Autoriser des groupes d''utilisateurs à accéder au magasin'
+      show-icon-button: Galerie
+      store-name: 'Nom du magasin'
+      store-name-requirement: 'Le nom du magasin sera affiché dans le menu de la page d''accueil et dans la barre de titre'
+      store-timezone: 'Fuseau horaire'
+      store-timezone-requirement: 'Définir le fuseau horaire. La valeur par défaut est « Asie/Shanghai »'
+  forum:
+    auto-deduction: 'Déduction automatique des frais pour les produits : {title}'
+    button: Acheter
+    buy-goods: 'Acheter des produits : {title}'
+    buy-goods-fail: 'Remboursement du produit : {title}'
+    cart: panier
+    ckeck-goods-outtime: 'Vérifier la date d''expiration du produit'
+    days: jour
+    error:
+      automatic-renewal: 'Le renouvellement automatique n''est pas activé'
+      automatic-renewal-fail: 'Le renouvellement automatique a échoué [{message}]'
+      buy-goods-fail: 'Échec de l''achat du produit [{title}]'
+      cannot-Goods-repeatedly: 'Aucun doublon de produit n''est autorisé pendant la période de validité'
+      cart-no-use: 'Ce produit n''a pas d''utilité fonctionnelle'
+      cart-use-fail: 'L''utilisation des produits a échoué'
+      file-exist: 'le fichier existe déjà'
+      goods-invalid-event-fail: 'Échec de la poussée de l''événement des produits [{message}]'
+      goods-invalid-fail: 'Échec de l''exécution de la logique des produits [{message}]'
+      insufficient-inventory: 'Inventaire insuffisant'
+      invalid-product: 'Produit non valide'
+      store-goods-non-existent: 'Le produit n''existe pas ou a été retiré de la liste'
+      user-balance-low: 'Solde utilisateur insuffisant'
+      validate-fail: 'Échec de l''enregistrement de l''article'
+    free: Gratuit
+    infinite: Infini
+    tital: Magasin
+  lib:
+    cancel: Annuler
+    confirm: Valider
+    item-cart-auto-deduction: 'Renouvellement automatique'
+    item-cart-button-cancel: Annuler
+    item-cart-button-use: Activer
+    item-cart-created: 'Temps d''achat'
+    item-cart-outtime: 'Date d''expiration'
+    item-cart-pay-amt: 'Montant du paiement'
+    item-cart-price: Prix
+    item-cart-status: 'statut du paiement'
+    item-cart-title: 'Titre des produits'
+    item-cart-type: 'Type de produits'
+    item-created-at: 'Ajouter du temps'
+    item-desc: 'Description des produits'
+    item-discount: réduction
+    item-discount_limit: 'Période de réduction'
+    item-id: Identifiant
+    item-invalid: 'Renouvellement automatique'
+    item-limit-unit-days: jours
+    item-limit-unit-hour: heure
+    item-limit-unit-minute: minute
+    item-limit-unit-second: seconde
+    item-price: Prix
+    item-status: 'Statut des produits'
+    item-status-0: 'Retirer des rayons'
+    item-status-1: Liste
+    item-status-all: 'Tous les statuts des produits'
+    item-status-down: 'Radiation de la liste'
+    item-status-up: Liste
+    item-stock: Stock
+    item-title: 'Titre des produits'
+    item-type: 'Type de produits'
+    item-type-all: 'Tous les types de produits'
+    item-type-limit: 'Validité limitée dans le temps'
+    item-type-permanent: 'Validité permanente'
+    list-empty: 'Cet endroit est complètement vide'
+    list-load-more: plus
