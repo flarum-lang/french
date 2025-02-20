@@ -5,7 +5,53 @@
 mattoid-store-invite:
   admin:
     settings:
-      calm-down-period: 'Délai de réflexion pour un candidature (jours)'
-      calm-down-period-help: 'Après que la candidature ait été refusé, il n''est pas possible de re-postuler avant N jours à partir de la date de refus'
-      group-admin-view: 'Voir les autorisations'
+      auto-review: 'Révision automatique réussie'
+      auto-review-help: 'Après vérification, le système passera automatiquement et terminera l''opération de révision'
+      auto-review-username: 'Révision automatique des utilisateurs'
+      auto-review-username-help: 'Lorsque l''audit automatique est activé, le système interroge les utilisateurs saisis'
+      calm-down-period: 'Demande de délai de réflexion (en jours)'
+      calm-down-period-help: 'Après le rejet de la demande, il n''est pas possible d''introduire une nouvelle demande pendant X jours à compter de la date de rejet'
+      group: 'Enregistrer le groupe d''utilisateurs'
+      group-admin-view: 'Permissions d''audit'
+      group-blacklist-view: 'Liste noire de groupe d''utilisateurs (les utilisateurs de ce groupe ne pourront pas acheter de produits)'
+      group-help: 'Après l''enregistrement, l''utilisateur devient par défaut membre du groupe d''utilisateurs'
       group-view: 'Afficher les produits aux utilisateurs'
+      invite-validity-period: 'Période de validité du code d''invitation (en jours)'
+      invite-validity-period-help: 'Après l''approbation de la révision, les codes de vérification qui dépassent la limite de temps deviennent automatiquement invalides'
+      mail: 'Modèle de courriel'
+      mail-help: 'Contenu du courriel envoyé aux invités'
+      mail-template: 'Bonjour [user], votre code d''invitation est [code]'
+      mail-title: 'Titre du courriel'
+      mail-title-help: 'L''invité reçoit le contenu du titre du courriel'
+      post-num: 'Numéro de message'
+      post-num-help: 'Lorsque le nombre de messages est inférieur à la valeur actuelle, la page de bilan affiche la valeur en rouge'
+      price: 'Déduction des frais'
+      price-help: 'Déduction des fonds après approbation'
+      show-index: 'Ajouter à la page d''accueil'
+      show-index-help: 'Afficher le menu de révision sur la page d''accueil'
+  forum:
+    confirm-adopt: confirmer
+    confirm-invite-price: 'Déduction des frais d''invitation'
+    confirm-refuse: Refuser
+    email: 'Adresse de courriel de l''invité'
+    email-help: 'L''adresse de courriel de l''invité sera liée à l''adresse de courriel enregistrée sur le forum.'
+    error:
+      email-exist: 'L''adresse de courriel de l''invité existe déjà'
+      invite-not-exist: 'Les informations relatives à la demande ont été examinées ou n''existent pas. Veuillez actualiser la page et réessayer'
+      review-failed: 'Vous avez récemment reçu des informations de candidature rejetées. Veuillez réessayer après le [{date}]'
+      unaudited: 'Les informations relatives à la demande n''ont pas été approuvées et vous ne pouvez pas poursuivre la demande pour l''instant'
+      user-balance-low: 'Solde utilisateur insuffisant'
+    invite: 'Révision de l''invitation'
+    link: 'Chaîne personnelle de l''invité'
+    link-2: 'Chaîne d''invités 2'
+    link-2-help: 'Confirmation des informations sur les invités par les évaluateurs (ces informations ne peuvent être consultées que par les évaluateurs et le personnel de l''officine)'
+    link-help: 'Confirmation des informations sur les invités par les évaluateurs (ces informations ne peuvent être consultées que par les évaluateurs et le personnel de l''officine)'
+    mail:
+      send-invite-title: 'Code d''invitation'
+    my-invite: 'Mon invitation'
+    remark: remarque
+    remark-help: 'Visible uniquement par soi-même et par la direction (peut être laissé vide).'
+    system-review: 'Examen automatique du système'
+    title: Inviter
+    username: 'Nom d''utilisateur de l''invité'
+    username-help: 'Le nom d''utilisateur de l''invité n''est pas lié au nom d''utilisateur enregistré sur le forum'

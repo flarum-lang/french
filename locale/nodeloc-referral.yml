@@ -4,22 +4,36 @@
 
 nodeloc-referral:
   admin:
+    items:
+      add: Ajouter
     permissions:
       referral_key: 'Qui peut inviter'
     settings:
       expires: Expiration
+      key_count: 'Combien d''invitations gratuites pour les nouveaux membres'
       max_number: 'Nombre maximum'
       price: Prix
       reward: Récompense
   forum:
     actives: Actifs
+    claim_failed: 'Échec de la réclamation.'
+    claim_now: 'Réclamer maintenant'
     cost: Coût
     count: 'Compte à rebours'
     create_time: 'Créer du temps'
+    free_help_tip: 'Vous pouvez obtenir {amount} codes d''invitation tous les {days} jours.'
+    free_invite_code: 'Code d''invitation gratuit'
     invite_code: 'Code d''invitation'
+    inviter: 'Inviteur {inviter}'
     is_expire: 'Expiré ?'
+    next_available: 'Vous devez attendre {hours} heures pour créer un nouveau code d''invitation gratuit.'
     purchase_expire_tip: 'Le code d''invitation expirera dans {invite_code_expires} jour(s)'
     purchase_help_tip: 'Chaque code d''invitation coûte {invite_code_price} énergie(s). Pour chaque utilisateur invité avec succès, vous recevrez {invite_code_reward} énergie(s).'
     purchase_invite_code: 'Acheter un code d''invitation'
     purchase_max_tip: 'Acheter en quantité (jusqu''à {invite_code_max_number} à la fois)'
     referral: Référence
+    registers: Registres
+    sign_up:
+      get_invite_link_text: 'Cliquez ici pour en obtenir un'
+      no_invite_text: 'Pas de code d''invitation ?'
+    wait_to_claim: 'Attendre pour réclamer'

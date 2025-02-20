@@ -3,11 +3,63 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 xypp-store:
+  admin:
+    permissions:
+      add-item: 'Ajouter un article de magasin'
+      remove-history: 'Supprimer les achats des autres'
+      remove-item: 'Supprimer l''article du magasin'
+      view-history: 'Voir les achats des autres'
   forum:
-    create: 'Créer un élément'
+    create: 'Créer un article'
     create-modal:
+      button: Créer
+      confirm_delete: 'Êtes-vous sûr de vouloir supprimer cet article ?'
+      delete-button: Supprimer
+      desc: Description
+      edit-button: Modifier
+      edit-title: 'Modifier l''article#{0}'
+      expire_time: 'Durée d''expiration'
+      expire_time_tip: 'Laissez vide pour désactiver, ou sur un nombre pour expirer après ce nombre de secondes.'
+      name: Nom
+      price: Prix
+      provider: Fournisseur
+      provider_data: 'Données du fournisseur'
+      provider_data_default: 'Données par défaut'
+      provider_data_error: 'Veuillez sélectionner le fournisseur et les données'
+      providers:
+        no_select_data: 'Sélectionner les données du fournisseur'
+        special_data: 'Données sélectionnées'
+        unknown: 'Sélectionner un fournisseur'
+        unknown_data: 'Il faut d''abord sélectionner un fournisseur'
+      rest_cnt: 'Nombre de repos'
+      rest_cnt_tip: 'Laissez vide pour être infini, ou sur un nombre pour limiter le comptage.'
+      success: 'Article créé'
       title: 'Créer un article'
+      use_cnt: 'Les durées peuvent être utilisées'
+    edit-result:
+      fail:
+        not-found: 'L''article n''a pas été trouvé'
     edit_button: Modifier
+    history:
+      confirm_delete: 'Êtes-vous sûr de vouloir supprimer cet article que vous avez acheté ?'
+      confirm_use: 'Confirmer l''utilisation ?'
+      delete_button: Supprimer
+      expire: 'Expire à {0}'
+      forever: 'Disponible pour toujours'
+      infinity_use: 'Utilisation illimitée'
+      no_record: 'Non acheté'
+      not_found: 'L''article n''a pas été trouvé'
+      rest_cnt: 'Peut être utilisé {0} fois'
+      title: Acheté
+      unable_to_use: 'Cet article ne peut pas être utilisé'
+      use: Utiliser
+    item:
+      expire: 'Durée pour {0}'
+      infinity_count: 'Nombre illimité disponible'
+      no_available: 'Aucun article disponible'
+      not_found: 'L''article n''a pas été trouvé'
+      rest_cnt: 'Restant {0}'
+      use_cnt: 'Utilisé {0} fois'
     price_free: Gratuit
     provider:
       all: Tout
@@ -15,11 +67,34 @@ xypp-store:
         no-preview: 'Aucune prévisualisation'
         title: 'Fournisseur inconnu'
     purchase: Acheter
+    purchase-confirm: 'Confirmer l''achat ?'
     purchase-history: Achats
+    purchase_result:
+      fail:
+        cannot: 'Impossible d''acheter ce produit'
+        not_enough_item: 'Pas assez d''articles'
+        not_enough_money: 'Pas assez d''argent'
+        unknown: 'Erreur inconnue'
+      success: Succès
+    query-modal:
+      purchase:
+        title: 'Acheter un article'
+      use:
+        title: 'Utiliser l''article'
     show_case: Vitrine
-    store: Boutique
+    store: Magasin
     time_segs: jours|heures|minutes
     unavailable:
       common:
         no_rest: 'Pas de repos'
         unknown: 'Impossible d''acheter'
+    use_result:
+      fail:
+        cannot: 'Ne peut pas utiliser cet article'
+        error: 'Erreur lors de l''utilisation de l''article'
+        expired: 'Article expiré'
+        fail_expire: 'Échec lors de l''expiration de cet article'
+        id_not_found: 'L''identifiant de l''article n''a pas été trouvé'
+        not_enough: 'Nombre d''utilisations insuffisant'
+        unknown: 'Erreur inconnue'
+      success: Succès

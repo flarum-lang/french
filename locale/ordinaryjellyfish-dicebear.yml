@@ -8,3 +8,34 @@ ordinaryjellyfish-dicebear:
     api_url_help: 'Laisser ce paramètre par défaut est recommandé pour la plupart des gens. Ce paramètre est utilisé si vous hébergez votre propre instance d''API Dicebear.'
     avatar_style: 'Style de l''avatar'
     avatar_style_help: 'Sélectionnez un style d''avatar pour votre forum ! Vous pouvez consulter les styles d''avatars <a>sur le site de Dicebear</a>.'
+    avatar_style_options:
+      adventurer: Aventurier
+      adventurer-neutral: 'Aventurier neutre'
+      avataaars: Avataaars
+      avataaars-neutral: 'Avataaars neutres'
+      big-ears: 'Grandes oreilles'
+      big-ears-neutral: 'Grandes oreilles neutres'
+      big-smile: 'Grand sourire'
+      bottts: Robottts
+      bottts-neutral: 'Robottts neutres'
+      croodles: Crocos
+      croodles-neutral: 'Crocos neutres'
+      dylan: Dylan
+      fun-emoji: 'Émoji amusant'
+      glass: Verre
+      icons: Icônes
+      identicon: Identicon
+      initials: Initiales
+      lorelei: Lorelei
+      lorelei-neutral: 'Lorelei neutre'
+      micah: Micah
+      miniavs: Miniavs
+      notionists: Notionnels
+      notionists-neutral: 'Notionnels neutres'
+      open-peeps: 'Ouvrir des confiseries en marshmallow'
+      personas: Personnages
+      pixel-art: 'Art du pixel'
+      pixel-art-neutral: 'Art du pixel neutre'
+      rings: Anneaux
+      shapes: Formes
+      thumbs: Pouces
