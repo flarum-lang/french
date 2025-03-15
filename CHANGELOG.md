@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+4.29.0 (XXXX-XX-XX)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`kk14569/flarum-anti-gmail-alias`](https://github.com/kk14569/flarum-anti-gmail-alias)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`nodeloc/whisper`](https://github.com/nodeloc/whisper)
+* [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
+
+
+Journal de toutes les modifications : [v4.28.0...v4.29.0](https://github.com/flarum-lang/french/compare/v4.28.0...v4.29.0).
+
+
 4.28.0 (2025-02-20)
 -------------------
 
