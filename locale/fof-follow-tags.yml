@@ -33,6 +33,8 @@ fof-follow-tags:
     badge:
       following_tag_tooltip: Abonné
       lurking_tag_tooltip: Surveillé
+    hero:
+      title: '=> flarum-subscriptions.forum.index.following_link'
     index:
       follow_tag_button: Suivre
       following:

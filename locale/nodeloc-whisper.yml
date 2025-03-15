@@ -32,3 +32,15 @@ nodeloc-whisper:
       search_recipients: 'Saisir le nom d''utilisateur…'
       submit: Envoyer
       title: 'Envoyer un message'
+    notifications:
+      email:
+        new_private_message:
+          manageEmailSettings: 'Gérer les paramètres de messagerie'
+          subject: 'Message de {user}'
+          viewMessage: 'Voir le message'
+          youHaveReceivedNewMessage: 'Vous avez reçu un nouveau message de {user} !'
+      message_received: Test
+      new_private_message: 'Quelqu''un m''a envoyé un message'
+      web:
+        new_private_message:
+          body: 'Message de {fromUser}'

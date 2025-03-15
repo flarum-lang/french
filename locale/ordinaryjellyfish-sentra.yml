@@ -28,6 +28,7 @@ ordinaryjellyfish-sentra:
       content_safety_settings:
         analyze_images: 'Analyser les images'
       heading: Services
+    view_documentation: 'Voir la documentation'
   forum:
     flag_detail: 'Le message répond aux critères de {categories} avec des degrés de gravité respectifs de {severities}'
     flag_reason: 'Sentra a marqué ce message pour {reason}'
