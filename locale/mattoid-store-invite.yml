@@ -16,6 +16,8 @@ mattoid-store-invite:
       group-blacklist-view: 'Liste noire de groupe d''utilisateurs (les utilisateurs de ce groupe ne pourront pas acheter de produits)'
       group-help: 'Après l''enregistrement, l''utilisateur devient par défaut membre du groupe d''utilisateurs'
       group-view: 'Afficher les produits aux utilisateurs'
+      invite-calm-down-period: 'Période de réflexion de l''invitation (en jours)'
+      invite-calm-down-period-help: 'Après l''envoi de l''invitation, une nouvelle demande ne sera pas autorisée pendant N jours à compter de la date d''approbation'
       invite-validity-period: 'Période de validité du code d''invitation (en jours)'
       invite-validity-period-help: 'Après l''approbation de la révision, les codes de vérification qui dépassent la limite de temps deviennent automatiquement invalides'
       mail: 'Modèle de courriel'
@@ -36,6 +38,7 @@ mattoid-store-invite:
     email: 'Adresse de courriel de l''invité'
     email-help: 'L''adresse de courriel de l''invité sera liée à l''adresse de courriel enregistrée sur le forum.'
     error:
+      blacklist: 'Liste noire d''utilisateurs, les invitations sont interdites !'
       email-exist: 'L''adresse de courriel de l''invité existe déjà'
       email-inconsistency: 'L''adresse de courriel et les informations relatives à l''invitation ne correspondent pas. Veuillez utiliser l''adresse de courriel qui a reçu le code d''invitation'
       email-not-exist: 'L''adresse de courriel ne peut pas être vide'
