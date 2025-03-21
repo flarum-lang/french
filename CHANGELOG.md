@@ -13,6 +13,7 @@ CHANGELOG
 **Mise à jour des traductions de certaines extensions**:
 
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
 * [`nodeloc/whisper`](https://github.com/nodeloc/whisper)
 * [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
 
