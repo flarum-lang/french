@@ -61,20 +61,30 @@ ianm-twofactor:
       cancel_button: Annuler
       cannot_disable: 'La configuration actuelle ne permet pas de désactiver l''authentification à deux facteurs.'
       cannot_disable_tooltip: 'Impossible de désactiver l''A2F'
+      change_device_button: 'Modifier l''appareil'
+      change_device_description: 'Déplacer l''A2F vers un nouvel appareil'
+      change_device_heading: 'Modifier l''appareil d''authentification'
+      change_device_title: 'Modifier l''appareil'
       confirm_disable_2fa_text: 'Êtes-vous sûr de vouloir désactiver l''authentification à deux facteurs ?'
       confirm_disable_2fa_text_other_user: 'Êtes-vous sûr de vouloir désactiver l''authentification à deux facteurs pour {username} ? Cela supprimera tous les codes de sauvegarde et désactivera l''authentification à deux facteurs pour son compte.'
       confirm_disable_2fa_title: 'Confirmer la désactivation de l''authentification à deux facteurs'
+      continue_button: Continuer
+      device_changed_confirmation: 'Votre appareil d''authentification a été modifié avec succès.'
       disable_2fa_button: 'Désactiver l''A2F'
       enable_2fa_button: 'Activer l''A2F'
       enable_2fa_modal_text: 'Scannez le code QR ci-dessous avec votre application d''authentification, puis saisissez le jeton fourni pour activer l''authentification à deux facteurs.'
+      enter_current_token: 'Saisir le jeton de l''appareil actuel'
+      enter_new_token: 'Saisir le jeton à partir du nouvel appareil'
       enter_token: 'Saisir le jeton'
       loading_qr: 'Chargement du code QR…'
       manual_entry_instruction: 'Saisissez le code fourni dans votre application d''authentification, puis saisissez le jeton généré pour activer l''authentification à deux facteurs.'
       manual_tab: 'Configuration manuelle'
+      new_backup_codes: 'Vos nouveaux codes de sauvegarde'
       ok_button: Valider
       qr_code_alt: 'Code QR pour l''authentification à deux facteurs'
       qr_tab: 'Scanner le code QR'
       saved_backup_codes_button: 'J''ai sauvegardé ces codes'
+      scan_new_device_qr: 'Scannez ce code QR avec votre nouvel appareil d''authentification.'
       scan_qr_instruction: 'Scannez le code QR ci-dessus avec votre application d''authentification, puis saisissez le jeton fourni pour activer l''authentification à deux facteurs.'
       two_factor_apps: 'Des applications telles que {google}, {authy}, {microsoft} et bien d''autres sont disponibles gratuitement.'
       two_factor_disabled: 'L''A2F est désactivée sur ce compte.'
@@ -84,6 +94,8 @@ ianm-twofactor:
       two_factor_help: 'L''authentification à deux facteurs (A2F) offre un niveau de sécurité supplémentaire à votre compte. Une fois activée, en plus de votre mot de passe, vous devrez saisir un jeton de votre application d''authentification lorsque vous vous connecterez ou effectuerez certaines autres actions. Cela garantit que votre compte reste sécurisé, même si votre mot de passe est compromis, car les pirates auraient également besoin d''un code (qui change toutes les 30 secondes) pour accéder à votre compte.'
       two_factor_title: 'Statut :'
       verify_button: Vérifier
+      verify_current_device_message: 'Veuillez saisir un jeton de votre appareil d''authentification actuel pour vérifier votre identité.'
+      verify_new_device_message: 'Saisissez maintenant un jeton à partir de votre nouvel appareil pour terminer la modification.'
     user_2fa:
       alert_message: 'Vous devez activer la fonction A2F pour continuer à accéder à votre compte.'
   views:

@@ -32,6 +32,7 @@ fof-links:
     links:
       create_button: '=> fof-links.ref.create_link'
       links: '=> fof-links.ref.links'
+      preconfigured: 'Les liens sur ce forum ont été préconfigurés et ne peuvent pas être modifiés ici.'
     settings:
       show_icons_only_on_mobile: 'Afficher les icônes uniquement sur les mobiles'
       show_icons_only_on_tablet: 'Afficher uniquement les icônes sur les écrans de tablettes'

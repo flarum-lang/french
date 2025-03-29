@@ -8,10 +8,15 @@ neoncube-private-messages:
       allow_users_to_receive_email_notifications: 'Autoriser les utilisateurs à recevoir des notifications par courriel lorsqu''ils reçoivent un message privé'
       start_label: 'Démarrer des conversations privées'
     settings:
+      enable_custom_colors: 'Activer les couleurs personnalisées'
       message_recipient_background_color: 'Couleur personnalisée pour le message du destinataire'
       message_recipient_background_color_help: .
+      recipient_background_color: 'Couleur d''arrière-plan des messages reçus :'
+      recipient_text_color: 'Couleur du texte des messages reçus :'
       return_key: 'La touche retour envoie un message'
       return_key_help: 'Faire en sorte que l''appui sur la touche « Entrée » permette d''envoyer un message. Si cette fonction est désactivée, le fait d''appuyer sur la touche d''entrée commence une nouvelle ligne et l''utilisateur doit cliquer sur le bouton « Envoyer le message » pour envoyer le message.'
+      sender_background_color: 'Couleur d''arrière-plan des messages envoyés :'
+      sender_text_color: 'Couleur du texte des messages envoyés :'
       show_read_receipts: 'Afficher les accusés de lecture'
       show_read_receipts_help: 'Afficher une indication de lecture à côté d''un message lorsque le destinataire l''a lu.'
       title: 'Paramètres de chuchotement'
