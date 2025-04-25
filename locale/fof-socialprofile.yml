@@ -9,7 +9,8 @@ fof-socialprofile:
       editOwn: 'Modifier son propre profil social'
       view: 'Voir le profil social'
     settings:
-      allow_external_favicons_label: 'Autoriser les icônes de sites internet externes (utilise l''API des favicons de DuckDuckGo)'
+      allow_external_favicons_label: 'Autoriser les icônes de sites internet externes (utilise l''API de favicon du fournisseur externe)'
+      favicon_provider_label: 'Fournisseur externe de Favicon'
   forum:
     edit:
       add: 'Ajouter des boutons à vos réseaux sociaux'

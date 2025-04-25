@@ -6,6 +6,32 @@ fof-doorman:
   admin:
     doorkey_required: 'Vous devez fournir un code d''invitation'
     invalid_doorkey: 'Le code d''invitation que vous avez fourni n''est pas valide.'
+    list:
+      columns:
+        activates_user: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        created_by: 'Créé par'
+        group: '=> fof-doorman.admin.ref.fields.group.label'
+        id: Identifiant
+        key: '=> fof-doorman.admin.ref.fields.key.label'
+        manage: Gérer
+        max_uses: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        uses: Utilisations
+      content:
+        delete: 'Êtes-vous sûr de vouloir supprimer le code d''invitation « {key} » ?'
+        invalid_column: '=> core.admin.users.grid.invalid_column_content'
+        no_created_by: 'Utilisateur inconnu'
+        no_group: '=> core.admin.users.grid.columns.group_badges.no_badges'
+        uses:
+          total_uses: '{totalUses, plural, one {Utilisé {totalUses} fois} other {Utilisé {totalUses} fois}}'
+          used_times: '{remaining, plural, =0 {Utilisations illimitées} one {{remainingUses} utilisation restante} other {{remainingUses} utilisations restantes}}'
+        warning: 'Ce code d''invitation a été utilisé le nombre maximum de fois.'
+      pagination:
+        back_button: '=> core.admin.users.pagination.back_button'
+        first_page_button: '=> core.admin.users.pagination.first_page_button'
+        go_to_page_textbox_a11y_label: '=> core.admin.users.pagination.go_to_page_textbox_a11y_label'
+        last_page_button: '=> core.admin.users.pagination.last_page_button'
+        next_button: '=> core.admin.users.pagination.next_button'
+        page_counter: '=> core.admin.users.pagination.page_counter'
     modal:
       group: 'Envoi d''invitations pour le groupe {group}'
       help: 'Accepte une liste séparée par des virgules, des espaces ou des espaces séparés par des virgules. Saisissez une adresse de courriel individuelle ou collez-en une liste, puis appuyez sur espace pour les ajouter.'
@@ -15,6 +41,47 @@ fof-doorman:
       send: 'Envoyer les courriels'
       success: 'Les courriels ont été envoyés'
       title: 'Envoyer des codes d''invitation'
+    modals:
+      create_doorkey:
+        activates_user:
+          help: '=> fof-doorman.admin.ref.fields.activates_user.help'
+          label: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group:
+          help: '=> fof-doorman.admin.ref.fields.group.help'
+          label: '=> fof-doorman.admin.ref.fields.group.label'
+        key:
+          help: '=> fof-doorman.admin.ref.fields.key.help'
+          label: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses:
+          help: '=> fof-doorman.admin.ref.fields.max_uses.help'
+          label: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        submit_and_create_another_button: 'Créer et en ajouter un autre'
+        submit_button: 'Créer un code d''invitation'
+        title: 'Créer un nouveau code d''invitation'
+      edit_doorkey:
+        activates_user:
+          help: '=> fof-doorman.admin.ref.fields.activates_user.help'
+          label: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group:
+          help: '=> fof-doorman.admin.ref.fields.group.help'
+          label: '=> fof-doorman.admin.ref.fields.group.label'
+        key:
+          help: '=> fof-doorman.admin.ref.fields.key.help'
+          label: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses:
+          help: '=> fof-doorman.admin.ref.fields.max_uses.help'
+          label: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        submit_button: 'Enregistrer les modifications'
+        title: 'Modifier le code d''invitation'
+      send_invites:
+        group: 'Envoi d''invitations pour le groupe {group}'
+        help: 'Accepte une liste séparée par une virgule, un espace ou une virgule-espace. Saisissez une adresse de courriel individuelle ou collez une liste, puis appuyez sur espace pour l''ajouter ou les ajouter.'
+        invalid_emails: 'Les adresses de courriel suivantes ne sont pas valides : {emails}'
+        max_use_conflict: 'Le nombre d''adresses de courriel dépasse le nombre maximum d''utilisations pour ce code.'
+        placeholder: 'Saisir ici les adresses de courriel'
+        send: 'Envoyer les courriels'
+        success: 'Courriels envoyés avec succès'
+        title: 'Envoyer les codes d''invitation'
     nav:
       desc: 'Créez des codes d''invitation pour que les utilisateurs puissent s''inscrire et être affectés à un groupe'
     page:
@@ -39,6 +106,28 @@ fof-doorman:
         used_times: '{remaining, plural, =0 {Utilisations illimitées} one {{remaining} utilisation restante} other {{remaining} utilisations restantes}}'
         warning: 'Ce code d''invitation a été utilisé le nombre maximum de fois.'
       title: Doorman
+    ref:
+      fields:
+        activates_user:
+          help: 'Active automatiquement l''utilisateur lorsqu''il s''inscrit.'
+          label: 'Activation de l''utilisateur'
+        group:
+          help: 'Le groupe auquel l''utilisateur sera ajouté lors de son inscription à l''aide du code d''invitation.'
+          label: Groupe
+        key:
+          help: 'Code que l''utilisateur saisira lors de l''inscription.'
+          label: Clé
+        max_uses:
+          help: 'Le nombre maximum de fois que le code peut être utilisé. Définissez la valeur sur 0 pour des utilisations illimitées'
+          label: 'Utilisations maximales'
+    settings:
+      create_doorkey_button: 'Créer un code d''invitation'
+      optional_usage: 'Rendre le code d''invitation facultatif lors de l''inscription'
+      search: 'Rechercher des clés de porte'
+      total_doorkeys: 'Nombre total de clés de porte : {count}'
+  email:
+    body: "Bonjour,\n\nVous avez été invité à vous inscrire sur {forum}.\n\nLorsque vous serez prêt à créer votre compte, il vous suffira de cliquer sur le lien suivant et d'entrer le code lors de l'inscription :\n\nLien : {url}\nCode d'invitation : {code}\n\nSi vous avez reçu ce message par erreur, veuillez l'ignorer.\n"
+    subject: 'Inviter à s''inscrire'
   forum:
     email:
       body: "Bonjour,\n\nVous avez été invité à vous inscrire sur {forum}.\n\nLorsque vous serez prêt à créer votre compte, cliquez simplement sur le lien suivant et entrez le code lors de l'inscription :\n\nURL : {url}\nCode d'invitation : {code}\n\nSi vous avez reçu ce message par erreur, veuillez ignorer ce courriel.\n"

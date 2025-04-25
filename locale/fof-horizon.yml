@@ -18,7 +18,7 @@ fof-horizon:
       trim_recent_failed: 'Ajuster les tâches récemment échouées'
       trim_recent_failed_help: "Ce tableau est utilisé pour afficher les dernières tâches ayant échoué dans le tableau de bord d'Horizon.\n"
       trim_recent_help: "Ce tableau est utilisé pour afficher les tâches récentes dans le tableau de bord d'Horizon.\n"
-      trim_title: 'Réglages de la compensation'
+      trim_title: 'Réglages de l''ajustement'
     stats:
       auto_refresh: 'Actualisation automatique'
       data:
@@ -28,18 +28,21 @@ fof-horizon:
         max-runtime: 'Durée d''exécution maximale'
         max-throughput: 'Débit maximal'
         max-wait-time: 'Temps d''attente maximal'
+        redis-blocked-clients: 'Clients bloqués'
+        redis-connected-clients: 'Clients connectés'
         redis-cpu-sys: 'Redistribuer le processeur du système'
         redis-cpu-user: 'Redistribuer le processeur de l''utilisateur'
         redis-max-memory: 'Redistribuer la mémoire maximale'
         redis-memory-policy: 'Redistribuer la politique de mémoire'
         redis-memory-policy-tooltip: "La politique de mémoire est la façon dont Redis sélectionnera ce qui doit être supprimé lorsque\nla limite de mémoire maximale est atteinte. La valeur par défaut est `noeviction` : les nouvelles valeurs \nne sont pas sauvegardées lorsque la limite de mémoire est atteinte. Cliquez ici pour consulter la documentation.\n"
+        redis-ops-per-sec: 'Opérations par seconde'
         redis-peak-memory: 'Redistribuer les pics de mémoire'
         redis-used-memory: 'Redistribuer la mémoire utilisée'
         status:
           inactive: Inactif
           label: Statut
           running: 'En cours d''exécution'
-        total-processes: 'Processus totaux'
-      full_dashboard: 'Tableau de bord de Horizon'
+        total-processes: 'Total des processus'
+      full_dashboard: 'Tableau de bord d''Horizon'
       heading: 'Vue d''ensemble de la file d''attente'
       refresh: Actualiser
