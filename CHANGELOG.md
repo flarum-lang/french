@@ -14,8 +14,11 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
 * [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
