@@ -12,8 +12,8 @@ blazite-turnstile:
       signup: '=> core.forum.sign_up.title'
       site_key: 'Clé du site'
   forum:
-    not_loaded_error: 'Échec du chargement de Cloudflare Turnstile. Veuillez rafraîchir la page et vérifier votre bloqueur de publicités.'
+    not_loaded_error: 'Échec du chargement de Cloudflare Turnstile. Veuillez actualiser la page et vérifier votre bloqueur de publicités.'
     validation_error: 'Veuillez relever le défi de Turnstile.'
 validation:
   required: 'Veuillez relever le défi de Turnstile.'
-  turnstile: 'Nous n''avons pas pu vérifier si vous êtes un robot ou non. Veuillez rafraîchir la page puis réessayer.'
+  turnstile: 'Nous n''avons pas pu vérifier si vous êtes un robot ou non. Veuillez actualiser la page puis réessayer.'
