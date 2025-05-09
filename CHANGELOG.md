@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-4.29.0 (XXXX-XX-XX)
+4.29.0 (2025-05-09)
 -------------------
 
 **Prise en charge de nouvelles extensions**:
