@@ -2,6 +2,35 @@ CHANGELOG
 =========
 
 
+4.29.0 (2025-05-09)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+* [`kk14569/flarum-anti-gmail-alias`](https://github.com/kk14569/flarum-anti-gmail-alias)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
+* [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
+* [`nodeloc/whisper`](https://github.com/nodeloc/whisper)
+* [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
+
+
+Journal de toutes les modifications : [v4.28.0...v4.29.0](https://github.com/flarum-lang/french/compare/v4.28.0...v4.29.0).
+
+
 4.28.0 (2025-02-20)
 -------------------
 
