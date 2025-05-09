@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.29.1 (XXXX-XX-XX)
+-------------------
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
+
+
+Journal de toutes les modifications : [v4.29.0...v4.29.1](https://github.com/flarum-lang/french/compare/v4.29.0...v4.29.1).
+
+
 4.29.0 (2025-05-09)
 -------------------
 
