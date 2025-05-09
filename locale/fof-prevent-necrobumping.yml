@@ -11,12 +11,16 @@ fof-prevent-necrobumping:
       message_description_label: 'Description du message personnalisé'
       message_title_help: 'Utilisez <code>[time]</code> pour saisir du texte temporel, par exemple : « 14 jours ».'
       message_title_label: 'Titre de message personnalisé'
+      show_discussion_cta_help: 'Afficher un appel à l''action lorsque l''on répond à une discussion qui date de plus du nombre de jours spécifié et qu''aucune description personnalisée n''est définie.'
+      show_discussion_cta_label: 'Afficher l''appel à l''action'
       tags_help: 'Remplace les jours globaux pour une étiquette spécifique. Vide signifie utiliser la valeur par défaut. Si une discussion comporte plusieurs étiquettes avec des valeurs de jours différentes, elle utilisera le plus petit nombre de jours configurés.'
       tags_title: Étiquettes
   forum:
     composer:
       warning:
         checkbox_label: 'Je suis conscient que cette discussion est assez ancienne, mais j''aimerais tout de même y répondre.'
+        cta: 'Souhaitez-vous plutôt démarrer une nouvelle discussion ?'
+        cta_button: '=> core.ref.start_a_discussion'
         description: 'Il est très probable qu''il n''y ait pas lieu d''en discuter davantage et qu''il ne serve donc à rien de remettre le sujet sur le tapis.'
         error: 'Cette discussion est trop ancienne pour y répondre.'
         title: 'Cette discussion est âgée de plus de <b>{time}</b>.'
