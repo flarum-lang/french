@@ -3,6 +3,51 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 shebaoting-dependency-collector:
+  admin:
+    actions:
+      approve: Approuver
+      create_tag: 'Créer une étiquette'
+      reject: Rejeter
+    confirm:
+      approve: 'Approuver la dépendance'
+      delete: 'Supprimer la dépendance'
+      delete_tag: 'Supprimer l''étiquette « {name} » ? Cela la supprimera de toutes les dépendances associées.'
+      reject: 'Rejeter la dépendance'
+    modal:
+      create_tag_title: 'Créer une nouvelle étiquette'
+      edit_tag_title: 'Modifier l''étiquette - {name}'
+      tag_color_label: 'Couleur (par exemple'
+      tag_description_label: 'Description (facultatif)'
+      tag_icon_help: 'Trouvez des icônes sur <a>Font Awesome</a>.'
+      tag_icon_label: 'Icône (par exemple fas fa-code)'
+      tag_name_label: Nom
+      tag_slug_label: 'Identifiant texte unique'
+    nav:
+      description: 'Gérer les dépendances soumises et les étiquettes des plugins.'
+      title: 'Collecteur de dépendances'
+    page:
+      approved_items_title: 'Dépendances approuvées'
+      manage_tags_title: 'Gérer les étiquettes de plugin'
+      no_approved_items: 'Il n''y a pas encore de dépendances approuvées.'
+      no_pending_items: 'Il n''y a pas aucune dépendance en attente de révision.'
+      no_plugin_tags: 'Aucun plugin n''a encore été créé.'
+      pending_items_title: 'Dépendances en attente de révision'
+    permissions:
+      submit_label: 'Envoyer les dépendances'
+    table:
+      actions: Actions
+      approved_at: 'Approuvé à'
+      approved_by: 'Approuvé par'
+      submitted_at: 'Envoyé à'
+      submitted_by: 'Envoyé par'
+      tag_color: Couleur
+      tag_color_icon: 'Couleur et icône'
+      tag_icon: Icône
+      tag_item_count: Objets
+      tag_name: Nom
+      tag_slug: 'Identifiant texte unique'
+      tags: Étiquettes
+      title: Titre
   forum:
     item:
       delete_button_label: Supprimer
@@ -18,5 +63,13 @@ shebaoting-dependency-collector:
       my_favorites_button: 'Mes favoris'
       submit_button: 'Envoyer la dépendance'
     modal:
+      description_label: Description
+      description_placeholder: 'Un bref résumé de ce que fait cette dépendance.'
+      link_label: Lien
+      submit_button: Envoyer
       submit_title: 'Envoyer une nouvelle dépendance'
+      tags_help: 'Sélectionnez au moins une étiquette pertinente.'
+      tags_label: 'Étiquettes du plugin'
+      title_label: Titre
+      title_placeholder: 'par exemple Awesome Library'
     nav_title: Dépendances
