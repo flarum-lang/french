@@ -33,6 +33,10 @@ shebaoting-dependency-collector:
       no_plugin_tags: 'Aucun plugin n''a encore été créé.'
       pending_items_title: 'Dépendances en attente de révision'
     permissions:
+      delete_label: 'Supprimer les dépendances'
+      favorite_items_label: 'Ajouter aux favoris les dépendances'
+      manage_tags_label: 'Gérer les étiquettes de plugins'
+      moderate_label: 'Modérer les dépendances (approuver, rejeter, modifier, supprimer)'
       submit_label: 'Envoyer les dépendances'
     table:
       actions: Actions
