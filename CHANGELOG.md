@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+4.30.0 (XXXX-XX-XX)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`shebaoting/dependency-collector`](https://github.com/shebaoting/dependency-collector)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
+
+
+Journal de toutes les modifications : [v4.29.0...v4.30.0](https://github.com/flarum-lang/french/compare/v4.29.0...v4.30.0).
+
+
 4.29.0 (2025-05-09)
 -------------------
 
