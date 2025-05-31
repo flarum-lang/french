@@ -13,6 +13,7 @@ CHANGELOG
 **Mise à jour des traductions de certaines extensions**:
 
 * [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
 
 
 Journal de toutes les modifications : [v4.29.0...v4.30.0](https://github.com/flarum-lang/french/compare/v4.29.0...v4.30.0).
