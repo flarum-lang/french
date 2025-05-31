@@ -26,8 +26,10 @@ yippy-tag-with-themes:
       title: 'Thème personnalisé pour les étiquettes'
     helps:
       design_default: 'Sélectionner une mise en page de conception par défaut'
+      display_themes: 'N''autoriser les thèmes que pour des groupes spécifiques'
     labels:
       design_default: 'Mise en page de conception de discussion'
+      display_themes: 'Activer les étiquettes pour l''autorisation des thèmes'
     options:
       design_options:
         basic: Essentiel
@@ -46,6 +48,15 @@ yippy-tag-with-themes:
         flat_border_tag: 'Bordure plate (étiquette primaire)'
         flat_tab: 'Plat (onglet primaire)'
         flat_tag: 'Plat (étiquette primaire)'
+        none: Aucun
+        rounded_flat: 'Plat arrondi'
+        rounded_flat_banner: 'Plat arrondi (bannière primaire)'
+        rounded_flat_border: 'Bordure plate arrondie'
+        rounded_flat_border_banner: 'Bordure plate arrondie (bannière primaire)'
+        rounded_flat_border_tab: 'Bordure plate arrondie (onglet primaire)'
+        rounded_flat_border_tag: 'Bordure plate arrondie (étiquette primaire)'
+        rounded_flat_tab: 'Plat arrondi (onglet primaire)'
+        rounded_flat_tag: 'Plat arrondi (étiquette primaire)'
         sticky_note: 'Note épinglée'
         sticky_note_banner: 'Note épinglée (bannière primaire)'
         sticky_note_outline: 'Schéma de note épinglée'
