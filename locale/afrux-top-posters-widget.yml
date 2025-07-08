@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 afrux-top-posters-widget:
+  admin:
+    settings:
+      info: 'Les utilisateurs des groupes sélectionnés seront exclus des résultats du widget.'
   forum:
     widget:
       title: 'Meilleurs auteurs du mois'

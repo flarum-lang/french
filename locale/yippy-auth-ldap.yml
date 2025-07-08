@@ -8,7 +8,7 @@ yippy-auth-ldap:
       display_detailed_error: 'Afficher les erreurs LDAP détaillées pour les tentatives de connexion échouées'
       domains:
         add: 'Ajouter un domaine'
-        banner: 'Domaine {index}'
+        banner: 'Domaine {index} - [{isEnabled}]'
         data:
           admin_dn: 'Nom distinctif (DN)'
           admin_dn_help: 'Laisser vide pour une liaison anonyme'
@@ -21,6 +21,9 @@ yippy-auth-ldap:
           follow_referrals: 'Suivre les références pour se lier au serveur LDAP'
           host: 'Domaines ou adresses IP des serveurs'
           host_help: 'Séparés par une virgule'
+          is_enabled: 'Activer le serveur LDAP'
+          permission_groups: 'Attribuer des autorisations spécifiques'
+          permission_groups_help: 'Cela est appliqué lors de l''inscription'
           port: Port
           port_help: 'Non SSL (port 389) ou SSL (port 636).'
           search_user_fields: 'Champs de recherche'
@@ -42,6 +45,9 @@ yippy-auth-ldap:
           search_fields: 'Recherche de compte LDAP'
           search_fields_description: 'Créer une liste de champs LDAP à comparer avec le nom d''utilisateur fourni par l''utilisateur.'
           server: 'Paramètres du serveur LDAP'
+        is_enabled:
+          disabled: Désactivé
+          enabled: Activer
         title: 'Domaines LDAP'
       method_name: 'Nom du serveur LDAP (apparaîtra après « Se connecter avec »)'
       onlyUse: 'Masquer la méthode de connexion standard de Flarum'

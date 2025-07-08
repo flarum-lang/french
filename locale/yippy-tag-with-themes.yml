@@ -6,11 +6,14 @@ yippy-tag-with-themes:
   admin:
     designs:
       add: 'Ajouter une conception pour les étiquettes'
-      banner: 'Thème de conception {index}'
+      banner: 'Thème de conception {index} - [{isEnabled}]'
       data:
         child_background_color: 'Modifier la couleur d''arrière-plan de l''enfant'
         child_font_class: 'Modifier la police enfant'
         is_enabled: 'Activer le thème de conception'
+        opacity_background: 'Niveau d''opacité de l''arrière-plan'
+        opacity_footer: 'Niveau d''opacité du pied de page'
+        opacity_outline: 'Niveau d''opacité des contours'
         outline_background_color: 'Modifier la couleur du contour'
         primary_background_color: 'Modifier la couleur d''arrière-plan primaire'
         primary_font_class: 'Modifier la police primaire'
@@ -23,6 +26,9 @@ yippy-tag-with-themes:
       header:
         color_theme: 'Personnalisation de la palette de couleurs par défaut'
         theme: 'Thème personnalisé'
+      is_enabled:
+        disabled: Désactivé
+        enabled: Activer
       title: 'Thème personnalisé pour les étiquettes'
     helps:
       design_default: 'Sélectionner une mise en page de conception par défaut'

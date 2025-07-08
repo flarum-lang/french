@@ -7,11 +7,14 @@ fof-polls:
     permissions:
       change_vote: 'Modifier le vote'
       moderate: 'Modifier et supprimer les sondages'
+      moderate_group: 'Modifier et supprimer des groupes de sondages'
       self_edit: 'Modifier les sondages créés (nécessite l''autorisation de modifier les messages)'
       self_post_edit: 'Modifier *tous* les sondages sur ses propres messages (nécessite l''autorisation de modifier les messages)'
       start: 'Démarrer un sondage'
       start_global: 'Démarrer un sondage global'
+      start_group: 'Créer des groupes de sondages'
       upload_images: 'Autoriser les utilisateurs à télécharger des images pour les sondages'
+      view_group: 'Voir les groupes de sondages'
       view_results_without_voting: 'Afficher les résultats sans voter'
       vote: 'Voter sur les sondages'
     settings:
@@ -20,6 +23,8 @@ fof-polls:
       allow_option_image: 'Permettre de fournir l''URL d''une image pour chaque option de sondage'
       enable_global_polls: 'Activer les sondages globaux'
       enable_global_polls_help: 'Les sondages globaux ne sont pas liés à un message spécifique et sont accessibles à partir d''une page dédiée aux sondages.'
+      enabled_poll_groups: 'Activer les groupes de sondages'
+      enabled_poll_groups_help: 'Les groupes de sondages vous permettent de regrouper des sondages globaux et de les afficher sur une page dédiée.'
       general:
         heading: 'Paramètres généraux'
         help: 'Ces paramètres contrôlent les fonctions de base de l''extension Polls.'
@@ -94,6 +99,7 @@ fof-polls:
     page:
       nav: Sondages
       nav-all: 'Tous les sondages globaux'
+      nav-groups: 'Groupes de sondages'
     poll:
       cannot_change_vote: 'Vous ne pouvez pas modifier votre vote après avoir voté.'
       cannot_start_poll_button: 'Impossible de démarrer le sondage'
@@ -111,6 +117,31 @@ fof-polls:
     poll_form:
       delete: 'Supprimer le sondage'
       error: 'Une erreur est survenue lors de l''enregistrement du sondage, veuillez contacter un administrateur.'
+    poll_groups:
+      composer:
+        add_title: 'Ajouter un groupe de sondages'
+        delete: 'Supprimer le groupe de sondages'
+        edit_title: 'Modifier le groupe de sondages'
+        groups_manager: 'Gestionnaire de groupes de sondages'
+        save_changes: '=> core.ref.save_changes'
+        success: 'Le groupe de sondages a été enregistré avec succès.'
+        view_group: 'Voir le groupe de sondages'
+      controls:
+        add_poll_label: 'Ajouter un sondage'
+        delete_confirmation: 'Êtes-vous sûr de vouloir supprimer ce groupe de sondages ?'
+        delete_error_message: 'Un problème est survenu lors de la suppression du groupe de sondages.'
+        delete_label: '=> core.ref.delete'
+        delete_success_message: 'Le groupe de sondages a été supprimé avec succès.'
+        edit_label: '=> core.ref.edit'
+        view_label: 'Voir le groupe de sondages'
+      list_page:
+        add_poll_button: 'Ajouter un sondage au groupe'
+        cannot_start_poll_group_button: 'Impossible de démarrer un groupe de sondages'
+        empty_text: 'Il semble qu''il n''y ait pas de groupe de sondages ici.'
+        load_more_button: '=> core.ref.load_more'
+        no_polls: 'Il n''y a pas de sondage dans ce groupe.'
+        start_poll_group_button: 'Démarrer un groupe de sondages'
+        title: 'Groupes de sondages'
     poll_never_ends: 'Le sondage ne se termine jamais'
     polls_count: '{count, plural, one { {count} vote} other {{count} votes}}'
     polls_list:
