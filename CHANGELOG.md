@@ -7,6 +7,7 @@ CHANGELOG
 
 **Prise en charge de nouvelles extensions**:
 
+* [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump)
 * [`shebaoting/dependency-collector`](https://github.com/shebaoting/dependency-collector)
 * [`xypp/flarum-pay-cccyun`](https://flarum.org/extension/xypp/flarum-pay-cccyun)
 
