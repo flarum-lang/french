@@ -10,12 +10,13 @@ fof-filter:
     countLabel: 'Tolérance de la censure'
     email:
       default_subject: 'Concernant votre message récent'
-      default_text: "Merci pour votre publication ! Malheureusement, votre message a été supprimé car il contenait quelque chose que nous ne voulons pas voir sur nos forums.\n\nSi vous pensez qu'il s'agit d'une erreur, vous avez de la chance, chaque message supprimé est examiné par nos modérateurs. S'ils constatent que ce message a été supprimé à tort, ils le rétabliront.\n\nMerci de votre compréhension.\n"
-    email_help: 'Corps du courriel signalé. Accepte le HTML ou le texte en clair.'
+      default_text: "%USERNAME%,\n\nMerci pour votre publication ! Malheureusement, votre message a été supprimé car il contenait quelque chose que nous ne voulons pas voir sur nos forums.\n\nSi vous pensez qu'il s'agit d'une erreur, vous avez de la chance, chaque message supprimé est examiné par nos modérateurs. S'ils constatent que ce message a été supprimé à tort, ils le rétabliront.\n\nMerci de votre compréhension.\n"
+    email_help: "Corps du courriel signalé. Accepte le HTML ou le texte en clair. Vous pouvez utiliser %USERNAME% pour insérer le nom d'utilisateur de l'utilisateur dont le message a été signalé.\n"
     filter_label: 'Chaînes à filtrer'
     help2: 'Intervalle en minutes dans lequel les messages du même utilisateur dans la même discussion seront automatiquement fusionnés.'
     input:
       email_body: Corps
+      email_help: 'Laissez ce champ vide pour permettre l''utilisation des traductions. Vous pouvez utiliser FoF Linguist pour traduire le courriel.'
       email_label: 'Paramètres des courriels'
       email_subject: Sujet
       filter_title: 'Chaînes à filtrer'

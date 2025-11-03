@@ -91,6 +91,11 @@ fof-upload:
         max_width: 'Largeur/hauteur maximale de l''image'
         title: 'Redimensionnement de l''image'
         toggle: 'Redimensionner les images'
+      svg-sanitizer:
+        allow_animate: 'Autoriser les animations SVG'
+        allow_animate_help: 'L''activation des animations SVG peut introduire des failles de sécurité, car les SVG animés peuvent contenir du code malveillant. Activez ce paramètre à vos risques et périls, et uniquement si vous faites pleinement confiance à vos utilisateurs.'
+        help: 'Configurer la manière dont les fichiers SVG sont traités et nettoyés lors de leur téléchargement. Les fichiers SVG peuvent contenir des scripts potentiellement dangereux et doivent être manipulés avec précaution. Les fichiers SVG téléchargés sont nettoyés lors du téléchargement et les scripts et balises dangereux sont supprimés.'
+        title: 'Nettoyeur de SVG'
       watermark:
         file: 'Transférer votre image de filigrane'
         position: 'Position du filigrane'

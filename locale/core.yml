@@ -191,6 +191,7 @@ core:
       participate_heading: Participer
       post_without_throttle_label: 'Répondre plusieurs fois sans attendre'
       read_heading: Lire
+      remove_scope_label: 'Supprimer la portée de {scope}'
       rename_discussions_label: 'Renommer les discussions'
       reply_to_discussions_label: 'Répondre aux discussions'
       search_users_label: '=> core.ref.search_users'

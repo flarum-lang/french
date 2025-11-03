@@ -30,7 +30,11 @@ huseyinfiliz-modern-footer:
       manage_footer_sections: 'Gérer les sections du pied de page'
       mobile_tab_height: 'Hauteur de l''onglet mobile'
       mobile_tab_height_help: 'Si l''extension Mobile Tab est installée, vous pouvez utiliser comme valeur : var(--mobile-tab-height)'
+      show_to_everyone: 'Afficher à tout le monde'
+      show_to_guests_only: 'Afficher uniquement aux invités'
+      show_to_members_only: 'Afficher uniquement aux membres'
       social_link: 'Lien social'
       social_media_button: 'Boutons des médias sociaux'
       text: Texte
       title: Titre
+      visibility_mode: 'Mode de visibilité du pied de page'

@@ -12,6 +12,8 @@ fof-oauth:
         heading: Avancé
         log-oauth-errors-help: 'Si cette option est activée, les erreurs d''OAuth seront enregistrées dans le journal de Flarum. Cela peut aider à déboguer les problèmes d''OAuth mais peut aussi contenir des informations sensibles.'
         log-oauth-errors-label: 'Journaliser les erreurs d''OAuth'
+      disable_avatars_help: "Si cette option est activée, l'avatar de l'utilisateur ne sera pas mis à jour pour correspondre à l'avatar du fournisseur lors de l'inscription. Notez que cela n'affecte que les inscriptions futures et ne modifie pas l'avatar des utilisateurs existants.\n"
+      disable_avatars_label: 'Désactiver les avatars du fournisseur'
       fullscreen_popup_help: 'Lorsque cette option est activée, la connexion OAuth s''ouvre dans une fenêtre contextuelle plein écran. Si cette option est activée, les paramètres de largeur et de hauteur seront ignorés.'
       fullscreen_popup_label: 'Utiliser une fenêtre contextuelle plein écran pour OAuth'
       only_icons_label: 'Afficher uniquement les icônes du bouton de connexion (disposition alternative)'

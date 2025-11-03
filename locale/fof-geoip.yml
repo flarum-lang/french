@@ -13,6 +13,8 @@ fof-geoip:
       see_country: 'Toujours afficher le pays de l''adresse IP'
     settings:
       access_key_label: 'Clé d''accès'
+      error_code_prefix: 'Code :'
+      error_prefix: 'Erreur :'
       general:
         heading: 'Paramètres généraux'
         help: 'Ces paramètres contrôlent le comportement général de l''extension.'
@@ -20,6 +22,10 @@ fof-geoip:
         heading: 'Service de recherche d''adresses IP'
         help: 'Choisissez un service à utiliser pour les recherches d''adresses IP. Certains services ont des limites de débit, vérifiez donc la documentation du service pour plus d''informations.'
       quota_label: 'Consulter les quotas'
+      raw_http_response_label: 'Corps de réponse HTTP brut'
+      request_options_label: 'Options de la requête'
+      request_url_label: 'URL de la requête'
+      response_headers_label: 'En-têtes de réponse'
       security_label: 'Module de sécurité (nécessite une licence Professionnel Plus)'
       service_freegeoip_description: 'Utilisez <b>https://freegeoip.app/</b> pour récupérer gratuitement jusqu''à 15 000 codes de pays par heure.'
       service_freegeoip_label: FreeGeoIP
@@ -29,6 +35,8 @@ fof-geoip:
       service_ipapi_label: 'IP de l''API'
       service_ipdata_description: 'Utilisez <b>https://ipdata.co</b> pour effectuer gratuitement jusqu''à 1 500 recherches par jour. Des forfaits payants pour des limites d''utilisation plus élevées sont également disponibles.'
       service_ipdata_label: IPData
+      service_ipinfo-lite_description: 'Utilisez <b>https://ipinfo.io</b> pour récupérer des informations sur les adresses IP sans aucune limitation de débit ni de restriction. L''enregistrement d''une clé API gratuite est nécessaire.'
+      service_ipinfo-lite_label: 'IPInfo Lite'
       service_iplocation_description: 'Utilisez <b>https://www.iplocation.net/</b> pour récupérer les données relatives au pays et au fournisseur d''accès à internet. Les limites du taux de consultation sont inconnues.'
       service_iplocation_label: 'Localisation de l''adresse IP'
       service_ipsevenex_description: 'Rendez-vous sur <b>https://7x.ax</b> pour obtenir une clé API gratuite pour un maximum de 20 requêtes par minute. Des plans payants pour des limites d''utilisation plus élevées sont également disponibles.'
@@ -38,6 +46,26 @@ fof-geoip:
       service_label: Service
       show_flag_help: 'Sans divulguer l''adresse IP, afficher le drapeau du pays de l''adresse IP de l''auteur du message lorsque l''utilisateur choisit d''entrer dans le système par le biais de ses préférences.'
       show_flag_label: 'Afficher le drapeau du pays pour chaque message'
+      status_error: '✗ Erreur'
+      status_success: '✓ Succès'
+      status_unknown: Inconnu
+      test:
+        heading: 'Configuration du service de test'
+        help: 'Testez la configuration de votre service de recherche d''adresses IP à l''aide d''une adresse IP d''exemple. Veillez à enregistrer vos paramètres avant de procéder au test.'
+      test_button: 'Service de test'
+      test_error: 'Une erreur s''est produite lors du test du service.'
+      test_error_details_label: 'Informations sur l''erreur :'
+      test_http_status_code_label: 'Code de statut HTTP :'
+      test_ip_required: 'Veuillez saisir une adresse IP à tester.'
+      test_processed_service_response_label: 'Réponse au service traité :'
+      test_response_time_label: 'Temps de réponse :'
+      test_result_title: 'Résultat du test'
+      test_service_help: 'Saisissez une adresse IPv4 ou IPv6 pour tester votre configuration de service actuelle.'
+      test_service_label: 'Service de recherche d''adresses IP'
+      test_service_label_result: 'Service :'
+      test_status_label: 'Statut :'
+      test_timestamp_label: 'Horodatage :'
+      testing: 'Test en cours…'
       title: 'GeoIP de FriendsOfFlarum'
   forum:
     alerts:

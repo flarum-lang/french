@@ -96,6 +96,7 @@ validation:
   prohibited_unless: 'Le champ :attribute est prohibé sauf si :other figure dans :values.'
   regex: 'Le format du :attribute est invalide.'
   required: 'Le champ du :attribute est obligatoire.'
+  required_array_keys: 'Le :attribute doit contenir des entrées pour : :values.'
   required_if: 'Le champ du :attribute est obligatoire lorsque la valeur du :other est :value.'
   required_unless: 'Le champ du :attribute est obligatoire sauf si :other est :values.'
   required_with: 'Le champ du :attribute est obligatoire lorsque le :values est présent.'

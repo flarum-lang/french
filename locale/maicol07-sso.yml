@@ -33,3 +33,4 @@ maicol07-sso:
       title: 'Paramètres de SSO'
   forum:
     manage_account_btn: 'Gérer le compte'
+    no_login_url_error: 'Aucune URL de connexion définie, veuillez vérifier les paramètres SSO !'
