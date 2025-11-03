@@ -5,6 +5,12 @@ CHANGELOG
 4.30.0 (XXXX-XX-XX)
 -------------------
 
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+* Mise à jour des traductions du composant de validation de Laravel.
+
+
 **Prise en charge de nouvelles extensions**:
 
 * [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump)
@@ -15,8 +21,16 @@ CHANGELOG
 **Mise à jour des traductions de certaines extensions**:
 
 * [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
 * [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
 * [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
 
