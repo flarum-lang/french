@@ -14,7 +14,9 @@ CHANGELOG
 **Prise en charge de nouvelles extensions**:
 
 * [`capybash/magicread`](https://github.com/capybash/magicread)
+* [`datlechin/flarum-ai-summarize`](https://github.com/datlechin/flarum-ai-summarize)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`foskym/flarum-pagination`](https://github.com/FoskyM/flarum-pagination)
 * [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump)
 * [`huseyinfiliz/guest`](https://github.com/huseyinfiliz/guest)
 * [`huseyinfiliz/sort-changer`](https://github.com/huseyinfiliz/sort-changer)
@@ -30,6 +32,13 @@ CHANGELOG
 **Mise à jour des traductions de certaines extensions**:
 
 * [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget)
+* [`blomstra/payments`](https://flarum.org/extension/blomstra/payments)
+* [`datitisev/flarum-maintenance`](https://flarum.org/extension/datitisev/flarum-maintenance)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
@@ -40,11 +49,19 @@ CHANGELOG
 * [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`foskym/flarum-issue-tracking`](https://github.com/FoskyM/flarum-issue-tracking)
 * [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
 * [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
+* [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags)
 * [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+* [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
+* [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
 * [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
 * [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
+* [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
+* [`ziiven/flarum-pay-to-see`](https://flarum.org/extension/ziiven/flarum-pay-to-see)
 
 
 Journal de toutes les modifications : [v4.29.0...v4.30.0](https://github.com/flarum-lang/french/compare/v4.29.0...v4.30.0).
