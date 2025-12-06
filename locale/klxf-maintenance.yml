@@ -8,3 +8,20 @@ klxf-maintenance:
       maintenance-widget:
         detail: 'Le forum est actuellement en mode maintenance. Seuls les utilisateurs disposant des autorisations appropriées peuvent accéder au forum.'
         title: 'Mode maintenance actif'
+    permissions:
+      bypass: 'Peut contourner le mode maintenance'
+    settings:
+      maintenance-mode-auth:
+        help: 'Vous pouvez utiliser les jetons développeur pour vous connecter via <code>/maintenance/auth/$token</code>.'
+        label: 'Activer l''authentification par jeton'
+      maintenance-mode-enabled:
+        label: 'Activer le mode maintenance'
+      maintenance-mode-html-template:
+        help: 'Vous pouvez utiliser des paramètres fictifs tels que <code>$message</code>. Pour plus d''informations, consultez le fichier README.'
+        label: 'Modèle HTML de page de maintenance'
+        reset-btn: 'Réinitialiser les paramètres par défaut'
+        reset-help: 'La réinitialisation du modèle prendra effet après l''enregistrement.'
+      maintenance-mode-message:
+        label: 'Message de maintenance de la page'
+      maintenance-mode-title:
+        label: 'Titre de la page de maintenance'
