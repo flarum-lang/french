@@ -63,6 +63,7 @@ fof-upload:
           media-btn: 'Bouton du gestionnaire de médias uniquement'
           upload-btn: 'Bouton de transfert uniquement'
         title: 'Boutons du compositeur'
+      configured_by_environment: 'Vos paramètres de stockage ont été préconfigurés via des variables d''environnement.'
       disable-download-logging:
         title: 'Désactiver la journalisation des téléchargements'
         toggle: Désactiver

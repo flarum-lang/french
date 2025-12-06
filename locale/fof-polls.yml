@@ -147,6 +147,13 @@ fof-polls:
     polls_list:
       empty_text: 'Il semble qu''il n''y ait pas de sondage communautaire ici.'
       load_more_button: '=> core.ref.load_more'
+      sort_dropdown:
+        least_voted: 'Moins voté'
+        most_voted: 'Plus voté'
+        newest: 'Plus récent'
+        oldest: 'Plus ancien'
+        sort_dropdown:
+          default: '=> fof-polls.forum.polls_list.sort_dropdown.newest'
     polls_page:
       title: Sondages
     public_poll: 'Voir les votants'

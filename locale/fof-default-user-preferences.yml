@@ -5,10 +5,14 @@
 fof-default-user-preferences:
   admin:
     settings:
+      discloseOnline: 'Divulguer en ligne'
+      discloseOnline-help: 'Lorsque cette option est activée, les nouveaux utilisateurs autoriseront les autres à voir lorsqu''ils sont en ligne. Les administrateurs et les autres utilisateurs disposant des autorisations nécessaires pourront toujours voir le statut en ligne, quel que soit ce paramètre.'
       followAfterReply: 'Suivre après avoir répondu'
       followAfterReply-help: 'Lorsque cette option est activée, les nouveaux utilisateurs suivront automatiquement les discussions auxquelles ils auront répondu ou qu''ils auront commentées.'
       groupMentioned: 'Envoi de courriel lors d''une mention de groupe'
       groupMentioned-help: 'Si cette option est activée, les nouveaux utilisateurs recevront automatiquement une notification par courriel lorsqu''un groupe auquel ils appartiennent est mentionné.'
+      indexProfile: 'Profil d''indexation'
+      indexProfile-help: 'Lorsque cette option est activée, les nouveaux utilisateurs autorisent les moteurs de recherche à indexer leur page de profil, sauf si cela est bloqué par d''autres paramètres du site ou de l''extension.'
       postMentioned: 'Courriel de mention dans un message'
       postMentioned-help: 'Lorsque cette option est activée, les nouveaux utilisateurs choisiront automatiquement de recevoir une notification par courriel lorsque l''un de leurs messages sera mentionné.'
       userMentioned: 'Courriel de mention de l''utilisateur'

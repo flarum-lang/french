@@ -12,6 +12,7 @@ flectar-turnstile:
       signup: '=> core.forum.sign_up.title'
       site_key: 'Clé du site'
   forum:
+    error: 'Une erreur s''est produite lors de la vérification de votre identité humaine. Veuillez réessayer.'
     not_loaded_error: 'Échec du chargement de Cloudflare Turnstile. Veuillez actualiser la page et vérifier votre bloqueur de publicités.'
     validation_error: 'Veuillez relever le défi de Turnstile.'
 validation:

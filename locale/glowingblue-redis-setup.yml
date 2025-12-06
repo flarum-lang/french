@@ -9,4 +9,4 @@ glowingblue-redis-setup:
       enable_queue: 'Activer la file d''attente de Redis'
       enable_redis_sessions: 'Activer les sessions de Redis (tous les utilisateurs seront déconnectés après la modification de ce paramètre)'
       horizon_config: 'Configuration d''Horizon (format : JSON).'
-      horizon_help_text: 'Cela sera transmis à <code>(new \Blomstra\Horizon\Extend\Horizon)->config(...))</code>'
+      horizon_help_text: 'Cela sera transmis à <code>(new \FoF\Horizon\Extend\Horizon)->config(...))</code>'

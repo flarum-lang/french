@@ -23,10 +23,12 @@ fof-horizon:
       auto_refresh: 'Actualisation automatique'
       data:
         failed-last-seconds: 'Tâches échouées au cours des dernières secondes'
+        failure-rate: 'Taux d''échec'
         jobs-past-hour: 'Tâches de l''heure écoulée'
         jobs-per-minute: 'Tâches par minute'
         max-runtime: 'Durée d''exécution maximale'
         max-throughput: 'Débit maximal'
+        max-wait-queue: 'File d''attente : {queue}'
         max-wait-time: 'Temps d''attente maximal'
         redis-blocked-clients: 'Clients bloqués'
         redis-connected-clients: 'Clients connectés'
@@ -35,6 +37,7 @@ fof-horizon:
         redis-max-memory: 'Redistribuer la mémoire maximale'
         redis-memory-policy: 'Redistribuer la politique de mémoire'
         redis-memory-policy-tooltip: "La politique de mémoire est la façon dont Redis sélectionnera ce qui doit être supprimé lorsque\nla limite de mémoire maximale est atteinte. La valeur par défaut est `noeviction` : les nouvelles valeurs \nne sont pas sauvegardées lorsque la limite de mémoire est atteinte. Cliquez ici pour consulter la documentation.\n"
+        redis-memory-usage: 'Utilisation de la mémoire cache'
         redis-ops-per-sec: 'Opérations par seconde'
         redis-peak-memory: 'Redistribuer les pics de mémoire'
         redis-used-memory: 'Redistribuer la mémoire utilisée'
@@ -42,7 +45,19 @@ fof-horizon:
           inactive: Inactif
           label: Statut
           running: 'En cours d''exécution'
+        success-rate: 'Taux de réussite'
         total-processes: 'Total des processus'
+      error:
+        fetch_failed: 'Impossible de récupérer les statistiques Horizon. Veuillez vérifier votre configuration Redis.'
+        setup_docs: 'Consulter la documentation relative à la configuration de Redis'
+        title: 'Erreur de connexion'
       full_dashboard: 'Tableau de bord d''Horizon'
       heading: 'Vue d''ensemble de la file d''attente'
+      health:
+        critical: Critique
+        excellent: Excellent
+        good: Bien
+        poor: Mauvais
+        tooltip: 'Note de santé du système : {score}/100'
+      last_refresh: 'Mis à jour à {time}'
       refresh: Actualiser
