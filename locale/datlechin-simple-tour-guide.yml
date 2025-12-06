@@ -16,7 +16,7 @@ datlechin-simple-tour-guide:
     permissions:
       reset_tour_guide: 'Réinitialiser le guide touristique'
     settings:
-      allow_close_help: 'Permettre aux utilisateurs de fermer la fenêtre contextuelle en cliquant sur l''arrière-plan.'
+      allow_close_help: 'Autoriser les utilisateurs à fermer la fenêtre contextuelle en cliquant sur l''arrière-plan.'
       allow_close_label: 'Autoriser la fermeture'
       show_progress_help: 'L''étape actuelle et le nombre total d''étapes s''afficheront en haut de la fenêtre contextuelle.'
       show_progress_label: 'Afficher l''état d''avancement'

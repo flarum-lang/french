@@ -5,7 +5,7 @@
 sas_sam-regrole:
   admin:
     settings:
-      allow_multiple_roles_label: 'Permettre aux utilisateurs de se voir attribuer plusieurs rôles'
+      allow_multiple_roles_label: 'Autoriser les utilisateurs à se voir attribuer plusieurs rôles'
       allowed_roles_label: 'Rôles autorisés'
       allowed_roles_text: 'Sélectionnez les rôles que les utilisateurs sont autorisés à s''attribuer.'
       force_users_label: 'Forcer les utilisateurs à s''attribuer au moins un rôle'

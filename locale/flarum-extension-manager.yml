@@ -19,7 +19,7 @@ flarum-extension-manager:
       fields:
         host: Hôte
         token: Jeton
-      no_auth_methods_configured: 'Aucune méthode d''authentification n''a été configurée. Il s''agit d''une fonctionnalité avancée facultative permettant l''installation à partir de dépôts privés.'
+      no_auth_methods_configured: 'Aucune méthode d''authentification n''a été configurée. Il s''agit d''une fonctionnalité avancée facultative autorisant l''installation à partir de dépôts privés.'
       remove_button_label: 'Supprimer la méthode d''authentification'
       title: 'Méthodes d''authentification'
       types:

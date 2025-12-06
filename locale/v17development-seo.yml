@@ -5,7 +5,7 @@
 v17development-flarum-seo:
   admin:
     permissions:
-      configure_seo: 'Permettre la configuration du référencement'
+      configure_seo: 'Autoriser la configuration du référencement'
   forum:
     controls:
       configure_seo: 'Configurer le référencement'

@@ -7,7 +7,7 @@ ianm-syndication:
     settings:
       entries-count: 'Combien d''entrées par flux ?'
       forum-icons:
-        help: 'Affiche des icônes dans « Toutes les discussions », « Balises » et « Discussions » pour permettre un accès facile aux flux.'
+        help: 'Affiche des icônes dans « Toutes les discussions », « Balises » et « Discussions » pour autoriser un accès facile aux flux.'
         label: 'Afficher les liens vers les flux Atom/RSS sur le forum'
       forum-link-format:
         help: 'Sélectionnez le format (Atom ou RSS) à utiliser lorsque les liens sont affichés sur le forum.'

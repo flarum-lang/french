@@ -44,7 +44,7 @@ justoverclock-reputation-score:
       maxPoints: 'Nombre maximum de points de réputation'
       maxPointsHelp: 'Insérer le nombre de points de réputation maximum autorisé, par exemple « 1000 »'
       minReputationThreshold: 'Nombre minimum de points de réputation pour créer ou participer à un fil de discussion'
-      minReputationThresholdHelp: 'Nombre minimum de points de réputation pour permettre à l''utilisateur de publier ou de créer de nouvelles discussions'
+      minReputationThresholdHelp: 'Nombre minimum de points de réputation pour autoriser l''utilisateur à publier ou à créer de nouvelles discussions'
       postPoints: 'Points pour la création de message'
       postPointsHelp: 'Insérer le nombre de points qu''un utilisateur gagne pour la création d''un nouveau message (les points sont multipliés en fonction de la longueur du message)'
       postRewardThreshold: 'Seuil de récompense du nombre de messages'

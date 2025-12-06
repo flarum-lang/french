@@ -16,7 +16,7 @@ fof-filter:
     help2: 'Intervalle en minutes dans lequel les messages du même utilisateur dans la même discussion seront automatiquement fusionnés.'
     input:
       email_body: Corps
-      email_help: 'Laissez ce champ vide pour permettre l''utilisation des traductions. Vous pouvez utiliser FoF Linguist pour traduire le courriel.'
+      email_help: 'Laissez ce champ vide pour autoriser l''utilisation des traductions. Vous pouvez utiliser FoF Linguist pour traduire le courriel.'
       email_label: 'Paramètres des courriels'
       email_subject: Sujet
       filter_title: 'Chaînes à filtrer'

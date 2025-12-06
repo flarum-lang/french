@@ -170,7 +170,7 @@ core:
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
     permissions:
-      allow_hide_own_posts_label: 'Permettre la suppression de ses propres messages'
+      allow_hide_own_posts_label: 'Autoriser la suppression de ses propres messages'
       allow_post_editing_label: 'Autoriser la modification des messages'
       allow_renaming_label: 'Autoriser le renommage'
       create_access_token_label: 'Créer un jeton d''accès'

@@ -39,7 +39,7 @@ datlechin-birthdays:
       change_dob_label: 'Modifier la date de naissance'
       dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
       show_dob_date_label: 'Afficher le jour et le mois de naissance'
-      show_dob_year_help: 'Cela permettra de voir votre âge.'
+      show_dob_year_help: 'Cela autorisera les autres utilisateurs à voir votre âge.'
       show_dob_year_label: 'Afficher l''année de naissance'
     sign_up:
       dob_placeholder: '=> datlechin-birthdays.ref.date_of_birth'

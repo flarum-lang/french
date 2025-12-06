@@ -10,7 +10,7 @@ huseyinfiliz-bump:
     absorber_tags_label: 'Appliquer aux étiquettes'
     enable_absorber_help: 'Empêche automatiquement les discussions d''être relancées lorsque les réponses arrivent trop rapidement. Permet de réduire le spam et de garder votre forum organisé.'
     enable_absorber_label: 'Activer Absorbeur'
-    enable_manual_help: 'Permettre aux propriétaires des discussions de ramener manuellement leurs discussions en haut de la liste. Idéal pour garder les sujets importants visibles.'
+    enable_manual_help: 'Autoriser les propriétaires des discussions de ramener manuellement leurs discussions en haut de la liste. Idéal pour garder les sujets importants visibles.'
     enable_manual_label: 'Activer le bump manuel'
     group_override_modal:
       absorber_section: 'Paramètres Absorbeur'

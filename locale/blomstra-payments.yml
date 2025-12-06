@@ -6,9 +6,9 @@ blomstra-payments:
   admin:
     edit-group:
       select-pta-product: '(PPA) Produit nécessaire'
-      select-pta-product-description: "La sélection d'un produit permettra l'accès au groupe après paiement. Dans le cas d'un abonnement, l'accès sera révoqué automatiquement après l'annulation de l'abonnement. Créez un produit dans votre tableau de bord Stripe et copiez l'identifiant commençant par <code>prod_</code> dans ce champ.\n"
+      select-pta-product-description: "La sélection d'un produit autorisera l'accès au groupe après paiement. Dans le cas d'un abonnement, l'accès sera révoqué automatiquement après l'annulation de l'abonnement. Créez un produit dans votre tableau de bord Stripe et copiez l'identifiant commençant par <code>prod_</code> dans ce champ.\n"
     edit-tag:
-      bump-others: '(PPR) Permettre aux autres de remonter les discussions'
+      bump-others: '(PPR) Autoriser les autres de remonter les discussions'
       bump-others-description: "Si cette option est activée, l'auteur de la discussion ne sera pas le seul à pouvoir remonter les discussions en payant.\n"
       select-bounty-description: "Sélectionnez un produit pour le configurer pour les primes. Le produit ne peut avoir qu'un seul prix avec le modèle « Le client choisit le prix ». Copiez l'identifiant du produit commençant par <code>prod_</code> dans ce champ.\n"
       select-bounty-product: '(Prime) Produit requis'

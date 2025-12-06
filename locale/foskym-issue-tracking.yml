@@ -20,7 +20,7 @@ foskym-issue-tracking:
     default_import_by_email_help: 'Par défaut, les problèmes sont importés par courriel. Vous pouvez activer l''importation par nom d''utilisateur ou par nom d''affichage. Les paramètres d''importation manuelle sont synchronisés avec ces deux paramètres. Si l''utilisateur n''existe pas, le problème sera importé par l''acteur manuel ou l''administrateur par défaut.'
     enable_auto_import_label: 'Importation automatique des numéros dans Flarum lors de la lecture des numéros'
     enable_comment_sync_label: 'Créer des commentaires dans l''outil de suivi des problèmes lorsqu''un message est créé'
-    enable_create_issue_label: 'Permettre aux utilisateurs de créer des problèmes dans Flarum'
+    enable_create_issue_label: 'Autoriser les utilisateurs de rapporter des problèmes dans Flarum'
     enable_import_by_display_name_label: 'Importer les problèmes par nom d''affichage'
     enable_import_by_username_label: 'Importer les problèmes par nom d''utilisateur'
     provider_heading: 'Fournisseur de plateforme'

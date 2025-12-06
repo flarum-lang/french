@@ -7,4 +7,4 @@ datlechin-posted-on:
     post:
       posted_on_text: 'Publier sur {posted_on}'
     settings:
-      privacy_disclose_posted_on_label: 'Permettre aux autres de voir les appareils sur lesquels je suis posté'
+      privacy_disclose_posted_on_label: 'Autoriser aux autres de voir les appareils sur lesquels je suis posté'

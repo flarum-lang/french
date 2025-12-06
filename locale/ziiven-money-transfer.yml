@@ -5,7 +5,7 @@
 ziven-transfer-money:
   admin:
     permission:
-      allow_use_transfer_money: 'Permettre le transfert d''argent'
+      allow_use_transfer_money: 'Autoriser le transfert d''argent'
     transfer-money-client-customization: 'Personnalisation du client'
     transfer-money-client-customization-help: 'Fonctionnalités développées pour un client. Elles peuvent provoquer des erreurs inattendues chez d''autres utilisateurs.'
     transfer-money-timezone: 'Fuseau horaire'

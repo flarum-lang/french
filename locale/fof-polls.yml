@@ -20,11 +20,11 @@ fof-polls:
     settings:
       allow_image_uploads: 'Autoriser le téléchargement d''images pour les sondages et leurs options'
       allow_image_uploads_help: 'Si cette option est activée, les utilisateurs pourront télécharger des images en fournissant également l''URL de l''image (si cette option est activée pour les options, elle est toujours activée pour le sondage lui-même).'
-      allow_option_image: 'Permettre de fournir l''URL d''une image pour chaque option de sondage'
+      allow_option_image: 'Autoriser de fournir l''URL d''une image pour chaque option de sondage'
       enable_global_polls: 'Activer les sondages globaux'
       enable_global_polls_help: 'Les sondages globaux ne sont pas liés à un message spécifique et sont accessibles à partir d''une page dédiée aux sondages.'
       enabled_poll_groups: 'Activer les groupes de sondages'
-      enabled_poll_groups_help: 'Les groupes de sondages vous permettent de regrouper des sondages globaux et de les afficher sur une page dédiée.'
+      enabled_poll_groups_help: 'Les groupes de sondages vous autorisent à regrouper des sondages globaux et à les afficher sur une page dédiée.'
       general:
         heading: 'Paramètres généraux'
         help: 'Ces paramètres contrôlent les fonctions de base de l''extension Polls.'
@@ -57,8 +57,8 @@ fof-polls:
     modal:
       add_option_label: 'Ajouter une option'
       add_title: 'Ajouter un sondage'
-      allow_change_vote_label: 'Permettre aux utilisateurs de modifier leur vote'
-      allow_multiple_votes_label: 'Permettre de voter pour plusieurs options'
+      allow_change_vote_label: 'Autoriser les utilisateurs à modifier leur vote'
+      allow_multiple_votes_label: 'Autoriser de voter pour plusieurs options'
       date_placeholder: 'Date de fin du sondage (facultatif)'
       delete: '=> core.ref.delete'
       edit_title: 'Modifier le sondage'
@@ -68,7 +68,7 @@ fof-polls:
       image_option_placeholder: 'URL de l''image (facultatif)'
       include_question: 'Vous devez ajouter une question'
       max: 'Vous pouvez avoir un maximum de {max} réponses'
-      max_votes_help: 'Réglez cette option sur 0 pour permettre aux utilisateurs de voter pour toutes les options.'
+      max_votes_help: 'Réglez cette option sur 0 pour autoriser les utilisateurs à voter pour toutes les options.'
       max_votes_label: 'Nombre maximum de votes par utilisateur'
       min: 'Vous devez ajouter au moins 2 réponses'
       no_voters: 'Aucun vote'
@@ -83,7 +83,7 @@ fof-polls:
       poll_option_image:
         help: 'Transférer une image qui sera affichée à côté de la réponse au sondage (facultatif).'
         label: 'Image de la réponse au sondage'
-      public_poll_label: 'Permettre aux utilisateurs de voir qui a voté'
+      public_poll_label: 'Autoriser les utilisateurs de voir qui a voté'
       question_placeholder: Question
       submit: Envoyer
       subtitle_placeholder: 'Sous-titre ou description (facultatif)'

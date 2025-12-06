@@ -6,10 +6,10 @@ pay-to-see:
   admin:
     error_need_one_tag: 'Veuillez sélectionner au moins une étiquette'
     permission:
-      allow_bypass_pay2see: 'Permettre des dérogations pour voir le contenu payant'
-      allow_purchase_pay2see: 'Permettre de payer pour voir le contenu'
-      allow_set_pay2see: 'Permettre de définir un prix dans les discussions d''autres utilisateurs'
-      allow_use_pay2see: 'Permettre l''utilisation du contenu payant'
+      allow_bypass_pay2see: 'Autoriser des dérogations pour voir le contenu payant'
+      allow_purchase_pay2see: 'Autoriser de payer pour voir le contenu'
+      allow_set_pay2see: 'Autoriser de définir un prix dans les discussions d''autres utilisateurs'
+      allow_use_pay2see: 'Autoriser l''utilisation du contenu payant'
     set_permission_tag: 'Paramètres d''autorisations des étiquettes'
     set_permission_tag_help: 'Lorsqu''un utilisateur démarre une discussion, il peut utiliser la fonction « payer pour voir le contenu » en sélectionnant n''importe quelle étiquette disposant d''une autorisation'
     settings:

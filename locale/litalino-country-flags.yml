@@ -9,7 +9,7 @@ justoverclock-country-flags:
     countryColumn: Pays
     required_help: 'Pour que cette option fonctionne, vous devez activer l''option « Définir le pays »'
     required_label: 'Obliger la saisie du pays'
-    set_on_registration_label: 'Permettre de définir le pays lors de l''inscription'
+    set_on_registration_label: 'Autoriser à définir le pays lors de l''inscription'
     showFlagsOnPosts: 'Afficher les drapeaux sur les messages'
     showFlagsOnPosts_text: 'Afficher les drapeaux (texte) sur les messages'
   forum:
