@@ -24,6 +24,7 @@ CHANGELOG
 * [`klxf/flarum-maintenance`](https://github.com/klxf/flarum-maintenance)
 * [`mshuo/reply-to-see`](https://github.com/MShuoo/reply-to-see)
 * [`shebaoting/dependency-collector`](https://github.com/shebaoting/dependency-collector)
+* [`songnguxyz/oauth-mediawiki`](https://github.com/songnguxyz/flarum-ext-oauth-mediawiki)
 * [`startracex/flarum-dark`](https://github.com/startracex/flarum-dark)
 * [`xypp/flarum-pay-cccyun`](https://flarum.org/extension/xypp/flarum-pay-cccyun)
 * [`zhihe/primary-posts`](https://github.com/echolocked/zhihe-primary-posts)
