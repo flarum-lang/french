@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-4.30.0 (XXXX-XX-XX)
+4.29.1 (XXXX-XX-XX)
 -------------------
 
 **Modifications générales**:
@@ -64,7 +64,7 @@ CHANGELOG
 * [`ziiven/flarum-pay-to-see`](https://flarum.org/extension/ziiven/flarum-pay-to-see)
 
 
-Journal de toutes les modifications : [v4.29.0...v4.30.0](https://github.com/flarum-lang/french/compare/v4.29.0...v4.30.0).
+Journal de toutes les modifications : [v4.29.0...v4.29.1](https://github.com/flarum-lang/french/compare/v4.29.0...v4.29.1).
 
 
 4.29.0 (2025-05-09)
