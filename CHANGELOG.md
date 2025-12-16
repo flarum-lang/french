@@ -2,6 +2,72 @@ CHANGELOG
 =========
 
 
+4.29.1 (2025-12-16)
+-------------------
+
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+* Mise à jour des traductions du composant de validation de Laravel.
+
+
+**Prise en charge de nouvelles extensions**:
+
+* [`capybash/magicread`](https://github.com/capybash/magicread)
+* [`datlechin/flarum-ai-summarize`](https://github.com/datlechin/flarum-ai-summarize)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`foskym/flarum-pagination`](https://github.com/FoskyM/flarum-pagination)
+* [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump)
+* [`huseyinfiliz/guest`](https://github.com/huseyinfiliz/guest)
+* [`huseyinfiliz/sort-changer`](https://github.com/huseyinfiliz/sort-changer)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
+* [`klxf/flarum-maintenance`](https://github.com/klxf/flarum-maintenance)
+* [`mshuo/reply-to-see`](https://github.com/MShuoo/reply-to-see)
+* [`shebaoting/dependency-collector`](https://github.com/shebaoting/dependency-collector)
+* [`songnguxyz/oauth-mediawiki`](https://github.com/songnguxyz/flarum-ext-oauth-mediawiki)
+* [`startracex/flarum-dark`](https://github.com/startracex/flarum-dark)
+* [`xypp/flarum-pay-cccyun`](https://flarum.org/extension/xypp/flarum-pay-cccyun)
+* [`zhihe/primary-posts`](https://github.com/echolocked/zhihe-primary-posts)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget)
+* [`blomstra/payments`](https://flarum.org/extension/blomstra/payments)
+* [`datitisev/flarum-maintenance`](https://flarum.org/extension/datitisev/flarum-maintenance)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`foskym/flarum-issue-tracking`](https://github.com/FoskyM/flarum-issue-tracking)
+* [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
+* [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+* [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
+* [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
+* [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
+* [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
+* [`ziiven/flarum-pay-to-see`](https://flarum.org/extension/ziiven/flarum-pay-to-see)
+
+
+Journal de toutes les modifications : [v4.29.0...v4.29.1](https://github.com/flarum-lang/french/compare/v4.29.0...v4.29.1).
+
+
 4.29.0 (2025-05-09)
 -------------------
 
