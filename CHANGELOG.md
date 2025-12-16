@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-4.29.1 (XXXX-XX-XX)
+4.29.1 (2025-12-16)
 -------------------
 
 **Modifications générales**:
