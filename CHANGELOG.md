@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.29.2 (XXXX-XX-XX)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+
+
+Journal de toutes les modifications : [v4.29.1...v4.29.2](https://github.com/flarum-lang/french/compare/v4.29.1...v4.29.2).
+
+
 4.29.1 (2025-12-16)
 -------------------
 
