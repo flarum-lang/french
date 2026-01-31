@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
 
 
 Journal de toutes les modifications : [v4.29.1...v4.29.2](https://github.com/flarum-lang/french/compare/v4.29.1...v4.29.2).
