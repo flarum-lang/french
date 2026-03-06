@@ -21,9 +21,17 @@ flarum-gdpr:
         help_text: 'Vous recherchez les paramètres concernant le RGPD ? Ils se trouvent sur la page de l''extension.'
       user_table_data:
         column: Colonne
+        extension: Extension
         help_text: "Dans la plupart des cas, toutes les colonnes ajoutées à la table <code>user</code> seront traitées automatiquement, tant pour l'exportation des données que pour l'effacement.\nIl existe cependant quelques cas particuliers qui sont énumérés ci-dessous.\n"
+        'no': Non
+        nullable: Nullable
+        pii: IPI
+        pii_tooltip: 'Cette colonne est considérée comme une information personnelle identifiable et sera supprimée dans les contextes anonymisés (par exemple les charges utiles anonymisées des événements).'
+        redacted_on_export: 'Expurgé à l''exportation'
+        redacted_on_export_tooltip: 'La valeur de cette colonne est effacée (définie sur null) lors de la génération d''une exportation de données utilisateur. La colonne apparaît toujours dans l''exportation avec une valeur null.'
         title: 'Données de la table des utilisateurs'
         type: Type
+        'yes': Oui
     nav:
       gdpr_button: 'Intégrations RGPD'
     permissions:
@@ -113,6 +121,7 @@ flarum-gdpr:
       avatar:
         delete_description: 'Supprime l''avatar de l''utilisateur du système de fichiers.'
         export_description: 'Récupère l''avatar de l''utilisateur dans le système de fichiers et l''inclut dans l''exportation.'
+      default_user_action: 'Aucune action, gérée par défaut par le traitement des données du tableau utilisateur.'
       discussions:
         export_description: 'Exporte toutes les discussions que l''utilisateur a démarrées. Les données sont limitées au titre et à la date de création.'
       forum:
