@@ -5,11 +5,21 @@ CHANGELOG
 4.29.2 (XXXX-XX-XX)
 -------------------
 
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
 **Prise en charge de nouvelles extensions**:
 
 * [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
 * [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
 
 
 Journal de toutes les modifications : [v4.29.1...v4.29.2](https://github.com/flarum-lang/french/compare/v4.29.1...v4.29.2).
