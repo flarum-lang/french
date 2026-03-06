@@ -57,6 +57,12 @@ core:
     dashboard:
       clear_cache_button: 'Effacer le cache'
       description: 'Votre forum en un coup d''œil.'
+      info_button: 'Informations système'
+      info_modal:
+        copy_button: 'Copier dans le presse-papiers'
+        copy_error: 'Échec de la copie dans le presse-papiers'
+        copy_success: 'Informations système copiées dans le presse-papiers'
+        title: 'Informations système'
       io_error_message: 'Impossible d''écrire dans le système de fichiers. Veuillez vérifier les permissions de votre système de fichiers puis réessayer. Vous pouvez également essayer d''écrire dans le système de fichiers par ligne de commande à partir de la console.'
       status:
         headers:
@@ -119,8 +125,11 @@ core:
       smtp_heading: 'Paramètres SMTP'
       title: '=> core.ref.email'
     extension:
+      abandoned_no_replacement: 'Cette extension n''est plus maintenue par son auteur et pourrait ne plus recevoir de mises à jour.'
+      abandoned_with_replacement: 'Cette extension a été remplacée par {replacement}. Envisagez de migrer vers le paquet de remplacement.'
       configure_scopes: 'Configurer Scopes'
       confirm_purge: 'La purge supprime toutes les entrées de la base de données et les ressources liées à l''extension. Elle ne désinstallera pas l''extension ; cela doit être effectué depuis Composer. Êtes-vous sûr de vouloir continuer ?'
+      deprecated: Obsolète
       disabled: Désactivée
       enable_to_see: 'Activez l''extension pour afficher et modifier ses paramètres.'
       enabled: Activée
@@ -140,6 +149,7 @@ core:
         button_label: Lisez-moi
         no_readme: 'Cette extension ne semble pas avoir de fichier « Lisez-moi »'
         title: 'Documentation de {extName}'
+      replaced: Remplacé
     header:
       get_help: 'Obtenir de l''aide'
       log_out_button: '=> core.ref.log_out'

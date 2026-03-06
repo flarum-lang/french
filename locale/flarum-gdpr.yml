@@ -20,8 +20,10 @@ flarum-gdpr:
         heading: 'Paramètres du RGPD'
         help_text: 'Vous recherchez les paramètres concernant le RGPD ? Ils se trouvent sur la page de l''extension.'
       user_table_data:
+        column: Colonne
         help_text: "Dans la plupart des cas, toutes les colonnes ajoutées à la table <code>user</code> seront traitées automatiquement, tant pour l'exportation des données que pour l'effacement.\nIl existe cependant quelques cas particuliers qui sont énumérés ci-dessous.\n"
         title: 'Données de la table des utilisateurs'
+        type: Type
     nav:
       gdpr_button: 'Intégrations RGPD'
     permissions:
