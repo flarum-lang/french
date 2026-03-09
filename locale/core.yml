@@ -871,7 +871,7 @@ core:
       csrf_token_mismatch_return_link: 'Revenir en arrière pour réessayer'
       invalid_confirmation_token: 'Ce lien de confirmation a déjà été utilisé ou est invalide.'
       maintenance_mode_link: 'Se connecter en tant qu''administrateur'
-      maintenance_mode_message: 'Ce forum est actuellement indisponible pour cause de maintenance. S''il vous plaît revenez plus tard.'
+      maintenance_mode_message: 'Ce forum est actuellement indisponible pour cause de maintenance. Veuillez revenir plus tard.'
       maintenance_mode_title: Maintenance
       not_authenticated: 'Vous n''avez pas l''autorisation d''accéder à cette page. Veuillez réessayer après vous être connecté.'
       not_found: 'La page que vous avez demandée est introuvable.'

@@ -7,6 +7,9 @@ fof-sitemap:
     settings:
       advanced_options_label: 'Options avancées'
       build_button: 'Reconstruire les plans du site maintenant'
+      build_button_help: 'Déclenche une reconstruction immédiate de tous les fichiers de plan de site. La tâche sera envoyée à la file d''attente si celle-ci est configurée, sinon elle s''exécutera immédiatement.'
+      build_error: 'Échec de la mise en file d''attente de la reconstruction du plan du site. Veuillez vérifier vos journaux et la configuration de la file d''attente.'
+      build_success: 'La reconstruction du plan du site a été mise en file d''attente avec succès. Consultez vos journaux pour suivre la progression.'
       exclude_tags: 'Exclure toutes les pages d''étiquettes du plan du site'
       exclude_tags_help: 'Par défaut, toutes les étiquettes visibles par les invités seront indexées'
       exclude_users: 'Exclure tous les profils d''utilisateurs du plan du site'
@@ -20,6 +23,7 @@ fof-sitemap:
       include_changefreq_help: 'Les valeurs de fréquence de modification sont ignorées par Google, mais peuvent être utilisées par d''autres moteurs de recherche pour planifier l''indexation'
       include_priority: 'Inclure les valeurs de priorité dans le plan du site'
       include_priority_help: 'Les valeurs de priorité sont ignorées par Google, mais peuvent être utilisées par d''autres moteurs de recherche tels que Bing et Yandex'
+      last_build_time: 'Date de création'
       mode_help: 'Il est essentiel de sélectionner le mode approprié à la taille de votre forum.'
       mode_help_large: '50 000 est la limite technique pour les fichiers de plan de site. Si vous avez plus d''entrées à stocker, utilisez l''option suivante !'
       mode_help_multi: 'Idéal pour les gros forums, à partir de 10 000 éléments. Des fichiers de plan de site compressés en plusieurs parties seront générés et stockés dans le dossier /public'
