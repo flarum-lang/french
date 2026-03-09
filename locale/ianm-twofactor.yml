@@ -40,6 +40,7 @@ ianm-twofactor:
     body:
       status_changed: "Bonjour {recipient_display_name},\n\nL'authentification à deux facteurs a été {type} pour votre compte sur {forum_url}.\n\nSi vous êtes à l'origine de cette action, aucune autre démarche n'est nécessaire. Si vous n'avez pas autorisé cette modification, veuillez contacter immédiatement les administrateurs du forum.\n"
     status_type:
+      device_changed: 'appareil modifié'
       disabled: désactivé
       enabled: activé
     subject:
@@ -96,5 +97,6 @@ ianm-twofactor:
     reset_password:
       two_factor_token_label: 'Jeton A2F'
     two_factor_token:
+      oauth_session_expired: 'La session OAuth a expiré. Veuillez vous reconnecter.'
       submit_button: 'Envoyer le jeton'
       title: 'Authentification à deux facteurs'
