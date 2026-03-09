@@ -22,6 +22,7 @@ fof-upload:
       s3_acl: "L'ACL qui doit être appliquée à l'objet téléchargé (par défaut : privé). Pour les valeurs possibles, veuillez consulter https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n"
       s3_compatible_storage: "Les paramètres suivants ne sont obligatoires que si vous utilisez un stockage compatible S3. Si vous utilisez AWS, vous pouvez les laisser vides.\n"
       s3_instance_profile: "Laissez la clé et la clé secrète vides pour utiliser les informations d'identification dans le profil de l'instance.\n"
+      thumbnails: "Génère une miniature pour les images au moment du transfert. La miniature est affichée ;\nen cliquant dessus, le fichier original en pleine résolution s'ouvre dans un nouvel onglet.\nLes miniatures réduisent considérablement la bande passante et le poids des pages pour les forums contenant de nombreuses images volumineuses.\n"
       watermark: "Décidez si un filigrane sera ajouté aux images lors du téléchargement. Les filigranes sont ajoutés aux images qui ne sont pas des GIFS en fonction de vos préférences définies ci-dessous.\n"
     inspect-mime:
       description: "FoF Upload utilise la bibliothèque <a>PHP Mime Detector</a> pour les types MIME courants et PHP Fileinfo comme solution de repli.\nLa valeur MIME renvoyée par Fileinfo peut être différente d'un serveur à l'autre !\n"
@@ -72,6 +73,8 @@ fof-upload:
         title: 'Paramètres de stockage local'
       preferences:
         max_file_size: 'Taille maximale du fichier (en kilo-octets)'
+        mime_type_permission_placeholder: 'Libellé d''autorisation (facultatif, par exemple Images)'
+        mime_type_regex_placeholder: 'par exemple ^image/(jpeg|png|gif)$'
         mime_types: 'Configurez votre type MIME (téléversez la cartographie de téléchargement)'
         php_ini_values: 'Vos valeurs <code>php.ini</code> sont <code>post_max_size={post}</code> et <code>upload_max_filesize={upload}</code>. Assurez-vous que la valeur définie ici est inférieure à ces seuils ou ajustez-les en conséquence. Si vous utilisez <code>Nginx</code>, assurez-vous également que <code>client_max_body_size</code> est d''une taille suffisante pour la limite maximale choisie.'
         title: 'Préférences générales'
@@ -89,9 +92,16 @@ fof-upload:
         allow_animate_help: 'L''activation des animations SVG peut introduire des failles de sécurité, car les SVG animés peuvent contenir du code malveillant. Activez ce paramètre à vos risques et périls, et uniquement si vous faites pleinement confiance à vos utilisateurs.'
         help: 'Configurer la manière dont les fichiers SVG sont traités et nettoyés lors de leur téléchargement. Les fichiers SVG peuvent contenir des scripts potentiellement dangereux et doivent être manipulés avec précaution. Les fichiers SVG téléchargés sont nettoyés lors du téléchargement et les scripts et balises dangereux sont supprimés.'
         title: 'Nettoyeur de SVG'
+      thumbnails:
+        max_width: 'Largeur maximale de la miniature (px)'
+        title: Miniatures
+        toggle: 'Générer des miniatures lors du transfert'
+        webp_toggle: 'Encoder les miniatures au format WebP (recommandé, ~30% plus petit)'
       watermark:
         file: 'Transférer votre image de filigrane'
+        opacity: 'Opacité du filigrane (0–100)'
         position: 'Position du filigrane'
+        size_percent: 'Taille du filigrane (en pourcentage)'
         title: 'Images en filigrane'
         toggle: 'Images en filigrane'
     nav:
@@ -103,6 +113,7 @@ fof-upload:
       access_shared_label: 'Accéder aux fichiers partagés dans le gestionnaire de médias'
       delete_uploads_of_others_label: 'Supprimer les transferts des utilisateurs'
       download_label: 'Télécharger les fichiers'
+      upload_label: 'Transférer les fichiers (permission de base, requise pour tous les transferts)'
       upload_mime_label: 'Transférer {label}'
       upload_shared_label: 'Transférer des fichiers partagés'
       view_user_uploads_label: 'Afficher les transferts des utilisateurs'
