@@ -18,6 +18,7 @@ fof-upload:
       disable-download-logging: "Désactivez la journalisation de chaque téléchargement effectué par les utilisateurs de votre forum. En gardant cette option activée, vous pourrez visualiser le nombre de téléchargements en plus d'autres statistiques dans un avenir proche.\n"
       disable-hotlink-protection: "La protection contre les liens hypertextes automatiques empêche l'ouverture des téléchargements à partir d'autres sites. La méthode actuelle nécessite un jeton CSRF et un identifiant de publication.\n"
       download_templates: "Les modèles de téléchargement indiquent comment les téléchargements sont affichés sur votre forum, comme par exemple des prévisualisations ou des boutons. Actuellement disponible :\n"
+      mime_types: "Veuillez configurer votre cartographie ici. Chaque expression régulière de type MIME sera traitée par un adaptateur de téléchargement et un modèle de téléchargement spécifiques.\nVous pouvez également attribuer un libellé d'autorisation à chaque entrée (par exemple « Images », « Vidéos ») afin de créer une autorisation dédiée dans la grille d'autorisations.\nCela vous permet de restreindre les groupes autorisés à télécharger des types de fichiers spécifiques, en plus de l'autorisation de base « Télécharger des fichiers » qui est toujours requise.\n"
       resize: "Décidez si vous souhaitez redimensionner vos images avant qu'elles ne soient téléchargées. Vous pouvez indiquer une largeur et une hauteur maximales, en pixels. Le processus de redimensionnement conserve le rapport hauteur/largeur des images.\n"
       s3_acl: "L'ACL qui doit être appliquée à l'objet téléchargé (par défaut : privé). Pour les valeurs possibles, veuillez consulter https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n"
       s3_compatible_storage: "Les paramètres suivants ne sont obligatoires que si vous utilisez un stockage compatible S3. Si vous utilisez AWS, vous pouvez les laisser vides.\n"
@@ -74,6 +75,7 @@ fof-upload:
       preferences:
         max_file_size: 'Taille maximale du fichier (en kilo-octets)'
         mime_type_permission_placeholder: 'Libellé d''autorisation (facultatif, par exemple Images)'
+        mime_type_regex_invalid: 'Expression régulière non valide'
         mime_type_regex_placeholder: 'par exemple ^image/(jpeg|png|gif)$'
         mime_types: 'Configurez votre type MIME (téléversez la cartographie de téléchargement)'
         php_ini_values: 'Vos valeurs <code>php.ini</code> sont <code>post_max_size={post}</code> et <code>upload_max_filesize={upload}</code>. Assurez-vous que la valeur définie ici est inférieure à ces seuils ou ajustez-les en conséquence. Si vous utilisez <code>Nginx</code>, assurez-vous également que <code>client_max_body_size</code> est d''une taille suffisante pour la limite maximale choisie.'
@@ -100,6 +102,7 @@ fof-upload:
       watermark:
         file: 'Transférer votre image de filigrane'
         opacity: 'Opacité du filigrane (0–100)'
+        padding: 'Distance par rapport au bord (px)'
         position: 'Position du filigrane'
         size_percent: 'Taille du filigrane (en pourcentage)'
         title: 'Images en filigrane'
@@ -113,7 +116,7 @@ fof-upload:
       access_shared_label: 'Accéder aux fichiers partagés dans le gestionnaire de médias'
       delete_uploads_of_others_label: 'Supprimer les transferts des utilisateurs'
       download_label: 'Télécharger les fichiers'
-      upload_label: 'Transférer les fichiers (permission de base, requise pour tous les transferts)'
+      upload_label: 'Transférer les fichiers (autorisation de base, requise pour tous les transferts)'
       upload_mime_label: 'Transférer {label}'
       upload_shared_label: 'Transférer des fichiers partagés'
       view_user_uploads_label: 'Afficher les transferts des utilisateurs'
@@ -144,6 +147,8 @@ fof-upload:
       local: Local
       ovh-svfs: 'OVH SVFS'
       qiniu: QiNiu
+    warnings:
+      fileinfo_missing: "L'extension PHP <strong>fileinfo</strong> n'est pas chargée sur ce serveur. FoF Upload continuera de fonctionner, mais la validation croisée des types MIME sera désactivée, ce qui réduira la protection contre les types de fichiers falsifiés. Activez l'extension dans votre configuration PHP pour une sécurité optimale.\n"
   api:
     upload_errors:
       cannot_write_to_disk: 'Impossible d''écrire sur le disque.'
