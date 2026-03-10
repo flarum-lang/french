@@ -126,9 +126,15 @@ huseyinfiliz-awards:
       add_vote: 'Ajouter un vote'
       categories_remaining: 'Catégories sans votes'
       change: Modifier
+      last_vote: 'Dernier vote : {time}'
       no_votes: 'Vous n''avez pas encore voté'
       remove: Supprimer
+      summary: 'Vous avez voté dans {voted}/{total} catégories'
+      title: 'Vos votes'
+      total_votes: '{count} votes au total'
       vote_now: 'Voter maintenant'
+      votes_unlimited: '{count} votes'
+      votes_used: '{utilisé}/{limite} votes utilisés'
     nav:
       all_categories: 'Toutes les catégories'
       categories: Catégories
@@ -184,7 +190,11 @@ huseyinfiliz-awards:
       results: Résultats
     voting:
       change_vote: 'Modifier le vote'
+      ends_in_hours: 'Le vote se termine dans {heures} heures'
+      ends_soon: 'Le vote se termine bientôt'
       select: Sélectionner
+      vote_removed: 'Votre vote a été supprimé.'
+      vote_saved: 'Votre vote a été enregistré !'
       voted: Voté
   lib:
     actions: Actions
