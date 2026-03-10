@@ -6,15 +6,15 @@ huseyinfiliz-awards:
   admin:
     awards:
       categories: Catégories
-      create: 'Créer une récompense'
-      create_title: 'Créer une nouvelle récompense'
-      delete_confirm: 'Êtes-vous sûr de vouloir supprimer cette récompense ?'
-      edit_title: 'Éditer une récompense'
-      empty: 'Aucune récompense créée pour le moment.'
+      create: 'Créer un prix'
+      create_title: 'Créer un nouveau prix'
+      delete_confirm: 'Êtes-vous sûr de vouloir supprimer ce prix ?'
+      edit_title: 'Modifier le prix'
+      empty: 'Aucun prix créé pour le moment.'
       ends_at: 'Fin du vote'
       image_url: 'URL de l''image de couverture'
       image_url_help: 'Image de couverture affichée dans le bandeau. Transférer ou coller le lien.'
-      name: 'Nom de la récompense'
+      name: 'Nom du prix'
       publish: 'Publier les résultats'
       publish_confirm: 'Êtes-vous sûr de vouloir publier les résultats ? Tous les votants en seront informés.'
       show_live_votes: 'Afficher les résultats en direct'
@@ -37,7 +37,7 @@ huseyinfiliz-awards:
       empty: 'Aucune catégorie trouvée.'
       name: 'Nom de la catégorie'
       nominees: Nominés
-      select_award: 'Sélectionner la récompense'
+      select_award: 'Sélectionner un prix'
       title: 'Gérer les catégories'
     nav:
       description: 'Gérer les récompenses de la communauté et les votes'
@@ -67,6 +67,7 @@ huseyinfiliz-awards:
       manage: 'Gérer les récompenses'
       view: 'Voir les récompenses'
       view_results: 'Voir les résultats en avance'
+      vote: 'Voter pour les récompenses'
     settings:
       nav_icon: 'Icône de navigation'
       nav_icon_help: 'Classe d''icône Font Awesome (par exemple, fas fa-trophy, fas fa-award, fas fa-star)'
@@ -98,7 +99,7 @@ huseyinfiliz-awards:
       nominees: Nominés
       settings: Paramètres
       suggestions: Suggestions
-    title: 'Gestion des récompenses'
+    title: 'Gestion des prix'
   forum:
     category:
       nominees_count: '{count} nominés'
@@ -106,12 +107,12 @@ huseyinfiliz-awards:
       votes_used: '{used}/{limit} votes'
     empty:
       no_awards: 'Aucune récompense active'
-      no_awards_description: 'Il n''y a pas de récompenses disponibles pour le moment. Revenez plus tard !'
-      no_categories: 'Aucun catégorie dans ce prix pour le moment.'
+      no_awards_description: 'Il n''y a aucun prix disponible actuellement. Revenez plus tard !'
+      no_categories: 'Aucune catégorie dans ce prix pour le moment.'
       no_nominees: 'Aucun nominé dans cette catégorie pour le moment.'
     error:
       cannot_delete_processed_suggestion: 'Seules les suggestions en attente peuvent être annulées.'
-      not_available: 'Cette récompense n''est pas encore disponible.'
+      not_available: 'Ce prix n''est pas encore disponible.'
       other_not_allowed: 'Cette catégorie n''accepte pas les suggestions.'
       rate_limit: 'Trop de votes. Veuillez patienter un instant.'
       vote_limit_reached: 'Vous ne pouvez voter que pour {limit} nominés dans cette catégorie.'
@@ -119,6 +120,7 @@ huseyinfiliz-awards:
       voting_closed: 'Le vote est clos.'
     hero:
       countdown: 'Le vote se termine dans : {jours}j {heures}h {minutes}m {secondes}s'
+      draft_preview: 'Aperçu du brouillon'
       results_preview: 'Aperçu des résultats'
       results_published: 'Résultats publiés'
       voting_ended: 'Le vote est terminé'
@@ -152,16 +154,17 @@ huseyinfiliz-awards:
       pending_count: '{count} suggestion(s) en attente'
       placeholder: 'Entrez le nom du nominé...'
       remaining: '{count} suggestion(s) restante(s)'
-      status_approved: Approuvé
+      status_approved: Approuvée
       status_merged: Fusionné
       status_pending: 'En attente'
-      status_rejected: Rejeté
+      status_rejected: Rejetée
       submit: 'Soumettre la suggestion'
       success: 'Suggestion soumise ! Elle sera examinée par les modérateurs.'
+      suggest: 'Autre suggestion'
     page:
       previous_awards: 'Récompenses de l''année précédente'
       results_published: 'Résultats publiés'
-      select_award: 'Sélectionner la récompense'
+      select_award: 'Sélectionner un prix'
       voting_ended: 'Vote terminé {time}'
       voting_ends: 'Fin du vote {time}'
       voting_starts: 'Début du vote {time}'
@@ -180,7 +183,7 @@ huseyinfiliz-awards:
     results:
       full_results: 'Résultats complets'
       percentage: '{percent}%'
-      runner_up: 'Runner Up'
+      runner_up: Dauphin
       view_all: 'Voir tous les résultats'
       votes: '{count} votes'
       winner: Vainqueur
@@ -190,12 +193,15 @@ huseyinfiliz-awards:
       results: Résultats
     voting:
       change_vote: 'Modifier le vote'
+      ended: 'Le vote est terminé'
+      ends_in_days: 'Le vote se termine dans {days} jours'
       ends_in_hours: 'Le vote se termine dans {heures} heures'
       ends_soon: 'Le vote se termine bientôt'
       select: Sélectionner
       vote_removed: 'Votre vote a été supprimé.'
       vote_saved: 'Votre vote a été enregistré !'
       voted: Voté
+      voting_closed: 'Le vote est clos'
   lib:
     actions: Actions
     description: Description
@@ -205,6 +211,7 @@ huseyinfiliz-awards:
     slug: 'Identifiant texte unique'
     sort_order: Ordre
     success_message: 'Modifications enregistrées avec succès !'
+    upload_error: 'Échec du transfert de l''image'
     upload_image: 'Transférer une image'
     upload_success: 'Image transférée avec succès'
     votes: Votes
