@@ -65,6 +65,7 @@ yippy-auth-ldap:
       core_csrf_token_mismatch: '=> core.views.error.csrf_token_mismatch'
       csrf_token_mismatch: 'Vous avez été inactif pendant trop longtemps, veuillez rafraîchir la page et réessayer'
       domains:
+        connection_failed: 'Échec de la connexion pour le domaine {domain_index}, code d''erreur `{data}`'
         empty_base_dn: 'Le domaine {domain_index} n''a pas de DN de base défini, veuillez modifier les paramètres d''extension.'
         empty_host: 'Le domaine {domain_index} n''a pas de domaines ou d''adresses IP de serveur définis, veuillez modifier les paramètres d''extension.'
         empty_search_field: 'Le domaine {domain_index} a une recherche de compte LDAP - ''champ de recherche'' vide, veuillez modifier les paramètres de l''extension.'

@@ -13,6 +13,7 @@ sycho-github-milestone:
   forum:
     all: '=> sycho-github-milestone.ref.all'
     closed: '=> sycho-github-milestone.ref.closed'
+    complete: '<strong>{progress}%</strong> Terminé'
     last_updated: 'Dernière mise à jour le {time}'
     load_more: '=> core.forum.discussion_list.load_more_button'
     open: '=> sycho-github-milestone.ref.open'

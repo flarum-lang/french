@@ -776,7 +776,7 @@ core:
       max_items_to_select: '{count, plural, one {Sélectionner jusqu''à # utilisateur} other {Sélectionner jusqu''à # utilisateurs}}'
       search_placeholder: '=> core.ref.search_users'
       submit_button: '=> core.ref.okay'
-      title: 'Sélectionner les utilisateurs concernés'
+      title: 'Sélectionnez les utilisateurs concernés'
     username:
       deleted_text: '[supprimé]'
   ref:
