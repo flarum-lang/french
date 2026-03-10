@@ -23,5 +23,5 @@ fof-sentry:
       monitor_performance_label: 'Taux de surveillance des performances de l''application dorsale (0 - 100)'
       profile_rate_help: "Ceci est relatif au taux de surveillance des performances. La surveillance des performances doit être activée pour que cette fonction fonctionne.\n\n{br}✱ L'activation de cette fonction affecte le temps de réponse en raison de la surcharge liée au profilage et aux demandes envoyées à Sentry. Apprenez à compenser ce problème à l'adresse <a>https://docs.sentry.io/platforms/php/profiling/#improve-response-time</a>.\n{br}{icon} <bold>Cette fonctionnalité nécessite le profileur d'échantillonnage Excimer de Wikipédia, qui n'est disponible que pour Linux.</bold>"
       profile_rate_label: 'Taux de profilage de l''application dorsale (0 - 100)'
-      send_user_emails_label: 'Envoyer les adresses de courriel des utilisateurs avec les rapports de Sentry ?'
+      send_user_emails_label: 'Inclure les adresses courriel des utilisateurs dans les rapports'
       user_feedback_label: 'Retour d''expérience de l''utilisateur'
