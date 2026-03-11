@@ -5,9 +5,20 @@
 fof-prevent-necrobumping:
   admin:
     settings:
+      days_help: 'Marquer les discussions comme inactives après un certain nombre de jours depuis le dernier message. Définissez cette option sur <code>0</code> pour désactiver ce comportement par défaut.'
+      days_label: 'Nombre de jours avant que la discussion soit considérée comme inactive'
       general_heading: 'Paramètres généraux'
+      show_discussion_cta_help: 'Afficher une suggestion pour démarrer une nouvelle discussion lorsque les utilisateurs tentent de répondre à des discussions inactives.'
+      show_discussion_cta_label: 'Afficher l''invite « Démarrer une nouvelle discussion »'
+      tags_help: 'Remplacez le seuil d''inactivité global pour des étiquettes spécifiques. Laissez ce champ vide pour utiliser la valeur par défaut. Lorsque plusieurs étiquettes ont des valeurs différentes, c''est la période la plus courte qui s''applique.'
       tags_placeholder: 'Par défaut'
+      tags_title: 'Paramètres spécifiques aux étiquettes'
   forum:
     composer:
+      error: 'Cette discussion est trop ancienne pour y répondre.'
       inactive_discussion_alert:
+        confirmation: 'Je comprends que cette discussion est inactive, mais ma réponse est pertinente.'
+        cta: 'Envisagez de démarrer une nouvelle discussion si vous avez une nouvelle question ou un nouveau point de vue.'
         cta_button: '=> core.ref.start_a_discussion'
+        description: 'Demandez-vous si votre réponse apporte une valeur ajoutée ou si le sujet a déjà été résolu.'
+        title: 'La dernière réponse à cette discussion date du {time}.'

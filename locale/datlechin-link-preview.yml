@@ -4,6 +4,15 @@
 
 datlechin-link-preview:
   admin:
+    sections:
+      external_api_description: 'Utilisez un service externe lorsque la récupération directe échoue (par exemple sur les sites qui se protègent des robots).'
+      external_api_label: 'API externe de secours'
+      general_description: 'Préférences d''affichage de base pour les aperçus des liens.'
+      general_label: Général
+      performance_description: 'Optimisez la manière dont les aperçus des liens sont récupérés et mis en cache.'
+      performance_label: Performance
+      url_filtering_description: 'Contrôlez les URL qui génèrent des aperçus de liens.'
+      url_filtering_label: 'Filtrage des URL'
     settings:
       blacklist_help: 'Indiquez les domaines ou les URL qui ne doivent pas générer d''aperçus de liens. Utilisez des virgules pour séparer les entrées multiples.'
       blacklist_label: 'Liste noire de domaines'
@@ -14,6 +23,10 @@ datlechin-link-preview:
       convert_media_urls_label: 'Prévisualiser les URL des médias'
       enable_batch_requests_help: 'Améliore les performances en traitant simultanément plusieurs aperçus de liens. Lorsque cette option est désactivée, les liens sont traités un par un.'
       enable_batch_requests_label: 'Activer le traitement par lots'
+      external_api_fallback_help: 'Lorsque la récupération directe échoue (par exemple sur les sites qui se protègent des robots comme Reuters), utilisez une API oEmbed externe pour récupérer les métadonnées du lien.'
+      external_api_fallback_label: 'API externe de secours'
+      external_api_url_help: 'Point de terminaison API oEmbed personnalisé. Laissez vide pour utiliser la valeur par défaut (API ouverte Iframely). L''URL sera ajoutée en tant que paramètre de requête.'
+      external_api_url_label: 'URL de l''API externe'
       open_links_in_new_tab_help: 'Toujours ouvrir les liens prévisualisés dans un nouvel onglet du navigateur.'
       open_links_in_new_tab_label: 'Ouvrir les liens dans un nouvel onglet'
       use_google_favicons_help: 'Afficher les favicons des sites web en utilisant le service Favicon de Google pour améliorer la reconnaissance visuelle.'
