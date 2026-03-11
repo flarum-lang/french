@@ -8,6 +8,7 @@ fof-best-answer:
       qna_label: 'Permettre à l''extension « Best Answers » d''être paramétrée dans cette étiquette'
       reminders: 'Envoyer des rappels pour définir une meilleure réponse pour les discussions avec cette étiquette'
     permissions:
+      allow_select_own_post: 'Sélectionner votre propre message comme meilleure réponse'
       best_answer: 'Sélectionnez la meilleure réponse (sur sa propre discussion)'
       best_answer_not_own_discussion: 'Sélectionnez la meilleure réponse (pas sur sa propre discussion)'
     settings:
