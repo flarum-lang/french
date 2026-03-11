@@ -9,8 +9,8 @@ fof-best-answer:
       reminders: 'Envoyer des rappels pour définir une meilleure réponse pour les discussions avec cette étiquette'
     permissions:
       allow_select_own_post: 'Sélectionner son propre message comme meilleure réponse'
-      best_answer: 'Sélectionnez la meilleure réponse (sur sa propre discussion)'
-      best_answer_not_own_discussion: 'Sélectionnez la meilleure réponse (pas sur sa propre discussion)'
+      best_answer: 'Sélectionner la meilleure réponse (sur sa propre discussion)'
+      best_answer_not_own_discussion: 'Sélectionner la meilleure réponse (pas sur sa propre discussion)'
     settings:
       discussion_sidebar_jump_button: 'Afficher le bouton « Voir la meilleure réponse » dans la barre latérale de la discussion'
       discussion_sidebar_jump_button_help: 'Ajoute un bouton à la barre latérale de la discussion qui permet de se rendre directement à la meilleure réponse dans le flux des messages.'
