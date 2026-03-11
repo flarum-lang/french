@@ -23,6 +23,7 @@ flarum-messages:
       to: 'À :'
     dialog_list:
       load_more_button: '=> core.ref.load_more'
+      mark_as_read_tooltip: 'Marquer comme lue'
       title: Messages
       view_all: 'Afficher tous les messages'
     dialog_section:
@@ -30,6 +31,7 @@ flarum-messages:
       cannot_reply_text: 'Cet utilisateur ne peut pas répondre'
       controls:
         details_button: Informations
+      controls_toggle_label: 'Actions de contrôle de la conversation'
       details_modal:
         created_at: 'Date de création'
         recipients: Participants
@@ -49,7 +51,9 @@ flarum-messages:
       cannot_send_message_button: 'Impossible d''envoyer un message'
       empty_text: 'Aucun nouveau message'
       hero:
+        subtitle: 'Vos conversations privées avec d''autres utilisateurs'
         title: Messages
+      mark_all_as_read_tooltip: 'Tout marquer comme lu'
       refresh_tooltip: Actualiser
       send_message_button: 'Envoyer un message'
       stream:
@@ -58,6 +62,8 @@ flarum-messages:
         start_of_the_conversation: 'Début de la conversation'
         time_lapsed_text: '=> core.forum.post_stream.time_lapsed_text'
       title: Messages
+    notifications:
+      message_received_text: '{user} vous a envoyé un message'
     recipient_selection_modal:
       title: 'Sélectionnez les destinataires de ce message'
     settings:
