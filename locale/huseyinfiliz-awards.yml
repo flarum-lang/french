@@ -51,7 +51,7 @@ huseyinfiliz-awards:
       delete_confirm: 'Êtes-vous sûr de vouloir supprimer ce nominé ?'
       description_help: 'Courte description affichée sous le nom (facultatif)'
       displayed_votes: 'Votes affichés'
-      edit_title: 'Modifier un nominé'
+      edit_title: 'Modifier le nominé'
       empty: 'Aucun nominé trouvé.'
       image: Image
       image_url: 'URL de l''image'
@@ -66,7 +66,7 @@ huseyinfiliz-awards:
     permissions:
       manage: 'Gérer les récompenses'
       view: 'Voir les récompenses'
-      view_results: 'Voir les résultats en avance'
+      view_results: 'Afficher les résultats à l''avance'
       vote: 'Voter pour les récompenses'
     settings:
       nav_icon: 'Icône de navigation'
