@@ -19,7 +19,12 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 
 
 Journal de toutes les modifications : [v4.29.1...v4.29.2](https://github.com/flarum-lang/french/compare/v4.29.1...v4.29.2).
