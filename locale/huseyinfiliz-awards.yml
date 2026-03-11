@@ -13,7 +13,7 @@ huseyinfiliz-awards:
       empty: 'Aucun prix créé pour le moment.'
       ends_at: 'Fin du vote'
       image_url: 'URL de l''image de couverture'
-      image_url_help: 'Image de couverture affichée dans le bandeau. Transférer ou coller le lien.'
+      image_url_help: 'Image de couverture affichée dans le bandeau. Transférer ou coller un lien.'
       name: 'Nom du prix'
       publish: 'Publier les résultats'
       publish_confirm: 'Êtes-vous sûr de vouloir publier les résultats ? Tous les votants en seront informés.'
