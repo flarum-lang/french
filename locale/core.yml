@@ -77,8 +77,8 @@ core:
         section_label: 'Rechercher des pilotes'
       title: Avancé
     appearance:
-      allow_user_color_scheme_label: 'Permettre aux utilisateurs de choisir leur propre palette de couleurs'
-      color_scheme_label: 'Palette de couleurs (par défaut)'
+      allow_user_color_scheme_label: 'Permettre aux utilisateurs de choisir leur propre thème'
+      color_scheme_label: 'Thème (par défaut)'
       color_schemes:
         auto_mode_label: 'Système utilisateur ou préférence configurée'
         dark_hc_mode_label: '=> core.ref.dark_hc_mode_label'
@@ -590,7 +590,7 @@ core:
       account_heading: Compte
       change_email_button: '=> core.ref.change_email'
       change_password_button: '=> core.ref.change_password'
-      color_scheme_heading: 'Palette de couleurs'
+      color_scheme_heading: Thème
       color_schemes:
         auto_mode_label: 'Préférences système'
         dark_hc_mode_label: '=> core.ref.dark_hc_mode_label'
