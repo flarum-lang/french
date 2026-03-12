@@ -2,6 +2,34 @@ CHANGELOG
 =========
 
 
+4.29.2 (2026-03-12)
+-------------------
+
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
+**Prise en charge de nouvelles extensions**:
+
+* [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+
+
+Journal de toutes les modifications : [v4.29.1...v4.29.2](https://github.com/flarum-lang/french/compare/v4.29.1...v4.29.2).
+
+
 4.29.1 (2025-12-16)
 -------------------
 
