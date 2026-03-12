@@ -5,9 +5,15 @@
 fof-open-collective:
   admin:
     settings:
+      api_key_help: 'Cette méthode d''authentification est obsolète. Veuillez envisager de passer à un jeton personnel.'
       api_key_label: 'Clé API de l''application (obsolète)'
+      group_help: 'Sélectionnez le groupe d''utilisateurs Flarum auquel les contributeurs réguliers doivent être ajoutés. Les utilisateurs seront automatiquement ajoutés lorsqu''ils deviendront des contributeurs réguliers et transférés vers le groupe des contributeurs ponctuels (si configuré) à la fin de leur abonnement.'
       group_label: 'Groupe à assigner'
+      onetime_group_help: 'Sélectionnez le groupe d''utilisateurs Flarum auquel les contributeurs ponctuels doivent être ajoutés. Si ce paramètre n''est pas défini, les contributeurs ponctuels ne seront pas gérés. Lorsqu''un contributeur récurrent annule son abonnement, il sera déplacé vers ce groupe.'
+      onetime_group_label: 'Groupe de contributeurs ponctuels (facultatif)'
+      personal_token_help: 'Créez un jeton personnel sur <a>https://opencollective.com/applications</a>. Ce jeton sert à récupérer vos informations de contributeur auprès d''Open Collective.'
       personal_token_label: 'Jeton personnel'
+      slug_help: 'Saisissez le slug de votre collectif Open Collective (la partie après opencollective.com/ dans l''URL de votre collectif).'
       slug_label: 'Identifiant texte unique collectif'
       title: 'Open Collective de FriendsOfFlarum'
       use_legacy_api_key_help: "Si vous disposez d'une ancienne clé API, vous pouvez continuer à l'utiliser, mais il est recommandé de passer à un jeton personnel. Actuellement, les jetons personnels semblent fonctionner en mode clé API (c'est-à-dire avec l'en-tête « API-Key »), mais cela n'est pas documenté.\n"

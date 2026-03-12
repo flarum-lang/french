@@ -10,11 +10,12 @@ yippy-auth-ldap:
         add: 'Ajouter un domaine'
         banner: 'Domaine {index} - [{isEnabled}]'
         data:
-          admin_dn: 'Nom distinctif (DN)'
+          admin_dn: 'Nom distinctif (ND)'
           admin_dn_help: 'Laisser vide pour une liaison anonyme'
           admin_password: 'Mot de passe'
           admin_password_help: 'Laisser vide pour une liaison anonyme'
           base_dn: 'Noms distinctifs de la base'
+          base_dn_help: 'Séparés par des points-virgules, pour plusieurs ND de base.'
           filter: 'Filtre à appliquer'
           filter_help: 'Facultatif, doit exclure les « Champs de recherche » du filtre. Par exemple, si le filtre est « (objectclass=user) » et que l''on sélectionne « uid » dans « Champs de recherche », le filtre sera modifié comme suit : ''(&(objectclass=user)(uid=[User''s Input]))"'
           follow_referrals: 'Suivre les références pour se lier au serveur LDAP'

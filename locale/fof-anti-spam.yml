@@ -21,6 +21,45 @@ fof-anti-spam:
       spamblock_users_label: 'Marquer l''utilisateur comme indésirable'
     settings:
       button: Paramètres
+      content-filter:
+        actions_heading: 'Actions automatiques'
+        advanced_block_patterns_help: 'Les modèles d''expressions régulières personnalisés pour les utilisateurs avancés. À utiliser avec précaution : les modèles non valides seront ignorés. Le format doit être un tableau JSON d''objets avec les clés « pattern » et « description » (facultative).'
+        advanced_block_patterns_label: 'Modèles avancés (expressions régulières)'
+        advanced_patterns_heading: 'Modèles de blocs avancés'
+        allowed_domains_help: 'Les URL provenant de ces domaines ne seront pas signalées. Saisissez un domaine par ligne. Le domaine de votre forum est automatiquement ajouté à la liste blanche.'
+        allowed_domains_label: 'Domaines autorisés'
+        allowlist_heading: 'Liste blanche de domaines'
+        auto_flag_help: 'Lorsque cette option est activée, le contenu qui atteint le seuil de signalement sera automatiquement signalé pour être examiné par un modérateur (nécessite flarum/flags). La raison du signalement inclura des détails sur les raisons pour lesquelles le contenu a été détecté comme spam.'
+        auto_flag_label: 'Signaler automatiquement les contenus indésirables'
+        auto_unapprove_help: 'Lorsque cette option est activée, le contenu qui atteint le seuil de spam sera envoyé dans la file d''attente d''approbation (nécessite flarum/approval). Les modérateurs devront approuver le contenu avant qu''il ne devienne visible.'
+        auto_unapprove_label: 'Rejeter automatiquement le contenu indésirable'
+        blocked_words_heading: 'Mots et expressions bloqués'
+        blocked_words_help: 'Mots ou expressions à bloquer comme spam. Saisissez-les sur une ligne chacun. La casse n''est pas prise en compte et seuls les mots entiers sont pris en compte. Par exemple, « viagra » correspondra à « viagra », mais pas à « niagara ».'
+        blocked_words_label: 'Mots ou expressions bloqués'
+        detect_emails_help: 'Signalez le contenu contenant des adresses de courriel.'
+        detect_emails_label: 'Détecter les adresses de courriel'
+        detect_phones_help: 'Signaler le contenu contenant des numéros de téléphone au format international.'
+        detect_phones_label: 'Détecter les numéros de téléphone'
+        detect_urls_help: 'Signalez le contenu contenant des URL qui ne figurent pas dans la liste blanche.'
+        detect_urls_label: 'Détecter les URL'
+        detectors_heading: 'Méthodes de détection'
+        enabled_help: 'Lorsque cette option est activée, les publications et les discussions des nouveaux utilisateurs seront analysées afin de détecter tout indicateur de spam.'
+        enabled_label: 'Activer le filtrage de contenu'
+        flag_threshold_help: 'Le contenu dont le score de spam est égal ou supérieur à cette valeur sera signalé pour modération (nécessite l''extension flarum/flags).'
+        flag_threshold_label: 'Seuil de l''indicateur (0-100)'
+        heading: 'Filtre de contenu'
+        introduction: 'Détectez et signalez automatiquement les contenus indésirables provenant de nouveaux utilisateurs. Ce système surveille les publications et les discussions des utilisateurs récemment inscrits afin de détecter les indicateurs courants de spam, tels que les numéros de téléphone, les adresses de courriel et les URL suspectes.'
+        monitor_hours_old_help: 'Analysez uniquement le contenu des utilisateurs dont les comptes ont été créés il y a moins de ce nombre d''heures. Définissez cette valeur sur 0 pour désactiver la vérification de l''âge.'
+        monitor_hours_old_label: 'Surveillez les utilisateurs jusqu''à plusieurs heures après leur création'
+        monitor_post_count_help: 'Analysez uniquement le contenu des utilisateurs qui ont publié moins de ce nombre de messages. Définissez cette valeur sur 0 pour désactiver la vérification du nombre de messages.'
+        monitor_post_count_label: 'Surveiller les utilisateurs jusqu''au nombre de messages'
+        no_action_extensions: 'Installez les extensions flarum/approval et/ou flarum/flags pour activer les actions de modération automatiques. Les spams détectés seront gérés via la file d''attente d''approbation et le système de signalements intégrés à Flarum.'
+        spam_threshold_help: 'Le contenu dont le score de spam est égal ou supérieur à cette valeur sera automatiquement refusé (nécessite l''extension flarum/approval).'
+        spam_threshold_label: 'Seuil de spam (0-100)'
+        system_user_id_help: 'L''identifiant utilisateur qui sera attribué en tant que créateur de signalements anti-spam automatiques. Il s''agit généralement d''un compte administrateur ou système. La valeur par défaut est l''identifiant utilisateur 1 si aucun autre n''est configuré.'
+        system_user_id_label: 'Identifiant utilisateur système pour les indicateurs'
+        thresholds_heading: 'Seuils de score de spam'
+        user_targeting_heading: 'Ciblage des utilisateurs'
       default-actions:
         delete_discussions_help: 'Cette option permet de supprimer définitivement toutes les discussions lancées par cet utilisateur. Lorsqu''elle est désactivée, les discussions sont supprimées en douceur.'
         delete_discussions_label: 'Supprimer les discussions'
@@ -36,6 +75,8 @@ fof-anti-spam:
         api_key_instructions_text: '<register>S''inscrire à StopForumSpam</register>. Ensuite, vous devrez <key>obtenir une clé API</key>.'
         api_key_label: 'Clé API'
         api_key_text: 'Vous avez la possibilité de signaler les utilisateurs indésirables à StopForumSpam afin d''améliorer la qualité de la communauté.'
+        block_tor_exit_nodes_help: 'Lorsque cette option est activée, les inscriptions provenant de nœuds de sortie Tor connus seront automatiquement bloquées. Cela peut aider à empêcher les inscriptions anonymes de spam, mais peut également empêcher les utilisateurs légitimes qui utilisent Tor pour protéger leur vie privée.'
+        block_tor_exit_nodes_label: 'Bloquer les nœuds de sortie Tor'
         confidence_help: 'Le niveau de confiance est un indicateur raisonnablement bon que le champ testé entraînera une activité indésirable. Définissez votre niveau de confiance en pourcentage. Si le champ est égal ou supérieur à ce chiffre, l''inscription sera bloquée, indépendamment du test de « fréquence » ci-dessus.'
         confidence_label: Confiance
         email_hash_help: 'Transmettez un hachage MD5 de l''adresse de courriel si vous souhaitez ne pas transmettre l''adresse électronique elle-même. Cette méthode permet de contourner tous les contrôles de listes noires, de normalisation et de contournement de l''obscurcissement.'
@@ -59,6 +100,8 @@ fof-anti-spam:
     message:
       stopforumspam:
         blocked: 'Les détails de votre inscription ont été trouvés dans une base de données de prévention des utilisateurs indésirables, et votre inscription a donc été bloquée.'
+    post:
+      flagged_as_spam_text: 'Détection automatique des spams - score {score}'
     spammer_modal:
       hard_delete_discussions_help: 'Cette option supprime définitivement toutes les discussions lancées par cet utilisateur. Lorsqu''elle est désactivée, les discussions sont masquées.'
       hard_delete_discussions_label: 'Supprimer les discussions'

@@ -44,6 +44,12 @@ datitisev-backup:
         container:
           description: 'Conteneur d''Azure'
           label: Conteneur
+        endpoint:
+          description: 'La chaîne de connexion pour votre stockage Azure.'
+          label: 'Chaîne de connexion'
+        path-prefix:
+          description: 'Préfixe de chemin par défaut facultatif pour les fichiers.'
+          label: 'Préfixe du chemin'
       dropbox:
         help:
           obtain-access-code-button: 'Ouvrir Dropbox'
@@ -62,6 +68,9 @@ datitisev-backup:
         host:
           description: 'Le nom d''hôte auquel se connecter avec FTP, par exemple : <em>ftp.votredomaine.local</em>.'
           label: 'Nom d''hôte distant'
+        passive:
+          description: 'Utiliser le mode passif pour la connexion FTP.'
+          toggle: 'Mode passif'
         password:
           description: 'Le mot de passe de l''utilisateur avec lequel il faut s''authentifier sur le serveur FTP.'
           label: 'Mot de passe'
@@ -101,6 +110,26 @@ datitisev-backup:
           description: 'Spécifiez le répertoire local dans lequel les sauvegardes seront enregistrées.'
           label: 'Chemin de la cible'
       name_label: 'Nom de l''emplacement'
+      sftp:
+        host: '=> datitisev-backup.admin.adapter-settings-modal.ftp.host'
+        passphrase:
+          description: 'La phrase secrète pour la clé privée, le cas échéant.'
+          label: 'Phrase secrète'
+        password: '=> datitisev-backup.admin.adapter-settings-modal.ftp.password'
+        port:
+          description: 'Le port SFTP (22 par défaut).'
+          label: Port
+        private-key:
+          description: 'Chemin d''accès (de préférence absolu) à une clé privée à utiliser lors de l''authentification de la connexion SFTP.'
+          label: 'Clé privée'
+        root: '=> datitisev-backup.admin.adapter-settings-modal.ftp.root'
+        timeout: '=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout'
+        use-agent:
+          description: 'Utiliser l''agent SSH pour authentifier la connexion (désactivé par défaut).'
+          toggle: 'Utiliser l''agent'
+        username: '=> datitisev-backup.admin.adapter-settings-modal.ftp.username'
+      timestamp_help: "Spécifiez le format des horodatages dans les noms de fichiers de sauvegarde. La valeur par défaut est <code>U</code> (horodatage Unix). Utilise le <a>formatage de date PHP</a>. Les caractères non sécurisés du nom de fichier seront nettoyés. Le nom de fichier sera au format <code>{forum}-[horodatage formaté].zip</code>.\n"
+      timestamp_label: 'Format de l''horodatage du nom de fichier'
       title: 'Configurer {adapter}'
     adapters:
       aliyun: 'Cloud d''Alibaba (Aliyun)'
@@ -121,4 +150,7 @@ datitisev-backup:
       content: "Pour utiliser ce pilote, vous devez installer un paquet spécifique. Vous pouvez le faire en exécutant la commande composer suivante : <code>composer require {package}</code> dans votre répertoire d'installation de Flarum.\n"
       title: 'Un paquet est nécessaire pour {adapter}'
     required_package_button: 'Mise en place'
+    settings:
+      database_bin_path_help: "Si les binaires de votre base de données (par exemple mysqldump, pg_dump) ne se trouvent pas dans le CHEMIN de votre système, vous pouvez spécifier ici le répertoire dans lequel ils se trouvent. Veillez à inclure la barre oblique finale (par exemple <code>/usr/local/mysql/bin/</code>).\n"
+      database_bin_path_label: '(Facultatif) Chemin d''accès aux fichiers binaires de la base de données'
     settings_button: Configurer
