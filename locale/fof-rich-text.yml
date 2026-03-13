@@ -5,6 +5,7 @@
 fof-rich-text:
   admin:
     settings:
+      force_compact_paragraphs: 'Imposer des paragraphes compacts pour tous les utilisateurs (la touche Entrée crée un saut de ligne au lieu d''un nouveau paragraphe)'
       toggle_on_editor: 'Afficher le bouton d''activation du mode texte enrichi dans l''éditeur ?'
   forum:
     settings:
