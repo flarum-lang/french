@@ -5,8 +5,8 @@
 core:
   forum:
     index_sort:
-      least_viewed_button: Impopulaire
-      most_viewed_button: Populaire
+      least_viewed_button: 'Moins consultée'
+      most_viewed_button: 'Plus consultée'
 fof-discussion-views:
   admin:
     permissions:
