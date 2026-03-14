@@ -24,7 +24,7 @@ fof-drafts:
       schedule_on_one_server: 'Utiliser la directive ''onOneServer()'' pour le planificateur de tâches (nécessite Redis/Memcache)'
       title: 'Drafts de FoF'
   console:
-    no_title_error: 'Brouillon ignoré : le titre de la discussion est manquant.'
+    no_title_error: 'Brouillon non enregistré : le titre de la discussion est manquant.'
     scheduled_drafts_disabled: 'Les brouillons planifiés sont actuellement désactivés dans les paramètres.'
   forum:
     composer:
