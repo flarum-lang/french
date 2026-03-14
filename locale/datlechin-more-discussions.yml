@@ -16,8 +16,8 @@ datlechin-more-discussions:
       filter_dropdown:
         hot: 'Tendance (nécessaire pour fof/gamification)'
         latest: Activité
-        newest: 'Plus récente'
-        oldest: 'Plus ancienne'
+        newest: Nouveauté
+        oldest: Ancienneté
         top: Popularité
         votes: 'Votes (nécessaire pour fof/gamification)'
   forum:
