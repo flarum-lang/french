@@ -60,6 +60,10 @@ fof-oauth:
       update_email_from_provider_label: 'Mettre à jour l''adresse de courriel du fournisseur'
     settings_accessibility_label: 'Paramètres de {name}'
   forum:
+    account_linked:
+      body: 'Votre compte {forum} <strong>{username}</strong> est désormais associé à {provider}. Vous pouvez désormais vous connecter soit avec votre mot de passe du forum, soit avec celui de {provider}.'
+      dismiss_button: 'J''ai compris'
+      title: 'Compte associé'
     error:
       already_linked: 'Ce compte est déjà associé à un autre utilisateur.'
       bad_verification_code: 'Jeton de vérification invalide ou expiré. Veuillez réessayer.'

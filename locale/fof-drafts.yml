@@ -45,6 +45,7 @@ fof-drafts:
       title: Brouillons
       tooltip: '=> fof-drafts.forum.dropdown.title'
     schedule_draft_modal:
+      no_title_error: 'Un titre de discussion est requis avant de planifier.'
       reschedule_button: Re-planifier
       schedule_button: Planifier
       schedule_time_preview: 'Ce brouillon sera automatiquement publié le <b>{datetime}</b>.'
