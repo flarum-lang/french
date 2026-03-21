@@ -11,6 +11,9 @@ fof-move-posts:
       moved_first_post_content: 'Contenu de la discussion déplacée (premier message)'
       moved_first_post_content_help: "Lorsque vous avez une discussion avec un seul message, le déplacement de ce message entraînera la modification du premier message de la discussion initiale pour pointer vers la nouvelle discussion. Vous pouvez modifier le contenu de cette publication ici.\n"
   forum:
+    alerts:
+      posts_moved: '{count, plural, one {Message déplacé.} other {{count} messages déplacés.}}'
+      posts_moved_to: '{count, plural, one {Message déplacé vers {target_discussion}.} other {{count} messages déplacés vers {target_discussion}.}}'
     badge:
       first_moved_tooltip: Déplacée
     discussion:
