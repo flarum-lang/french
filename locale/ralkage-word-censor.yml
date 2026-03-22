@@ -5,6 +5,11 @@
 ralkage-word-censor:
   admin:
     settings:
+      replacement_help: 'Caractère utilisé pour remplacer chaque lettre d''un mot censuré. Par défaut : *'
       replacement_label: 'Caractère de remplacement'
       word_list_help: 'Saisissez un mot ou une expression par ligne. Ceux-ci seront remplacés par le caractère de remplacement lorsqu''ils s''afficheront pour les utilisateurs.'
       word_list_label: 'Mots censurés'
+  forum:
+    settings:
+      word_censor_help: 'Lorsque cette option est activée, les mots configurés seront censurés dans les messages. Désactivez-la pour voir le contenu non censuré.'
+      word_censor_label: 'Activer la censure des mots'
