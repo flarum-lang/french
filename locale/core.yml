@@ -237,6 +237,7 @@ core:
       mail_mailgun_secret_label: 'Clé secrète'
       mail_password_label: '=> core.ref.password'
       mail_port_label: Port
+      mail_smtp_verify_peer_label: 'Vérifier le certificat SSL'
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'Paramètres de Mailgun'
       not_sending_message: 'Flarum n''envoie actuellement pas de courriel. Cela peut être dû au pilote sélectionné ou à une erreur dans sa configuration.'
@@ -631,6 +632,7 @@ core:
         light_hc_mode_label: '=> core.ref.light_hc_mode_label'
         light_mode_label: '=> core.ref.light_mode_label'
       device_heading: Appareil
+      haptic_feedback_help: 'Disponible uniquement sur les appareils mobiles pris en charge'
       haptic_feedback_label: 'Activer le retour haptique'
       notification_checkbox_a11y_label_template: 'Recevoir les notifications « {description} » par le biais de {method}'
       notifications_heading: '=> core.ref.notifications'
