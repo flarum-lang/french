@@ -7,6 +7,8 @@ flarum-realtime:
     permission:
       view-who-types: 'Voir qui est en train d''écrire'
     settings:
+      notification-toast-dismiss-after: 'Durée d''affichage des notifications contextuelles'
+      notification-toast-dismiss-after-help: 'Combien de temps (en secondes) une notification contextuelle en temps réel reste-t-elle à l''écran avant d''être automatiquement masquée ? Définissez cette valeur sur 0 pour désactiver les notifications contextuelles.'
       release-discussion-updates: 'Mises à jour de la liste de discussions'
       release-discussion-updates-help: 'Lorsque cette option est activée, les nouvelles discussions seront ajoutées à <code>DiscussionList</code> à l''intervalle défini ci-dessous.'
       release-discussion-updates-interval: 'Intervalle pour envoyer automatiquement les nouvelles activités de discussion'

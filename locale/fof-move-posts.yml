@@ -23,6 +23,7 @@ fof-move-posts:
       move_posts_to_same_discussion: 'Vous ne pouvez pas déplacer des messages vers la même discussion.'
     modal:
       check: 'Vérifier le type d''opération'
+      confirm_move_all_to_new_discussion: 'Vous êtes sur le point de déplacer tous les messages de cette discussion vers une nouvelle discussion. Dans la plupart des cas, il est préférable de modifier la discussion existante, par exemple en changeant son titre, ses étiquettes ou d''autres attributs. Voulez-vous continuer ?'
       destination: 'Destination de la discussion'
       discussion_help: 'Les étiquettes de la discussion source seront utilisées et pourront être modifiées après sa création.'
       discussion_name: '=> core.forum.composer_discussion.title_placeholder'

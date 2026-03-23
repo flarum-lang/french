@@ -873,6 +873,7 @@ core:
       maintenance_mode_link: 'Se connecter en tant qu''administrateur'
       maintenance_mode_message: 'Ce forum est actuellement indisponible pour cause de maintenance. Veuillez revenir plus tard.'
       maintenance_mode_title: Maintenance
+      method_not_allowed: 'Cette page ne prend pas en charge cette méthode de requête.'
       not_authenticated: 'Vous n''avez pas l''autorisation d''accéder à cette page. Veuillez réessayer après vous être connecté.'
       not_found: 'La page que vous avez demandée est introuvable.'
       not_found_return_link: 'Revenir à {forum}'

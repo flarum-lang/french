@@ -8,5 +8,6 @@ ekumanov-inline-audio:
       auto_play: 'Lancer la lecture immédiatement lorsqu''un nom de fichier est cliqué'
       show_download_button: 'Afficher le bouton de téléchargement dans la barre du lecteur audio'
       show_right_click_download: 'Autoriser le clic droit sur le nom du fichier pour enregistrer'
+      strip_upload_prefix: 'Masquer le préfixe numérique des noms de fichiers transférés (par exemple : « 1774205518-685373-song.mp3 » → « song.mp3 »)'
   forum:
     bbcode_description: 'Intégrer un lecteur audio : [player]URL[/player]'
