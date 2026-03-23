@@ -14,6 +14,11 @@ core:
           label: 'Remplacement de configuration'
         kit_url_help: 'Lien vers le script du Kit FontAwesome (à partir de l''adresse kit.fontawesome.com)'
         kit_url_label: 'URL Kit'
+        preview:
+          button: 'Aperçu des icônes'
+          help: 'Vérifiez la configuration de FontAwesome. Une icône affichée signifie que ce niveau est disponible ; une case vide signifie que l''icône n''a pas pu être chargée.'
+          label: 'Aperçu des icônes'
+          pro_label: 'Pro uniquement'
         section_label: 'Icônes FontAwesome'
         source_cdn: CDN
         source_help: 'Sélectionnez comment charger les icônes FontAwesome. Local utilise des polices groupées, CDN charge depuis un CDN et Kit utilise les Kits FontAwesome avec des icônes personnalisées.'
@@ -76,6 +81,19 @@ core:
         no_other_drivers: 'Aucun pilote de recherche n''est encore disponible. Installez une extension de pilote de recherche pour pouvoir le configurer.'
         section_label: 'Rechercher des pilotes'
       title: Avancé
+    announcements:
+      about: 'Dernières actualités et annonces issues de la communauté officielle de Flarum sur discuss.flarum.org.'
+      comments_label: '{count, plural, one {# commentaire} other {# commentaires}}'
+      description: 'Dernières actualités et annonces de l''équipe Flarum.'
+      empty: 'Aucune annonce trouvée.'
+      hide: 'Masquer les annonces'
+      load_error: 'Impossible de charger les annonces. Veuillez réessayer plus tard.'
+      read_more: 'Lire la suite'
+      refresh: 'Actualiser les annonces'
+      retry: Réessayer
+      show: 'Afficher les annonces'
+      title: Annonces
+      view_all: 'Toutes les annonces sur discuss.flarum.org'
     appearance:
       allow_user_color_scheme_label: 'Permettre aux utilisateurs de choisir leur propre thème'
       color_scheme_label: 'Thème (par défaut)'
@@ -104,11 +122,16 @@ core:
       enter_hex_message: 'Veuillez saisir un code de couleur hexadécimal.'
       favicon_heading: Favicon
       favicon_text: 'Transférez une image qui sera affichée comme icône de raccourci du forum.'
+      logo_dark_mode_heading: 'Logo en mode sombre'
+      logo_dark_mode_text: 'Transférez une autre image qui sera affichée lorsque le mode sombre est activé.'
       logo_heading: Logo
       logo_text: 'Transférez une image qui sera affichée à la place du titre du forum.'
       title: Apparence
     basics:
       all_discussions_label: '=> core.ref.all_discussions'
+      avatar_driver_heading: 'Avatar de l''utilisateur'
+      avatar_driver_options:
+        default: 'Par défaut'
       default_language_heading: 'Langue par défaut'
       description: 'Configurez le titre, la langue et les autres paramètres de base de votre forum.'
       display_name_driver_options:
@@ -129,6 +152,7 @@ core:
         users:
           default: 'Nom d''utilisateur'
           id: Identifiant
+          id_with_display_name: 'Identifiant avec nom d''affichage'
       slug_driver_text: 'Sélectionnez un pilote qui sera utilisé pour l''identifiant texte unique de ce modèle.'
       title: Essentiels
       welcome_banner_heading: 'Bannière de bienvenue'
@@ -251,6 +275,14 @@ core:
         title: 'Documentation de {extName}'
       replaced: Remplacé
       safe_mode_warning: 'Le mode sans échec est actuellement activé. Les extensions ne sont pas démarrées et leurs paramètres sont donc inaccessibles.'
+    extensions-health-widget:
+      all_healthy: 'Toutes les extensions fonctionnent correctement.'
+      section_abandoned_empty: 'Aucun problème détecté.'
+      section_abandoned_help: 'Ces extensions ne sont plus mises à jour ou peuvent présenter des problèmes de compatibilité. Envisager de les mettre à jour, de les remplacer ou de les supprimer.'
+      section_disabled_empty: 'Toutes les extensions sont activées.'
+      section_disabled_help: 'Ces extensions sont installées mais ne sont pas activées pour le moment. Vous pouvez les activer depuis leur page de paramètres ou les désinstaller si vous n''en avez plus besoin.'
+      section_suggested_empty: 'Aucune suggestion.'
+      title: 'État des extensions'
     header:
       get_help: 'Obtenir de l''aide'
       log_out_button: '=> core.ref.log_out'
@@ -275,6 +307,7 @@ core:
         discussion: Discussion
         feature: Fonctionnalités
         formatting: 'Mise en page'
+        infrastructure: Infrastructure
         language: Langues
         moderation: Modération
         other: 'Autres extensions'
@@ -597,6 +630,8 @@ core:
         dark_mode_label: '=> core.ref.dark_mode_label'
         light_hc_mode_label: '=> core.ref.light_hc_mode_label'
         light_mode_label: '=> core.ref.light_mode_label'
+      device_heading: Appareil
+      haptic_feedback_label: 'Activer le retour haptique'
       notification_checkbox_a11y_label_template: 'Recevoir les notifications « {description} » par le biais de {method}'
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
@@ -802,7 +837,7 @@ core:
     extensions: Extensions
     generic_confirmation_message: 'Êtes-vous sûr de vouloir continuer ? Cette action est irréversible.'
     icon: Icône
-    icon_text: 'Saisissez le nom de n''importe quelle classe d''icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe <code>fas fa-</code>.'
+    icon_text: 'Saisissez le nom de n''importe quelle classe d''icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe (par exemple <code>fas fa-flag</code> ou <code>fa-solid fa-flag</code>).'
     invalid_login_message: 'Vos identifiants de connexion sont incorrects.'
     light_hc_mode_label: 'Mode clair à contraste élevé'
     light_mode_label: 'Mode clair'
