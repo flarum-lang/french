@@ -16,6 +16,8 @@ core:
         kit_url_label: 'URL Kit'
         preview:
           button: 'Aperçu des icônes'
+          fa5_fa6_label: 'Alias FA5/FA6'
+          fa7_label: 'Classes FA7'
           help: 'Vérifiez la configuration de FontAwesome. Une icône affichée signifie que ce niveau est disponible ; une case vide signifie que l''icône n''a pas pu être chargée.'
           label: 'Aperçu des icônes'
           pro_label: 'Pro uniquement'
@@ -237,10 +239,12 @@ core:
       mail_mailgun_secret_label: 'Clé secrète'
       mail_password_label: '=> core.ref.password'
       mail_port_label: Port
+      mail_smtp_verify_peer_help: 'Vérifiez le certificat SSL du serveur lorsque vous utilisez le chiffrement TLS ou SSL. Ne désactivez cette option que si votre serveur de messagerie utilise un certificat auto-signé.'
       mail_smtp_verify_peer_label: 'Vérifier le certificat SSL'
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'Paramètres de Mailgun'
       not_sending_message: 'Flarum n''envoie actuellement pas de courriel. Cela peut être dû au pilote sélectionné ou à une erreur dans sa configuration.'
+      postmark_description: 'Envoyer un courriel via l''API HTTP de Postmark. Il est possible de spécifier un flux de messages afin d''utiliser un flux autre que celui par défaut.'
       send_test_mail_button: Envoyer
       send_test_mail_heading: 'Envoyer un courriel de test'
       send_test_mail_success: 'Le courriel de test a été envoyé !'
@@ -303,6 +307,7 @@ core:
       basics_button: '=> core.admin.basics.title'
       basics_title: '=> core.admin.basics.description'
       categories:
+        analytics: Analyses
         authentication: Authentification
         core: 'Configuration de base'
         discussion: Discussion
