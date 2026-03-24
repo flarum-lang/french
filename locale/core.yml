@@ -290,7 +290,7 @@ core:
       section_abandoned_heading: 'Cela mérite votre attention'
       section_abandoned_help: 'Ces extensions ne sont plus mises à jour ou peuvent présenter des problèmes de compatibilité. Envisager de les mettre à jour, de les remplacer ou de les supprimer.'
       section_disabled_empty: 'Toutes les extensions sont activées.'
-      section_disabled_heading: Désactivée
+      section_disabled_heading: Désactivée(s)
       section_disabled_help: 'Ces extensions sont installées mais ne sont pas activées pour le moment. Vous pouvez les activer depuis leur page de paramètres ou les désinstaller si vous n''en avez plus besoin.'
       section_suggested_empty: 'Aucune suggestion.'
       section_suggested_help: 'Les extensions Flarum permettent d''ajouter des fonctionnalités supplémentaires facultatives en spécifiant d''autres extensions ou paquets. Celles-ci peuvent apporter des fonctionnalités ou des intégrations supplémentaires.'
