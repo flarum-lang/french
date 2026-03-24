@@ -14,6 +14,8 @@ huseyinfiliz-stickiest:
       badge_icon_text: '=> core.ref.icon_text'
       display_tag_sticky_label: 'Afficher les étiquettes épinglées dans la liste de « Toutes les discussions »'
       display_tag_sticky_text: 'Elles seront traitées comme des discussions ordinaires et ne resteront pas dans la partie supérieure.'
+      show_sticky_highlight_help: 'Lorsque cette option est activée, les discussions épinglées s''affichent avec une bordure gauche colorée et un fond teinté dans la liste des discussions.'
+      show_sticky_highlight_label: 'Mettre en évidence les discussions épinglées'
       show_tag_sticky_help: 'Lorsque cette option est désactivée, les discussions épinglées n''apparaissent que lorsque vous consultez cette étiquette spécifique.'
       show_tag_sticky_label: 'Afficher les étiquettes épinglées dans toutes les discussions'
       stickiest_icon_help: 'Classe d''icône Font Awesome (par exemple, fas fa-star)'
