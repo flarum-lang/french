@@ -134,6 +134,7 @@ core:
       avatar_driver_heading: 'Avatar de l''utilisateur'
       avatar_driver_options:
         default: 'Par défaut'
+      avatar_driver_text: 'Sélectionnez un pilote à utiliser pour les avatars des utilisateurs lorsqu''aucun avatar transféré par l''utilisateur n''est disponible. Par défaut, aucun avatar ne s''affiche si l''utilisateur n''en a pas transféré.'
       default_language_heading: 'Langue par défaut'
       description: 'Configurez le titre, la langue et les autres paramètres de base de votre forum.'
       display_name_driver_options:
@@ -239,12 +240,15 @@ core:
       mail_mailgun_secret_label: 'Clé secrète'
       mail_password_label: '=> core.ref.password'
       mail_port_label: Port
+      mail_postmark_message_stream_label: 'Flux de messages'
+      mail_postmark_token_label: 'Jeton du serveur'
       mail_smtp_verify_peer_help: 'Vérifiez le certificat SSL du serveur lorsque vous utilisez le chiffrement TLS ou SSL. Ne désactivez cette option que si votre serveur de messagerie utilise un certificat auto-signé.'
       mail_smtp_verify_peer_label: 'Vérifier le certificat SSL'
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'Paramètres de Mailgun'
       not_sending_message: 'Flarum n''envoie actuellement pas de courriel. Cela peut être dû au pilote sélectionné ou à une erreur dans sa configuration.'
       postmark_description: 'Envoyer un courriel via l''API HTTP de Postmark. Il est possible de spécifier un flux de messages afin d''utiliser un flux autre que celui par défaut.'
+      postmark_heading: 'Paramètres de Postmark'
       send_test_mail_button: Envoyer
       send_test_mail_heading: 'Envoyer un courriel de test'
       send_test_mail_success: 'Le courriel de test a été envoyé !'
@@ -283,10 +287,13 @@ core:
     extensions-health-widget:
       all_healthy: 'Toutes les extensions fonctionnent correctement.'
       section_abandoned_empty: 'Aucun problème détecté.'
+      section_abandoned_heading: 'Cela mérite votre attention'
       section_abandoned_help: 'Ces extensions ne sont plus mises à jour ou peuvent présenter des problèmes de compatibilité. Envisager de les mettre à jour, de les remplacer ou de les supprimer.'
       section_disabled_empty: 'Toutes les extensions sont activées.'
+      section_disabled_heading: Désactivée
       section_disabled_help: 'Ces extensions sont installées mais ne sont pas activées pour le moment. Vous pouvez les activer depuis leur page de paramètres ou les désinstaller si vous n''en avez plus besoin.'
       section_suggested_empty: 'Aucune suggestion.'
+      section_suggested_help: 'Les extensions Flarum permettent d''ajouter des fonctionnalités supplémentaires facultatives en spécifiant d''autres extensions ou paquets. Celles-ci peuvent apporter des fonctionnalités ou des intégrations supplémentaires.'
       title: 'État des extensions'
     header:
       get_help: 'Obtenir de l''aide'
