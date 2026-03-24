@@ -87,7 +87,7 @@ huseyinfiliz-awards:
       merge_info: 'Fusionner « {nom} » avec un nominé existant. Le vote de l''utilisateur sera pris en compte pour ce nominé.'
       merge_title: 'Fusionner la suggestion'
       name: 'Nom suggéré'
-      no_nominees: 'Aucun nominé disponible dans cette catégorie. Impossible de fusionner.'
+      no_nominees: 'Il n''y a aucun nominé dans cette catégorie pouvant être fusionné.'
       reject: Rejeter
       reject_confirm: 'Rejeter cette suggestion ?'
       select_nominee_label: 'Sélectionner le nominé'
