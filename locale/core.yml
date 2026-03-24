@@ -285,6 +285,8 @@ core:
       replaced: Remplacé
       safe_mode_warning: 'Le mode sans échec est actuellement activé. Les extensions ne sont pas démarrées et leurs paramètres sont donc inaccessibles.'
     extensions-health-widget:
+      abandoned_no_replacement: 'Aucun remplacement n''est disponible'
+      abandoned_with_replacement: 'Remplacée par {replacement}'
       all_healthy: 'Toutes les extensions fonctionnent correctement.'
       section_abandoned_empty: 'Aucun problème détecté.'
       section_abandoned_heading: 'Cela mérite votre attention'
@@ -293,7 +295,9 @@ core:
       section_disabled_heading: Désactivée(s)
       section_disabled_help: 'Ces extensions sont installées mais ne sont pas activées pour le moment. Vous pouvez les activer depuis leur page de paramètres ou les désinstaller si vous n''en avez plus besoin.'
       section_suggested_empty: 'Aucune suggestion.'
+      section_suggested_heading: Suggérée(s)
       section_suggested_help: 'Les extensions Flarum permettent d''ajouter des fonctionnalités supplémentaires facultatives en spécifiant d''autres extensions ou paquets. Celles-ci peuvent apporter des fonctionnalités ou des intégrations supplémentaires.'
+      suggested_by: 'Suggérée par {extension}'
       title: 'État des extensions'
     header:
       get_help: 'Obtenir de l''aide'
