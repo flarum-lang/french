@@ -51,6 +51,7 @@ fof-badges:
     manual: Manuel
     metrics:
       discussion_count: 'Discussions démarrées'
+      edit_count: 'Messages modifiés'
       has_avatar: 'A un avatar'
       has_bio: 'A une biographie'
       has_nickname: 'A un surnom'
@@ -80,7 +81,9 @@ fof-badges:
       default: 'Par défaut'
       jobs_title: 'Historique des tâches'
       no_automatic_badges: 'Aucun badge automatique n''est configuré. Veuillez créer un badge avec des conditions de déclenchement.'
+      no_revoke_help: 'Si cette option est activée, les utilisateurs qui ne remplissent plus les critères conserveront leurs badges.'
       no_revoke_label: 'Ne pas révoquer les badges existants'
+      reapply_actions_help: 'Si cette option est activée, les actions liées au badge (comme l''ajout à un groupe) seront réappliquées aux utilisateurs qui possèdent déjà ce badge. Cela s''avère utile lorsque vous ajoutez de nouvelles actions à un badge existant.'
       show_more: 'Afficher {count} en plus'
       start: 'Démarrer le recalcul'
       sync_counts: 'Synchroniser le nombre de badges'
@@ -91,6 +94,8 @@ fof-badges:
       total_users: 'Nombre total d''utilisateurs'
     recalculation:
       already_running: 'Un recalcul des badges est déjà en cours.'
+      auto_refresh_off: 'Actualisation automatique'
+      auto_refresh_on: 'Actualisation automatique activée'
       cancel: Annuler
       cancel_confirm: 'Êtes-vous sûr de vouloir annuler le recalcul ? Toutes les données seront perdues.'
       cancel_error: 'Échec de l''annulation du recalcul.'
@@ -108,8 +113,8 @@ fof-badges:
       cancelled: 'La tâche a été annulée avec succès.'
       force_cancel: 'Forcer l''annulation'
       mark_failed: 'Marquer comme échoué'
-      mark_failed_error: 'Échec du marquage de la tâche comme échouée.'
-      marked_failed: 'La tâche a été marquée comme échouée.'
+      mark_failed_error: 'Impossible de marquer la tâche comme ayant échoué.'
+      marked_failed: 'La tâche a été marquée comme ayant échoué.'
       status:
         cancelled: Annulé
         completed: Terminé
@@ -132,6 +137,7 @@ fof-badges:
       save_error: 'Échec de l''enregistrement des paramètres.'
       saved: 'Paramètres enregistrés avec succès.'
       show_badges_on_user_card: 'Afficher les badges sur la carte utilisateur'
+      show_badges_on_user_card_help: 'Afficher le badge préféré ou le badge le plus rare de l''utilisateur sur les cartes d''utilisateur et les pages de profil.'
     status: Statut
     tabs:
       badges: Badges
@@ -142,12 +148,14 @@ fof-badges:
       add_condition: 'Ajouter une condition'
       and_help: 'L''utilisateur doit remplir toutes les conditions simultanément pour obtenir ce badge.'
       date_end: 'Date de fin'
+      date_range_help: 'Seules les activités réalisées pendant cette plage de dates sont prises en compte. Utile pour les badges d''événement.'
       date_start: 'Date de début'
       loading_tags: 'Chargement des étiquettes…'
       no_conditions_info: 'Aucune condition n''est définie. Ce badge peut seulement être attribué manuellement par les modérateurs.'
       or_help: 'L''utilisateur doit remplir au moins une condition pour obtenir ce badge.'
       remove_condition: 'Supprimer une condition'
       select_tag: 'Sélectionner une étiquette...'
+      use_date_range: 'Limiter à une plage de dates'
     trigger_config: 'Déclenchement automatique'
     trigger_config_help: 'Configurez les conditions d''attribution automatique des badges. Laissez ce champ vide pour les badges à attribuer uniquement manuellement.'
     uncategorized: 'Sans catégorie'
