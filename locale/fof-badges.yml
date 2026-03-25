@@ -4,6 +4,120 @@
 
 fof-badges:
   admin:
+    active: Actif
+    appearance: Apparence
+    assign: Attribuer
+    automatic: Automatique
+    background_color: 'Couleur de l''arrière plan'
+    badge_category: Catégorie
+    badge_count: '{count, plural, one {# badge} other {# badges}}'
+    badge_description: Description
+    badge_description_placeholder: 'Décrire comment obtenir ce badge...'
+    badge_name: Nom
+    badge_slug: 'Identifiant texte unique'
+    cancel: Annuler
+    create_badge: 'Créer un badge'
+    create_category: 'Créer une catégorie'
+    delete: Supprimer
+    delete_badge_confirm: 'Êtes-vous sûr de vouloir supprimer le badge « {name} » ? Cela le supprimera également de tous les utilisateurs qui l''ont obtenu.'
+    delete_category_confirm: 'Êtes-vous sûr de vouloir supprimer la catégorie « {name} » ?'
+    delete_category_confirm_with_badges: 'Êtes-vous sûr de vouloir supprimer la catégorie « {name} » ? {count, plural, one {# badge} other {# badges}} ne seront plus classés dans une catégorie.'
+    disabled: Désactivé
+    edit: Modifier
+    enabled: Activé
+    headers:
+      badges: Badges
+      description: Description
+      earned: Obtenu
+      icon: Icône
+      name: Nom
+      order: Ordre
+      rarity: Rareté
+      status: Statut
+      type: Type
+    icon_color: 'Couleur de l''icône'
+    icon_picker:
+      collapse: 'Masquer le sélecteur d''icônes'
+      expand: 'Afficher le sélecteur d''icônes'
+      hint: 'Cliquez sur une icône pour la sélectionner, ou saisissez le nom d''une classe Font Awesome ci-dessus.'
+    inactive: Inactif
+    install_defaults: 'Installer les badges par défaut'
+    install_defaults_error: 'Échec d''installation des badges par défaut.'
+    install_defaults_success: 'Les badges par défaut ont été installés avec succès !'
+    is_active: Actif
+    is_active_help: 'Les badges inactifs ne seront pas attribués automatiquement aux utilisateurs.'
+    is_visible: 'Visible dans la liste des badges'
+    is_visible_help: 'Les badges masqués n''apparaîtront pas dans la liste publique des badges mais les utilisateurs peuvent tout de même les obtenir.'
+    manual: Manuel
+    metrics:
+      discussion_count: 'Discussions démarrées'
+      has_avatar: 'A un avatar'
+      has_bio: 'A une biographie'
+      has_nickname: 'A un surnom'
+      likes_given: '« J''aime » distribués'
+      likes_received: '« J''aime » reçus'
+      member_days: 'Jours en tant que membre'
+      post_count: 'Nombre de messages'
+    move_down: Descendre
+    move_up: Monter
+    no_badges: 'Aucun badge pour le moment. Créez votre premier badge !'
+    no_categories: 'Aucune catégorie pour le moment. Créez votre première catégorie !'
+    no_category: 'Aucune catégorie'
+    permissions:
+      give_manually: 'Attribuer manuellement des badges'
+      moderate: 'Gérer les badges'
+      view_list: 'Afficher la liste des badges'
+    rarity: '{percent}% de rareté'
+    recalculate: Recalculer
+    recalculate_confirm: 'Cela va recalculer tous les badges automatiques pour tous les utilisateurs. Le processus s''exécutera en arrière-plan. Continuer ?'
+    recalculate_error: 'Échec du recalcul des badges. Veuillez réessayer.'
+    recalculate_tab:
+      all_badges: 'Tous les badges automatiques'
+      badge_help: 'Sélectionnez un badge spécifique ou recalculez tous les badges automatiques.'
+      badge_label: 'Badge à recalculer'
+      badges_to_check: 'Badges à vérifier'
+      chunk_size_label: 'Taille des blocs'
+      default: 'Par défaut'
+      jobs_title: 'Historique des tâches'
+      no_automatic_badges: 'Aucun badge automatique n''est configuré. Veuillez créer un badge avec des conditions de déclenchement.'
+      no_revoke_label: 'Ne pas révoquer les badges existants'
+      show_more: 'Afficher {count} en plus'
+      start: 'Démarrer le recalcul'
+      sync_counts: 'Synchroniser le nombre de badges'
+      sync_counts_error: 'Échec de la synchronisation du nombre de badges.'
+      sync_counts_success: 'Le nombre de badges a été synchronisé ! {corrected} des {total} badges ont été corrigés.'
+      sync_counts_title: 'Synchroniser le nombre de badges'
+      title: 'Démarrer le recalcul'
+      total_users: 'Nombre total d''utilisateurs'
+    recalculation:
+      already_running: 'Un recalcul des badges est déjà en cours.'
+      cancel: Annuler
+      cancel_confirm: 'Êtes-vous sûr de vouloir annuler le recalcul ? Toutes les données seront perdues.'
+      cancel_error: 'Échec de l''annulation du recalcul.'
+      cancelled: 'Recalcul annulé'
+      completed: 'Recalcul terminé !'
+      dismiss: Rejeter
+      failed: 'Recalcul échoué'
+      pending: 'Préparation du recalcul...'
+      running: 'Recalcul des badges...'
+      started: 'Le recalcul des badges a commencé. Cette opération s''effectuera en arrière-plan.'
+    recalculation_jobs:
+      button: Tâches
+      cancel: Annuler
+      cancel_error: 'Échec de l''annulation de la tâche.'
+      cancelled: 'La tâche a été annulée avec succès.'
+      force_cancel: 'Forcer l''annulation'
+      mark_failed: 'Marquer comme échoué'
+      mark_failed_error: 'Échec du marquage de la tâche comme échouée.'
+      marked_failed: 'La tâche a été marquée comme échouée.'
+      status:
+        cancelled: Annulé
+        completed: Terminé
+        failed: Échec
+        pending: 'En attente'
+        running: 'En cours d''exécution'
+      title: 'Tâches de recalcul'
+    save: Sauver
     settings:
       display_title: 'Paramètres d''affichage'
       new_badge_highlight: 'Afficher l''étiquette « NOUVEAU » sur les badges récemment obtenus'
@@ -14,8 +128,48 @@ fof-badges:
       primary_badge_hidden: Masqué
       primary_badge_icon: 'Icône seulement'
       primary_badge_icon_name: 'Icône et nom'
+      save: 'Enregistrer les paramètres'
+      save_error: 'Échec de l''enregistrement des paramètres.'
+      saved: 'Paramètres enregistrés avec succès.'
       show_badges_on_user_card: 'Afficher les badges sur la carte utilisateur'
+    status: Statut
     tabs:
       badges: Badges
       categories: Catégories
+      recalculation: Recalcul
       settings: Paramètres
+    trigger_builder:
+      add_condition: 'Ajouter une condition'
+      and_help: 'L''utilisateur doit remplir toutes les conditions simultanément pour obtenir ce badge.'
+      date_end: 'Date de fin'
+      date_start: 'Date de début'
+      loading_tags: 'Chargement des étiquettes…'
+      no_conditions_info: 'Aucune condition n''est définie. Ce badge peut seulement être attribué manuellement par les modérateurs.'
+      or_help: 'L''utilisateur doit remplir au moins une condition pour obtenir ce badge.'
+      remove_condition: 'Supprimer une condition'
+      select_tag: 'Sélectionner une étiquette...'
+    trigger_config: 'Déclenchement automatique'
+    trigger_config_help: 'Configurez les conditions d''attribution automatique des badges. Laissez ce champ vide pour les badges à attribuer uniquement manuellement.'
+    uncategorized: 'Sans catégorie'
+  forum:
+    notification:
+      a_badge: 'un badge'
+    user:
+      assign_button: 'Attribuer un badge'
+      assign_reason: 'Motif (facultatif)'
+      badge_assigned: 'Le badge « {badge} » a été attribué à {username} !'
+      cancel: Annuler
+      recalculate_modal:
+        all_badges: 'Tous les badges automatiques'
+        badge_label: 'Badge à recalculer'
+        manual: manuel
+        no_revoke_label: 'Ne pas révoquer les badges existants'
+        submit: Recalculer
+        title: 'Recalculer les badges'
+      select_badge: 'Sélectionner un badge...'
+      select_badge_label: 'Sélectionner le badge'
+  lib:
+    rarity_epic: Épique
+    rarity_explain: '{percent}% des utilisateurs possèdent ce badge'
+    rarity_legendary: Légendaire
+    rarity_rare: Rare
