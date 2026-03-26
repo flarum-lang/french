@@ -6,15 +6,15 @@ huseyinfiliz-awards:
   admin:
     awards:
       categories: Catégories
-      create: 'Créer un prix'
-      create_title: 'Créer un nouveau prix'
-      delete_confirm: 'Êtes-vous sûr de vouloir supprimer ce prix ?'
-      edit_title: 'Modifier le prix'
+      create: 'Créer une distinction'
+      create_title: 'Créer une nouvelle distinction'
+      delete_confirm: 'Êtes-vous sûr de vouloir supprimer cette distinction ?'
+      edit_title: 'Modifier la distinction'
       empty: 'Aucun prix créé pour le moment.'
       ends_at: 'Fin du vote'
       image_url: 'URL de l''image de couverture'
       image_url_help: 'Image de couverture affichée dans le bandeau. Transférer ou coller un lien.'
-      name: 'Nom du prix'
+      name: 'Nom de la distinction'
       publish: 'Publier les résultats'
       publish_confirm: 'Êtes-vous sûr de vouloir publier les résultats ? Tous les votants en seront informés.'
       show_live_votes: 'Afficher les résultats en direct'
@@ -37,7 +37,7 @@ huseyinfiliz-awards:
       empty: 'Aucune catégorie trouvée.'
       name: 'Nom de la catégorie'
       nominees: Nominés
-      select_award: 'Sélectionner un prix'
+      select_award: 'Sélectionner une distinction'
       title: 'Gérer les catégories'
     nav:
       description: 'Gérer les récompenses de la communauté et les votes'
@@ -109,11 +109,11 @@ huseyinfiliz-awards:
     empty:
       no_awards: 'Aucune récompense active'
       no_awards_description: 'Il n''y a aucun prix disponible actuellement. Revenez plus tard !'
-      no_categories: 'Aucune catégorie dans ce prix pour le moment.'
+      no_categories: 'Aucune catégorie dans cette distinction pour le moment.'
       no_nominees: 'Aucun nominé dans cette catégorie pour le moment.'
     error:
       cannot_delete_processed_suggestion: 'Seules les suggestions en attente peuvent être annulées.'
-      not_available: 'Ce prix n''est pas encore disponible.'
+      not_available: 'Cette distinction n''est pas encore disponible.'
       other_not_allowed: 'Cette catégorie n''accepte pas les suggestions.'
       rate_limit: 'Trop de votes. Veuillez patienter un instant.'
       vote_limit_reached: 'Vous ne pouvez voter que pour {limit} nominés dans cette catégorie.'
@@ -165,7 +165,7 @@ huseyinfiliz-awards:
     page:
       previous_awards: 'Récompenses de l''année précédente'
       results_published: 'Résultats publiés'
-      select_award: 'Sélectionner un prix'
+      select_award: 'Sélectionner une distinction'
       voting_ended: 'Vote terminé {time}'
       voting_ends: 'Fin du vote {time}'
       voting_starts: 'Début du vote {time}'

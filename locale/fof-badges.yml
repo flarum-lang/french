@@ -24,6 +24,7 @@ fof-badges:
     delete_category_confirm_with_badges: 'Êtes-vous sûr de vouloir supprimer la catégorie « {name} » ? {count, plural, one {# badge} other {# badges}} ne seront plus classés dans une catégorie.'
     disabled: Désactivé
     edit: Modifier
+    edit_badge: 'Modifier le badge'
     enabled: Activé
     headers:
       badges: Badges
@@ -50,6 +51,7 @@ fof-badges:
     is_visible_help: 'Les badges masqués n''apparaîtront pas dans la liste publique des badges mais les utilisateurs peuvent tout de même les obtenir.'
     manual: Manuel
     metrics:
+      best_answers_received: 'Meilleures réponses reçues'
       discussion_count: 'Discussions démarrées'
       edit_count: 'Messages modifiés'
       has_avatar: 'A un avatar'
@@ -59,6 +61,7 @@ fof-badges:
       likes_received: '« J''aime » reçus'
       member_days: 'Jours en tant que membre'
       post_count: 'Nombre de messages'
+      tag_posts: 'Messages sous l''étiquette'
     move_down: Descendre
     move_up: Monter
     no_badges: 'Aucun badge pour le moment. Créez votre premier badge !'
@@ -72,6 +75,7 @@ fof-badges:
     recalculate: Recalculer
     recalculate_confirm: 'Cela va recalculer tous les badges automatiques pour tous les utilisateurs. Le processus s''exécutera en arrière-plan. Continuer ?'
     recalculate_error: 'Échec du recalcul des badges. Veuillez réessayer.'
+    recalculate_success: 'Le recalcul est terminé ! Attribués : {awarded}, Révoqués : {revoked}, Utilisateurs traités : {users}'
     recalculate_tab:
       all_badges: 'Tous les badges automatiques'
       badge_help: 'Sélectionnez un badge spécifique ou recalculez tous les badges automatiques.'
@@ -104,6 +108,7 @@ fof-badges:
       dismiss: Rejeter
       failed: 'Recalcul échoué'
       pending: 'Préparation du recalcul...'
+      progress: '{processed} / {total} évaluations ({percentage}%)'
       running: 'Recalcul des badges...'
       started: 'Le recalcul des badges a commencé. Cette opération s''effectuera en arrière-plan.'
     recalculation_jobs:
@@ -122,6 +127,7 @@ fof-badges:
         pending: 'En attente'
         running: 'En cours d''exécution'
       title: 'Tâches de recalcul'
+      users: '{processed} / {total} évaluations'
     save: Sauver
     settings:
       display_title: 'Paramètres d''affichage'
@@ -155,6 +161,7 @@ fof-badges:
       or_help: 'L''utilisateur doit remplir au moins une condition pour obtenir ce badge.'
       remove_condition: 'Supprimer une condition'
       select_tag: 'Sélectionner une étiquette...'
+      tag_filter: 'Filtre par étiquette'
       use_date_range: 'Limiter à une plage de dates'
     trigger_config: 'Déclenchement automatique'
     trigger_config_help: 'Configurez les conditions d''attribution automatique des badges. Laissez ce champ vide pour les badges à attribuer uniquement manuellement.'
