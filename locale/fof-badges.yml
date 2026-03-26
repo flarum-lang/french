@@ -5,17 +5,31 @@
 fof-badges:
   admin:
     active: Actif
+    add_to_group: 'Ajouter l''utilisateur à ce groupe'
+    add_to_group_help: 'Ajouter automatiquement l''utilisateur à ce groupe lorsqu''il obtient le badge.'
     appearance: Apparence
     assign: Attribuer
+    assign_badge: 'Attribuer : {badge}'
+    assign_reason: 'Motif (facultatif)'
+    assign_reason_help: 'Ce motif apparaîtra sur le badge de l''utilisateur.'
+    assign_reason_placeholder: 'Pourquoi ce badge a-t-il été décerné ?'
     automatic: Automatique
     background_color: 'Couleur de l''arrière plan'
+    badge_assigned: 'Le badge « {badge} » a été attribué à {username} !'
     badge_category: Catégorie
     badge_count: '{count, plural, one {# badge} other {# badges}}'
     badge_description: Description
     badge_description_placeholder: 'Décrire comment obtenir ce badge...'
     badge_name: Nom
+    badge_revoked: 'Le badge « {badge} » de {username} a été révoqué.'
     badge_slug: 'Identifiant texte unique'
     cancel: Annuler
+    category_description: Description
+    category_enabled: Activée
+    category_enabled_help: 'Les catégories désactivées et leurs badges n''apparaîtront pas dans la liste des badges.'
+    category_name: Nom
+    category_slug: 'Identifiant texte unique'
+    clear_selection: 'Effacer la sélection'
     create_badge: 'Créer un badge'
     create_category: 'Créer une catégorie'
     delete: Supprimer
@@ -25,7 +39,9 @@ fof-badges:
     disabled: Désactivé
     edit: Modifier
     edit_badge: 'Modifier le badge'
+    edit_category: 'Modifier la catégorie'
     enabled: Activé
+    granted_by_system: Système
     headers:
       badges: Badges
       description: Description
@@ -46,13 +62,15 @@ fof-badges:
     install_defaults_error: 'Échec d''installation des badges par défaut.'
     install_defaults_success: 'Les badges par défaut ont été installés avec succès !'
     is_active: Actif
-    is_active_help: 'Les badges inactifs ne seront pas attribués automatiquement aux utilisateurs.'
+    is_active_help: 'Les badges inactifs ne seront pas décernés automatiquement aux utilisateurs.'
     is_visible: 'Visible dans la liste des badges'
     is_visible_help: 'Les badges masqués n''apparaîtront pas dans la liste publique des badges mais les utilisateurs peuvent tout de même les obtenir.'
     manual: Manuel
     metrics:
       best_answers_received: 'Meilleures réponses reçues'
       discussion_count: 'Discussions démarrées'
+      downvotes_given: 'Votes négatifs distribués'
+      downvotes_received: 'Votes négatifs reçus'
       edit_count: 'Messages modifiés'
       files_uploaded: 'Fichiers transférés'
       has_avatar: 'A un avatar'
@@ -65,22 +83,31 @@ fof-badges:
       polls_voted: 'Sondages votés'
       post_count: 'Nombre de messages'
       private_discussions_created: 'Discussions privées créées'
+      reactions_given: 'Réactions distribuées'
       reactions_received: 'Réactions reçues'
       tag_posts: 'Messages sous l''étiquette'
+      upvotes_given: 'Votes positifs distribués'
+      upvotes_received: 'Votes positifs reçus'
     move_down: Descendre
     move_up: Monter
+    next: Suivant
     no_badges: 'Aucun badge pour le moment. Créez votre premier badge !'
     no_categories: 'Aucune catégorie pour le moment. Créez votre première catégorie !'
     no_category: 'Aucune catégorie'
+    no_group: 'Ne pas ajouter à ce groupe'
+    no_holders: 'Personne n''a obtenu ce badge pour le moment.'
+    no_holders_found: 'Aucun détenteur correspondant à votre recherche n''a été trouvé.'
+    no_users_found: 'Aucun utilisateur trouvé'
     permissions:
       give_manually: 'Attribuer manuellement des badges'
       moderate: 'Gérer les badges'
       view_list: 'Afficher la liste des badges'
+    previous: Précédent
     rarity: '{percent}% de rareté'
     recalculate: Recalculer
     recalculate_confirm: 'Cela va recalculer tous les badges automatiques pour tous les utilisateurs. Le processus s''exécutera en arrière-plan. Continuer ?'
     recalculate_error: 'Échec du recalcul des badges. Veuillez réessayer.'
-    recalculate_success: 'Le recalcul est terminé ! Attribués : {awarded}, Révoqués : {revoked}, Utilisateurs traités : {users}'
+    recalculate_success: 'Le recalcul est terminé ! Décernés : {awarded}, Révoqués : {revoked}, Utilisateurs traités : {users}'
     recalculate_tab:
       all_badges: 'Tous les badges automatiques'
       badge_help: 'Sélectionnez un badge spécifique ou recalculez tous les badges automatiques.'
@@ -133,7 +160,14 @@ fof-badges:
         running: 'En cours d''exécution'
       title: 'Tâches de recalcul'
       users: '{processed} / {total} évaluations'
+    revoke: Révoquer
+    revoke_confirm: 'Êtes-vous sûr de vouloir révoquer le badge « {badge} » à {username} ?'
+    revoke_error: 'Échec de la révocation du badge.'
     save: Sauver
+    search_holders_placeholder: 'Rechercher des détenteurs...'
+    search_user_placeholder: 'Rechercher par nom d''utilisateur ou nom d''affichage...'
+    select_user: 'Sélectionner un utilisateur'
+    send_notification: 'Envoyer une notification à l''utilisateur'
     settings:
       display_title: 'Paramètres d''affichage'
       new_badge_highlight: 'Afficher l''étiquette « NOUVEAU » sur les badges récemment obtenus'
@@ -150,6 +184,8 @@ fof-badges:
       show_badges_on_user_card: 'Afficher les badges sur la carte utilisateur'
       show_badges_on_user_card_help: 'Afficher le badge préféré ou le badge le plus rare de l''utilisateur sur les cartes d''utilisateur et les pages de profil.'
     status: Statut
+    tab_assign: Attribuer
+    tab_holders: 'Détenteurs ({count})'
     tabs:
       badges: Badges
       categories: Catégories
@@ -172,13 +208,37 @@ fof-badges:
     trigger_config_help: 'Configurez les conditions d''attribution automatique des badges. Laissez ce champ vide pour les badges à attribuer uniquement manuellement.'
     uncategorized: 'Sans catégorie'
   forum:
+    all_badges: 'Tous les badges'
+    badges_subtitle: 'Obtenez des badges en participant à la communauté !'
+    badges_title: Badges
+    earned_by: '{count, plural, one {# utilisateur} other {# utilisateurs}}'
+    earned_users: 'Obtenu par'
+    loading: Chargement...
+    my_badges: 'Mes badges'
+    nav:
+      badges: Badges
+    new_tag: NOUVEAU
+    no_badges: 'Aucun badge disponible pour le moment.'
+    no_users_earned: 'Personne n''a obtenu ce badge pour le moment. Soyez le premier !'
     notification:
       a_badge: 'un badge'
+    other_badges: 'Autres badges'
+    owned_badge: 'Vous possédez ce badge'
+    toggle_category_dropdown: 'Afficher le menu déroulant des catégories'
     user:
       assign_button: 'Attribuer un badge'
       assign_reason: 'Motif (facultatif)'
       badge_assigned: 'Le badge « {badge} » a été attribué à {username} !'
+      badges_count: '{count, plural, one {# Badge} other {# Badges}}'
+      badges_tab: Badges
+      badges_title: 'Les badges de {username}'
       cancel: Annuler
+      earned_on: 'Obtenu le {date}'
+      load_more: 'Charger plus'
+      manually_awarded: 'Décerné manuellement'
+      no_badges: 'Cet utilisateur n''a obtenu aucun badge pour le moment.'
+      recalculate: 'Recalculer les badges'
+      recalculate_error: 'Échec du recalcul des badges. Veuillez réessayer.'
       recalculate_modal:
         all_badges: 'Tous les badges automatiques'
         badge_label: 'Badge à recalculer'
@@ -186,8 +246,10 @@ fof-badges:
         no_revoke_label: 'Ne pas révoquer les badges existants'
         submit: Recalculer
         title: 'Recalculer les badges'
+      recalculate_success: 'Badges recalculés ! Décernés : {awarded}, Révoqués : {revoked}, Réattribués : {reapplied}'
       select_badge: 'Sélectionner un badge...'
       select_badge_label: 'Sélectionner le badge'
+      view_all_badges: 'Afficher tous les badges'
   lib:
     rarity_epic: Épique
     rarity_explain: '{percent}% des utilisateurs possèdent ce badge'

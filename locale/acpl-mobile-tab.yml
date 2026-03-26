@@ -23,7 +23,7 @@ acpl-mobile-tab:
     scroll_settings:
       threshold_help: 'Distance à parcourir à partir de la position actuelle pour basculer la visibilité.'
       threshold_label: 'Seuil de défilement (px)'
-      toggle_label: 'Activer ou désactiver l''affichage lors du défilement'
+      toggle_label: 'Activer l''affichage lors du défilement'
   lib:
     item:
       all_discussions: Discussions

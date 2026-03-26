@@ -41,5 +41,5 @@ fof-rich-text:
       sub_tooltip: 'Indice ({modifierKey}-,)'
       sup_tooltip: 'Exposant ({modifierKey}-.)'
       text_type_tooltip: 'Sélectionner le type de texte'
-      toggle_button: 'Activer ou désactiver le mode texte enrichi'
+      toggle_button: 'Interrupteur du mode texte enrichi'
       unordered_list_tooltip: 'Liste à puces ({modifierKey}-shift-8)'
