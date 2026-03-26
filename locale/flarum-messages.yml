@@ -17,7 +17,7 @@ flarum-messages:
   forum:
     composer:
       discard_confirmation: 'Vous n''avez pas envoyé votre message. Êtes-vous sûr de vouloir l''abandonner ?'
-      placeholder: 'Écrire un message...'
+      placeholder: 'Rédigez un message...'
       recipients: Destinataires
       submit_button: 'Envoyer le message'
       to: 'À :'
