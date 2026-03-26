@@ -54,13 +54,18 @@ fof-badges:
       best_answers_received: 'Meilleures réponses reçues'
       discussion_count: 'Discussions démarrées'
       edit_count: 'Messages modifiés'
+      files_uploaded: 'Fichiers transférés'
       has_avatar: 'A un avatar'
       has_bio: 'A une biographie'
       has_nickname: 'A un surnom'
       likes_given: '« J''aime » distribués'
       likes_received: '« J''aime » reçus'
       member_days: 'Jours en tant que membre'
+      polls_created: 'Sondages créés'
+      polls_voted: 'Sondages votés'
       post_count: 'Nombre de messages'
+      private_discussions_created: 'Discussions privées créées'
+      reactions_received: 'Réactions reçues'
       tag_posts: 'Messages sous l''étiquette'
     move_down: Descendre
     move_up: Monter
