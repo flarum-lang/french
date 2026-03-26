@@ -126,10 +126,12 @@ fof-badges:
       no_revoke_help: 'Si cette option est activée, les utilisateurs qui ne remplissent plus les critères conserveront leurs badges.'
       no_revoke_label: 'Ne pas révoquer les badges existants'
       reapply_actions_help: 'Si cette option est activée, les actions liées au badge (comme l''ajout à un groupe) seront réappliquées aux utilisateurs qui possèdent déjà ce badge. Cela s''avère utile lorsque vous ajoutez de nouvelles actions à un badge existant.'
+      reapply_actions_label: 'Réappliquer les actions aux détenteurs de badges existants'
       show_more: 'Afficher {count} en plus'
       start: 'Démarrer le recalcul'
       sync_counts: 'Synchroniser le nombre de badges'
       sync_counts_error: 'Échec de la synchronisation du nombre de badges.'
+      sync_counts_info: 'Recalculer le « nombre d''obtentions » de chaque badge en fonction des enregistrements user_badges réels. Utilisez cette fonction si les chiffres sont erronés après le recalcul.'
       sync_counts_success: 'Le nombre de badges a été synchronisé ! {corrected} des {total} badges ont été corrigés.'
       sync_counts_title: 'Synchroniser le nombre de badges'
       title: 'Démarrer le recalcul'
@@ -166,6 +168,7 @@ fof-badges:
         failed: Échec
         pending: 'En attente'
         running: 'En cours d''exécution'
+      stuck: Bloqué
       title: 'Tâches de recalcul'
       users: '{processed} / {total} évaluations'
     revoke: Révoquer
@@ -279,7 +282,9 @@ fof-badges:
       show_badge: 'Afficher dans le profil'
       view_all_badges: 'Afficher tous les badges'
   lib:
+    rarity_common: Commun
     rarity_epic: Épique
     rarity_explain: '{percent}% des utilisateurs possèdent ce badge'
     rarity_legendary: Légendaire
     rarity_rare: Rare
+    rarity_uncommon: 'Peu commun'
