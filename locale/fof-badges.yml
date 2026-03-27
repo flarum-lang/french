@@ -22,6 +22,7 @@ fof-badges:
     badge_description: Description
     badge_description_placeholder: 'Décrivez comment obtenir ce badge...'
     badge_name: Nom
+    badge_name_placeholder: 'par exemple, « Maître des 100 messages »'
     badge_revoked: 'Le badge « {badge} » de {username} a été révoqué.'
     badge_slug: Slug
     cancel: Annuler
