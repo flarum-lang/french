@@ -39,6 +39,7 @@ fof-badges:
     delete_category_confirm: 'Êtes-vous sûr de vouloir supprimer la catégorie « {name} » ?'
     delete_category_confirm_with_badges: 'Êtes-vous sûr de vouloir supprimer la catégorie « {name} » ? {count, plural, one {# badge} other {# badges}} ne seront plus classés dans une catégorie.'
     disabled: Désactivé
+    earned_count: '{count} obtenu(s)'
     edit: Modifier
     edit_badge: 'Modifier le badge'
     edit_category: 'Modifier la catégorie'
@@ -105,12 +106,13 @@ fof-badges:
       moderate: 'Gérer les badges'
       view_list: 'Afficher la liste des badges'
       view_user_badges: 'Afficher les badges d''un utilisateur'
+    preview: Prévisualisation
     previous: Précédent
     rarity: '{percent}% de rareté'
     recalculate: Recalculer
     recalculate_confirm: 'Cela va recalculer tous les badges automatiques pour tous les utilisateurs. Le processus s''exécutera en arrière-plan. Continuer ?'
     recalculate_error: 'Échec du recalcul des badges. Veuillez réessayer.'
-    recalculate_success: 'Le recalcul est terminé ! Décernés : {awarded}, Révoqués : {revoked}, Utilisateurs traités : {users}'
+    recalculate_success: 'Le recalcul est terminé ! Décerné(s) : {awarded}, Révoqué(s) : {revoked}, Utilisateurs traités : {users}'
     recalculate_tab:
       all_badges: 'Tous les badges automatiques'
       badge_help: 'Sélectionnez un badge spécifique ou recalculez tous les badges automatiques.'
@@ -153,6 +155,7 @@ fof-badges:
       progress: '{processed} / {total} évaluations ({percentage}%)'
       running: 'Recalcul des badges...'
       started: 'Le recalcul des badges a démarré. Cette opération s''effectuera en arrière-plan.'
+      stats: 'Décerné(s) : {awarded} | Révoqué(s) : {revoked}'
     recalculation_jobs:
       button: Tâches
       cancel: Annuler
@@ -163,6 +166,7 @@ fof-badges:
       mark_failed: 'Marquer comme échoué'
       mark_failed_error: 'Impossible de marquer la tâche comme ayant échoué.'
       marked_failed: 'La tâche a été marquée comme ayant échoué.'
+      results: 'Décerné(s) : {awarded} | Révoqué(s) : {revoked}'
       status:
         cancelled: Annulé
         completed: Terminé
@@ -270,11 +274,12 @@ fof-badges:
         manual: manuel
         no_revoke_help: 'Si cette option est activée, l''utilisateur conservera ses badges même s''il ne remplit plus les critères requis.'
         no_revoke_label: 'Ne pas révoquer les badges existants'
+        reapply_actions_help: 'Réappliquer les actions associées au badge (comme l''ajout à un groupe) si l''utilisateur possède déjà ce badge.'
         reapply_actions_label: 'Réappliquer les actions aux badges existants'
         submit: Recalculer
         title: 'Recalculer les badges'
       recalculate_reapplied: 'Actions réappliquées pour les badges {reapplied}'
-      recalculate_success: 'Badges recalculés ! Décernés : {awarded}, Révoqués : {revoked}, Réattribués : {reapplied}'
+      recalculate_success: 'Badges recalculés ! Décerné(s) : {awarded}, Révoqué(s) : {revoked}, Réattribué(s) : {reapplied}'
       remove_favorite: 'Retirer des favoris'
       revoke_badge: 'Révoquer le badge'
       revoke_confirm: 'Êtes-vous sûr de vouloir révoquer le « {badge} » à cet utilisateur ?'
