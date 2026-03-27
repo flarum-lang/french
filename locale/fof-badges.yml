@@ -23,14 +23,14 @@ fof-badges:
     badge_description_placeholder: 'Décrivez comment obtenir ce badge...'
     badge_name: Nom
     badge_revoked: 'Le badge « {badge} » de {username} a été révoqué.'
-    badge_slug: 'Identifiant texte unique'
+    badge_slug: Slug
     cancel: Annuler
     category_description: Description
     category_description_placeholder: 'Décrivez cette catégorie de badges...'
     category_enabled: Activée
     category_enabled_help: 'Les catégories désactivées et leurs badges n''apparaîtront pas dans la liste des badges.'
     category_name: Nom
-    category_slug: 'Identifiant texte unique'
+    category_slug: Slug
     clear_selection: 'Effacer la sélection'
     create_badge: 'Créer un badge'
     create_category: 'Créer une catégorie'
@@ -276,7 +276,7 @@ fof-badges:
       recalculate_reapplied: 'Actions réappliquées pour les badges {reapplied}'
       recalculate_success: 'Badges recalculés ! Décernés : {awarded}, Révoqués : {revoked}, Réattribués : {reapplied}'
       remove_favorite: 'Retirer des favoris'
-      revoke_badge: 'Révoquer un badge'
+      revoke_badge: 'Révoquer le badge'
       revoke_confirm: 'Êtes-vous sûr de vouloir révoquer le « {badge} » à cet utilisateur ?'
       revoke_error: 'Échec de la révocation du badge.'
       select_badge: 'Sélectionnez un badge...'
