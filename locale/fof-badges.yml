@@ -255,7 +255,7 @@ fof-badges:
       badges_title: 'Les badges de {username}'
       cancel: Annuler
       earned_on: 'Obtenu le {date}'
-      favorite_badge: 'Badge préféré'
+      favorite_badge: 'Badge favori'
       hidden_badge: 'Masqué dans le profil'
       hide_badge: 'Masquer dans le profil'
       load_more: 'Charger plus'
@@ -281,7 +281,7 @@ fof-badges:
       revoke_error: 'Échec de la révocation du badge.'
       select_badge: 'Sélectionnez un badge...'
       select_badge_label: 'Sélectionner un badge'
-      set_favorite: 'Ajouter aux favoris'
+      set_favorite: 'Définir comme favori'
       show_badge: 'Afficher dans le profil'
       view_all_badges: 'Afficher tous les badges'
   lib:
