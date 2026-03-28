@@ -25,6 +25,7 @@ fof-badges:
     badge_name_placeholder: 'par exemple, « Maître des 100 messages »'
     badge_revoked: 'Le badge « {badge} » de {username} a été révoqué.'
     badge_slug: Slug
+    badge_slug_placeholder: 'par exemple, « maitre-100-messages »'
     cancel: Annuler
     category_description: Description
     category_description_placeholder: 'Décrivez cette catégorie de badges...'
@@ -89,7 +90,7 @@ fof-badges:
       private_discussions_created: 'Discussions privées créées'
       reactions_given: 'Réactions distribuées'
       reactions_received: 'Réactions reçues'
-      tag_posts: 'Messages sous l''étiquette'
+      tag_posts: 'Messages associés à cette étiquette'
       upvotes_given: 'Votes positifs distribués'
       upvotes_received: 'Votes positifs reçus'
     move_down: Descendre
@@ -226,6 +227,8 @@ fof-badges:
     trigger_config: 'Déclenchement automatique'
     trigger_config_help: 'Configurez les conditions d''attribution automatique des badges. Laissez ce champ vide pour les badges à attribuer uniquement manuellement.'
     uncategorized: 'Sans catégorie'
+    validation:
+      tag_required: 'Vous devez sélectionner une étiquette lorsque vous utilisez le métrique « Messages associés à cette étiquette ».'
   forum:
     all_badges: 'Tous les badges'
     badges_subtitle: 'Obtenez des badges en participant au sein de la communauté !'
@@ -233,6 +236,7 @@ fof-badges:
     earned_by: '{count, plural, one {# utilisateur} other {# utilisateurs}}'
     earned_users: 'Obtenu par'
     loading: Chargement...
+    more_users_earned: 'Et d''autres utilisateurs…'
     my_badges: 'Mes badges'
     nav:
       badges: Badges
