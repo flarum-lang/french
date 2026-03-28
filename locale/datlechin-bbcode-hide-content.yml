@@ -8,6 +8,10 @@ datlechin-bbcode-hide-content:
       bypass_like_label: 'Contourner l''exigence d''aimer'
       bypass_reply_label: 'Contourner l''exigence de répondre'
   forum:
+    composer:
+      hide_like_tooltip: 'Masquer jusqu''à ce que le contenu soit aimé'
+      hide_login_tooltip: 'Masquer aux invités'
+      hide_reply_tooltip: 'Masquer jusqu''à ce qu''une réponse au contenu soit publiée'
     must_be_logged_in: 'Vous devez être connecté pour voir ce contenu'
     must_liked: 'Vous devez aimer ce contenu pour le voir'
     must_replied: 'Vous devez répondre à ce contenu pour le voir'

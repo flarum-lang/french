@@ -13,10 +13,14 @@ ekumanov-forum-widgets:
     settings:
       ignore_private_discussions: 'Ignorer les discussions privées dans le décompte'
       max_online_users: 'Nombre maximal d''utilisateurs en ligne à afficher'
+      max_online_users_help: 'Nombre maximal d''avatars affichés pour les utilisateurs réguliers. Les utilisateurs au-delà de ce nombre apparaissent sous la forme d''un indicateur « +N plus ». Des valeurs plus élevées augmentent la taille du cache et la charge de l''API. Recommandé : 10 à 20.'
+      max_online_users_privileged: 'Nombre maximal d''utilisateurs en ligne à afficher (privilégiés)'
       section_display: 'Affichage du widget'
       section_online_users: 'Utilisateurs en ligne'
+      section_online_users_help: 'Configurer l''affichage des utilisateurs en ligne dans le panneau déroulant du widget.'
       section_statistics: 'Statistiques du forum'
       show_online_users: 'Afficher les utilisateurs en ligne'
+      show_online_users_help: 'Activer ou désactiver complètement la fonctionnalité « Utilisateurs en ligne ». Lorsque cette option est désactivée, les données relatives aux utilisateurs en ligne ne seront ni collectées ni affichées.'
       widget_position: 'Position du widget dans la barre latérale (priorité)'
   forum:
     aria:

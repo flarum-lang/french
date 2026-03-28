@@ -25,6 +25,7 @@ fof-badges:
     badge_name_placeholder: 'par exemple, « Maître des 100 messages »'
     badge_revoked: 'Le badge « {badge} » de {username} a été révoqué.'
     badge_slug: Slug
+    badge_slug_help: 'Identifiant URL. Généré automatiquement à partir du nom si le champ est laissé vide.'
     badge_slug_placeholder: 'par exemple, « maitre-100-messages »'
     cancel: Annuler
     category_description: Description
@@ -34,6 +35,7 @@ fof-badges:
     category_name: Nom
     category_name_placeholder: 'par exemple, « Badges de réussite »'
     category_slug: Slug
+    category_slug_help: 'Identifiant URL de la catégorie.'
     category_slug_placeholder: 'par exemple, « succes »'
     clear_selection: 'Effacer la sélection'
     create_badge: 'Créer un badge'
@@ -206,6 +208,7 @@ fof-badges:
       saved: 'Paramètres enregistrés avec succès.'
       show_badges_on_user_card: 'Afficher les badges sur la carte utilisateur'
       show_badges_on_user_card_help: 'Afficher le badge préféré ou le badge le plus rare de l''utilisateur sur les cartes d''utilisateur et les pages de profil.'
+    showing_holders: 'Afficher {from}-{to} sur {total}'
     status: Statut
     tab_assign: Attribuer
     tab_holders: 'Détenteurs ({count})'
