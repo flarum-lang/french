@@ -12,9 +12,12 @@ ekumanov-forum-widgets:
       view_users_count: 'Voir le nombre d''utilisateurs'
     settings:
       ignore_private_discussions: 'Ignorer les discussions privées dans le décompte'
+      last_seen_interval_help: 'Combien de minutes doivent s''être écoulées depuis la dernière activité pour qu''un utilisateur soit considéré comme étant en ligne.'
       max_online_users: 'Nombre maximal d''utilisateurs en ligne à afficher'
       max_online_users_help: 'Nombre maximal d''avatars affichés pour les utilisateurs réguliers. Les utilisateurs au-delà de ce nombre apparaissent sous la forme d''un indicateur « +N plus ». Des valeurs plus élevées augmentent la taille du cache et la charge de l''API. Recommandé : 10 à 20.'
       max_online_users_privileged: 'Nombre maximal d''utilisateurs en ligne à afficher (privilégiés)'
+      max_online_users_privileged_help: 'Nombre maximal d''avatars affichés pour les utilisateurs privilégiés (ceux disposant de l''autorisation « Toujours afficher la dernière connexion de l''utilisateur » — généralement les administrateurs et les modérateurs). Étant donné que ce cache dessert moins d''utilisateurs, il peut contenir davantage d''entrées sans risque. Recommandation : 30 à 50.'
+      online_users_cache_ttl: 'Durée de mise en cache pour les utilisateurs en ligne (en secondes)'
       section_display: 'Affichage du widget'
       section_online_users: 'Utilisateurs en ligne'
       section_online_users_help: 'Configurer l''affichage des utilisateurs en ligne dans le panneau déroulant du widget.'
