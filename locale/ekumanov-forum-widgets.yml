@@ -30,13 +30,16 @@ ekumanov-forum-widgets:
       stats_cache_duration: 'Durée de mise en cache des statistiques (en secondes)'
       stats_cache_duration_help: 'Durée de mise en cache du nombre de discussions, du nombre de messages, du nombre total d''utilisateurs et de la dernière inscription. La mise en cache est automatiquement invalidée lorsque des discussions, des messages ou des utilisateurs sont créés ou supprimés. Définissez cette valeur sur 0 pour désactiver la mise en cache (non recommandé pour les forums importants).'
       widget_position: 'Position du widget dans la barre latérale (priorité)'
+      widget_position_help: 'Détermine l''emplacement du widget dans la barre latérale. Plus la valeur est faible (plus négative), plus le widget est placé vers le bas. Valeur par défaut : -10.'
   forum:
     aria:
       collapse_details: 'Masquer les informations du forum'
       details_panel: 'Informations du forum'
       expand_details: 'Afficher les informations du forum'
+      overflow_users: '{count} autres utilisateurs en ligne'
     online_users:
       empty: 'Aucun utilisateur n''est actuellement en ligne.'
+      hidden_users: caché(s)
       overflow_more: plus
       title: 'Utilisateurs en ligne'
     stats:
