@@ -44,6 +44,7 @@ ekumanov-forum-widgets:
       title: 'Utilisateurs en ligne'
     stats:
       discussions_count: 'Discussions : {count}'
+      label_discussions: '{count, plural, one {discussion} other {discussions}}'
       latest_registration: 'Dernière inscription :'
       posts_count: 'Messages : {count}'
       title: 'Statistiques du forum'
