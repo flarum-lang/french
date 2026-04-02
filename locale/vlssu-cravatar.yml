@@ -5,13 +5,16 @@
 vlssu-flarum-cravatar:
   admin:
     settings:
+      allow-user-toggle:
+        helptext: 'Lorsque cette option est activée, les utilisateurs peuvent choisir d''utiliser soit leur image Cravatar, soit l''avatar qu''ils ont transféré sur le forum.'
+        title: 'Permettre aux utilisateurs de basculer entre les Cravatars et les avatars transférés'
       defaults:
         helptext: 'Que se passe-t-il lorsqu''une adresse de courriel n''est pas associée à une image cravatar ? Cravatar dispose d''un certain nombre d''options intégrées que vous pouvez utiliser comme valeurs par défaut. La plupart d''entre elles fonctionnent en prenant le hachage de l''adresse de courriel demandé et en l''utilisant pour générer une image à thème qui est unique à cette adresse de courriel.'
         identicon_label: 'identicon : un motif géométrique basé sur le hachage du courriel'
-        monsterid_label: 'monsterid : un « monstre » généré avec différentes couleurs, visages, etc.'
+        monsterid_label: 'monsterid : un « monstre » généré avec différentes couleurs, différents visages, etc'
         mp_label: 'mp : (mystery-person) une silhouette simple de style bande dessinée (ne varie pas selon le hachage du courriel)'
         retro_label: 'retro : visages pixellisés générés de manière impressionnante, style arcade 8 bits'
-        robohash_label: 'robohash : un robot généré avec différentes couleurs, visages, etc.'
+        robohash_label: 'robohash : un robot généré avec différentes couleurs, différents visages, etc'
         title: 'Par défaut'
         wavatar_label: 'wavatar : visages générés avec des caractéristiques et des arrière-plans différents'
       force-default:
@@ -33,3 +36,5 @@ vlssu-flarum-cravatar:
   forum:
     settings:
       edit-cravatar: 'Gérer un avatar sur cravatar.cn'
+      use-cravatar: 'Utiliser un avatar Cravatar'
+      use-uploaded: 'Utiliser l''avatar transféré'

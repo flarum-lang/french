@@ -6,3 +6,9 @@ fof-clockwork:
   admin:
     dashboard:
       button_label: 'Ouvrir l''horloge'
+      section_label: Horloge
+    settings:
+      disable_auth_help: 'Lorsque cette option est activée, toutes les requêtes sont analysées et l''outil de visualisation de l''horloge est accessible sans connexion. N''activez cette option que temporairement, à des fins de débogage.'
+      disable_auth_label: 'Désactiver l''authentification'
+      disable_auth_warning: 'Avertissement : l''authentification est désactivée. L''outil de visualisation de l''horloge et toutes les données de profilage sont accessibles au public. Désactivez cette option une fois le débogage terminé.'
+      section_label: Paramètres

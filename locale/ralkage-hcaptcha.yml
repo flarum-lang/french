@@ -7,6 +7,10 @@ ralkage-hcaptcha:
     permissions:
       post_without_hcaptcha: 'Créez des publications et des discussions sans hCaptcha'
     settings:
+      dark_mode_help: 'Utilisez le thème sombre pour le widget hCaptcha. Activez cette option si votre forum utilise un thème sombre.'
+      dark_mode_label: 'Mode sombre'
+      enable_login_help: 'Exiger l''utilisation de hCaptcha lors de la connexion des utilisateurs. Cela permet de se protéger contre les attaques par force brute.'
+      enable_login_label: 'Obligatoire lors de la connexion'
       help_text: 'Obtenez <a>ici</a> vos identifiants hCaptcha.'
       secret_key_label: 'Clé secrète'
       site_key_label: 'Clé du site'

@@ -14,7 +14,7 @@ ekumanov-forum-widgets:
       bar_position_above: 'Au-dessus de la barre d''outils'
       bar_position_below: 'Sous la barre d''outils'
       bar_position_desktop: 'Position de la barre (ordinateur de bureau)'
-      bar_position_desktop_help: 'Où placer la barre des statistiques sur le bureau par rapport à la barre d''outils.'
+      bar_position_desktop_help: 'Où placer la barre des statistiques sur le bureau par rapport à la barre d''outils. Ne s''applique qu''à la mise en page en pleine largeur.'
       bar_position_inside: 'Dans la barre d''outils'
       bar_position_mobile: 'Position de la barre (mobile)'
       bar_position_mobile_help: 'Où placer la barre des statistiques sur mobile par rapport à la barre d''outils.'
