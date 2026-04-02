@@ -7,4 +7,5 @@ resofire-mobile-search:
     settings:
       mobile_search_style_help: 'Choisir comment la fonction de recherche s''affiche dans la barre d''outils de la page d''accueil sur mobile.'
       mobile_search_style_label: 'Mode de recherche mobile'
+      mobile_search_style_option_bar: 'Barre de recherche pleine largeur'
       mobile_search_style_option_icon: 'Icône de loupe uniquement'
