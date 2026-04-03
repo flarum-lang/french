@@ -2,6 +2,30 @@ CHANGELOG
 =========
 
 
+4.29.3 (XXXX-XX-XX)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice)
+* [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url)
+* [`import-ai/flarum-webhook`](https://github.com/import-ai/flarum-webhook)
+* [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
+* [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
+
+
+Journal de toutes les modifications : [v4.29.2...v4.29.3](https://github.com/flarum-lang/french/compare/v4.29.2...v4.29.3).
+
+
 4.29.2 (2026-03-12)
 -------------------
 
