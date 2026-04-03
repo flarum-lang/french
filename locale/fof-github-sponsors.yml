@@ -8,8 +8,12 @@ fof-github-sponsors:
       organization: Organisation
       user: Utilisateur
     settings:
+      account_type_help: 'Indiquez si vous effectuez le suivi des sponsors pour un compte utilisateur GitHub personnel ou pour un compte d''organisation.'
       account_type_label: 'Type de compte'
+      api_token_help: 'Créez un jeton d''accès personnel à l''adresse <a>https://github.com/settings/tokens/new</a> avec les champs d''application <code>user</code> et <code>read:org</code>. Ce jeton sert à récupérer vos informations de parrainage depuis GitHub.'
       api_token_label: 'Jeton API'
       desc: 'Obtenez votre jeton API sur <a>https://github.com/settings/tokens/new</a>. Cette extension nécessite les portées <code>utilisateur</code> et <code>read:org</code>.'
+      group_help: 'Sélectionnez le groupe d''utilisateurs Flarum auquel les sponsors doivent être ajoutés. Les utilisateurs seront automatiquement ajoutés lorsqu''ils deviendront sponsors et supprimés lorsqu''ils cesseront de l''être.'
       group_label: 'Groupe à attribuer'
+      login_help: 'Saisissez votre nom d''utilisateur GitHub (pour les comptes individuels) ou le nom de votre organisation (pour les organisations). Il s''agit du compte dont les sponsors seront synchronisés.'
       login_label: Identifiant

@@ -23,6 +23,7 @@ acpl-lscache:
     serve_stale_label: 'Servir du contenu obsolète'
     status_codes_cache_help: 'Spécifiez un code d''état HTTP et le nombre de secondes pour la mise en cache de cette page, séparés par un espace. Une par ligne.'
     status_codes_cache_label: 'Code d''état HTTP par défaut TTL de la page'
+    test_failed_alert: 'Il semble que votre serveur ne prenne pas en charge LSCache. Vérifiez la configuration de votre serveur. Serveur détecté : <b>{server}</b>, type de LiteSpeed détecté : <b>{type}</b>.'
   forum:
     purge:
       discussion: '=> acpl-lscache.ref.purge_cache'

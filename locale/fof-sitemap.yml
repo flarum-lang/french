@@ -10,6 +10,8 @@ fof-sitemap:
       build_button_help: 'Déclenche une reconstruction immédiate de tous les fichiers de plan du site. La tâche sera envoyée à la file d''attente si celle-ci est configurée, sinon elle s''exécutera immédiatement.'
       build_error: 'Échec de la mise en file d''attente de la reconstruction du plan du site. Veuillez vérifier vos journaux et la configuration de la file d''attente.'
       build_success: 'La reconstruction du plan du site a été mise en file d''attente avec succès. Consultez vos journaux pour suivre la progression.'
+      column_pruning: 'Activer la suppression des colonnes'
+      column_pruning_help: 'Récupère uniquement les colonnes nécessaires à la génération d''URL (par exemple : id, slug, username, dates) au lieu d''utiliser SELECT *. Cela réduit considérablement l''utilisation de mémoire par modèle sur les grands forums. Activé par défaut — ne le désactivez que si un pilote de slug personnalisé ou une portée de visibilité nécessite des colonnes qui ne figurent pas dans la sélection par défaut.'
       exclude_tags: 'Exclure toutes les pages d''étiquettes du plan du site'
       exclude_tags_help: 'Par défaut, toutes les étiquettes visibles par les invités seront indexées'
       exclude_users: 'Exclure tous les profils d''utilisateurs du plan du site'
@@ -36,8 +38,8 @@ fof-sitemap:
       modes:
         multi_file: 'Fichiers multiples'
         runtime: 'Durée d''exécution'
-      risky_performance_improvements: 'Activer l''amélioration des performances à risque'
-      risky_performance_improvements_help: 'Ces améliorations accélèrent l''exécution de la tâche CRON sur des ensembles de données de plusieurs millions de lignes, mais peuvent nuire à la compatibilité avec certaines extensions.'
+      risky_performance_improvements: 'Activer une taille de bloc importante (risqué)'
+      risky_performance_improvements_help: 'Augmente la taille des blocs de données récupérés depuis la base de données de 75 000 à 150 000 lignes. Accélère la génération sur des ensembles de données contenant des millions de lignes, mais double la mémoire RAM maximale utilisée par le modèle Eloquent par bloc. N''activez cette option que si vous avez vérifié que la mémoire du serveur est suffisante. Active également l''élagage des colonnes (voir ci-dessus).'
       soft_404:
         heading: 'Prévention douce des 404'
         help: 'Lorsqu''un modèle n''a pas ou peu de contenu pertinent, Google et d''autres robots d''indexation peuvent signaler ces pages comme des pages erreurs 404 « douces ». Pour éviter cela, définissez ici un nombre minimum d''éléments requis pour chaque élément admissible.'

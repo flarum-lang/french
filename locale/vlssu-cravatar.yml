@@ -5,6 +5,9 @@
 vlssu-flarum-cravatar:
   admin:
     settings:
+      allow-user-toggle:
+        helptext: 'Lorsque cette option est activée, les utilisateurs peuvent choisir d''utiliser soit leur image Cravatar, soit l''avatar qu''ils ont téléchargé sur le forum.'
+        title: 'Permettre aux utilisateurs de basculer entre les Cravatars et les avatars téléchargés'
       defaults:
         helptext: 'Que se passe-t-il lorsqu''une adresse de courriel n''est pas associée à une image cravatar ? Cravatar dispose d''un certain nombre d''options intégrées que vous pouvez utiliser comme valeurs par défaut. La plupart d''entre elles fonctionnent en prenant le hachage de l''adresse de courriel demandé et en l''utilisant pour générer une image à thème qui est unique à cette adresse de courriel.'
         identicon_label: 'identicon : un motif géométrique basé sur le hachage du courriel'
@@ -33,3 +36,5 @@ vlssu-flarum-cravatar:
   forum:
     settings:
       edit-cravatar: 'Gérer un avatar sur cravatar.cn'
+      use-cravatar: 'Utiliser un avatar Cravatar'
+      use-uploaded: 'Utiliser l''avatar transféré'
