@@ -61,3 +61,7 @@ fof-masquerade:
       select:
         none-optional: 'Aucune option sélectionnée (facultatif)'
         none-required: 'Veuillez sélectionner une option (obligatoire)'
+  lib:
+    gambits:
+      answer:
+        key: réponse
