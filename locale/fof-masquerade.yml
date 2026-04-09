@@ -17,6 +17,7 @@ fof-masquerade:
       edit-field: 'Enregistrer les modifications'
     fields:
       add: 'Ajouter le champ {field}'
+      delete-confirmation: 'Êtes-vous sûr de vouloir supprimer le champ {field} ? Cette action est irréversible.'
       description: 'Description du champ'
       description-help: "Une description facultative pour expliquer l'utilisation ou la nécessité de ce champ.\n"
       edit: 'Modifier le champ {field}'
