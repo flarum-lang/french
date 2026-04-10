@@ -21,7 +21,7 @@ fof-linguist:
       apply-missing-filter: 'Afficher les traductions manquantes correspondantes'
       column-options:
         locale: 'Par langue'
-        namespace: 'Par application frontale'
+        namespace: 'Par frontend'
       columns:
         all-except-admin: 'Forum et autres applications frontales'
         all-frontends: 'Afficher toutes les applications frontales'
@@ -49,7 +49,7 @@ fof-linguist:
       warning: "Le format d'exportation utilise les fichiers de traduction basés sur YAML de Flarum et est conçu pour partager les traductions entre les forums et avec les responsables des traductions. Le format n'est pas conçu pour déplacer toutes les traductions vers un nouveau forum. En fonction de votre cas d'utilisation, copier directement la base de données peut s'avérer être une meilleure idée.\n"
     filters:
       for-extension: 'Par extension'
-      frontend: 'Par application frontale'
+      frontend: 'Par frontend'
       frontend-all-except-admin: 'Tous sauf l''administrateur'
       mass-edit: 'Modification de masse'
       missing: 'Trouver des traductions manquantes'

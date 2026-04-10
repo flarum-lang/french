@@ -27,6 +27,8 @@ kilowhat-rich-embeds:
       blacklistHelp: 'Consultez la documentation pour connaître le format. Ces URL n''auront jamais de contenu riche et ne peuvent pas être transmises par le proxy d''image'
       cacheProxy: 'Mise en cache des images sous proxy'
       cacheProxyHelp: 'Les images seront mises en cache sur le disque en fonction de leurs en-têtes HTTP'
+      crawlerTimeout: 'Délai d''attente pour les requêtes du robot d''indexation (en secondes)'
+      crawlerTimeoutHelp: "Durée pendant laquelle la tâche d'exploration doit attendre une réponse du serveur. Il est déconseillé de définir une valeur trop élevée, car certains serveurs ne répondent jamais. Si vous utilisez une file d'attente synchrone, vous devez définir cette valeur à un niveau inférieur à celui du paramètre PHP <code>max_execution_time</code> afin de garantir que le script dispose encore de suffisamment de temps pour traiter l'erreur.\n"
       flarumApiPreviews: 'Activer les prévisualisations avancées de Flarum'
       flarumApiPreviewsHelp: "Cette fonctionnalité analyse les données JSON additionnelles déjà incluses dans le HTML de tous les forums propulsés par Flarum. Elle fonctionnera avec tous les forums qui utilisent Flarum 1.4+ et qui affichent l'en-tête de Flarum <code>X-Powered-By</code>.\n"
       githubApiKey: 'Clé API de GitHub'
@@ -70,6 +72,8 @@ kilowhat-rich-embeds:
       youtubeNoCookieHelp: "Passe au domaine alternatif sans cookie proposé par YouTube. Il se peut que certaines vidéos ne puissent pas être lues dans la fenêtre imbriquée si cette option est activée. Cette fonction peut être utilisée sans accès à l'API.\n"
       youtubePlayer: 'Autoriser la lecture de vidéos YouTube à partir de la prévisualisation'
       youtubePlayerHelp: "Un lecteur dans une fenêtre imbriquée sera chargé à la demande lorsque l'utilisateur cliquera sur le bouton de lecture dans la prévisualisation. Vous devez configurer votre CSP et les en-têtes des fenêtres pour autoriser les fenêtres provenant du nom de domaine YouTube. Cette fonctionnalité peut être utilisée sans accès à l'API.\n"
+      youtubeSmartFallback: 'Solution de secours intelligente pour OpenGraph sur YouTube'
+      youtubeSmartFallbackHelp: "Sur certains hébergements, le serveur YouTube renvoie une réponse positive sans aucune donnée OpenGraph. Lorsque cette option est activée, le nom du site sera codé en dur et l'URL de la vignette de la vidéo sera déterminée automatiquement. Le titre de la page issu du code HTML de secours sera utilisé, mais pas la description ni aucune autre image présente sur la page.\n"
   api:
     embed:
       flarum:

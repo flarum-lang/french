@@ -15,11 +15,11 @@ clarkwinkelmann-popular-discussion-badge:
       mode: 'Mode de fonctionnement'
       mode_help: "Le mode frontal est une solution efficace qui n'utilise pas la base de données. Le mode planificateur nécessite une configuration CRON et permet de définir des délais dans les conditions.\n"
       mode_options:
-        frontend: 'Application frontale'
+        frontend: Frontend
         scheduler: 'Planificateur (CRON)'
       or: OU
       scheduler_frequency: 'Fréquence du mode planifié'
-      scheduler_frequency_help: "La fréquence de mise à jour du statut populaire en mode planificateur (CRON). (En mode application frontale, le statut est toujours mis à jour immédiatement)\n"
+      scheduler_frequency_help: "La fréquence de mise à jour du statut populaire en mode planificateur (CRON). (En mode frontend, le statut est toujours mis à jour immédiatement)\n"
       scheduler_frequency_options:
         everyFifteenMinutes: 'Toutes les 15 minutes'
         everyFiveMinutes: 'Toutes les 5 minutes'
