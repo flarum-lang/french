@@ -2,6 +2,45 @@ CHANGELOG
 =========
 
 
+4.29.3 (XXXX-XX-XX)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`ekumanov/flarum-ext-inline-audio`](https://github.com/ekumanov/flarum-ext-inline-audio)
+* [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice)
+* [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
+* [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
+* [`forumaker/magicread`](https://github.com/forumaker/magicread)
+* [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url)
+* [`import-ai/flarum-webhook`](https://github.com/import-ai/flarum-webhook)
+* [`ralkage/flarum-ext-word-censor`](https://github.com/Ralkage/flarum-ext-word-censor)
+* [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge)
+* [`datitisev/flarum-maintenance`](https://flarum.org/extension/datitisev/flarum-maintenance)
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
+* [`kilowhat/flarum-ext-rich-embeds`](https://flarum.org/extension/kilowhat/flarum-ext-rich-embeds)
+* [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
+* [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
+* [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
+
+
+Journal de toutes les modifications : [v4.29.2...v4.29.3](https://github.com/flarum-lang/french/compare/v4.29.2...v4.29.3).
+
+
 4.29.2 (2026-03-12)
 -------------------
 
