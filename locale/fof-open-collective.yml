@@ -8,7 +8,7 @@ fof-open-collective:
       api_key_help: 'Cette méthode d''authentification est obsolète. Veuillez envisager de passer à un jeton personnel.'
       api_key_label: 'Clé API de l''application (obsolète)'
       group_help: 'Sélectionnez le groupe d''utilisateurs Flarum auquel les contributeurs réguliers doivent être ajoutés. Les utilisateurs seront automatiquement ajoutés lorsqu''ils deviendront des contributeurs réguliers et transférés vers le groupe des contributeurs ponctuels (si configuré) à la fin de leur abonnement.'
-      group_label: 'Groupe à assigner'
+      group_label: 'Groupe des contributeurs réguliers'
       onetime_group_help: 'Sélectionnez le groupe d''utilisateurs Flarum auquel les contributeurs ponctuels doivent être ajoutés. Si ce paramètre n''est pas défini, les contributeurs ponctuels ne seront pas gérés. Lorsqu''un contributeur récurrent annule son abonnement, il sera déplacé vers ce groupe.'
       onetime_group_label: 'Groupe de contributeurs ponctuels (facultatif)'
       personal_token_help: 'Créez un jeton personnel sur <a>https://opencollective.com/applications</a>. Ce jeton sert à récupérer vos informations de contributeur auprès d''Open Collective.'
