@@ -17,6 +17,8 @@ ianm-boring-avatars:
       color3: 'Couleur 3'
       color4: 'Couleur 4'
       color5: 'Couleur 5'
+      driver_not_active_warning: '« Boring Avatars » n''est pas le pilote d''avatar actif.'
+      driver_not_active_warning_link: 'Aller dans les paramètres de base pour l''activer.'
       identifier: Identifiant
       identifier_display_name: 'Nom d''affichage'
       identifier_email: 'Adresse de courriel'
