@@ -4,13 +4,13 @@
 
 huseyinfiliz-bump:
   admin:
-    absorber_bypass_groups_help: 'Les utilisateurs appartenant à ces groupes contourneront complètement l''absorbeur et leurs messages remonteront toujours immédiatement dans les discussions. Laissez ce champ vide si aucun groupe ne doit être contourné.'
+    absorber_bypass_groups_help: 'Les utilisateurs appartenant à ces groupes contourneront complètement le filtre et leurs messages relanceront systématiquement les discussions. Laissez ce champ vide si aucun groupe ne doit contourner le filtre.'
     absorber_bypass_groups_label: 'Groupes pouvant contourner l''absorbeur'
-    absorber_tags_help: 'Sélectionnez les étiquettes spécifiques pour lesquelles l''absorbeur doit être actif. Laissez ce champ vide pour l''appliquer à toutes les discussions de votre forum.'
+    absorber_tags_help: 'Sélectionnez les étiquettes spécifiques pour lesquelles le filtre doit être activé. Laissez ce champ vide pour l''appliquer à toutes les discussions de votre forum.'
     absorber_tags_label: 'Appliquer aux étiquettes'
-    enable_absorber_help: 'Empêche automatiquement les discussions d''être relancées lorsque les réponses arrivent trop rapidement. Permet de réduire le spam et de garder votre forum organisé.'
-    enable_absorber_label: 'Activer Absorbeur'
-    enable_manual_help: 'Autoriser les propriétaires des discussions de ramener manuellement leurs discussions en haut de la liste. Idéal pour garder les sujets importants visibles.'
+    enable_absorber_help: 'Empêche automatiquement que les discussions ne remontent en haut de la liste lorsque les réponses s''enchaînent trop rapidement. Cela permet de réduire le spam et de garder votre forum bien organisé.'
+    enable_absorber_label: 'Activer l''absorbeur'
+    enable_manual_help: 'Permettre aux auteurs de discussions de replacer manuellement leurs discussions en haut de la liste. Idéal pour garantir la visibilité des sujets importants.'
     enable_manual_label: 'Activer le bump manuel'
     group_override_modal:
       absorber_section: 'Paramètres Absorbeur'
@@ -35,15 +35,15 @@ huseyinfiliz-bump:
       remove: Enlever
       unlimited: Illimité
       using_global: '( utilisation globale )'
-    manual_bump_tags_help: 'Choisissez les étiquettes qui autorisent le bumping manuel. Laissez ce champ vide pour autoriser le bumping manuel dans toutes les discussions.'
+    manual_bump_tags_help: 'Sélectionnez les étiquettes pour lesquelles la relance manuelle est autorisée. Ne rien indiquer pour autoriser la relance manuelle dans toutes les discussions.'
     manual_bump_tags_label: 'Disponible dans les étiquettes'
-    manual_cooldown_help: 'Temps que les utilisateurs doivent attendre entre deux relances d''une même discussion. Définissez cette valeur sur -1 pour désactiver les relances, sur 0 pour supprimer le délai d''attente ou sur un nombre positif pour définir un délai en heures. Par exemple, 24 signifie que les utilisateurs peuvent relancer une discussion une fois par jour.'
-    manual_cooldown_label: 'Période de recharge (heures)'
-    moderator_groups_help: 'Les utilisateurs de ces groupes peuvent faire remonter N''IMPORTE QUELLE discussion (pas seulement les leurs) et contourner les restrictions de temps d''attente/quota. Laissez ce champ vide pour désactiver complètement les fonctionnalités de modération.'
+    manual_cooldown_help: 'Délai que les utilisateurs doivent respecter entre deux relances dans une même discussion. Définissez cette valeur sur -1 pour désactiver les relances, sur 0 pour supprimer tout délai d''attente, ou sur un nombre positif pour indiquer le nombre d''heures. Par exemple, la valeur 24 signifie que les utilisateurs peuvent relancer une fois par jour.'
+    manual_cooldown_label: 'Délai d''attente (en heures)'
+    moderator_groups_help: 'Les utilisateurs de ces groupes peuvent relancer N''IMPORTE QUELLE discussion (pas seulement les leurs) et contourner les restrictions de délai d''attente et de quota. Laissez ce champ vide pour désactiver complètement les fonctionnalités de modération.'
     moderator_groups_label: 'Groupes pouvant modérer les bumps'
-    owner_daily_quota_help: 'Nombre maximal de relances autorisées par jour pour les propriétaires de discussions. Définissez la valeur sur -1 pour désactiver les relances, sur 0 pour les autoriser sans limite ou sur un nombre positif pour définir la limite quotidienne.'
-    owner_daily_quota_label: 'Limite quotidienne de Bump'
-    owner_weekly_quota_help: 'Nombre maximal de relances autorisées par semaine pour les propriétaires de discussions. Définissez la valeur sur -1 pour désactiver les relances, sur 0 pour les autoriser sans limite ou sur un nombre positif pour définir la limite hebdomadaire.'
+    owner_daily_quota_help: 'Nombre maximal de relances autorisées par jour pour les auteurs de discussions. Définissez cette valeur sur -1 pour désactiver les relances, sur 0 pour les autoriser sans limite, ou sur un nombre positif pour fixer une limite quotidienne.'
+    owner_daily_quota_label: 'Limite quotidienne de bump'
+    owner_weekly_quota_help: 'Nombre maximal de relances autorisées par semaine pour les auteurs de discussion. Définissez cette valeur sur -1 pour désactiver les relances, sur 0 pour les autoriser sans limite, ou sur un nombre positif pour fixer une limite hebdomadaire.'
     owner_weekly_quota_label: 'Limite hebdomadaire des bumps'
     recent_bumps:
       loading: Chargement...
@@ -64,10 +64,10 @@ huseyinfiliz-bump:
       select_button: 'Choisir les groupes'
       title: 'Choisir les groupes'
     settings:
-      section_absorber: 'Paramètre Absorbeur'
+      section_absorber: 'Paramètres de l''absorbeur'
       section_bypass: 'Paramètres de contournement et de modération'
-      section_manual: 'Paramètres manuels de bump'
-      section_quota: 'Paramètres Quota'
+      section_manual: 'Paramètres de bumps manuels'
+      section_quota: 'Paramètres de quota'
     stats:
       absorber_status: 'Statut de l''absorbeur'
       active: Actif
@@ -82,8 +82,8 @@ huseyinfiliz-bump:
       bump: 'Bump manuel'
       group_overrides: 'Dérogations de groupe'
       recent_bumps: 'Activités récentes'
-    threshold_hours_help: 'Nombre minimum d''heures requis entre les réponses pour qu''une discussion soit remise en avant. Par exemple, si vous définissez cette valeur sur 2, les réponses postées dans les 2 heures ne remettront pas la discussion en avant. Définissez cette valeur sur 0 pour désactiver cette fonctionnalité.'
-    threshold_hours_label: 'Limite de temps (heures)'
+    threshold_hours_help: 'Nombre minimum d''heures requis entre deux réponses pour que la discussion soit remise en avant. Par exemple, si vous réglez ce paramètre sur 2, les réponses postées dans les 2 heures ne remettront pas la discussion en avant. Réglez-le sur 0 pour désactiver cette fonctionnalité.'
+    threshold_hours_label: 'Seuil temporel (en heures)'
   api:
     bump_disabled: 'La fonction de bump manuel est désactivée pour ton groupe d''utilisateurs'
     cooldown_error: 'Tu pourras relancer cette discussion dans {hours} heures'
