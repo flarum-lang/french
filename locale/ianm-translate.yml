@@ -7,10 +7,24 @@ ianm-translate:
     glossary:
       button: Glossaire
       create_button: 'Créer un nouveau terme'
+      create_not_implemented: 'La création de termes via l''interface utilisateur n''est pas encore disponible. Utilisez l''extension PHP.'
+      delete_not_available: 'Ce terme est défini dans le code et ne peut pas être supprimé via l''interface utilisateur'
+      delete_term: 'Supprimer le terme'
+      edit_not_available: 'Ce terme est défini dans le code et ne peut pas être modifié via l''interface utilisateur'
+      edit_term: 'Modifier le terme'
+      extender_info: 'Les termes du glossaire peuvent être ajoutés à l''aide de la fonction PHP de l''extension dans votre fichier extend.php.'
       glossary: Glossaire
+      no_terms: 'Aucun terme du glossaire n''est défini pour le moment.'
+      refresh_button: Actualiser
       section:
         heading: 'Configuration du glossaire'
         help: 'Les mots ou termes du glossaire sont définis de manière à ce que le service de traduction ne les traduise pas. Ils sont utiles pour les noms propres, les termes techniques ou d''autres mots qui ne doivent pas être traduits.'
+      source:
+        code: 'Défini dans le code'
+        database: 'Enregistré dans la base de données'
+        default: 'Valeur par défaut intégrée'
+      terms:
+        current: '{count, plural, one {# terme actuellement défini} other {# termes actuellement définis}}'
     permission:
       edit-translation: 'Modifier manuellement une traduction'
       refresh-translation: 'Forcer une retraduction d''une traduction mise en cache'
@@ -40,6 +54,18 @@ ianm-translate:
             default: 'Par défaut'
             prefer_less: 'Moins formel'
             prefer_more: 'Plus formel'
+        glossary:
+          options:
+            none: 'Pas de glossaire'
+          pair:
+            help: 'Sélectionnez un glossaire lorsque vous traduisez {source} vers {target}, ou ne sélectionnez aucun glossaire si aucun n''est nécessaire pour cette combinaison linguistique.'
+            label: 'Glossaire {source} vers {target}'
+        model_type:
+          help: 'Sélectionnez le modèle DeepL à utiliser pour la traduction.'
+          label: 'Type de modèle'
+          options:
+            latency_optimized: 'Optimisé pour la vitesse'
+            prefer_quality_optimized: 'Privilégier la qualité lorsque c''est possible'
       general:
         heading: 'Paramètres généraux'
         help: 'Ces paramètres contrôlent le comportement général du système de traduction.'
@@ -59,6 +85,52 @@ ianm-translate:
           label: 'URL du serveur'
       multi-lang-search: 'Recherche multilingue'
       multi-lang-search-help: 'Si cette option est activée, la recherche inclura toutes les traductions du contenu.'
+      openai:
+        api_key:
+          help: 'Inscrivez-vous pour obtenir une clé API sur {link}. Ce pilote prend en charge les modèles GPT-4o et GPT-4o-mini.'
+          label: '=> ianm-translate.lib.settings.api-key'
+        de_variant:
+          help: 'Lors de la traduction vers l''allemand, sélectionnez la variante à utiliser.'
+          label: 'Variante allemande'
+          options:
+            casual: 'Allemand courant'
+            swiss: Suisse-allemand
+        detection_model:
+          help: 'Sélectionnez le modèle OpenAI à utiliser pour la détection de la langue. Il est recommandé d''utiliser GPT-3.5-Turbo, car la détection de la langue est une tâche simple qui ne nécessite pas le modèle le plus puissant.'
+          label: 'Modèle de détection de la langue'
+          options:
+            gpt-3:
+              5-turbo: 'GPT-3.5 Turbo (Économique)'
+              5-turbo-0125: 'GPT-3.5 Turbo Latest (Économique +)'
+            gpt-4o: 'GPT-4o (Premium)'
+            gpt-4o-mini: 'GPT-4o Mini (Équilibré)'
+        en_variant:
+          help: 'Lors de la traduction vers l''anglais, choisissez la variante à utiliser.'
+          label: 'Variante anglaise'
+          options:
+            en-GB: 'Anglais britannique'
+            en-US: 'Anglais américain'
+        max_tokens:
+          help: 'Nombre maximal de jetons pour la traduction. Des valeurs plus élevées permettent d''obtenir des traductions plus longues, mais augmentent les coûts. 1 024 jetons ≈ 750 mots. GPT-4o coûte environ 0,03 $ pour 1 000 jetons de sortie, tandis que GPT-4o-mini coûte environ 0,0006 $ pour 1 000 jetons de sortie.'
+          label: 'Nombre maximal de jetons'
+          options:
+            1024: '1 024 jetons (environ 750 mots)'
+            2048: '2 048 jetons (environ 1 500 mots)'
+            4096: '4 096 jetons (environ 3 000 mots)'
+            6144: '6 144 jetons (environ 4 500 mots)'
+            8192: '8 192 jetons (environ 6 000 mots)'
+        timeout:
+          help: 'Délai d''expiration en secondes. Augmentez cette valeur si vous rencontrez des erreurs de délai d''expiration.'
+          label: 'Délai d''expiration (en secondes)'
+        translation_model:
+          help: 'Choisissez le modèle OpenAI à utiliser pour les traductions. GPT-4o offre la meilleure qualité, GPT-4o-mini présente un bon compromis, et GPT-3.5-turbo est le plus économique.'
+          label: 'Modèle de traduction'
+          options:
+            gpt-3:
+              5-turbo: 'GPT-3.5 Turbo (Économique)'
+              5-turbo-0125: 'GPT-3.5 Turbo Latest (Économique +)'
+            gpt-4o: 'GPT-4o (Premium)'
+            gpt-4o-mini: 'GPT-4o Mini (Équilibré)'
       provider: 'Fournisseur de services de traduction'
       providers:
         heading: 'Paramètres du fournisseur de traduction'
@@ -72,6 +144,8 @@ ianm-translate:
         default-lang-help: 'Lorsque cette option est activée, la langue par défaut du forum est ajoutée au chemin de la balise hreflang <code>x-default</code>.'
         heading: 'Paramètres SEO'
         help: 'Ces paramètres contrôlent le comportement du système de traduction en ce qui concerne l''optimisation pour les moteurs de recherche.'
+      short-content-length: 'Contenu court'
+      short-content-length-help: 'Lorsque cette option est activée, le contenu dont la longueur est inférieure à celle spécifiée sera traduit et considéré comme rédigé dans la langue actuelle de l''interface utilisateur. La valeur 0 désactive cette fonctionnalité.'
       translate-all-enabled: 'Activer toutes les langues de traduction'
       translate-all-help: 'Lorsque cette option est activée, les administrateurs et les autres utilisateurs autorisés peuvent traduire le contenu dans n''importe quelle langue installée sur le forum.'
       translate-polls: 'Traduire les sondages'
@@ -83,6 +157,8 @@ ianm-translate:
   forum:
     composer:
       multi-languages: 'Astuce : vous pouvez écrire avec la langue de votre choix, le forum la traduira pour vous.'
+    composer_edit:
+      language: 'Mettre à jour le contenu traduit en {language}'
     detected-language: 'Ce message est en {postLang}'
     discussion:
       post:
@@ -96,6 +172,9 @@ ianm-translate:
       discussion:
         title: 'Gérer les traductions des titres de discussion'
       original-language: 'Langue originale ({detectedLang})'
+      poll-group:
+        name: 'Nom du groupe'
+        title: 'Gérer les traductions des groupes de sondages'
       poll:
         image-alt: 'Texte ALT de l''image (si elle existe)'
         option: 'Option {number}'
@@ -117,6 +196,8 @@ ianm-translate:
     original-content:
       title: 'Contenu original'
       view: 'Voir le contenu original'
+    post:
+      translation-error: 'Un problème est survenu lors de l''affichage de la traduction de ce message. L''erreur a été enregistrée sous l''identifiant {uuid}. Veuillez nous le signaler si le problème persiste.'
     refresh-translation: 'Actualiser la traduction'
     translate-button-label: Traduire
     unknown-language: '[non détecté]'
@@ -132,5 +213,6 @@ ianm-translate:
       google-cloud: 'Google Cloud Translate'
       google-free: 'Google Traduction'
       libre: 'Libre Translate'
+      openai: OpenAI
     settings:
       api-key: 'Clé API'

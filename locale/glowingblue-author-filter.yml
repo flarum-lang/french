@@ -5,9 +5,9 @@
 glowingblue-author-filter:
   admin:
     settings:
-      intro: 'Les utilisateurs sans l''autorisation <code>Rechercher des utilisateurs</code> ne verront pas le champ de recherche. Définissez cette option sur <code>Tout le monde</code> pour tous les utilisateurs, ou quel que soit votre niveau de préférence.'
-      min_length: 'Minimum de caractères pour commencer la recherche'
-      result_count: 'Résultats maximums dans l''autocomplétion des listes déroulantes'
+      intro: 'Les utilisateurs ne disposant pas de l''autorisation <code>Rechercher des utilisateurs</code> ne verront pas le champ de recherche. Définissez cette autorisation sur <code>Tout le monde</code> pour tous les utilisateurs, ou selon le niveau d''accès que vous souhaitez.'
+      min_length: 'Nombre minimum de caractères pour lancer la recherche'
+      result_count: 'Nombre maximal de résultats dans la liste déroulante à saisie semi-automatique'
   forum:
     index_page:
       filter_user:
@@ -16,6 +16,6 @@ glowingblue-author-filter:
         keep_typing: 'Continuer à taper...'
         label: 'Filtrer par auteur : {text}'
         no_results: 'Aucun résultat'
-        remove_filter: 'Supprimer le filtre d''auteur'
+        remove_filter: 'Supprimer le filtre par auteur'
         search_label: 'Rechercher des utilisateurs...'
         start_typing: 'Commencer à écrire...'
