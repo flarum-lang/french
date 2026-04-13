@@ -32,7 +32,7 @@ fof-moderator-warnings:
       invalid_strike_count: 'Le nombre de sanctions doit être un entier compris entre 0 et 5.'
       public_comment_required: 'Vous devez vous justifier avec un commentaire public.'
     warning_controls:
-      delete_button: Retirer
+      delete_button: Supprimer
       delete_forever_button: 'Supprimer définitivement'
       restore_button: Restaurer
     warning_list:
