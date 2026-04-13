@@ -69,13 +69,13 @@ huseyinfiliz-bump:
       section_manual: 'Paramètres manuels de bump'
       section_quota: 'Paramètres Quota'
     stats:
-      absorber_status: 'Status de l''absorbeur'
+      absorber_status: 'Statut de l''absorbeur'
       active: Actif
       inactive: Inactif
-      last_bump: 'Dernier Bump'
-      no_bumps_yet: 'Pas de relance'
+      last_bump: 'Dernier bump'
+      no_bumps_yet: 'Pas de bump'
       today_bumps: 'Bumps du jour'
-      total_bumps: 'Total de Bumps'
+      total_bumps: 'Total de bumps'
       week_bumps: 'Cette semaine'
     tabs:
       absorber: Absorbeur

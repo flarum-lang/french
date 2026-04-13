@@ -27,12 +27,12 @@ fof-moderator-warnings:
     settings:
       warning_notification_label: 'Un modérateur m''a averti'
     user:
-      warnings: Avertissements
+      warnings: 'Avertissements du modérateur'
     validation:
       invalid_strike_count: 'Le nombre de sanctions doit être un entier compris entre 0 et 5.'
       public_comment_required: 'Vous devez vous justifier avec un commentaire public.'
     warning_controls:
-      delete_button: Retirer
+      delete_button: Supprimer
       delete_forever_button: 'Supprimer définitivement'
       restore_button: Restaurer
     warning_list:
