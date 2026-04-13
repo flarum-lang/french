@@ -5,6 +5,11 @@ CHANGELOG
 4.29.3 (XXXX-XX-XX)
 -------------------
 
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
 **Prise en charge de nouvelles extensions**:
 
 * [`ekumanov/flarum-ext-inline-audio`](https://github.com/ekumanov/flarum-ext-inline-audio)
@@ -26,9 +31,11 @@ CHANGELOG
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
 * [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
 * [`kilowhat/flarum-ext-rich-embeds`](https://flarum.org/extension/kilowhat/flarum-ext-rich-embeds)
