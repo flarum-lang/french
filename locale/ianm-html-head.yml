@@ -10,12 +10,36 @@ ianm-html-head:
       description_label: Description
       edit_title: 'Modifier un élément'
       header_label: 'Élément d''en-tête personnalisé'
+      link:
+        extras_remove: Supprimer
+      location:
+        foot: 'Pied de page'
+      location_label: 'Injecter dans'
+      meta:
+        content_label: Contenu
+        variant_label: Variante
+      pages:
+        admin: 'Panneau d''administration'
+        forum: Forum
+      preview_label: Prévisualiser
+      raw:
+        content_label: HTML
       save_button: Enregistrer
+      script:
+        inline_label: 'Dans la ligne'
       text: 'Assurez-vous que votre syntaxe soit correcte, car il est possible de « casser » le forum en indiquant des données erronées sur l''élément d''en-tête. Une fois sauvegardé, activez votre nouvel élément d''en-tête en utilisant l''interrupteur fourni.'
+      type:
+        link: Lien
+        style: Style
+      type_label: Type
     table:
       active_label: Actif
       delete_button: Supprimer
+      delete_confirm: 'Êtes-vous sûr de vouloir supprimer cet élément ?'
       description_label: Description
       edit_button: Modifier
       empty_text: 'Aucun élément pour le moment. Cliquez sur « Créer » pour ajouter votre premier élément principal.'
       header_label: En-tête
+      location_label: Emplacement
+      pages_label: Pages
+      type_label: Type
