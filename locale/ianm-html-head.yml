@@ -17,5 +17,5 @@ ianm-html-head:
       delete_button: Supprimer
       description_label: Description
       edit_button: Modifier
-      empty_text: 'Aucune entrée'
+      empty_text: 'Aucun élément pour le moment. Cliquez sur « Créer » pour ajouter votre premier élément principal.'
       header_label: En-tête

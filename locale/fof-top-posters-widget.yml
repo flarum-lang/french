@@ -9,3 +9,7 @@ fof-top-posters-widget:
   forum:
     widget:
       title: 'Les contributeurs les plus actifs ce mois-ci'
+  lib:
+    gambits:
+      top_poster:
+        key: top_poster

@@ -8,3 +8,4 @@ fof-news-widget:
       add_line: 'Ajouter une ligne d''actualité'
       html_warning: 'Veuillez noter que tout code HTML sera affiché tel quel.'
       lines: 'Ligne d''actualité'
+      remove_line: 'Supprimer la ligne'
