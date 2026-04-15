@@ -23,12 +23,12 @@ huseyinfiliz-stickiest:
   forum:
     badge:
       stickiest_tooltip: 'Super épinglée'
-      sticky_tooltip: '=> huseyinfiliz-stickiest.ref.sticky'
+      sticky_tooltip: Épingle
       super_sticky_tooltip: '=> huseyinfiliz-stickiest.ref.super_sticky'
       super_tag_sticky_tooltip: '=> huseyinfiliz-stickiest.ref.super_tag_sticky'
-      tag_sticky_tooltip: '=> huseyinfiliz-stickiest.ref.tag_sticky'
+      tag_sticky_tooltip: 'Étiquette épinglée'
     discussion_controls:
-      sticky_button: '=> flarum-sticky.forum.discussion_controls.sticky_button'
+      sticky_button: Épingle
     post_stream:
       discussion_common_stickied_text: '{username} n''a plus marqué la discussion comme super épinglée.'
       discussion_stickied_text: '=> flarum-sticky.forum.post_stream.discussion_stickied_text'
