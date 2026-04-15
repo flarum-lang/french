@@ -3,6 +3,47 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 xypp-pay-cccyun:
+  admin:
+    other:
+      add-row: 'Ajouter une ligne'
+      color: Couleur
+      confirm-delete: 'Êtes-vous sûr de vouloir supprimer cet enregistrement ?'
+      delete-row: 'Supprimer une ligne'
+      display: 'Nom d''affichage'
+      icon: Icône
+      pay-type: 'Mode de paiement'
+    permissions:
+      can-pay: 'Peut recharger'
+    settings:
+      amount-max: 'Montant maximal'
+      amount-min: 'Montant minimal'
+      base_url: 'URL de base (se terminant par /)'
+      expired_minutes: 'Durée d''expiration (en minutes)'
+      ignore_ssl: 'Ignorer les erreurs SSL'
+      key: '(V1) Clé MD5'
+      money-rate: 'Taux de change : 1 CNY -> X Money'
+      pay-alipay: 'Activer Alipay'
+      pay-qqpay: 'Activer QQ Pay'
+      pay-wxpay: 'Activer WeChat Pay'
+      pid: 'Identifiant partenaire'
+      private-key: '(V2) Clé privée du partenaire'
+      public-key: '(V2) Clé publique de la plateforme'
+      ua-alipay: 'Alipay UA'
+      ua-mobile: 'Mobile UA'
+      ua-qq: 'QQ UA'
+      ua-wechat: 'WeChat UA'
+      use-v2: 'Utiliser l''API v2 (version RSA)'
+      use_proxy: 'Utiliser un proxy (l''adresse IP sera extraite de l''en-tête « x-forwarded-for »)'
+  api:
+    invalid_amount: 'Montant non valide'
+    invalid_pay_type: 'Type de paiement invalide'
+    pay_item_name: 'Recharger {money} sur {u}'
+    pay_type_disabled: 'Le type de paiement sélectionné a été désactivé'
+    payment_is_done: 'Le paiement a été effectué'
+    payment_is_expired: 'Le paiement a expiré'
+    unknown_error: 'Erreur inconnue'
+    unknown_pay_type: 'Type de paiement inconnu'
+    verify_failed: 'Échec de la vérification'
   forum:
     add_money:
       amount: Montant
@@ -19,11 +60,14 @@ xypp-pay-cccyun:
       status_pending: 'En attente'
       status_success: Succès
       title: 'Historique des recharges'
+    pay-done: 'Le paiement a été effectué'
+    pay-done-btn: 'Aller à la page Historique'
     pay-modal:
       amount: '{amount} ￥'
       back: Retour
       done: Effectué
       invalid-amount: 'Montant non valide (doit être compris entre {min} et {max})'
+      no-limit: '[n''importe lequel]'
       open_wechat: 'Si aucun paiement n''apparaît, veuillez cliquer ici.'
       open_window: 'S''il n''y a pas de fenêtre contextuelle, veuillez cliquer ici.'
       qr: 'Scanner le code QR pour compléter le paiement'
@@ -37,3 +81,11 @@ xypp-pay-cccyun:
       confirm: Payer
       money: 'Coûte {amount} ￥'
       title: Recharger
+  lib:
+    alipay: Alipay
+    qqpay: 'QQ Pay'
+    status:
+      done: Terminé
+      expire: Expiré
+      pending: 'En attente'
+    wxpay: 'WeChat Pay'

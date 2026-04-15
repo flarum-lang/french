@@ -6,14 +6,20 @@ fof-rich-text:
   admin:
     settings:
       toggle_on_editor: 'Afficher le bouton de basculement vers le mode texte enrichi dans l''éditeur ?'
+  forum:
+    settings:
+      composer_heading: Compositeur
+      rich_text_compact_paragraphs_label: 'Ne pas séparer les paragraphes par un saut de ligne.'
+      use_rich_text_editor_label: 'Utiliser l''éditeur de texte enrichi ?'
   lib:
     composer:
       additional_items_tooltip: 'Commandes supplémentaires'
-      bold_tooltip: 'Texte en gras <{modifierKey}-b>'
+      bold_tooltip: 'Texte en gras <{modifierKey} + b>'
       code_block_tooltip: 'Insérer un bloc de code'
-      code_tooltip: 'Code dans une ligne <{modifierKey}-`>'
-      header_tooltip: 'Remplacer par l''en-tête {level} <Maj-{modifierKey}-{level}>'
+      code_tooltip: 'Code dans une ligne <{modifierKey} + `>'
+      header_tooltip: 'Remplacer par l''en-tête {level} <Maj + {modifierKey} + {level}>'
       horizontal_rule_tooltip: 'Insérer une ligne horizontale'
+      image_tooltip: 'Ajouter une image'
       insert_button: Insérer
       insert_image:
         src_placeholder: Lien
@@ -23,4 +29,16 @@ fof-rich-text:
         remove_button: Supprimer
         text_placeholder: Texte
         title_placeholder: 'Titre (s''affiche au survol)'
+      italic_tooltip: 'Texte en italique <{modifierKey} + i>'
+      link_tooltip: 'Ajouter un lien'
+      ordered_list_tooltip: 'Liste numérotée <Maj + {modifierKey} + 9>'
+      paragraph_tooltip: 'Modifier en paragraphe <Maj + {modifierKey} + 0>'
+      quote_tooltip: 'Insérer une citation <{modifierKey} + q>'
+      spoiler_block_tooltip: 'Masquer le contenu/Menu déroulant'
+      spoiler_inline_tooltip: 'Spoiler  <{modifierKey} + ;>'
+      strike_tooltip: 'Barré <Alt + Maj + 5>'
+      sub_tooltip: 'Indice <{modifierKey} + ,>'
+      sup_tooltip: 'Exposant <{modifierKey} + .>'
+      text_type_tooltip: 'Sélectionner le type de texte'
       toggle_button: 'Activer ou désactiver le mode texte enrichi'
+      unordered_list_tooltip: 'Liste à puces <Maj + {modifierKey}} + 8>'
