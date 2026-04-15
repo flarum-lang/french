@@ -14,11 +14,14 @@ CHANGELOG
 
 * [`ekumanov/flarum-ext-inline-audio`](https://github.com/ekumanov/flarum-ext-inline-audio)
 * [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice)
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
 * [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
 * [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
 * [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
 * [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget)
 * [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
 * [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget)
 * [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
 * [`forumaker/magicread`](https://github.com/forumaker/magicread)
@@ -33,6 +36,7 @@ CHANGELOG
 **Mise à jour des traductions de certaines extensions**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
 * [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge)
 * [`datitisev/flarum-maintenance`](https://flarum.org/extension/datitisev/flarum-maintenance)
 * [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
