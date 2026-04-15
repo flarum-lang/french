@@ -5,13 +5,20 @@
 blomstra-search:
   admin:
     analyzer:
-      help: "L'analyseur permet à la recherche de comprendre les mots vides\n et entreprend des améliorations spécifiques à la langue pour l'indexation.\n"
+      help: "L'analyseur permet au moteur de recherche de prendre en compte les mots vides et apporte des améliorations spécifiques à la langue\npour l'indexation. Pour que ces modifications prennent effet, il faut procéder à une reconstruction complète de l'index.\n"
       label: 'Langage de l''analyseur'
     elastic-endpoint: 'Endpoint Elastic'
     elastic-index: Index
     elastic-password: '=> core.ref.password'
     elastic-username: '=> core.ref.username'
+    index-settings-changed: 'Les paramètres d''indexation de la recherche ont été modifiés. Exécutez la commande suivante : php flarum blomstra:search:index build'
     match-sentences: 'Faire correspondre le terme recherché à la phrase complète'
     match-words: 'Faire correspondre le terme recherché aux mots complets'
+    min-search-length:
+      help: "Nombre minimum de caractères requis pour lancer une recherche. Réduisez cette valeur à 1 ou 2\npour les communautés CJK (chinois, japonais et coréen) où un seul caractère suffit à exprimer tout le sens.\nPour que cette modification prenne effet, une reconstruction complète de l'index est nécessaire.\n"
+      label: 'Longueur minimale de la requête de recherche'
+    reindex-required:
+      detail: 'L''index de recherche n''est pas compatible avec cette version de l''extension. Exécutez la commande suivante : php flarum blomstra:search:index build'
+      title: 'Reconstruction de l''index de recherche requise'
     search-discussion-subjects: 'Rechercher dans les titres de discussion'
     search-post-bodies: 'Rechercher dans les commentaires'
