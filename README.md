@@ -9,7 +9,7 @@ French language pack to localize the Flarum forum software plus its official and
 Flarum use Composer to manage its dependencies and extensions. The French language pack is available [on Packagist](https://packagist.org/packages/flarum-lang/french) and can be managed that way. Make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following command in the location where Flarum is installed:
 
 ```bash
-composer require flarum-lang/french
+composer require "flarum-lang/french:*"
 ```
 
 ## Updating
