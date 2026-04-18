@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+4.29.4 (XXXX-XX-XX)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification)
+* [`quasimo/flarum-ext-llms-txt`](https://github.com/Quasimo/flarum-ext-llms-txt)
+* [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants)
+
+
+Journal de toutes les modifications : [v4.29.3...v4.29.4](https://github.com/flarum-lang/french/compare/v4.29.3...v4.29.4).
+
+
 4.29.3 (2026-04-15)
 -------------------
 
