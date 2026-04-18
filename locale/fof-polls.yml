@@ -18,6 +18,11 @@ fof-polls:
       view_results_without_voting: 'Afficher les résultats sans voter'
       vote: 'Voter sur les sondages'
     settings:
+      discussion_polls:
+        heading: 'Sondages de discussion'
+        help: 'Ces paramètres permettent de gérer les sondages associés aux messages de discussion.'
+      enable_discussion_polls: 'Activer les sondages dans les discussions'
+      enable_discussion_polls_help: 'Lorsque cette option est activée, les utilisateurs peuvent créer des sondages dans les messages de discussion. Désactivez-la si vous souhaitez utiliser uniquement les sondages globaux.'
       enable_global_polls: 'Activer les sondages globaux'
       enable_global_polls_help: 'Les sondages globaux ne sont pas liés à un message spécifique et sont accessibles à partir d''une page dédiée aux sondages.'
       enabled_poll_groups: 'Activer les groupes de sondages'
@@ -30,6 +35,12 @@ fof-polls:
         help: 'Ces paramètres contrôlent la fonctionnalité des sondages globaux.'
       image:
         heading: 'Paramètres des images'
+        help: 'Configurer les limites de taille et les dimensions des images. Les images sont automatiquement converties au format WebP et des versions adaptatives sont générées.'
+      image_dimensions_help: 'Dimensions de base des images stockées. Les variantes HiDPI (@2x, @3x) sont générées automatiquement lorsque l''image source est suffisamment grande.'
+      image_height: 'Redimensionner la hauteur de l''image (px)'
+      image_width: 'Redimensionner la largeur de l''image (px)'
+      max_image_upload_size: 'Taille maximale des images transférées (Ko)'
+      max_image_upload_size_help: 'La taille maximale des images à transférer, en kilo-octets. Les images sont automatiquement converties au format WebP et redimensionnées après leur transfert ; leur taille finale stockée sera donc généralement bien inférieure. La valeur par défaut est de 10 240 Ko (10 Mo).'
       max_options: 'Nombre maximum d''options par sondage'
       options_color_blend: 'Mélange de couleurs du texte dans les options de sondage'
       options_color_blend_help: 'Utilisez cette option pour mélanger les couleurs afin de rendre les options du sondage plus lisibles. Désactivez cette fonction si elle provoque des problèmes d''apparence à votre forum qui pourraient réduire sa lisibilité.'
@@ -53,6 +64,7 @@ fof-polls:
       add_title: 'Ajouter un sondage'
       allow_change_vote_label: 'Autoriser les utilisateurs à modifier leur vote'
       allow_multiple_votes_label: 'Autoriser de voter pour plusieurs options'
+      date_clear: 'Supprimer la date de fin'
       date_placeholder: 'Date de fin du sondage (facultatif)'
       delete: '=> core.ref.delete'
       edit_title: 'Modifier le sondage'
@@ -73,6 +85,7 @@ fof-polls:
         alt_label: 'Texte d''accompagnement de l''image'
         help: 'Transférez une image à afficher à côté du sondage (facultatif).'
         label: 'Image du sondage'
+        url_deprecated: 'Ce sondage utilise l''URL d''une image externe. Les URL externes sont obsolètes et seront supprimées dans une prochaine version. Veuillez télécharger à nouveau l''image à l''aide du bouton de téléchargement.'
       poll_option_image:
         help: 'Transférer une image qui sera affichée à côté de la réponse au sondage (facultatif).'
         label: 'Image de la réponse au sondage'
@@ -83,6 +96,7 @@ fof-polls:
       tooltip:
         options:
           add-button: 'Ajouter une réponse'
+          remove-button: 'Supprimer la réponse'
     moderation:
       add: 'Ajouter un sondage'
       delete: 'Supprimer le sondage'
@@ -105,6 +119,7 @@ fof-polls:
       delete_label: '=> core.ref.delete'
       delete_success_message: 'Le sondage a été supprimé.'
       edit_label: '=> core.ref.edit'
+      toggle_dropdown_accessible_label: 'Afficher le menu des contrôles du sondage'
       view_label: '=> core.ref.view'
     poll_ended: 'Ce sondage est terminé.'
     poll_form:
