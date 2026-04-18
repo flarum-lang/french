@@ -6,10 +6,20 @@ forumaker-magicread:
   admin:
     settings:
       enable_counter: 'Compteur de caractères en direct dans le compositeur'
+      enable_counter_help: 'Ajoute un compteur de caractères dans le coin supérieur droit de la zone de saisie du message'
+      enable_discussion_pager: 'Afficher la page de navigation à la place de la barre de défilement'
       enable_pagination: 'Pagination dans les discussions'
+      enable_pagination_help: 'Permet de garder le fil de discussion visible et ajoute un sélecteur de page en dessous'
       enable_readmore: 'Lire la suite de l''aperçu sur la page de profil'
+      enable_readmore_help: 'Masque les longs messages sur les pages de profil et ajoute un bouton permettant de les développer'
       section_main: Paramètres
+      section_pagination: Pagination
   forum:
     counter:
       label: Caractères
+    pager:
+      last: 'Aller à la dernière page'
+      next: 'Page suivante'
+      page: Page
+      prev: 'Page précédente'
     read_more: 'Lire la suite'
