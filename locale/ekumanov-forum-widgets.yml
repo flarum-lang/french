@@ -68,6 +68,7 @@ ekumanov-forum-widgets:
       discussions_count: 'Discussions : {count}'
       label_discussions: '{count, plural, one {discussion} other {discussions}}'
       label_online: '{count, plural, one {utilisateur en ligne} other {utilisateurs en ligne}}'
+      label_online_over_total: '{en ligne} utilisateurs en ligne sur {total} utilisateurs au total'
       label_posts: '{count, plural, one {message} other {messages}}'
       label_users: '{count, plural, one {utilisateur} other {utilisateurs}}'
       latest_registration: 'Dernière inscription :'
