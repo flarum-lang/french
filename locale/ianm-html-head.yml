@@ -15,9 +15,11 @@ ianm-html-head:
       edit_title: 'Modifier un élément d''en-tête'
       header_label: 'Élément d''en-tête personnalisé'
       link:
+        as_label: 'as=""'
         extras_add: 'Ajouter un attribut'
         extras_label: 'Attributs supplémentaires'
         extras_remove: Supprimer
+        fetchpriority_label: 'fetchpriority=""'
         href_label: 'href="" (URL)'
         rel_label: 'rel=""'
       location:
@@ -28,6 +30,7 @@ ianm-html-head:
       meta:
         content_label: Contenu
         name_label: 'name=""'
+        property_label: 'property="" (Open Graph)'
         variant_label: Variante
       pages:
         admin: 'Panneau d''administration'
@@ -47,6 +50,7 @@ ianm-html-head:
         external_label: 'Externe (src)'
         inline_content_label: 'Contenu du script'
         inline_label: 'Dans la ligne'
+        module_label: 'type="module"'
         src_label: 'src="" (URL)'
       style:
         inline_help: 'Appliqué globalement à toutes les pages ciblées par cet élément. Veillez à ce que les règles soient précises afin d''éviter tout effet indésirable.'
