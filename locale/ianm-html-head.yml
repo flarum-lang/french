@@ -27,6 +27,7 @@ ianm-html-head:
       location_label: 'Injecter dans'
       meta:
         content_label: Contenu
+        name_label: 'name=""'
         variant_label: Variante
       pages:
         admin: 'Panneau d''administration'
@@ -42,6 +43,7 @@ ianm-html-head:
         async_help: 'Le script s''exécute dès son téléchargement, sans tenir compte de l''ordre. Cette option est particulièrement adaptée aux scripts autonomes, tels que les scripts d''analyse.'
         async_label: async
         crossorigin_help: 'Requis lors du chargement de scripts provenant d''un autre domaine nécessitant un accès CORS.'
+        defer_label: defer
         external_label: 'Externe (src)'
         inline_content_label: 'Contenu du script'
         inline_label: 'Dans la ligne'
