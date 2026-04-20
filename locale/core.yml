@@ -148,7 +148,7 @@ core:
       display_name_heading: 'Nom d''affichage de l''utilisateur'
       display_name_text: 'Sélectionnez le pilote qui doit être utilisé pour les noms d''affichage des utilisateurs. Par défaut, le nom d''utilisateur est affiché.'
       forum_description_heading: 'Description du forum'
-      forum_description_text: 'Saisissez une ou deux courtes phrases qui décrivent votre communauté. Ces phrases apparaîtront dans la balise méta et dans les moteurs de recherche.'
+      forum_description_text: 'Saisissez une ou deux courtes phrases qui décrivent votre forum. Ces phrases apparaîtront dans la balise méta et dans les moteurs de recherche.'
       forum_title_heading: 'Titre du forum'
       home_page_heading: 'Page d''accueil'
       home_page_text: 'Sélectionnez la page que les utilisateurs verront en premier lorsqu''ils visiteront votre forum.'
@@ -289,6 +289,13 @@ core:
         no_readme: 'Cette extension ne semble pas avoir de fichier « Lisez-moi »'
         title: 'Documentation de {extName}'
       replaced: Remplacé
+      reset_settings:
+        button: 'Réinitialiser les paramètres'
+        cancel_button: Annuler
+        confirm_button: Réinitialiser
+        title: 'Réinitialiser les paramètres'
+        title_extension: 'Réinitialiser les paramètres de {extensionTitle}'
+        warning: 'Cette action est irréversible. Les paramètres ci-dessous seront définitivement supprimés de la base de données et reviendront à leurs valeurs par défaut. Les données de cette extension ne seront pas affectées.'
       safe_mode_warning: 'Le mode sans échec est actuellement activé. Les extensions ne sont pas démarrées et leurs paramètres sont donc inaccessibles.'
     extensions-health-widget:
       abandoned_no_replacement: 'Aucun remplacement n''est disponible'
@@ -437,6 +444,10 @@ core:
     invalid_username_message: 'Le nom d''utilisateur ne peut contenir que des lettres, des chiffres et des tirets. Il doit comporter au moins une lettre.'
   email:
     abandoned_extensions:
+      body_intro: 'Les extensions installées suivantes ont été signalées comme abandonnées :'
+      body_outro: 'Veuillez passer en revue ces extensions et envisager de migrer vers des solutions alternatives lorsqu''elles sont disponibles.'
+      line_no_replacement: '{package} (aucun remplacement disponible)'
+      line_with_replacement: '{package} (remplacement suggéré : {replacement})'
       subject: 'Action requise : extension(s) abandonnée(s) détectée(s)'
     activate_account:
       body: "Quelqu'un (en espérant que ça soit vous !) s'est inscrit sur {forum} avec cette adresse de courriel.\n\nSi c'est vous, il vous suffit de cliquer sur le lien suivant pour activer votre compte :\n{url}\n\nSi vous ne vous êtes pas inscrit, veuillez ignorer ce courriel.\n"
