@@ -13,6 +13,7 @@ CHANGELOG
 
 **Prise en charge de nouvelles extensions**:
 
+* [`dashzeveg/flarum-custom-head`](https://github.com/dashzeveg/flarum-custom-head)
 * [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
 * [`ekumanov/flarum-ext-inline-audio`](https://github.com/ekumanov/flarum-ext-inline-audio)
 * [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice)
