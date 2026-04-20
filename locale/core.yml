@@ -130,6 +130,12 @@ core:
       logo_text: 'Transférez une image qui sera affichée à la place du titre du forum.'
       title: Apparence
     basics:
+      abandoned_extensions_heading: 'Extensions abandonnées'
+      abandoned_extensions_notify_admins_label: 'Envoyer un courriel aux administrateurs lorsqu''une extension récemment abandonnée est détectée lors de la vérification hebdomadaire'
+      abandoned_extensions_sync_button: 'Vérifier maintenant'
+      abandoned_extensions_sync_error: 'Impossible de récupérer la liste des extensions abandonnées. Veuillez réessayer plus tard.'
+      abandoned_extensions_sync_success: 'La liste des extensions abandonnées a été mise à jour. {count} extension(s) installée(s) correspondante(s) trouvée(s).'
+      abandoned_extensions_text: 'Flarum tient à jour une <a>liste communautaire des extensions abandonnées</a>. Lorsqu''une extension installée figure sur cette liste, elle est signalée dans le panneau d''administration.'
       all_discussions_label: '=> core.ref.all_discussions'
       avatar_driver_heading: 'Avatar de l''utilisateur'
       avatar_driver_options:
@@ -324,6 +330,7 @@ core:
         discussion: Discussion
         feature: Fonctionnalités
         formatting: 'Mise en page'
+        forum-widget: 'Widgets du forum'
         infrastructure: Infrastructure
         language: Langues
         moderation: Modération
@@ -429,6 +436,8 @@ core:
       must_not_be_multidimensional_array_message: 'Le filtre {filter} ne doit pas être un tableau multidimensionnel.'
     invalid_username_message: 'Le nom d''utilisateur ne peut contenir que des lettres, des chiffres et des tirets. Il doit comporter au moins une lettre.'
   email:
+    abandoned_extensions:
+      subject: 'Action requise : extension(s) abandonnée(s) détectée(s)'
     activate_account:
       body: "Quelqu'un (en espérant que ça soit vous !) s'est inscrit sur {forum} avec cette adresse de courriel.\n\nSi c'est vous, il vous suffit de cliquer sur le lien suivant pour activer votre compte :\n{url}\n\nSi vous ne vous êtes pas inscrit, veuillez ignorer ce courriel.\n"
       subject: 'Activer votre nouveau compte'
