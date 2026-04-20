@@ -16,6 +16,7 @@ ianm-html-head:
         extras_remove: Supprimer
       location:
         foot: 'Pied de page'
+        head: En-tête
       location_label: 'Injecter dans'
       meta:
         content_label: Contenu
