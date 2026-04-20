@@ -5,10 +5,13 @@
 ianm-html-head:
   admin:
     create_button: Créer
+    help:
+      cache: 'Le code HTML généré est mis en cache lors l''enregistrement. Les modifications prennent effet immédiatement sans qu''il soit nécessaire de vider l''intégralité du cache du site.'
+      pages: 'Chaque élément peut concerner le frontend du forum, le panneau d''administration, ou les deux.'
     modal:
-      create_title: 'Créer un nouvel élément'
+      create_title: 'Créer un élément d''en-tête'
       description_label: Description
-      edit_title: 'Modifier un élément'
+      edit_title: 'Modifier un élément d''en-tête'
       header_label: 'Élément d''en-tête personnalisé'
       link:
         extras_add: 'Ajouter un attribut'
@@ -28,12 +31,16 @@ ianm-html-head:
       preview_label: Prévisualiser
       raw:
         content_label: HTML
+        help_text: 'Saisissez du code HTML brut. Des indications de préconnexion sont générées automatiquement pour tous les liens inter-origines ou balises de script détectés ici. L''ordre de tri et l''activation/désactivation fonctionnent normalement, mais les fonctionnalités spécifiques à certains types (fetchpriority, defer, etc.) ne sont pas disponibles — utilisez un type structuré si vous en avez besoin.'
       save_button: Enregistrer
       script:
         async_label: async
+        external_label: 'Externe (src)'
         inline_content_label: 'Contenu du script'
         inline_label: 'Dans la ligne'
+        src_label: 'src="" (URL)'
       style:
+        inline_help: 'Appliqué globalement à toutes les pages ciblées par cet élément. Veillez à ce que les règles soient précises afin d''éviter tout effet indésirable.'
         inline_label: 'Contenu CSS'
       text: 'Assurez-vous que votre syntaxe soit correcte, car il est possible de « casser » le forum en indiquant des données erronées sur l''élément d''en-tête. Une fois sauvegardé, activez votre nouvel élément d''en-tête en utilisant l''interrupteur fourni.'
       type:
