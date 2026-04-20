@@ -2,6 +2,30 @@ CHANGELOG
 =========
 
 
+4.29.4 (2026-04-20)
+-------------------
+
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
+**Prise en charge de nouvelles extensions**:
+
+* [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification)
+* [`little100/fontawesome`](https://github.com/Little100/flarum-ext-fontawesome)
+* [`quasimo/flarum-ext-llms-txt`](https://github.com/Quasimo/flarum-ext-llms-txt)
+* [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
+
+
+Journal de toutes les modifications : [v4.29.3...v4.29.4](https://github.com/flarum-lang/french/compare/v4.29.3...v4.29.4).
+
+
 4.29.3 (2026-04-15)
 -------------------
 
