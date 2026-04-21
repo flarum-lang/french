@@ -10,6 +10,7 @@ ianm-html-head:
       intro: 'Ajoutez des balises personnalisées à insérer dans le code HTML de votre forum. Les éléments sont mis en cache et fournis de manière efficace — aucune requête de base de données n''est effectuée lors du chargement de la page.'
       location: 'Les éléments peuvent être injectés dans la balise head ou avant la balise de fermeture body.'
       pages: 'Chaque élément peut concerner le frontend du forum, le panneau d''administration, ou les deux.'
+      preconnect: 'Les balises de lien et de script pointant vers des sources externes, génèrent automatiquement des indications « preconnect » et « dns-prefetch », ce qui permet d''établir la connexion avant même que le navigateur n''en ait besoin.'
     modal:
       create_title: 'Créer un élément d''en-tête'
       description_help: 'Un libellé pour votre propre référence — non injecté dans la page.'
@@ -47,7 +48,7 @@ ianm-html-head:
       preview_label: Prévisualiser
       raw:
         content_label: HTML
-        help_text: 'Saisissez du code HTML brut. Des indications de préconnexion sont générées automatiquement pour tous les liens inter-origines ou balises de script détectés ici. L''ordre de tri et l''activation/désactivation fonctionnent normalement, mais les fonctionnalités spécifiques à certains types (fetchpriority, defer, etc.) ne sont pas disponibles — utilisez un type structuré si vous en avez besoin.'
+        help_text: 'Saisissez du code HTML brut. Des indications « preconnect » sont générées automatiquement pour tous les liens inter-origines ou balises de script détectés ici. L''ordre de tri et l''activation/désactivation fonctionnent normalement, mais les fonctionnalités spécifiques à certains types (fetchpriority, defer, etc.) ne sont pas disponibles — utilisez un type structuré si vous en avez besoin.'
       save_button: Enregistrer
       script:
         async_help: 'Le script s''exécute dès son téléchargement, sans tenir compte de l''ordre. Idéal pour les scripts autonomes, tels que les scripts d''analyse.'
