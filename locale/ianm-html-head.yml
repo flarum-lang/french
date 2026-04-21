@@ -24,6 +24,8 @@ ianm-html-head:
         extras_add: 'Ajouter un attribut'
         extras_label: 'Attributs supplémentaires'
         extras_remove: Supprimer
+        fetchpriority_default: 'Par défaut : navigateur'
+        fetchpriority_help: 'Indication pour le navigateur concernant la priorité relative de cette ressource. haut : charger en priorité (par exemple, une image principale ou une feuille de style critique). bas : charger plus tard (par exemple, une ressource située sous le pli). Ne pas définir pour laisser le navigateur décider lui-même.'
         fetchpriority_label: 'fetchpriority=""'
         href_label: 'href="" (URL)'
         rel_label: 'rel=""'
