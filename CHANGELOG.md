@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+5.0.1 (XXXX-XX-XX)
+------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+
+
+Journal de toutes les modifications : [v5.0.0...v5.0.1](https://github.com/flarum-lang/french/compare/v5.0.0...v5.0.1).
+
+
 5.0.0 (2026-04-22)
 ------------------
 
