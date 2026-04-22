@@ -23,6 +23,7 @@ fof-masquerade:
       description-help: "Une description facultative pour expliquer l'utilisation ou la nécessité de ce champ.\n"
       edit: 'Modifier le champ {field}'
       force-user-to-completion: 'Obliger l''utilisateur à compléter son profil'
+      hide-empty-fields: 'Masquer les champs vides'
       icon: Icône
       icon-help: "Affiche une icône devant les valeurs saisies par l'utilisateur. Pour une référence des icônes disponibles, consultez <a>site de Font Awesome</a>. Utilisez des noms d'icônes avec le préfixe « fa- », comme « fas fa-info ».\n"
       name: 'Nom du champ'
