@@ -16,4 +16,7 @@ michaelbelgium-ai-autoreply:
       platform_label: Plateforme
       system_prompt_label: 'Instruction système'
       temperature_label: Température
-      user_prompt_label: 'Assistance utilisateur'
+      user_prompt_badge_help: 'Texte qui s''affichera sous l''assistant utilisateur.'
+      user_prompt_badge_label: 'Badge d''assistant utilisateur'
+      user_prompt_help: 'Saisissez l''identifiant utilisateur qui sera utilisé pour générer les réponses de l''IA.'
+      user_prompt_label: 'Assistant utilisateur'
