@@ -63,4 +63,4 @@ flarum-mentions:
       posts:
         mentioned:
           hint: 'L''identifiant ou le nom d''utilisateur de l''utilisateur mentionné'
-          key: 'a mentionné'
+          key: mentionné
