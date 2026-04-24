@@ -9,12 +9,17 @@ michaelbelgium-ai-autoreply:
     settings:
       api_key_help: 'Récupérez la clé API de <a>{platform}</a>.'
       api_key_label: 'Clé API'
+      enabled_tags_help: 'Sélectionnez les étiquettes pour lesquelles l''assistant générera des réponses.'
+      enabled_tags_label: Étiquettes
       max_tokens_help: '<a>Qu''est-ce que les jetons et comment les compter?</a>'
       max_tokens_label: 'Nombre maximal de jetons'
+      model_help: 'En savoir plus sur les modèles <a>{platform}</a> (par défaut : <code>{model}</code>)..'
       model_label: Modèle
       platform_help: 'Sélectionnez la plateforme d''IA à utiliser.'
       platform_label: Plateforme
       system_prompt_label: 'Instruction système'
+      system_prompt_placeholder: 'Vous êtes un assistant utile sur un forum Flarum.'
+      temperature_help: 'Contrôle le caractère aléatoire. La plage se situe généralement entre 0 et 2, mais certaines plateformes peuvent avoir d''autres plages.'
       temperature_label: Température
       user_prompt_badge_help: 'Texte qui s''affichera sous l''assistant utilisateur.'
       user_prompt_badge_label: 'Badge d''assistant utilisateur'
