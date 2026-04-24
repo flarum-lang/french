@@ -9,6 +9,8 @@ michaelbelgium-ai-autoreply:
     settings:
       api_key_help: 'Récupérez la clé API de <a>{platform}</a>.'
       api_key_label: 'Clé API'
+      enable_on_discussion_started_help: 'Lorsque cette option est activée, l''IA ne répond qu''au début de la discussion. Lorsqu''elle est désactivée, la discussion se transforme en conversation entre l''auteur du message et l''assistant ; l''assistant répond à chaque message de l''auteur.'
+      enable_on_discussion_started_label: 'Activer dès le début de la discussion'
       enabled_tags_help: 'Sélectionnez les étiquettes pour lesquelles l''assistant générera des réponses.'
       enabled_tags_label: Étiquettes
       max_tokens_help: '<a>Qu''est-ce que les jetons et comment les compter?</a>'
@@ -17,6 +19,7 @@ michaelbelgium-ai-autoreply:
       model_label: Modèle
       platform_help: 'Sélectionnez la plateforme d''IA à utiliser.'
       platform_label: Plateforme
+      system_prompt_help: 'Fournissez des informations contextuelles et des instructions à l''Assistant, par exemple en définissant un objectif ou un rôle précis.'
       system_prompt_label: 'Instruction système'
       system_prompt_placeholder: 'Vous êtes un assistant utile sur un forum Flarum.'
       temperature_help: 'Contrôle le caractère aléatoire. La plage se situe généralement entre 0 et 2, mais certaines plateformes peuvent avoir d''autres plages.'
