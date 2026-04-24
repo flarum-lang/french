@@ -14,6 +14,8 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 
 
