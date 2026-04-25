@@ -4,7 +4,99 @@
 
 pianotell-flamoji:
   admin:
+    custom_emojis_section:
+      edit_emoji:
+        delete_emoji_button: 'Supprimer l’émoji'
+        delete_emoji_confirmation: "Voulez-vous vraiment supprimer cet émoji\_?"
+        emoji_title_label: 'Titre de l''émoji'
+        modal_title: 'Ajouter un émoji'
+        path_or_url_label: 'Chemin ou URL'
+        saved_message: '=> core.admin.settings.saved_message'
+        submit_button: '=> core.ref.save_changes'
+        text_to_replace_label: 'Texte à remplacer'
+      emoji_list:
+        add_button: 'Ajouter un émoji'
+        edit_button: 'Modifier un émoji'
+        load_more_button: '=> core.forum.post_stream.load_more_button'
+      export_json_button: 'Exporter le JSON'
+      heading_title: 'Émojis personnalisés'
+      import_emojis_message: 'Cela n''importera que les configurations des émojis. Vous devez télécharger manuellement les images des émojis.'
+      import_json_button: 'Importer le JSON'
     settings:
+      auto_hide_label: 'Masquage automatique'
+      auto_hide_text: 'Masquer le sélecteur lorsqu''un émoji est sélectionné.'
       category_settings_heading: 'Paramètres de catégorie'
+      emoji_categories:
+        activity: '=> pianotell-flamoji.ref.emoji_categories.activity'
+        flags: '=> pianotell-flamoji.ref.emoji_categories.flags'
+        foods: '=> pianotell-flamoji.ref.emoji_categories.foods'
+        nature: '=> pianotell-flamoji.ref.emoji_categories.nature'
+        objects: '=> pianotell-flamoji.ref.emoji_categories.objects'
+        people: '=> pianotell-flamoji.ref.emoji_categories.people'
+        places: '=> pianotell-flamoji.ref.emoji_categories.places'
+        symbols: '=> pianotell-flamoji.ref.emoji_categories.symbols'
       emoji_settings_heading: 'Paramètres d''émoji'
+      frequent_rows_label: 'Lignes d''émojis fréquemment utilisés'
+      frequent_rows_text: 'Nombre de lignes d''émojis récemment ou fréquemment utilisés à afficher en haut du sélecteur (1 à 10).'
       general_ui_settings_heading: 'Paramètres généraux de l''interface utilisateur'
+      picker_set_auto: Automatique
+      picker_set_label: 'Style d''émoji'
+      picker_set_native: Natif
+      picker_set_text: 'Comment les émojis s''affichent dans le sélecteur. « Auto » s''adapte à l''extension Emoji de Flarum — Twemoji lorsqu''elle est activée, les polices natives du système d''exploitation dans le cas contraire — afin que le sélecteur reflète fidèlement ce qui s''affiche réellement dans les messages.'
+      picker_set_twemoji: Twemoji
+      show_category_buttons_label: 'Afficher les boutons de catégorie'
+      show_category_buttons_text: 'Afficher la ligne d''icônes de catégories en haut du sélecteur. Il est utile de désactiver cette option lorsqu''une ou deux catégories seulement sont activées.'
+      show_preview_label: 'Afficher la section d''aperçu'
+      show_preview_text: 'Afficher le nom de l''émoji, le code court et le sélecteur de teint dans un volet de prévisualisation situé sous la grille de sélection.'
+      show_recents_label: 'Afficher (et enregistrer) les emojis les plus récemment utilisés'
+      show_recents_text: 'Afficher l''onglet « Fréquemment utilisés » en haut du sélecteur. Les émojis fréquemment utilisés de chaque utilisateur sont enregistrés uniquement dans son propre navigateur.'
+      show_search_label: 'Afficher la saisie de la recherche'
+      show_search_text: 'Afficher le champ de recherche en haut du sélecteur.'
+      show_variants_label: 'Afficher les variantes de teint'
+      show_variants_text: 'Certains emojis ont des variantes de teint. Lorsqu''un emoji est sélectionné dans le sélecteur contenant des variantes, une fenêtre contextuelle de variante apparaît afin que l''utilisateur puisse sélectionner la variante souhaitée.'
+      specify_categories_label: 'Spécifier les catégories'
+      specify_categories_text: 'Vous pouvez spécifier une liste de catégories ici, et le sélecteur n''affichera que ces catégories.'
+  forum:
+    composer:
+      emoji_picker_label: 'Sélecteur émoji'
+      emoji_tooltip: 'Insérer un émoji'
+      picker_load_error: 'Impossible de charger le sélecteur d''émojis. Veuillez réessayer.'
+      picker_load_retry: Réessayer
+      picker_loading: 'Chargement des émojis…'
+    emoji-mart:
+      add_custom: 'Ajouter un émoji personnalisé'
+      categories:
+        activity: '=> pianotell-flamoji.ref.emoji_categories.activity'
+        custom: '=> pianotell-flamoji.ref.emoji_categories.custom'
+        flags: '=> pianotell-flamoji.ref.emoji_categories.flags'
+        foods: '=> pianotell-flamoji.ref.emoji_categories.foods'
+        frequent: '=> pianotell-flamoji.ref.emoji_categories.frequent'
+        nature: '=> pianotell-flamoji.ref.emoji_categories.nature'
+        objects: '=> pianotell-flamoji.ref.emoji_categories.objects'
+        people: '=> pianotell-flamoji.ref.emoji_categories.people'
+        places: '=> pianotell-flamoji.ref.emoji_categories.places'
+        symbols: '=> pianotell-flamoji.ref.emoji_categories.symbols'
+      category_search: 'Résultats de la recherche'
+      no_emojis_found_message: 'Aucun émoji trouvé'
+      no_emojis_found_title: 'Oh non !'
+      pick: 'Choisir un émoji'
+      search_placeholder: Rechercher
+      skin_tone_choose: 'Choisissez le teint par défaut'
+      skin_tone_dark: Foncé
+      skin_tone_default: 'Par défaut'
+      skin_tone_light: Clair
+      skin_tone_medium: 'Légèrement mate'
+      skin_tone_medium_dark: Mate
+      skin_tone_medium_light: 'Moyennement clair'
+  ref:
+    emoji_categories:
+      activity: Activités
+      custom: Personnalisé
+      flags: Drapeaux
+      foods: 'Nourriture & Boisson'
+      frequent: 'Récemment utilisés'
+      nature: 'Animaux & Nature'
+      objects: Objets
+      people: 'Smileys & Personnages'
+      places: 'Voyages et Lieux'
+      symbols: Symboles
