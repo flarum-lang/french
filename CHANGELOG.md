@@ -11,12 +11,14 @@ CHANGELOG
 * [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
 * [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
 
 
 **Mise à jour des traductions de certaines extensions**:
 
 * [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 
 
