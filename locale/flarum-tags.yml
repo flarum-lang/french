@@ -74,7 +74,7 @@ flarum-tags:
       discussions:
         tag:
           hint: 'nom d''une étiquette ou liste de noms d''étiquettes séparés par des virgules, ou « non étiqueté »'
-          key: 'a étiqueté'
+          key: étiquetée
     tag_selection_modal:
       bypass_requirements: 'Contourner les exigences en matière d''étiquettes'
       choose_primary_placeholder: '{count, plural, one {Sélectionner une étiquette primaire} other {Sélectionner # étiquettes primaires}}'
