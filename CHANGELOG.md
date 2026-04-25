@@ -5,6 +5,11 @@ CHANGELOG
 5.0.1 (XXXX-XX-XX)
 ------------------
 
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
 **Prise en charge de nouvelles extensions**:
 
 * [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
