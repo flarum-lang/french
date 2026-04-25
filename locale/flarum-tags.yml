@@ -73,7 +73,7 @@ flarum-tags:
     gambits:
       discussions:
         tag:
-          hint: 'nom d''une étiquette ou liste de noms d''étiquettes séparés par des virgules, ou « non étiqueté »'
+          hint: 'nom d''une étiquette ou liste de noms d''étiquette séparés par des virgules, ou « non étiquetée»'
           key: étiquetée
     tag_selection_modal:
       bypass_requirements: 'Contourner les exigences en matière d''étiquettes'

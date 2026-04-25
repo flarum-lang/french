@@ -769,7 +769,7 @@ core:
     gambits:
       discussions:
         author:
-          hint: 'nom d''utilisateur ou liste de noms d''utilisateurs séparés par des virgules'
+          hint: 'nom d''utilisateur ou liste de noms d''utilisateur séparés par des virgules'
           key: auteur
         created:
           hint: '2020-12-31 ou 2020-12-31..2021-09-30'
@@ -784,14 +784,14 @@ core:
         is: est
       posts:
         discussion:
-          hint: 'Identifiant de la discussion'
+          hint: 'identifiant de la discussion'
           key: discussion
       users:
         email:
           hint: exemple@machine.local
           key: courriel
         group:
-          hint: 'les noms des groupes au singulier ou au pluriel'
+          hint: 'noms de groupe au singulier ou au pluriel'
           key: groupe
     input:
       clear_button: 'Effacer la saisie'
