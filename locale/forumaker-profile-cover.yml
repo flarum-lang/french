@@ -17,5 +17,5 @@ forumaker-profile-cover:
     edit_cover: 'Modifier la couverture'
     notice: 'Taille maximale : {size}'
     removed:
-      error: 'Impossible de supprimer la couverture, réessayez plus tard'
+      error: 'Impossible de supprimer la couverture, veuillez réessayer'
       success: 'La couverture de profil a été supprimée'
