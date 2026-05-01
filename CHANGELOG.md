@@ -12,6 +12,7 @@ CHANGELOG
 
 **Prise en charge de nouvelles extensions**:
 
+* [`ekumanov/flarum-ext-markdown-tables`](https://github.com/ekumanov/flarum-ext-markdown-tables)
 * [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
 * [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
