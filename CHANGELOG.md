@@ -2,6 +2,36 @@ CHANGELOG
 =========
 
 
+5.0.1 (2026-05-01)
+------------------
+
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
+**Prise en charge de nouvelles extensions**:
+
+* [`ekumanov/flarum-ext-markdown-tables`](https://github.com/ekumanov/flarum-ext-markdown-tables)
+* [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
+* [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
+Journal de toutes les modifications : [v5.0.0...v5.0.1](https://github.com/flarum-lang/french/compare/v5.0.0...v5.0.1).
+
+
 5.0.0 (2026-04-22)
 ------------------
 
