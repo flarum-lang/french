@@ -26,6 +26,7 @@ CHANGELOG
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 
 
 Journal de toutes les modifications : [v5.0.0...v5.0.1](https://github.com/flarum-lang/french/compare/v5.0.0...v5.0.1).
