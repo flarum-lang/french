@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-5.0.1 (XXXX-XX-XX)
+5.0.1 (2026-05-01)
 ------------------
 
 **Modifications générales**:
