@@ -171,7 +171,7 @@ fof-upload:
       shared_media: 'Média partagé'
       upload: Transférer
       upload_shared: Partagé
-      user_uploads: 'Transferts de l''utilisateur'
+      user_uploads: 'Médias de l''utilisateur'
     media_manager: 'Gestionnaire de médias'
     states:
       error: Erreur
