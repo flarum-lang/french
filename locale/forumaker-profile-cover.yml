@@ -4,11 +4,22 @@
 
 forumaker-profile-cover:
   admin:
+    delete_error: 'Échec de la suppression des miniatures'
+    delete_success: 'Toutes les miniatures ont été supprimées'
+    delete_thumbnails: 'Supprimer les miniatures'
     max_size: 'Taille maximale de l''image de couverture du profil (en kilo-octets)'
     permission:
       set_cover: 'Définir la couverture du profil'
+    recreate_error: 'Échec de la recréation des miniatures'
+    recreate_success: 'Les miniatures ont été recréées avec succès'
+    recreate_thumbnails: 'Recréer les miniatures'
+    sections:
+      general: Général
+      thumbnails: Miniatures
+    thumbnail_width: 'Largeur maximale des miniatures (px)'
+    thumbnail_width_help: 'La couverture est redimensionnée proportionnellement afin que sa largeur corresponde à cette valeur. Par défaut, la valeur est 500'
     thumbnails: 'Créer des miniatures'
-    thumbnails_help: 'Crée une version réduite de la couverture utilisée dans les affichages compacts tels que les cartes utilisateur et les listes de répertoires'
+    thumbnails_help: 'Crée une version réduite de la couverture utilisée dans les affichages compacts tels que les cartes utilisateur et les listes de répertoires. Lorsque cette option est désactivée, ce sont les couvertures en taille réelle qui sont utilisées à la place'
   forum:
     added:
       error: 'L''image n''a pas pu être transférée'
@@ -17,5 +28,5 @@ forumaker-profile-cover:
     edit_cover: 'Modifier la couverture'
     notice: 'Taille maximale : {size}'
     removed:
-      error: 'Impossible de supprimer la couverture, veuillez réessayer'
+      error: 'Échec de la suppression de la couverture, veuillez réessayer'
       success: 'La couverture de profil a été supprimée'
