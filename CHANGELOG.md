@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+5.0.2 (XXXX-XX-XX)
+------------------
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
+
+
+Journal de toutes les modifications : [v5.0.1...v5.0.2](https://github.com/flarum-lang/french/compare/v5.0.1...v5.0.2).
+
+
 5.0.1 (2026-05-01)
 ------------------
 
