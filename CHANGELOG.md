@@ -8,6 +8,7 @@ CHANGELOG
 **Mise à jour des traductions de certaines extensions**:
 
 * [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
 
 
 Journal de toutes les modifications : [v5.0.1...v5.0.2](https://github.com/flarum-lang/french/compare/v5.0.1...v5.0.2).
