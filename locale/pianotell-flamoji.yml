@@ -44,11 +44,13 @@ pianotell-flamoji:
       picker_set_native: Natif
       picker_set_text: 'Comment les émojis s''affichent dans le sélecteur. « Auto » s''adapte à l''extension Emoji de Flarum — Twemoji lorsqu''elle est activée sinon, les polices natives du système d''exploitation — afin que le sélecteur reflète fidèlement ce qui s''affiche réellement dans les messages.'
       picker_set_twemoji: Twemoji
+      prepopulate_recents_label: 'Préremplir avec des émojis populaires'
+      prepopulate_recents_text: 'Lorsque cette option est activée, la section « Fréquemment utilisés » affiche par défaut une sélection d''émojis populaires avant même que l''utilisateur n''en ait sélectionné un. Lorsqu''elle est désactivée, la section commence par être vide et se remplit au fur et à mesure que l''utilisateur sélectionne des émojis.'
       show_category_buttons_label: 'Afficher les boutons de catégorie'
       show_category_buttons_text: 'Afficher la ligne d''icônes de catégories en haut du sélecteur. Il est utile de désactiver cette option lorsqu''une ou deux catégories seulement sont activées.'
       show_preview_label: 'Afficher la section de prévisualisation'
       show_preview_text: 'Afficher le nom de l''émoji, le code court et le sélecteur de teint dans un volet de prévisualisation situé sous la grille de sélection.'
-      show_recents_label: 'Afficher (et enregistrer) les émojis les plus récemment utilisés'
+      show_recents_label: 'Afficher (et enregistrer) les émojis fréquemment utilisés'
       show_recents_text: 'Afficher l''onglet « Fréquemment utilisés » en haut du sélecteur. Les émojis fréquemment utilisés de chaque utilisateur sont enregistrés uniquement dans son propre navigateur.'
       show_search_label: 'Afficher la saisie de la recherche'
       show_search_text: 'Afficher le champ de recherche en haut du sélecteur.'
@@ -94,7 +96,7 @@ pianotell-flamoji:
       custom: Personnalisé
       flags: Drapeaux
       foods: 'Nourriture & Boisson'
-      frequent: 'Récemment utilisés'
+      frequent: 'Fréquemment utilisés'
       nature: 'Animaux & Nature'
       objects: Objets
       people: 'Smileys & Personnages'
