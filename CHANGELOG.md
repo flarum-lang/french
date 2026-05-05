@@ -7,6 +7,7 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
 * [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
 * [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
 
