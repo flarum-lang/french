@@ -44,6 +44,7 @@ ekumanov-forum-widgets:
       show_discussions_count: 'Afficher le nombre de discussions'
       show_latest_registration: 'Afficher la dernière inscription'
       show_online_guests: 'Afficher les invités en ligne'
+      show_online_guests_help: 'Lorsque cette option est activée, un nombre approximatif d''invités s''affiche dans le panneau déroulant sous la forme d''un cercle en pointillés situé sous les utilisateurs masqués.'
       show_online_users: 'Afficher les utilisateurs en ligne'
       show_online_users_help: 'Activer ou désactiver complètement la fonctionnalité « Utilisateurs en ligne ». Lorsque cette option est désactivée, aucune requête relative aux utilisateurs en ligne ne sera exécutée.'
       show_posts_count: 'Afficher le nombre de messages'
