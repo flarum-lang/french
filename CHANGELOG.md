@@ -5,6 +5,11 @@ CHANGELOG
 5.0.2 (XXXX-XX-XX)
 ------------------
 
+**Prise en charge de nouvelles extensions**:
+
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
+
+
 **Mise à jour des traductions de certaines extensions**:
 
 * [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
