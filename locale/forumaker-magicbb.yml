@@ -25,6 +25,7 @@ forumaker-magicbb:
       bb_hide_reply: Réponse
       bb_hide_reply_help: 'Le contenu reste masqué jusqu''à ce que l''utilisateur réponde dans la discussion'
       bb_iframe: iframe
+      bb_iframe_help: 'Permet d''intégrer des iframes provenant de n''importe quelle source. À utiliser avec prudence — le contenu intégré peut contenir des scripts externes. 🧹 Après avoir modifié ce paramètre, veuillez vider le cache de Flarum'
       bb_image: 'FoF Upload'
       bb_image_help: 'Ajoute un nouveau bouton dans le compositeur pour l''alignement des images. Les grandes images centrées sont automatiquement redimensionnées à 60 % de la largeur du message, et celles alignées sur le côté, jusqu''à 40 %'
       bb_info: Alertes
@@ -48,4 +49,10 @@ forumaker-magicbb:
       spoiler_button: 'Ajouter un spoiler'
       table_button: 'Ajouter un tableau'
     hide:
+      like_link_fallback: 'J''aime'
+      like_to_see: 'Ce contenu est visible après {like} le message'
+      like_to_see_simple: 'Vous devez aimer ce message pour voir le contenu'
       login_to_see: 'Ce contenu est visible après {login}'
+      login_to_see_simple: 'Vous devez vous connecter pour voir ce contenu'
+      reply_to_see: 'Ce contenu est visible après {reply} dans la discussion'
+      reply_to_see_simple: 'Vous devez répondre à cette discussion pour voir le contenu'
