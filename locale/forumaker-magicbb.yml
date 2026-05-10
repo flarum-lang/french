@@ -5,11 +5,14 @@
 forumaker-magicbb:
   admin:
     permissions:
+      bypass_like: 'Contourner l''exigence d''aimer'
+      bypass_reply: 'Contourner l''exigence de répondre'
       use_iframe: 'Autoriser les iframes'
     sections:
       content: 'Boutons de contenu'
       features: Fonctionnalités
       hide: 'Masquer les boutons'
+      images: 'Boutons d''image'
       text: 'Boutons de texte'
     settings:
       bb_audio: Audio
@@ -26,7 +29,23 @@ forumaker-magicbb:
       bb_image_help: 'Ajoute un nouveau bouton dans le compositeur pour l''alignement des images. Les grandes images centrées sont automatiquement redimensionnées à 60 % de la largeur du message, et celles alignées sur le côté, jusqu''à 40 %'
       bb_info: Alertes
       bb_justify: Justifier
-      bb_spoiler: Divulgâcher
+      bb_spoiler: Spoiler
       bb_table: Tableau
       toolbar_group: 'Regrouper les boutons MagicBB'
       toolbar_group_help: 'Si cette option est activée, tous les boutons de MagicBB seront regroupés en un seul bouton dans le compositeur'
+  forum:
+    composer:
+      audio_button: 'Ajouter un fichier audio'
+      center_button: Centrer
+      color_button: 'Ajouter une couleur'
+      hide_like_button: 'Masqué – « J''aime » requis'
+      hide_login_button: 'Masqué - connexion requise'
+      hide_reply_button: 'Masqué - réponse requise'
+      image_button: 'Ajouter une image intelligente'
+      info_button: 'Ajouter une alerte'
+      justify_button: Justifier
+      more_button: Plus
+      spoiler_button: 'Ajouter un spoiler'
+      table_button: 'Ajouter un tableau'
+    hide:
+      login_to_see: 'Ce contenu est visible après {login}'
