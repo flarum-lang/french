@@ -5,13 +5,15 @@
 linkrobins-countdown-widget:
   admin:
     settings:
-      done_message_help: 'Ce qu''il faut afficher lorsque le compte à rebours arrive à zéro. Si ce champs est vide, un émoji « fête » s''affiche par défaut.'
+      done_message_help: 'Ce qui doit s''afficher lorsque le compte à rebours arrive à zéro. Si ce champs est vide, un émoji « fête » s''affiche par défaut.'
       done_message_label: 'Message de fin'
       icon_help: 'Classe FontAwesome à afficher à côté du titre (par exemple : fas fa-rocket, fas fa-bullhorn, fas fa-calendar). Si vous ne souhaitez pas d''icône, laissez ce champ vide.'
       icon_label: 'Classe d''icône'
       link_url_help: 'Facultatif. Si cette option est activée, les cases du compte à rebours (ainsi que le message de fin) deviennent un lien cliquable vers cette URL.'
       link_url_label: 'URL du lien'
+      target_help: 'Sélectionnez le moment où le compte à rebours doit s''arrêter. Le sélecteur de date du navigateur affiche l''année, le mois, le jour, l''heure et les minutes. Le paramètre de fuseau horaire ci-dessous indique au widget dans quelle zone se situe cette heure.'
       target_label: 'Date et heure cibles'
+      timezone_help: 'Nom du fuseau horaire IANA (par exemple : UTC, America/New_York, Europe/Paris, Asia/Tokyo). Le compte à rebours du navigateur de chaque visiteur s''arrête au même instant, quel que soit l''endroit où il se trouve.'
       timezone_label: 'Fuseau horaire'
       title_help: 'Facultatif. S''affiche au-dessus du compte à rebours. Si vous ne souhaitez pas d''en-tête, laissez ce champ vide.'
       title_label: Titre
