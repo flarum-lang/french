@@ -20,6 +20,7 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on)
 * [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
 * [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
 * [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
