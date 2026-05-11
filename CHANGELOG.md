@@ -7,10 +7,13 @@ CHANGELOG
 
 **Prise en charge de nouvelles extensions**:
 
+* [`datlechin/flarum-mermaid`](https://github.com/datlechin/flarum-mermaid)
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
 * [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+* [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget)
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget)
 * [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget)
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
 * [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 
