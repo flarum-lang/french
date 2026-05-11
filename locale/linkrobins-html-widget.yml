@@ -5,7 +5,9 @@
 linkrobins-html-widget:
   admin:
     settings:
-      icon_help: 'Classe FontAwesome à afficher à côté du titre (par exemple : fas fa-bullhorn). Laisser vide pour ne pas afficher d''icône.'
+      body_help: 'Le code HTML brut sera affiché tel quel. Soyez prudent et n''insérez que du code HTML auquel vous faites confiance.'
+      body_label: 'Corps du HTML'
+      icon_help: 'Classe FontAwesome à afficher à côté du titre (par exemple : fas fa-bullhorn). Si vous ne souhaitez pas d''icône, laissez ce champ vide.'
       icon_label: 'Classe d''icône'
-      title_help: 'Facultatif. S''affiche au-dessus du texte. Laisser vide si vous ne souhaitez pas d''en-tête.'
+      title_help: 'Facultatif. S''affiche au-dessus du texte. Si vous ne souhaitez pas d''en-tête, laissez ce champ vide.'
       title_label: Titre
