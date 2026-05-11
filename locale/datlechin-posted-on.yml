@@ -3,8 +3,32 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 datlechin-posted-on:
+  admin:
+    settings:
+      display_mode_os_browser: 'Système d''exploitation et navigateur (par exemple Windows 11 · Chrome 121)'
+      display_mode_os_only: 'Système d''exploitation uniquement (par exemple Windows 11)'
+      skip_guests_label: 'Ne pas collecter pour les invités'
   forum:
+    device_types:
+      camera: Caméra
+      'car browser': Voiture
+      console: Console
+      desktop: 'Ordinateur de bureau'
+      'feature phone': Téléphone
+      peripheral: Périphérique
+      phablet: Phablette
+      'portable media player': 'Lecteur multimédia'
+      'smart display': 'Écran connecté'
+      'smart speaker': 'Enceinte connectée'
+      smartphone: Téléphone
+      tablet: Tablette
+      tv: TV
+      wearable: Portable
     post:
       posted_on_text: 'Publier sur {posted_on}'
+      tooltip:
+        client: Navigateur
+        device: Appareil
+        os: 'Système d''exploitation'
     settings:
-      privacy_disclose_posted_on_label: 'Autoriser aux autres de voir les appareils sur lesquels je suis posté'
+      privacy_disclose_posted_on_label: 'Indiquer aux autres depuis quel appareil je publie'
