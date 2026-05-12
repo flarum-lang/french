@@ -16,6 +16,7 @@ CHANGELOG
 * [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget)
 * [`linkrobins/op`](https://github.com/linkrobins/OP)
 * [`linkrobins/post-num`](https://github.com/linkrobins/post-num)
+* [`linkrobins/referral`](https://github.com/linkrobins/referral)
 * [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
 * [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
