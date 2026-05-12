@@ -3,7 +3,25 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 linkrobins-referral:
+  admin:
+    settings:
+      disabled: Désactivé
+      enabled: Activé
+      require_help: 'Lorsque cette option est activée, les utilisateurs doivent saisir un code d''invitation valide pour finaliser leur inscription.'
+      require_label: 'Exiger un code d''invitation pour s''inscrire'
   forum:
     profile:
+      copy: Copier
+      copy_link: 'Copier le lien d''invitation'
+      invite_code_help: 'Partagez votre code ou votre lien d''invitation. Toute personne qui cliquera sur votre lien verra le code s''afficher automatiquement lors de son inscription.'
       invite_code_title: 'Votre code d''invitation'
+      no_referrals: 'Aucune recommandation pour le moment. Partagez votre code d''invitation pour commencer !'
       tab: Recommandations
+      total_referrals: 'Nombre total de recommandations'
+    sign_up:
+      invite_code_label: 'Code d''invitation'
+      invite_code_label_required: 'Code d''invitation *'
+      invite_code_placeholder: 'par exemple : K7XM2QNP'
+  validation:
+    invalid: 'Code d''invitation invalide.'
+    required: 'Un code d''invitation est requis pour s''inscrire.'
