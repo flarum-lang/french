@@ -1,6 +1,6 @@
 # French Language Pack for [Flarum](https://flarum.org/)
 
-[![Weblate](https://weblate.rob006.net/widgets/flarum2/fr/svg-badge.svg)](https://weblate.rob006.net/languages/fr/flarum/)
+[![Weblate](https://weblate.rob006.net/widgets/flarum2/fr/svg-badge.svg)](https://weblate.rob006.net/languages/fr/flarum2/)
 
 French language pack to localize the Flarum forum software plus its official and third-party extensions.
 
@@ -25,9 +25,9 @@ php flarum cache:clear
 
 This project uses a [Weblate](https://weblate.org/) instance hosted and managed by [rob006](https://github.com/rob006).
 
-**You can help us very easily to improve our translation [on this page](https://weblate.rob006.net/engage/flarum/fr/) where you can contribute without any specific knowledge (no code editing, everything is visual). Thanks, we are looking for your contributions!**
+**You can help us very easily to improve our translation [on this page](https://weblate.rob006.net/engage/flarum2/fr/) where you can contribute without any specific knowledge (no code editing, everything is visual). Thanks, we are looking for your contributions!**
 
-You can use [our glossary](https://weblate.rob006.net/browse/flarum/glossary/fr/) to help you to choose the right term to use in order to meet the desired standardization of the language pack.
+You can use [our glossary](https://weblate.rob006.net/browse/flarum2/glossary/fr/) to help you to choose the right term to use in order to meet the desired standardization of the language pack.
 
 For information, our current language pack maintainer is [Qiaeru](https://github.com/qiaeru). Also, our past and present contributors are [adaur](https://github.com/adaur), [elamotte](https://github.com/elamotte), [Hiobi](https://github.com/Hiobi), [luceos](https://github.com/luceos), [Magicalex](https://github.com/Magicalex), [rob006](https://github.com/rob006), [sijad](https://github.com/sijad), [Technowix](https://github.com/Technowix) and [tobyzerner](https://github.com/tobyzerner). You rocks!
 
