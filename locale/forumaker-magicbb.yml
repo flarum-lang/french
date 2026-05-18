@@ -15,6 +15,8 @@ forumaker-magicbb:
       images: 'Boutons d''image'
       text: 'Boutons de texte'
     settings:
+      bb_anchor: 'Ancrage et saut'
+      bb_anchor_help: 'Cibles de défilement nommées et liens de saut au sein d''un message'
       bb_audio: Audio
       bb_center: Centrer
       bb_color: Couleur
@@ -26,8 +28,8 @@ forumaker-magicbb:
       bb_hide_reply_help: 'Le contenu reste masqué jusqu''à ce que l''utilisateur réponde dans la discussion'
       bb_iframe: iframe
       bb_iframe_help: 'Permet d''intégrer des iframes provenant de n''importe quelle source. À utiliser avec prudence — le contenu intégré peut contenir des scripts externes. 🧹 Après avoir modifié ce paramètre, veuillez vider le cache de Flarum'
-      bb_image: 'FoF Upload'
-      bb_image_help: 'Ajoute un nouveau bouton dans le compositeur pour l''alignement des images. Les grandes images centrées sont automatiquement redimensionnées à 60 % de la largeur du message, et celles alignées sur le côté, jusqu''à 40 %'
+      bb_image: 'Alignement des images'
+      bb_image_help: 'Encadre les images et autres contenus multimédias intégrés dans un conteneur d''alignement. Les contenus multimédias centrés sont redimensionnées à 60 % de la largeur du message, tandis que ceux alignés sur le côté — jusqu''à 40 %'
       bb_info: Alertes
       bb_justify: Justifier
       bb_spoiler: Spoiler
@@ -36,14 +38,16 @@ forumaker-magicbb:
       toolbar_group_help: 'Si cette option est activée, tous les boutons de MagicBB seront regroupés en un seul bouton dans le compositeur'
   forum:
     composer:
+      anchor_button: 'Ajouter un ancrage'
       audio_button: 'Ajouter un fichier audio'
       center_button: Centrer
       color_button: 'Ajouter une couleur'
-      hide_like_button: 'Masqué – « J''aime » requis'
-      hide_login_button: 'Masqué - connexion requise'
-      hide_reply_button: 'Masqué - réponse requise'
-      image_button: 'Ajouter une image intelligente'
+      hide_like_button: 'Masqué — « J''aime » requis'
+      hide_login_button: 'Masqué — connexion requise'
+      hide_reply_button: 'Masqué — réponse requise'
+      image_button: 'Aligner une image'
       info_button: 'Ajouter une alerte'
+      jump_button: 'Ajouter un lien de saut'
       justify_button: Justifier
       more_button: Plus
       spoiler_button: 'Ajouter un spoiler'
