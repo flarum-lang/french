@@ -5,8 +5,12 @@
 linkrobins-support:
   admin:
     settings:
+      description: 'Configurer les catégories et les limites de fréquence pour le système de tickets.'
       title: Support
   forum:
     nav: Support
     new_ticket: 'Nouveau ticket'
+    settings:
+      notify_new_reply_label: 'Quelqu''un répond à mon ticket'
+      notify_new_ticket_label: 'Un nouveau ticket est créé (par l''équipe)'
     submit_ticket: 'Soumettre un ticket'
