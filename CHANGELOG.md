@@ -12,6 +12,7 @@ CHANGELOG
 * [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
 * [`linkrobins/clipboard`](https://github.com/linkrobins/clipboard)
 * [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget)
+* [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget)
 * [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget)
 * [`linkrobins/op`](https://github.com/linkrobins/OP)
