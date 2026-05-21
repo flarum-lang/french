@@ -2,6 +2,45 @@ CHANGELOG
 =========
 
 
+5.0.2 (2026-05-21)
+------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`datlechin/flarum-mermaid`](https://github.com/datlechin/flarum-mermaid)
+* [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
+* [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references)
+* [`ernestdefoe/theme-toggle`](https://github.com/ernestdefoe/theme-toggle)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+* [`linkrobins/clipboard`](https://github.com/linkrobins/clipboard)
+* [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget)
+* [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
+* [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget)
+* [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget)
+* [`linkrobins/op`](https://github.com/linkrobins/OP)
+* [`linkrobins/post-num`](https://github.com/linkrobins/post-num)
+* [`linkrobins/referral`](https://github.com/linkrobins/referral)
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
+* [`linkrobins/support`](https://github.com/linkrobins/support)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
+* [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
+* [`ramon/auth-modals`](https://github.com/ram0ng1/auth-modals)
+* [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta)
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on)
+* [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
+* [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
+
+
+Journal de toutes les modifications : [v5.0.1...v5.0.2](https://github.com/flarum-lang/french/compare/v5.0.1...v5.0.2).
+
+
 5.0.1 (2026-05-01)
 ------------------
 
