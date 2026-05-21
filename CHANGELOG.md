@@ -20,6 +20,7 @@ CHANGELOG
 * [`linkrobins/referral`](https://github.com/linkrobins/referral)
 * [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
 * [`linkrobins/support`](https://github.com/linkrobins/support)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
 * [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
 * [`ramon/auth-modals`](https://github.com/ram0ng1/auth-modals)
