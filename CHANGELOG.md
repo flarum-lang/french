@@ -9,6 +9,8 @@ CHANGELOG
 
 * [`datlechin/flarum-mermaid`](https://github.com/datlechin/flarum-mermaid)
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
+* [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references)
+* [`ernestdefoe/theme-toggle`](https://github.com/ernestdefoe/theme-toggle)
 * [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
 * [`linkrobins/clipboard`](https://github.com/linkrobins/clipboard)
 * [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget)
