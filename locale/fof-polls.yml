@@ -49,10 +49,20 @@ fof-polls:
     compose:
       add_title: 'Ajouter un sondage'
       continue_editing: 'Continuer la modification'
+      draft_saved: 'Brouillon enregistré'
       edit_title: 'Modifier le sondage'
       polls_manager: 'Gestionnaire de sondages'
       polls_preview: 'Voir le sondage'
+      publish: Publier
+      save_as_draft: 'Enregistrer comme brouillon'
+      schedule: Planifier
+      schedule_datetime_label: 'Publier sur'
+      schedule_publication: 'Planifier la publication'
+      schedule_publication_edit: 'Modifier la publication planifiée'
+      schedule_submit: Planifier
+      submit: Envoyer
       success: 'Le sondage a été enregistré.'
+      update_draft: 'Mettre à jour le brouillon'
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
@@ -68,6 +78,7 @@ fof-polls:
       date_placeholder: 'Date de fin du sondage (facultatif)'
       delete: '=> core.ref.delete'
       edit_title: 'Modifier le sondage'
+      empty_answers: '{count, plural, one {# le champs est vide — veuillez la remplir ou la supprimer.} other {# les champs sont vides — veuillez les remplir ou les supprimer.}}'
       error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Masquer les votes jusqu''à la fin du sondage'
       hide_votes_label_help: 'L''utilisateur qui a démarré le sondage pourra toujours voir les votes.'
@@ -110,16 +121,29 @@ fof-polls:
     poll:
       cannot_change_vote: 'Vous ne pouvez pas modifier votre vote après avoir voté.'
       cannot_start_poll_button: 'Impossible de démarrer le sondage'
+      draft_label: Brouillon
+      scheduled_error_tooltip: 'La planification de cette publication a échoué. Ouvrez le sondage pour découvrir pourquoi.'
+      scheduled_label: 'Planifié pour {date}'
       start_poll_button: 'Démarrer un sondage global'
       submit_button: Voter
       total_votes: '{count, plural, one {# vote a été attribué} other {# votes ont été attribués}}'
     poll_controls:
+      cancel_schedule_label: 'Annuler la publication planifiée'
+      cancel_schedule_success: 'La publication planifiée a été annulée.'
       delete_confirmation: 'Êtes-vous sûr de vouloir supprimer ce sondage ?'
       delete_error_message: 'Un problème est survenu lors de la suppression du sondage.'
       delete_label: '=> core.ref.delete'
       delete_success_message: 'Le sondage a été supprimé.'
       edit_label: '=> core.ref.edit'
+      edit_schedule_publish_label: 'Modifier la publication planifiée'
+      publish_label: 'Publier maintenant'
+      publish_success: 'Sondage publié.'
+      schedule_publish_label: 'Planifier la publication'
       toggle_dropdown_accessible_label: 'Afficher le menu des contrôles du sondage'
+      unpublish_confirmation: 'Remettre ce sondage en brouillon ? Il disparaîtra de la page d''accueil.'
+      unpublish_error_has_votes: 'Impossible de désactiver la publication — le sondage a déjà recueilli des votes. Supprimez-le plutôt.'
+      unpublish_label: 'Remettre en brouillon'
+      unpublish_success: 'Sondage remis en brouillon.'
       view_label: '=> core.ref.view'
     poll_ended: 'Ce sondage est terminé.'
     poll_form:
@@ -162,6 +186,10 @@ fof-polls:
         oldest: 'Plus ancien'
         sort_dropdown:
           default: '=> fof-polls.forum.polls_list.sort_dropdown.newest'
+      status_filter:
+        all: Tous
+        draft: Brouillons
+        published: Publiés
     polls_page:
       title: Sondages
     public_poll: 'Voir les votants'
