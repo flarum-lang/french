@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+5.0.3 (XXXX-XX-XX)
+------------------
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+
+
+Journal de toutes les modifications : [v5.0.2...v5.0.3](https://github.com/flarum-lang/french/compare/v5.0.2...v5.0.3).
+
+
 5.0.2 (2026-05-21)
 ------------------
 
