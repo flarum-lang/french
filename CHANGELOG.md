@@ -5,6 +5,11 @@ CHANGELOG
 5.0.3 (XXXX-XX-XX)
 ------------------
 
+**Prise en charge de nouvelles extensions**:
+
+* [`forumaker/steam-oauth`](https://github.com/forumaker/Steam-Oauth)
+
+
 **Mise à jour des traductions de certaines extensions**:
 
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
