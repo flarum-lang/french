@@ -8,6 +8,7 @@ CHANGELOG
 **Prise en charge de nouvelles extensions**:
 
 * [`forumaker/steam-oauth`](https://github.com/forumaker/Steam-Oauth)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
 
 
 **Mise à jour des traductions de certaines extensions**:
