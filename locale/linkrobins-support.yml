@@ -60,11 +60,21 @@ linkrobins-support:
     nav:
       appeal_bans: 'Recours contre les suspensions'
       categories: Catégories
+      rate_limits: 'Limites de fréquence'
     permissions:
-      handle_tickets: 'Gérer les demandes d''assistance'
+      handle_tickets: 'Gérer les tickets d''assistance'
+    rate_limits:
+      appeal_window_days: 'Délai de recours (en jours)'
+      error_save: 'Impossible d''enregistrer les limites de fréquence.'
+      heading: 'Limites de fréquence'
+      intro: 'Limiter la fréquence à laquelle les utilisateurs peuvent ouvrir des tickets d''assistance et des recours contre une suspension.'
+      max_concurrent_appeals: 'Nombre maximal de recours ouverts simultanément'
+      max_concurrent_appeals_help: 'Combien de tickets de recours un utilisateur peut-il ouvrir en même temps.'
+      max_general_per_window: 'Nombre maximal de tickets par période'
+      max_general_per_window_help: 'Combien de tickets d''assistance un utilisateur peut-il ouvrir pendant la période indiquée ci-dessous.'
     settings:
       description: 'Configurer les catégories et les limites de fréquence pour le système de tickets.'
-      title: Support
+      title: Assistance
   email:
     fallback_ticket: 'votre ticket d''assistance'
     new_appeal_subject: '[Assistance / Recours] Nouveau ticket : {objet}'
