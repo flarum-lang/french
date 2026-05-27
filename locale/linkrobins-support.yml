@@ -66,6 +66,7 @@ linkrobins-support:
     rate_limits:
       appeal_window_days: 'Délai de recours (en jours)'
       error_save: 'Impossible d''enregistrer les limites de fréquence.'
+      general_window_hours: 'Période (en heures)'
       heading: 'Limites de fréquence'
       intro: 'Limiter la fréquence à laquelle les utilisateurs peuvent ouvrir des tickets d''assistance et des recours contre une suspension.'
       max_concurrent_appeals: 'Nombre maximal de recours ouverts simultanément'
