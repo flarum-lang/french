@@ -14,6 +14,7 @@ CHANGELOG
 **Mise à jour des traductions de certaines extensions**:
 
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`linkrobins/support`](https://github.com/linkrobins/support)
 
 
 Journal de toutes les modifications : [v5.0.2...v5.0.3](https://github.com/flarum-lang/french/compare/v5.0.2...v5.0.3).
