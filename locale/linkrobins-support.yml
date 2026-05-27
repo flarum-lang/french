@@ -4,9 +4,71 @@
 
 linkrobins-support:
   admin:
+    appeal_bans:
+      column_action: Action
+      column_email: 'Adresse de courriel'
+      column_username: 'Nom d''utilisateur'
+      heading_alt: 'Recours contre les suspensions'
+      saving: Enregistrement…
+      search_button: Rechercher
+      search_error: 'Échec de la recherche. Veuillez réessayer.'
+      search_heading: 'Rechercher un utilisateur'
+      search_help: 'Recherchez un utilisateur par son nom d''utilisateur ou son adresse de courriel pour l''empêcher ou l''autoriser à déposer des recours.'
+      search_placeholder: 'Nom d''utilisateur ou adresse de courriel…'
+      search_results_heading: 'Résultats de la recherche'
+    categories:
+      appeal_badge: Recours
+      column_name: Nom
+      column_slug: 'Identifiant texte unique'
+      column_tickets: Tickets
+      column_type: Type
+      delete_button: Supprimer
+      delete_confirm_named: 'Supprimer la catégorie « {name} » ? Cette action est irréversible.'
+      delete_confirm_with_tickets: 'Cette catégorie contient encore {count} ticket(s). Sa suppression entraînera également la suppression de ces tickets. Voulez-vous continuer ?'
+      edit_button: Modifier
+      empty: 'Aucune catégorie pour le moment. Créez-en une pour commencer.'
+      general_badge: Général
+      heading: 'Catégories d''assistance'
+      intro: 'Créer et organiser les catégories parmi lesquelles les utilisateurs peuvent choisir lorsqu''ils ouvrent un ticket d''assistance.'
+      new_button: 'Nouvelle catégorie'
+      this_category: 'cette catégorie'
+    category_editor:
+      error_delete: 'Impossible de supprimer la catégorie.'
+      error_load: 'Impossible de charger cette catégorie.'
+      error_save: 'Impossible d''enregistrer la catégorie. Veuillez vérifier les champs et réessayer.'
+      field_color: Couleur
+      field_color_help: 'Couleur hexadécimale (par exemple #3b82f6) utilisée pour le badge de la catégorie.'
+      field_description: Description
+      field_icon: Icône
+      field_icon_help: 'Une classe Font Awesome, par exemple fas fa-life-ring.'
+      field_is_appeal: 'Catégorie de recours'
+      field_is_appeal_help: 'Les tickets ouverts dans cette catégorie sont traités comme des recours contre une suspension.'
+      field_name: Nom
+      field_position: Position
+      field_position_help: 'Les catégories sont classées par ordre croissant en fonction de cette valeur.'
+      field_slug: 'Identifiant texte unique'
+      field_slug_help: 'Identifiant URL. Laissez ce champ vide pour que l''identifiant soit généré à partir du nom.'
+      field_slug_placeholder: 'par exemple : facturation'
+      saving: Enregistrement…
+      submit_create: 'Créer une catégorie'
+      submit_update: 'Sauvegarder les modifications'
+      title_edit: 'Modifier la catégorie'
+      title_new: 'Nouvelle catégorie'
+    common:
+      loading: Chargement…
+      unknown_error: 'Quelque chose s''est mal passé. Veuillez réessayer.'
+    nav:
+      appeal_bans: 'Recours contre les suspensions'
+      categories: Catégories
+    permissions:
+      handle_tickets: 'Gérer les demandes d''assistance'
     settings:
       description: 'Configurer les catégories et les limites de fréquence pour le système de tickets.'
       title: Support
+  email:
+    fallback_ticket: 'votre ticket d''assistance'
+    new_appeal_subject: '[Assistance / Recours] Nouveau ticket : {objet}'
+    new_ticket_subject: '[Assistance] Nouveau ticket : {objet}'
   forum:
     nav: Support
     new_ticket: 'Nouveau ticket'
