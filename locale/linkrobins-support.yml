@@ -5,17 +5,23 @@
 linkrobins-support:
   admin:
     appeal_bans:
+      ban_button: 'Interdiction de déposer un recours'
+      banned_empty: 'Aucun utilisateur n''est actuellement privé du droit de déposer des recours.'
+      banned_heading: 'Utilisateurs dont le droit de déposer un recours a été suspendu'
       column_action: Action
       column_email: 'Adresse de courriel'
       column_username: 'Nom d''utilisateur'
+      error_toggle: 'Impossible de mettre à jour le statut de l''utilisateur.'
       heading_alt: 'Recours contre les suspensions'
-      saving: Enregistrement…
+      intro: 'Définir quels utilisateurs ne peuvent pas déposer des recours contre une suspension.'
+      saving: 'Enregistrement en cours…'
       search_button: Rechercher
       search_error: 'Échec de la recherche. Veuillez réessayer.'
       search_heading: 'Rechercher un utilisateur'
       search_help: 'Recherchez un utilisateur par son nom d''utilisateur ou son adresse de courriel pour l''empêcher ou l''autoriser à déposer des recours.'
       search_placeholder: 'Nom d''utilisateur ou adresse de courriel…'
       search_results_heading: 'Résultats de la recherche'
+      unban_button: 'Lever l''interdiction de déposer un recours'
     categories:
       appeal_badge: Recours
       column_name: Nom
@@ -28,8 +34,8 @@ linkrobins-support:
       edit_button: Modifier
       empty: 'Aucune catégorie pour le moment. Créez-en une pour commencer.'
       general_badge: Général
-      heading: 'Catégories d''assistance'
-      intro: 'Créer et organiser les catégories parmi lesquelles les utilisateurs peuvent choisir lorsqu''ils ouvrent un ticket d''assistance.'
+      heading: Catégories
+      intro: 'Créer et organiser les catégories parmi lesquelles les utilisateurs peuvent choisir lorsqu''ils ouvrent un ticket.'
       new_button: 'Nouvelle catégorie'
       this_category: 'cette catégorie'
     category_editor:
@@ -49,38 +55,42 @@ linkrobins-support:
       field_slug: 'Identifiant texte unique'
       field_slug_help: 'Identifiant URL. Laissez ce champ vide pour que l''identifiant soit généré à partir du nom.'
       field_slug_placeholder: 'par exemple : facturation'
-      saving: Enregistrement…
+      saving: 'Enregistrement en cours…'
       submit_create: 'Créer une catégorie'
       submit_update: 'Sauvegarder les modifications'
       title_edit: 'Modifier la catégorie'
       title_new: 'Nouvelle catégorie'
     common:
-      loading: Chargement…
+      loading: 'Chargement en cours…'
       unknown_error: 'Quelque chose s''est mal passé. Veuillez réessayer.'
     nav:
       appeal_bans: 'Recours contre les suspensions'
       categories: Catégories
       rate_limits: 'Limites de fréquence'
     permissions:
-      handle_tickets: 'Gérer les tickets d''assistance'
+      handle_tickets: 'Gérer les tickets'
     rate_limits:
       appeal_window_days: 'Délai de recours (en jours)'
+      appeal_window_days_help: 'La période de temps, en jours, pour la limite de recours.'
       error_save: 'Impossible d''enregistrer les limites de fréquence.'
       general_window_hours: 'Période (en heures)'
+      general_window_hours_help: 'La période de temps, en heures, pour la limite de tickets.'
       heading: 'Limites de fréquence'
-      intro: 'Limiter la fréquence à laquelle les utilisateurs peuvent ouvrir des tickets d''assistance et des recours contre une suspension.'
+      intro: 'Limiter la fréquence à laquelle les utilisateurs peuvent ouvrir des tickets et des recours contre une suspension.'
+      max_appeals_per_window: 'Nombre maximal de recours par période'
+      max_appeals_per_window_help: 'Combien de recours contre une suspension un utilisateur peut-il ouvrir pendant la période indiquée ci-dessous.'
       max_concurrent_appeals: 'Nombre maximal de recours ouverts simultanément'
-      max_concurrent_appeals_help: 'Combien de tickets de recours un utilisateur peut-il ouvrir en même temps.'
+      max_concurrent_appeals_help: 'Combien de recours un utilisateur peut-il ouvrir en même temps.'
       max_general_per_window: 'Nombre maximal de tickets par période'
-      max_general_per_window_help: 'Combien de tickets d''assistance un utilisateur peut-il ouvrir pendant la période indiquée ci-dessous.'
+      max_general_per_window_help: 'Combien de tickets un utilisateur peut-il ouvrir pendant la période indiquée ci-dessous.'
     settings:
       description: 'Configurer les catégories et les limites de fréquence pour le système de tickets.'
-      title: Assistance
+      title: Support
   email:
-    fallback_ticket: 'votre ticket d''assistance'
-    new_appeal_subject: '[Assistance / Recours] Nouveau ticket : {objet}'
-    new_reply_subject: '[Assistance] Nouvelle réponse à : {objet}'
-    new_ticket_subject: '[Assistance] Nouveau ticket : {objet}'
+    fallback_ticket: 'votre ticket'
+    new_appeal_subject: '[Assistance / Recours] Nouveau ticket : {subject}'
+    new_reply_subject: '[Assistance] Nouvelle réponse à : {subject}'
+    new_ticket_subject: '[Assistance] Nouveau ticket : {subject}'
   forum:
     nav: Support
     new_ticket: 'Nouveau ticket'
