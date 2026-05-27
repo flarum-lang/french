@@ -68,6 +68,7 @@ linkrobins-support:
   email:
     fallback_ticket: 'votre ticket d''assistance'
     new_appeal_subject: '[Assistance / Recours] Nouveau ticket : {objet}'
+    new_reply_subject: '[Assistance] Nouvelle réponse à : {objet}'
     new_ticket_subject: '[Assistance] Nouveau ticket : {objet}'
   forum:
     nav: Support
