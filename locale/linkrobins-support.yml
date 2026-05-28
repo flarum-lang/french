@@ -98,10 +98,10 @@ linkrobins-support:
       save_changes: 'Sauvegarder les modifications'
     compose:
       appeal_banned: 'Vous n''êtes pas autorisé à déposer un recours. Veuillez contacter l''administrateur par un autre moyen.'
-      body_placeholder: 'Décrivez le problème en détail...'
+      body_placeholder: 'Décrivez votre problème en détail...'
       no_appeal_categories: 'Aucune catégorie de recours n''est actuellement disponible.'
       no_categories: 'Aucune catégorie n''a encore été créée. Veuillez contacter un administrateur.'
-      subject_placeholder: Objet
+      subject_placeholder: 'Décrivez votre problème en quelques mots'
       submit: 'Envoyer le ticket'
       title: 'Nouveau ticket'
       title_appeal: 'Déposer un recours'
