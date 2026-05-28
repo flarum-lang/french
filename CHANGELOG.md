@@ -14,6 +14,10 @@ CHANGELOG
 **Mise à jour des traductions de certaines extensions**:
 
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget)
+* [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget)
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
 * [`linkrobins/support`](https://github.com/linkrobins/support)
 
 
