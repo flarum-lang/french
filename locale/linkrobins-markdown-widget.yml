@@ -5,9 +5,10 @@
 linkrobins-markdown-widget:
   admin:
     settings:
-      body_help: 'Markdown standard (version GitHub). Les titres, les listes, les liens, le code, les tableaux et le code HTML intégré sont pris en charge. Le code HTML intégré sera affiché tel quel, n''insérez donc que du contenu auquel vous faites confiance.'
+      body_help: 'Markdown standard (version GitHub). Les titres, les listes, les liens, le code, les tableaux sont pris en charge. Le code HTML est autorisé mais nettoyé avant l''affichage : les balises de script, les gestionnaires d''événements et autres balises non sécurisés sont supprimés.'
       body_label: 'Corps du Markdown'
       icon_help: 'Classe FontAwesome à afficher à côté du titre (par exemple : fab fa-markdown). Si vous ne souhaitez pas d''icône, laissez ce champ vide.'
       icon_label: 'Classe d''icône'
       title_help: 'Facultatif. S''affiche au-dessus du texte. Si vous ne souhaitez pas d''en-tête, laissez ce champ vide.'
       title_label: Titre
+      title_placeholder: 'Bienvenue dans notre communauté !'

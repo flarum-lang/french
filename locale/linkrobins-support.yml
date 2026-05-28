@@ -69,6 +69,7 @@ linkrobins-support:
       rate_limits: 'Limites de fréquence'
     permissions:
       handle_tickets: 'Gérer les tickets'
+      manage_appeal_bans: 'Gérer les recours contre les suspensions'
     rate_limits:
       appeal_window_days: 'Délai de recours (en jours)'
       appeal_window_days_help: 'La période de temps, en jours, pour la limite de recours.'
@@ -92,9 +93,77 @@ linkrobins-support:
     new_reply_subject: '[Assistance] Nouvelle réponse à : {subject}'
     new_ticket_subject: '[Assistance] Nouveau ticket : {subject}'
   forum:
+    action:
+      delete_forever: 'Supprimer définitivement'
+      save_changes: 'Sauvegarder les modifications'
+    compose:
+      appeal_banned: 'Vous n''êtes pas autorisé à déposer un recours. Veuillez contacter l''administrateur par un autre moyen.'
+      body_placeholder: 'Décrivez le problème en détail...'
+      no_appeal_categories: 'Aucune catégorie de recours n''est actuellement disponible.'
+      no_categories: 'Aucune catégorie n''a encore été créée. Veuillez contacter un administrateur.'
+      subject_placeholder: Objet
+      submit: 'Envoyer le ticket'
+      title: 'Nouveau ticket'
+      title_appeal: 'Déposer un recours'
+    confirm:
+      delete_reply_forever: 'Supprimer définitivement cette réponse ? Cette action est irréversible.'
+      delete_ticket_forever: 'Supprimer définitivement ce ticket et toutes ses réponses ? Cette action est irréversible.'
+      soft_delete_reply: 'Supprimer temporairement cette réponse ? L''équipe pourra la restaurer ultérieurement.'
+      soft_delete_ticket: 'Supprimer temporairement ce ticket ? Il sera masqué de l''index et de son propriétaire ; l''équipe pourra le restaurer ultérieurement.'
+    errors:
+      delete_reply: 'Impossible de supprimer la réponse.'
+      delete_reply_forever: 'Impossible de supprimer définitivement la réponse.'
+      delete_ticket: 'Impossible de supprimer le ticket.'
+      delete_ticket_forever: 'Impossible de supprimer définitivement le ticket.'
+      load_ticket: 'Impossible de charger ce ticket. Il a peut-être été supprimé, ou vous ne disposez peut-être pas des autorisations nécessaires pour le consulter.'
+      load_tickets: 'Impossible de charger les tickets.'
+      post_reply: 'Impossible de publier la réponse.'
+      restore_reply: 'Impossible de restaurer la réponse.'
+      restore_ticket: 'Impossible de restaurer le ticket.'
+      save_edit: 'Impossible d''enregistrer les modifications.'
+      submit: 'Impossible d''envoyer.'
+      submit_ticket: 'Impossible d''envoyer le ticket.'
+      unknown: 'Erreur inconnue.'
+      update_assignment: 'Impossible de mettre à jour l''affectation.'
+      update_status: 'Impossible de mettre à jour le status.'
+      upload: 'Impossible de transférer le fichier.'
+      upload_no_files: 'Aucun fichier n''a été transféré. Veuillez réessayer.'
+    index:
+      empty: 'Aucun ticket à afficher.'
+      empty_own: 'Aucun ticket pour le moment. Cliquez sur « Nouveau ticket » pour en ouvrir un.'
+      my_tickets: 'Mes tickets'
+      new_ticket: 'Nouveau ticket'
+      new_ticket_tooltip: 'Ouvrir un nouveau ticket'
     nav: Support
     new_ticket: 'Nouveau ticket'
+    reply:
+      deleted_notice: 'Cette réponse a été supprimée.'
+      edited_at: 'Édité le {date}'
+      edited_by: 'Édité le {date} par {user}'
+      internal_placeholder: 'Note interne (visible uniquement par l''équipe)…'
+      mod_actions: 'Actions de modération'
+      placeholder: Répondre…
     settings:
       notify_new_reply_label: 'Quelqu''un répond à mon ticket'
       notify_new_ticket_label: 'Un nouveau ticket est créé (par l''équipe)'
-    submit_ticket: 'Soumettre un ticket'
+    show:
+      assigned_to: 'Attribué à'
+      cannot_reply: 'Vous ne pouvez pas répondre à ce ticket.'
+      closed_badge: 'Ticket clôturé'
+      closed_notice: 'Ce ticket a été clôturé et il n''est plus possible d''y répondre.'
+      opened_by: 'Ouvert par'
+      unassigned: 'Non attribué'
+    staff:
+      set_status: 'Définir le statut :'
+    status:
+      awaiting_response: 'En attente'
+      in_progress: 'En cours'
+    submit_ticket: 'Envoyer le ticket'
+    ticket:
+      delete: 'Supprimer le ticket'
+      mod_actions: 'Actions de modération des tickets'
+      restore: 'Restaurer le ticket'
+    user_controls:
+      allow_appeals: 'Autoriser les recours'
+      disallow_appeals: 'Refuser les recours'
+      toggle_failed: 'Impossible de mettre à jour le statut de l''utilisateur.'

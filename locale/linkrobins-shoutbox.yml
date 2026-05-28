@@ -9,7 +9,9 @@ linkrobins-shoutbox:
       height_label: 'Hauteur des messages (px)'
   forum:
     widget:
+      delete: Supprimer
       delete_confirm: 'Supprimer ce message ?'
+      delete_error: 'Impossible de supprimer le message. Veuillez réessayer.'
       load_error: 'Impossible de charger les messages.'
       login_to_shout: 'Connectez-vous pour laisser un message !'
       placeholder: 'Dis quelque chose...'
