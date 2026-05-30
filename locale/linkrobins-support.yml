@@ -51,7 +51,7 @@ linkrobins-support:
       field_is_appeal_help: 'Les tickets ouverts dans cette catégorie sont traités comme des recours contre une suspension.'
       field_name: Nom
       field_position: Position
-      field_position_help: 'Les catégories sont classées par ordre croissant en fonction de cette valeur.'
+      field_position_help: 'Les catégories sont classées selon cette valeur, par ordre croissant.'
       field_slug: 'Identifiant texte unique'
       field_slug_help: 'Identifiant URL. Laissez ce champ vide pour que l''identifiant soit généré à partir du nom.'
       field_slug_placeholder: 'par exemple : facturation'
@@ -90,7 +90,7 @@ linkrobins-support:
   email:
     fallback_ticket: 'votre ticket'
     new_appeal_subject: '[Assistance / Recours] Nouveau ticket : {subject}'
-    new_reply_subject: '[Assistance] Nouvelle réponse à : {subject}'
+    new_reply_subject: '[Assistance] Nouvelle réponse sur : {subject}'
     new_ticket_subject: '[Assistance] Nouveau ticket : {subject}'
   forum:
     action:
@@ -103,15 +103,15 @@ linkrobins-support:
       restore: Restaurer
       save_changes: 'Sauvegarder les modifications'
       saving: 'Enregistrement en cours…'
-      unassign: Désassigner
+      unassign: Désaffecter
     common:
       loading: 'Chargement en cours…'
       uploading_many: 'Transfert de {count} fichiers en cours…'
       uploading_one: 'Transfert d''un fichier en cours…'
     compose:
       appeal_banned: 'Vous n''êtes pas autorisé à déposer un recours. Veuillez contacter l''administrateur par un autre moyen.'
-      back_to_categories: 'Retour aux catégories'
-      body_placeholder: 'Décrivez votre problème en détail...'
+      back_to_categories: Retour
+      body_placeholder: 'Décrivez votre problème en détail.'
       choose_category: 'Choisissez une catégorie pour commencer.'
       choose_category_appeal: 'Choisissez une catégorie de recours pour commencer.'
       message_label: Message
@@ -198,5 +198,5 @@ linkrobins-support:
       restore: 'Restaurer le ticket'
     user_controls:
       allow_appeals: 'Autoriser les recours'
-      disallow_appeals: 'Refuser les recours'
+      disallow_appeals: 'Ne pas autoriser les recours'
       toggle_failed: 'Impossible de mettre à jour le statut de l''utilisateur.'
