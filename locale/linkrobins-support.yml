@@ -72,10 +72,10 @@ linkrobins-support:
       manage_appeal_bans: 'Gérer les recours contre les suspensions'
     rate_limits:
       appeal_window_days: 'Période de recours (en jours)'
-      appeal_window_days_help: 'La fenêtre de temps, en jours, pour la limite du nombre de recours.'
+      appeal_window_days_help: 'La période glissante, en jours, pour la limite du nombre de recours.'
       error_save: 'Impossible d''enregistrer les limites de fréquence.'
       general_window_hours: 'Période générale (en heures)'
-      general_window_hours_help: 'La fenêtre de temps, en heures, pour la limite du nombre de tickets.'
+      general_window_hours_help: 'La période glissante, en heures, pour la limite du nombre de tickets.'
       heading: 'Limites de fréquence'
       intro: 'Limiter la fréquence à laquelle les utilisateurs peuvent ouvrir des tickets et des recours contre une suspension.'
       max_appeals_per_window: 'Nombre maximal de recours par période'
