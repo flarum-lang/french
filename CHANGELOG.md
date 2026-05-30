@@ -13,6 +13,7 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget)
