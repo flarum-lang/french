@@ -94,15 +94,33 @@ linkrobins-support:
     new_ticket_subject: '[Assistance] Nouveau ticket : {subject}'
   forum:
     action:
+      attach_files: 'Joindre des fichiers'
+      cancel: Annuler
+      claim: Réclamer
+      delete: Supprimer
       delete_forever: 'Supprimer définitivement'
+      edit: Modifier
+      restore: Restaurer
       save_changes: 'Sauvegarder les modifications'
+      saving: 'Enregistrement en cours…'
+      unassign: Désassigner
+    common:
+      loading: 'Chargement en cours…'
+      uploading_many: 'Transfert de {count} fichiers en cours…'
+      uploading_one: 'Transfert d''un fichier en cours…'
     compose:
       appeal_banned: 'Vous n''êtes pas autorisé à déposer un recours. Veuillez contacter l''administrateur par un autre moyen.'
+      back_to_categories: 'Retour aux catégories'
       body_placeholder: 'Décrivez votre problème en détail...'
+      choose_category: 'Choisissez une catégorie pour commencer.'
+      choose_category_appeal: 'Choisissez une catégorie de recours pour commencer.'
+      message_label: Message
       no_appeal_categories: 'Aucune catégorie de recours n''est actuellement disponible.'
       no_categories: 'Aucune catégorie n''a encore été créée. Veuillez contacter un administrateur.'
+      subject_label: Sujet
       subject_placeholder: 'Décrivez votre problème en quelques mots'
       submit: 'Envoyer le ticket'
+      submitting: 'Envoi en cours…'
       title: 'Nouveau ticket'
       title_appeal: 'Déposer un recours'
     confirm:
@@ -131,18 +149,28 @@ linkrobins-support:
     index:
       empty: 'Aucun ticket à afficher.'
       empty_own: 'Aucun ticket pour le moment. Cliquez sur « Nouveau ticket » pour en ouvrir un.'
+      filter_all: Tous
       my_tickets: 'Mes tickets'
       new_ticket: 'Nouveau ticket'
       new_ticket_tooltip: 'Ouvrir un nouveau ticket'
     nav: Support
     new_ticket: 'Nouveau ticket'
+    notifications:
+      new_appeal: '{user} a ouvert un nouveau recours'
+      new_ticket: '{user} a ouvert un nouveau ticket'
+      reply_from: '{user} a répondu à votre ticket'
+      reply_generic: 'L''équipe a répondu à votre ticket'
+      someone: 'Un utilisateur'
     reply:
       deleted_notice: 'Cette réponse a été supprimée.'
       edited_at: 'Édité le {date}'
       edited_by: 'Édité le {date} par {user}'
+      internal_note: 'Note interne'
       internal_placeholder: 'Note interne (visible uniquement par l''équipe)…'
       mod_actions: 'Actions de modération'
       placeholder: Répondre…
+      post_reply: 'Publier la réponse'
+      posting: 'Publication en cours…'
     settings:
       notify_new_reply_label: 'Quelqu''un répond à mon ticket'
       notify_new_ticket_label: 'Un nouveau ticket est créé (par l''équipe)'
@@ -151,13 +179,18 @@ linkrobins-support:
       cannot_reply: 'Vous ne pouvez pas répondre à ce ticket.'
       closed_badge: 'Ticket clôturé'
       closed_notice: 'Ce ticket a été clôturé et il n''est plus possible d''y répondre.'
+      decision: 'Décision :'
       opened_by: 'Ouvert par'
+      title: Ticket
       unassigned: 'Non attribué'
     staff:
       set_status: 'Définir le statut :'
     status:
       awaiting_response: 'En attente'
+      closed: Clôturé
       in_progress: 'En cours'
+      open: Ouvert
+      resolved: Résolu
     submit_ticket: 'Envoyer le ticket'
     ticket:
       delete: 'Supprimer le ticket'

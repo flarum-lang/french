@@ -4,10 +4,15 @@
 
 linkrobins-shoutbox:
   admin:
+    permissions:
+      moderate: 'Supprimer les messages des autres utilisateurs'
+      shout: 'Publier des messages'
     settings:
       height_help: 'Hauteur de la zone des messages en pixels. La valeur par défaut est 320.'
       height_label: 'Hauteur des messages (px)'
   forum:
+    nav: Shoutbox
+    page_title: Shoutbox
     widget:
       delete: Supprimer
       delete_confirm: 'Supprimer ce message ?'
@@ -15,5 +20,6 @@ linkrobins-shoutbox:
       load_error: 'Impossible de charger les messages.'
       login_to_shout: 'Connectez-vous pour laisser un message !'
       placeholder: 'Dis quelque chose...'
+      rate_limited: 'Vous publiez trop vite. Veuillez patienter un instant.'
       send: Envoyer
       title: Shoutbox
