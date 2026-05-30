@@ -13,7 +13,7 @@ linkrobins-support:
       column_username: 'Nom d''utilisateur'
       error_toggle: 'Impossible de mettre à jour le statut de l''utilisateur.'
       heading_alt: 'Recours contre les suspensions'
-      intro: 'Contrôler quels utilisateurs ne sont pas autorisés à déposer des recours contre une suspension.'
+      intro: 'Contrôler quels utilisateurs sont empêchés de déposer des recours contre une suspension.'
       saving: 'Enregistrement en cours…'
       search_button: Rechercher
       search_error: 'Échec de la recherche. Veuillez réessayer.'
@@ -101,7 +101,7 @@ linkrobins-support:
       delete_forever: 'Supprimer définitivement'
       edit: Modifier
       restore: Restaurer
-      save_changes: 'Sauvegarder les modifications'
+      save_changes: 'Enregistrer les modifications'
       saving: 'Enregistrement en cours…'
       unassign: Désaffecter
     common:
@@ -111,14 +111,14 @@ linkrobins-support:
     compose:
       appeal_banned: 'Vous n''êtes pas autorisé à déposer un recours. Veuillez contacter l''administrateur par un autre moyen.'
       back_to_categories: Retour
-      body_placeholder: 'Décrivez votre problème en détail.'
+      body_placeholder: 'Décrire le problème en détail...'
       choose_category: 'Choisissez une catégorie pour commencer.'
       choose_category_appeal: 'Choisissez une catégorie de recours pour commencer.'
       message_label: Message
       no_appeal_categories: 'Aucune catégorie de recours n''est actuellement disponible.'
       no_categories: 'Aucune catégorie n''a encore été créée. Veuillez contacter un administrateur.'
       subject_label: Sujet
-      subject_placeholder: 'Décrivez votre problème en quelques mots'
+      subject_placeholder: 'Résumé succinct de votre problème'
       submit: 'Envoyer le ticket'
       submitting: 'Envoi en cours…'
       title: 'Nouveau ticket'
@@ -178,7 +178,7 @@ linkrobins-support:
       assigned_to: 'Affecté à'
       cannot_reply: 'Vous ne pouvez pas répondre à ce ticket.'
       closed_badge: 'Ticket clôturé'
-      closed_notice: 'Ce ticket a été clôturé et il n''est plus possible d''y répondre.'
+      closed_notice: 'Ce ticket a été clôturé, il n''est plus possible d''y répondre.'
       decision: 'Décision :'
       opened_by: 'Ouvert par'
       title: Ticket
