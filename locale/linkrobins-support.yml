@@ -57,7 +57,7 @@ linkrobins-support:
       field_slug_placeholder: 'par exemple, facturation'
       saving: 'Enregistrement en cours…'
       submit_create: 'Créer une catégorie'
-      submit_update: 'Sauvegarder les modifications'
+      submit_update: 'Enregistrer les modifications'
       title_edit: 'Modifier la catégorie'
       title_new: 'Nouvelle catégorie'
     common:
@@ -81,7 +81,7 @@ linkrobins-support:
       max_appeals_per_window: 'Nombre maximal de recours par période'
       max_appeals_per_window_help: 'Nombre de recours contre une suspension qu''un utilisateur peut ouvrir pendant la période de recours indiquée ci-dessous.'
       max_concurrent_appeals: 'Nombre maximal de recours ouverts simultanément'
-      max_concurrent_appeals_help: 'Combien de recours un utilisateur peut-il ouvrir en même temps ?'
+      max_concurrent_appeals_help: 'Nombre de recours qu''un utilisateur peut ouvrir en même temps.'
       max_general_per_window: 'Nombre maximal de tickets par période'
       max_general_per_window_help: 'Nombre de tickets qu''un utilisateur peut ouvrir pendant la période indiquée ci-dessous.'
     settings:
