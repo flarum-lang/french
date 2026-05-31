@@ -156,15 +156,15 @@ linkrobins-support:
     nav: Support
     new_ticket: 'Nouveau ticket'
     notifications:
-      new_appeal: '{user} a ouvert un nouveau recours'
-      new_ticket: '{user} a ouvert un nouveau ticket'
-      reply_from: '{user} a répondu à votre ticket'
+      new_appeal: '{name} a ouvert un nouveau recours'
+      new_ticket: '{name} a ouvert un nouveau ticket'
+      reply_from: '{name} a répondu à votre ticket'
       reply_generic: 'Le support a répondu à votre ticket'
       someone: 'Un utilisateur'
     reply:
       deleted_notice: 'Cette réponse a été supprimée.'
       edited_at: 'Édité le {date}'
-      edited_by: 'Édité le {date} par {user}'
+      edited_by: 'Édité le {date} par {name}'
       internal_note: 'Note interne'
       internal_placeholder: 'Note interne (visible uniquement par l''équipe)…'
       mod_actions: 'Actions de modération'
