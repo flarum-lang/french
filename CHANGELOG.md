@@ -2,6 +2,30 @@ CHANGELOG
 =========
 
 
+5.0.3 (2026-05-31)
+------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`forumaker/steam-oauth`](https://github.com/forumaker/Steam-Oauth)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`flarum/messages`](https://github.com/flarum/messages)
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget)
+* [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget)
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
+* [`linkrobins/support`](https://github.com/linkrobins/support)
+
+
+Journal de toutes les modifications : [v5.0.2...v5.0.3](https://github.com/flarum-lang/french/compare/v5.0.2...v5.0.3).
+
+
 5.0.2 (2026-05-21)
 ------------------
 
