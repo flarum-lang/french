@@ -73,4 +73,4 @@ flarum-messages:
       send_message_button: 'Envoyer un message'
   lib:
     dialog:
-      title: 'Messagerie {nom d''utilisateur}'
+      title: 'Messagerie {username}'
