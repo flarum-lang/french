@@ -14,6 +14,7 @@ linkrobins-support:
       error_toggle: 'Impossible de mettre à jour le statut de l''utilisateur.'
       heading_alt: 'Recours contre les suspensions'
       intro: 'Contrôler quels utilisateurs sont empêchés de déposer des recours contre une suspension.'
+      load_more: 'Charger davantage'
       saving: 'Enregistrement en cours…'
       search_button: Rechercher
       search_error: 'Échec de la recherche. Veuillez réessayer.'
@@ -68,7 +69,7 @@ linkrobins-support:
       categories: Catégories
       rate_limits: 'Limites de fréquence'
     permissions:
-      handle_tickets: 'Gérer les tickets'
+      handle_tickets: 'Gérer les tickets d''assistance'
       manage_appeal_bans: 'Gérer les recours contre les suspensions'
     rate_limits:
       appeal_window_days: 'Période de recours (en jours)'
@@ -77,34 +78,65 @@ linkrobins-support:
       general_window_hours: 'Période générale (en heures)'
       general_window_hours_help: 'La période glissante, en heures, pour la limite du nombre de tickets.'
       heading: 'Limites de fréquence'
-      intro: 'Limiter la fréquence à laquelle les utilisateurs peuvent ouvrir des tickets et des recours contre une suspension.'
+      intro: 'Limiter la fréquence à laquelle les utilisateurs peuvent ouvrir des tickets d''assistance et des recours contre une suspension.'
       max_appeals_per_window: 'Nombre maximal de recours par période'
       max_appeals_per_window_help: 'Nombre de recours contre une suspension qu''un utilisateur peut ouvrir pendant la période de recours indiquée ci-dessous.'
       max_concurrent_appeals: 'Nombre maximal de recours ouverts simultanément'
       max_concurrent_appeals_help: 'Nombre de recours qu''un utilisateur peut ouvrir en même temps.'
       max_general_per_window: 'Nombre maximal de tickets par période'
-      max_general_per_window_help: 'Nombre de tickets qu''un utilisateur peut ouvrir pendant la période indiquée ci-dessous.'
+      max_general_per_window_help: 'Nombre de tickets d''assistance qu''un utilisateur peut ouvrir pendant la période indiquée ci-dessous.'
     settings:
       description: 'Configurer les catégories et les limites de fréquence pour le système de tickets.'
       title: Support
+  api:
+    assign_staff_only: 'Les tickets ne peuvent être attribués qu''à l''équipe.'
+    cannot_reply: 'Vous ne pouvez pas répondre à ce ticket.'
+    category_required: 'Une catégorie est requise.'
+    login_required: 'Vous devez être connecté.'
+    login_required_edit: 'Vous devez être connecté pour modifier une réponse.'
+    login_required_reply: 'Vous devez être connecté pour répondre.'
+    no_permission_delete: 'Vous n''avez pas la permission pour supprimer les réponses.'
+    no_permission_edit: 'Vous n''avez pas la permission pour modifier les réponses.'
+    rate_limit:
+      appeal_banned: 'Vous n''êtes pas autorisé à déposer un recours.'
+      appeal_has_open: 'Vous avez déjà déposé un recours. Veuillez attendre qu''il soit résolu avant d''en déposer un autre.'
+      appeal_quota: 'Vous avez déjà déposé {count} recours au cours des {days} derniers jours (limite : {limit}). Veuillez réessayer plus tard.'
+      general_quota: 'Vous avez ouvert {count} tickets au cours des {hours} dernières heures (limite : {limit}). Veuillez patienter avant d''en ouvrir un autre.'
+      generic: 'Impossible de créer un ticket pour le moment.'
+    reply_content_required: 'Le contenu de la réponse est requis.'
+    reply_soft_delete_first: 'Un réponse doit être supprimée temporairement avant de pouvoir être définitivement supprimée.'
+    ticket_not_found: 'Ticket introuvable.'
+    ticket_required: 'Un ticket est requis.'
+    ticket_soft_delete_first: 'Un ticket doit être supprimé temporairement avant de pouvoir être définitivement supprimé.'
   email:
-    fallback_ticket: 'votre ticket'
+    fallback_ticket: 'votre ticket d''assistance'
+    from_a_user: 'un utilisateur'
+    from_support: Support
     new_appeal_subject: '[Assistance / Recours] Nouveau ticket : {subject}'
+    new_reply_body: '{name} a répondu à votre ticket d''assistance :'
     new_reply_subject: '[Assistance] Nouvelle réponse sur : {subject}'
+    new_ticket_body: 'Un nouveau {type} vient d''être ouvert par {name} :'
     new_ticket_subject: '[Assistance] Nouveau ticket : {subject}'
+    open_ticket: 'Ouvrir le ticket'
+    ticket_type_appeal: 'ticket de recours'
+    ticket_type_general: 'ticket d''assistance'
+    view_ticket: 'Consulter le ticket'
   forum:
     action:
       attach_files: 'Joindre des fichiers'
+      back: Retour
       cancel: Annuler
       claim: Affecter
       delete: Supprimer
       delete_forever: 'Supprimer définitivement'
       edit: Modifier
+      edit_reply: 'Modifier la réponse'
       restore: Restaurer
       save_changes: 'Enregistrer les modifications'
       saving: 'Enregistrement en cours…'
       unassign: Désaffecter
     common:
+      date_at_time: '{date} à {time}'
       loading: 'Chargement en cours…'
       uploading_many: 'Transfert de {count} fichiers en cours…'
       uploading_one: 'Transfert d''un fichier en cours…'
@@ -114,25 +146,33 @@ linkrobins-support:
       body_placeholder: 'Rédigez un message...'
       choose_category: 'Choisissez une catégorie pour commencer.'
       choose_category_appeal: 'Choisissez une catégorie de recours pour commencer.'
+      discard_confirm: 'Vous avez un ticket non envoyé. Souhaitez-vous l''abandonner ?'
       message_label: Message
+      message_placeholder_click: 'Cliquez pour rédiger votre message…'
       no_appeal_categories: 'Aucune catégorie de recours n''est actuellement disponible.'
       no_categories: 'Aucune catégorie n''a encore été créée. Veuillez contacter un administrateur.'
+      subject_first: 'Veuillez saisir un objet pour votre ticket.'
       subject_label: Sujet
       subject_placeholder: 'Résumez votre problème en quelques mots'
       submit: 'Envoyer le ticket'
       submitting: 'Envoi en cours…'
-      title: 'Nouveau ticket'
+      title: 'Nouveau ticket d''assistance'
       title_appeal: 'Déposer un recours'
     confirm:
       delete_reply_forever: 'Supprimer définitivement cette réponse ? Cette action est irréversible.'
       delete_ticket_forever: 'Supprimer définitivement ce ticket et toutes ses réponses ? Cette action est irréversible.'
       soft_delete_reply: 'Supprimer temporairement cette réponse ? L''équipe pourra la restaurer ultérieurement.'
       soft_delete_ticket: 'Supprimer temporairement ce ticket ? Il sera masqué de l''index et de son propriétaire ; l''équipe pourra le restaurer ultérieurement.'
+    decision:
+      accepted: Accepté
+      pending: 'En attente'
+      rejected: Rejeté
     errors:
       delete_reply: 'Impossible de supprimer la réponse.'
       delete_reply_forever: 'Impossible de supprimer définitivement la réponse.'
       delete_ticket: 'Impossible de supprimer le ticket.'
       delete_ticket_forever: 'Impossible de supprimer définitivement le ticket.'
+      empty_body: 'Veuillez rédiger votre message avant de l''envoyer.'
       load_ticket: 'Impossible de charger ce ticket. Il a peut-être été supprimé, ou vous ne disposez peut-être pas des autorisations nécessaires pour le consulter.'
       load_tickets: 'Impossible de charger les tickets.'
       post_reply: 'Impossible de publier la réponse.'
@@ -152,19 +192,22 @@ linkrobins-support:
       filter_all: Tous
       my_tickets: 'Mes tickets'
       new_ticket: 'Nouveau ticket'
-      new_ticket_tooltip: 'Ouvrir un nouveau ticket'
+      new_ticket_tooltip: 'Ouvrir un nouveau ticket d''assistance'
+      untitled: 'Sans titre'
     nav: Support
     new_ticket: 'Nouveau ticket'
     notifications:
       new_appeal: '{name} a ouvert un nouveau recours'
-      new_ticket: '{name} a ouvert un nouveau ticket'
+      new_ticket: '{name} a ouvert un nouveau ticket d''assistance'
       reply_from: '{name} a répondu à votre ticket'
       reply_generic: 'Le support a répondu à votre ticket'
       someone: 'Un utilisateur'
     reply:
       deleted_notice: 'Cette réponse a été supprimée.'
-      edited_at: 'Édité le {date}'
-      edited_by: 'Édité le {date} par {name}'
+      discard_confirm: 'Vous avez des modifications non enregistrées. Souhaitez-vous les abandonner ?'
+      edited_at: 'Modifié le {date}'
+      edited_by: 'Modifié par {name} le {date}'
+      edited_marker: Modifié
       internal_note: 'Note interne'
       internal_placeholder: 'Note interne (visible uniquement par l''équipe)…'
       mod_actions: 'Actions de modération'
@@ -172,14 +215,15 @@ linkrobins-support:
       post_reply: 'Publier la réponse'
       posting: 'Publication en cours…'
     settings:
-      notify_new_reply_label: 'Quelqu''un répond à mon ticket'
-      notify_new_ticket_label: 'Un nouveau ticket est créé (par l''équipe)'
+      notify_new_reply_label: 'Quelqu''un répond à mon ticket d''assistance'
+      notify_new_ticket_label: 'Un nouveau ticket d''assistance est créé (par l''équipe)'
     show:
       assigned_to: 'Affecté à'
       cannot_reply: 'Vous ne pouvez pas répondre à ce ticket.'
       closed_badge: 'Ticket clôturé'
       closed_notice: 'Ce ticket a été clôturé, il n''est plus possible d''y répondre.'
       decision: 'Décision :'
+      deleted_badge: Supprimé
       opened_by: 'Ouvert par'
       title: Ticket
       unassigned: 'Non affecté'
