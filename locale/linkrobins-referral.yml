@@ -24,6 +24,7 @@ linkrobins-referral:
       groups_help: 'Si des groupes sont sélectionnés, seuls les membres de ces groupes recevront un code d''invitation personnel. Ne cochez aucune case pour autoriser tous les groupes.'
       groups_label: 'Groupes autorisés'
       help: 'Contrôlez qui reçoit son propre code d''invitation personnel. Les administrateurs et les utilisateurs figurant sur la liste blanche sont toujours éligibles. Pour ignorer une règle, laissez-la vide ou attribuez-lui la valeur 0 ; lorsque plusieurs règles sont définies, l''utilisateur doit toutes les respecter.'
+      min_age_label: 'Âge minimum du compte (en jours)'
       min_posts_label: 'Nombre minimum de messages'
       title: 'Éligibilité au code d''invitation personnel'
       whitelist_help: 'Noms d''utilisateur qui reçoivent systématiquement un code d''invitation, quelles que soient les règles ci-dessus. Séparez-les par des virgules, des espaces ou des sauts de ligne.'
