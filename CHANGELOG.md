@@ -7,6 +7,8 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
+* [`linkrobins/referral`](https://github.com/linkrobins/referral)
 * [`linkrobins/support`](https://github.com/linkrobins/support)
 
 
