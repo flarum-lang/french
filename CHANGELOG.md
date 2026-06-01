@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+5.0.4 (2026-06-01)
+------------------
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
+* [`linkrobins/referral`](https://github.com/linkrobins/referral)
+* [`linkrobins/support`](https://github.com/linkrobins/support)
+
+
+Journal de toutes les modifications : [v5.0.3...v5.0.4](https://github.com/flarum-lang/french/compare/v5.0.3...v5.0.4).
+
+
 5.0.3 (2026-05-31)
 ------------------
 
