@@ -13,7 +13,7 @@ linkrobins-support:
       column_username: 'Nom d''utilisateur'
       error_toggle: 'Impossible de mettre à jour le statut de l''utilisateur.'
       heading_alt: 'Recours contre les suspensions'
-      intro: 'Contrôler quels utilisateurs sont empêchés de déposer des recours contre une suspension.'
+      intro: 'Contrôler quels utilisateurs ne sont pas autorisés à déposer des recours contre une suspension.'
       load_more: 'Charger davantage'
       saving: 'Enregistrement en cours…'
       search_button: Rechercher

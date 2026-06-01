@@ -4,11 +4,38 @@
 
 linkrobins-referral:
   admin:
+    campaign:
+      col_code: Code
+      col_expiry: Expiration
+      col_label: Libellé
+      col_uses: Utilisations
+      confirm_delete: 'Supprimer ce code de campagne ? Toute personne qui utilise ce code ne pourra plus s''inscrire avec.'
+      create: 'Créer un code'
+      delete: Supprimer
+      expired: expiré
+      expiry_label: 'Expiration (facultatif)'
+      help: 'Codes d''invitation autonomes qui ne sont liés à aucun utilisateur — parfaits pour les réseaux sociaux ou les campagnes marketing. Ils ne créditent pas le parrain, mais leurs utilisations sont comptabilisées.'
+      label_label: Libellé
+      label_placeholder: 'par exemple, le lancement de Twitter'
+      no_expiry: Jamais
+      none: 'Aucun code de campagne pour le moment.'
+      title: 'Codes de campagne'
+    eligibility:
+      groups_help: 'Si des groupes sont sélectionnés, seuls les membres de ces groupes recevront un code d''invitation personnel. Ne cochez aucune case pour autoriser tous les groupes.'
+      groups_label: 'Groupes autorisés'
+      help: 'Contrôlez qui reçoit son propre code d''invitation personnel. Les administrateurs et les utilisateurs figurant sur la liste blanche sont toujours éligibles. Pour ignorer une règle, laissez-la vide ou attribuez-lui la valeur 0 ; lorsque plusieurs règles sont définies, l''utilisateur doit toutes les respecter.'
+      min_posts_label: 'Nombre minimum de messages'
+      title: 'Éligibilité au code d''invitation personnel'
+      whitelist_help: 'Noms d''utilisateur qui reçoivent systématiquement un code d''invitation, quelles que soient les règles ci-dessus. Séparez-les par des virgules, des espaces ou des sauts de ligne.'
+      whitelist_label: 'Liste blanche'
     settings:
       disabled: Désactivé
       enabled: Activé
       require_help: 'Lorsque cette option est activée, les utilisateurs doivent saisir un code d''invitation valide pour finaliser leur inscription.'
       require_label: 'Exiger un code d''invitation pour s''inscrire'
+      title: Général
+  api:
+    invalid_expiry: 'Date d''expiration invalide.'
   forum:
     profile:
       copy: Copier
@@ -16,12 +43,16 @@ linkrobins-referral:
       invite_code_help: 'Partagez votre code ou votre lien d''invitation. Toute personne qui cliquera sur votre lien verra le code s''afficher automatiquement lors de son inscription.'
       invite_code_title: 'Votre code d''invitation'
       no_referrals: 'Aucune recommandation pour le moment. Partagez votre code d''invitation pour commencer !'
+      not_eligible: 'Vous n’êtes pas encore éligible pour recevoir un code d''invitation personnel. Continuez à participer et revenez plus tard.'
       tab: Recommandations
       total_referrals: 'Nombre total de recommandations'
     sign_up:
       invite_code_label: 'Code d''invitation'
       invite_code_label_required: 'Code d''invitation *'
       invite_code_placeholder: 'par exemple : K7XM2QNP'
+    user_card:
+      referrals_plural: '{count} recommandations'
+      referrals_singular: '{count} recommandation'
   validation:
     invalid: 'Code d''invitation invalide.'
     required: 'Un code d''invitation est requis pour s''inscrire.'

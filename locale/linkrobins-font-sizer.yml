@@ -13,6 +13,7 @@ linkrobins-font-sizer:
       ui_large: Grande
       ui_size_help: 'Définit les paramètres par défaut pour la navigation, les boutons et d''autres éléments de l''interface utilisateur sur l''ensemble du site. Les utilisateurs peuvent modifier ces paramètres à l''aide du bouton « Taille de la police » situé dans l''en-tête.'
       ui_size_label: 'Taille de l''interface par défaut'
+      ui_toggle_label: 'Utilisez une interface plus grande'
   forum:
     header_button:
       label: 'Taille de la police'
@@ -21,7 +22,8 @@ linkrobins-font-sizer:
       close_button_label: Fermer
       interface_size_heading: 'Taille de l''interface'
       interface_size_hint: 'Cela affecte la navigation, les boutons et d''autres éléments de l''interface utilisateur.'
-      reading_text_heading: Texte
+      interface_size_label: 'Utilisez une interface plus grande'
+      reading_text_heading: 'Taille du texte'
       reading_text_hint: 'Cela affecte les messages et les titres des discussions.'
       reading_text_value: '{percent}%'
       reset_button: 'Réinitialiser les paramètres du site par défaut'
