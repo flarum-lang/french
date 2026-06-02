@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+5.0.5 (XXXX-XX-XX)
+------------------
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`linkrobins/support`](https://github.com/linkrobins/support)
+
+
+Journal de toutes les modifications : [v5.0.4...v5.0.5](https://github.com/flarum-lang/french/compare/v5.0.4...v5.0.5).
+
+
 5.0.4 (2026-06-01)
 ------------------
 
