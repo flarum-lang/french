@@ -23,6 +23,7 @@ linkrobins-support:
       search_placeholder: 'Nom d''utilisateur ou adresse de courriel…'
       search_results_heading: 'Résultats de la recherche'
       unban_button: 'Lever l''interdiction de déposer un recours'
+      view_banned_button: 'Afficher les utilisateurs dont le droit de déposer un recours a été suspendu'
     categories:
       appeal_badge: Recours
       column_name: Nom
@@ -69,7 +70,7 @@ linkrobins-support:
       categories: Catégories
       rate_limits: 'Limites de fréquence'
     permissions:
-      handle_tickets: 'Gérer les tickets d''assistance'
+      handle_tickets: 'Gérer les tickets'
       manage_appeal_bans: 'Gérer les recours contre les suspensions'
     rate_limits:
       appeal_window_days: 'Période de recours (en jours)'
@@ -78,13 +79,13 @@ linkrobins-support:
       general_window_hours: 'Période générale (en heures)'
       general_window_hours_help: 'La période glissante, en heures, pour la limite du nombre de tickets.'
       heading: 'Limites de fréquence'
-      intro: 'Limiter la fréquence à laquelle les utilisateurs peuvent ouvrir des tickets d''assistance et des recours contre une suspension.'
+      intro: 'Limiter la fréquence à laquelle les utilisateurs peuvent ouvrir des tickets et des recours contre une suspension.'
       max_appeals_per_window: 'Nombre maximal de recours par période'
       max_appeals_per_window_help: 'Nombre de recours contre une suspension qu''un utilisateur peut ouvrir pendant la période de recours indiquée ci-dessous.'
       max_concurrent_appeals: 'Nombre maximal de recours ouverts simultanément'
       max_concurrent_appeals_help: 'Nombre de recours qu''un utilisateur peut ouvrir en même temps.'
       max_general_per_window: 'Nombre maximal de tickets par période'
-      max_general_per_window_help: 'Nombre de tickets d''assistance qu''un utilisateur peut ouvrir pendant la période indiquée ci-dessous.'
+      max_general_per_window_help: 'Nombre de tickets qu''un utilisateur peut ouvrir pendant la période indiquée ci-dessous.'
     settings:
       description: 'Configurer les catégories et les limites de fréquence pour le système de tickets.'
       title: Support
@@ -109,17 +110,17 @@ linkrobins-support:
     ticket_required: 'Un ticket est requis.'
     ticket_soft_delete_first: 'Un ticket doit être supprimé temporairement avant de pouvoir être définitivement supprimé.'
   email:
-    fallback_ticket: 'votre ticket d''assistance'
+    fallback_ticket: 'votre ticket'
     from_a_user: 'un utilisateur'
     from_support: Support
-    new_appeal_subject: '[Assistance / Recours] Nouveau ticket : {subject}'
-    new_reply_body: '{name} a répondu à votre ticket d''assistance :'
-    new_reply_subject: '[Assistance] Nouvelle réponse sur : {subject}'
+    new_appeal_subject: '[Recours] Nouveau ticket : {subject}'
+    new_reply_body: '{name} a répondu à votre ticket :'
+    new_reply_subject: '[Support] Nouvelle réponse sur : {subject}'
     new_ticket_body: 'Un nouveau {type} vient d''être ouvert par {name} :'
-    new_ticket_subject: '[Assistance] Nouveau ticket : {subject}'
+    new_ticket_subject: '[Support] Nouveau ticket : {subject}'
     open_ticket: 'Ouvrir le ticket'
     ticket_type_appeal: 'ticket de recours'
-    ticket_type_general: 'ticket d''assistance'
+    ticket_type_general: ticket
     view_ticket: 'Consulter le ticket'
   forum:
     action:
@@ -156,7 +157,7 @@ linkrobins-support:
       subject_placeholder: 'Résumez votre problème en quelques mots'
       submit: 'Envoyer le ticket'
       submitting: 'Envoi en cours…'
-      title: 'Nouveau ticket d''assistance'
+      title: 'Nouveau ticket'
       title_appeal: 'Déposer un recours'
     confirm:
       delete_reply_forever: 'Supprimer définitivement cette réponse ? Cette action est irréversible.'
@@ -183,6 +184,7 @@ linkrobins-support:
       submit_ticket: 'Impossible d''envoyer le ticket.'
       unknown: 'Erreur inconnue.'
       update_assignment: 'Impossible de mettre à jour l''affectation.'
+      update_decision: 'Impossible de mettre à jour la décision de recours.'
       update_status: 'Impossible de mettre à jour le status.'
       upload: 'Impossible de transférer le fichier.'
       upload_no_files: 'Aucun fichier n''a été transféré. Veuillez réessayer.'
@@ -192,13 +194,13 @@ linkrobins-support:
       filter_all: Tous
       my_tickets: 'Mes tickets'
       new_ticket: 'Nouveau ticket'
-      new_ticket_tooltip: 'Ouvrir un nouveau ticket d''assistance'
+      new_ticket_tooltip: 'Ouvrir un nouveau ticket'
       untitled: 'Sans titre'
     nav: Support
     new_ticket: 'Nouveau ticket'
     notifications:
       new_appeal: '{name} a ouvert un nouveau recours'
-      new_ticket: '{name} a ouvert un nouveau ticket d''assistance'
+      new_ticket: '{name} a ouvert un nouveau ticket'
       reply_from: '{name} a répondu à votre ticket'
       reply_generic: 'Le support a répondu à votre ticket'
       someone: 'Un utilisateur'
@@ -215,8 +217,8 @@ linkrobins-support:
       post_reply: 'Publier la réponse'
       posting: 'Publication en cours…'
     settings:
-      notify_new_reply_label: 'Quelqu''un répond à mon ticket d''assistance'
-      notify_new_ticket_label: 'Un nouveau ticket d''assistance est créé (par l''équipe)'
+      notify_new_reply_label: 'Quelqu''un répond à mon ticket'
+      notify_new_ticket_label: 'Un nouveau ticket est créé (par l''équipe)'
     show:
       assigned_to: 'Affecté à'
       cannot_reply: 'Vous ne pouvez pas répondre à ce ticket.'
@@ -228,6 +230,7 @@ linkrobins-support:
       title: Ticket
       unassigned: 'Non affecté'
     staff:
+      set_decision: 'Décision :'
       set_status: 'Définir le statut :'
     status:
       awaiting_response: 'En attente'
