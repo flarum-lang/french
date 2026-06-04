@@ -8,8 +8,16 @@ linkrobins-shoutbox:
       moderate: 'Supprimer les messages des autres utilisateurs'
       shout: 'Publier des messages'
     settings:
+      display_mode_both: 'Page et widget'
+      display_mode_help: 'Choisissez où le shoutbox apparaît sur le forum.'
+      display_mode_label: 'Mode d''affichage'
+      display_mode_page: 'Page uniquement'
+      display_mode_widget: 'Widget uniquement'
       height_help: 'Hauteur de la zone des messages en pixels. La valeur par défaut est 320.'
       height_label: 'Hauteur des messages (px)'
+  api:
+    empty_content: 'Vous devez saisir un message.'
+    rate_limited: 'Vous publiez trop vite. Veuillez patienter un instant.'
   forum:
     nav: Shoutbox
     page_title: Shoutbox
@@ -22,4 +30,8 @@ linkrobins-shoutbox:
       placeholder: 'Dis quelque chose...'
       rate_limited: 'Vous publiez trop vite. Veuillez patienter un instant.'
       send: Envoyer
+      time_hours: '{count}h'
+      time_minutes: '{count}m'
+      time_seconds: '{count}s'
       title: Shoutbox
+      unknown_user: Utilisateur

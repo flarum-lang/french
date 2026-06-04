@@ -18,6 +18,7 @@ flarum-flags:
       reason_details_placeholder: 'Informations complémentaires (facultatif)'
       reason_inappropriate_label: Inapproprié
       reason_inappropriate_text: 'Ce message est offensant, vulgaire, ou ne respecte pas les <a>règles de la communauté</a>.'
+      reason_inappropriate_text_no_guidelines: 'Ce message est offensant ou injurieux.'
       reason_missing_message: 'Veuillez fournir quelques explications à nos modérateurs.'
       reason_off_topic_label: Hors-sujet
       reason_off_topic_text: 'Ce message n''est pas pertinent à la discussion actuelle et devrait être déplacé ailleurs.'
