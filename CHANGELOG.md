@@ -7,6 +7,8 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
 * [`linkrobins/support`](https://github.com/linkrobins/support)
 
 
