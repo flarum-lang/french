@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
 
 
 **Mise à jour des traductions de certaines extensions**:
