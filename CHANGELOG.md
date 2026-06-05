@@ -8,11 +8,14 @@ CHANGELOG
 **Prise en charge de nouvelles extensions**:
 
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
 
 
 **Mise à jour des traductions de certaines extensions**:
 
 * [`flarum/flags`](https://github.com/flarum/flags)
+* [`linkrobins/clipboard`](https://github.com/linkrobins/clipboard)
+* [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget)
 * [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
 * [`linkrobins/support`](https://github.com/linkrobins/support)
 
