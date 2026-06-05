@@ -22,6 +22,7 @@ linkrobins-clipboard:
   forum:
     action_copy: Copier
     action_cut: Couper
+    copy_code_aria: 'Copier le code'
     error_btn: Erreur
     msg: 'Appuyer sur {actionKey} pour {action}'
     no_support: 'Non pris en charge'

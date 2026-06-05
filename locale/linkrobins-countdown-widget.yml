@@ -7,6 +7,7 @@ linkrobins-countdown-widget:
     settings:
       done_message_help: 'Ce qui doit s''afficher lorsque le compte à rebours arrive à zéro. Si ce champs est vide, un émoji « fête » s''affiche par défaut.'
       done_message_label: 'Message de fin'
+      done_message_placeholder: '🎉 C''est parti !'
       icon_help: 'Classe FontAwesome à afficher à côté du titre (par exemple : fas fa-rocket, fas fa-bullhorn, fas fa-calendar). Si vous ne souhaitez pas d''icône, laissez ce champ vide.'
       icon_label: 'Classe d''icône'
       link_url_help: 'Facultatif. Si cette option est activée, les cases du compte à rebours (ainsi que le message de fin) deviennent un lien cliquable vers cette URL.'
@@ -17,6 +18,7 @@ linkrobins-countdown-widget:
       timezone_label: 'Fuseau horaire'
       title_help: 'Facultatif. S''affiche au-dessus du compte à rebours. Si vous ne souhaitez pas d''en-tête, laissez ce champ vide.'
       title_label: Titre
+      title_placeholder: 'Lancement dans...'
       use_my_timezone: 'Utiliser mon fuseau horaire'
   forum:
     not_configured: 'Définir une date cible dans le panneau d''administration.'
