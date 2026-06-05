@@ -5,6 +5,11 @@ CHANGELOG
 5.0.5 (XXXX-XX-XX)
 ------------------
 
+**Prise en charge de nouvelles extensions**:
+
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+
+
 **Mise à jour des traductions de certaines extensions**:
 
 * [`flarum/flags`](https://github.com/flarum/flags)
