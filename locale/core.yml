@@ -197,6 +197,9 @@ core:
       title: 'Tableau de bord'
       toggle_advanced_page_button: 'Basculer vers la page avancée'
       tools_button: Outils
+    database-driver-mismatch-warning:
+      detail: "Votre <code>config.php</code> est configuré pour utiliser le pilote de base de données <code>{configured}</code>, mais Flarum a détecté que le serveur de base de données est en réalité <code>{actual}</code>.\n\nL'utilisation d'un pilote incorrect peut entraîner des bugs difficiles à diagnostiquer. Définissez <code>'driver' => ''{actual}''</code> dans la section <code>database</code> de votre <code>config.php</code>. Consultez <link>la documentation Flarum</link> pour plus d'informations.\n"
+      label: 'Incompatibilité du pilote de base de données'
     debug-warning:
       detail: "Lorsque le mode <code>débogage</code> est actif, Flarum reconstruit ses ressources <code>JavaScript</code> et <code>CSS</code> à chaque requête, et peut aussi potentiellement divulguer d'autres informations, comme les clés secrètes de la base de données, les variables d'environnement, etc.\n\nIl est fortement recommandé de désactiver le mode <code>débogage</code> dans votre fichier <code>config.php</code> si votre forum est dans un environnement de production. Pour plus d'informations, veuillez consulter <link>la documentation de Flarum</link>.\n"
       label: 'Mode débogage actif'

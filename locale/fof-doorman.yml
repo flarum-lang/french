@@ -5,6 +5,10 @@
 fof-doorman:
   admin:
     list:
+      actions:
+        delete: 'Supprimer le code d''invitation'
+        edit: 'Modifier le code d''invitation'
+        notify: 'Envoyer ce code d''invitation par courriel'
       columns:
         activates_user: '=> fof-doorman.admin.ref.fields.activates_user.label'
         created_by: 'Créé par'
@@ -23,6 +27,14 @@ fof-doorman:
           total_uses: '{totalUses, plural, one {Utilisé {totalUses} fois} other {Utilisé {totalUses} fois}}'
           used_times: '{remaining, plural, =0 {Utilisations illimitées} one {{remainingUses} utilisation restante} other {{remainingUses} utilisations restantes}}'
         warning: 'Ce code d''invitation a été utilisé le nombre maximum de fois.'
+      heading: 'Codes d''invitation'
+      pagination:
+        back_button: '=> core.lib.pagination.back_button'
+        first_page_button: '=> core.lib.pagination.first_button'
+        go_to_page_textbox_a11y_label: '=> core.lib.pagination.go_to_page_textbox_a11y_label'
+        last_page_button: '=> core.lib.pagination.last_button'
+        next_button: '=> core.lib.pagination.next_button'
+        page_counter: '=> core.lib.pagination.page_counter'
     modals:
       create_doorkey:
         activates_user:
@@ -80,7 +92,9 @@ fof-doorman:
           label: 'Utilisations maximales'
     settings:
       create_doorkey_button: 'Créer un code d''invitation'
+      heading: Paramètres
       optional_usage: 'Rendre le code d''invitation facultatif lors de l''inscription'
+      optional_usage_help: 'Lorsque cette option est activée, les visiteurs peuvent s''inscrire sans avoir à saisir de code d''invitation.'
       search: 'Rechercher des clés de porte'
       total_doorkeys: 'Nombre total de clés de porte : {count}'
   email:
