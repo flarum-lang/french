@@ -6,16 +6,29 @@ forumaker-statser:
   admin:
     permissions:
       view_current_page: 'Afficher les pages consultées dans le widget'
+      view_discussions_count: 'Afficher le nombre de discussions dans le widget'
+      view_latest_registration: 'Afficher la dernière inscription dans le widget'
+      view_online_users: 'Afficher les utilisateurs en ligne dans le widget'
+      view_posts_count: 'Afficher le nombre de messages dans le widget'
+      view_users_count: 'Afficher le nombre total d''utilisateurs dans le widget'
     settings:
+      enable_heartbeat: 'Activer le pouls d''activité'
+      enable_heartbeat_help: 'Un onglet ouvert envoie périodiquement une requête qui met à jour l''état actif de l''utilisateur'
       exclude_bots: 'Exclure les robots du compteur des invités'
       exclude_bots_help: 'Empêche les robots des moteurs de recherche de gonfler le compteur des invités'
+      heartbeat_interval: 'Intervalle depuis le dernier pouls d''activité — en secondes'
+      heartbeat_interval_help: 'Fréquence à laquelle un onglet actif envoie un signal de présence. Des valeurs plus faibles offrent une meilleure précision, mais génèrent davantage de requêtes en arrière-plan'
+      ignore_private_discussions: 'Exclure les discussions privées dans le décompte'
       include_guests_in_total: 'Inclure les invités dans le nombre total des utilisateurs en ligne'
       last_seen_interval: 'Intervalle depuis la dernière connexion — en minutes'
       last_seen_interval_help: 'Nombre de minutes d''inactivité avant qu''un utilisateur soit considéré comme hors ligne'
+      max_avatars: 'Nombre maximal d''avatars dans le widget'
+      max_avatars_help: 'Nombre d''avatars à afficher dans le widget. Les autres sont masqués et remplacés par un compteur « +N »'
       online_users_cache_ttl: 'Mise en cache pour les utilisateurs en ligne — en secondes'
       section_activity: Activité
       section_online: 'En ligne'
       section_stats: 'Compteurs du forum'
+      show_current_page: 'Afficher la page actuellement consultée au survol de l''avatar'
       show_discussions_count: 'Afficher le nombre de discussions'
       show_hidden_users: 'Afficher le compteur des utilisateurs masqués'
       show_hidden_users_help: 'Nombre d''utilisateurs masqués, sans révéler leur identité'
@@ -27,12 +40,18 @@ forumaker-statser:
       show_posts_count: 'Afficher le nombre de messages'
       show_users_count: 'Afficher le nombre total d''utilisateurs'
       stats_cache_duration: 'Cache des statistiques — en secondes'
+      stats_cache_duration_help: '0 désactive la mise en cache. Non recommandé pour les forums volumineux'
   forum:
     aria:
       collapse: 'Masquer les utilisateurs en ligne'
       expand: 'Afficher les utilisateurs en ligne'
     routes:
+      discussion: 'discussion « {title} »'
+      generic: 'le forum'
       index: 'toutes les discussions'
+      notifications: notifications
+      settings: paramètres
+      tags: accueil
       user: 'profil de {name}'
     widget:
       discussions: '{count, plural, one {discussion} other {discussions}}'
@@ -47,4 +66,4 @@ forumaker-statser:
       online_users_count: '{count, plural, one {# utilisateur} other {# utilisateurs}}'
       posts: '{count, plural, one {message} other {messages}}'
       total_users: '{count, plural, one {utilisateur} other {utilisateurs}}'
-      viewing_unknown: 'Consulter le forum'
+      viewing_unknown: 'Consulte le forum'

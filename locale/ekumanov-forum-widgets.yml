@@ -52,7 +52,7 @@ ekumanov-forum-widgets:
       show_toggle_help: 'Afficher ou non le bouton en forme de chevron qui permet de développer ou de réduire le panneau. Lorsqu''il est désactivé, le panneau peut toujours être ouvert en cliquant sur la barre (mode « barre ») ou sur la cellule des utilisateurs en ligne (mode « cellule en ligne »).'
       show_users_count: 'Afficher le nombre d''utilisateurs'
       stats_cache_duration: 'Durée de mise en cache des statistiques (en secondes)'
-      stats_cache_duration_help: 'Durée de mise en cache du nombre de discussions, du nombre de messages, du nombre total d''utilisateurs et de la dernière inscription. La mise en cache est automatiquement invalidée lorsque des discussions, des messages ou des utilisateurs sont créés ou supprimés. Définissez cette valeur sur 0 pour désactiver la mise en cache (non recommandé pour les forums importants).'
+      stats_cache_duration_help: 'Durée de mise en cache du nombre de discussions, du nombre de messages, du nombre total d''utilisateurs et de la dernière inscription. La mise en cache est automatiquement invalidée lorsque des discussions, des messages ou des utilisateurs sont créés ou supprimés. Définissez cette valeur sur 0 pour désactiver la mise en cache (non recommandé pour les forums volumineux).'
       widget_layout: 'Disposition du widget'
       widget_layout_classic: 'Barre latérale (classique)'
       widget_layout_full_width: 'Pleine largeur (au-dessus de la liste des discussions)'
