@@ -98,6 +98,7 @@ fof-doorman:
       search: 'Rechercher des clés de porte'
       total_doorkeys: 'Nombre total de clés de porte : {count}'
   email:
+    body: "Vous avez été invité à vous inscrire sur {forum}.\n\nLorsque vous serez prêt à créer votre compte, il vous suffira de cliquer sur le lien suivant et de saisir le code lors de votre inscription :\n\nURL : {url}\nCode d'invitation : {code}\n\nSi vous avez reçu ce message par erreur, veuillez l'ignorer.\n"
     subject: 'Inviter à s''inscrire'
   forum:
     sign_up:

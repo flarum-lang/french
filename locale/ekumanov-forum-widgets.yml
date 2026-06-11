@@ -68,7 +68,7 @@ ekumanov-forum-widgets:
     online_users:
       empty: 'Aucun utilisateur n''est actuellement en ligne.'
       guests: '{count, plural, one {invité} other {invités}}'
-      hidden_users: caché(s)
+      hidden_users: masqué(s)
       overflow_more: plus
       title: 'Utilisateurs en ligne'
     stats:
