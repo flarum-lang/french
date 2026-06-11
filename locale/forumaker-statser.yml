@@ -3,9 +3,39 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 forumaker-statser:
+  admin:
+    permissions:
+      view_current_page: 'Afficher les pages consultées dans le widget'
+    settings:
+      exclude_bots: 'Exclure les robots du compteur des invités'
+      exclude_bots_help: 'Empêche les robots des moteurs de recherche de gonfler le compteur des invités'
+      include_guests_in_total: 'Inclure les invités dans le nombre total des utilisateurs en ligne'
+      last_seen_interval: 'Intervalle depuis la dernière connexion (en minutes)'
+      last_seen_interval_help: 'Nombre de minutes d''inactivité avant qu''un utilisateur soit considéré comme hors ligne'
+      online_users_cache_ttl: 'Durée de mise en cache pour les utilisateurs en ligne (en secondes)'
+      section_activity: Activité
+      section_online: 'En ligne'
+      section_stats: 'Compteurs du forum'
+      show_discussions_count: 'Afficher le nombre de discussions'
+      show_hidden_users: 'Afficher le compteur des utilisateurs masqués'
+      show_hidden_users_help: 'Nombre d''utilisateurs masqués, sans révéler leur identité'
+      show_latest_registration: 'Afficher la dernière inscription'
+      show_online_guests: 'Afficher le compteur des invités'
+      show_online_guests_help: 'Nombre approximatif de visiteurs non authentifiés, calculé à partir des empreintes IP et User-Agent'
+      show_online_users: 'Afficher les utilisateurs en ligne'
+      show_online_users_help: 'Active le bloc « En ligne » dans le widget'
+      show_posts_count: 'Afficher le nombre de messages'
+      show_users_count: 'Afficher le nombre total d''utilisateurs'
   forum:
+    aria:
+      collapse: 'Masquer les utilisateurs en ligne'
+      expand: 'Afficher les utilisateurs en ligne'
+    routes:
+      index: 'toutes les discussions'
+      user: 'profil de {name}'
     widget:
       discussions: '{count, plural, one {discussion} other {discussions}}'
+      empty_online: 'Il n''y a actuellement personne en ligne'
       guests_label: Invités
       hidden_label: Masqués
       hidden_users_count: '{count, plural, one {# masqué} other {# masqués}}'
@@ -16,3 +46,4 @@ forumaker-statser:
       online_users_count: '{count, plural, one {# utilisateur} other {# utilisateurs}}'
       posts: '{count, plural, one {message} other {messages}}'
       total_users: '{count, plural, one {utilisateur} other {utilisateurs}}'
+      viewing_unknown: 'Consulter le forum'
