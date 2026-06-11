@@ -16,11 +16,14 @@ CHANGELOG
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
 * [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
+* [`forumaker/statser`](https://github.com/forumaker/Statser)
 * [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
 
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
+* [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search)
 * [`flarum/flags`](https://github.com/flarum/flags)
 * [`linkrobins/clipboard`](https://github.com/linkrobins/clipboard)
 * [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget)
