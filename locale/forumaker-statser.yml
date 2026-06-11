@@ -10,9 +10,9 @@ forumaker-statser:
       exclude_bots: 'Exclure les robots du compteur des invités'
       exclude_bots_help: 'Empêche les robots des moteurs de recherche de gonfler le compteur des invités'
       include_guests_in_total: 'Inclure les invités dans le nombre total des utilisateurs en ligne'
-      last_seen_interval: 'Intervalle depuis la dernière connexion (en minutes)'
+      last_seen_interval: 'Intervalle depuis la dernière connexion — en minutes'
       last_seen_interval_help: 'Nombre de minutes d''inactivité avant qu''un utilisateur soit considéré comme hors ligne'
-      online_users_cache_ttl: 'Durée de mise en cache pour les utilisateurs en ligne (en secondes)'
+      online_users_cache_ttl: 'Mise en cache pour les utilisateurs en ligne — en secondes'
       section_activity: Activité
       section_online: 'En ligne'
       section_stats: 'Compteurs du forum'
@@ -26,6 +26,7 @@ forumaker-statser:
       show_online_users_help: 'Active le bloc « En ligne » dans le widget'
       show_posts_count: 'Afficher le nombre de messages'
       show_users_count: 'Afficher le nombre total d''utilisateurs'
+      stats_cache_duration: 'Cache des statistiques — en secondes'
   forum:
     aria:
       collapse: 'Masquer les utilisateurs en ligne'
