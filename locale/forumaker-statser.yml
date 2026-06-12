@@ -29,6 +29,7 @@ forumaker-statser:
       section_online: 'En ligne'
       section_stats: 'Compteurs du forum'
       show_current_page: 'Afficher la page actuellement consultée au survol de l''avatar'
+      show_current_page_help: 'Piste les principales sections du forum — discussions et profils. Sinon, affiche un libellé générique'
       show_discussions_count: 'Afficher le nombre de discussions'
       show_hidden_users: 'Afficher le compteur des utilisateurs masqués'
       show_hidden_users_help: 'Nombre d''utilisateurs masqués, sans révéler leur identité'
@@ -47,10 +48,13 @@ forumaker-statser:
       expand: 'Afficher les utilisateurs en ligne'
     routes:
       discussion: 'discussion « {title} »'
+      flags: signalements
       generic: 'le forum'
       index: 'toutes les discussions'
       notifications: notifications
+      search: recherche
       settings: paramètres
+      tag: 'étiquette « {name} »'
       tags: accueil
       user: 'profil de {name}'
     widget:
@@ -66,4 +70,5 @@ forumaker-statser:
       online_users_count: '{count, plural, one {# utilisateur} other {# utilisateurs}}'
       posts: '{count, plural, one {message} other {messages}}'
       total_users: '{count, plural, one {utilisateur} other {utilisateurs}}'
-      viewing_unknown: 'Consulte le forum'
+      viewing_page: 'Consulte {page}'
+      viewing_unknown: 'Navigue sur le forum'

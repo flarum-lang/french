@@ -13,6 +13,8 @@ fof-geoip:
       see_country: 'Toujours afficher le pays de l''adresse IP'
     settings:
       access_key_label: 'Clé d''accès'
+      allow_custom_flag_help: 'Lorsque cette option est activée, les utilisateurs peuvent choisir un drapeau de pays à afficher sur leurs messages via les paramètres de leur profil. Le drapeau sélectionné par l''utilisateur est visible par tous et prévaut sur le drapeau attribué en fonction de l''adresse IP. Cette fonctionnalité nécessite l''activation de l''option « Afficher le drapeau du pays pour chaque message ».'
+      allow_custom_flag_label: 'Autoriser les utilisateurs à choisir un drapeau de pays personnalisé'
       error_code_prefix: 'Code :'
       error_prefix: 'Erreur :'
       general:
@@ -81,4 +83,27 @@ fof-geoip:
       zip_code: 'Code postal'
     user:
       settings:
+        custom_flag_help: 'Choisissez un drapeau de pays à afficher sur vos messages. Ce drapeau est visible par tous et remplace celui associé à votre adresse IP.'
+        custom_flag_label: 'Drapeau du pays personnalisé'
         ip_country: 'Afficher le drapeau du pays d''où je publie, en fonction de mon adresse IP'
+  lib:
+    alerts:
+      ip_copied: 'Adresse IP copiée'
+    copy_ip_label: 'Copier l''adresse IP dans le presse-papiers'
+    custom_flag:
+      none: 'Aucun drapeau personnalisé'
+      placeholder: 'Rechercher un pays…'
+    map_button_label: 'Informations sur l''adresse IP'
+    map_modal:
+      as: ASN
+      country_code: 'Code pays'
+      error: Erreur
+      ip_address: 'Adresse IP'
+      isp: FAI
+      mobile: 'Réseau cellulaire'
+      not_enough_data: 'Il n''y a pas assez de données pour dessiner une carte'
+      organization: Organisation
+      threat_level: 'Niveau de menace'
+      threat_types: 'Types de menaces'
+      title: 'Informations sur l''adresse IP'
+      zip_code: 'Code postal'
