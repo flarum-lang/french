@@ -17,7 +17,9 @@ CHANGELOG
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
 * [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
 * [`forumaker/statser`](https://github.com/forumaker/Statser)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 * [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
 
 
 **Mise à jour des traductions de certaines extensions**:
