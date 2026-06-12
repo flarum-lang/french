@@ -20,6 +20,7 @@ CHANGELOG
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 * [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
 * [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
+* [`linkrobins/toc`](https://github.com/linkrobins/toc)
 
 
 **Mise à jour des traductions de certaines extensions**:
@@ -27,6 +28,7 @@ CHANGELOG
 * [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
 * [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search)
 * [`flarum/flags`](https://github.com/flarum/flags)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`linkrobins/clipboard`](https://github.com/linkrobins/clipboard)
 * [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget)
 * [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
