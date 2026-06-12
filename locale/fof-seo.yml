@@ -27,6 +27,22 @@ fof-seo:
         mode_all_title: 'Indexer tous les messages d''une discussion (option activée)'
         mode_main_help: 'Le moteur de recherche affichera seulement le message principal dans les résultats de recherche. Cela n''aura aucune incidence sur la vitesse de chargement lorsque vous y accéderez via les liens du forum.'
         mode_main_title: 'Indexer uniquement le message principal (par défaut)'
+        question: 'Voulez-vous activer cette fonctionnalité ?'
+      dofollow:
+        add_placeholder: 'Autoriser un domaine'
     permissions:
-      category_label: Référencement
-      configure_seo: 'Autoriser la configuration du référencement'
+      category_label: SEO
+      configure_seo: 'Autoriser la configuration du SEO'
+    settings:
+      info:
+        maintain: 'Vérifiez tous vos paramètres lors de la première configuration de cette extension. Maintenez-les à jour pour obtenir les meilleurs résultats de recherche.'
+        overview: 'Cette page contient d''autres paramètres issus de l''espace d''administration. Il est toutefois utile d''avoir une bonne vue d''ensemble de ces paramètres. N''oubliez pas d''effectuer la vérification SEO.'
+      keywords:
+        comma_note: 'Remarque : les mots-clés doivent être séparés par une virgule.'
+        example: 'Exemple : flarum, développement web, forum, pommes, sécurité'
+        heading: 'Mots-clés du forum'
+        help: 'Entrez un ou plusieurs mots-clés qui décrivent votre forum.'
+        placeholder: 'Ajouter quelques mots-clés'
+      twitter_card:
+        heading: 'Taille de la carte X (anciennement Twitter)'
+        help: 'Lorsque votre forum est partagé sur X (anciennement Twitter), il affichera une image (si une image a été configurée pour les réseaux sociaux). Il peut s''agir d''une grande carte avec une grande image, ou d''une petite carte (résumé) avec une image plus petite.'
