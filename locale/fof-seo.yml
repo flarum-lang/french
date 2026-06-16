@@ -42,8 +42,11 @@ fof-seo:
       configure_seo: 'Autoriser la configuration du SEO'
     settings:
       crawl:
+        button: 'Configurer l''indexation des messages'
         heading: 'Paramètres d''indexation des messages dans les discussions'
         help: 'Il s''agit d''un paramètre important concernant l''indexation de vos messages de discussion dans les résultats de recherche.'
+      indexing:
+        profiles_label: 'Désindexer les pages de profil'
       info:
         maintain: 'Vérifiez tous vos paramètres lors de la première configuration de cette extension. Maintenez-les à jour pour obtenir les meilleurs résultats de recherche.'
         overview: 'Cette page contient d''autres paramètres issus de l''espace d''administration. Il est toutefois utile d''avoir une bonne vue d''ensemble de ces paramètres. N''oubliez pas d''effectuer la vérification SEO.'
