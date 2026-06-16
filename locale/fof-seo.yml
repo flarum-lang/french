@@ -28,6 +28,8 @@ fof-seo:
         mode_main_help: 'Le moteur de recherche affichera seulement le message principal dans les résultats de recherche. Cela n''aura aucune incidence sur la vitesse de chargement lorsque vous y accéderez via les liens du forum.'
         mode_main_title: 'Indexer uniquement le message principal (par défaut)'
         question: 'Voulez-vous activer cette fonctionnalité ?'
+        switch_label: 'Analyser tous les messages (le rafraîchissement de la page est plus lent, mais les résultats de recherche seront meilleurs)'
+        title: 'Paramètres d''indexation des messages'
       dofollow:
         add_placeholder: 'Autoriser un domaine'
         default_note: 'Le domaine que vous utilisez pour votre instance Flarum est ajouté à la liste par défaut.'
@@ -39,6 +41,9 @@ fof-seo:
       category_label: SEO
       configure_seo: 'Autoriser la configuration du SEO'
     settings:
+      crawl:
+        heading: 'Paramètres d''indexation des messages dans les discussions'
+        help: 'Il s''agit d''un paramètre important concernant l''indexation de vos messages de discussion dans les résultats de recherche.'
       info:
         maintain: 'Vérifiez tous vos paramètres lors de la première configuration de cette extension. Maintenez-les à jour pour obtenir les meilleurs résultats de recherche.'
         overview: 'Cette page contient d''autres paramètres issus de l''espace d''administration. Il est toutefois utile d''avoir une bonne vue d''ensemble de ces paramètres. N''oubliez pas d''effectuer la vérification SEO.'
