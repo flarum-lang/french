@@ -37,6 +37,9 @@ fof-seo:
         intro: 'Saisissez les <b>noms d''hôte</b> des domaines que vous souhaitez ajouter à la liste des liens « do-follow ».'
         learn_more_line: '<a>En savoir plus</a> sur la liste des liens « do-follow ».'
         title: 'Liste des liens « do-follow »'
+    pages:
+      search_engines:
+        heading: 'Soumettez votre site web aux moteurs de recherche'
     permissions:
       category_label: SEO
       configure_seo: 'Autoriser la configuration du SEO'
@@ -46,7 +49,11 @@ fof-seo:
         heading: 'Paramètres d''indexation des messages dans les discussions'
         help: 'Il s''agit d''un paramètre important concernant l''indexation de vos messages de discussion dans les résultats de recherche.'
       indexing:
+        heading: 'Contrôles de l''indexation'
+        profiles_help: 'Lorsque cette option est activée, les pages de profil utilisateur émettent une balise meta « noindex » afin qu''elles n''apparaissent pas dans les résultats de recherche. Les liens présents sur la page sont toutefois suivis, ce qui permet aux robots d''indexation d''accéder au contenu vers lequel ils renvoient.'
         profiles_label: 'Désindexer les pages de profil'
+        tags_button: 'Sélectionnez les étiquettes'
+        tags_none_selected: 'Aucune étiquette n''est exclue de l''indexation.'
       info:
         maintain: 'Vérifiez tous vos paramètres lors de la première configuration de cette extension. Maintenez-les à jour pour obtenir les meilleurs résultats de recherche.'
         overview: 'Cette page contient d''autres paramètres issus de l''espace d''administration. Il est toutefois utile d''avoir une bonne vue d''ensemble de ces paramètres. N''oubliez pas d''effectuer la vérification SEO.'
@@ -56,6 +63,13 @@ fof-seo:
         heading: 'Mots-clés du forum'
         help: 'Entrez un ou plusieurs mots-clés qui décrivent votre forum.'
         placeholder: 'Ajouter quelques mots-clés'
+      new_tab:
+        heading: 'Ouvrir les liens externes dans un nouvel onglet'
+        help: 'Cette extension garantira également que les liens externes (vers d''autres domaines) s''ouvrent dans un nouvel onglet. Pour l''instant, il n''est pas possible de désactiver ce paramètre.'
+      nofollow:
+        heading: 'Liens « no-follow »'
+        help: 'Tous les liens vers des domaines externes recevront par défaut l''attribut « <i>nofollow</i> ». Cela permettra d''éviter que des utilisateurs n''inondent votre forum avec des liens vers d''autres domaines dans le but d''obtenir davantage de visites.'
+        help_dofollow: 'Ce paramètre vous permet d''ajouter des domaines à la liste « do-follow ». Par exemple, vous pouvez ajouter <i>flarum.org</i> pour vous assurer que les liens vers ce site web ne se voient pas attribuer l''attribut « nofollow ».'
       social_media_image:
         heading: 'Image destinée aux réseaux sociaux'
         help_size: 'Une image carrée est attendue. La taille recommandée est de 1200 × 1200 pixels. Sinon, veuillez utiliser une image en format paysage ; la taille recommandée est de 1200 × 630 pixels.'
@@ -65,3 +79,6 @@ fof-seo:
         help: 'Lorsque votre forum est partagé sur X (anciennement Twitter), il affichera une image (si une image a été configurée pour les réseaux sociaux). Il peut s''agir d''une grande carte avec une grande image, ou d''une petite carte (résumé) avec une image plus petite.'
         option_large: 'Carte Résumé (avec une grande image)'
         option_summary: 'Carte Résumé (avec une petite image)'
+      updated:
+        heading: 'Avez-vous mis à jour ce paramètre ?'
+        help: 'Lorsque vous pensez être prêt, cliquez sur le bouton ci-dessous pour vérifier à nouveau l''état de ce paramètre.'
