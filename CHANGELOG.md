@@ -30,6 +30,7 @@ CHANGELOG
 * [`flarum/flags`](https://github.com/flarum/flags)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
 * [`linkrobins/clipboard`](https://github.com/linkrobins/clipboard)
 * [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget)
 * [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
