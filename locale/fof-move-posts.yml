@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-move-posts/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      posts:
+        moved: 'A déplacé {post_count, plural, one {un message} other {{post_count} messages}} de {discussion} vers {new_discussion}'
+        moved_to_new_discussion: 'A déplacé {post_count, plural, one {un message} other {{post_count} messages}} de {discussion} vers la nouvelle discussion {new_discussion}'
 fof-move-posts:
   admin:
     permissions:
