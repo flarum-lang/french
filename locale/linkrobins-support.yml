@@ -70,6 +70,7 @@ linkrobins-support:
       categories: Catégories
       rate_limits: 'Limites de fréquence'
     permissions:
+      force_delete_tickets: 'Supprimer définitivement les tickets'
       handle_tickets: 'Gérer les tickets'
       manage_appeal_bans: 'Gérer les recours contre les suspensions'
     rate_limits:
@@ -189,6 +190,7 @@ linkrobins-support:
       upload: 'Impossible de transférer le fichier.'
       upload_no_files: 'Aucun fichier n''a été transféré. Veuillez réessayer.'
     index:
+      deleted_badge: Supprimé
       empty: 'Aucun ticket à afficher.'
       empty_own: 'Aucun ticket pour le moment. Cliquez sur « Nouveau ticket » pour en ouvrir un.'
       filter_all: Tous
