@@ -82,3 +82,21 @@ fof-seo:
       updated:
         heading: 'Avez-vous mis à jour ce paramètre ?'
         help: 'Lorsque vous pensez être prêt, cliquez sur le bouton ci-dessous pour vérifier à nouveau l''état de ce paramètre.'
+  forum:
+    meta_seo:
+      og:
+        auto_switch: 'Générer automatiquement des balises Open Graph'
+        description:
+          label: 'Description de l''Open Graph'
+          placeholder: 'Description personnalisée de l''Open Graph'
+        label: 'Balises Open Graph'
+        title: 'Titre de l''Open Graph'
+      twitter:
+        auto_switch: 'Générer automatiquement une carte X (anciennement Twitter)'
+        description: 'Description X (anciennement Twitter)'
+        image:
+          help: 'Affiche une image sur X (anciennement Twitter).'
+          label: 'Image X (anciennement Twitter)'
+          reset: 'Réinitialiser l''image'
+        label: 'Carte X (anciennement Twitter)'
+        title: 'Titre X (anciennement Twitter)'
