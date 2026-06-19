@@ -31,6 +31,7 @@ CHANGELOG
 * [`flarum/flags`](https://github.com/flarum/flags)
 * [`flarum/lock`](https://github.com/flarum/lock)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`flarum/realtime`](https://github.com/flarum/realtime)
 * [`flarum/sticky`](https://github.com/flarum/sticky)
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
