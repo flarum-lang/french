@@ -28,6 +28,8 @@ CHANGELOG
 * [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
 * [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search)
 * [`flarum/flags`](https://github.com/flarum/flags)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
