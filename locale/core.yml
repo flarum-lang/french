@@ -729,6 +729,9 @@ core:
   lib:
     alert:
       dismiss_a11y_label: 'Rejeter l''alerte'
+    assets_updated:
+      message: 'Une version plus récente de cette page est disponible.'
+      reload_button: Actualiser
     badge:
       hidden_tooltip: Masquée
     data_segment:
