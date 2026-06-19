@@ -6,8 +6,8 @@ flarum-audit:
   lib:
     browser:
       post:
-        dismissed_flags: 'Signalements rejetés sur {post} de {postuser} dans {discussion}'
-        flagged: '{post} de {postuser} a été signalé comme {reason} dans {discussion}'
+        dismissed_flags: 'A rejeté les signalements sur {post} de {postuser} dans {discussion}'
+        flagged: 'A signalé {post} de {postuser} comme {reason} dans {discussion}'
 flarum-flags:
   admin:
     permissions:

@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-sticky/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        stickied: 'A épinglé la discussion {discussion}'
+        unstickied: 'A désépinglé la discussion {discussion}'
 flarum-sticky:
   admin:
     permissions:

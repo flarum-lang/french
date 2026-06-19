@@ -6,9 +6,9 @@ flarum-audit:
   lib:
     browser:
       registration:
-        blocked: 'Inscription bloquée pour {username} ({email}) depuis {ip}'
+        blocked: 'A bloqué l''inscription pour {username} ({email}) depuis {ip}'
       user:
-        marked_as_spammer: '{username} marqué comme indésirable'
+        marked_as_spammer: 'A marqué {username} comme indésirable'
 fof-anti-spam:
   admin:
     blocked_registrations:

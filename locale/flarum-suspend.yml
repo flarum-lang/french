@@ -6,8 +6,8 @@ flarum-audit:
   lib:
     browser:
       user:
-        suspended: '{username} a été suspendu jusqu''à {until}'
-        unsuspended: '{username} n''est plus suspendu'
+        suspended: 'A suspendu {username} jusqu''à {until}'
+        unsuspended: 'A désuspendu {username}'
 flarum-suspend:
   admin:
     permissions:

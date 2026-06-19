@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-lock/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        locked: 'A verrouillé la discussion {discussion}'
+        unlocked: 'A déverrouillé la discussion {discussion}'
 flarum-lock:
   admin:
     permissions:
