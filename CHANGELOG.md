@@ -12,6 +12,7 @@ CHANGELOG
 
 **Prise en charge de nouvelles extensions**:
 
+* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
