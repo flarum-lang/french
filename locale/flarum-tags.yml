@@ -2,9 +2,21 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-tags/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        tagged: 'A mis à jour les étiquettes de {discussion} en remplaçant {old_tags} par {new_tags}'
+      tag:
+        created: 'A créé l''étiquette {tag}'
+        deleted: 'A supprimé l''étiquette {tag}'
+        updated: 'A mis à jour l''étiquette {tag}'
 flarum-tags:
   admin:
     basics:
+      slug_driver_options:
+        default: 'Par défaut'
+        id_with_slug: 'Identifiant avec nom générique'
       tags_label: '=> flarum-tags.ref.tags'
     edit_tag:
       color_label: '=> core.ref.color'

@@ -544,7 +544,7 @@ core:
       title: 'Mot de passe oublié'
     header:
       admin_button: Administration
-      back_to_index_tooltip: 'Revenir à la liste de discussions'
+      back_to_index_tooltip: 'Revenir à la liste de discussion'
       locale_dropdown_accessible_label: 'Modifier la langue du forum'
       log_in_link: '=> core.ref.log_in'
       log_out_button: '=> core.ref.log_out'
@@ -569,7 +569,7 @@ core:
       newest_button: '=> core.ref.newest'
       oldest_button: '=> core.ref.oldest'
       relevance_button: '=> core.ref.relevance'
-      toggle_dropdown_accessible_label: 'Modifier le tri des listes de discussion'
+      toggle_dropdown_accessible_label: 'Modifier l''ordre d''affichage de la liste de discussion'
       top_button: Popularité
     log_in:
       forgot_password_link: 'Mot de passe oublié ?'

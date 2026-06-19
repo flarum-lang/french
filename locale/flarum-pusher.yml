@@ -5,7 +5,9 @@
 flarum-pusher:
   admin:
     pusher_settings:
+      app_cluster_help: 'Le cluster sur lequel votre application Pusher est hébergée (par exemple <code>eu</code> ou <code>us2</code>) s''affiche sur la page « Clés d''application » de l''application. Laissez ce champ vide si vous définissez un nom d''hôte de serveur personnalisé ci-dessous.'
       app_cluster_label: 'Grappe de serveurs'
+      app_id_help: 'L''identifiant numérique de l''application, depuis la page « Clés d''application » de votre application Pusher.'
       app_id_label: 'Identifiant de l''application'
       app_key_label: 'Clé de l''application'
       app_secret_label: 'Clé secrète de l''application'

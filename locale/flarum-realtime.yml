@@ -7,6 +7,10 @@ flarum-realtime:
     permission:
       view-who-types: 'Voir qui est en train d''écrire'
     settings:
+      index-typing-indicator: 'Indicateur de saisie dans la liste de discussion'
+      index-typing-indicator-help: 'Lorsque cette option est activée, une icône s''affiche dans la liste des discussions pour chaque discussion accessible au public dans laquelle quelqu''un est en train d''écrire un message. Aucun nom n''est affiché.'
+      index-typing-indicator-restricted: 'Indicateur de saisie dans la liste de discussion pour les étiquettes à accès restreint'
+      index-typing-indicator-restricted-help: 'Afficher également l''indicateur de saisie pour les discussions dans les étiquettes à accès restreint, pour les utilisateurs autorisés à voir ces étiquettes. Nécessite l''extension « Tags ». Désactivé par défaut.'
       notification-toast-dismiss-after: 'Durée d''affichage des notifications contextuelles'
       notification-toast-dismiss-after-help: 'Combien de temps (en secondes) une notification contextuelle en temps réel reste-t-elle à l''écran avant d''être automatiquement masquée ? Définissez cette valeur sur 0 pour désactiver les notifications contextuelles.'
       release-discussion-updates: 'Mises à jour de la liste de discussions'
@@ -18,6 +22,7 @@ flarum-realtime:
   forum:
     index-typing:
       someone-typing: 'Quelqu''un est en train d''écrire dans cette discussion'
+      someone-typing-tag: 'Quelqu''un est entrain d''écrire dans cette étiquette'
     push:
       discussion-list-new-activity: '{count, plural, one {Afficher # discussion mise à jour} other {Afficher # discussions mises à jour}}'
       discussion-list-new-activity-with-auto-release: '{count, plural, one {# discussion a} other {# discussion ont}} une nouvelle activité qui sera publiée dans {releaseTimeout} secondes. Cliquez pour afficher maintenant.'
