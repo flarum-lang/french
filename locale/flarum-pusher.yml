@@ -5,12 +5,16 @@
 flarum-pusher:
   admin:
     pusher_settings:
-      app_cluster_help: 'Le cluster sur lequel votre application Pusher est hébergée (par exemple <code>eu</code> ou <code>us2</code>) s''affiche sur la page « Clés d''application » de l''application. Laissez ce champ vide si vous définissez un nom d''hôte de serveur personnalisé ci-dessous.'
+      app_cluster_help: 'La grappe de serveurs sur laquelle votre application Pusher est hébergée (par exemple <code>eu</code> ou <code>us2</code>), affichée sur la page « Clés de l''application » de l''application. Laissez ce champ vide si vous définissez un nom d''hôte de serveur personnalisé ci-dessous.'
       app_cluster_label: 'Grappe de serveurs'
-      app_id_help: 'L''identifiant numérique de l''application, depuis la page « Clés d''application » de votre application Pusher.'
+      app_id_help: 'L''identifiant numérique de l''application accessible depuis la page « Clés de l''application » de votre application Pusher.'
       app_id_label: 'Identifiant de l''application'
+      app_key_help: 'La clé publique accessible depuis la page « Clés de l''application » de votre application Pusher. Elle est transmise aux navigateurs et n''est donc pas secrète.'
       app_key_label: 'Clé de l''application'
+      app_secret_help: 'La clé secrète accessible depuis la page « Clés de l''application » de votre application Pusher. Veuillez garder cette information confidentielle — elle n''est utilisé qu''au niveau du serveur.'
       app_secret_label: 'Clé secrète de l''application'
+      server_hostname_help: 'Facultatif. Remplacez l''hôte auquel le client se connecte, pour un serveur auto-hébergé compatible avec Pusher (par exemple soketi). Laissez ce champ vide pour utiliser le service hébergé par Pusher avec la grappe de serveurs ci-dessus.'
+      server_hostname_label: 'Nom d''hôte du serveur'
       title: 'Paramètres de Pusher'
   forum:
     discussion_list:
