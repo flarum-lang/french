@@ -16,6 +16,8 @@ flarum-realtime:
       typing-indicator: 'Indicateur de saisie'
       typing-indicator-help: 'Lorsque cette option est activée, et sous réserve des permissions accordées, les utilisateurs peuvent voir le nombre d''autres utilisateurs qui sont en train d''écrire dans une discussion. Lorsqu''elle est désactivée, l''activité de saisie est supprimée à la fois de l''interface utilisateur et de la charge utile du websocket.'
   forum:
+    index-typing:
+      someone-typing: 'Quelqu''un est en train d''écrire dans cette discussion'
     push:
       discussion-list-new-activity: '{count, plural, one {Afficher # discussion mise à jour} other {Afficher # discussions mises à jour}}'
       discussion-list-new-activity-with-auto-release: '{count, plural, one {# discussion a} other {# discussion ont}} une nouvelle activité qui sera publiée dans {releaseTimeout} secondes. Cliquez pour afficher maintenant.'
