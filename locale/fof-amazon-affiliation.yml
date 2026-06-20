@@ -6,11 +6,13 @@ fof-amazon-affiliation:
   admin:
     settings:
       field:
+        help-mediaembed: 'Les cartes produit utilisent toujours l''étiquette que vous avez configuré ; par conséquent, le paramètre « conserver les étiquettes existantes » ne s''applique qu''aux liens simples.'
         keep-existing-tag: 'Conserver les étiquettes d''affiliation Amazon des liens d''origines au lieu de les remplacer'
         keep-existing-tag-help: 'Par défaut, toute étiquette existante dans le lien d''origine est remplacée par l''étiquette que vous définissez ci-dessous.'
         remove-tag-if-unhandled: 'Supprimer les étiquettes d''affiliation Amazon sur les liens Amazon non couverts'
         remove-tag-if-unhandled-help: 'Par défaut, les liens non couverts sont laissés tels quels, y compris leur étiquette éventuelle.'
-        rich-card-help: 'Lorsque cette option est activée, les URL des produits Amazon (/dp/ et /gp/product/) s''affichent sous forme de carte compacte renvoyant vers la page du produit référencée. Lorsqu''elle est désactivée, elles restent de simples liens et sont référencées comme n''importe quel autre lien Amazon.'
+        rich-card: 'Afficher les liens vers les produits Amazon sous forme d''une carte produit enrichie'
+        rich-card-help: 'Lorsque cette option est activée, les URL des produits Amazon (/dp/ et /gp/product/) s''affichent sous forme d''une carte compacte renvoyant vers la page du produit référencée. Lorsqu''elle est désactivée, elles restent de simples liens et sont référencées comme n''importe quel autre lien Amazon.'
         tag: '{name} (amazon.{domain})'
         tag-placeholder: 'Laissez vide pour ne pas couvrir ces liens'
       title:
