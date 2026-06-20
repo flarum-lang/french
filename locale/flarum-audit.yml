@@ -80,6 +80,7 @@ flarum-audit:
         comment: Commentaire
         post: Message
       help:
+        negate: 'Préfixer un filtre d''un signe moins pour exclure les résultats correspondants, par exemple -client:cli'
         toggle: 'Aide à la recherche'
       loadMore: 'Charger davantage'
       noReason: '(aucun motif)'
