@@ -60,11 +60,18 @@ flarum-audit:
         created: 'A démarré la discussion {discussion}'
         deleted: 'A supprimé la discussion {discussion}'
         hidden: 'A masqué la discussion {discussion}'
-        merged_away: 'A fusionné {discussion} dans {new_discussion}'
-        merged_into: 'A fusionné {post_count} messages depuis {original_discussion_ids_count} discussions dans {discussion}'
-        renamed: 'A renommé la discussion de {old_title} par {new_title}'
+        merged_away: 'A fusionné {discussion} avec {new_discussion}'
+        merged_into: 'A regroupé {post_count} messages depuis {original_discussion_ids_count} discussions dans {discussion}'
+        renamed: 'A renommé la discussion {old_title} par {new_title}'
         restored: 'A restauré la discussion {discussion}'
+        split_away: 'A déplacé {post_count} messages depuis {discussion} vers {new_discussion}'
+        split_into: 'A déplacé {post_count} messages vers la nouvelle discussion {discussion}'
+        user_changed: 'A modifié l''auteur de {discussion}, {old_user} par {new_user}'
       empty: 'Aucun résultat'
+      extension:
+        disabled: 'A désactivé l''extension {package}'
+        enabled: 'A activé l''extension {package}'
+        uninstalled: 'A désinstallé l''extension {package}'
       filterApply: Appliquer
       filterClear: 'Effacer le filtre'
       filterPlaceholder: 'Filtrer les journaux'
@@ -76,9 +83,16 @@ flarum-audit:
         ip: 'L''adresse IP à l''origine de l''action.'
         user: 'L''utilisateur concerné par l''action, par nom d''utilisateur.'
       filtersHint: 'Filtres :'
+      fof_ban_ips:
+        banned: 'A banni l''adresse IP {ip}'
+        unbanned: 'A débanni l''adresse IP {ip}'
       genericResource:
         comment: Commentaire
         post: Message
+      group:
+        created: 'A créé le groupe {name}'
+        deleted: 'A supprimé le groupe {name}'
+        renamed: 'A renommé le groupe {old_name} en {new_name}'
       help:
         negate: 'Préfixer un filtre d''un signe moins pour exclure les résultats correspondants, par exemple -client:cli'
         toggle: 'Aide à la recherche'
@@ -88,5 +102,9 @@ flarum-audit:
       permissionGroup:
         everyone: '=> core.admin.permissions_controls.everyone_button'
         members: '=> core.admin.permissions_controls.members_button'
+      post:
+        create_date_changed: 'A modifié la date de début du {post} de {postuser} de {old_date} à {new_date}'
+        created: 'A créé un {post} dans {discussion}'
+        deleted: 'A supprimé {post} de {postuser} dans {discussion}'
       refresh: Actualiser
       withoutActor: '=> core.group.guest'

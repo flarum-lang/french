@@ -18,7 +18,7 @@ fof-merge-discussions:
       updating_failed: 'Échec de la mise à jour des informations de la discussion.'
   email:
     merged:
-      body: "Votre discussion, {merged_discussion_title}, a été fusionnée dans {discussion_title} par {actor_display_name}.\n\nConsultez-le ici {discussion_url} .\n"
+      body: "Votre discussion, {merged_discussion_title}, a été fusionnée avec {discussion_title} par {actor_display_name}.\n\nConsultez-le ici {discussion_url} .\n"
       subject: 'Votre discussion "{merged_discussion_title}" a été fusionnée'
   forum:
     discussion:
@@ -39,7 +39,7 @@ fof-merge-discussions:
       type_target_help_text: 'Sélectionnez une ou plusieurs discussions à fusionner avec {title}.'
       type_target_label: 'Fusionner avec moi'
     notification:
-      discussion_merged: 'Votre discussion {oldTitle} a été fusionnée dans cette discussion par {username}.'
+      discussion_merged: 'Votre discussion {oldTitle} a été fusionnée avec cette discussion par {username}.'
       preferences:
         discussion_merged: 'Quelqu''un a fusionné une de mes discussions avec une autre'
     post:
