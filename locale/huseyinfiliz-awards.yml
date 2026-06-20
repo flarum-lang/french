@@ -45,7 +45,7 @@ huseyinfiliz-awards:
     nominees:
       adjust_votes: 'Ajuster les votes'
       adjustment: Ajustement
-      adjustment_help: 'Entrez un nombre positif ou négatif pour ajuster le nombre de votes affiché.'
+      adjustment_help: 'Saisissez un nombre positif ou négatif pour ajuster le nombre de votes affiché.'
       create: 'Créer un nominé'
       create_title: 'Créer un nouveau nominé'
       delete_confirm: 'Êtes-vous sûr de vouloir supprimer ce nominé ?'
