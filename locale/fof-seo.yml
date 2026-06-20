@@ -38,6 +38,23 @@ fof-seo:
         learn_more_line: '<a>En savoir plus</a> sur la liste des liens « do-follow ».'
         title: 'Liste des liens « do-follow »'
     pages:
+      health:
+        checks:
+          description:
+            button: 'Mettre à jour la description'
+          keywords:
+            button: 'Mettre à jour les mots-clés'
+          review:
+            reason: 'Il est temps de revoir vos paramètres SEO.'
+          social_media:
+            button: 'Mettre à jour l''image'
+        default_button: 'Mettre à jour les paramètres'
+        status:
+          passed: 'Tout est prêt !'
+          warning: 'Attention !'
+        table:
+          status: Statut
+          technique: Technique
       search_engines:
         heading: 'Soumettez votre site web aux moteurs de recherche'
     permissions:
@@ -83,7 +100,21 @@ fof-seo:
         heading: 'Avez-vous mis à jour ce paramètre ?'
         help: 'Lorsque vous pensez être prêt, cliquez sur le bouton ci-dessous pour vérifier à nouveau l''état de ce paramètre.'
   forum:
+    controls:
+      configure_seo: 'Configurer le référencement'
+      reset_seo: 'Réinitialiser le référencement'
+      update_seo: 'Mettre à jour le référencement'
     meta_seo:
+      close:
+        close: Fermer
+        save: Enregistrer
+        save_autofill: 'Enregistrer et remplir automatiquement'
+      meta_description:
+        label: 'Description Meta'
+      meta_title:
+        help: 'Titre dans les moteurs de recherche.'
+        label: 'Titre Meta'
+      note_prefix: 'Note :'
       og:
         auto_switch: 'Générer automatiquement des balises Open Graph'
         description:
@@ -91,6 +122,7 @@ fof-seo:
           placeholder: 'Description personnalisée de l''Open Graph'
         label: 'Balises Open Graph'
         title: 'Titre de l''Open Graph'
+      saved: 'Enregistré !'
       twitter:
         auto_switch: 'Générer automatiquement une carte X (anciennement Twitter)'
         description: 'Description X (anciennement Twitter)'
@@ -100,3 +132,7 @@ fof-seo:
           reset: 'Réinitialiser l''image'
         label: 'Carte X (anciennement Twitter)'
         title: 'Titre X (anciennement Twitter)'
+      unsupported_object:
+        docs_link: Documentation
+    profile_description: 'Profil de {username} | {discussion_count} discussions | {comment_count} messages'
+    profile_title: 'Profil de {username}'

@@ -18,3 +18,4 @@ fof-amazon-affiliation:
       title:
         modal: 'Paramètres d''affiliation Amazon'
         tags: 'Étiquettes d''affiliation'
+        tags-mediaembed: 'Définissez ci-dessous une étiquette d''affiliation par place de marché. Les liens vers une place de marché configurée sont étiquetés avec sa valeur ; laissez un champ d''une place de marché vide pour l''ignorer.'
