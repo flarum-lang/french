@@ -42,6 +42,7 @@ CHANGELOG
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
