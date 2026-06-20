@@ -56,7 +56,11 @@ fof-seo:
           status: Statut
           technique: Technique
       search_engines:
+        google_heading: 'Ajoutez votre site web aux résultats de recherche Google'
+        google_visit: 'Si vous souhaitez ajouter votre site web aux résultats de recherche Google, rendez-vous sur {link}. Vous devrez ajouter votre site web et confirmer que vous êtes bien le propriétaire du nom de domaine associé.'
+        google_www: 'Lorsque vous saisissez votre nom de domaine, vous devez vous poser la question suivante : souhaitez-vous utiliser le sous-domaine « www » dans les résultats de recherche ? Vous ne pourrez <strong>pas</strong> modifier ce paramètre ultérieurement. Enregistrer votre nom de domaine plusieurs fois dans Google Search Console n''améliorera pas votre classement.'
         heading: 'Soumettez votre site web aux moteurs de recherche'
+        sitemap_tip: 'Il est recommandé de disposer d''un plan du site avant de suivre ce guide. Si vous n''avez pas encore un plan du site, <a>cliquez ici pour en savoir plus à ce sujet</a>.'
     permissions:
       category_label: SEO
       configure_seo: 'Autoriser la configuration du SEO'
@@ -84,6 +88,7 @@ fof-seo:
         heading: 'Ouvrir les liens externes dans un nouvel onglet'
         help: 'Cette extension garantira également que les liens externes (vers d''autres domaines) s''ouvrent dans un nouvel onglet. Pour l''instant, il n''est pas possible de désactiver ce paramètre.'
       nofollow:
+        button: 'Ouvrir la liste des domaines « do-follow »'
         heading: 'Liens « no-follow »'
         help: 'Tous les liens vers des domaines externes recevront par défaut l''attribut « <i>nofollow</i> ». Cela permettra d''éviter que des utilisateurs n''inondent votre forum avec des liens vers d''autres domaines dans le but d''obtenir davantage de visites.'
         help_dofollow: 'Ce paramètre vous permet d''ajouter des domaines à la liste « do-follow ». Par exemple, vous pouvez ajouter <i>flarum.org</i> pour vous assurer que les liens vers ce site web ne se voient pas attribuer l''attribut « nofollow ».'
@@ -97,6 +102,7 @@ fof-seo:
         option_large: 'Carte Résumé (avec une grande image)'
         option_summary: 'Carte Résumé (avec une petite image)'
       updated:
+        button: 'Revenir à la vue d''ensemble et revérifier'
         heading: 'Avez-vous mis à jour ce paramètre ?'
         help: 'Lorsque vous pensez être prêt, cliquez sur le bouton ci-dessous pour vérifier à nouveau l''état de ce paramètre.'
   forum:
