@@ -43,6 +43,7 @@ CHANGELOG
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
 * [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
 * [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
 * [`linkrobins/clipboard`](https://github.com/linkrobins/clipboard)
