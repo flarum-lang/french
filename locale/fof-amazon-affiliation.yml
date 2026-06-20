@@ -10,6 +10,7 @@ fof-amazon-affiliation:
         keep-existing-tag-help: 'Par défaut, toute étiquette existante dans le lien d''origine est remplacée par l''étiquette que vous définissez ci-dessous.'
         remove-tag-if-unhandled: 'Supprimer les étiquettes d''affiliation Amazon sur les liens Amazon non couverts'
         remove-tag-if-unhandled-help: 'Par défaut, les liens non couverts sont laissés tels quels, y compris leur étiquette éventuelle.'
+        rich-card-help: 'Lorsque cette option est activée, les URL des produits Amazon (/dp/ et /gp/product/) s''affichent sous forme de carte compacte renvoyant vers la page du produit référencée. Lorsqu''elle est désactivée, elles restent de simples liens et sont référencées comme n''importe quel autre lien Amazon.'
         tag: '{name} (amazon.{domain})'
         tag-placeholder: 'Laissez vide pour ne pas couvrir ces liens'
       title:
