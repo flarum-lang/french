@@ -78,7 +78,7 @@ fof-seo:
         comma_note: 'Remarque : les mots-clés doivent être séparés par une virgule.'
         example: 'Exemple : flarum, développement web, forum, pommes, sécurité'
         heading: 'Mots-clés du forum'
-        help: 'Entrez un ou plusieurs mots-clés qui décrivent votre forum.'
+        help: 'Saisissez un ou plusieurs mots-clés qui décrivent votre forum.'
         placeholder: 'Ajouter quelques mots-clés'
       new_tab:
         heading: 'Ouvrir les liens externes dans un nouvel onglet'
@@ -109,6 +109,17 @@ fof-seo:
         close: Fermer
         save: Enregistrer
         save_autofill: 'Enregistrer et remplir automatiquement'
+      image:
+        help: 'Affiche une image.'
+        label: 'Image Meta'
+        placeholder: 'Saisissez l''URL de l''image'
+        upload: 'Transférer un fichier'
+      keywords:
+        comma_note: 'Remarque : les mots-clés doivent être séparés par une virgule.'
+        example: 'Exemple : flarum, développement web, forum, pommes, sécurité'
+        help: 'Saisissez un ou plusieurs mots-clés qui décrivent cet élement.'
+        label: Mots-clés
+        placeholder: 'Ajouter quelques mots-clés'
       meta_description:
         label: 'Description Meta'
       meta_title:
@@ -122,6 +133,8 @@ fof-seo:
           placeholder: 'Description personnalisée de l''Open Graph'
         label: 'Balises Open Graph'
         title: 'Titre de l''Open Graph'
+      robots:
+        label: Robots
       saved: 'Enregistré !'
       twitter:
         auto_switch: 'Générer automatiquement une carte X (anciennement Twitter)'

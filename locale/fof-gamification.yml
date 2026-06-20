@@ -54,7 +54,7 @@ fof-gamification:
         color_holder: '#ffffff'
         discussion_page: 'Afficher le nombre total de votes du message original sur la liste de discussions'
         first_post_only: 'Autoriser uniquement les votes positifs/négatifs dans le premier message d''une discussion'
-        icon_help: 'Entrez n''importe quelle icône Font Awesome ayant le suffixe -up et -down. Exemples : flèche, pouce, chevron'
+        icon_help: 'Saisissez n''importe quelle icône Font Awesome ayant le suffixe -up et -down. Exemples : flèche, pouce, chevron'
         icon_name: 'Icône de vote positif/négatif'
         icon_preview_downvote: 'Vote négatif'
         icon_preview_upvote: 'Vote positif'

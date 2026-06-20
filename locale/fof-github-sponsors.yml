@@ -14,5 +14,5 @@ fof-github-sponsors:
       api_token_label: 'Jeton API'
       group_help: 'Sélectionner le groupe d''utilisateur Flarum auquel les sponsors doivent être ajoutés. Les utilisateurs seront automatiquement ajoutés lorsqu''ils deviendront sponsors et supprimés lorsqu''ils cesseront d''être sponsors.'
       group_label: 'Groupe à attribuer'
-      login_help: 'Entrez votre nom d''utilisateur GitHub (pour les comptes utilisateurs) ou le nom de votre organisation (pour les organisations). Il s''agit du compte dont les sponsors seront synchronisés.'
+      login_help: 'Saisissez votre nom d''utilisateur GitHub (pour les comptes utilisateurs) ou le nom de votre organisation (pour les organisations). Il s''agit du compte dont les sponsors seront synchronisés.'
       login_label: Identifiant
