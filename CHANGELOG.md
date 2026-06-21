@@ -49,6 +49,7 @@ CHANGELOG
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
 * [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
 * [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
+* [`ianm/html-head`](https://github.com/imorland/html-head)
 * [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
 * [`linkrobins/clipboard`](https://github.com/linkrobins/clipboard)
 * [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget)
