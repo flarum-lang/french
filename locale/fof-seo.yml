@@ -183,7 +183,9 @@ fof-seo:
       auto_update:
         help: 'Lorsque cette option est activée, les balises meta de cet élément sont automatiquement mises à jour dès que l''objet est modifié.'
         label: 'Mise à jour automatique des balises meta'
+        switch: 'Mettre à jour l''objet du SEO en cas de modification'
       close:
+        autofill_info: 'Cette modification annulera les modifications personnalisées et remplira les balises meta avec les données de l''article.'
         close: Fermer
         save: Enregistrer
         save_autofill: 'Enregistrer et remplir automatiquement'
@@ -238,6 +240,7 @@ fof-seo:
         label: 'Carte X (anciennement Twitter)'
         title: 'Titre X (anciennement Twitter)'
       unsupported_object:
+        body: 'Veuillez ouvrir cette boîte de dialogue en utilisant les propriétés objectType et objectId ou enregistrez plutôt la relation entre les objets.'
         docs_link: Documentation
     profile_description: 'Profil de {username} | {discussion_count} discussions | {comment_count} messages'
     profile_title: 'Profil de {username}'
