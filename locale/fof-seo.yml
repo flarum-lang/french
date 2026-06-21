@@ -55,7 +55,12 @@ fof-seo:
             reason: 'Vous n''avez pas encore défini de mots-clés pour le forum !'
           review:
             reason: 'Il est temps de revoir vos paramètres SEO.'
+          robots:
+            button: 'En savoir plus sur la création d''un fichier robots.txt'
+            label: 'Vérifie si votre forum dispose d''un fichier robots.txt'
+            reason: 'Votre fichier robots.txt est généré par l''extension « FriendsOfFlarum Sitemap ». Installez-la et activez-la pour mettre un fichier robots.txt à la disposition des moteurs de recherche.'
           sitemap:
+            button: 'En savoir plus sur la création d''un plan du site'
             label: 'Vérifie si votre forum dispose d''un plan du site'
             reason: 'Il est fortement recommandé d''installer l''extension « FriendsOfFlarum Sitemap » !'
           social_media:
