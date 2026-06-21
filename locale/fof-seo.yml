@@ -28,8 +28,8 @@ fof-seo:
         mode_main_help: 'Le moteur de recherche affichera seulement le message principal dans les résultats de recherche. Cela n''aura aucune incidence sur la vitesse de chargement lorsque vous y accéderez via les liens du forum.'
         mode_main_title: 'Indexer uniquement le message principal (par défaut)'
         question: 'Voulez-vous activer cette fonctionnalité ?'
-        switch_label: 'Analyser tous les messages (le rafraîchissement de la page est plus lent, mais les résultats de recherche seront meilleurs)'
-        title: 'Paramètres d''indexation des messages'
+        switch_label: 'Explorer tous les messages (le rafraîchissement de la page est plus lent, mais les résultats de recherche seront meilleurs)'
+        title: 'Paramètres d''exploration des messages'
       dofollow:
         add_placeholder: 'Autoriser un domaine'
         default_note: 'Le domaine que vous utilisez pour votre instance Flarum est ajouté à la liste par défaut.'
@@ -40,15 +40,34 @@ fof-seo:
     pages:
       health:
         checks:
+          crawl:
+            button: 'Vérifier les paramètres de message'
+            label: 'Vérifier les paramètres d''exploration des messages de discussion'
           description:
             button: 'Mettre à jour la description'
+            label: 'Vérifie si votre forum comporte une description'
+            reason_default: 'Vous n''avez pas modifié la description du forum par défaut après l''installation !'
+            reason_missing: 'Vous n''avez pas encore rédigé la description du forum !'
+            reason_too_short: 'Votre description du forum comporte moins de 20 caractères. Veuillez la développer pour obtenir de meilleurs résultats de recherche.'
           keywords:
             button: 'Mettre à jour les mots-clés'
+            label: 'Vérifie si votre forum comporte des mots-clés'
+            reason: 'Vous n''avez pas encore défini de mots-clés pour le forum !'
           review:
             reason: 'Il est temps de revoir vos paramètres SEO.'
+          sitemap:
+            label: 'Vérifie si votre forum dispose d''un plan du site'
+            reason: 'Il est fortement recommandé d''installer l''extension « FriendsOfFlarum Sitemap » !'
           social_media:
             button: 'Mettre à jour l''image'
+            label: 'Configurer une image pour les réseaux sociaux'
+            reason: 'Vous n''avez pas défini d''image pour votre forum destinée aux réseaux sociaux. Il est recommandé d''en définir une. Votre favicon sera désormais utilisé comme aperçu sur les réseaux sociaux.'
+          ssl:
+            button: 'Comment configurer SSL'
+            label: 'Vérifie si votre site dispose d''une connexion sécurisée (SSL/TLS)'
+            reason: 'Votre forum n''impose pas de connexion SSL/TLS (une connexion sécurisée à votre site web). La plupart des moteurs de recherche n''indexeront pas votre site web ou lui attribueront un classement moins favorable si aucune connexion sécurisée n''est disponible.'
         default_button: 'Mettre à jour les paramètres'
+        legend: 'Pour obtenir des résultats optimaux sur les moteurs de recherche, assurez-vous que toutes les cases soient cochées en vert.'
         status:
           passed: 'Tout est prêt !'
           warning: 'Attention !'
@@ -59,6 +78,7 @@ fof-seo:
         bing_heading: 'Ajoutez votre site web aux résultats de recherche Bing'
         bing_sitemap: 'N''oubliez pas de configurer l''URL de votre plan du site. Une fois votre site web vérifié, tout est prêt et Bing va maintenant l''indexer.'
         bing_visit: 'Si vous souhaitez ajouter votre site web aux résultats de recherche Bing, rendez-vous sur {link} et suivez les étapes indiquées. Tous les champs ne sont pas obligatoires.'
+        confirm_button: 'J''ai lu'
         google_heading: 'Ajoutez votre site web aux résultats de recherche Google'
         google_sitemap: 'Lorsque vous aurez terminé votre inscription à Google Search Console, rendez-vous sur la page <b>Plans du site</b>. Transmettez votre <b>sitemap.xml</b> à Google. Assurez-vous que Google peut explorer votre plan du site et qu''il continuera à le faire.'
         google_visit: 'Si vous souhaitez ajouter votre site web aux résultats de recherche Google, rendez-vous sur {link}. Vous devrez ajouter votre site web et confirmer que vous êtes bien le propriétaire du nom de domaine associé.'
@@ -75,7 +95,7 @@ fof-seo:
         generated_note: 'Le fichier du plan du site est généré automatiquement et ne nécessite aucune maintenance.'
         just_installed_body: 'Dans ce cas, activez-la en cliquant sur l''extension dans la barre latérale de gauche. Cet avertissement disparaîtra alors.'
         just_installed_heading: 'Je viens d''installer l''extension'
-        robots_body: 'Cette même extension génère également un fichier <b>robots.txt</b> pour votre forum. Ce fichier indique aux moteurs de recherche les sections qu''ils sont autorisés à indexer et les redirige vers votre plan du site ; son installation permet donc de gérer ces deux fichiers en même temps — aucune configuration supplémentaire n’est nécessaire.'
+        robots_body: 'Cette même extension génère également un fichier <b>robots.txt</b> pour votre forum. Ce fichier indique aux moteurs de recherche les sections qu''ils sont autorisés à explorer et les redirige vers votre plan du site ; son installation permet donc de gérer ces deux fichiers en même temps — aucune configuration supplémentaire n’est nécessaire.'
         robots_heading: 'Qu''en est-il du fichier robots.txt ?'
         which_extension_body: '{link} est l''extension recommandée à installer pour Flarum. Nous vous recommandons vivement de l''installer et de l''activer.'
         which_extension_details: 'Cette extension permettra aux robots d''indexation de trouver les <b>discussions</b>, les <b>étiquettes</b> (lorsque l''extension est activée) et les <b>Pages</b> de votre forum (lorsque l''extension est installée et activée). Elle mettra automatiquement à disposition un fichier sitemap.xml.'
@@ -89,8 +109,11 @@ fof-seo:
         how_heading: 'Comment ajouter un certificat SSL à votre site web ?'
         intro_body: 'La sensibilisation à la sécurité et à la protection des données sur Internet ne cesse de croître. <b>Presque tous les</b> développeurs et propriétaires de sites web souhaitent que leur site soit sécurisé pour leurs visiteurs, afin que ceux-ci n''aient pas à craindre que leurs données soient compromises par des pirates informatiques ou des usurpateurs d''identité.'
         intro_heading: 'Pourquoi ai-je besoin d''une connexion sécurisée ?'
+        no_ssl_body: 'Dans ce cas, vous pouvez désinstaller cette extension, car les moteurs de recherche <b> n''indexeront pas votre forum </b> ou le classeront bien en dessous des autres sites pour des raisons de sécurité.'
+        no_ssl_heading: 'Et si je ne souhaite pas ajouter un certificat SSL ?'
         rankings_body: 'Lorsque vous ne disposez pas d''une connexion sécurisée vers votre site web, les moteurs de recherche classeront votre site bien plus bas que les autres, voire ne l''indexeront pas.'
         rankings_body_ssl: 'Lorsque vous disposez d''un certificat SSL, votre site web bénéficiera d''un meilleur classement et sera indexé.'
+        rankings_heading: 'Moteurs de recherche {icon} connexions sécurisées'
         what_body: 'La plupart des gens connaissent <b>https</b>, utilisé pour les connexions sécurisées sous le nom de SSL : <i>Secure Sockets Layer</i>. Officiellement, son nom est TLS : <i>Transport Layer Security</i>. Cette méthode est utilisée pour établir une connexion sécurisée avec votre serveur web, ce qui empêchera les pirates ou d''autres serveurs web de se faire passer pour votre site web et garantira la sécurité de vos visiteurs. Si cela se produit, la connexion SSL sera interrompue et les navigateurs des visiteurs afficheront un message d''avertissement indiquant que le site n''est pas fiable.'
         what_heading: 'Qu''est-ce que SSL ou TLS ?'
     permissions:
@@ -98,9 +121,9 @@ fof-seo:
       configure_seo: 'Autoriser la configuration du SEO'
     settings:
       crawl:
-        button: 'Configurer l''indexation des messages'
-        heading: 'Paramètres d''indexation des messages dans les discussions'
-        help: 'Il s''agit d''un paramètre important concernant l''indexation de vos messages de discussion dans les résultats de recherche.'
+        button: 'Configurer l''exploration des messages'
+        heading: 'Paramètres d’exploration des messages de discussion'
+        help: 'Il s''agit d''un paramètre important concernant l''exploration de vos messages de discussion dans les résultats de recherche.'
       indexing:
         heading: 'Contrôles de l''indexation'
         profiles_help: 'Lorsque cette option est activée, les pages de profil utilisateur émettent une balise meta « noindex » afin qu''elles n''apparaissent pas dans les résultats de recherche. Les liens présents sur la page sont toutefois suivis, ce qui permet aux robots d''indexation d''accéder au contenu vers lequel ils renvoient.'
@@ -171,8 +194,16 @@ fof-seo:
           placeholder: 'Description personnalisée de l''Open Graph'
         label: 'Balises Open Graph'
         title: 'Titre de l''Open Graph'
+      reading_time:
+        help: 'Temps de lecture estimé en secondes.'
+        label: 'Temps de lecture estimé'
+        placeholder: 'Temps de lecture en secondes'
       robots:
         label: Robots
+        switch:
+          noarchive: 'Désactiver l''archivage de la page (noarchive)'
+          noimageindex: 'Désactiver l''indexation des images sur cette page (noimageindex)'
+          nosnippet: 'Désactiver les extraits de texte sur la page (nosnippet)'
       saved: 'Enregistré !'
       twitter:
         auto_switch: 'Générer automatiquement une carte X (anciennement Twitter)'
