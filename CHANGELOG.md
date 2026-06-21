@@ -27,6 +27,7 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
 * [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search)
 * [`flarum/approval`](https://github.com/flarum/approval)
