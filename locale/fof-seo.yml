@@ -56,11 +56,43 @@ fof-seo:
           status: Statut
           technique: Technique
       search_engines:
+        bing_heading: 'Ajoutez votre site web aux résultats de recherche Bing'
+        bing_sitemap: 'N''oubliez pas de configurer l''URL de votre plan du site. Une fois votre site web vérifié, tout est prêt et Bing va maintenant l''indexer.'
+        bing_visit: 'Si vous souhaitez ajouter votre site web aux résultats de recherche Bing, rendez-vous sur {link} et suivez les étapes indiquées. Tous les champs ne sont pas obligatoires.'
         google_heading: 'Ajoutez votre site web aux résultats de recherche Google'
+        google_sitemap: 'Lorsque vous aurez terminé votre inscription à Google Search Console, rendez-vous sur la page <b>Plans du site</b>. Transmettez votre <b>sitemap.xml</b> à Google. Assurez-vous que Google peut explorer votre plan du site et qu''il continuera à le faire.'
         google_visit: 'Si vous souhaitez ajouter votre site web aux résultats de recherche Google, rendez-vous sur {link}. Vous devrez ajouter votre site web et confirmer que vous êtes bien le propriétaire du nom de domaine associé.'
         google_www: 'Lorsque vous saisissez votre nom de domaine, vous devez vous poser la question suivante : souhaitez-vous utiliser le sous-domaine « www » dans les résultats de recherche ? Vous ne pourrez <strong>pas</strong> modifier ce paramètre ultérieurement. Enregistrer votre nom de domaine plusieurs fois dans Google Search Console n''améliorera pas votre classement.'
         heading: 'Soumettez votre site web aux moteurs de recherche'
+        intro: 'Il est recommandé de signaler l''existence de votre site aux moteurs de recherche. Cette page vous guidera pour y parvenir avec succès.'
         sitemap_tip: 'Il est recommandé de disposer d''un plan du site avant de suivre ce guide. Si vous n''avez pas encore un plan du site, <a>cliquez ici pour en savoir plus à ce sujet</a>.'
+        yahoo_body: 'Si vous souhaitez ajouter votre site web aux résultats de recherche Yahoo, veuillez finaliser votre inscription aux résultats de recherche Bing. Yahoo utilisera ces données.'
+        yahoo_heading: 'Ajoutez votre site web aux résultats de recherche Yahoo'
+        yandex_heading: 'Ajoutez votre site web aux résultats de recherche Yandex'
+        yandex_sitemap: 'N''oubliez pas de configurer le plan du site dans Yandex.Webmaster.'
+        yandex_visit: 'Si vous souhaitez ajouter votre site web aux résultats de recherche Yandex, rendez-vous sur {link} et suivez les étapes indiquées.'
+      sitemap:
+        generated_note: 'Le fichier du plan du site est généré automatiquement et ne nécessite aucune maintenance.'
+        just_installed_body: 'Dans ce cas, activez-la en cliquant sur l''extension dans la barre latérale de gauche. Cet avertissement disparaîtra alors.'
+        just_installed_heading: 'Je viens d''installer l''extension'
+        robots_body: 'Cette même extension génère également un fichier <b>robots.txt</b> pour votre forum. Ce fichier indique aux moteurs de recherche les sections qu''ils sont autorisés à indexer et les redirige vers votre plan du site ; son installation permet donc de gérer ces deux fichiers en même temps — aucune configuration supplémentaire n’est nécessaire.'
+        robots_heading: 'Qu''en est-il du fichier robots.txt ?'
+        which_extension_body: '{link} est l''extension recommandée à installer pour Flarum. Nous vous recommandons vivement de l''installer et de l''activer.'
+        which_extension_details: 'Cette extension permettra aux robots d''indexation de trouver les <b>discussions</b>, les <b>étiquettes</b> (lorsque l''extension est activée) et les <b>Pages</b> de votre forum (lorsque l''extension est installée et activée). Elle mettra automatiquement à disposition un fichier sitemap.xml.'
+        which_extension_heading: 'Quelle extension dois-je installer ?'
+        why_body: 'Un plan du site est un fichier XML contenant la liste de toutes les pages disponibles sur votre site web. Il sera utilisé par les robots d''indexation et les moteurs de recherche pour trouver les pages de votre site web.'
+        why_heading: 'Pourquoi utiliser un plan du site ?'
+      ssl:
+        added_body: 'Super ! Maintenant, modifiez votre fichier <b>config.php</b> et remplacez <b>« url »</b> par <b>https</b> !'
+        added_heading: 'OK, j''ai ajouté le certificat SSL !'
+        how_body: 'Pour les utilisateurs d''un hébergement web, la méthode la plus courante consiste à se connecter au panneau d''administration de l''hébergement, à accéder aux paramètres d''hébergement de votre site web, puis à cliquer sur « SSL ». Vous pouvez ensuite suivre les étapes indiquées pour ajouter un certificat SSL à votre site web. La plupart des hébergeurs prennent aujourd''hui en charge l''émetteur de certificats populaire {link}.'
+        how_heading: 'Comment ajouter un certificat SSL à votre site web ?'
+        intro_body: 'La sensibilisation à la sécurité et à la protection des données sur Internet ne cesse de croître. <b>Presque tous les</b> développeurs et propriétaires de sites web souhaitent que leur site soit sécurisé pour leurs visiteurs, afin que ceux-ci n''aient pas à craindre que leurs données soient compromises par des pirates informatiques ou des usurpateurs d''identité.'
+        intro_heading: 'Pourquoi ai-je besoin d''une connexion sécurisée ?'
+        rankings_body: 'Lorsque vous ne disposez pas d''une connexion sécurisée vers votre site web, les moteurs de recherche classeront votre site bien plus bas que les autres, voire ne l''indexeront pas.'
+        rankings_body_ssl: 'Lorsque vous disposez d''un certificat SSL, votre site web bénéficiera d''un meilleur classement et sera indexé.'
+        what_body: 'La plupart des gens connaissent <b>https</b>, utilisé pour les connexions sécurisées sous le nom de SSL : <i>Secure Sockets Layer</i>. Officiellement, son nom est TLS : <i>Transport Layer Security</i>. Cette méthode est utilisée pour établir une connexion sécurisée avec votre serveur web, ce qui empêchera les pirates ou d''autres serveurs web de se faire passer pour votre site web et garantira la sécurité de vos visiteurs. Si cela se produit, la connexion SSL sera interrompue et les navigateurs des visiteurs afficheront un message d''avertissement indiquant que le site n''est pas fiable.'
+        what_heading: 'Qu''est-ce que SSL ou TLS ?'
     permissions:
       category_label: SEO
       configure_seo: 'Autoriser la configuration du SEO'
