@@ -29,7 +29,7 @@ fof-seo:
         mode_main_title: 'Indexer uniquement le message principal (par défaut)'
         question: 'Voulez-vous activer cette fonctionnalité ?'
         switch_label: 'Explorer tous les messages (le rafraîchissement de la page est plus lent, mais les résultats de recherche seront meilleurs)'
-        title: 'Paramètres d''exploration des messages'
+        title: 'Paramètres d''indexation des messages'
       dofollow:
         add_placeholder: 'Autoriser un domaine'
         default_note: 'Le domaine que vous utilisez pour votre instance Flarum est ajouté à la liste par défaut.'
@@ -41,9 +41,9 @@ fof-seo:
       health:
         checks:
           crawl:
-            button: 'Revoir les paramètres de message'
-            label: 'Revoir les paramètres d''exploration des messages de discussion'
-            reason: 'Vous devrez revoir ce paramètre pour valider.'
+            button: 'Vérifier les paramètres de message'
+            label: 'Vérifier les paramètres d''indexation des messages de discussion'
+            reason: 'Vous devrez vérifier ce paramètre pour valider.'
           description:
             button: 'Mettre à jour la description'
             label: 'Vérifie si votre forum comporte une description'
@@ -67,7 +67,7 @@ fof-seo:
           search_engines:
             button: 'Plus d''informations'
             label: 'Enregistrez votre forum auprès des moteurs de recherche'
-            reason: 'Vous devrez revoir ceci pour valider.'
+            reason: 'Vous devrez vérifier ceci pour valider.'
           sitemap:
             button: 'En savoir plus sur la création d''un plan du site'
             label: 'Vérifie si votre forum dispose d''un plan du site'
@@ -135,8 +135,8 @@ fof-seo:
       configure_seo: 'Autoriser la configuration du SEO'
     settings:
       crawl:
-        button: 'Configurer l''exploration des messages'
-        heading: 'Paramètres d’exploration des messages de discussion'
+        button: 'Configurer les paramètres d''indexation des messages'
+        heading: 'Paramètres d’indexation des messages de discussion'
         help: 'Il s''agit d''un paramètre important concernant l''exploration de vos messages de discussion dans les résultats de recherche.'
       indexing:
         heading: 'Contrôles de l''indexation'
