@@ -57,6 +57,7 @@ fof-seo:
           meta_tags:
             label: 'Vérifie si votre forum comporte des balises meta (générées par ce plugin)'
           review:
+            button: 'OK ! Je les ai passés en revue !'
             label: 'Vérifiez vos paramètres SEO tous les deux mois. Prochaine vérification prévue le {date}'
             reason: 'Il est temps de revoir vos paramètres SEO.'
           robots:
@@ -66,6 +67,7 @@ fof-seo:
           search_engines:
             button: 'Plus d''informations'
             label: 'Enregistrez votre forum auprès des moteurs de recherche'
+            reason: 'Vous devrez revoir ceci pour valider.'
           sitemap:
             button: 'En savoir plus sur la création d''un plan du site'
             label: 'Vérifie si votre forum dispose d''un plan du site'
@@ -188,6 +190,7 @@ fof-seo:
       image:
         help: 'Affiche une image.'
         label: 'Image Meta'
+        managed_by: 'Source de l''image gérée par {source}'
         placeholder: 'Saisissez l''URL de l''image'
         upload: 'Transférer un fichier'
       keywords:
@@ -201,6 +204,7 @@ fof-seo:
       meta_title:
         help: 'Titre dans les moteurs de recherche.'
         label: 'Titre Meta'
+        placeholder: 'Saisir le titre de la page'
       note_prefix: 'Note :'
       og:
         auto_switch: 'Générer automatiquement des balises Open Graph'
@@ -216,9 +220,12 @@ fof-seo:
       robots:
         label: Robots
         switch:
+          indexing: 'Autoriser l''indexation de la page'
           noarchive: 'Désactiver l''archivage de la page (noarchive)'
           noimageindex: 'Désactiver l''indexation des images sur cette page (noimageindex)'
           nosnippet: 'Désactiver les extraits de texte sur la page (nosnippet)'
+        tags:
+          indexing_allowed: 'Autoriser l''indexation de la page'
       saved: 'Enregistré !'
       title: 'Paramètres SEO - Meta'
       twitter:
