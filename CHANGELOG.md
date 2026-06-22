@@ -2,6 +2,66 @@ CHANGELOG
 =========
 
 
+5.0.5 (2026-06-22)
+------------------
+
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
+**Prise en charge de nouvelles extensions**:
+
+* [`flarum/audit`](https://github.com/flarum/audit)
+* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
+* [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
+* [`forumaker/statser`](https://github.com/forumaker/Statser)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
+* [`linkrobins/toc`](https://github.com/linkrobins/toc)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
+* [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search)
+* [`flarum/approval`](https://github.com/flarum/approval)
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`flarum/pusher`](https://github.com/flarum/pusher)
+* [`flarum/realtime`](https://github.com/flarum/realtime)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
+* [`ianm/html-head`](https://github.com/imorland/html-head)
+* [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
+* [`linkrobins/clipboard`](https://github.com/linkrobins/clipboard)
+* [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget)
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
+* [`linkrobins/support`](https://github.com/linkrobins/support)
+
+
+Journal de toutes les modifications : [v5.0.4...v5.0.5](https://github.com/flarum-lang/french/compare/v5.0.4...v5.0.5).
+
+
 5.0.4 (2026-06-01)
 ------------------
 
