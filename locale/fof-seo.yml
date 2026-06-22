@@ -202,6 +202,7 @@ fof-seo:
         help: 'Saisissez un ou plusieurs mots-clés qui décrivent cet élément.'
         label: Mots-clés
         placeholder: 'Ajouter quelques mots-clés'
+      managed: Géré
       meta_description:
         help: 'Décrit l’élément et s''affiche dans les moteurs de recherche.'
         label: 'Description Meta'
@@ -233,7 +234,11 @@ fof-seo:
         tags:
           archive_not_allowed: 'L''archivage des pages n''est pas autorisé'
           follow_allowed: 'Autoriser le suivi des liens'
+          follow_not_allowed: 'Le suivi des liens n''est pas autorisé'
+          imageindex_not_allowed: 'L''indexation des images n''est pas autorisée'
           indexing_allowed: 'Autoriser l''indexation de la page'
+          indexing_not_allowed: 'L''indexation des pages n''est pas autorisée'
+          snippet_not_allowed: 'Les extraits de texte ne sont pas autorisés'
       saved: 'Enregistré !'
       title: 'Paramètres SEO - Meta'
       twitter:
