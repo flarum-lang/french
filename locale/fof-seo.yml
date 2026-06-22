@@ -143,6 +143,7 @@ fof-seo:
         profiles_help: 'Lorsque cette option est activée, les pages de profil utilisateur émettent une balise meta « noindex » afin qu''elles n''apparaissent pas dans les résultats de recherche. Les liens présents sur la page sont toutefois suivis, ce qui permet aux robots d''indexation d''accéder au contenu vers lequel ils renvoient.'
         profiles_label: 'Désindexer les pages de profil'
         tags_button: 'Sélectionnez les étiquettes'
+        tags_help: 'Les discussions dans les étiquettes sélectionnées (ainsi que les pages de ces étiquettes) seront exclues des résultats de recherche grâce à la balise meta « noindex ». Les liens continuent toutefois d''être suivis. La sélection d''une étiquette parente couvre également ses étiquettes enfants.'
         tags_none_selected: 'Aucune étiquette n''est exclue de l''indexation.'
       info:
         maintain: 'Vérifiez tous vos paramètres lors de la première configuration de cette extension. Maintenez-les à jour pour obtenir les meilleurs résultats de recherche.'
@@ -185,7 +186,7 @@ fof-seo:
         label: 'Mise à jour automatique des balises meta'
         switch: 'Mettre à jour l''objet du SEO en cas de modification'
       close:
-        autofill_info: 'Cette modification annulera les modifications personnalisées et remplira les balises meta avec les données de l''article.'
+        autofill_info: 'Cette modification annulera les modifications personnalisées et remplira les balises meta avec les données de l''élément.'
         close: Fermer
         save: Enregistrer
         save_autofill: 'Enregistrer et remplir automatiquement'
@@ -198,10 +199,11 @@ fof-seo:
       keywords:
         comma_note: 'Remarque : les mots-clés doivent être séparés par une virgule.'
         example: 'Exemple : flarum, développement web, forum, pommes, sécurité'
-        help: 'Saisissez un ou plusieurs mots-clés qui décrivent cet élement.'
+        help: 'Saisissez un ou plusieurs mots-clés qui décrivent cet élément.'
         label: Mots-clés
         placeholder: 'Ajouter quelques mots-clés'
       meta_description:
+        help: 'Décrit l’élément et s''affiche dans les moteurs de recherche.'
         label: 'Description Meta'
       meta_title:
         help: 'Titre dans les moteurs de recherche.'
@@ -220,13 +222,17 @@ fof-seo:
         label: 'Temps de lecture estimé'
         placeholder: 'Temps de lecture en secondes'
       robots:
+        help: 'Paramètres d''indexation par le robot pour cet élément.'
         label: Robots
         switch:
+          follow: 'Autoriser le suivi des liens vers différentes pages'
           indexing: 'Autoriser l''indexation de la page'
           noarchive: 'Désactiver l''archivage de la page (noarchive)'
           noimageindex: 'Désactiver l''indexation des images sur cette page (noimageindex)'
           nosnippet: 'Désactiver les extraits de texte sur la page (nosnippet)'
         tags:
+          archive_not_allowed: 'L''archivage des pages n''est pas autorisé'
+          follow_allowed: 'Autoriser le suivi des liens'
           indexing_allowed: 'Autoriser l''indexation de la page'
       saved: 'Enregistré !'
       title: 'Paramètres SEO - Meta'
@@ -242,5 +248,6 @@ fof-seo:
       unsupported_object:
         body: 'Veuillez ouvrir cette boîte de dialogue en utilisant les propriétés objectType et objectId ou enregistrez plutôt la relation entre les objets.'
         docs_link: Documentation
+        title: 'Cet objet n''est pas un objet SeoMeta pris en charge'
     profile_description: 'Profil de {username} | {discussion_count} discussions | {comment_count} messages'
     profile_title: 'Profil de {username}'
