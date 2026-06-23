@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+5.0.6 (XXXX-XX-XX)
+------------------
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+
+
+Journal de toutes les modifications : [v5.0.5...v5.0.6](https://github.com/flarum-lang/french/compare/v5.0.5...v5.0.6).
+
+
 5.0.5 (2026-06-22)
 ------------------
 
