@@ -5,6 +5,11 @@ CHANGELOG
 5.0.6 (XXXX-XX-XX)
 ------------------
 
+**Prise en charge de nouvelles extensions**:
+
+* [`linkrobins/auto-verify`](https://github.com/linkrobins/auto-verify)
+
+
 **Mise à jour des traductions de certaines extensions**:
 
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
