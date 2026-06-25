@@ -8,6 +8,8 @@ linkrobins-shoutbox:
       moderate: 'Supprimer les messages des autres utilisateurs'
       shout: 'Publier des messages'
     settings:
+      cooldown_help: 'Nombre minimum de secondes qu''un utilisateur doit attendre entre deux messages. La valeur par défaut est 3.'
+      cooldown_label: 'Temps de recharge (en secondes)'
       display_mode_both: 'Page et widget'
       display_mode_help: 'Choisissez où le shoutbox apparaît sur le forum.'
       display_mode_label: 'Mode d''affichage'
@@ -15,6 +17,8 @@ linkrobins-shoutbox:
       display_mode_widget: 'Widget uniquement'
       height_help: 'Hauteur de la zone des messages en pixels. La valeur par défaut est 320.'
       height_label: 'Hauteur des messages (px)'
+      max_rows_help: 'Les messages plus anciens, dépassant ce nombre, sont supprimés. La valeur par défaut est 500.'
+      max_rows_label: 'Nombre maximal de messages enregistrés'
   api:
     empty_content: 'Vous devez saisir un message.'
     rate_limited: 'Vous publiez trop vite. Veuillez patienter un instant.'

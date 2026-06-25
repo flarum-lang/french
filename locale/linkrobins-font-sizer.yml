@@ -5,6 +5,9 @@
 linkrobins-font-sizer:
   admin:
     settings:
+      preview_button: 'Exemple de bouton'
+      preview_label: Prévisualisation
+      preview_text: 'Le renard brun et vif saute par-dessus le chien paresseux. Ce texte de lecture s''adapte au paramètre défini ci-dessus.'
       reset_button: 'Réinitialiser à 100 %'
       text_size_help: 'Définit les paramètres par défaut pour les messages et les titres sur l''ensemble du site. Les utilisateurs peuvent modifier ces paramètres à l''aide du bouton « Taille de la police » situé dans l''en-tête.'
       text_size_label: 'Taille du texte par défaut'
