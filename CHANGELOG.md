@@ -8,6 +8,9 @@ CHANGELOG
 **Prise en charge de nouvelles extensions**:
 
 * [`linkrobins/auto-verify`](https://github.com/linkrobins/auto-verify)
+* [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector)
+* [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money)
+* [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
 
 
 **Mise à jour des traductions de certaines extensions**:
