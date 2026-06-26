@@ -6,6 +6,7 @@ pianotell-flamoji:
   admin:
     custom_emojis_section:
       edit_emoji:
+        category_label: Catégorie
         delete_emoji_button: 'Supprimer l’émoji'
         delete_emoji_confirmation: 'Voulez-vous vraiment supprimer cet émoji ?'
         emoji_title_label: 'Titre de l''émoji'
@@ -13,7 +14,7 @@ pianotell-flamoji:
         path_or_url_label: 'Chemin ou URL'
         saved_message: '=> core.admin.settings.saved_message'
         submit_button: '=> core.ref.save_changes'
-        text_to_replace_label: 'Texte à remplacer'
+        text_to_replace_label: 'Code court'
       emoji_list:
         add_button: 'Ajouter un émoji'
         edit_button: 'Modifier un émoji'
@@ -55,9 +56,10 @@ pianotell-flamoji:
       show_search_label: 'Afficher la saisie de la recherche'
       show_search_text: 'Afficher le champ de recherche en haut du sélecteur.'
       show_variants_label: 'Afficher les variantes de teint'
-      show_variants_text: 'Certains émojis ont des variantes de teint. Lorsqu''un émoji est sélectionné dans le sélecteur contenant des variantes, une fenêtre contextuelle de variante apparaît afin que l''utilisateur puisse sélectionner la variante souhaitée.'
+      show_variants_text: 'Certains émojis ont des variantes de teint. Lorsqu''un émoji est sélectionné dans le sélecteur contenant des variantes, une fenêtre contextuelle de variante apparaît afin que l''utilisateur puisse sélectionner la variante souhaitée. Cela n''a aucun effet en mode « autocollant », car les emojis personnalisés ne proposent pas de variantes de teint.'
       specify_categories_label: 'Spécifier les catégories'
       specify_categories_text: 'Vous pouvez spécifier une liste de catégories ici, et le sélecteur n''affichera que ces catégories.'
+      sticker_mode_label: 'Mode autocollant'
   forum:
     composer:
       emoji_picker_label: 'Sélecteur émoji'
