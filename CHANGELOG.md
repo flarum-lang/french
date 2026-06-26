@@ -15,9 +15,11 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
 * [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
 
 
 Journal de toutes les modifications : [v5.0.5...v5.0.6](https://github.com/flarum-lang/french/compare/v5.0.5...v5.0.6).
