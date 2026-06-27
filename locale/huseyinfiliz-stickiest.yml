@@ -18,7 +18,7 @@ huseyinfiliz-stickiest:
       show_sticky_highlight_label: 'Mettre en évidence les discussions épinglées'
       show_tag_sticky_help: 'Lorsque cette option est désactivée, les discussions épinglées n''apparaissent que lorsque vous consultez cette étiquette spécifique.'
       show_tag_sticky_label: 'Afficher les étiquettes épinglées dans toutes les discussions'
-      stickiest_icon_help: 'Classe d''icône Font Awesome (par exemple, fas fa-star)'
+      stickiest_icon_help: 'Classe d''icône Font Awesome (p. ex. fas fa-star)'
       stickiest_icon_label: 'Icône de badge super épinglé'
   forum:
     badge:

@@ -5,7 +5,7 @@
 datlechin-link-preview:
   admin:
     sections:
-      external_api_description: 'Utilisez un service externe lorsque la récupération directe échoue (par exemple sur les sites qui se protègent des robots).'
+      external_api_description: 'Utilisez un service externe lorsque la récupération directe échoue (par exemple, sur les sites qui se protègent des robots).'
       external_api_label: 'API externe de secours'
       general_description: 'Préférences d''affichage de base pour les aperçus des liens.'
       general_label: Général

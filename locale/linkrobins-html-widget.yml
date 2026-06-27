@@ -7,7 +7,7 @@ linkrobins-html-widget:
     settings:
       body_help: 'Le code HTML brut est nettoyé avant l''affichage : les balises de script, les gestionnaires d''événements et autres balises non sécurisés sont supprimés.'
       body_label: 'Corps du HTML'
-      icon_help: 'Classe FontAwesome à afficher à côté du titre (par exemple : fas fa-bullhorn). Si vous ne souhaitez pas d''icône, laissez ce champ vide.'
+      icon_help: 'Classe FontAwesome à afficher à côté du titre (p. ex. fas fa-bullhorn). Si vous ne souhaitez pas d''icône, laissez ce champ vide.'
       icon_label: 'Classe d''icône'
       title_help: 'Facultatif. S''affiche au-dessus du texte. Si vous ne souhaitez pas d''en-tête, laissez ce champ vide.'
       title_label: Titre

@@ -7,12 +7,17 @@ pianotell-flamoji:
     custom_emojis_section:
       edit_emoji:
         category_label: Catégorie
+        category_placeholder: 'par ex. Memes'
+        category_text: 'Facultatif. Les émojis personnalisés appartenant à la même catégorie s''affichent ensemble dans leur propre onglet du sélecteur. Laissez ce champ vide pour conserver l''onglet « Personnalisé » par défaut.'
         delete_emoji_button: 'Supprimer l’émoji'
         delete_emoji_confirmation: 'Voulez-vous vraiment supprimer cet émoji ?'
         emoji_title_label: 'Titre de l''émoji'
+        emoji_title_text: 'Nom explicite affiché dans l''aperçu du sélecteur et utilisé lors de la recherche. Facultatif.'
+        intro_text: 'Les émojis personnalisés sont vos propres images que les membres peuvent insérer en saisissant un code court. Le code court et l''image sont requis ; le titre et la catégorie sont facultatifs.'
         modal_title: 'Ajouter un émoji'
         path_or_url_label: 'Chemin ou URL'
         saved_message: '=> core.admin.settings.saved_message'
+        shortcode_invalid: 'Enveloppez le code court entre deux deux-points et utilisez uniquement des lettres, des chiffres et les caractères _ + - (par exemple :flamoji_partyparrot:).'
         submit_button: '=> core.ref.save_changes'
         text_to_replace_label: 'Code court'
       emoji_list:
@@ -23,6 +28,7 @@ pianotell-flamoji:
       heading_title: 'Émojis personnalisés'
       import_emojis_message: 'Cela n''importera que les configurations des émojis. Vous devez télécharger manuellement les images des émojis.'
       import_json_button: 'Importer JSON'
+      import_legacy_shortcodes: '{count} émojis importés dont les codes courts ne suivent pas la convention recommandée :mot: : {shortcodes}. Ils ont été importés tels quels et fonctionnent toujours, mais pensez à les mettre à jour.'
     settings:
       auto_hide_label: 'Masquer automatiquement'
       auto_hide_text: 'Masquer le sélecteur lorsqu''un émoji est sélectionné.'
@@ -60,6 +66,7 @@ pianotell-flamoji:
       specify_categories_label: 'Spécifier les catégories'
       specify_categories_text: 'Vous pouvez spécifier une liste de catégories ici, et le sélecteur n''affichera que ces catégories.'
       sticker_mode_label: 'Mode autocollant'
+      sticker_mode_text: 'Afficher les émojis personnalisés sous forme de grands autocollants — dans les messages, dans l''aperçu en temps réel du compositeur et dans une grille de sélection agrandie. Comme seuls les émojis personnalisés sont agrandis, le sélecteur se limite à vos émojis personnalisés lorsque cette option est activée. Désactivée par défaut.'
   forum:
     composer:
       emoji_picker_label: 'Sélecteur émoji'

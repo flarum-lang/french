@@ -7,8 +7,8 @@ datlechin-posted-on:
     settings:
       display_mode_help: 'Détails par publication. Le détail complet est toujours disponible dans l''info-bulle.'
       display_mode_label: 'Ce qui doit s''afficher à côté d''un message'
-      display_mode_os_browser: 'Système d''exploitation et navigateur (par exemple Windows 11 · Chrome 121)'
-      display_mode_os_only: 'Système d''exploitation uniquement (par exemple Windows 11)'
+      display_mode_os_browser: 'Système d''exploitation et navigateur (p. ex. Windows 11 · Chrome 121)'
+      display_mode_os_only: 'Système d''exploitation uniquement (p. ex. Windows 11)'
       skip_guests_help: 'Lorsque cette option est activée, les messages rédigées par des comptes invités ne contiennent aucune métadonnée de la plateforme.'
       skip_guests_label: 'Ne pas collecter pour les invités'
   forum:
