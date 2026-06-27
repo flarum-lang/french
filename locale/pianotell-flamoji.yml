@@ -16,10 +16,12 @@ pianotell-flamoji:
         intro_text: 'Les émojis personnalisés sont vos propres images que les membres peuvent insérer en saisissant un code court. Le code court et l''image sont requis ; le titre et la catégorie sont facultatifs.'
         modal_title: 'Ajouter un émoji'
         path_or_url_label: 'Chemin ou URL'
+        path_or_url_text: 'Où l''image est hébergée : une URL complète (https://…) ou un chemin relatif au forum (/assets/…). Obligatoire. Transférez d''abord l''image vous-même — cette étape sert uniquement à enregistrer son emplacement.'
         saved_message: '=> core.admin.settings.saved_message'
         shortcode_invalid: 'Enveloppez le code court entre deux deux-points et utilisez uniquement des lettres, des chiffres et les caractères _ + - (p. ex. :flamoji_partyparrot:).'
         submit_button: '=> core.ref.save_changes'
         text_to_replace_label: 'Code court'
+        text_to_replace_text: 'Le texte que les membres saisissent pour insérer cet émoji. Il doit être encadré de deux deux-points et ne contenir que des lettres, des chiffres et les caractères _ + - (p. ex. :flamoji_partyparrot:). Ce champ est obligatoire et doit être unique. Astuce : ajoutez un préfixe à vos codes courts pour qu’ils soient lisibles et n’entrent pas en conflit avec les émojis standard.'
       emoji_list:
         add_button: 'Ajouter un émoji'
         edit_button: 'Modifier un émoji'

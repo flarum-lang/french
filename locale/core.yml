@@ -219,8 +219,8 @@ core:
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       name_label: Nom
-      plural_placeholder: 'Pluriel (par exemple « modérateurs »)'
-      singular_placeholder: 'Singulier (par exemple « modérateur »)'
+      plural_placeholder: 'Pluriel (p. ex. « Modérateurs »)'
+      singular_placeholder: 'Singulier (p. ex. « Modérateur »)'
       submit_button: '=> core.ref.save_changes'
       title: 'Créer le groupe'
     edit_header:
@@ -881,7 +881,7 @@ core:
     extensions: Extensions
     generic_confirmation_message: 'Êtes-vous sûr de vouloir continuer ? Cette action est irréversible.'
     icon: Icône
-    icon_text: 'Saisissez le nom de n''importe quelle classe d''icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe (par exemple <code>fas fa-flag</code> ou <code>fa-solid fa-flag</code>).'
+    icon_text: 'Saisissez le nom de n''importe quelle classe d''icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe (p. ex. : <code>fas fa-flag</code> ou <code>fa-solid fa-flag</code>).'
     invalid_login_message: 'Vos identifiants de connexion sont incorrects.'
     light_hc_mode_label: 'Mode clair à contraste élevé'
     light_mode_label: 'Mode clair'

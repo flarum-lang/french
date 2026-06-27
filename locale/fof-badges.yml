@@ -22,21 +22,21 @@ fof-badges:
     badge_description: Description
     badge_description_placeholder: 'Décrivez comment obtenir ce badge...'
     badge_name: Nom
-    badge_name_placeholder: 'par exemple, « Maître des 100 messages »'
+    badge_name_placeholder: 'p. ex. « Maître des 100 messages »'
     badge_revoked: 'Le badge « {badge} » de {username} a été révoqué.'
     badge_slug: Slug
     badge_slug_help: 'Identifiant URL. Généré automatiquement à partir du nom si le champ est laissé vide.'
-    badge_slug_placeholder: 'par exemple, « maitre-100-messages »'
+    badge_slug_placeholder: 'p. ex. « maitre-100-messages »'
     cancel: Annuler
     category_description: Description
     category_description_placeholder: 'Décrivez cette catégorie de badges...'
     category_enabled: Activée
     category_enabled_help: 'Les catégories désactivées et leurs badges n''apparaîtront pas dans la liste des badges.'
     category_name: Nom
-    category_name_placeholder: 'par exemple, « Badges de réussite »'
+    category_name_placeholder: 'p. ex. « Badges de réussite »'
     category_slug: Slug
     category_slug_help: 'Identifiant URL de la catégorie.'
-    category_slug_placeholder: 'par exemple, « succes »'
+    category_slug_placeholder: 'p. ex. « succes »'
     clear_selection: 'Effacer la sélection'
     create_badge: 'Créer un badge'
     create_category: 'Créer une catégorie'
