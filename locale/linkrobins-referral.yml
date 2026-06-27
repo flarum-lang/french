@@ -16,7 +16,7 @@ linkrobins-referral:
       expiry_label: 'Expiration (facultatif)'
       help: 'Codes d''invitation autonomes qui ne sont liés à aucun utilisateur — parfaits pour les réseaux sociaux ou les campagnes marketing. Ils ne créditent pas le parrain, mais leurs utilisations sont comptabilisées.'
       label_label: Libellé
-      label_placeholder: 'par exemple, le lancement de Twitter'
+      label_placeholder: 'p. ex. le lancement de Twitter'
       no_expiry: Jamais
       none: 'Aucun code de campagne pour le moment.'
       title: 'Codes de campagne'
@@ -50,7 +50,7 @@ linkrobins-referral:
     sign_up:
       invite_code_label: 'Code d''invitation'
       invite_code_label_required: 'Code d''invitation *'
-      invite_code_placeholder: 'par exemple : K7XM2QNP'
+      invite_code_placeholder: 'p. ex. K7XM2QNP'
     user_card:
       referrals_plural: '{count} recommandations'
       referrals_singular: '{count} recommandation'

@@ -13,7 +13,7 @@ flarum-pusher:
       app_key_label: 'Clé de l''application'
       app_secret_help: 'La clé secrète accessible depuis la page « Clés de l''application » de votre application Pusher. Veuillez garder cette information confidentielle — elle n''est utilisé qu''au niveau du serveur.'
       app_secret_label: 'Clé secrète de l''application'
-      server_hostname_help: 'Facultatif. Remplacez l''hôte auquel le client se connecte, pour un serveur auto-hébergé compatible avec Pusher (par exemple soketi). Laissez ce champ vide pour utiliser le service hébergé par Pusher avec la grappe de serveurs ci-dessus.'
+      server_hostname_help: 'Facultatif. Remplacez l''hôte auquel le client se connecte, pour un serveur auto-hébergé compatible avec Pusher (p.ex. soketi). Laissez ce champ vide pour utiliser le service hébergé par Pusher avec la grappe de serveurs ci-dessus.'
       server_hostname_label: 'Nom d''hôte du serveur'
       title: 'Paramètres de Pusher'
   forum:

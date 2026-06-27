@@ -44,7 +44,7 @@ fof-masquerade:
       title: Champs
       type: Type
       validation: Validation
-      validation-help: "Vérifiez les <a>règles de validation de Laravel</a> prises en charge. Par exemple : « string|min:5 » ou « url ».\n"
+      validation-help: "Vérifiez les <a>règles de validation de Laravel</a> prises en charge. P. ex. : « string|min:5 » ou « url ».\n"
     general-options: 'Options générales'
     permissions:
       edit-others-profile: 'Modifier le profil des autres utilisateurs'

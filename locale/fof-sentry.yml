@@ -31,7 +31,7 @@ fof-sentry:
       dsn_backend_label: 'Sentry DSN (backend uniquement)'
       dsn_help: 'Nom de la source de données Sentry : il s''agit de l''URL de connexion principale pour la notification des erreurs au niveau du frontend et du backend. Vous pouvez la trouver dans les paramètres de votre projet Sentry. Important : si vous utilisez un DSN Relay, désactivez l''option « User Feedback », car celle-ci nécessite un accès direct à Sentry.'
       dsn_label: 'Nom de la source de données (DSN) de Sentry'
-      environment_help: 'Marquez tous les événements avec un nom d''environnement (par exemple, « production », « préproduction » ou « développement »). Cela vous aide à filtrer les erreurs par environnement de déploiement et à définir différentes règles d''alerte pour chaque environnement.'
+      environment_help: 'Marquez tous les événements avec un nom d''environnement (p. ex. : « production », « préproduction » ou « développement »). Cela vous aide à filtrer les erreurs par environnement de déploiement et à définir différentes règles d''alerte pour chaque environnement.'
       environment_label: 'Environnement de Sentry'
       javascript_console_help: 'Enregistrez les appels console.log, console.info, console.warn et console.error sous forme de fils d''Ariane. Visualisez la séquence d''événements ayant conduit à une erreur et déboguez les interactions utilisateur complexes. Remarque : augmente le volume de données. À utiliser de manière sélective en production.'
       javascript_console_label: 'Enregistrer les messages de la console sous forme de fil d''Ariane'

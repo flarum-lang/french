@@ -17,7 +17,7 @@ pianotell-flamoji:
         modal_title: 'Ajouter un émoji'
         path_or_url_label: 'Chemin ou URL'
         saved_message: '=> core.admin.settings.saved_message'
-        shortcode_invalid: 'Enveloppez le code court entre deux deux-points et utilisez uniquement des lettres, des chiffres et les caractères _ + - (par exemple :flamoji_partyparrot:).'
+        shortcode_invalid: 'Enveloppez le code court entre deux deux-points et utilisez uniquement des lettres, des chiffres et les caractères _ + - (p. ex. :flamoji_partyparrot:).'
         submit_button: '=> core.ref.save_changes'
         text_to_replace_label: 'Code court'
       emoji_list:

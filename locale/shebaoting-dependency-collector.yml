@@ -12,10 +12,10 @@ shebaoting-dependency-collector:
       delete: 'Supprimer la dépendance'
       reject: 'Rejeter la dépendance'
     modal:
-      tag_color_label: 'Couleur (par exemple'
+      tag_color_label: 'Couleur (p. ex.'
       tag_description_label: 'Description (facultatif)'
       tag_icon_help: 'Trouvez des icônes sur <a>Font Awesome</a>.'
-      tag_icon_label: 'Icône (par exemple fas fa-code)'
+      tag_icon_label: 'Icône (p. ex. fas fa-code)'
       tag_name_label: Nom
       tag_slug_label: 'Identifiant texte unique'
     nav:
@@ -61,5 +61,5 @@ shebaoting-dependency-collector:
       submit_button: Envoyer
       submit_title: 'Envoyer une nouvelle dépendance'
       title_label: Titre
-      title_placeholder: 'par exemple Awesome Library'
+      title_placeholder: 'p.ex. Awesome Library'
     nav_title: Dépendances

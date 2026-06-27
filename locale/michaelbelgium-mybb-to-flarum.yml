@@ -19,7 +19,7 @@ michaelbelgium-mybb-to-flarum:
           host_label: 'Hôte de la base de données'
           password_label: 'Mot de passe de la base de données'
           path:
-            help_text: 'Chemin absolu vers l''installation de MyBB, par exemple : /var/www/mybb.'
+            help_text: 'Chemin absolu vers l''installation de MyBB, p. ex. : /var/www/mybb.'
             label: 'Chemin absolu vers MyBB'
           prefix_label: 'Préfixe de table'
           title: 'Paramètres de MyBB'

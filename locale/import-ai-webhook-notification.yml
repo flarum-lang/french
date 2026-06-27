@@ -5,7 +5,7 @@
 import-ai-webhook-notification:
   admin:
     settings:
-      channel_icon_help: ' classe d''icône (par exemple, fas fa-globe).'
+      channel_icon_help: ' classe d''icône (p. ex. fas fa-globe).'
       channel_icon_label: 'Icône de chaîne'
       channel_label_help: 'Nom d''affichage du canal de notification qui apparaît dans les paramètres utilisateur.'
       channel_label_label: 'Nom de la chaîne'
@@ -18,7 +18,7 @@ import-ai-webhook-notification:
       webhook_url_help: 'L''URL à laquelle envoyer les webhooks de notification. Laisser ce champ vide pour désactiver cette fonctionnalité.'
       webhook_url_label: 'URL du webhook'
     validation:
-      channel_icon_invalid: 'Format d''icône non valide. Utilisez le format Font Awesome (par exemple, fas fa-globe).'
+      channel_icon_invalid: 'Format d''icône non valide. Utilisez le format Font Awesome (p. ex. fas fa-globe).'
       channel_label_required: 'Le libellé du canal est obligatoire lorsque l''icône est définie.'
       retry_count_invalid: 'Le nombre de tentatives doit être compris entre 0 et 10.'
       timeout_invalid: 'Le délai d''expiration doit être compris entre 1 et 300 secondes.'

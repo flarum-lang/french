@@ -55,7 +55,7 @@ huseyinfiliz-awards:
       empty: 'Aucun nominé trouvé.'
       image: Image
       image_url: 'URL de l''image'
-      image_url_help: 'URL vers l''image du nominé (par exemple, couverture du jeu)'
+      image_url_help: 'URL vers l''image du nominé (p. ex. couverture du jeu)'
       load_more: 'Charger plus'
       name: 'Nom du nominé'
       real_votes: 'Votes réels'
@@ -71,7 +71,7 @@ huseyinfiliz-awards:
       vote: 'Voter pour les récompenses'
     settings:
       nav_icon: 'Icône de navigation'
-      nav_icon_help: 'Classe d''icône Font Awesome (par exemple, fas fa-trophy, fas fa-award, fas fa-star)'
+      nav_icon_help: 'Classe d''icône Font Awesome (p. ex. : fas fa-trophy, fas fa-award, fas fa-star)'
       nav_title: 'Titre de navigation'
       nav_title_help: 'Texte affiché dans la barre de navigation latérale'
       title: Paramètres

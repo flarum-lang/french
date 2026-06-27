@@ -23,7 +23,7 @@ shebaoting-money:
       moneyfordiscussion: 'Argent donné pour une nouvelle discussion'
       moneyforlike: 'Argent versé lorsqu''un message est aimé'
       moneyforpost: 'Argent donné pour un nouveau message'
-      moneyname: 'Nom de l''argent (par exemple : [argent] points)'
+      moneyname: 'Nom de l''argent (p. ex. : [argent] points)'
       noshowzero: 'Ne pas afficher si la valeur est nulle'
       postminimumlength: 'Longueur minimale du message pour obtenir l''argent (0 pour désactiver cette fonctionnalité)'
       title: Paramètres

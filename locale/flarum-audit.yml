@@ -76,7 +76,7 @@ flarum-audit:
       filterClear: 'Effacer le filtre'
       filterPlaceholder: 'Filtrer les journaux'
       filters:
-        action: 'Le type d''action, par exemple action:post.created.'
+        action: 'Le type d''action, p. ex. action:post.created.'
         actor: 'Qui a effectué l''action. Utilisez « actor:guest » pour les actions système ou non authentifiées.'
         client: 'Comment la demande a été formulée.'
         discussion: 'Actions affectant une discussion spécifique, par ID.'
@@ -94,8 +94,8 @@ flarum-audit:
         deleted: 'A supprimé le groupe {name}'
         renamed: 'A renommé le groupe {old_name} en {new_name}'
       help:
-        multiple: 'Combinez les valeurs avec des virgules pour correspondre à l''une d''entre elles, par exemple : action:post.created,post.deleted'
-        negate: 'Préfixer un filtre d''un signe moins pour exclure les résultats correspondants, par exemple -client:cli'
+        multiple: 'Combinez les valeurs avec des virgules pour correspondre à l''une d''entre elles, p. ex. : action:post.created,post.deleted'
+        negate: 'Préfixer un filtre d''un signe moins pour exclure les résultats correspondants, p. ex. -client:cli'
         toggle: 'Aide à la recherche'
       loadMore: 'Charger davantage'
       noReason: '(aucun motif)'

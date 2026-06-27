@@ -45,10 +45,10 @@ linkrobins-support:
       error_load: 'Impossible de charger cette catégorie.'
       error_save: 'Impossible d''enregistrer la catégorie. Veuillez vérifier les champs et réessayer.'
       field_color: Couleur
-      field_color_help: 'Couleur hexadécimale (par exemple #3B82F6) utilisée pour le badge de la catégorie.'
+      field_color_help: 'Couleur hexadécimale (p. ex. #3B82F6) utilisée pour le badge de la catégorie.'
       field_description: Description
       field_icon: Icône
-      field_icon_help: 'Une classe Font Awesome, par exemple fas fa-life-ring.'
+      field_icon_help: 'Une classe Font Awesome, p. ex. fas fa-life-ring.'
       field_is_appeal: 'Catégorie de recours'
       field_is_appeal_help: 'Les tickets ouverts dans cette catégorie sont traités comme des recours contre une suspension.'
       field_name: Nom
@@ -56,7 +56,7 @@ linkrobins-support:
       field_position_help: 'Les catégories sont classées selon cette valeur, par ordre croissant.'
       field_slug: 'Identifiant texte unique'
       field_slug_help: 'Identifiant URL. Laissez ce champ vide pour que l''identifiant soit généré à partir du nom.'
-      field_slug_placeholder: 'par exemple, facturation'
+      field_slug_placeholder: 'p. ex. facturation'
       saving: 'Enregistrement en cours…'
       submit_create: 'Créer une catégorie'
       submit_update: 'Enregistrer les modifications'
