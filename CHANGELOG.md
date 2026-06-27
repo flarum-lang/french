@@ -5,6 +5,11 @@ CHANGELOG
 5.0.6 (XXXX-XX-XX)
 ------------------
 
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
 **Prise en charge de nouvelles extensions**:
 
 * [`linkrobins/auto-verify`](https://github.com/linkrobins/auto-verify)
@@ -22,6 +27,7 @@ CHANGELOG
 * [`flarum/audit`](https://github.com/flarum/audit)
 * [`flarum/emoji`](https://github.com/flarum/emoji)
 * [`flarum/pusher`](https://github.com/flarum/pusher)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
