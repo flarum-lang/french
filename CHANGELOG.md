@@ -2,6 +2,58 @@ CHANGELOG
 =========
 
 
+5.0.6 (XXXX-XX-XX)
+------------------
+
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
+**Prise en charge de nouvelles extensions**:
+
+* [`linkrobins/auto-verify`](https://github.com/linkrobins/auto-verify)
+* [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector)
+* [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money)
+* [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on)
+* [`ekumanov/flarum-ext-inline-audio`](https://github.com/ekumanov/flarum-ext-inline-audio)
+* [`flarum/audit`](https://github.com/flarum/audit)
+* [`flarum/emoji`](https://github.com/flarum/emoji)
+* [`flarum/pusher`](https://github.com/flarum/pusher)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification)
+* [`justoverclock/related-discussions`](https://flarum.org/extension/justoverclock/related-discussions)
+* [`linkrobins/clipboard`](https://github.com/linkrobins/clipboard)
+* [`linkrobins/countdown-widget`](https://github.com/linkrobins/countdown-widget)
+* [`linkrobins/font-sizer`](https://github.com/linkrobins/font-sizer)
+* [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget)
+* [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget)
+* [`linkrobins/referral`](https://github.com/linkrobins/referral)
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
+* [`linkrobins/support`](https://github.com/linkrobins/support)
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
+* [`ralkage/flarum-ext-cap-captcha`](https://github.com/Ralkage/flarum-ext-cap-captcha)
+
+
+Journal de toutes les modifications : [v5.0.5...v5.0.6](https://github.com/flarum-lang/french/compare/v5.0.5...v5.0.6).
+
+
 5.0.5 (2026-06-22)
 ------------------
 
