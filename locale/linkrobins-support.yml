@@ -107,6 +107,7 @@ linkrobins-support:
       generic: 'Impossible de créer un ticket pour le moment.'
     reply_content_required: 'Le contenu de la réponse est requis.'
     reply_soft_delete_first: 'Un réponse doit être supprimée temporairement avant de pouvoir être définitivement supprimée.'
+    subject_required: 'Un sujet est requis.'
     ticket_not_found: 'Ticket introuvable.'
     ticket_required: 'Un ticket est requis.'
     ticket_soft_delete_first: 'Un ticket doit être supprimé temporairement avant de pouvoir être définitivement supprimé.'
@@ -133,6 +134,9 @@ linkrobins-support:
       delete_forever: 'Supprimer définitivement'
       edit: Modifier
       edit_reply: 'Modifier la réponse'
+      load_more_replies: 'Charger davantage de réponses'
+      loading_more: 'Chargement en cours…'
+      reopen: 'Réouvrir le ticket'
       restore: Restaurer
       save_changes: 'Enregistrer les modifications'
       saving: 'Enregistrement en cours…'
@@ -161,6 +165,7 @@ linkrobins-support:
       title: 'Nouveau ticket'
       title_appeal: 'Déposer un recours'
     confirm:
+      close_ticket: 'Clôturer ce ticket ? Il ne sera plus possible d''y répondre tant qu''il n''aura pas été rouvert.'
       delete_reply_forever: 'Supprimer définitivement cette réponse ? Cette action est irréversible.'
       delete_ticket_forever: 'Supprimer définitivement ce ticket et toutes ses réponses ? Cette action est irréversible.'
       soft_delete_reply: 'Supprimer temporairement cette réponse ? L''équipe pourra la restaurer ultérieurement.'
@@ -175,6 +180,7 @@ linkrobins-support:
       delete_ticket: 'Impossible de supprimer le ticket.'
       delete_ticket_forever: 'Impossible de supprimer définitivement le ticket.'
       empty_body: 'Veuillez rédiger votre message avant de l''envoyer.'
+      load_more_replies: 'Impossible de charger davantage de réponses.'
       load_ticket: 'Impossible de charger ce ticket. Il a peut-être été supprimé, ou vous ne disposez peut-être pas des autorisations nécessaires pour le consulter.'
       load_tickets: 'Impossible de charger les tickets.'
       post_reply: 'Impossible de publier la réponse.'

@@ -185,7 +185,7 @@ fof-badges:
     revoke: Révoquer
     revoke_confirm: 'Êtes-vous sûr de vouloir révoquer le badge « {badge} » à {username} ?'
     revoke_error: 'Échec de la révocation du badge.'
-    save: Sauvegarder
+    save: Enregistrer
     search_holders_placeholder: 'Rechercher des détenteurs...'
     search_user_placeholder: 'Rechercher par nom d''utilisateur ou nom d''affichage...'
     select_user: 'Sélectionner un utilisateur'

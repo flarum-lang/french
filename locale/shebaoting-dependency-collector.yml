@@ -6,12 +6,35 @@ shebaoting-dependency-collector:
   admin:
     actions:
       approve: Approuver
+      create_tag: 'Créer une catégorie'
       reject: Rejeter
     confirm:
       approve: 'Approuver la dépendance'
       delete: 'Supprimer la dépendance'
+      delete_tag: 'Supprimer la catégorie « {name} » ? Cela la supprimera de toutes les dépendances associées.'
       reject: 'Rejeter la dépendance'
     modal:
+      create_tag_title: 'Créer une nouvelle catégorie'
+      edit_tag_title: 'Modifier la catégorie - {name}'
+      icon_options:
+        bolt: Performance
+        book: Documents
+        cloud: Cloud
+        code: Code
+        cube: Paquet
+        current: 'Icône actuelle : {icon}'
+        database: 'Base de données'
+        layer_group: Couches
+        link: Lien
+        mobile: Mobile
+        palette: Conception
+        puzzle_piece: Plugin
+        rocket: Lancement
+        shield: Sécurité
+        star: 'Mis en avant'
+        tags: Catégorie
+        toolbox: Outils
+      save_button: Enregistrer
       tag_color_label: 'Couleur (p. ex.'
       tag_description_label: 'Description (facultatif)'
       tag_icon_help: 'Trouvez des icônes sur <a>Font Awesome</a>.'
@@ -19,15 +42,19 @@ shebaoting-dependency-collector:
       tag_name_label: Nom
       tag_slug_label: 'Identifiant texte unique'
     nav:
+      description: 'Gérer les dépendances soumises et les catégories.'
       title: 'Collecteur de dépendances'
     page:
       approved_items_title: 'Dépendances approuvées'
+      manage_tags_title: 'Paramètres de catégorie'
       no_approved_items: 'Il n''y a pas encore de dépendances approuvées.'
       no_pending_items: 'Il n''y a pas aucune dépendance en attente de révision.'
+      no_plugin_tags: 'Aucune catégorie n''a encore été créée.'
       pending_items_title: 'Dépendances en attente de révision'
     permissions:
       delete_label: 'Supprimer les dépendances'
       favorite_items_label: 'Ajouter aux favoris les dépendances'
+      manage_tags_label: 'Gérer les catégories'
       moderate_label: 'Modérer les dépendances (approuver, rejeter, modifier, supprimer)'
       submit_label: 'Envoyer les dépendances'
     table:
@@ -40,26 +67,38 @@ shebaoting-dependency-collector:
       tag_color_icon: 'Couleur et icône'
       tag_icon: Icône
       tag_item_count: Objets
+      tag_name: 'Nom de la catégorie'
       tag_slug: 'Identifiant texte unique'
+      tags: Catégories
       title: Titre
   forum:
     item:
+      approve_button: Approuver
       delete_button_label: Supprimer
       delete_confirmation_text: 'Êtes-vous sûr de vouloir supprimer cette dépendance ? Cette action ne peut être annulée.'
       delete_confirmation_title: 'Supprimer la dépendance'
       favorite_button_label: 'Ajouter aux favoris'
       pending_approval: 'En attente d''approbation'
+      unapprove_button: Désapprouver
       unfavorite_button_label: 'Supprimer des favoris'
     list:
+      all_tags: 'Toutes les catégories'
       empty_text: 'Aucune dépendance n''a été trouvée.'
+      filter_by_tag: 'Filtrer par catégorie'
       my_favorites_button: 'Mes favoris'
+      search_placeholder: 'Rechercher des produits'
       submit_button: 'Envoyer la dépendance'
     modal:
       description_label: Description
       description_placeholder: 'Un bref résumé de ce que fait cette dépendance.'
+      edit_title: 'Modifier la dépendance - {title}'
       link_label: Lien
+      no_tags_available: 'Aucune catégorie n''est disponible.'
+      save_changes_button: 'Enregistrer les modifications'
       submit_button: Envoyer
       submit_title: 'Envoyer une nouvelle dépendance'
+      tags_help: 'Sélectionnez au moins une catégorie pertinente.'
+      tags_label: Catégories
       title_label: Titre
       title_placeholder: 'p.ex. Awesome Library'
     nav_title: Dépendances
