@@ -5,7 +5,7 @@
 shebaoting-money:
   admin:
     automoderator:
-      action_name: 'Donner de l''argent'
+      action_name: 'Verser de l''argent'
       metric_name: Argent
     autoremove:
       - 'Ne jamais retirer d''argent'
@@ -26,18 +26,24 @@ shebaoting-money:
       helpextensionlikes: 'Nécessite l''extension <code>flarum/likes</code>'
       initialmoney: 'Argent initial des nouveaux utilisateurs'
       initialmoney_help: 'Montant initial attribué lors de l''inscription d''un utilisateur.'
+      level_names: 'Noms des niveaux d''argent'
       level_names_help: 'Séparez les noms des différents niveaux par des virgules, par exemple : Or, Argent, Bronze'
+      money_scale: 'Échelle des gains'
+      money_scale_help: 'Échelle utilisée pour diviser les niveaux de points, par exemple 100.'
       moneyfordiscussion: 'Argent donné pour une nouvelle discussion'
       moneyforlike: 'Argent versé lorsqu''un message est aimé'
       moneyforlike_feedback: 'Retour d''expérience à l''auteur du message'
       moneyforlike_help: 'Montant à ajouter ou à déduire lorsqu''un utilisateur « aime » un message.'
       moneyforlike_label: 'Montant d''un « J''aime »'
+      moneyforlike_type: 'Type de modification de point'
       moneyforpost: 'Argent donné pour un nouveau message'
       moneyforpost_help: 'Montant à ajouter ou à déduire lorsqu''un utilisateur crée un nouveau message.'
       moneyforpost_label: 'Montant d''un nouveau message'
+      moneyforpost_type: 'Type de modification de point'
       moneyforreply_feedback: 'Retour d''expérience à l''auteur de la discussion'
       moneyforreply_help: 'Montant à ajouter ou à déduire lorsqu''un utilisateur répond à une discussion.'
       moneyforreply_label: 'Montant d''une réponse'
+      moneyforreply_type: 'Type de modification de point'
       moneyname: 'Nom de l''argent (p. ex. : [argent] points)'
       no_feedback: 'Aucun retour d''expérience'
       noshowzero: 'Ne pas afficher si la valeur est nulle'
@@ -79,6 +85,8 @@ shebaoting-money:
       post_restored: 'A restauré un message : {title}'
       posted_reply: 'A répondu à une discussion : {title}'
       reply_received: 'A reçu une réponse de {username} : {title}'
+      unliked_by: 'Message désaimé par {username} : {title}'
+      unliked_post: 'A désaimé un message : {title}'
     logs_type:
       admin_updated: 'Administrateur mis à jour'
       discussion_deleted: 'Discussion supprimée'
