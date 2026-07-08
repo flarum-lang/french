@@ -35,6 +35,7 @@ pianotell-flamoji:
       auto_hide_label: 'Masquer automatiquement'
       auto_hide_text: 'Masquer le sélecteur lorsqu''un émoji est sélectionné.'
       category_settings_heading: 'Paramètres des catégories'
+      cdn_advanced_text: 'Les valeurs par défaut sont liées à la version exacte d'' « Emoji-Mart » sur laquelle cette extension a été développée, avec les hachages SRI correspondants. Si vous modifiez une URL, mettez à jour son hachage SRI en conséquence (ou effacez-le pour désactiver la vérification d''intégrité), et veillez à ce que la version des données corresponde à celle de la feuille de sprites d''émojis — des versions non correspondantes peuvent entraîner un affichage incorrect des émojis. Laisse le champ URL vide pour forcer le chargement local de cette ressource.'
       cdn_data_sri_label: 'Hachage SRI des données (Facultatif)'
       cdn_data_url_label: 'URL des données du CDN'
       cdn_js_sri_label: 'Hachage SRI JavaScript (Facultatif)'
