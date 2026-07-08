@@ -12,6 +12,7 @@ CHANGELOG
 
 **Prise en charge de nouvelles extensions**:
 
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
 * [`linkrobins/auto-verify`](https://github.com/linkrobins/auto-verify)
 * [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector)
 * [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money)
@@ -46,6 +47,7 @@ CHANGELOG
 * [`linkrobins/referral`](https://github.com/linkrobins/referral)
 * [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
 * [`linkrobins/support`](https://github.com/linkrobins/support)
+* [`linkrobins/toc`](https://github.com/linkrobins/toc)
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
 * [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
 * [`ralkage/flarum-ext-cap-captcha`](https://github.com/Ralkage/flarum-ext-cap-captcha)
