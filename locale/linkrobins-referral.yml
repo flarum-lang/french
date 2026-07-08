@@ -37,6 +37,7 @@ linkrobins-referral:
       title: Général
   api:
     invalid_expiry: 'Date d''expiration invalide.'
+    label_too_long: 'Le libellé est trop long.'
   forum:
     profile:
       copy: Copier

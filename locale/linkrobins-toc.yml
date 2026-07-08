@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 linkrobins-toc:
+  admin:
+    settings:
+      max_depth_label: 'Profondeur maximale des titres'
   forum:
     toc:
       copy_link: 'Lien copié'
