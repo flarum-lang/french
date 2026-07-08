@@ -35,6 +35,10 @@ pianotell-flamoji:
       auto_hide_label: 'Masquer automatiquement'
       auto_hide_text: 'Masquer le sélecteur lorsqu''un émoji est sélectionné.'
       category_settings_heading: 'Paramètres des catégories'
+      cdn_data_sri_label: 'Hachage SRI des données (Facultatif)'
+      cdn_data_url_label: 'URL des données du CDN'
+      cdn_js_sri_label: 'Hachage SRI JavaScript (Facultatif)'
+      cdn_js_url_label: 'URL JavaScript du CDN'
       emoji_categories:
         activity: '=> pianotell-flamoji.ref.emoji_categories.activity'
         flags: '=> pianotell-flamoji.ref.emoji_categories.flags'
@@ -69,6 +73,8 @@ pianotell-flamoji:
       specify_categories_text: 'Vous pouvez spécifier une liste de catégories ici, et le sélecteur n''affichera que ces catégories.'
       sticker_mode_label: 'Mode autocollant'
       sticker_mode_text: 'Afficher les émojis personnalisés sous forme de grands autocollants — dans les messages, dans l''aperçu en temps réel du compositeur et dans une grille de sélection agrandie. Comme seuls les émojis personnalisés sont agrandis, le sélecteur se limite à vos émojis personnalisés lorsque cette option est activée. Désactivée par défaut.'
+      use_cdn_label: 'Charger Emoji-Mart via CDN'
+      use_cdn_text: 'Charge la bibliothèque « emoji-mart » et les données d''émoji à partir d''un CDN tiers (p. ex. jsDelivr) au lieu de les fournir depuis votre propre serveur. Désactivé par défaut. Si le chargement depuis le CDN échoue — ou si un hachage SRI (Subresource Integrity) ne correspond pas —, le sélecteur utilise automatiquement la copie fournie avec cette extension. Notez que le chargement à partir d''une source externe nécessite que votre politique de sécurité du contenu (le cas échéant) l''autorise.'
   forum:
     composer:
       emoji_picker_label: 'Sélecteur émoji'
