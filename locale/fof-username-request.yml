@@ -2,6 +2,16 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-username-request/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      user:
+        nickname_request_approved: 'A approuvé la demande de modification de pseudonyme de {username} de {old_nickname} en {new_nickname}'
+        nickname_request_rejected: 'A refusé la demande de modification de pseudonyme de {username}'
+        nickname_requested: 'A demandé un nouveau pseudonyme {new_nickname} pour l''utilisateur {username}'
+        username_request_approved: 'A approuvé la demande de modification du nom d''utilisateur de {username} de {old_username} en {new_username}'
+        username_request_rejected: 'A refusé la demande de modification du nom d''utilisateur de {username}'
+        username_requested: 'A demandé un nouveau nom d''utilisateur {new_nickname} pour l''utilisateur {username}'
 fof-username-request:
   admin:
     permissions:

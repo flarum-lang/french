@@ -10,10 +10,25 @@ flarum-gdpr:
         export_description: 'Exporte les informations du niveau d''abonnement pour une étiquette, si elle existe.'
 fof-follow-tags:
   admin:
+    basics:
+      following_label: '=> flarum-subscriptions.forum.index.following_link'
     settings:
+      all_discussions_on_following_page_for_guests_label: 'Afficher toutes les discussions sur la page « Abonnements » pour les invités'
       following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
       following_page_default_label: 'Filtrage par défaut de la page des abonnements'
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
+      prompt_button_on_following_page_label: 'Afficher un bouton « Choisir les étiquettes à suivre » sur la page « Abonnements »'
+      prompt_new_users_help: "Les utilisateurs qui n'ont pas encore confirmé leur choix verront s'afficher une fenêtre leur demandant de suivre des étiquettes. Cette fenêtre s'affichera à chaque visite jusqu'à ce qu'ils cliquent sur « Continuer vers le forum ».\n"
+      prompt_new_users_label: 'Inviter les nouveaux utilisateurs à choisir des étiquettes à suivre'
+      prompt_tag_ids_label: 'Étiquettes à proposer'
+      prompt_tag_strategy_label: 'Étiquettes à proposer dans l''invite'
+      prompt_tag_strategy_options:
+        all: 'Toutes les étiquettes'
+        list: 'Étiquettes sélectionnées ci-dessous'
+        primary: 'Étiquettes primaires de premier niveau'
+        primaryAndChildren: 'Toutes les étiquettes primaires quel que soit leur niveau'
+        primaryAndSecondary: 'Étiquettes primaires de premier niveau et étiquettes secondaires'
+        secondary: 'Uniquement les étiquettes secondaires'
   email:
     newDiscussionInTag:
       html:
@@ -49,6 +64,11 @@ fof-follow-tags:
       new_discussion_tag_text: '{username} a modifié l''étiquette'
       new_discussion_text: '{username} a démarré'
       new_post_text: '{username} a publié'
+    prompt:
+      choose_button: 'Sélectionnez les étiquettes à suivre'
+      continue_button: 'Continuer vers le forum'
+      later_button: 'Me le rappeler plus tard'
+      modal_title: 'Sélectionnez les étiquettes à suivre'
     settings:
       notify_new_discussion_label: 'Quelqu''un crée une discussion sous une étiquette que je suis'
       notify_new_discussion_tag_label: 'Quelqu''un modifie l''étiquette d''une discussion publiée sous une étiquette que je suis'

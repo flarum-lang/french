@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-split/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        split_away: 'A déplacé {post_count} messages depuis {discussion} vers {new_discussion}'
+        split_into: 'A déplacé {post_count} messages vers la nouvelle discussion {discussion}'
 fof-split:
   admin:
     permissions:

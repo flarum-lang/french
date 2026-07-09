@@ -16,8 +16,10 @@ huseyinfiliz-modern-footer:
       bottom_section: 'Section inférieure'
       custom: Personnaliser
       custom_html: 'Code HTML personnalisé'
+      custom_html_help: 'Ce code HTML s''affiche tel quel pour chaque visiteur. N''ajoutez que du code HTML auquel vous faites confiance.'
       custom_js: 'JS personnalisé'
       custom_js_code: 'Code JavaScript personnalisé'
+      custom_js_help: 'Ce code s''exécute directement dans le navigateur de chaque visiteur. N''ajoutez que du code auquel vous faites confiance.'
       display_mode: 'Mode d''affichage du pied de page'
       font_awesome_icon: 'Icône de Font Awesome'
       forum_logo: 'Logo du forum'

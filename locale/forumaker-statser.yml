@@ -47,11 +47,13 @@ forumaker-statser:
       collapse: 'Masquer les utilisateurs en ligne'
       expand: 'Afficher les utilisateurs en ligne'
     routes:
+      arena: 'Se bat dans l''arène'
       discussion: 'discussion « {title} »'
       flags: signalements
       generic: 'le forum'
       index: 'toutes les discussions'
       notifications: notifications
+      private_discussion: 'une conversation privée'
       search: recherche
       settings: paramètres
       tag: 'étiquette « {name} »'
@@ -69,6 +71,7 @@ forumaker-statser:
       online_users: 'En ligne'
       online_users_count: '{count, plural, one {# utilisateur} other {# utilisateurs}}'
       posts: '{count, plural, one {message} other {messages}}'
+      title: 'Statistiques en ligne'
       total_users: '{count, plural, one {utilisateur} other {utilisateurs}}'
       viewing_page: 'Consulte {page}'
       viewing_unknown: 'Navigue sur le forum'

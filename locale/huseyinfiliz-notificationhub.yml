@@ -4,9 +4,14 @@
 
 huseyinfiliz-notificationhub:
   admin:
+    modal_notification:
+      recipients_placeholder: '=> huseyinfiliz-notificationhub.forum.modal_notification.recipients_placeholder'
     permissions:
       send_all: 'Envoyer des notifications à tous les utilisateurs'
       send_user: 'Envoyer des notifications à des utilisateurs individuels'
+    recipient_kinds:
+      group: '=> huseyinfiliz-notificationhub.forum.recipient_kinds.group'
+      user: '=> huseyinfiliz-notificationhub.forum.recipient_kinds.user'
     settings:
       add_button: 'Ajouter un type de notification'
       add_notification_type: 'Ajouter un type de notification'
@@ -16,6 +21,7 @@ huseyinfiliz-notificationhub:
         actions: Actions
         active: Actif
         color: 'Couleur du type de notification'
+        color_invalid: 'La couleur doit être un code hexadécimal valide, p. ex. #ff0000 ou #f00.'
         default_message_key: 'Message par défaut'
         default_recipients: 'Destinataires par défaut'
         default_url: 'Lien par défaut'
@@ -24,15 +30,29 @@ huseyinfiliz-notificationhub:
         icon: 'Icône par défaut'
         name: 'Nom du type de notification'
         permission: 'Permission du type de notification'
+        permission_help: 'Sélectionnez les groupes de membres autorisés à envoyer cette notification. Si ce champ est laissé vide, tous les modérateurs/administrateurs autorisés pourront l''envoyer.'
+        permission_placeholder: 'Saisissez un nom de groupe...'
+        preview: Prévisualiser
+        preview_placeholder: 'Nom du type de notification'
         sort_order: 'Ordre de tri'
       no_data: 'Il n''y a pas encore de type de notification.'
       save: Enregistrer
     title:
       page_title: 'Types de notification'
   api:
+    field_too_long: 'Ce champ est trop long.'
+    invalid_color: 'La couleur doit être un code hexadécimal valide (p. ex. #ff0000 ou #f00).'
+    invalid_url: 'Protocole URL invalide détecté.'
+    invalid_url_scheme: 'Schéma URL invalide. Seuls les liens HTTP, HTTPS, « mailto », « tel » ou relatifs sont autorisés.'
     message_required: 'Un message est requis.'
+    message_too_long: 'Le message ne doit pas dépasser 5 000 caractères.'
+    multiple_recipients_not_allowed: 'Vous n''êtes pas autorisé à envoyer un message à plusieurs destinataires à la fois.'
+    name_required: 'Le nom du type de notification est requis.'
+    name_too_long: 'Le nom ne doit pas dépasser 255 caractères.'
     no_valid_recipients: 'Aucun destinataire valide n''a été trouvé.'
+    sort_order_invalid: 'L''ordre de tri doit être un nombre non négatif.'
     subject_id_required: 'Le type de notification est requis.'
+    url_too_long: 'L''URL ne doit pas dépasser 2 048 caractères.'
     user_ids_required: 'Des identifiants d''utilisateur sont requis.'
   forum:
     links:
@@ -43,7 +63,8 @@ huseyinfiliz-notificationhub:
       no_notification_types: 'Aucun type de notification active n''a été trouvé.'
       notification_sent_message: 'Des notifications ont été envoyées aux utilisateurs {recipientsCount} !'
       notification_type_label: 'Type de notification'
-      preview_message_placeholder: 'Message de notification'
+      preview_all_members: 'Tous les membres'
+      preview_message_placeholder: 'Message de notification...'
       preview_title: 'Prévisualisation de la notification'
       recipients_label: Destinataires
       recipients_placeholder: 'Saisissez un nom d''utilisateur ou un nom de groupe...'
