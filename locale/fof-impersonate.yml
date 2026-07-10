@@ -7,18 +7,25 @@ flarum-audit:
     browser:
       user:
         impersonated: 'A usurpé l''identité de {username}'
+        impersonation_ended: 'Est redevenu {username}'
 fof-impersonate:
   admin:
     permissions:
       login: 'Se connecter en tant qu''autres utilisateurs'
     settings:
-      no_settings_available: 'Aucun paramètre n''est actuellement disponible. Essayez d''installer l''extension fof/moderator-notes'
+      no_settings_available: 'Aucun paramètre n''est actuellement disponible. Essayez d''installer l''extension fof/moderator-notes ou flarum/audit'
       require_reason: 'Exiger la saisie d''un motif avant la prise de contrôle d''un autre utilisateur.'
+      require_reason_help: 'La raison est enregistrée dans le journal d''audit (flarum/audit) et/ou sous forme de notes de modérateur sur les deux comptes (fof/moderator-notes), selon ce qui est activé.'
       title: 'Impersonate de FoF'
+  forum:
+    notice:
+      message: 'Vous vous faites actuellement passer pour {username}.'
+    return:
+      button: 'Redevenir {username}'
   lib:
     modal:
       impersonate_username: 'Se connecter en tant que {username}'
-      label: 'Un grand pouvoir implique de grandes responsabilités. En continuant, vous deviendrez {username} jusqu''à ce que vous vous déconnectiez.'
+      label: 'Un grand pouvoir implique de grandes responsabilités. En continuant, vous deviendrez {username} jusqu''à ce que vous changiez de compte.'
       placeholder_optional: '(Facultatif) Indiquez la raison pour laquelle vous vous êtes connecté en tant que cet utilisateur'
       placeholder_required: 'Vous devez indiquer la raison pour laquelle vous vous êtes connecté en tant que cet utilisateur avant de poursuivre'
       title: 'Se connecter en tant qu''autre utilisateur'

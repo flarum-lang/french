@@ -5,7 +5,7 @@
 linkrobins-toc:
   admin:
     settings:
-      max_depth_label: 'Profondeur maximale des titres'
+      max_depth_label: 'Profondeur maximale de l''en-tête'
   forum:
     toc:
       copy_link: 'Lien copié'
