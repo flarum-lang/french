@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`huseyinfiliz/simple-dark-mode`](https://github.com/huseyinfiliz/simple-dark-mode)
 * [`linkrobins/auto-verify`](https://github.com/linkrobins/auto-verify)
 * [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector)
 * [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money)
