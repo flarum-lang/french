@@ -43,6 +43,7 @@ CHANGELOG
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
 * [`forumaker/statser`](https://github.com/forumaker/Statser)
 * [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
 * [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
