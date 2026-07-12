@@ -34,6 +34,7 @@ forumaker-magicbb:
       bb_justify: Justifier
       bb_spoiler: Spoiler
       bb_table: Tableau
+      bb_video: Vidéo
       toolbar_group: 'Regrouper les boutons MagicBB'
       toolbar_group_help: 'Si cette option est activée, tous les boutons de MagicBB seront regroupés en un seul bouton dans le compositeur'
   forum:
