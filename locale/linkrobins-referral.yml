@@ -19,6 +19,7 @@ linkrobins-referral:
       label_placeholder: 'p. ex. le lancement de Twitter'
       no_expiry: Jamais
       none: 'Aucun code de campagne pour le moment.'
+      qr: 'Afficher le QR code'
       title: 'Codes de campagne'
     eligibility:
       groups_help: 'Si des groupes sont sélectionnés, seuls les membres de ces groupes recevront un code d''invitation personnel. Ne cochez aucune case pour autoriser tous les groupes.'
@@ -38,7 +39,16 @@ linkrobins-referral:
   api:
     invalid_expiry: 'Date d''expiration invalide.'
     label_too_long: 'Le libellé est trop long.'
+  email:
+    registered_body: 'Bonne nouvelle ! {name} vient de s''inscrire sur le forum en utilisant votre code d''invitation.'
+    registered_subject: '{name} s''est inscrit(e) en utilisant votre code d''invitation'
+    someone: 'Quelqu''un'
+    view_profile: 'Consulter leur profil'
   forum:
+    notifications:
+      group_label: Recommandations
+      registered_text: '{name} s''est inscrit(e) en utilisant votre code d''invitation'
+      someone: 'Quelqu''un'
     profile:
       copy: Copier
       copy_link: 'Copier le lien d''invitation'
@@ -46,8 +56,11 @@ linkrobins-referral:
       invite_code_title: 'Votre code d''invitation'
       no_referrals: 'Aucune recommandation pour le moment. Partagez votre code d''invitation pour commencer !'
       not_eligible: 'Vous n’êtes pas encore éligible pour recevoir un code d''invitation personnel. Continuez à participer et revenez plus tard.'
+      qr_button: 'QR Code'
       tab: Recommandations
       total_referrals: 'Nombre total de recommandations'
+    settings:
+      notify_registered_label: 'Quelqu''un s''inscrit en utilisant votre code d''invitation'
     sign_up:
       invite_code_label: 'Code d''invitation'
       invite_code_label_required: 'Code d''invitation *'
@@ -55,6 +68,10 @@ linkrobins-referral:
     user_card:
       referrals_plural: '{count} recommandations'
       referrals_singular: '{count} recommandation'
+  lib:
+    qr:
+      download: 'Télécharger PNG'
+      title: 'QR code d''invitation : {code}'
   validation:
     invalid: 'Code d''invitation invalide.'
     required: 'Un code d''invitation est requis pour s''inscrire.'
