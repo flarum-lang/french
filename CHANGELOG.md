@@ -13,6 +13,7 @@ CHANGELOG
 **Prise en charge de nouvelles extensions**:
 
 * [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
 * [`huseyinfiliz/simple-dark-mode`](https://github.com/huseyinfiliz/simple-dark-mode)
 * [`linkrobins/auto-verify`](https://github.com/linkrobins/auto-verify)
