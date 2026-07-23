@@ -73,7 +73,7 @@ fof-upload:
         cdn_url: 'URL de diffusion du contenu (préfixe des fichiers)'
         title: 'Paramètres de stockage local'
       preferences:
-        max_file_size: 'Taille maximale du fichier (en kilo-octets)'
+        max_file_size: 'Taille maximale du fichier'
         mime_type_permission_placeholder: 'Libellé d''autorisation (facultatif, p. ex. Images)'
         mime_type_regex_invalid: 'Expression régulière non valide'
         mime_type_regex_placeholder: 'p. ex. ^image/(jpeg|png|gif)$'
@@ -149,6 +149,7 @@ fof-upload:
       qiniu: QiNiu
     warnings:
       fileinfo_missing: "L'extension PHP <strong>fileinfo</strong> n'est pas chargée sur ce serveur. FoF Upload continuera de fonctionner, mais la validation croisée des types MIME sera désactivée, ce qui réduira la protection contre les types de fichiers falsifiés. Activez l'extension dans votre configuration PHP pour une sécurité optimale.\n"
+      max_file_size_exceeds_php: 'Cette valeur dépasse la limite effective de transfert de votre serveur, fixée à <strong>{limit}</strong> (<code>post_max_size={post}</code>, <code>upload_max_filesize={upload}</code>). Les transferts dépassant cette limite seront rejetés par PHP, quel que soit ce paramètre. Réduisez cette valeur ou augmentez les limites dans votre fichier <code>php.ini</code> (ainsi que <code>client_max_body_size</code> si vous utilisez Nginx).'
   api:
     upload_errors:
       cannot_write_to_disk: 'Impossible d''écrire sur le disque.'

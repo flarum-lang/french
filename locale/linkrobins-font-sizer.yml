@@ -9,7 +9,9 @@ linkrobins-font-sizer:
       bases_reset_button: 'Réinitialiser les paramètres par défaut (14 / 12 / 16)'
       preview_button: 'Exemple de bouton'
       preview_label: Prévisualisation
+      preview_small: 'Une courte ligne d''extrait, comme celles qui figurent sous les titres de discussion.'
       preview_text: 'Le renard brun et vif saute par-dessus le chien paresseux. Ce texte de lecture s''adapte aux paramètres définis ci-dessus.'
+      preview_title: 'Un exemple de titre de discussion'
       reset_button: 'Réinitialiser à 100 %'
       text_size_help: 'Définit les paramètres par défaut pour les messages et les titres sur l''ensemble du site. Les utilisateurs peuvent modifier ces paramètres à l''aide du bouton « Taille de la police » situé dans l''en-tête.'
       text_size_label: 'Taille du texte par défaut'
@@ -30,7 +32,7 @@ linkrobins-font-sizer:
       interface_size_hint: 'Cela affecte la navigation, les boutons et d''autres éléments de l''interface utilisateur.'
       interface_size_label: 'Utilisez une interface plus grande'
       reading_text_heading: 'Taille du texte'
-      reading_text_hint: 'Cela affecte les messages et les titres des discussions.'
+      reading_text_hint: 'Cela affecte les messages et les titres de discussion.'
       reading_text_value: '{percent}%'
       reset_button: 'Réinitialiser les paramètres du site par défaut'
       title: 'Taille du texte et de l''interface utilisateur'
