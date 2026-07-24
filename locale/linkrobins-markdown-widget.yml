@@ -5,6 +5,8 @@
 linkrobins-markdown-widget:
   admin:
     settings:
+      background_help: 'Facultatif. La couleur d''arrière-plan du widget. Laissez ce champ vide pour que la couleur corresponde à celle de votre thème.'
+      background_label: 'Couleur d''arrière-plan'
       body_help: 'Markdown standard (version GitHub). Les titres, les listes, les liens, le code, les tableaux sont pris en charge. Le code HTML est autorisé mais nettoyé avant l''affichage : les balises de script, les gestionnaires d''événements et autres balises non sécurisés sont supprimés.'
       body_label: 'Corps du Markdown'
       icon_help: 'Classe FontAwesome à afficher à côté du titre (par ex. fab fa-markdown). Si vous ne souhaitez pas d''icône, laissez ce champ vide.'

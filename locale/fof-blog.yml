@@ -2,6 +2,15 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-blog/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      article:
+        approved: 'A approuvé l''article de blog {discussion}'
+        created: 'A créé un article de blog {discussion}'
+        featured: 'A ajouté l''article de blog {discussion} à la une'
+        unfeatured: 'A retiré l''article de blog {discussion} de la une'
+        updated: 'A mis à jour les métadonnées de l''article de blog {discussion}'
 fof-blog:
   admin:
     blog: Blog
@@ -18,6 +27,12 @@ fof-blog:
       allow_comments_text: 'Par défaut, autoriser les commentaires sur les articles de blog. Lorsque cette option est désactivée, cela peut être activé individuellement sur chaque article de blog. <b>Note :</b> la modification de ce paramètre n''affectera pas les articles de blog préexistants.'
       blog_heading: Blog
       categories_heading: Catégories
+      categories_modal:
+        close: Fermer
+        description: 'Veuillez sélectionner une ou plusieurs étiquettes qui sont considérées comme des étiquettes de blog.'
+        no_tags: 'Vous n''avez actuellement aucune étiquette.'
+        tag_name_column: 'Nom de l''étiquette'
+        visit_blog: 'Visitez votre blog.'
       default_article_image_label: 'Image par défaut de l''article'
       default_article_image_text: 'Sélectionnez une image d''article par défaut à afficher lorsqu''aucune image n''est définie.'
       featured_count_label: 'Maximum de messages en vedette'
@@ -28,6 +43,12 @@ fof-blog:
       hide_tags_in_taglist_text: 'Lorsqu''elle est activée, cette extension masque les étiquettes du blog de votre page d''accueil.'
       no_categories_selected: 'Aucune catégorie sélectionnée'
       redirects_heading: Redirections
+      redirects_options:
+        both: 'Rediriger les articles et les étiquettes'
+        discussions_only: 'Rediriger uniquement les articles'
+        none: 'Aucune redirection'
+        tags_only: 'Rediriger uniquement les étiquettes'
+      redirects_text: 'Rediriger les URL des discussions et des étiquettes d''origine vers leurs équivalents sur le blog.'
       require_review_label: 'Les articles de blog nécessitent une révision'
       require_review_text: 'Lorsque vous publiez un article, il ne sera pas visible directement et doit être examiné par un modérateur.'
       select_categories_button: 'Sélectionnez les catégories de blog'
@@ -101,3 +122,7 @@ fof-blog:
         title: 'Redirection vers l''article de notre blog...'
     validation:
       missing_id: 'Identifiant manquant'
+  lib:
+    gambits:
+      blog:
+        key: blog

@@ -74,6 +74,7 @@ fof-upload:
         title: 'Paramètres de stockage local'
       preferences:
         max_file_size: 'Taille maximale du fichier'
+        max_file_size_equivalent: 'Stocké sous forme de fichier de <code>{kb}</code> Ko ({value}).'
         mime_type_permission_placeholder: 'Libellé d''autorisation (facultatif, p. ex. Images)'
         mime_type_regex_invalid: 'Expression régulière non valide'
         mime_type_regex_placeholder: 'p. ex. ^image/(jpeg|png|gif)$'
