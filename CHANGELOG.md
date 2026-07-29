@@ -34,6 +34,7 @@ CHANGELOG
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
