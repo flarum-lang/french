@@ -5,6 +5,8 @@
 linkrobins-font-sizer:
   admin:
     settings:
+      base_input_label: 'Texte message'
+      bases_help: 'Les dimensions initiales, en pixels, par lesquelles l''échelle de texte est multipliée. Si la police de votre thème s''affiche en trop petit ou en trop grand (ce qui est souvent le cas des polices à empattement), ajustez ces valeurs plutôt que d''écrire du CSS personnalisé. Les valeurs modifiées s''appliquent à tous les éléments, même à 100 %.'
       bases_label: 'Tailles de police de base'
       bases_reset_button: 'Réinitialiser les paramètres par défaut (14 / 12 / 16)'
       preview_button: 'Exemple de bouton'
@@ -13,6 +15,7 @@ linkrobins-font-sizer:
       preview_text: 'Le renard brun et vif saute par-dessus le chien paresseux. Ce texte de lecture s''adapte aux paramètres définis ci-dessus.'
       preview_title: 'Un exemple de titre de discussion'
       reset_button: 'Réinitialiser à 100 %'
+      small_input_label: 'Petit texte'
       text_size_help: 'Définit les paramètres par défaut pour les messages et les titres sur l''ensemble du site. Les utilisateurs peuvent modifier ces paramètres à l''aide du bouton « Taille de la police » situé dans l''en-tête.'
       text_size_label: 'Taille du texte par défaut'
       text_size_value: '{percent}%'
