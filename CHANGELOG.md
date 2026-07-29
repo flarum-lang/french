@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+4.29.5 (XXXX-XX-XX)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+
+
+Journal de toutes les modifications : [v4.29.4...v4.29.5](https://github.com/flarum-lang/french/compare/v4.29.4...v4.29.5).
+
+
 4.29.4 (2026-04-20)
 -------------------
 
