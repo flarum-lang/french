@@ -7,12 +7,14 @@ forumaker-profile-cover:
     delete_error: 'Échec de la suppression des miniatures'
     delete_success: 'Toutes les miniatures ont été supprimées'
     delete_thumbnails: 'Supprimer les miniatures'
+    delete_thumbnails_confirm: 'Supprimer toutes les miniatures ?'
     max_size: 'Taille maximale de l''image de couverture du profil (en kilo-octets)'
     permission:
       set_cover: 'Définir la couverture du profil'
     recreate_error: 'Échec de la recréation des miniatures'
     recreate_success: 'Les miniatures ont été recréées avec succès'
     recreate_thumbnails: 'Recréer les miniatures'
+    recreate_thumbnails_confirm: 'Recréer toutes les miniatures ?'
     sections:
       general: Général
       thumbnails: Miniatures

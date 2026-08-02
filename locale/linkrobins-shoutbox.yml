@@ -19,6 +19,7 @@ linkrobins-shoutbox:
       height_label: 'Hauteur des messages (px)'
       max_rows_help: 'Les messages plus anciens, dépassant ce nombre, sont supprimés. La valeur par défaut est 500.'
       max_rows_label: 'Nombre maximal de messages enregistrés'
+      order_label: 'Ordre des messages'
   api:
     empty_content: 'Vous devez saisir un message.'
     rate_limited: 'Vous publiez trop vite. Veuillez patienter un instant.'
