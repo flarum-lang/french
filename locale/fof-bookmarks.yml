@@ -5,8 +5,11 @@
 fof-bookmarks:
   admin:
     settings:
-      post_button_position_actions: 'Message ci-dessous (actions rapides)'
-      post_button_position_header: 'Message ci-dessus (en-tête)'
+      independent_button: 'Affiche le contrôle des favoris dans la barre latérale de discussion'
+      independent_button_help: 'Lorsque cette option est désactivée, le contrôle apparaît dans le menu déroulant de la discussion.'
+      post_button_position: 'Position du bouton « Favori » dans les messages'
+      post_button_position_actions: 'Sous le message (actions rapides)'
+      post_button_position_header: 'Au-dessus du message (en-tête)'
       post_button_position_menu: 'Dans le menu du message (3 points)'
   forum:
     alert:
