@@ -5,6 +5,11 @@ CHANGELOG
 5.0.7 (XXXX-XX-XX)
 ------------------
 
+**Prise en charge de nouvelles extensions**:
+
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
+
+
 **Mise à jour des traductions de certaines extensions**:
 
 * [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
