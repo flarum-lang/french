@@ -11,6 +11,8 @@ fof-bookmarks:
       post_button_position_actions: 'Sous le message (actions rapides)'
       post_button_position_header: 'Au-dessus du message (en-tête)'
       post_button_position_menu: 'Dans le menu du message (3 points)'
+      post_header_badge: 'Marquer les messages ajoutés aux favoris'
+      post_header_badge_help: 'Affiche un marqueur au-dessus d''un message ajouté aux favoris. S''applique uniquement lorsque le bouton ne se trouve pas dans l''en-tête.'
   forum:
     alert:
       added: 'Favori ajouté !'

@@ -8,6 +8,8 @@ linkrobins-shoutbox:
       moderate: 'Supprimer les messages des autres utilisateurs'
       shout: 'Publier des messages'
     settings:
+      composer_position_bottom: 'Toujours en bas'
+      composer_position_top: 'Toujours en haut'
       cooldown_help: 'Nombre minimum de secondes qu''un utilisateur doit attendre entre deux messages. La valeur par défaut est 3.'
       cooldown_label: 'Temps de recharge (en secondes)'
       display_mode_both: 'Page et widget'
@@ -20,6 +22,7 @@ linkrobins-shoutbox:
       max_rows_help: 'Les messages plus anciens, dépassant ce nombre, sont supprimés. La valeur par défaut est 500.'
       max_rows_label: 'Nombre maximal de messages enregistrés'
       order_label: 'Ordre des messages'
+      poll_interval_label: 'Intervalle de rafraîchissement (en secondes)'
   api:
     empty_content: 'Vous devez saisir un message.'
     rate_limited: 'Vous publiez trop vite. Veuillez patienter un instant.'
