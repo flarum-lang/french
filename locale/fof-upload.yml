@@ -14,7 +14,7 @@ fof-upload:
     help_texts:
       client_extension: "Par défaut, l'extension Upload sélectionnera une extension de fichier sûre en fonction du type MIME.\nPour certains types de fichiers basés sur des données ZIP ou binaires, cela peut entraîner l'utilisation d'extensions génériques au lieu de l'extension attendue.\nVous pouvez saisir ici une liste d'extensions de fichiers, séparées par des virgules, qui seront conservées mot pour mot.\n"
       composer_buttons: "Par défaut, le bouton du gestionnaire de médias et le bouton de téléchargement sont tous deux visibles. Vous pouvez également décider de n'afficher qu'un seul bouton.\n"
-      custom_s3_url: "Utilisez ce paramètre si vous utilisez un service compatible S3 qui nécessite un format d'URL spécifique (p. ex. Backblaze B2) ou si vous rencontrez des problèmes avec le format d'URL par défaut. Ce paramètre n'est généralement pas nécessaire pour la plupart des services. Assurez-vous que l'URL inclut le protocole (https://) et qu'elle est correctement formatée. Par exemple : https://your-bucket.s3.your-region.backblazeb2.com\n"
+      custom_s3_url: "L'URL de base publique à partir de laquelle vos fichiers sont mis à disposition — un CDN ou un domaine personnalisé en amont du seau (bucket).\nLaissez ce champ vide pour utiliser l'URL par défaut du fournisseur. Doit inclure <code>https://</code>.\n"
       disable-download-logging: "Désactivez la journalisation de chaque téléchargement effectué par les utilisateurs de votre forum. En gardant cette option activée, vous pourrez visualiser le nombre de téléchargements en plus d'autres statistiques dans un avenir proche.\n"
       disable-hotlink-protection: "La protection contre les liens hypertextes automatiques empêche l'ouverture des téléchargements à partir d'autres sites. La méthode actuelle nécessite un jeton CSRF et un identifiant de publication.\n"
       download_templates: "Les modèles de téléchargement indiquent comment les téléchargements sont affichés sur votre forum, comme par exemple des prévisualisations ou des boutons. Actuellement disponible :\n"
@@ -23,8 +23,12 @@ fof-upload:
       s3_acl: "S'applique à chaque objet transféré. Laissez ce champ vide pour utiliser la valeur par défaut du fournisseur (généralement « privé »).\nUtilisez <code>public-read</code> si les fichiers doivent être lisibles directement depuis le seau (bucket).\n"
       s3_acl_unsupported: "{provider} ne prend pas en charge les listes de contrôle d'accès (ACL). Contrôlez plutôt l'accès public depuis le tableau de bord du fournisseur.\n"
       s3_compatible_storage: "Les paramètres suivants ne sont obligatoires que si vous utilisez un stockage compatible S3. Si vous utilisez AWS, vous pouvez les laisser vides.\n"
-      s3_instance_profile: "Laissez la clé et la clé secrète vides pour utiliser les informations d'identification dans le profil de l'instance.\n"
+      s3_instance_profile: "Laissez les deux champs vides pour utiliser un rôle IAM à la place — fonctionne uniquement sur EC2, ECS ou EKS.\n"
       s3_path_style: "Place le seau (bucket) dans l'URL plutôt que dans le nom d'hôte. Requis par MinIO et Cloudflare R2 ;\ndéfini automatiquement lorsque vous choisissez un fournisseur.\n"
+      storage_configure_another: "D'autres services de stockage sont installés mais ne sont pas encore configurés. La configuration d'un service ne modifie pas l'emplacement des fichiers\ntant que vous ne l'avez pas associé à un type de fichier.\n"
+      storage_intro: "Les services que vous avez configurés, ou ceux utilisés par un type de fichier, sont affichés ici. Vous pouvez configurer un service\navant de l'associer à un type de fichier ; attribuez-le dans l'onglet « Fichiers » lorsque vous êtes prêt.\n"
+      storage_not_installed: 'Vous recherchez Amazon S3, Cloudflare R2 ou Qiniu ? Ces services nécessitent un paquet supplémentaire — consultez <a>l''installation des adaptateurs de stockage</a>.'
+      thumbnail_quality: "Qualité d'encodage comprise de 1 et 100, appliquée aux miniatures WebP et JPEG. Les valeurs plus élevées offrent un rendu plus net,\nmais génèrent des fichiers plus volumineux. Les miniatures GIF et PNG sont sans perte et ne tiennent pas compte de ce paramètre.\nLes miniatures existantes conservent leur qualité actuelle jusqu'à ce qu'elles soient régénérées à l'aide de la commande « backfill ».\n"
       thumbnails: "Génère une miniature pour les images au moment du transfert. La miniature est affichée ;\nen cliquant dessus, le fichier original en pleine résolution s'ouvre dans un nouvel onglet.\nLes miniatures réduisent considérablement la bande passante et le poids des pages pour les forums contenant de nombreuses images volumineuses.\n"
       watermark: "Décidez si un filigrane sera ajouté aux images lors du téléchargement. Les filigranes sont ajoutés aux images qui ne sont pas des GIFS en fonction de vos préférences définies ci-dessous.\n"
     inspect-mime:
@@ -42,17 +46,18 @@ fof-upload:
     labels:
       aws-s3:
         acl: 'Liste de contrôle d''accès (ACL)'
-        advanced_title: 'Paramètres avancés de stockage S3'
+        advanced_title: 'Options avancées'
         bucket: 'Espace de stockage mémoire'
-        custom_url: 'URL S3 personnalisée'
+        custom_url: 'URL publique'
         endpoint: 'Point d''accès'
-        key: Clé
+        key: 'Identifiant de la clé d''accès'
         provider: Fournisseur
         region: Région
-        secret: 'Clé secrète'
-        title: 'Paramètres de stockage AWS S3'
-        use_path_style_endpoint: 'Utiliser un point d''entrée de type chemin'
+        secret: 'Clé d''accès secrète'
+        title: 'Stockage S3'
+        use_path_style_endpoint: 'Utiliser l''adressage de type chemin'
       client_extension:
+        placeholder: 'p. ex. docx, xlsx, epub'
         title: 'Extensions de fichiers fournies par l''utilisateur'
       composer_buttons:
         options:
@@ -75,21 +80,40 @@ fof-upload:
       local:
         cdn_url: 'URL de diffusion du contenu (préfixe des fichiers)'
         title: 'Paramètres de stockage local'
+      mime_presets:
+        archives: 'Archives (zip, tar, 7z)'
+        audio: Audio
+        documents: 'Documents Word'
+        images: Images
+        pdf: 'Documents PDF'
+        php_ini_values: 'Vos valeurs <code>php.ini</code> sont <code>post_max_size={post}</code> et <code>upload_max_filesize={upload}</code>. Assurez-vous que la valeur définie ici est inférieure à ces seuils ou ajustez-les en conséquence. Si vous utilisez <code>Nginx</code>, assurez-vous également que <code>client_max_body_size</code> est d''une taille suffisante pour la limite maximale choisie.'
+        spreadsheets: Tableurs
+        title: 'Préférences générales'
+        video: Vidéo
       preferences:
         max_file_size: 'Taille maximale du fichier'
         max_file_size_equivalent: 'Stocké sous forme de fichier de <code>{kb}</code> Ko ({value}).'
+        mime_add_prompt: 'Ajouter des types de fichiers…'
+        mime_add_subtype: 'Ajouter un format de fichier'
+        mime_add_subtype_placeholder: 'p. ex. webp'
         mime_column_display: 'Affiché comme'
         mime_column_display_help: 'Comment le fichier apparaît dans un message : aperçu intégré, bouton de téléchargement, etc.'
         mime_column_pattern: 'Type de fichier'
         mime_column_pattern_help: 'Les types de fichiers auxquels cette règle s''applique, en fonction du type MIME du fichier.'
+        mime_column_permission: 'Libellé de permission'
+        mime_column_permission_help: 'Facultatif. Nommer un groupe ici crée une autorisation qui vous permet de contrôler qui peut transférer ces fichiers.'
         mime_column_storage: 'Stocké dans'
         mime_column_storage_help: 'Sur quel service de stockage les fichiers de ce type sont-ils transférés.'
+        mime_move_down: 'Déplacer vers le bas'
+        mime_move_up: 'Déplacer vers le haut'
+        mime_remove_subtype: 'Supprimer {subtype}'
         mime_type_add: 'Ajouter ce type de fichier'
-        mime_type_permission_placeholder: 'Libellé d''autorisation (facultatif, p. ex. Images)'
+        mime_type_permission_placeholder: 'Facultatif, p. ex. Images'
         mime_type_regex_invalid: 'Expression régulière non valide'
         mime_type_regex_placeholder: 'p. ex. ^image/(jpeg|png|gif)$'
         mime_type_remove: 'Supprimer ce type de fichier'
-        mime_types: 'Configurez votre type MIME (téléversez la cartographie de téléchargement)'
+        mime_types: 'Type de fichier'
+        mime_use_simple: 'Utiliser l''éditeur simple'
         php_ini_values: 'Vos valeurs <code>php.ini</code> sont <code>post_max_size={post}</code> et <code>upload_max_filesize={upload}</code>. Assurez-vous que la valeur définie ici est inférieure à ces seuils ou ajustez-les en conséquence. Si vous utilisez <code>Nginx</code>, assurez-vous également que <code>client_max_body_size</code> est d''une taille suffisante pour la limite maximale choisie.'
         title: 'Préférences générales'
       qiniu:
@@ -111,6 +135,7 @@ fof-upload:
         title: 'Nettoyeur de SVG'
       thumbnails:
         max_width: 'Largeur maximale de la miniature (px)'
+        quality: 'Qualité des miniatures'
         title: Miniatures
         toggle: 'Générer des miniatures lors du transfert'
         webp_toggle: 'Encoder les miniatures au format WebP (recommandé, ~30% plus petit)'
@@ -195,11 +220,15 @@ fof-upload:
       upload: Transférer
       upload_shared: Partagé
       user_uploads: 'Médias de l''utilisateur'
+    display_name:
+      insert: Insérer
+      use_file_name: 'Utiliser les noms de fichiers'
     media_manager: 'Gestionnaire de médias'
     states:
       error: Erreur
       loading: Transfert
-      unauthorized: 'Vous n''êtes pas autorisé à télécharger des fichiers'
+      permission_required: 'Autorisation requise'
+      unauthorized: 'Vous n''êtes pas autorisé à télécharger ce fichier'
     text_preview:
       collapse: 'Réduire l''aperçu'
       download: 'Télécharger le fichier'
