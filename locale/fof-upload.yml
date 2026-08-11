@@ -18,11 +18,13 @@ fof-upload:
       disable-download-logging: "Désactivez la journalisation de chaque téléchargement effectué par les utilisateurs de votre forum. En gardant cette option activée, vous pourrez visualiser le nombre de téléchargements en plus d'autres statistiques dans un avenir proche.\n"
       disable-hotlink-protection: "La protection contre les liens hypertextes automatiques empêche l'ouverture des téléchargements à partir d'autres sites. La méthode actuelle nécessite un jeton CSRF et un identifiant de publication.\n"
       download_templates: "Les modèles de téléchargement indiquent comment les téléchargements sont affichés sur votre forum, comme par exemple des prévisualisations ou des boutons. Actuellement disponible :\n"
-      mime_types: "Veuillez configurer votre cartographie ici. Chaque expression régulière de type MIME sera traitée par un adaptateur de téléchargement et un modèle de téléchargement spécifiques.\nVous pouvez également attribuer un libellé d'autorisation à chaque entrée (p. ex. : « Images », « Vidéos ») afin de créer une autorisation dédiée dans la grille d'autorisations.\nCela vous permet de restreindre les groupes autorisés à télécharger des types de fichiers spécifiques, en plus de l'autorisation de base « Télécharger des fichiers » qui est toujours requise.\n"
+      mime_types: "Déterminez quels fichiers les membres peuvent transférer, où chaque type de fichier est stocké et comment il apparaît dans un message.\n"
       resize: "Décidez si vous souhaitez redimensionner vos images avant qu'elles ne soient téléchargées. Vous pouvez indiquer une largeur et une hauteur maximales, en pixels. Le processus de redimensionnement conserve le rapport hauteur/largeur des images.\n"
-      s3_acl: "L'ACL qui doit être appliquée à l'objet téléchargé (par défaut : privé). Pour les valeurs possibles, veuillez consulter https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n"
+      s3_acl: "S'applique à chaque objet transféré. Laissez ce champ vide pour utiliser la valeur par défaut du fournisseur (généralement « privé »).\nUtilisez <code>public-read</code> si les fichiers doivent être lisibles directement depuis le seau (bucket).\n"
+      s3_acl_unsupported: "{provider} ne prend pas en charge les listes de contrôle d'accès (ACL). Contrôlez plutôt l'accès public depuis le tableau de bord du fournisseur.\n"
       s3_compatible_storage: "Les paramètres suivants ne sont obligatoires que si vous utilisez un stockage compatible S3. Si vous utilisez AWS, vous pouvez les laisser vides.\n"
       s3_instance_profile: "Laissez la clé et la clé secrète vides pour utiliser les informations d'identification dans le profil de l'instance.\n"
+      s3_path_style: "Place le seau (bucket) dans l'URL plutôt que dans le nom d'hôte. Requis par MinIO et Cloudflare R2 ;\ndéfini automatiquement lorsque vous choisissez un fournisseur.\n"
       thumbnails: "Génère une miniature pour les images au moment du transfert. La miniature est affichée ;\nen cliquant dessus, le fichier original en pleine résolution s'ouvre dans un nouvel onglet.\nLes miniatures réduisent considérablement la bande passante et le poids des pages pour les forums contenant de nombreuses images volumineuses.\n"
       watermark: "Décidez si un filigrane sera ajouté aux images lors du téléchargement. Les filigranes sont ajoutés aux images qui ne sont pas des GIFS en fonction de vos préférences définies ci-dessous.\n"
     inspect-mime:
@@ -45,6 +47,7 @@ fof-upload:
         custom_url: 'URL S3 personnalisée'
         endpoint: 'Point d''accès'
         key: Clé
+        provider: Fournisseur
         region: Région
         secret: 'Clé secrète'
         title: 'Paramètres de stockage AWS S3'
@@ -75,9 +78,17 @@ fof-upload:
       preferences:
         max_file_size: 'Taille maximale du fichier'
         max_file_size_equivalent: 'Stocké sous forme de fichier de <code>{kb}</code> Ko ({value}).'
+        mime_column_display: 'Affiché comme'
+        mime_column_display_help: 'Comment le fichier apparaît dans un message : aperçu intégré, bouton de téléchargement, etc.'
+        mime_column_pattern: 'Type de fichier'
+        mime_column_pattern_help: 'Les types de fichiers auxquels cette règle s''applique, en fonction du type MIME du fichier.'
+        mime_column_storage: 'Stocké dans'
+        mime_column_storage_help: 'Sur quel service de stockage les fichiers de ce type sont-ils transférés.'
+        mime_type_add: 'Ajouter ce type de fichier'
         mime_type_permission_placeholder: 'Libellé d''autorisation (facultatif, p. ex. Images)'
         mime_type_regex_invalid: 'Expression régulière non valide'
         mime_type_regex_placeholder: 'p. ex. ^image/(jpeg|png|gif)$'
+        mime_type_remove: 'Supprimer ce type de fichier'
         mime_types: 'Configurez votre type MIME (téléversez la cartographie de téléchargement)'
         php_ini_values: 'Vos valeurs <code>php.ini</code> sont <code>post_max_size={post}</code> et <code>upload_max_filesize={upload}</code>. Assurez-vous que la valeur définie ici est inférieure à ces seuils ou ajustez-les en conséquence. Si vous utilisez <code>Nginx</code>, assurez-vous également que <code>client_max_body_size</code> est d''une taille suffisante pour la limite maximale choisie.'
         title: 'Préférences générales'
@@ -90,6 +101,9 @@ fof-upload:
         max_width: 'Largeur/hauteur maximale de l''image'
         title: 'Redimensionnement de l''image'
         toggle: 'Redimensionner les images'
+      storage:
+        configure_another: 'Configurer un autre service de stockage ({count} disponibles)'
+        hide_unused: 'Masquer les services qui ne sont pas utilisés'
       svg-sanitizer:
         allow_animate: 'Autoriser les animations SVG'
         allow_animate_help: 'L''activation des animations SVG peut introduire des failles de sécurité, car les SVG animés peuvent contenir du code malveillant. Activez ce paramètre à vos risques et périls, et uniquement si vous faites pleinement confiance à vos utilisateurs.'
@@ -127,6 +141,13 @@ fof-upload:
       no-files: 'Aucun fichier partagé n''a encore été transféré.'
       title: 'Transferts partagés'
       upload-new-button: 'Transférer un nouveau fichier'
+    tabs:
+      advanced: Avancé
+      files: Fichiers
+      images: Images
+      storage: Stockage
+      unsaved_changes: 'Cet onglet contient des modifications non enregistrées'
+      unsaved_hint: 'Vous avez des modifications non enregistrées.'
     templates:
       bbcode-image: 'Modèle d''image BBCode'
       bbcode-image_description: "Affiche l'image en ligne complète en utilisant BBCode. <strong>L'extension flarum/bbcode doit être installée et activée pour que cette option fonctionne.</strong> Aucune fonctionnalité de téléchargement ni aucune statistique n'est collectée, et la protection des liens chauds est ignorée.\n"
