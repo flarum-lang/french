@@ -19,6 +19,7 @@ fof-upload:
       disable-hotlink-protection: "La protection contre les liens hypertextes automatiques empêche l'ouverture des téléchargements à partir d'autres sites. La méthode actuelle nécessite un jeton CSRF et un identifiant de publication.\n"
       download_templates: "Les modèles de téléchargement indiquent comment les téléchargements sont affichés sur votre forum, comme par exemple des prévisualisations ou des boutons. Actuellement disponible :\n"
       local_cdn: "Facultatif. Si vous mettez à disposition <code>assets/files</code> via un CDN, saisissez son URL de base et les liens vers les fichiers téléchargés l'utiliseront.\nLaissez ce champ vide pour mettre à disposition les fichiers directement depuis votre forum.\n"
+      mime_order: "Les règles sont évaluées de haut en bas et la première correspondance l'emporte ; veillez donc à placer les règles les plus spécifiques avant les règles générales.\n"
       mime_types: "Déterminez quels fichiers les membres peuvent transférer, où chaque type de fichier est stocké et comment il apparaît dans un message.\n"
       resize: "Décidez si vous souhaitez redimensionner vos images avant qu'elles ne soient téléchargées. Vous pouvez indiquer une largeur et une hauteur maximales, en pixels. Le processus de redimensionnement conserve le rapport hauteur/largeur des images.\n"
       s3_acl: "S'applique à chaque objet transféré. Laissez ce champ vide pour utiliser la valeur par défaut du fournisseur (généralement « privé »).\nUtilisez <code>public-read</code> si les fichiers doivent être lisibles directement depuis le seau (bucket).\n"
@@ -96,6 +97,7 @@ fof-upload:
       preferences:
         max_file_size: 'Taille maximale du fichier'
         max_file_size_equivalent: 'Stocké sous forme de fichier de <code>{kb}</code> Ko ({value}).'
+        mime_add_custom: 'Modèle personnalisé…'
         mime_add_prompt: 'Ajouter des types de fichiers…'
         mime_add_subtype: 'Ajouter un format de fichier'
         mime_add_subtype_placeholder: 'p. ex. webp'
@@ -140,7 +142,7 @@ fof-upload:
         title: 'Nettoyeur de SVG'
       thumbnails:
         max_width: 'Largeur maximale de la miniature (px)'
-        quality: 'Qualité des miniatures'
+        quality: 'Qualité de la miniature'
         title: Miniatures
         toggle: 'Générer des miniatures lors du transfert'
         webp_toggle: 'Encoder les miniatures au format WebP (recommandé, ~30% plus petit)'
