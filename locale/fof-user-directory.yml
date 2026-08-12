@@ -43,6 +43,7 @@ fof-user-directory:
       newest: 'Le plus récent'
       not_specified: 'Utiliser Flarum par défaut'
       oldest: 'Le plus ancien'
-      seen_recent: 'Récemment en ligne'
+      seen_oldest: 'Connexion la plus ancienne'
+      seen_recent: 'Connexion la plus récente'
       username_az: 'Nom d''utilisateur (a-z)'
       username_za: 'Nom d''utilisateur (z-a)'
