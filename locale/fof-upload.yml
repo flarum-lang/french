@@ -18,13 +18,16 @@ fof-upload:
       disable-download-logging: "Désactivez la journalisation de chaque téléchargement effectué par les utilisateurs de votre forum. En gardant cette option activée, vous pourrez visualiser le nombre de téléchargements en plus d'autres statistiques dans un avenir proche.\n"
       disable-hotlink-protection: "La protection contre les liens hypertextes automatiques empêche l'ouverture des téléchargements à partir d'autres sites. La méthode actuelle nécessite un jeton CSRF et un identifiant de publication.\n"
       download_templates: "Les modèles de téléchargement indiquent comment les téléchargements sont affichés sur votre forum, comme par exemple des prévisualisations ou des boutons. Actuellement disponible :\n"
+      local_cdn: "Facultatif. Si vous mettez à disposition <code>assets/files</code> via un CDN, saisissez son URL de base et les liens vers les fichiers téléchargés l'utiliseront.\nLaissez ce champ vide pour mettre à disposition les fichiers directement depuis votre forum.\n"
       mime_types: "Déterminez quels fichiers les membres peuvent transférer, où chaque type de fichier est stocké et comment il apparaît dans un message.\n"
       resize: "Décidez si vous souhaitez redimensionner vos images avant qu'elles ne soient téléchargées. Vous pouvez indiquer une largeur et une hauteur maximales, en pixels. Le processus de redimensionnement conserve le rapport hauteur/largeur des images.\n"
       s3_acl: "S'applique à chaque objet transféré. Laissez ce champ vide pour utiliser la valeur par défaut du fournisseur (généralement « privé »).\nUtilisez <code>public-read</code> si les fichiers doivent être lisibles directement depuis le seau (bucket).\n"
       s3_acl_unsupported: "{provider} ne prend pas en charge les listes de contrôle d'accès (ACL). Contrôlez plutôt l'accès public depuis le tableau de bord du fournisseur.\n"
       s3_compatible_storage: "Les paramètres suivants ne sont obligatoires que si vous utilisez un stockage compatible S3. Si vous utilisez AWS, vous pouvez les laisser vides.\n"
+      s3_endpoint: "L'URL de l'API S3 du fournisseur — et non l'URL publique de votre seau (bucket). Amazon S3 n'en a pas besoin.\n"
       s3_instance_profile: "Laissez les deux champs vides pour utiliser un rôle IAM à la place — fonctionne uniquement sur EC2, ECS ou EKS.\n"
       s3_path_style: "Place le seau (bucket) dans l'URL plutôt que dans le nom d'hôte. Requis par MinIO et Cloudflare R2 ;\ndéfini automatiquement lorsque vous choisissez un fournisseur.\n"
+      s3_provider: "Le choix de votre fournisseur détermine le format du point d'accès, le style d'adressage et la prise en charge des listes de contrôle d'accès (ACL) décrits ci-dessous. Sélectionnez « Autre compatible S3 »\nsi le vôtre ne figure pas dans la liste.\n"
       storage_configure_another: "D'autres services de stockage sont installés mais ne sont pas encore configurés. La configuration d'un service ne modifie pas l'emplacement des fichiers\ntant que vous ne l'avez pas associé à un type de fichier.\n"
       storage_intro: "Les services que vous avez configurés, ou ceux utilisés par un type de fichier, sont affichés ici. Vous pouvez configurer un service\navant de l'associer à un type de fichier ; attribuez-le dans l'onglet « Fichiers » lorsque vous êtes prêt.\n"
       storage_not_installed: 'Vous recherchez Amazon S3, Cloudflare R2 ou Qiniu ? Ces services nécessitent un paquet supplémentaire — consultez <a>l''installation des adaptateurs de stockage</a>.'
@@ -96,6 +99,7 @@ fof-upload:
         mime_add_prompt: 'Ajouter des types de fichiers…'
         mime_add_subtype: 'Ajouter un format de fichier'
         mime_add_subtype_placeholder: 'p. ex. webp'
+        mime_advanced_pattern: 'Modèle avancé'
         mime_column_display: 'Affiché comme'
         mime_column_display_help: 'Comment le fichier apparaît dans un message : aperçu intégré, bouton de téléchargement, etc.'
         mime_column_pattern: 'Type de fichier'
@@ -104,6 +108,7 @@ fof-upload:
         mime_column_permission_help: 'Facultatif. Nommer un groupe ici crée une autorisation qui vous permet de contrôler qui peut transférer ces fichiers.'
         mime_column_storage: 'Stocké dans'
         mime_column_storage_help: 'Sur quel service de stockage les fichiers de ce type sont-ils transférés.'
+        mime_edit_pattern: 'Modifier le modèle'
         mime_move_down: 'Déplacer vers le bas'
         mime_move_up: 'Déplacer vers le haut'
         mime_remove_subtype: 'Supprimer {subtype}'
@@ -221,7 +226,10 @@ fof-upload:
       upload_shared: Partagé
       user_uploads: 'Médias de l''utilisateur'
     display_name:
+      help: 'S''affiche à la place du nom du fichier lors du téléchargement. Laissez tel quel pour utiliser le nom du fichier.'
       insert: Insérer
+      title: 'Nommez ce fichier téléchargé'
+      title_plural: 'Nommez ces fichiers téléchargés'
       use_file_name: 'Utiliser les noms de fichiers'
     media_manager: 'Gestionnaire de médias'
     states:
