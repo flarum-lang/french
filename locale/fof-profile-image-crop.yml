@@ -5,6 +5,7 @@
 fof-profile-image-crop:
   forum:
     modal:
+      crop_too_small: 'La zone sélectionnée est trop petite — sélectionnez au moins {size} × {size} pixels pour obtenir un avatar net.'
       error:
         failed_to_load_cropper: 'Échec du chargement du recadreur d''image.'
         generic_resize: 'Une erreur s''est produite lors du recadrage et du redimensionnement de l''image.'

@@ -8,12 +8,15 @@ linkrobins-shoutbox:
       moderate: 'Supprimer les messages des autres utilisateurs'
       shout: 'Publier des messages'
     settings:
+      composer_position_auto: 'À côté du message le plus récent (par défaut)'
       composer_position_bottom: 'Toujours en bas'
+      composer_position_help: 'Là où se trouve la zone de saisie. Par défaut, elle suit l''ordre des messages et se situe donc toujours à côté du message le plus récent.'
+      composer_position_label: 'Position de la zone de saisie'
       composer_position_top: 'Toujours en haut'
       cooldown_help: 'Nombre minimum de secondes qu''un utilisateur doit attendre entre deux messages. La valeur par défaut est 3.'
       cooldown_label: 'Temps de recharge (en secondes)'
       display_mode_both: 'Page et widget'
-      display_mode_help: 'Choisissez où le shoutbox apparaît sur le forum.'
+      display_mode_help: 'Choisissez où la boîte de discussion apparaît sur le forum.'
       display_mode_label: 'Mode d''affichage'
       display_mode_page: 'Page uniquement'
       display_mode_widget: 'Widget uniquement'
@@ -21,14 +24,18 @@ linkrobins-shoutbox:
       height_label: 'Hauteur des messages (px)'
       max_rows_help: 'Les messages plus anciens, dépassant ce nombre, sont supprimés. La valeur par défaut est 500.'
       max_rows_label: 'Nombre maximal de messages enregistrés'
+      order_help: 'Là où apparaissent les nouveaux messages. Par défaut, la zone de saisie suit l''ordre choisi et se place à côté du message le plus récent ; vous pouvez modifier ce paramètre ci-dessous.'
       order_label: 'Ordre des messages'
+      order_newest_first: 'Du plus récent au plus ancien'
+      order_oldest_first: 'Du plus ancien au plus récent'
+      poll_interval_help: 'Fréquence à laquelle une boîte de discussion ouverte vérifie les nouveaux messages. Des valeurs plus élevées réduisent la charge sur un forum très fréquenté. Entre 10 et 300, la valeur par défaut est 30.'
       poll_interval_label: 'Intervalle de rafraîchissement (en secondes)'
   api:
     empty_content: 'Vous devez saisir un message.'
     rate_limited: 'Vous publiez trop vite. Veuillez patienter un instant.'
   forum:
-    nav: Shoutbox
-    page_title: Shoutbox
+    nav: 'Boîte de discussion'
+    page_title: 'Boîte de discussion'
     widget:
       delete: Supprimer
       delete_confirm: 'Supprimer ce message ?'
@@ -41,5 +48,5 @@ linkrobins-shoutbox:
       time_hours: '{count}h'
       time_minutes: '{count}m'
       time_seconds: '{count}s'
-      title: Shoutbox
+      title: 'Boîte de discussion'
       unknown_user: Utilisateur
