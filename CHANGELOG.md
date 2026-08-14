@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+5.0.7 (2026-08-14)
+------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
+* [`linkrobins/referral`](https://github.com/linkrobins/referral)
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
+
+
+Journal de toutes les modifications : [v5.0.6...v5.0.7](https://github.com/flarum-lang/french/compare/v5.0.6...v5.0.7).
+
+
 5.0.6 (2026-07-30)
 ------------------
 
