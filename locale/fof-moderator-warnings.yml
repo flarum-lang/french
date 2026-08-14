@@ -2,6 +2,14 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-moderator-warnings/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      warning:
+        created: 'A averti {username}'
+        deleted: 'A supprimé définitivement l''avertissement de {username}'
+        hidden: 'A supprimé l''avertissement de {username}'
+        restored: 'A restauré l''avertissement de {username}'
 fof-moderator-warnings:
   admin:
     permissions:
@@ -47,7 +55,7 @@ fof-moderator-warnings:
       private_comment: 'Commentaires visibles du modérateur'
       public_comment: Avertissement
     warning_modal:
-      confirmation_message: 'Votre avertissement a été enregistré. Vous devrez peut-être actualiser la page pour le voir.'
+      confirmation_message: 'Votre avertissement a été enregistré.'
       heading: 'Avertir <strong>{username}</strong>'
       private_comment_heading: 'Pourquoi <strong>{username}</strong> a-t-il reçu ces avertissements ? Ces commentaires ne seront visibles qu''aux autres modérateurs.'
       public_comment_heading: 'Pourquoi <strong>{username}</strong> a-t-il reçu ces avertissements ? Ces commentaires seront visibles à l''utilisateur et aux autres modérateurs.'
