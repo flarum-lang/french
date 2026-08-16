@@ -8,6 +8,8 @@ CHANGELOG
 **Prise en charge de nouvelles extensions**:
 
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/first-post-approval`](https://github.com/FriendsOfFlarum/first-post-approval)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
 
 
 Journal de toutes les modifications : [v5.0.7...v5.0.8](https://github.com/flarum-lang/french/compare/v5.0.7...v5.0.8).
