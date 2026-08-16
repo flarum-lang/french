@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+5.0.8 (XXXX-XX-XX)
+------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+
+
+Journal de toutes les modifications : [v5.0.7...v5.0.8](https://github.com/flarum-lang/french/compare/v5.0.7...v5.0.8).
+
+
 5.0.7 (2026-08-14)
 ------------------
 
