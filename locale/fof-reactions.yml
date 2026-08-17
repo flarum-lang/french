@@ -66,14 +66,14 @@ fof-reactions:
       load_more: 'Charger plus'
       no_reactions: 'Il n''y a aucune réaction pour le moment'
       others_count: '+ {count, plural, one {# autre} other {# autres}}'
-      remove_all_reaction_type: 'Supprimer toutes les réactions {réaction}'
+      remove_all_reaction_type: 'Supprimer toutes les réactions {reaction}'
       remove_user_reaction: 'Supprimer la réaction'
       title: Réactions
     notification: '{username} a réagi avec {reaction} à votre message'
     react_button_label: Réagir
     reacted_with_label: '{count, plural, one {{reaction} (# réaction)} other {{reaction} (# réactions)}}'
     reacting-own-post: 'Vous ne pouvez pas réagir à votre propre message'
-    reaction_button_label: 'Réagir avec {réaction}'
+    reaction_button_label: 'Réagir avec {reaction}'
     settings:
       notify_post_reacted_label: 'Quelqu''un a réagi à l''un de mes messages'
     unreact_button_label: 'Supprimer la réaction'
