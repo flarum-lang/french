@@ -12,6 +12,11 @@ CHANGELOG
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado)
 
 
+**Mise à jour des traductions de certaines extensions**:
+
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+
+
 Journal de toutes les modifications : [v5.0.7...v5.0.8](https://github.com/flarum-lang/french/compare/v5.0.7...v5.0.8).
 
 
