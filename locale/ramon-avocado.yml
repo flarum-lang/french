@@ -7,12 +7,12 @@ ramon-avocado:
     footer_settings:
       footer_company: 'Informations sur l''entreprise'
       footer_company_description: 'Description de l''entreprise'
-      footer_company_description_placeholder: 'Brève description de votre entreprise ou forum…'
+      footer_company_description_placeholder: 'Brève description de votre entreprise ou de votre forum…'
       footer_company_logo_url: 'URL du logo de l''entreprise'
       footer_company_name: 'Nom de l''entreprise'
       footer_copyright_text: 'Texte de copyright'
       footer_enabled: 'Activer le pied de page personnalisé'
-      footer_footer_bottom: 'Bas du pied de page'
+      footer_footer_bottom: 'Bas de page'
       footer_links_config: 'Configuration des liens du pied de page'
       footer_links_help_json: 'Configurez les colonnes de liens du pied de page au format JSON. Chaque colonne doit avoir un titre et une liste de liens avec un libellé et une URL.'
       footer_show_social: 'Afficher les liens vers les réseaux sociaux'
@@ -25,10 +25,10 @@ ramon-avocado:
       auth_image_label: 'Image du modal d''authentification'
       banner_image_help: 'Transférer l''image de la bannière affichée en haut du forum.'
       banner_image_label: 'Image de bannière'
-      bookmarks_enabled_help: 'Bouton Enregistrer sur les cartes, page Enregistrés, notes, rappels et notifications de rappel. Désactiver masque tout et désactive les points d''API ; les données enregistrées sont conservées.'
+      bookmarks_enabled_help: 'Le bouton « Enregistrer » sur les cartes, la page « Enregistrés », les notes, les rappels et les notifications de rappel. La désactivation de cette option masque tous ces éléments et désactive les points de terminaison de l''API ; les données enregistrées sont conservées.'
       bookmarks_enabled_label: 'Activer le système de favoris'
-      bookmarks_fof_notice: 'FoF Bookmarks est activé, donc Avocado lui délègue son propre système de favoris : le thème affiche un seul élément de menu Enregistrés et un seul bouton Enregistrer, qui écrit dans FoF Bookmarks. Les notes et rappels sont indisponibles tant qu''il est activé ; vos données Avocado enregistrées sont conservées et reviennent si vous le désactivez.'
-      cakeday_enabled_help: 'Afficher un 🎂 à côté du nom d''utilisateur le jour anniversaire de l''inscription du compte (cartes de discussion, messages et carte d''utilisateur).'
+      bookmarks_fof_notice: 'FoF Bookmarks est activé, donc Avocado lui délègue son propre système de favoris : le thème affiche un seul élément de menu « Enregistré » et un seul bouton « Enregistrer », qui écrit dans FoF Bookmarks. Les notes et les rappels ne sont pas disponibles tant que cette fonctionnalité est activée ; vos données Avocado enregistrées sont conservées et réapparaissent si vous la désactivez.'
+      cakeday_enabled_help: 'Afficher un 🎂 à côté du nom d''utilisateur à la date anniversaire de la création du compte (cartes de discussion, messages et carte d''utilisateur).'
       cakeday_enabled_label: 'Afficher le badge d''anniversaire de compte'
       categories_heading_label: 'Titre de la section Catégories'
       clock_format_12: '12 heures (2:30 PM)'
@@ -45,13 +45,13 @@ ramon-avocado:
       colored_enabled_label: 'Activer les accents colorés'
       custom_auth_modal_help: 'Afficher le design à panneau latéral personnalisé sur les modals de Connexion, Inscription et Mot de passe oublié. Désactiver pour utiliser le modal par défaut de Flarum.'
       custom_auth_modal_label: 'Utiliser le modal de connexion / inscription personnalisé'
-      custom_default_avatar_help: 'Télécharger une image d''avatar par défaut personnalisée pour les utilisateurs sans avatar.'
+      custom_default_avatar_help: 'Transférer une image d''avatar par défaut personnalisée pour les utilisateurs sans avatar.'
       custom_default_avatar_label: 'Avatar par défaut personnalisé'
       custom_hero_enabled_help: 'Remplacer le contenu du bandeau par défaut (icône, titre, description, boutons « Connexion » et « Inscription ») par votre propre code HTML. Le conteneur de la bannière, l''image d''arrière-plan et la superposition restent inchangés. Affiché uniquement aux invités — comme pour le bandeau par défaut.'
-      custom_hero_enabled_label: 'Utiliser un contenu « Hero » personnalisé (HTML)'
+      custom_hero_enabled_label: 'Utiliser un contenu personnalisé pour le bandeau (HTML)'
       custom_hero_html_help: 'Code HTML inséré dans la superposition de la bannière (remplace .AvocadoHome-heroBannerContent). Les balises « <style> » intégrées sont prises en charge.'
       custom_hero_html_label: 'Code HTML du bandeau personnalisé'
-      custom_loading_spinner_help: 'Remplacer l''indicateur de chargement textuel par défaut par un spinner SVG animé.'
+      custom_loading_spinner_help: 'Remplacer l''indicateur de chargement textuel par défaut par une icône de chargement SVG animée.'
       custom_loading_spinner_label: 'Indicateur de chargement personnalisé'
       disc_style_default: 'Par défaut'
       disc_style_editorial: 'Éditorial (fil de conversation)'
@@ -60,11 +60,11 @@ ramon-avocado:
       featured_tags_empty: 'Aucune étiquette trouvée.'
       featured_tags_help: 'Les catégories sélectionnées apparaissent en surbrillance avec un badge étoile sur la page d''accueil et la page des catégories.'
       featured_tags_label: 'Catégories mises en avant'
-      fixed_avatar_effect_help: 'Maintenir l''avatar de la publication visible lors de la lecture de longs commentaires sur ordinateur.'
+      fixed_avatar_effect_help: 'Maintenir l''avatar de l''auteur en haut de la page lors de la lecture de longs commentaires sur ordinateur.'
       fixed_avatar_effect_label: 'Activer l''effet d''avatar fixe'
       following_heading_label: 'Titre des discussions suivies'
-      hero_deco_divider_help: 'Afficher une icône dans l''espace entre les deux icônes décoratives (ex. : un symbole « vs » pour les sites sportifs).'
-      hero_deco_divider_icon_help: 'Classe Font Awesome pour l''icône séparateur, ex. : « fas fa-times » ou « fas fa-circle ».'
+      hero_deco_divider_help: 'Afficher une icône dans l''espace entre les deux icônes décoratives (p. ex. un symbole « vs » pour les sites sportifs).'
+      hero_deco_divider_icon_help: 'Classe Font Awesome pour l''icône séparateur, p. ex. « fas fa-times » ou « fas fa-circle ».'
       hero_deco_divider_icon_label: 'Classe de l''icône séparateur'
       hero_deco_divider_label: 'Afficher un séparateur entre les icônes décoratives'
       hero_decoration_icon_count_help: '1 icône utilise la première étiquette enfant. 2 icônes affichent également l''icône de la deuxième étiquette enfant, décalée vers la gauche.'
@@ -78,13 +78,13 @@ ramon-avocado:
       hero_image_position_help: 'Valeur CSS de background-position, ex. : « center top » ou « 50% 20% ».'
       hero_image_position_label: 'Position de l''image du bandeau'
       hero_image_tags_help: 'Lorsque l''utilisateur ajoute l''une de ces étiquettes à une nouvelle discussion, le compositeur affiche un champ facultatif permettant de transférer une image. L''image téléchargée s''affiche comme arrière-plan de l''en-tête de la discussion et comme première image dans la vitrine de la page d''accueil.'
-      hero_image_tags_label: 'Étiquettes qui demandent une image hero'
-      hide_links_for_guests_help: 'Empêcher les visiteurs de suivre les liens dans les messages. Lorsque l''on clique sur un lien, une invite de connexion ou d''inscription s''affiche à la place.'
-      hide_links_for_guests_label: 'Masquer les liens pour les visiteurs'
-      loading_spinner_style_label: 'Style du spinner'
+      hero_image_tags_label: 'Étiquettes nécessitant une image pour le bandeau'
+      hide_links_for_guests_help: 'Empêcher les invités de suivre les liens dans les messages. Lorsque l''on clique sur un lien, une invite de connexion ou d''inscription s''affiche à la place.'
+      hide_links_for_guests_label: 'Masquer les liens pour les invités'
+      loading_spinner_style_label: 'Style de l''icône de chargement'
       logo_enabled_help: 'Afficher le logo personnalisé dans l''en-tête.'
       logo_enabled_label: 'Activer le logo personnalisé'
-      logo_svg_help: 'Télécharger un logo SVG personnalisé pour votre forum.'
+      logo_svg_help: 'Transférer un logo SVG personnalisé pour votre forum.'
       logo_svg_label: 'Logo SVG'
       popular_heading_label: 'Titre des discussions populaires'
       post_badge_position_below: 'Sous le nom d''utilisateur (ligne séparée)'
@@ -94,24 +94,24 @@ ramon-avocado:
       post_badge_position_label: 'Position du badge de groupe dans les messages'
       post_badge_position_side: 'Sous l''avatar (colonne gauche)'
       post_badge_position_side_icons: 'Sous l''avatar — icônes uniquement, côte à côte'
-      post_cta_position_1: 'Après la publication n°1'
-      post_cta_position_2: 'Après la publication n°2'
-      post_cta_position_3: 'Après la publication n°3'
-      post_cta_position_4: 'Après la publication n°4'
-      post_cta_position_5: 'Après la publication n°5'
-      post_cta_position_help: 'Insérer la bannière d''appel à l''action entre ce numéro de publication et le suivant.'
-      post_cta_position_label: 'Position de l''appel à l''action (après quelle publication)'
+      post_cta_position_1: 'Après le message #1'
+      post_cta_position_2: 'Après le message #2'
+      post_cta_position_3: 'Après le message #3'
+      post_cta_position_4: 'Après le message #4'
+      post_cta_position_5: 'Après le message #5'
+      post_cta_position_help: 'Insérer la bannière d''invitation entre ce numéro de message et le suivant.'
+      post_cta_position_label: 'Position de l''invitation (après quel numéro de message)'
       presence_enabled_help: 'Indicateur en temps réel « N personnes lisent actuellement » dans le bandeau de la discussion, avec les avatars des lecteurs. Nécessite l''extension Realtime ; les utilisateurs ayant désactivé l''option « afficher en ligne » ne sont jamais listés.'
       presence_enabled_label: 'Afficher qui lit une discussion'
-      search_v1_help: 'Afficher le menu déroulant de recherche inline au lieu du modal V2.'
-      search_v1_label: 'Activer le style de barre de recherche V1'
+      search_v1_help: 'Afficher le menu déroulant de recherche intégrée à la place de la fenêtre modale V2.'
+      search_v1_label: 'Activer le style de la barre de recherche V1'
       section_auth: 'Connexion & Inscription'
       section_bookmarks: Favoris
       section_cakeday: Anniversaire
       section_colored: Coloré
       section_discussion: 'Page de discussion'
       section_footer: 'Pied de page'
-      section_hero_image_tags: 'Image de bandeau pour les discussions'
+      section_hero_image_tags: 'Image du bandeau des discussions'
       section_homepage: 'Page d''accueil'
       section_logo: Logo
       section_posts: Messages
@@ -121,8 +121,8 @@ ramon-avocado:
       section_titles_heading: 'Titres des sections'
       section_titles_help: 'Remplacer les titres des sections de la page d''accueil. Laisser un champ vide pour utiliser le titre par défaut du pack de langue.'
       section_user_card: 'Carte d''utilisateur'
-      show_action_icons_help: 'Afficher des icônes Font Awesome sur les boutons d''action J''aime et Répondre.'
-      show_action_icons_label: 'Afficher les icônes sur les boutons J''aime et Répondre'
+      show_action_icons_help: 'Afficher les icônes Font Awesome sur les boutons d''action « J''aime » et « Répondre ».'
+      show_action_icons_label: 'Afficher les icônes sur les boutons « J''aime » et « Répondre »'
       show_auth_buttons_help: 'Afficher les boutons Connexion et Inscription dans la navigation secondaire de l''en-tête pour les visiteurs.'
       show_auth_buttons_label: 'Afficher les boutons Connexion / Inscription dans l''en-tête pour les visiteurs'
       show_guest_cta_help: 'Afficher un message d''appel à l''action pour les visiteurs.'
@@ -131,9 +131,9 @@ ramon-avocado:
       show_online_count_label: 'Afficher le texte du compteur en ligne'
       show_online_users_help: 'Afficher le nombre d''utilisateurs actuellement connectés.'
       show_online_users_label: 'Afficher le nombre d''utilisateurs en ligne'
-      show_post_cta_help: 'Afficher une carte Connexion / Inscription après la première publication d''une discussion, visible uniquement par les visiteurs.'
-      show_post_cta_label: 'Afficher l''appel à l''action après la première publication pour les visiteurs'
-      show_share_help: 'Ajouter un bouton d''action Partager à chaque publication.'
+      show_post_cta_help: 'Afficher une carte « Connexion / Inscription » après le premier message d''une discussion, visible uniquement par les invités.'
+      show_post_cta_label: 'Afficher l''invitation après le premier message pour les invités'
+      show_share_help: 'Ajoutez un bouton « Partager » à chaque message.'
       show_share_label: 'Afficher le bouton « Partager » sur les messages'
       showcase_count_help: 'Afficher entre 1 et 5 cartes de discussion dans la section vitrine.'
       showcase_count_label: 'Nombre d''éléments en vitrine'
@@ -147,21 +147,21 @@ ramon-avocado:
       showcase_image_style_label: 'Style d''image des cartes'
       showcase_tag_help: 'Les discussions de ces étiquettes apparaissent dans le diaporama sur la page d''accueil.'
       showcase_tag_label: 'Étiquettes de vitrine / Portfolio'
-      spinner_custom_code_help: 'Coller n''importe quel SVG ou HTML à utiliser comme indicateur de chargement.'
-      spinner_custom_code_label: 'Code du spinner personnalisé'
+      spinner_custom_code_help: 'Collez n''importe quel code SVG ou HTML pour l''utiliser comme icône de chargement.'
+      spinner_custom_code_label: 'Code de l''icône de chargement personnalisé'
       tag_picker_placeholder: 'Sélectionner des étiquettes…'
       team_desc_label: 'Description de la page'
-      team_desc_placeholder: 'Découvrez les personnes derrière la communauté.'
+      team_desc_placeholder: 'Découvrez les personnes qui font vivre cette communauté.'
       team_enabled_help: 'Afficher une page /equipe listant les membres des groupes sélectionnés.'
-      team_enabled_label: 'Activer la page Équipe'
+      team_enabled_label: 'Activer la page « Équipe »'
       team_groups_empty: 'Aucun groupe trouvé.'
-      team_groups_help: 'Les membres des groupes sélectionnés apparaîtront sur la page Équipe.'
+      team_groups_help: 'Les membres des groupes sélectionnés apparaîtront sur la page « Équipe ».'
       team_groups_label: 'Groupes à afficher'
       team_title_label: 'Titre de la page'
       team_title_placeholder: 'Notre équipe'
-      threads_style_help: 'Afficher la publication originale sous forme de carte et indenter les réponses avec une bordure gauche, comme dans l''application Threads.'
-      threads_style_label: 'Activer la mise en page style Threads'
-      user_card_enabled_help: 'Afficher un mini profil style Discourse (bio, badges, statistiques, actions) au survol des avatars et noms d''utilisateur.'
+      threads_style_help: 'Afficher le message d''origine sous forme de carte et indenter les réponses avec une bordure gauche, comme dans l''application Threads.'
+      threads_style_label: 'Activer la mise en page des discussions de type « Threads »'
+      user_card_enabled_help: 'Afficher un mini-profil de type Discourse (biographie, badges, statistiques, actions) lorsque l''on passe la souris sur les avatars et les noms d''utilisateur.'
       user_card_enabled_label: 'Activer la carte utilisateur au survol'
   forum:
     actions:
@@ -176,30 +176,30 @@ ramon-avocado:
       modal_save: Enregistrer
       modal_title: Favori
       note_label: Note
-      note_placeholder: 'Pourquoi enregistrez-vous ceci ? (optionnel)'
-      reminder_am: AM
+      note_placeholder: 'Pourquoi enregistrez-vous ceci ? (facultatif)'
+      reminder_am: Matin
       reminder_custom: 'Choisir une date et une heure'
       reminder_date_label: Date
       reminder_hour_label: Heure
-      reminder_invalid: 'Cette date et heure sont déjà passées. Choisissez un moment dans le futur.'
-      reminder_invalid_date: 'Choisissez une date pour le rappel.'
+      reminder_invalid: 'Cette date et cette heure sont déjà passées. Choisissez un moment dans le futur.'
+      reminder_invalid_date: 'Choisir une date pour le rappel.'
       reminder_label: 'Me rappeler'
-      reminder_later: 'Plus tard aujourd''hui (dans 4 heures)'
-      reminder_meridiem_label: 'AM ou PM'
+      reminder_later: 'Plus tard dans la journée (dans 4 heures)'
+      reminder_meridiem_label: 'Matin ou Après-midi'
       reminder_minute_label: Minute
-      reminder_none: 'Pas de rappel'
-      reminder_pm: PM
+      reminder_none: 'Aucun rappel'
+      reminder_pm: Après-midi
       reminder_tomorrow: 'Demain matin'
       reminder_week: 'La semaine prochaine'
       save: Enregistrer
-      title: Enregistrés
-      toggle_error: 'Impossible de mettre à jour votre liste d''enregistrés. Veuillez réessayer.'
-      unsave: 'Retirer des enregistrés'
+      title: Enregistré
+      toggle_error: 'Impossible de mettre à jour votre liste enregistrée. Veuillez réessayer.'
+      unsave: 'Supprimer de la liste enregistrée'
       update_error: 'Impossible de mettre à jour votre favori. Veuillez réessayer.'
     cakeday:
-      aria: 'Anniversaire de compte'
-      tooltip_plural: 'Anniversaire de compte — {years} ans ici aujourd''hui !'
-      tooltip_singular: 'Anniversaire de compte — 1 an ici aujourd''hui !'
+      aria: 'Anniversaire du compte'
+      tooltip_plural: 'Anniversaire du compte — {years} ans ici aujourd''hui !'
+      tooltip_singular: 'Anniversaire du compte — 1 an ici aujourd''hui !'
     discussion:
       hero_image_add: 'Ajouter une image'
       hero_image_remove: 'Supprimer l''image'
@@ -208,7 +208,7 @@ ramon-avocado:
       participant_plural: participants
       participant_singular: participant
       post_plural: messages
-      post_singular: publication
+      post_singular: message
     discussions:
       empty: 'Aucune discussion trouvée.'
       home: 'Retour à l''accueil'
@@ -223,7 +223,7 @@ ramon-avocado:
       all_categories: 'Toutes les catégories'
       all_title: 'Toutes les discussions'
       back_home: Accueil
-      badge_following: Suivi
+      badge_following: Abonné
       badge_sticky: Épinglé
       badge_unread_tooltip: '{count} messages non lues'
       bypass_tag_requirements: 'Ignorer les exigences des étiquettes'
@@ -241,7 +241,7 @@ ramon-avocado:
       composer_hero_image_remove: 'Supprimer l''image'
       composer_hero_image_upload_failed: 'Impossible de transférer l''image du bandeau. Vous pouvez réessayer depuis la page de discussion.'
       composer_post: 'Publier la discussion'
-      composer_preview: Aperçu
+      composer_preview: Prévisualisation
       composer_preview_empty: 'Rien à prévisualiser.'
       composer_submitting: 'Publication en cours…'
       composer_title_placeholder: 'Titre de la discussion…'
@@ -250,10 +250,10 @@ ramon-avocado:
       discussion_singular_card: '1 discussion'
       discussions: discussions
       filter_tags: 'Filtrer les étiquettes'
-      following_heading: Suivi
+      following_heading: Abonné
       like: 'J''aime'
-      like_count_plural: '{count} j''aime'
-      like_count_singular: '1 j''aime'
+      like_count_plural: '{count} « J''aime »'
+      like_count_singular: '1 « J''aime »'
       log_in: 'Se connecter'
       more: plus
       nav_label: Navigation
@@ -263,18 +263,18 @@ ramon-avocado:
       no_tags_found: 'Aucune étiquette trouvée'
       or: ou
       popular_heading: 'Discussions populaires'
-      popular_no_discussions: 'Aucune discussion pour l''instant.'
+      popular_no_discussions: 'Aucune discussion pour le moment.'
       post_plural: '{count} messages'
-      post_singular: '1 publication'
+      post_singular: '1 message'
       replies: Réponses
       reply_count_plural: '{count} réponses'
       reply_count_singular: '1 réponse'
       reply_label: Répondre
       reply_plural: '{count} réponses'
       reply_singular: '1 réponse'
-      see_all: 'Voir tout'
+      see_all: 'Tout afficher'
       see_other_replies: 'Voir les {count} autres réponses'
-      see_other_reply_singular: 'Voir l''autre réponse'
+      see_other_reply_singular: 'Voir {count} autre réponse'
       showcase_heading: Vitrine
       sign_up: 'S''inscrire'
       sort_trending: Tendance
@@ -282,7 +282,7 @@ ramon-avocado:
       today_time: 'Aujourd''hui, {time}'
       untitled: 'Sans titre'
       view: Voir
-      view_post: 'Voir la publication'
+      view_post: 'Voir le message'
       yesterday_time: 'Hier, {time}'
     link:
       login_to_view: 'Connectez-vous pour voir le lien'
@@ -295,20 +295,20 @@ ramon-avocado:
     online_users:
       online: 'en ligne'
     post:
-      op_badge: OP
+      op_badge: AO
     post_cta:
       or: ou
-      text: 'Vous aimez ce que vous voyez ? Rejoignez la discussion !'
+      text: 'Cela vous plait ? Rejoignez la discussion !'
     presence:
       reading_now: '{count} personnes lisent en ce moment'
     profile:
-      joined: 'Inscrit le {date}'
+      joined: 'S''est inscrit le {date}'
       member_since: 'Membre depuis le {date}'
       scroll_left: 'Défiler à gauche'
       scroll_right: 'Défiler à droite'
     search:
       clear: Effacer
-      enter_search_term: 'Saisissez un terme de recherche pour trouver des membres.'
+      enter_search_term: 'Saisissez un terme de recherche pour trouver des utilisateurs.'
       esc_key: ÉCHAP
       filtered_by: 'Filtré par'
       hero_sub: 'Rechercher des discussions, des messages et des membres'
@@ -317,28 +317,28 @@ ramon-avocado:
       no_discussions_query: 'Aucune discussion trouvée pour « {q} ».'
       no_posts_found: 'Aucun message trouvé pour « {q} ».'
       no_posts_match: 'Aucun message ne correspond à ces filtres.'
-      no_users_found: 'Aucun membre trouvé pour « {q} ».'
+      no_users_found: 'Aucun utilisateur trouvé pour « {q} ».'
       placeholder: Rechercher…
-      placeholder_hero: 'Rechercher sur le forum…'
+      placeholder_hero: 'Rechercher dans le forum…'
       posts_filtered_by: 'Messages filtrés par'
       posts_for: 'Messages pour'
       posts_title: 'Recherche dans les messages'
-      results: 'Résultats de recherche'
+      results: 'Résultats de la recherche'
       results_for: 'Résultats pour'
       search_button: Rechercher
-      sort_latest: Récent
-      sort_newest: 'Plus récent'
-      sort_oldest: 'Plus ancien'
+      sort_latest: Activité
+      sort_newest: Nouveauté
+      sort_oldest: Ancienneté
       sort_relevance: Pertinence
-      sort_top: Populaire
+      sort_top: Popularité
       tab_discussions: Discussions
       tab_posts: Messages
-      tab_users: Membres
+      tab_users: Utilisateurs
       tip: 'Astuce : préfixez '
       tip_suffix: ' pour filtrer par étiquette'
       title: Recherche
     settings:
-      notify_bookmark_reminder_label: 'Rappels de favoris'
+      notify_bookmark_reminder_label: 'Rappel des favoris'
     tag_picker:
       remove: 'Supprimer l''étiquette'
     tags:
@@ -371,7 +371,7 @@ ramon-avocado:
       posts_empty: 'Aucun message pour le moment.'
     user_card:
       discussions: discussions
-      joined_label: inscrit
+      joined_label: 'a rejoint'
       last_seen: 'Vu {time}'
       message: Message
       online: 'En ligne'
