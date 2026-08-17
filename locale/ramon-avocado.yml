@@ -111,7 +111,7 @@ ramon-avocado:
       section_colored: Coloré
       section_discussion: 'Page de discussion'
       section_footer: 'Pied de page'
-      section_hero_image_tags: 'Image hero sur les discussions'
+      section_hero_image_tags: 'Image de bandeau pour les discussions'
       section_homepage: 'Page d''accueil'
       section_logo: Logo
       section_posts: Messages
@@ -169,7 +169,7 @@ ramon-avocado:
     back: Retour
     bookmarks:
       edit: 'Modifier le favori'
-      empty: 'Vous avez enregistré aucune discussion pour le moment.'
+      empty: 'Vous n''avez encore enregistré aucune discussion.'
       empty_posts: 'Vous n''avez encore ajouté aucun message à vos favoris.'
       guest_prompt: 'Connectez-vous pour enregistrer des discussions et les retrouver ici.'
       modal_cancel: Annuler
@@ -363,10 +363,10 @@ ramon-avocado:
       posts: messages
       title: 'Notre équipe'
     user:
-      discussions_empty: 'Aucune discussion pour l''instant.'
+      discussions_empty: 'Aucune discussion pour le moment.'
       likes_empty: 'Aucun message aimé pour le moment.'
       load_more: 'Charger plus'
-      mentions_empty: 'Aucune mention pour l''instant.'
+      mentions_empty: 'Aucune mention pour le moment.'
       online: 'En ligne'
       posts_empty: 'Aucun message pour le moment.'
     user_card:
