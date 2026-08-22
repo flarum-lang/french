@@ -14,8 +14,10 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
 
 
 Journal de toutes les modifications : [v5.0.7...v5.0.8](https://github.com/flarum-lang/french/compare/v5.0.7...v5.0.8).
