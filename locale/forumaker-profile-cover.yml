@@ -28,7 +28,9 @@ forumaker-profile-cover:
       success: 'La couverture de profil a été mise à jour'
     cover: Couverture
     edit_cover: 'Modifier la couverture'
-    notice: 'Taille maximale : {size}'
+    notice: 'Taille maximale : {size}. Format recommandé — 21:9 et au moins 1600 × 400 pixels'
+    position_label: 'Position de la couverture sur ordinateur'
     removed:
       error: 'Échec de la suppression de la couverture, veuillez réessayer'
       success: 'La couverture de profil a été supprimée'
+    save_position_button: 'Enregistrer la position'

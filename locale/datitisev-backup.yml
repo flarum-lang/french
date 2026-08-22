@@ -105,6 +105,10 @@ datitisev-backup:
         refresh-token:
           description: "Suivez les instructions sur https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md pour récupérer le jeton actualisé pour votre application Google oAuth.\n"
           label: 'Actualiser le jeton'
+        use-display-paths:
+          description: "Google Drive prend en charge l'historique des versions. Cette option utilise le chemin d'accès du fichier comme identifiant, au lieu d'un identifiant généré aléatoirement. Lorsque cette option est désactivée, plusieurs fichiers portant le même nom peuvent coexister dans un même dossier sans entrer en conflit. Lorsqu'elle est activée, l'écriture vers un chemin d'accès existant écrasera le fichier existant. <br/> <b>NOTE :</b> Si vous activez cette option, veillez à remplacer l'ID du dossier par le chemin d'affichage du dossier ! Sinon, un dossier sera créé avec le nom de l'identifiant du dossier.\n"
+          label: 'Utiliser les chemins d''affichage (autoriser la réécriture)'
+          toggle: 'Utiliser les chemins d''affichage'
       local:
         target:
           description: 'Spécifiez le répertoire local dans lequel les sauvegardes seront enregistrées.'
