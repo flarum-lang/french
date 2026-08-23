@@ -15,6 +15,7 @@ CHANGELOG
 **Mise à jour des traductions de certaines extensions**:
 
 * [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
+* [`flarum/akismet`](https://github.com/flarum/akismet)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
