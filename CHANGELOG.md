@@ -5,6 +5,11 @@ CHANGELOG
 5.0.9 (XXXX-XX-XX)
 ------------------
 
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
 **Mise à jour des traductions de certaines extensions**:
 
 * [`flarum/tags`](https://github.com/flarum/tags)
