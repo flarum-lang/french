@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-5.0.8 (XXXX-XX-XX)
+5.0.8 (2026-08-24)
 ------------------
 
 **Modifications générales**:
