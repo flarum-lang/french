@@ -5,6 +5,10 @@
 fof-horizon:
   admin:
     settings:
+      locked_by_code: 'Définir dans le code (config.php ou extend.php) sur {value} — modifiez la valeur à cet endroit, pas ici.'
+      locked_by_env: 'Définir via une variable d''environnement sur {value} — modifiez la valeur à cet endroit, pas ici.'
+      memory_limit: 'Limite de mémoire du processus maître (Mo)'
+      supervisor_title: 'Paramètres du processus'
       trim_completed: 'Ajuster les tâches terminées'
       trim_completed_help: "Ce tableau est utilisé pour afficher les tâches terminées dans le tableau de bord d'Horizon.\n"
       trim_failed: 'Ajuster les tâches échouées'
@@ -22,14 +26,26 @@ fof-horizon:
     stats:
       auto_refresh: 'Actualisation automatique'
       data:
+        blocked-clients: 'Clients bloqués'
+        connected-clients: 'Clients connectés'
+        eviction-policy: 'Politique d''expulsion'
+        failed-jobs: 'Tâches en échec'
         failed-last-seconds: 'Tâches échouées au cours des dernières secondes'
         failure-rate: 'Taux d''échec'
+        highest-throughput-queue: 'File d''attente la plus chargée'
         jobs-past-hour: 'Tâches de l''heure écoulée'
         jobs-per-minute: 'Tâches par minute'
         max-runtime: 'Durée d''exécution maximale'
         max-throughput: 'Débit maximal'
+        max-wait: 'Temps d''attente maximal'
         max-wait-queue: 'File d''attente : {queue}'
         max-wait-time: 'Temps d''attente maximal'
+        memory-max: 'Mémoire maximale'
+        memory-peak: 'Pic de mémoire'
+        memory-used: 'Mémoire utilisée'
+        ops-per-sec: 'Opérations par seconde'
+        pending-jobs: 'Tâches en attente'
+        recent-jobs: Tâches
         redis-blocked-clients: 'Clients bloqués'
         redis-connected-clients: 'Clients connectés'
         redis-max-memory: 'Redistribuer la mémoire maximale'
@@ -39,6 +55,7 @@ fof-horizon:
         redis-ops-per-sec: 'Opérations par seconde'
         redis-peak-memory: 'Redistribuer les pics de mémoire'
         redis-used-memory: 'Redistribuer la mémoire utilisée'
+        slowest-queue: 'File d''attente la plus lente'
         status:
           inactive: Inactif
           label: Statut
@@ -57,7 +74,24 @@ fof-horizon:
         good: Bien
         poor: Mauvais
         tooltip: 'Note de santé du système : {score}/100'
+        tooltip_heading: 'Note de santé : {score}/100'
+      horizon_max_wait_none: Aucune
+      horizon_max_wait_value: '{seconds} s dans {queue}'
       last_refresh: 'Dernière actualisation : {time}'
+      period:
+        day: 'au cours des dernières 24 heures'
+        days: 'au cours des {count} derniers jours'
+        hour: 'au cours de la dernière heure'
+        hours: 'au cours des {count} dernières heures'
+        minutes: 'au cours des {count} dernières minutes'
+      queue_heading: 'File d''attente'
       refresh: Actualiser
+      status:
+        inactive: Inactif
+        paused: 'En pause'
+        paused_pending: 'En pause · {count} en attente'
+        running: 'En cours d''exécution'
       tile:
+        jobs_per_minute: 'Tâches / Min'
+        max_wait: 'Temps d''attente maximal'
         status: Statut

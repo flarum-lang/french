@@ -69,7 +69,7 @@ core:
         memory_help: 'Mémoire maximale que le processus de file d''attente peut utiliser avant d''être redémarré. La valeur par défaut est 128 Mo.'
         memory_label: 'Limite de mémoire (MB)'
         pause_all_label: 'Mettre en pause toutes les files d''attente'
-        pause_help: 'Pendant la pause, les travailleurs cessent de récupérer de nouvelles tâches provenant des files d''attente concernées. Les tâches s''accumulent jusqu''à la reprise du traitement. Les tâches déjà en cours ne sont pas affectées.'
+        pause_help: 'Pendant la pause, les processus cessent de récupérer de nouvelles tâches provenant des files d''attente concernées. Les tâches s''accumulent jusqu''à la reprise du traitement. Les tâches déjà en cours ne sont pas affectées.'
         pause_label: 'Mettre en pause le traitement de la file d''attente'
         pause_queue_label: 'Mettre en pause la file d''attente {queue}'
         rest_help: 'Temps d''attente entre les tâches de traitement. La valeur par défaut est 0 seconde.'
