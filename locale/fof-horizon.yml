@@ -59,3 +59,5 @@ fof-horizon:
         tooltip: 'Note de santé du système : {score}/100'
       last_refresh: 'Dernière actualisation : {time}'
       refresh: Actualiser
+      tile:
+        status: Statut
