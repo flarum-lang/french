@@ -5,8 +5,12 @@
 fof-horizon:
   admin:
     settings:
+      email_concurrency: 'Courriels sortants simultanés'
+      email_concurrency_help: "Nombre maximal de courriels envoyés simultanément. Une variable d'environnement\n(REDIS_HORIZON_EMAIL_CONCURRENCY) ou une valeur dans « config.php », si elle est définie, prévaut\nsur ce paramètre.\n"
       locked_by_code: 'Définir dans le code (config.php ou extend.php) sur {value} — modifiez la valeur à cet endroit, pas ici.'
       locked_by_env: 'Définir via une variable d''environnement sur {value} — modifiez la valeur à cet endroit, pas ici.'
+      mail_help: "Contrôlez le nombre de courriels envoyés simultanément. Chaque processus envoie un\ncourriel à la fois ; il s'agit donc du nombre de messages sortants simultanés.\nRéglez cette valeur en fonction de la limite de connexions simultanées imposée par votre fournisseur de messagerie afin de ne pas\nla dépasser. Laissez ce champ vide pour conserver la valeur par défaut (1).\n"
+      mail_title: 'Livraison de courriel'
       memory_limit: 'Limite de mémoire du processus maître (Mo)'
       supervisor_title: 'Paramètres du processus'
       trim_completed: 'Ajuster les tâches terminées'
@@ -45,6 +49,7 @@ fof-horizon:
         memory-used: 'Mémoire utilisée'
         ops-per-sec: 'Opérations par seconde'
         pending-jobs: 'Tâches en attente'
+        processes: 'Processus de travail'
         recent-jobs: Tâches
         redis-blocked-clients: 'Clients bloqués'
         redis-connected-clients: 'Clients connectés'
@@ -71,12 +76,16 @@ fof-horizon:
       health:
         critical: Critique
         excellent: Excellent
+        factor:
+          status: 'Horizon est {value}'
+          wait: 'Longue file d''attente : {value}'
         good: Bien
         poor: Mauvais
         tooltip: 'Note de santé du système : {score}/100'
         tooltip_heading: 'Note de santé : {score}/100'
       horizon_max_wait_none: Aucune
       horizon_max_wait_value: '{seconds} s dans {queue}'
+      kv_heading: 'Base de données clé-valeur'
       last_refresh: 'Dernière actualisation : {time}'
       period:
         day: 'au cours des dernières 24 heures'
@@ -94,4 +103,5 @@ fof-horizon:
       tile:
         jobs_per_minute: 'Tâches / Min'
         max_wait: 'Temps d''attente maximal'
+        processes: 'Processus de travail'
         status: Statut
