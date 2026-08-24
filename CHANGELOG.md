@@ -16,6 +16,10 @@ CHANGELOG
 
 * [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
 * [`flarum/akismet`](https://github.com/flarum/akismet)
+* [`flarum/audit`](https://github.com/flarum/audit)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
