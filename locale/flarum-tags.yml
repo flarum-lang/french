@@ -20,6 +20,8 @@ flarum-tags:
       tags_label: '=> flarum-tags.ref.tags'
     edit_tag:
       color_label: '=> core.ref.color'
+      default_sort_label: 'Tri par défaut'
+      default_sort_unavailable: '{sort} (n''est plus disponible)'
       delete_tag_button: 'Supprimer l''étiquette'
       delete_tag_confirmation: 'Êtes-vous sûr de vouloir supprimer cette étiquette ? Les discussions publiées sous cette étiquette ne seront pas supprimées.'
       description_label: Description

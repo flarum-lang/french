@@ -113,6 +113,9 @@ flarum-audit:
         restored: 'A restauré {post} de {postuser} dans {discussion}'
         revised: 'A révisé {post} de {postuser} dans {discussion}'
         user_changed: 'A modifié l''auteur du {post}, {old_user} par {new_user}'
+      queue:
+        paused: 'A suspendu le traitement de la file d''attente sur {queue} ({connection})'
+        resumed: 'A repris le traitement de la file d''attente sur {queue} ({connection})'
       refresh: Actualiser
       setting_changed: 'A modifié le paramètre {key}'
       setting_changed_with_values: 'A modifié le paramètre {key}, {old_value} par {new_value}'
