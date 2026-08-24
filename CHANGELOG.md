@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+5.0.9 (XXXX-XX-XX)
+------------------
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+
+
+Journal de toutes les modifications : [v5.0.8...v5.0.9](https://github.com/flarum-lang/french/compare/v5.0.8...v5.0.9).
+
+
 5.0.8 (2026-08-24)
 ------------------
 
