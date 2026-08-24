@@ -81,6 +81,7 @@ core:
         timeout_help: 'Durée maximale pendant laquelle une tâche unique peut s''exécuter avant d''expirer. La valeur par défaut est 60 secondes.'
         timeout_label: 'Délai d''expiration pour les tâches (secondes)'
       search:
+        cjk_mode_help: 'Activez cette option si votre forum est principalement en chinois, en japonais ou en coréen. La recherche par mot de la base de données ne permet pas de trouver des extraits de texte CJK ; c''est pourquoi le système bascule vers une recherche par sous-chaîne qui rend cela possible. Elle est plus lente sur les forums très volumineux, où la configuration d''un analyseur de texte intégral prenant en charge les langues CJK au niveau de la base de données (tel que l''analyseur « ngram » de MySQL/MariaDB) constitue une alternative plus rapide.'
         cjk_mode_label: 'Optimiser la recherche pour les langues CJK'
         driver_heading: 'Rechercher un pilote : {model}'
         driver_options:
@@ -927,6 +928,7 @@ core:
     icon: Icône
     icon_text: 'Saisissez le nom de n''importe quelle classe d''icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe (p. ex. : <code>fas fa-flag</code> ou <code>fa-solid fa-flag</code>).'
     invalid_login_message: 'Vos identifiants de connexion sont incorrects.'
+    latest: Activité
     light_hc_mode_label: 'Mode clair à contraste élevé'
     light_mode_label: 'Mode clair'
     load_more: 'Charger davantage'
@@ -961,6 +963,7 @@ core:
     start_a_discussion: 'Nouvelle discussion'
     title_az: 'Titre (A–Z)'
     title_za: 'Titre (Z–A)'
+    top: Popularité
     username: 'Nom d''utilisateur'
     username_or_email_placeholder: 'Nom d''utilisateur ou adresse e-mail'
     users: Utilisateurs
