@@ -12,6 +12,7 @@ core:
         config_override:
           help: 'Les paramètres FontAwesome sont actuellement définis dans votre fichier config.php et ne peuvent pas être modifiés ici.'
           label: 'Remplacement de configuration'
+        forced_style_label: 'Style d''icône imposé'
         kit_url_help: 'Lien vers le script du Kit FontAwesome (à partir de l''adresse kit.fontawesome.com)'
         kit_url_label: 'URL Kit'
         preview:
@@ -66,6 +67,10 @@ core:
         custom_driver: 'Votre forum utilise le pilote de file d''attente {driver}, qui est fourni par une extension.'
         memory_help: 'Mémoire maximale que le processus de file d''attente peut utiliser avant d''être redémarré. La valeur par défaut est 128 Mo.'
         memory_label: 'Limite de mémoire (MB)'
+        pause_all_label: 'Mettre en pause toutes les files d''attente'
+        pause_help: 'Pendant la pause, les travailleurs cessent de récupérer de nouvelles tâches provenant des files d''attente concernées. Les tâches s''accumulent jusqu''à la reprise du traitement. Les tâches déjà en cours ne sont pas affectées.'
+        pause_label: 'Mettre en pause le traitement de la file d''attente'
+        pause_queue_label: 'Mettre en pause la file d''attente {queue}'
         rest_help: 'Temps d''attente entre les tâches de traitement. La valeur par défaut est 0 seconde.'
         rest_label: 'Temps de repos (en secondes)'
         retries_help: 'Nombre maximal de tentatives pour exécuter une tâche avant qu''elle ne soit marquée comme ayant échoué. La valeur par défaut est 1.'
@@ -76,6 +81,7 @@ core:
         timeout_help: 'Durée maximale pendant laquelle une tâche unique peut s''exécuter avant d''expirer. La valeur par défaut est 60 secondes.'
         timeout_label: 'Délai d''expiration pour les tâches (secondes)'
       search:
+        cjk_mode_label: 'Optimiser la recherche pour les langues CJK'
         driver_heading: 'Rechercher un pilote : {model}'
         driver_options:
           default: 'Recherche dans la base de données par défaut'
@@ -128,6 +134,8 @@ core:
       logo_dark_mode_text: 'Transférez une autre image qui sera affichée lorsque le mode sombre est activé.'
       logo_heading: Logo
       logo_text: 'Transférez une image qui sera affichée à la place du titre du forum.'
+      show_theme_selector_help: 'Permettre aux utilisateurs de basculer entre les palettes de couleurs disponibles à l''aide d''un élément de contrôle situé dans l''en-tête.'
+      show_theme_selector_label: 'Afficher le sélecteur de thème'
       title: Apparence
     basics:
       abandoned_extensions_heading: 'Extensions abandonnées'
@@ -185,6 +193,9 @@ core:
         copy_success: 'Informations système copiées dans le presse-papiers'
         title: 'Informations système'
       io_error_message: 'Impossible d''écrire dans le système de fichiers. Veuillez vérifier les permissions de votre système de fichiers puis réessayer. Vous pouvez également essayer d''écrire dans le système de fichiers par ligne de commande à partir de la console.'
+      queue_paused_all_warning: 'Tout le traitement des files d''attente est suspendu. Les tâches s''accumuleront jusqu''à ce qu''il reprenne.'
+      queue_paused_manage: Gérer
+      queue_paused_warning: 'Le traitement de la file d''attente est suspendu (file d''attente : {queues}). Les tâches s''accumuleront jusqu''à ce qu''il reprenne.'
       status:
         headers:
           queue-driver: 'Pilote de file d''attente'
@@ -200,6 +211,9 @@ core:
     database-driver-mismatch-warning:
       detail: "Votre <code>config.php</code> est configuré pour utiliser le pilote de base de données <code>{configured}</code>, mais Flarum a détecté que le serveur de base de données est en réalité <code>{actual}</code>.\n\nL'utilisation d'un pilote incorrect peut entraîner des bugs difficiles à diagnostiquer. Définissez <code>'driver' => ''{actual}''</code> dans la section <code>database</code> de votre <code>config.php</code>. Consultez <link>la documentation Flarum</link> pour plus d'informations.\n"
       label: 'Incompatibilité du pilote de base de données'
+    database-version-warning:
+      below-recommended-detail: "Votre serveur {server} utilise la version <code>{version}</code>. Cette version est prise en charge, mais Flarum recommande {server} <code>{recommended}</code> ou une version ultérieure pour bénéficier des meilleures performances et rester sur une version maintenue. Consultez la <link>documentation de Flarum</link> pour plus d'informations.\n"
+      below-recommended-label: 'Version de la base de données obsolète'
     debug-warning:
       detail: "Lorsque le mode <code>débogage</code> est actif, Flarum reconstruit ses ressources <code>JavaScript</code> et <code>CSS</code> à chaque requête, et peut aussi potentiellement divulguer d'autres informations, comme les clés secrètes de la base de données, les variables d'environnement, etc.\n\nIl est fortement recommandé de désactiver le mode <code>débogage</code> dans votre fichier <code>config.php</code> si votre forum est dans un environnement de production. Pour plus d'informations, veuillez consulter <link>la documentation de Flarum</link>.\n"
       label: 'Mode débogage actif'
@@ -315,6 +329,14 @@ core:
       section_suggested_help: 'Les extensions Flarum permettent d''ajouter des fonctionnalités supplémentaires facultatives en spécifiant d''autres extensions ou paquets. Celles-ci peuvent apporter des fonctionnalités ou des intégrations supplémentaires.'
       suggested_by: 'Suggérée par {extension}'
       title: 'État des extensions'
+    failed_jobs:
+      delete: Supprimer
+      details: Informations
+      meta: 'File d''attente {queue} · échec {time}'
+      none: 'Aucune tâche n''a échoué.'
+      retry: Réessayer
+      retry_all: 'Réessayer tout'
+      title: 'Tâches en échec'
     header:
       get_help: 'Obtenir de l''aide'
       log_out_button: '=> core.ref.log_out'
@@ -399,6 +421,12 @@ core:
       members_button: '=> core.group.members'
       signup_closed_button: Refuser
       signup_open_button: Autoriser
+    queue_widget:
+      failed: Échec
+      pending: 'En attente'
+      refresh: Actualiser
+      reserved: 'En cours'
+      title: 'File d''attente'
     search_source:
       general:
         heading: Général
@@ -554,6 +582,7 @@ core:
       session_dropdown_accessible_label: 'Afficher le menu déroulant des options de session'
       settings_button: '=> core.ref.settings'
       sign_up_link: '=> core.ref.sign_up'
+      theme_switcher_accessible_label: 'Modifier le thème'
     index:
       all_discussions_link: '=> core.ref.all_discussions'
       cannot_start_discussion_button: 'Impossible de démarrer la discussion'
@@ -565,12 +594,14 @@ core:
       start_discussion_button: '=> core.ref.start_a_discussion'
       toggle_sidenav_dropdown_accessible_label: 'Afficher le menu déroulant de navigation'
     index_sort:
-      latest_button: Activité
+      az_button: '=> core.ref.title_az'
+      latest_button: '=> core.ref.latest'
       newest_button: '=> core.ref.newest'
       oldest_button: '=> core.ref.oldest'
       relevance_button: '=> core.ref.relevance'
       toggle_dropdown_accessible_label: 'Modifier l''ordre d''affichage de la liste de discussion'
-      top_button: Popularité
+      top_button: '=> core.ref.top'
+      za_button: '=> core.ref.title_za'
     log_in:
       forgot_password_link: 'Mot de passe oublié ?'
       invalid_login_message: '=> core.ref.invalid_login_message'
@@ -734,6 +765,7 @@ core:
       reload_button: Actualiser
     badge:
       hidden_tooltip: Masquée
+    connection_restored_message: 'Votre connexion a été rétablie.'
     data_segment:
       label: '{label} :'
     datetime_formats:
@@ -767,7 +799,9 @@ core:
       generic_cross_origin_message: 'Oups ! Un problème s''est produit lors d''une demande d''origine croisée. Veuillez recharger la page puis réessayer.'
       generic_message: 'Oups ! Une erreur est survenue. Veuillez actualiser la page puis réessayer.'
       missing_dependencies_message: 'Impossible d''activer {extension} tant que les dépendances suivantes ne sont pas activées : {extensions}'
+      network_message: 'Il semble y avoir un problème avec votre connexion. Veuillez vérifier votre réseau et réessayer.'
       not_found_message: 'La ressource demandée est introuvable.'
+      offline_message: 'Vous semblez être hors ligne. Veuillez vérifier votre connexion et réessayer.'
       payload_too_large_message: 'La charge utile de la requête est trop élevée.'
       permission_denied_message: 'Vous n''avez pas l''autorisation de faire cela.'
       rate_limit_exceeded_message: 'Vous allez un peu trop vite. Veuillez réessayer dans quelques secondes.'
@@ -799,6 +833,14 @@ core:
         group:
           hint: 'noms de groupe au singulier ou au pluriel'
           key: groupe
+    index_sort:
+      az_button: '=> core.ref.title_az'
+      latest_button: '=> core.ref.latest'
+      newest_button: '=> core.ref.newest'
+      oldest_button: '=> core.ref.oldest'
+      relevance_button: '=> core.ref.relevance'
+      top_button: '=> core.ref.top'
+      za_button: '=> core.ref.title_za'
     input:
       clear_button: 'Effacer la saisie'
     loading_indicator:
@@ -812,6 +854,7 @@ core:
       placeholder: 'Sélectionnez plusieurs options'
     nav:
       drawer_button: 'Ouvrir le tiroir de navigation'
+      pin_pane_button: 'Épingler la liste de discussion'
     notices:
       bisecting: 'Exécution d''un processus de bissection des extensions afin de déterminer quelle extension est à l''origine du problème.'
       bisecting_continue: 'Continuer à bissecter'
@@ -835,6 +878,7 @@ core:
       options_heading: 'Options de recherche'
       placeholder: Rechercher...
       preview_heading: 'Aperçu de la recherche'
+      search_active_button_accessible_label: 'Modifier la recherche : {query}'
       search_clear_button_accessible_label: 'Effacer la requête de recherche'
       title: Rechercher
     search_source:
@@ -915,6 +959,8 @@ core:
     sign_up: 'S''inscrire'
     some_others: '{count, plural, one {# autre} other {# autres}}'
     start_a_discussion: 'Nouvelle discussion'
+    title_az: 'Titre (A–Z)'
+    title_za: 'Titre (Z–A)'
     username: 'Nom d''utilisateur'
     username_or_email_placeholder: 'Nom d''utilisateur ou adresse e-mail'
     users: Utilisateurs

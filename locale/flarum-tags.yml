@@ -21,6 +21,8 @@ flarum-tags:
     edit_tag:
       color_label: '=> core.ref.color'
       default_sort_label: 'Tri par défaut'
+      default_sort_none: 'Utiliser le format par défaut du forum'
+      default_sort_text: 'Comment les discussions de cette étiquette sont-elles classées lorsqu''un utilisateur arrive sans avoir choisi lui-même un critère de tri.'
       default_sort_unavailable: '{sort} (n''est plus disponible)'
       delete_tag_button: 'Supprimer l''étiquette'
       delete_tag_confirmation: 'Êtes-vous sûr de vouloir supprimer cette étiquette ? Les discussions publiées sous cette étiquette ne seront pas supprimées.'

@@ -16,6 +16,7 @@ flarum-sticky:
       enable_display_excerpt: 'Afficher un extrait du premier message lorsqu''une discussion épinglée n''a pas été lue'
       only_sticky_unread_discussions_help: 'Sur la page de toutes les discussions, les discussions épinglées non lues sont affichées en haut, tandis que les discussions épinglées lues suivent l''ordre normal.'
       only_sticky_unread_discussions_label: 'Seules les discussions non lues et épinglées'
+      pin_sticky_on_all_discussions_help: 'Lorsque cette option est activée (par défaut), les discussions épinglées apparaissent en haut de la page « Toutes les discussions ». Lorsqu''elle est désactivée, elles apparaissent à leur position naturelle, en fonction de leur dernière activité. Les pages d''étiquettes épinglent toujours ces discussions en haut, quel que soit ce paramètre.'
       pin_sticky_on_all_discussions_label: 'Épingler les discussions sur la page « Toutes les discussions »'
   forum:
     badge:
