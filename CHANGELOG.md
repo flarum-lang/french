@@ -5,6 +5,11 @@ CHANGELOG
 5.0.8 (XXXX-XX-XX)
 ------------------
 
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
 **Prise en charge de nouvelles extensions**:
 
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
@@ -18,6 +23,7 @@ CHANGELOG
 * [`flarum/akismet`](https://github.com/flarum/akismet)
 * [`flarum/audit`](https://github.com/flarum/audit)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/realtime`](https://github.com/flarum/realtime)
 * [`flarum/sticky`](https://github.com/flarum/sticky)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
