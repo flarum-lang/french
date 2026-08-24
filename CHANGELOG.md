@@ -2,6 +2,38 @@ CHANGELOG
 =========
 
 
+5.0.8 (2026-08-24)
+------------------
+
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
+**Prise en charge de nouvelles extensions**:
+
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/first-post-approval`](https://github.com/FriendsOfFlarum/first-post-approval)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
+* [`flarum/akismet`](https://github.com/flarum/akismet)
+* [`flarum/audit`](https://github.com/flarum/audit)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/realtime`](https://github.com/flarum/realtime)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover)
+
+
+Journal de toutes les modifications : [v5.0.7...v5.0.8](https://github.com/flarum-lang/french/compare/v5.0.7...v5.0.8).
+
+
 5.0.7 (2026-08-14)
 ------------------
 
