@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+5.0.10 (XXXX-XX-XX)
+-------------------
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`flarum/tags`](https://github.com/flarum/tags)
+
+
+Journal de toutes les modifications : [v5.0.9...v5.0.10](https://github.com/flarum-lang/french/compare/v5.0.9...v5.0.10).
+
+
 5.0.9 (2026-08-25)
 ------------------
 
