@@ -12,6 +12,8 @@ fof-horizon:
       mail_help: "Contrôlez le nombre de courriels envoyés simultanément. Chaque processus envoie un\ncourriel à la fois ; il s'agit donc du nombre de messages sortants simultanés.\nRéglez cette valeur en fonction de la limite de connexions simultanées imposée par votre fournisseur de messagerie afin de ne pas\nla dépasser. Laissez ce champ vide pour conserver la valeur par défaut (1).\n"
       mail_title: 'Livraison de courriel'
       memory_limit: 'Limite de mémoire du processus maître (Mo)'
+      memory_limit_help: "Limite de mémoire pour le processus maître de supervision d'Horizon. Horizon l'augmente\nautomatiquement pour atteindre le budget le plus élevé alloué aux processus, vous n'avez donc que rarement besoin\nde la définir manuellement.\n"
+      supervisor_help: "Horizon exécute vos processus de file d'attente selon des profils hiérarchisés (standard, rapide,\nlong, courriels). Le nombre de processus, la mémoire et les files d'attente sont configurés pour chaque\ndéploiement via les variables d'environnement REDIS_HORIZON_*, le fichier « config.php » (sous\nla clé « horizon ») ou l'extension Horizon dans extend.php — consultez le\nfichier README de l'extension. Redémarrez Horizon après avoir modifié la configuration des processus.\n"
       supervisor_title: 'Paramètres du processus'
       trim_completed: 'Ajuster les tâches terminées'
       trim_completed_help: "Ce tableau est utilisé pour afficher les tâches terminées dans le tableau de bord d'Horizon.\n"
@@ -71,12 +73,16 @@ fof-horizon:
         fetch_failed: 'Impossible de récupérer les statistiques Horizon. Veuillez vérifier votre configuration Redis.'
         setup_docs: 'Consulter la documentation relative à la configuration de Redis'
         title: 'Erreur de connexion'
+      eviction_policy_tooltip: 'La politique d''éviction détermine la manière dont le magasin sélectionne les éléments à supprimer lorsque la limite « maxmemory » est atteinte. Le paramètre par défaut est « noeviction » : les nouvelles valeurs ne sont pas enregistrées lorsque la limite de mémoire est atteinte. Cliquez ici pour consulter la documentation.'
+      eviction_pressure: 'Pression sur la mémoire'
+      eviction_warning: 'L''utilisation de la mémoire s''élève à {usage} % de maxmemory et la politique d''éviction est « {policy} ». Par conséquent, des clés — y compris potentiellement des données de la file d''attente — pourraient être supprimées prochainement. Augmentez la valeur de maxmemory ou déplacez la file d''attente vers une base de données dédiée disposant d''une marge plus importante.'
       full_dashboard: 'Tableau de bord d''Horizon'
       heading: 'Vue d''ensemble de la file d''attente'
       health:
         critical: Critique
         excellent: Excellent
         factor:
+          memory: 'Pression sur la mémoire de Redis : {value}'
           status: 'Horizon est {value}'
           wait: 'Longue file d''attente : {value}'
         good: Bien
