@@ -5,6 +5,11 @@ CHANGELOG
 5.0.10 (XXXX-XX-XX)
 -------------------
 
+**Prise en charge de nouvelles extensions**:
+
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+
+
 **Mise à jour des traductions de certaines extensions**:
 
 * [`flarum/tags`](https://github.com/flarum/tags)
