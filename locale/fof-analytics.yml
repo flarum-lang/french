@@ -30,3 +30,16 @@ fof-analytics:
         email: 'Suivre par courriel'
         none: 'Ne pas suivre'
         username: 'Suivre par nom d''utilisateur'
+  forum:
+    consent:
+      cookies:
+        ga: 'Distingue les visites, de sorte que les visites répétées ne sont pas comptabilisées comme de nouvelles personnes.'
+        gat: 'Limite la fréquence à laquelle les données sont envoyées à Google.'
+        gid: 'Distingue les visites, conservés pendant 24 heures.'
+        matomo_sessid: 'Conserve votre session Matomo pendant son enregistrement.'
+        pk_cvar: 'Stocke des informations personnalisées concernant la visite en cours.'
+        pk_hsr: 'Enregistre la visite en cours pour les cartes de chaleur et l''enregistrement de session.'
+        pk_id: 'Distingue les visites, de sorte que les visites répétées ne sont pas comptabilisées comme de nouvelles personnes.'
+        pk_ref: 'Enregistre comment vous avez accédé au site.'
+        pk_ses: 'Suit la visite en cours ; conservés pendant 30 minutes.'
+        utm: 'Anciens cookies Google Analytics, qui enregistrent comment vous avez accédé au site.'

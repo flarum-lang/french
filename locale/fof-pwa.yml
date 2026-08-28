@@ -57,6 +57,7 @@ fof-pwa:
       refreshed_message: 'La configuration de l''application web progressive a été actualisée.'
       status_check_heading: 'Vérification du statut'
       submit_button: 'Enregistrer les paramètres'
+      text: 'Configurez votre site sous Flarum pour qu''il fonctionne comme une application web progressive ! Veuillez noter que cela ne place pas automatiquement votre site dans le magasin d''applications. Au lieu de cela, elle offre aux utilisateurs une option « Ajouter à l''écran d''accueil » pour votre site. Nous fournissons quelques vérifications d''état, mais la meilleure façon de le tester est d''essayer de l''installer vous-même (recherchez sur le Web des instructions pour installer les applications web progressives). Gardez à l''esprit que les invites « Installer cette application web progressive » sont contrôlées par les navigateurs et ne peuvent pas être déclenchées par les développeurs, les administrateurs ou les programmes. Envisagez d''inclure des instructions d''installation pour les applications web progressive dans la documentation de votre site.'
     status:
       config_no_https: 'L’URL dans votre fichier config.php n’utilise pas HTTPS. HTTPS est nécessaire pour que les applications web progressives puissent fonctionner.'
       key_gen_failed: 'La génération des clés nécessaires aux notifications poussées a échouée. Le message d''erreur complet est : {error}'
@@ -82,6 +83,7 @@ fof-pwa:
       description: 'Si vous avez précédemment désactivé les notifications, suivez les instructions ci-dessous pour les réactiver sur votre appareil.'
       firefox_instructions: 'Cliquez sur l''icône de cadenas située à côté de l''adresse Web. Si « Notifications » est marqué comme « Bloqué », cliquez sur le « X » situé à côté pour lever la restriction. Actualisez la page et autorisez les notifications lorsque vous y êtes invité.'
       firefox_title: 'Mozilla Firefox'
+      safari_ios_instructions: 'Les notifications push sur iOS nécessitent que l''application soit installée. Dans Safari, appuyez sur l''icône « Partager » et sélectionnez « Ajouter à l''écran d''accueil ». Ouvrez ensuite l''application nouvellement installée. Si les notifications sont bloquées, ouvrez l''application « Réglages » d''iOS, allez dans « Notifications », sélectionnez cette application web dans la liste, puis activez « Autoriser les notifications ».'
       safari_ios_title: 'Apple iPhone and iPad (iOS/iPadOS)'
       safari_mac_instructions: 'Ouvrez le menu Safari en haut de l''écran et sélectionnez « Paramètres » (ou « Préférences »). Cliquez sur l''onglet « Sites Web », sélectionnez « Notifications » dans la barre latérale de gauche, repérez ce forum dans la liste, puis réglez le paramètre sur « Autoriser ».'
       safari_mac_title: 'Apple Safari (macOS)'
