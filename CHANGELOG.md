@@ -13,6 +13,7 @@ CHANGELOG
 **Mise à jour des traductions de certaines extensions**:
 
 * [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
 
 
 Journal de toutes les modifications : [v5.0.9...v5.0.10](https://github.com/flarum-lang/french/compare/v5.0.9...v5.0.10).
