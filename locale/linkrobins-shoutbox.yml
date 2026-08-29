@@ -7,6 +7,7 @@ linkrobins-shoutbox:
     permissions:
       moderate: 'Supprimer les messages des autres utilisateurs'
       shout: 'Publier des messages'
+      view: 'Afficher la boîte de discussion'
     settings:
       composer_position_auto: 'À côté du message le plus récent (par défaut)'
       composer_position_bottom: 'Toujours en bas'
