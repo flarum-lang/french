@@ -49,7 +49,7 @@ ramon-avocado:
       custom_default_avatar_label: 'Avatar par défaut personnalisé'
       custom_hero_enabled_help: 'Remplacer le contenu du bandeau par défaut (icône, titre, description, boutons « Connexion » et « Inscription ») par votre propre code HTML. Le conteneur de la bannière, l''image d''arrière-plan et la superposition restent inchangés. Affiché uniquement aux invités — comme pour le bandeau par défaut.'
       custom_hero_enabled_label: 'Utiliser un contenu personnalisé pour le bandeau (HTML)'
-      custom_hero_html_help: 'Code HTML inséré dans la superposition de la bannière (remplace .AvocadoHome-heroBannerContent). Les balises « <style> » intégrées sont prises en charge.'
+      custom_hero_html_help: 'Code HTML inséré dans la superposition de la bannière (remplace .AvocadoHome-heroBannerContent). Les balises style intégrées sont prises en charge.'
       custom_hero_html_label: 'Code HTML du bandeau personnalisé'
       custom_hero_html_placeholder: "<div class=\"AvocadoHome-heroBannerContent\">\n  <h1 class=\"AvocadoHome-heroBannerTitle\">Bienvenue !</h1>\n  <p class=\"AvocadoHome-heroBannerDesc\">Tout ce que vous voulez : des liens, des images, des boutons.</p>\n</div>"
       custom_loading_spinner_help: 'Remplacer l''indicateur de chargement textuel par défaut par une icône de chargement SVG animée.'
