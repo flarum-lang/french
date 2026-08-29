@@ -5,10 +5,53 @@
 fof-cookie-consent:
   admin:
     settings:
+      allowedCookies: 'Ne jamais supprimer ces cookies'
+      appearance_title: Apparence
       backgroundColor: Arrière-plan
       buttonBackgroundColor: Arrière-plan
       buttonTextColor: Texte
+      catchall_title: 'Cookies non déclarés'
+      colors_help: "La bannière s'adapte au thème de votre forum, y compris en mode sombre. Définissez une couleur\nuniquement pour la remplacer ; laissez le champ vide pour hériter de la couleur par défaut.\n"
+      configuration_button_title: 'Lien « En savoir plus »'
       configuration_title: 'Options de configuration'
+      equalWeightButtons: 'Accorder le même poids aux deux boutons'
+      equalWeightButtons_help: 'Recommandé. Le fait de présenter les boutons « Accepter » et « Refuser » de manière identique évite d''inciter les visiteurs à accepter.'
+      layout: 'Mise en page'
+      layout_help: 'Contrôle la forme de la bannière de consentement.'
+      layouts:
+        bar: Barre
+        box: Boîte
+        box_wide: 'Boîte (large)'
       learnMoreLinkUrl: Lien
+      learnMoreLinkUrl_help: 'Laissez ce champ vide pour masquer le lien.'
+      position: Position
+      positions:
+        bottom_center: 'En bas au centre'
+        bottom_left: 'En bas à gauche'
+        bottom_right: 'En bas à droite'
+        middle_center: 'Au milieu, au centre'
+        middle_left: 'Au milieu, à gauche'
+        middle_right: 'Au milieu, à droite'
+        top_center: 'En haut au centre'
+        top_left: 'En haut à gauche'
+        top_right: 'En haut à droite'
       textColor: Texte
+      text_help: "Le texte affiché aux visiteurs se trouve dans les fichiers de langue de cette extension ; il peut donc\nêtre traduit. Vous pouvez le remplacer à l'aide de FoF Linguist ou d'un pack de langue.\n"
+      theme_dismiss_title: 'Couleurs des boutons'
       theme_popup_title: 'Couleurs de la fenêtre contextuelle'
+  forum:
+    banner:
+      accept: Accepter
+      decline: Décliner
+      description: 'Ce site utilise des cookies. Vous pouvez gérer vos préférences ou accepter tous les cookies.'
+      learn_more: 'En savoir plus'
+      preferences: 'Gérer vos préférences'
+    categories:
+      analytics:
+        title: Analyses
+    preferences:
+      cookie_table:
+        name: Cookie
+      description: 'Les cookies sont de petits fichiers que ce site stocke dans votre navigateur. Découvrez ci-dessous ce qui est stocké et pourquoi. Vous pouvez modifier votre choix à tout moment.'
+      save: 'Enregistrer vos préférences'
+      title: 'Préférences en matière de cookies'
