@@ -7,6 +7,7 @@ CHANGELOG
 
 **Prise en charge de nouvelles extensions**:
 
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
 
 
