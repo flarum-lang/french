@@ -136,7 +136,7 @@ core:
       logo_dark_mode_text: 'Transférez une autre image qui sera affichée lorsque le mode sombre est activé.'
       logo_heading: Logo
       logo_text: 'Transférez une image qui sera affichée à la place du titre du forum.'
-      show_theme_selector_help: 'Permettre aux utilisateurs de basculer entre les palettes de couleurs disponibles à l''aide d''un élément de contrôle situé dans l''en-tête.'
+      show_theme_selector_help: 'Permettre aux utilisateurs de basculer entre les thèmes disponibles à l''aide d''un élément de contrôle situé dans l''en-tête.'
       show_theme_selector_label: 'Afficher le sélecteur de thème'
       title: Apparence
     basics:

@@ -19,7 +19,7 @@ ffans-geetest:
         product_learn_more_link: 'En savoir plus sur le style des widgets'
         product_popup_help_text: 'Centrer le panneau de validation'
         product_popup_label: 'Fenêtre contextuelle'
-        standalone_help_text: 'Activer pour utiliser une configuration autonome pour ce scénario.'
+        standalone_help_text: 'Permettre l''utilisation d''une configuration autonome pour ce scénario.'
         standalone_label: Autonome
         title: 'Configuration pour {context}'
       context_event_forgot_label: '=> core.forum.forgot_password.title'
@@ -38,6 +38,12 @@ ffans-geetest:
       submit_button: Envoyer
       title: 'Tester le CAPTCHA'
   lib:
+    error:
+      api_http_error: 'L''API GeeTest a renvoyé le code HTTP {status}.'
+      captcha_id_mismatch: 'L''identifiant CAPTCHA de GeeTest ne correspond pas au produit configuré.'
+      incomplete_configuration: 'La configuration de GeeTest est incomplète.'
+      invalid_api_response: 'L''API GeeTest a renvoyé une réponse qui n''est pas un objet.'
+      verification_request_failed: 'Impossible de demander la vérification GeeTest.'
     verify:
       error_message: 'Échec de la validation.'
       error_retry_message: 'La validation a échoué, veuillez réessayer.'

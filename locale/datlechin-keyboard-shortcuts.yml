@@ -3,9 +3,89 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 datlechin-keyboard-shortcuts:
+  admin:
+    allow_customization_help: 'Lorsque cette option est désactivée, tout le monde utilise les liaisons que vous avez définies ci-dessous.'
+    allow_customization_label: 'Laisser les membres choisir leurs propres touches'
+    behaviour_heading: Comportement
+    bindings_heading: Raccourcis
+    bindings_help: 'Sélectionnez un raccourci, puis appuyez sur les touches que vous souhaitez lui attribuer. Appuyez sur une deuxième touche immédiatement après la première pour créer une séquence, comme G puis H.'
+    column_binding: Touches
+    column_shortcut: Raccourci
+    enabled_by_default_help: 'Les membres peuvent désactiver les raccourcis pour eux-mêmes depuis leur page de paramètres.'
+    enabled_by_default_label: 'Activer les raccourcis clavier'
+    filter_clear_label: 'Effacer le filtre'
+    filter_placeholder: 'Filtrer les raccourcis'
+    no_results: 'Aucun raccourci ne correspond à « {query} ».'
+    reset_title: 'Réinitialiser les raccourcis clavier'
+    sequence_timeout_help: 'Combien de temps un raccourci en plusieurs étapes, tel que « G puis H », attend la touche suivante avant de recommencer.'
+    sequence_timeout_label: 'Délai d''expiration de la séquence (ms)'
+  forum:
+    customize:
+      group_has_conflict: 'Ce groupe contient des raccourcis qui partagent les mêmes touches.'
+      help: 'Appuyez sur les touches que vous souhaitez utiliser pour un raccourci. Appuyez sur une deuxième touche juste après la première pour créer une séquence, comme G puis H.'
+      reset_all_button: 'Rétablir les paramètres du forum par défaut'
+      saved_message: 'Vos raccourcis clavier ont été enregistrés.'
+      submit_button: 'Enregistrer les raccourcis'
+      title: 'Personnaliser les raccourcis'
+      unsaved: '{count, plural, one {# modification non enregistrée} other {# modifications non enregistrées}}'
+    modal:
+      customize_button: Personnaliser
+      enabled_label: 'Raccourcis clavier activés'
+      filter_clear_label: 'Effacer la recherche'
+      filter_placeholder: 'Rechercher des raccourcis'
+      no_results: 'Aucun raccourci ne correspond à « {query} ».'
+      title: 'Raccourcis clavier'
+    settings:
+      customize_button: 'Personnaliser les raccourcis'
+      enabled_label: 'Utiliser les raccourcis clavier'
+      heading: 'Raccourcis clavier'
+      help: 'Appuyez sur {key} n''importe où sur le forum pour afficher la liste complète.'
+      view_button: 'Afficher les raccourcis'
   lib:
+    binding_or: ou
+    binding_then: puis
+    groups:
+      composer: Compositeur
+      discussion: Discussion
+      discussionList: 'Liste de discussion'
+      global: 'N''importe où'
+      navigation: 'Aller à'
+    recorder:
+      clear_label: 'Désactivez ce raccourci'
+      conflict: 'Également utilisé par {shortcuts}.'
+      prompt: 'Appuyez sur les touches…'
+      recording_status: 'À l''affût des touches.'
+      reset_label: 'Rétablir les paramètres par défaut'
+      start_label: 'Enregistrer un nouveau raccourci'
+      stop_label: 'Arrêter l''enregistrement'
     shortcuts:
+      back: 'Revenir en arrière'
+      first_post: 'Aller au premier message'
+      flags: 'Afficher ou masquer les signalements'
+      follow: 'S''abonner ou se désabonner'
+      go_home: 'Toutes les discussions'
+      go_notifications: Notifications
+      go_profile: 'Votre profil'
+      go_settings: 'Vos paramètres'
+      help: 'Afficher les raccourcis clavier'
+      last_post: 'Aller au dernier message'
+      login: 'Se connecter'
       mark_all_as_read: 'Tout marquer comme lu'
+      minimize_composer: 'Réduire le compositeur'
+      new_discussion: 'Démarrer une nouvelle discussion'
+      next_discussion: 'Discussion suivante'
+      next_post: 'Message suivant'
+      notifications: 'Activer ou désactiver les notifications'
+      open_discussion: 'Ouvrir la discussion sélectionnée'
+      pin_nav: 'Épingler ou désépingler la discussion'
+      previous_discussion: 'Discussion précédente'
+      previous_post: 'Message précédent'
+      refresh: 'Actualiser la liste'
+      rename_discussion: 'Renommer les discussions'
       reply: Répondre
       search: Rechercher
-      signup: Inscription
+      session: 'Afficher ou masquer le menu utilisateur'
+      signup: 'S''inscrire'
+      toggle_full_screen: 'Basculer en mode plein écran'
+      toggle_theme: 'Modifier le thème'
+    unbound: 'Non défini'
