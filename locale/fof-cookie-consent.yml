@@ -6,6 +6,7 @@ fof-cookie-consent:
   admin:
     settings:
       allowedCookies: 'Ne jamais supprimer ces cookies'
+      allowedCookies_help: "Un nom par ligne. Encadrez-le par des barres obliques pour définir un motif, p. ex. /^app_/.\nLes cookies créés par Flarum sont toujours conservés.\n"
       appearance_title: Apparence
       backgroundColor: Arrière-plan
       buttonBackgroundColor: Arrière-plan
@@ -20,8 +21,12 @@ fof-cookie-consent:
       layout_help: 'Contrôle la forme de la bannière de consentement.'
       layouts:
         bar: Barre
+        bar_inline: 'Barre (ligne)'
         box: Boîte
+        box_inline: 'Boîte (ligne)'
         box_wide: 'Boîte (large)'
+        cloud: Nuage
+        cloud_inline: 'Nuage (ligne)'
       learnMoreLinkUrl: Lien
       learnMoreLinkUrl_help: 'Laissez ce champ vide pour masquer le lien.'
       position: Position
@@ -35,6 +40,7 @@ fof-cookie-consent:
         top_center: 'En haut au centre'
         top_left: 'En haut à gauche'
         top_right: 'En haut à droite'
+      sweepUndeclared: 'Supprimer les cookies qu''aucune extension n''a déclarés'
       textColor: Texte
       text_help: "Le texte affiché aux visiteurs se trouve dans les fichiers de langue de cette extension ; il peut donc\nêtre traduit. Vous pouvez le remplacer à l'aide de FoF Linguist ou d'un pack de langue.\n"
       theme_dismiss_title: 'Couleurs des boutons'
@@ -48,9 +54,22 @@ fof-cookie-consent:
       preferences: 'Gérer vos préférences'
     categories:
       analytics:
+        description: 'Aidez-nous à comprendre comment le forum est utilisé, afin que nous puissions l''améliorer. Aucun de ces éléments n''est indispensable au bon fonctionnement du forum.'
         title: Analyses
+      marketing:
+        description: 'Utilisé pour mesurer la publicité et vous afficher des publicités sur d''autres sites.'
+        title: Marketing
+      necessary:
+        description: 'Indispensables au bon fonctionnement du site : connexion, maintien de la connexion et mémorisation de vos préférences en matière de cookies. Ces cookies ne peuvent pas être désactivés.'
+        title: 'Strictement nécessaires'
+    cookies:
+      cc_cookie: 'Mémorise votre choix concernant les cookies afin de ne plus vous le demander.'
+      flarum_remember: 'Vous reconnecte automatiquement lors de votre prochaine visite.'
+      flarum_session: 'Vous garde connecté pendant que vous naviguez.'
+      locale: 'Mémorise la langue que vous avez choisie.'
     preferences:
       cookie_table:
+        description: Finalité
         name: Cookie
       description: 'Les cookies sont de petits fichiers que ce site stocke dans votre navigateur. Découvrez ci-dessous ce qui est stocké et pourquoi. Vous pouvez modifier votre choix à tout moment.'
       save: 'Enregistrer vos préférences'
