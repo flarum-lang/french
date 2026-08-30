@@ -84,6 +84,7 @@ fof-anti-spam:
         api_key_text: 'Vous avez la possibilité de signaler les utilisateurs indésirables à StopForumSpam afin d''améliorer la qualité de la communauté.'
         block_tor_exit_nodes_help: 'Lorsque cette option est activée, les inscriptions provenant de nœuds de sortie Tor connus seront automatiquement bloquées. Cela peut aider à empêcher les inscriptions anonymes de spam, mais peut également empêcher les utilisateurs légitimes qui utilisent Tor pour protéger leur vie privée.'
         block_tor_exit_nodes_label: 'Bloquer les nœuds de sortie Tor'
+        blocked_asns_label: 'Numéros de système autonome (ASN) bloqués'
         confidence_help: 'Le niveau de confiance est un indicateur raisonnablement bon que le champ testé entraînera une activité indésirable. Définissez votre niveau de confiance en pourcentage. Si le champ est égal ou supérieur à ce chiffre, l''inscription sera bloquée, indépendamment du test de « fréquence » ci-dessus.'
         confidence_label: Confiance
         email_hash_help: 'Transmettez un hachage MD5 de l''adresse de courriel si vous souhaitez ne pas transmettre l''adresse électronique elle-même. Cette méthode permet de contourner tous les contrôles de listes noires, de normalisation et de contournement de l''obscurcissement.'

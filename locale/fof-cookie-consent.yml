@@ -41,6 +41,7 @@ fof-cookie-consent:
         top_left: 'En haut à gauche'
         top_right: 'En haut à droite'
       sweepUndeclared: 'Supprimer les cookies qu''aucune extension n''a déclarés'
+      sweepUndeclared_help: "Lorsqu'un visiteur décline, les cookies qu'aucune extension n'a déclarés\nvia l'extension de consentement aux cookies sont également supprimés. Cela intercepte les traceurs provenant\nd'extensions qui ne l'ont pas adoptée — mais cela supprimera également les cookies dont\nune extension a réellement besoin, ce qui pourrait la rendre inutilisable. Utilisez la liste d'autorisation ci-dessous\npour les préserver.\n"
       textColor: Texte
       text_help: "Le texte affiché aux visiteurs se trouve dans les fichiers de langue de cette extension ; il peut donc\nêtre traduit. Vous pouvez le remplacer à l'aide de FoF Linguist ou d'un pack de langue.\n"
       theme_dismiss_title: 'Couleurs des boutons'
