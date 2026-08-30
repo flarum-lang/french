@@ -7,6 +7,7 @@ CHANGELOG
 
 **Prise en charge de nouvelles extensions**:
 
+* [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
 
