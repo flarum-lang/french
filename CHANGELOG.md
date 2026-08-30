@@ -5,6 +5,11 @@ CHANGELOG
 5.0.10 (XXXX-XX-XX)
 -------------------
 
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
 **Prise en charge de nouvelles extensions**:
 
 * [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
