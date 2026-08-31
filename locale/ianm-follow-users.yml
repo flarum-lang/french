@@ -13,6 +13,8 @@ ianm-follow-users:
   admin:
     permissions:
       be_followed_label: 'Autoriser les utilisateurs à suivre'
+      follow_label: 'Suivre d''autres utilisateurs'
+      view_followed_users_label: 'Afficher quels utilisateurs un membre suit'
     settings:
       button-on-profile-label: 'Afficher le bouton « Suivre » directement sur l''en-tête du profil de l''utilisateur'
       stats-on-profile-label: 'Afficher le nombre d''abonnés et d''abonnements sur le profil des utilisateurs'

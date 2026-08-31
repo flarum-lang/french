@@ -56,6 +56,7 @@ fof-anti-spam:
         flag_threshold_label: 'Seuil de l''indicateur (0-100)'
         heading: 'Filtre de contenu'
         introduction: 'Détectez et signalez automatiquement les contenus indésirables provenant de nouveaux utilisateurs. Ce système surveille les publications et les discussions des utilisateurs récemment inscrits afin de détecter les indicateurs courants de spam, tels que les numéros de téléphone, les adresses de courriel et les URL suspectes.'
+        monitor_all_users_label: 'Surveiller tous les utilisateurs'
         monitor_hours_old_help: 'Analysez uniquement le contenu des utilisateurs dont les comptes ont été créés il y a moins de ce nombre d''heures. Définissez cette valeur sur 0 pour désactiver la vérification de l''âge.'
         monitor_hours_old_label: 'Surveillez les utilisateurs jusqu''à plusieurs heures après leur création'
         monitor_post_count_help: 'Analysez uniquement le contenu des utilisateurs qui ont publié moins de ce nombre de messages. Définissez cette valeur sur 0 pour désactiver la vérification du nombre de messages.'
@@ -110,6 +111,13 @@ fof-anti-spam:
         sfs_lookup_help: 'Si cette option est activée, nous vérifierons la base de données de StopForumSpam lorsqu''un nouvel utilisateur s''inscrit sur votre forum. Si l''utilisateur est trouvé (nom d''utilisateur, adresse IP, adresse de courriel) et que ce point de données est activé et que le niveau de confiance de SFS atteint le niveau que vous avez défini, l''utilisateur ne pourra pas finaliser son inscription.'
         sfs_lookup_label: 'Consulter les inscriptions'
         username_label: 'Vérification du nom d''utilisateur'
+    statistics:
+      awaiting_review: 'Signalements en attente de révision'
+      heading: 'Protection anti-spam'
+      posts_flagged: 'Messages signalés comme spam'
+      registrations_blocked: 'Inscriptions bloquées'
+      total_label: Total
+      users_marked: 'Utilisateurs signalés comme spammeurs'
   forum:
     message:
       profile:
