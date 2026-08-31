@@ -97,6 +97,7 @@ fof-anti-spam:
         ip_label: 'Vérification de l''adresse IP'
         lookup_failed: 'Impossible d''accéder à StopForumSpam (dernier échec : {when}). Les inscriptions sont autorisées sans vérification jusqu''à ce que le service soit rétabli.'
         max_listing_age_help: 'Une observation datant d''il y a plusieurs années ne nous apprend pas grand-chose sur la personne qui s''inscrit aujourd''hui. 0 conserve toutes les inscriptions, quelle que soit leur ancienneté. Les domaines et réseaux figurant sur la liste noire sont toujours pris en compte, indépendamment de cela.'
+        max_listing_age_label: 'Ignorer les listes anciennes de plus de (en jours)'
         region_closest_label: 'Le plus proche'
         region_europe_label: Europe
         region_us_label: 'États-Unis d''Amérique'
