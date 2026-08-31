@@ -84,6 +84,7 @@ fof-anti-spam:
         api_key_text: 'Vous avez la possibilité de signaler les utilisateurs indésirables à StopForumSpam afin d''améliorer la qualité de la communauté.'
         block_tor_exit_nodes_help: 'Lorsque cette option est activée, les inscriptions provenant de nœuds de sortie Tor connus seront automatiquement bloquées. Cela peut aider à empêcher les inscriptions anonymes de spam, mais peut également empêcher les utilisateurs légitimes qui utilisent Tor pour protéger leur vie privée.'
         block_tor_exit_nodes_label: 'Bloquer les nœuds de sortie Tor'
+        blocked_asns_help: 'Une par ligne, ou séparées par des virgules. Les inscriptions provenant de ces réseaux sont systématiquement refusées, que l''adresse figure dans la liste ou non. StopForumSpam renvoie le numéro de réseau à chaque requête, et presque personne ne navigue sur un forum depuis un hébergeur. Accepte 31272 ou AS31272. Laissez ce champ vide pour enregistrer le réseau sans prendre de mesure.'
         blocked_asns_label: 'Numéros de système autonome (ASN) bloqués'
         confidence_help: 'Le niveau de confiance est un indicateur raisonnablement bon que le champ testé entraînera une activité indésirable. Définissez votre niveau de confiance en pourcentage. Si le champ est égal ou supérieur à ce chiffre, l''inscription sera bloquée, indépendamment du test de « fréquence » ci-dessus.'
         confidence_label: Confiance
@@ -94,11 +95,14 @@ fof-anti-spam:
         frequency_label: Seuil
         introduction: "Vérifie les inscriptions des nouveaux utilisateurs dans la base de données de <a>StopForumSpam</a>. Si les seuils de <code>confidence</code> ou de <code>fréquence</code> sont atteints, l'utilisateur sera empêché de finaliser son inscription sur votre forum.\n\nL'enregistrement SSO via <code>fof/oauth</code> et <code>fof/passport</code> est également pris en charge. D'autres fournisseurs SSO devraient fonctionner, mais n'ont pas été testés.\n"
         ip_label: 'Vérification de l''adresse IP'
+        lookup_failed: 'Impossible d''accéder à StopForumSpam (dernier échec : {when}). Les inscriptions sont autorisées sans vérification jusqu''à ce que le service soit rétabli.'
         region_closest_label: 'Le plus proche'
         region_europe_label: Europe
         region_us_label: 'États-Unis d''Amérique'
         regional_endpoint_help: 'Par défaut, nous dirigeons la recherche vers le serveur régional le plus proche afin de fournir la réponse la plus rapide. Si vous souhaitez restreindre le trafic à une région spécifique, par exemple pour respecter les règles de confidentialité de l''entreprise ou du pays, vous pouvez forcer la connexion à une région spécifique.'
         regional_endpoint_label: 'Accès géographique'
+        registration_throttle_help: 'Flarum limite la fréquence à laquelle une personne peut publier des messages, mais pas celle à laquelle elle peut créer des comptes. La valeur 0 désactive cette restriction. Gardez à l''esprit que les bureaux, les écoles et les réseaux mobiles partagent une même adresse entre de nombreuses personnes.'
+        registration_throttle_label: 'Nombre de secondes entre deux inscriptions provenant d''une même adresse'
         report_blocked_registrations_help: 'Lorsqu''une inscription est bloquée par la fonction de consultation des inscriptions, la tentative est signalée à StopForumSpam afin de mieux confirmer l''activité indésirable. Une clé API StopForumSpam doit être définie (voir ci-dessous).'
         report_blocked_registrations_label: 'Signaler les inscriptions bloquées'
         sfs_lookup_help: 'Si cette option est activée, nous vérifierons la base de données de StopForumSpam lorsqu''un nouvel utilisateur s''inscrit sur votre forum. Si l''utilisateur est trouvé (nom d''utilisateur, adresse IP, adresse de courriel) et que ce point de données est activé et que le niveau de confiance de SFS atteint le niveau que vous avez défini, l''utilisateur ne pourra pas finaliser son inscription.'
@@ -106,6 +110,8 @@ fof-anti-spam:
         username_label: 'Vérification du nom d''utilisateur'
   forum:
     message:
+      profile:
+        blocked: 'Cela ressemble à du spam, c''est pourquoi il n''a pas été enregistré. Veuillez supprimer tous les liens et coordonnées, puis réessayez.'
       stopforumspam:
         blocked: 'Les détails de votre inscription ont été trouvés dans une base de données de prévention des utilisateurs indésirables, et votre inscription a donc été bloquée.'
     post:
