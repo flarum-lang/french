@@ -23,6 +23,7 @@ CHANGELOG
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
 * [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado)
