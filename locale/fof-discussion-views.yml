@@ -5,8 +5,15 @@
 core:
   forum:
     index_sort:
-      least_viewed_button: Impopulaire
-      most_viewed_button: Populaire
+      least_viewed_button: '=> core.ref.least_viewed'
+      most_viewed_button: '=> core.ref.most_viewed'
+  lib:
+    index_sort:
+      least_viewed_button: '=> core.ref.least_viewed'
+      most_viewed_button: '=> core.ref.most_viewed'
+  ref:
+    least_viewed: Impopulaire
+    most_viewed: Populaire
 fof-discussion-views:
   admin:
     permissions:
