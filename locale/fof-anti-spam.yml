@@ -21,6 +21,12 @@ fof-anti-spam:
       login-provider: 'Fournisseur d''accès'
       login-provider-data: 'Données du fournisseur de connexion'
       no-records: 'Aucune inscription n''a été bloquée.'
+      raw_data:
+        button: 'Afficher les données brutes'
+        copied: 'Copiée dans le presse-papiers.'
+        copy: Copier
+        copy_failed: 'Impossible de copier dans le presse-papiers.'
+        title: 'Données brutes enregistrées'
       sfs-data: 'Données de StopForumSpam'
       title: 'Inscriptions bloquées'
       username: 'Nom d''utilisateur'
