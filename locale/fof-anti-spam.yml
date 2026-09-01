@@ -20,6 +20,8 @@ fof-anti-spam:
         badge:
           asn: 'AS{asn}'
           confidence: '{value} % de confiance'
+          last_seen: 'dernière connexion {when}'
+          tor_exit: 'Nœud de sortie Tor'
       help: "Cette page présente toutes les inscriptions qui ont été bloquées par le service StopForumSpam. Vous pouvez consulter les détails de chaque inscription et, si vous le souhaitez, supprimer l'inscription de la base de données.\n"
       ip: 'Adresse IP'
       login-provider: 'Fournisseur d''accès'
@@ -123,11 +125,15 @@ fof-anti-spam:
         username_label: 'Vérification du nom d''utilisateur'
     statistics:
       awaiting_review: 'Signalements en attente de révision'
+      failed: 'Impossible de charger les statistiques relatives au spam.'
       heading: 'Protection anti-spam'
       posts_flagged: 'Messages signalés comme spam'
       registrations_blocked: 'Inscriptions bloquées'
+      this_week: '{count, plural, one {# cette semaine} other {# cette semaine}}'
       total_label: Total
       users_marked: 'Utilisateurs signalés comme spammeurs'
+      view_all: 'Afficher les inscriptions bloquées'
+      vs_last_week: 'Par rapport aux sept jours précédents'
   forum:
     message:
       profile:
