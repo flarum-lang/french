@@ -19,6 +19,7 @@ fof-anti-spam:
       evidence:
         badge:
           asn: 'AS{asn}'
+          confidence: '{value} % de confiance'
       help: "Cette page présente toutes les inscriptions qui ont été bloquées par le service StopForumSpam. Vous pouvez consulter les détails de chaque inscription et, si vous le souhaitez, supprimer l'inscription de la base de données.\n"
       ip: 'Adresse IP'
       login-provider: 'Fournisseur d''accès'
