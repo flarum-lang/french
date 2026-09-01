@@ -19,9 +19,33 @@ fof-anti-spam:
       evidence:
         badge:
           asn: 'AS{asn}'
+          blacklisted: 'Sur la liste noire'
           confidence: '{value} % de confiance'
           last_seen: 'dernière connexion {when}'
           tor_exit: 'Nœud de sortie Tor'
+        blocked_by: 'Bloquée par'
+        field:
+          email: Courriel
+          ip: IP
+          username: 'Nom d''utilisateur'
+        label: 'Pourquoi celle-ci a été bloquée'
+        none: 'Aucune donnée StopForumSpam n''a été enregistrée pour cette tentative.'
+        rule:
+          blacklisted: 'Sur la liste noire'
+          confidence: 'Seuil de confiance'
+          deniedAsn: 'Réseau refusé'
+          frequency: 'Seuil de signalement'
+          torExit: 'Nœud de sortie Tor'
+      filters:
+        apply: Appliquer
+        clear: 'Effacer la recherche'
+        help:
+          multiple: 'Combinez les filtres en les séparant par des espaces.'
+          negate: 'Préfixez un filtre avec « - » pour exclure les résultats correspondants, p. ex. -provider:github'
+          toggle: 'Aide à la recherche'
+        hint: 'Filtres :'
+        no-matches: 'Aucune inscription bloquée ne correspond à cette recherche.'
+        placeholder: 'Rechercher ou filtrer par clé:valeur'
       help: "Cette page présente toutes les inscriptions qui ont été bloquées par le service StopForumSpam. Vous pouvez consulter les détails de chaque inscription et, si vous le souhaitez, supprimer l'inscription de la base de données.\n"
       ip: 'Adresse IP'
       login-provider: 'Fournisseur d''accès'
@@ -33,8 +57,10 @@ fof-anti-spam:
         copy: Copier
         copy_failed: 'Impossible de copier dans le presse-papiers.'
         title: 'Données brutes enregistrées'
+      reasons: 'Motifs de blocage enregistrés'
       sfs-data: 'Données de StopForumSpam'
       title: 'Inscriptions bloquées'
+      total: '{count, plural, one {# inscription bloquée} other {# inscriptions bloquées}}'
       username: 'Nom d''utilisateur'
     permissions:
       spamblock_users_label: 'Marquer l''utilisateur comme indésirable'
