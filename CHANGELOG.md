@@ -13,9 +13,11 @@ CHANGELOG
 **Prise en charge de nouvelles extensions**:
 
 * [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
 * [`ffans/geetest`](https://github.com/FFans/geetest)
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+* [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
 
 
 **Mise à jour des traductions de certaines extensions**:
