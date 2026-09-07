@@ -34,12 +34,15 @@ fof-masquerade:
       hide-empty-fields: 'Masquer les champs vides'
       icon: Icône
       icon-help: "Affiche une icône devant les valeurs saisies par l'utilisateur. Pour une référence des icônes disponibles, consultez <a>site de Font Awesome</a>. Utilisez des noms d'icônes avec le préfixe « fa- », comme « fas fa-info ».\n"
+      is_restricted: 'Restreindre la visibilité du champ'
       name: 'Nom du champ'
       name-help: "Le libellé du champ visible publiquement (non traduisible).\n"
       on_bio: 'Afficher la réponse à ce champ dans la biographie de l''utilisateur'
       option-comma-warning: 'Le libellé d''une option ne peut pas contenir de virgule (« , »).'
       option-new: 'Nouvelle option'
       options: Options
+      permissions: 'Visibilité du champ'
+      permissions-alert: 'Les paramètres d''autorisation seront disponibles lors de la modification du champ après sa création.'
       required: 'Marquer le champ comme obligatoire'
       title: Champs
       type: Type
@@ -71,7 +74,10 @@ fof-masquerade:
       select:
         none-optional: 'Aucune option sélectionnée (facultatif)'
         none-required: 'Veuillez sélectionner une option (obligatoire)'
+    profile:
+      empty-text: 'Cet utilisateur n''a encore rempli aucun champ de son profil.'
   lib:
     gambits:
       answer:
+        hint: 'valeurs des champs du profil utilisateur'
         key: réponse

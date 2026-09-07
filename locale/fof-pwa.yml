@@ -50,6 +50,8 @@ fof-pwa:
         heading: Autre
         push_notif_preference_default_to_email_label: 'Définir les préférences de poussée par défaut vers l''envoi de courriel'
         push_notif_preference_default_to_email_text: 'Si cette option est activée, les notifications de poussée seront activées par défaut pour tous les types de notification pour lesquels les notifications par courriel sont activées par défaut. Si cette option est désactivée, les notifications de poussée seront désactivées par défaut pour les utilisateurs.'
+        share_buttons_label: 'Activer les boutons de partage'
+        share_buttons_text: 'Si cette option est activée, un bouton « Partager » sera ajouté aux discussions, aux messages et aux utilisateurs.'
         user_max_subscriptions_label: 'Nombre maximum d''abonnements push par utilisateur'
         user_max_subscriptions_text: 'Combien d''abonnements push chaque utilisateur peut-il avoir à la fois ? Lorsqu''un utilisateur reçoit une notification push, chaque abonnement entraîne un appel à l''API. Chaque abonnement correspond généralement à un navigateur utilisé par l''utilisateur.'
         window_controls_overlay_label: 'Activer la superposition des contrôles de fenêtre'

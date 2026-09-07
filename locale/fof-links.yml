@@ -33,6 +33,9 @@ fof-links:
       preconfigured: 'Les liens sur ce forum ont été préconfigurés et ne peuvent pas être modifiés ici.'
     settings:
       show_icons_only_on_tablet: 'Afficher uniquement les icônes sur les écrans de tablettes'
+  forum:
+    header:
+      toggle_dropdown_accessible_label: 'Afficher le menu déroulant du lien'
   ref:
     create_link: 'Créer un lien'
     links: Liens

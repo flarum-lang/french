@@ -22,6 +22,7 @@ fof-anti-spam:
           blacklisted: 'Sur la liste noire'
           confidence: '{value} % de confiance'
           last_seen: 'dernière connexion {when}'
+          normalized: 'se normalise à {value}'
           tor_exit: 'Nœud de sortie Tor'
         blocked_by: 'Bloquée par'
         field:
