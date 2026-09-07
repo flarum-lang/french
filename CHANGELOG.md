@@ -22,6 +22,7 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
