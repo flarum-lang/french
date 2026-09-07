@@ -9,11 +9,11 @@ datlechin-link-preview:
       behaviour_label: Comportement
       external_api_description: 'Utilisez un service externe lorsque la récupération directe échoue (par exemple, sur les sites qui se protègent des robots).'
       external_api_label: 'API externe de secours'
-      filtering_description: "Quels sites peuvent être prévisualisés. Une entrée par ligne, ou séparées par des virgules. Un nom d'hôte correspond également à ses sous-domaines, et « * » représente une partie d'un nom.\n"
+      filtering_description: "Quels sites peuvent être prévisualisés. Une entrée par ligne, ou séparées par des virgules. Un hôte correspond également à ses sous-domaines, et « * » représente une partie d'un nom.\n"
       filtering_label: Filtrage
       general_description: 'Préférences d''affichage de base pour les aperçus des liens.'
       general_label: Général
-      performance_description: 'Optimisez la manière dont les aperçus des liens sont récupérés et mis en cache.'
+      performance_description: 'Comment les aperçus sont récupérés et combien de temps ils sont conservés.'
       performance_label: Performance
       url_filtering_description: 'Contrôlez les URL qui génèrent des aperçus de liens.'
       url_filtering_label: 'Filtrage des URL'
@@ -33,8 +33,10 @@ datlechin-link-preview:
       external_api_fallback_label: 'API externe de secours'
       external_api_url_help: 'Point de terminaison API oEmbed personnalisé. Laissez vide pour utiliser la valeur par défaut (API ouverte Iframely). L''URL sera ajoutée en tant que paramètre de requête.'
       external_api_url_label: 'URL de l''API externe'
-      open_links_in_new_tab_help: 'Toujours ouvrir les liens prévisualisés dans un nouvel onglet du navigateur.'
+      open_links_in_new_tab_help: 'Autres sites uniquement. Ici, une discussion s''ouvre toujours dans le même onglet.'
       open_links_in_new_tab_label: 'Ouvrir les liens dans un nouvel onglet'
+      preview_internal_links_help: "Un lien vers une discussion, un membre, un tag ou l'index devient une carte lue depuis la base de données ; ainsi, rien n'est récupéré et personne ne voit plus que ce qu'il peut déjà ouvrir.\n"
+      preview_internal_links_label: 'Prévisualiser les liens vers ce forum'
       skip_media_links_label: 'Ignorer les liens vers les fichiers multimédias'
       use_google_favicons_help: 'Afficher les favicons des sites web en utilisant le service Favicon de Google pour améliorer la reconnaissance visuelle.'
       use_google_favicons_label: 'Afficher les icônes des sites'
