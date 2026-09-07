@@ -5,8 +5,11 @@
 datlechin-link-preview:
   admin:
     sections:
+      appearance_label: Apparence
+      behaviour_label: Comportement
       external_api_description: 'Utilisez un service externe lorsque la récupération directe échoue (par exemple, sur les sites qui se protègent des robots).'
       external_api_label: 'API externe de secours'
+      filtering_label: Filtrage
       general_description: 'Préférences d''affichage de base pour les aperçus des liens.'
       general_label: Général
       performance_description: 'Optimisez la manière dont les aperçus des liens sont récupérés et mis en cache.'
@@ -35,4 +38,7 @@ datlechin-link-preview:
       whitelist_label: 'Liste blanche de domaines'
       whitelist_placeholder: 'Exemples : site-de-confiance.com, domaine-spécifique.org/chemin'
   forum:
+    clicks: '{count, plural, one {# clic} other {# clics}}'
+    settings:
+      hide_link_previews_label: 'Masquer les aperçus des liens'
     site_cannot_be_reached: 'Impossible de charger l''aperçu. Veuillez vérifier l''URL et réessayer.'

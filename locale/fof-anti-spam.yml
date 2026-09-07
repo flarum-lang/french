@@ -21,8 +21,10 @@ fof-anti-spam:
           asn: 'AS{asn}'
           blacklisted: 'Sur la liste noire'
           confidence: '{value} % de confiance'
+          frequency: '{count, plural, one {signalé # fois} other {signalé # fois}}'
           last_seen: 'dernière connexion {when}'
           normalized: 'se normalise à {value}'
+          not_listed: 'Non répertorié'
           tor_exit: 'Nœud de sortie Tor'
         blocked_by: 'Bloquée par'
         field:
@@ -30,6 +32,7 @@ fof-anti-spam:
           ip: IP
           username: 'Nom d''utilisateur'
         label: 'Pourquoi celle-ci a été bloquée'
+        lookup_failed: 'La recherche sur StopForumSpam a échoué, aucune donnée n''a donc été renvoyée pour cette tentative.'
         none: 'Aucune donnée StopForumSpam n''a été enregistrée pour cette tentative.'
         rule:
           blacklisted: 'Sur la liste noire'
@@ -157,6 +160,7 @@ fof-anti-spam:
       posts_flagged: 'Messages signalés comme spam'
       registrations_blocked: 'Inscriptions bloquées'
       this_week: '{count, plural, one {# cette semaine} other {# cette semaine}}'
+      top_reason: 'Le plus fréquent : {reason} ({count, plural, one {# bloc} other {# blocs}})'
       total_label: Total
       users_marked: 'Utilisateurs signalés comme spammeurs'
       view_all: 'Afficher les inscriptions bloquées'
