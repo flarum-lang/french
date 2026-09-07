@@ -17,9 +17,11 @@ datlechin-link-preview:
       url_filtering_description: 'Contrôlez les URL qui génèrent des aperçus de liens.'
       url_filtering_label: 'Filtrage des URL'
     settings:
+      allowlist_label: 'Sites autorisés'
       blacklist_help: 'Indiquez les domaines ou les URL qui ne doivent pas générer d''aperçus de liens. Utilisez des virgules pour séparer les entrées multiples.'
       blacklist_label: 'Liste noire de domaines'
       blacklist_placeholder: 'Exemples : facebook.com, twitter.com/page-spécifique'
+      blocklist_label: 'Sites bloqués'
       cache_time_help: 'Durée de stockage des aperçus de liens avant actualisation. La valeur 0 désactive la mise en cache. Valeur par défaut : 60 minutes.'
       cache_time_label: 'Durée du cache (en minutes)'
       convert_media_urls_help: 'Générer des aperçus pour les URL qui pointent vers des fichiers multimédias (images, vidéos, etc.).'
@@ -32,6 +34,7 @@ datlechin-link-preview:
       external_api_url_label: 'URL de l''API externe'
       open_links_in_new_tab_help: 'Toujours ouvrir les liens prévisualisés dans un nouvel onglet du navigateur.'
       open_links_in_new_tab_label: 'Ouvrir les liens dans un nouvel onglet'
+      skip_media_links_label: 'Ignorer les liens vers les fichiers multimédias'
       use_google_favicons_help: 'Afficher les favicons des sites web en utilisant le service Favicon de Google pour améliorer la reconnaissance visuelle.'
       use_google_favicons_label: 'Afficher les icônes des sites'
       whitelist_help: 'Ne générer des aperçus que pour ces domaines ou URL. Laissez vide pour autoriser tous les domaines qui ne figurent pas sur la liste noire.'
@@ -39,6 +42,11 @@ datlechin-link-preview:
       whitelist_placeholder: 'Exemples : site-de-confiance.com, domaine-spécifique.org/chemin'
   forum:
     clicks: '{count, plural, one {# clic} other {# clics}}'
+    loading: 'Chargement de l''aperçu'
+    meta:
+      discussions: '{count, plural, one {# discussion} other {# discussions}}'
+      posts: '{count, plural, one {# message} other {# messages}}'
+      replies: '{count, plural, one {# réponse} other {# réponses}}'
     settings:
       hide_link_previews_label: 'Masquer les aperçus des liens'
     site_cannot_be_reached: 'Impossible de charger l''aperçu. Veuillez vérifier l''URL et réessayer.'
