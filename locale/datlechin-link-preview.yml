@@ -9,6 +9,7 @@ datlechin-link-preview:
       behaviour_label: Comportement
       external_api_description: 'Utilisez un service externe lorsque la récupération directe échoue (par exemple, sur les sites qui se protègent des robots).'
       external_api_label: 'API externe de secours'
+      filtering_description: "Quels sites peuvent être prévisualisés. Une entrée par ligne, ou séparées par des virgules. Un nom d'hôte correspond également à ses sous-domaines, et « * » représente une partie d'un nom.\n"
       filtering_label: Filtrage
       general_description: 'Préférences d''affichage de base pour les aperçus des liens.'
       general_label: Général
