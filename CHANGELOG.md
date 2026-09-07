@@ -23,9 +23,12 @@ CHANGELOG
 **Mise à jour des traductions de certaines extensions**:
 
 * [`flarum/tags`](https://github.com/flarum/tags)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
 * [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
