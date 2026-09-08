@@ -21,5 +21,4 @@ validation:
       required: 'Veuillez compléter le défi de Turnstile.'
     turnstileToken:
       required: 'Veuillez compléter le défi de Turnstile.'
-  required: 'Veuillez relever le défi de Turnstile.'
   turnstile: 'Nous n''avons pas pu vérifier si vous êtes un robot ou non. Veuillez actualiser la page puis réessayer.'
