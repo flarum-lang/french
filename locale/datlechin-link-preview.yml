@@ -20,29 +20,34 @@ datlechin-link-preview:
       url_filtering_description: 'Contrôlez les URL qui génèrent des aperçus de liens.'
       url_filtering_label: 'Filtrage des URL'
     settings:
+      allowlist_help: 'Tant que ce champ n''est pas vide, seuls les liens correspondants sont prévisualisés.'
       allowlist_label: 'Sites autorisés'
       allowlist_placeholder: 'docs.exemple.com, *.wikipedia.org'
       blacklist_help: 'Indiquez les domaines ou les URL qui ne doivent pas générer d''aperçus de liens. Utilisez des virgules pour séparer les entrées multiples.'
       blacklist_label: 'Liste noire de domaines'
       blacklist_placeholder: 'Exemples : facebook.com, twitter.com/page-spécifique'
+      blocklist_help: 'Jamais prévisualisés, même lorsque la liste des sites autorisés les laisse passer.'
       blocklist_label: 'Sites bloqués'
-      blocklist_placeholder: 'exemple.com, actualité.exemple.org/sponsorisé'
+      blocklist_placeholder: 'exemple.com, news.exemple.org/sponsored'
       cache_time_help: 'Durée pendant laquelle un aperçu est conservé avant que le site ne soit à nouveau lu. La valeur 0 désactive la mise en cache.'
       cache_time_label: 'Durée du cache (en minutes)'
       convert_media_urls_help: 'Générer des aperçus pour les URL qui pointent vers des fichiers multimédias (images, vidéos, etc.).'
       convert_media_urls_label: 'Prévisualiser les URL des médias'
-      enable_batch_requests_help: "Une seule requête pour toute la page, au lieu d'une par lien. Ne désactivez cette option que si un élément situé en amont du forum la rejette.\n"
+      enable_batch_requests_help: "Une seule requête pour l'intégralité de la page, au lieu d'une par lien. Ne désactivez cette option que si un élément situé en amont du forum la rejette.\n"
       enable_batch_requests_label: 'Récupérer les aperçus par lots'
       external_api_fallback_help: 'Lorsque la récupération directe échoue (par exemple sur les sites qui se protègent des robots comme Reuters), utilisez une API oEmbed externe pour récupérer les métadonnées du lien.'
       external_api_fallback_label: 'API externe de secours'
       external_api_url_help: 'Point de terminaison API oEmbed personnalisé. Laissez vide pour utiliser la valeur par défaut (API ouverte Iframely). L''URL sera ajoutée en tant que paramètre de requête.'
       external_api_url_label: 'URL de l''API externe'
+      google_favicon_fallback_help: "Utilisé lorsqu'un site offre aucune icône propre. Indique à Google les sites vers lesquels vos membres renvoient.\n"
       google_favicon_fallback_label: 'Recourir à Google pour les icônes de site'
+      max_previews_per_post_help: 'Les liens au-delà de ce nombre sont laissés sous forme de liens en texte brut.'
+      max_previews_per_post_label: 'Nombre d''aperçus par message'
       open_links_in_new_tab_help: 'Autres sites uniquement. Ici, une discussion s''ouvre toujours dans le même onglet.'
       open_links_in_new_tab_label: 'Ouvrir les liens dans un nouvel onglet'
-      preview_internal_links_help: "Un lien vers une discussion, un membre, une étiquette ou l'index devient une carte lue depuis la base de données ; rien n'est donc récupéré et personne ne voit plus que ce qu'il pouvait déjà ouvrir.\n"
+      preview_internal_links_help: "Un lien vers une discussion, un membre, une étiquette ou la page d'accueil se transforme en une carte lue depuis la base de données ; rien n'est donc récupéré et personne ne voit plus ce qu’il pourrait déjà ouvrir.\n"
       preview_internal_links_label: 'Prévisualiser les liens vers ce forum'
-      skip_media_links_help: 'Pour les liens se terminant par un fichier image, audio ou vidéo, que Flarum affiche déjà.'
+      skip_media_links_help: 'Pour les liens se terminant par un fichier image, audio ou vidéo. Ceux-ci sont déjà affichés par Flarum.'
       skip_media_links_label: 'Ignorer les liens vers les fichiers multimédias'
       use_google_favicons_help: 'Afficher les favicons des sites web en utilisant le service Favicon de Google pour améliorer la reconnaissance visuelle.'
       use_google_favicons_label: 'Afficher les icônes des sites'
@@ -51,7 +56,7 @@ datlechin-link-preview:
       whitelist_placeholder: 'Exemples : site-de-confiance.com, domaine-spécifique.org/chemin'
   forum:
     clicks: '{count, plural, one {# clic} other {# clics}}'
-    loading: 'Chargement de l''aperçu'
+    loading: 'Chargement de l''aperçu...'
     meta:
       discussions: '{count, plural, one {# discussion} other {# discussions}}'
       posts: '{count, plural, one {# message} other {# messages}}'

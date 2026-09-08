@@ -6,7 +6,7 @@ fof-amazon-affiliation:
   admin:
     settings:
       field:
-        help-mediaembed: 'Les cartes produit utilisent toujours l''étiquette que vous avez configuré ; par conséquent, le paramètre « conserver les étiquettes existantes » ne s''applique qu''aux liens simples.'
+        help-mediaembed: 'Les cartes produit utilisent toujours l''étiquette que vous avez configuré ; par conséquent, le paramètre « conserver les étiquettes existantes » ne s''applique qu''aux liens en texte brut.'
         keep-existing-tag: 'Conserver les étiquettes d''affiliation Amazon des liens d''origines au lieu de les remplacer'
         keep-existing-tag-help: 'Par défaut, toute étiquette existante dans le lien d''origine est remplacée par l''étiquette que vous définissez ci-dessous.'
         remove-tag-if-unhandled: 'Supprimer les étiquettes d''affiliation Amazon sur les liens Amazon non couverts'
