@@ -2,6 +2,44 @@ CHANGELOG
 =========
 
 
+5.0.10 (2026-09-08)
+-------------------
+
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
+**Prise en charge de nouvelles extensions**:
+
+* [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`ffans/geetest`](https://github.com/FFans/geetest)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+* [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`linkrobins/shoutbox`](https://github.com/linkrobins/shoutbox)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado)
+
+
+Journal de toutes les modifications : [v5.0.9...v5.0.10](https://github.com/flarum-lang/french/compare/v5.0.9...v5.0.10).
+
+
 5.0.9 (2026-08-25)
 ------------------
 
