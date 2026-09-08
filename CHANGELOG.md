@@ -10,6 +10,11 @@ CHANGELOG
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 
 
+**Mise à jour des traductions de certaines extensions**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+
+
 Journal de toutes les modifications : [v4.29.4...v4.29.5](https://github.com/flarum-lang/french/compare/v4.29.4...v4.29.5).
 
 
