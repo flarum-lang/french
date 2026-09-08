@@ -5,11 +5,13 @@
 datlechin-link-preview:
   admin:
     sections:
+      appearance_description: 'À quoi ressemble un aperçu et où l''on est redirigé lorsqu''on clique dessus.'
       appearance_label: Apparence
+      behaviour_description: 'Quels liens dans un message bénéficient d''un aperçu.'
       behaviour_label: Comportement
       external_api_description: 'Utilisez un service externe lorsque la récupération directe échoue (par exemple, sur les sites qui se protègent des robots).'
       external_api_label: 'API externe de secours'
-      filtering_description: "Quels sites peuvent être prévisualisés. Une entrée par ligne, ou séparées par des virgules. Un hôte correspond également à ses sous-domaines, et « * » représente une partie d'un nom.\n"
+      filtering_description: "Quels sites peuvent être prévisualisés. Une entrée par ligne, ou séparées par des virgules. Un hôte prend également en compte ses sous-domaines, et « * » symbolise une partie d'un nom.\n"
       filtering_label: Filtrage
       general_description: 'Préférences d''affichage de base pour les aperçus des liens.'
       general_label: Général
@@ -35,10 +37,10 @@ datlechin-link-preview:
       external_api_fallback_label: 'API externe de secours'
       external_api_url_help: 'Point de terminaison API oEmbed personnalisé. Laissez vide pour utiliser la valeur par défaut (API ouverte Iframely). L''URL sera ajoutée en tant que paramètre de requête.'
       external_api_url_label: 'URL de l''API externe'
-      google_favicon_fallback_label: 'Utiliser Google comme solution de repli pour les icônes de site'
+      google_favicon_fallback_label: 'Recourir à Google pour les icônes de site'
       open_links_in_new_tab_help: 'Autres sites uniquement. Ici, une discussion s''ouvre toujours dans le même onglet.'
       open_links_in_new_tab_label: 'Ouvrir les liens dans un nouvel onglet'
-      preview_internal_links_help: "Un lien vers une discussion, un membre, une étiquette ou l'index devient une carte lue depuis la base de données ; ainsi, rien n'est récupéré et personne ne voit plus que ce qu'il peut déjà ouvrir.\n"
+      preview_internal_links_help: "Un lien vers une discussion, un membre, une étiquette ou l'index devient une carte lue depuis la base de données ; rien n'est donc récupéré et personne ne voit plus que ce qu'il pouvait déjà ouvrir.\n"
       preview_internal_links_label: 'Prévisualiser les liens vers ce forum'
       skip_media_links_help: 'Pour les liens se terminant par un fichier image, audio ou vidéo, que Flarum affiche déjà.'
       skip_media_links_label: 'Ignorer les liens vers les fichiers multimédias'
