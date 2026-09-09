@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+5.0.11 (XXXX-XX-XX)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`huseyinfiliz/discussion-ban`](https://github.com/huseyinfiliz/discussion-ban)
+
+
+Journal de toutes les modifications : [v5.0.10...v5.0.11](https://github.com/flarum-lang/french/compare/v5.0.10...v5.0.11).
+
+
 5.0.10 (2026-09-08)
 -------------------
 
