@@ -7,8 +7,10 @@ CHANGELOG
 
 **Prise en charge de nouvelles extensions**:
 
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
+* [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
 
 
 **Mise à jour des traductions de certaines extensions**:
