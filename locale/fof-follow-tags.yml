@@ -38,7 +38,7 @@ fof-follow-tags:
       subject: '[Étiquette | Nouvelle discussion] {title}'
     newDiscussionTag:
       html:
-        body: "{actor_display_name} vient de modifier l'étiquette d'une discussion de {author_display_name} par une étiquette que vous suivez {discussion_title}.\n"
+        body: "{actor_display_name} vient de modifier l'étiquette d'une discussion de {author_display_name} par une étiquette que vous suivez {discussion_title}({discussion_url}).\n"
       plain:
         body: "{actor_display_name} vient de modifier l'étiquette d'une discussion de {author_display_name} par une étiquette que vous suivez {discussion_title}.\n\nPour voir la nouvelle discussion, cliquez sur le lien suivant :\n{discussion_url}\n\n---\n\n{content}\n"
       subject: '[Étiquette | Étiquette modifiée] {title}'

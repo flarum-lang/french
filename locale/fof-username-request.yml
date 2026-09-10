@@ -11,7 +11,7 @@ flarum-audit:
         nickname_requested: 'A demandé un nouveau pseudonyme {new_nickname} pour l''utilisateur {username}'
         username_request_approved: 'A approuvé la demande de modification du nom d''utilisateur de {username} de {old_username} en {new_username}'
         username_request_rejected: 'A refusé la demande de modification du nom d''utilisateur de {username}'
-        username_requested: 'A demandé un nouveau nom d''utilisateur {new_nickname} pour l''utilisateur {username}'
+        username_requested: 'A demandé un nouveau nom d''utilisateur {new_username} pour l''utilisateur {username}'
 fof-username-request:
   admin:
     permissions:

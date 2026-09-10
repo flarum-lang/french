@@ -22,7 +22,7 @@ fof-links:
       use_rel_me: 'Ajoutez l''attribut <code>rel="me"</code> pour vérifier l''identité sur d''autres sites'
       visibility:
         guest-only:
-          help: 'Seul {guest} peut voir ce lien. L''autorisation ci-dessus doit être définie sur « {everyone} ».'
+          help: 'Seul {guest} peut voir ce lien. L''autorisation ci-dessus doit être définie sur ''{everyone}''.'
           label: 'Uniquement {guest} ?'
         help: 'Par défaut, les liens ne sont visibles que par 1<code>{admin}</code> utilisateurs. Ajustez les permissions pour spécifier qui peut voir ce lien.'
         help-disabled: 'Enregistrez le lien avant de modifier les paramètres de visibilité.'

@@ -84,7 +84,7 @@ huseyinfiliz-awards:
       date: Date
       empty: 'Aucune suggestion en attente'
       merge: Fusionner
-      merge_info: 'Fusionner « {nom} » avec un nominé existant. Le vote de l''utilisateur sera pris en compte pour ce nominé.'
+      merge_info: 'Fusionner « {name} » avec un nominé existant. Le vote de l''utilisateur sera pris en compte pour ce nominé.'
       merge_title: 'Fusionner la suggestion'
       name: 'Nom suggéré'
       no_nominees: 'Il n''y a aucun nominé dans cette catégorie pouvant être fusionné.'
@@ -120,7 +120,7 @@ huseyinfiliz-awards:
       vote_quota_exhausted: 'Vous avez utilisé tous vos votes/suggestions disponibles pour cette catégorie.'
       voting_closed: 'Le vote est clos.'
     hero:
-      countdown: 'Le vote se termine dans : {jours}j {heures}h {minutes}m {secondes}s'
+      countdown: 'Le vote se termine dans : {days}j {hours}h {minutes}m {seconds}s'
       draft_preview: 'Aperçu du brouillon'
       results_preview: 'Aperçu des résultats'
       results_published: 'Résultats publiés'
@@ -137,7 +137,7 @@ huseyinfiliz-awards:
       total_votes: '{count} votes au total'
       vote_now: 'Voter maintenant'
       votes_unlimited: '{count} votes'
-      votes_used: '{utilisé}/{limite} votes utilisés'
+      votes_used: '{used}/{limit} votes utilisés'
     nav:
       all_categories: 'Toutes les catégories'
       categories: Catégories
@@ -196,7 +196,7 @@ huseyinfiliz-awards:
       change_vote: 'Modifier le vote'
       ended: 'Le vote est terminé'
       ends_in_days: 'Le vote se termine dans {days} jours'
-      ends_in_hours: 'Le vote se termine dans {heures} heures'
+      ends_in_hours: 'Le vote se termine dans {hours} heures'
       ends_soon: 'Le vote se termine bientôt'
       select: Sélectionner
       vote_removed: 'Votre vote a été supprimé.'
