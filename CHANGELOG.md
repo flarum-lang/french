@@ -8,6 +8,7 @@ CHANGELOG
 **Prise en charge de nouvelles extensions**:
 
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
 
 
 **Mise à jour des traductions de certaines extensions**:
