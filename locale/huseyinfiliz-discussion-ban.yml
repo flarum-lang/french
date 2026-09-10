@@ -14,11 +14,16 @@ huseyinfiliz-discussion-ban:
       ban_users_label: 'Exclure des utilisateurs des discussions'
     settings:
       hide_discussions_from_banned: 'Masquer complètement les discussions aux utilisateurs bannis (comportement 404)'
+      send_notifications: 'Envoyer des notifications lorsqu''un utilisateur est exclu ou réintégré dans une discussion'
       show_in_discussion_controls: 'Afficher « Exclure de la discussion » dans les commandes de discussion'
+      show_in_discussion_sidebar: 'Afficher le bouton « Exclusion » dans la barre latérale de discussion'
       show_in_post_controls: 'Afficher « Exclure de la discussion » dans les commandes de publication'
   forum:
     discussion_controls:
+      ban_button: Exclusion
       ban_from_discussion: 'Exclure de la discussion'
+    discussion_page:
+      ban_button: Exclusion
     modal:
       ban_success: 'L''utilisateur a été exclu de cette discussion.'
       banned_by: 'Exclu par {username}'
@@ -32,11 +37,19 @@ huseyinfiliz-discussion-ban:
       search_placeholder: 'Rechercher par nom d''utilisateur ou nom d''affichage...'
       select_user: 'Sélectionner un utilisateur'
       submit: 'Exclure un utilisateur'
-      tab_ban: 'Exclure un utilisateur'
+      tab_ban: 'Nouvelle exclusion'
       tab_list: 'Utilisateurs exclus ({count})'
-      title: 'Exclusion de la discussion'
+      title: Exclusion
       unban: Réintégrer
       unban_success: 'L''exclusion de l''utilisateur a été levée.'
+    notifications:
+      discussion_banned_text: '{username} vous a exclu de {title}'
+      discussion_unbanned_text: '{username} vous a réintégré dans {title}'
+    post:
+      hidden_by_ban: 'Masqué. Ce membre a été exclu de la discussion.'
     post_controls:
       ban_from_discussion: 'Exclure de la discussion'
       unban_from_discussion: 'Réintégrer dans la discussion'
+    settings:
+      notify_discussion_banned_label: 'Quelqu''un m''exclut d''une discussion'
+      notify_discussion_unbanned_label: 'Quelqu''un me réintègre dans une discussion'
