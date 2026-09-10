@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+5.0.11 (2026-09-10)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`huseyinfiliz/discussion-ban`](https://github.com/huseyinfiliz/discussion-ban)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
+
+
+Journal de toutes les modifications : [v5.0.10...v5.0.11](https://github.com/flarum-lang/french/compare/v5.0.10...v5.0.11).
+
+
 5.0.10 (2026-09-08)
 -------------------
 
