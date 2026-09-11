@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+5.0.12 (XXXX-XX-XX)
+-------------------
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`fof/first-post-approval`](https://github.com/FriendsOfFlarum/first-post-approval)
+
+
+Journal de toutes les modifications : [v5.0.11...v5.0.12](https://github.com/flarum-lang/french/compare/v5.0.11...v5.0.12).
+
+
 5.0.11 (2026-09-10)
 -------------------
 
