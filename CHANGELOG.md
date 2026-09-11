@@ -17,6 +17,10 @@ CHANGELOG
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
+* [`fof/first-post-approval`](https://github.com/FriendsOfFlarum/first-post-approval)
+* [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
+* [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
+* [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
 * [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
 
 
@@ -31,6 +35,7 @@ CHANGELOG
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`forumaker/magicread`](https://github.com/forumaker/magicread)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
 * [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini)
 
 
