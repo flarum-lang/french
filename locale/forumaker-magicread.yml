@@ -7,6 +7,8 @@ forumaker-magicread:
     settings:
       enable_counter: 'Compteur de caractères en temps réel dans le compositeur'
       enable_counter_help: 'Ajoute un compteur de caractères dans le coin supérieur droit de la zone de saisie du message'
+      enable_discussion_pager: 'Afficher la pagination à la place de la barre de défilement'
+      enable_discussion_pager_help: 'Supprime la barre de défilement, ajoute la pagination en haut et en bas de la page et désactive le défilement automatique'
       enable_pagination: 'Ajouter une pagination sous la barre de défilement'
       enable_pagination_help: 'Permet de garder le fil de discussion visible et ajoute un sélecteur de page en dessous'
       enable_readmore: 'En savoir plus sur la page de profil'
@@ -16,4 +18,12 @@ forumaker-magicread:
   forum:
     counter:
       label: Caractères
+    pager:
+      first: 'Revenir au début'
+      go: Aller
+      input_label: 'Sauter à la page'
+      last: 'Aller à la dernière page'
+      next: 'Page suivante'
+      page: Page
+      prev: 'Page précédente'
     read_more: 'En savoir plus'
