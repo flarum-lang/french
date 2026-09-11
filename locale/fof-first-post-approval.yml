@@ -5,7 +5,7 @@
 fof-first-post-approval:
   admin:
     permissions:
-      bypass: 'Publier sans approbation de premier message'
+      bypass: 'Publier sans approbation du premier message'
     settings:
       discussionCount: 'Nombre de premières discussions nécessitant une approbation'
       discussionCount_help: 'Définissez cette valeur sur 0 pour que les nouvelles discussions soient soumises à validation en fonction du nombre de messages.'
