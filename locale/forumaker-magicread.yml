@@ -6,9 +6,13 @@ forumaker-magicread:
   admin:
     settings:
       enable_counter: 'Compteur de caractères en temps réel dans le compositeur'
-      enable_pagination: 'Pagination au sein des discussions'
+      enable_counter_help: 'Ajoute un compteur de caractères dans le coin supérieur droit de la zone de saisie du message'
+      enable_pagination: 'Ajouter une pagination sous la barre de défilement'
+      enable_pagination_help: 'Permet de garder le fil de discussion visible et ajoute un sélecteur de page en dessous'
       enable_readmore: 'En savoir plus sur la page de profil'
+      enable_readmore_help: 'Masque les longs messages sur les pages de profil et ajoute un bouton permettant de les développer'
       section_main: Paramètres
+      section_pagination: Pagination
   forum:
     counter:
       label: Caractères

@@ -26,6 +26,8 @@ fof-bookmarks:
       add: Favori
       remove: 'Ajouté aux favoris'
     page:
+      empty:
+        posts: 'Vous n''avez encore ajouté aucun message à vos favoris.'
       link: Favoris
       tab:
         discussions: Discussions

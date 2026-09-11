@@ -2,6 +2,14 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-masquerade/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      masquerade:
+        field_created: 'A créé un champ de profil'
+        field_deleted: 'A supprimé un champ de profil'
+        field_updated: 'A mis à jour un champ de profil'
+        profile_updated: 'A mis à jour les champs du profil de {username}'
 flarum-gdpr:
   lib:
     data:
