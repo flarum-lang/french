@@ -5,8 +5,15 @@ CHANGELOG
 4.29.5 (XXXX-XX-XX)
 -------------------
 
+**Modifications générales**:
+
+* Mise à jour des traductions du noyau de Flarum.
+
+
 **Prise en charge de nouvelles extensions**:
 
+* [`flarum/audit`](https://github.com/flarum/audit)
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change)
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
