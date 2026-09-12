@@ -5,6 +5,16 @@ CHANGELOG
 5.0.12 (XXXX-XX-XX)
 -------------------
 
+**Prise en charge de nouvelles extensions**:
+
+* [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
+* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
+* [`ramon/backup`](https://github.com/ram0ng1/backup)
+* [`ramon/chat`](https://github.com/ram0ng1/chat)
+
+
 **Mise à jour des traductions de certaines extensions**:
 
 * [`fof/first-post-approval`](https://github.com/FriendsOfFlarum/first-post-approval)
