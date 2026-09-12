@@ -20,6 +20,8 @@ CHANGELOG
 * [`fof/first-post-approval`](https://github.com/FriendsOfFlarum/first-post-approval)
 * [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
 * [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo)
 * [`fof/signature`](https://github.com/FriendsOfFlarum/signature)
 * [`pianotell/flarum-ext-flamoji`](https://github.com/PrimateCoder/flarum-flamoji)
 
@@ -27,6 +29,7 @@ CHANGELOG
 **Mise à jour des traductions de certaines extensions**:
 
 * [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
@@ -34,6 +37,7 @@ CHANGELOG
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
 * [`forumaker/magicread`](https://github.com/forumaker/magicread)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
 * [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini)
