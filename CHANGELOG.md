@@ -17,6 +17,7 @@ CHANGELOG
 
 **Mise à jour des traductions de certaines extensions**:
 
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`fof/first-post-approval`](https://github.com/FriendsOfFlarum/first-post-approval)
 
 
