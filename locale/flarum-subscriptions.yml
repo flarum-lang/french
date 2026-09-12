@@ -24,7 +24,7 @@ flarum-subscriptions:
     settings:
       follow_after_reply_label: 'Suivre automatiquement les discussions auxquelles je réponds'
       notify_for_all_posts_label: 'Notifier chaque nouveau message au lieu de ne notifier que le dernier message dans une discussion'
-      notify_new_post_label: 'Quelqu''un publie un message dans une discussion dont je suis abonné'
+      notify_new_post_label: 'Quelqu''un publie un message dans une discussion à laquelle je suis abonné'
     sub_controls:
       follow_button: '=> flarum-subscriptions.ref.follow'
       following_button: '=> flarum-subscriptions.ref.following'
