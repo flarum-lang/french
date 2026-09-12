@@ -19,6 +19,7 @@ CHANGELOG
 
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`fof/first-post-approval`](https://github.com/FriendsOfFlarum/first-post-approval)
+* [`linkrobins/support`](https://github.com/linkrobins/support)
 
 
 Journal de toutes les modifications : [v5.0.11...v5.0.12](https://github.com/flarum-lang/french/compare/v5.0.11...v5.0.12).
