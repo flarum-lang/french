@@ -70,7 +70,14 @@ linkrobins-support:
       categories: Catégories
       rate_limits: 'Limites de fréquence'
     navigation:
+      forum_nav: 'Afficher la navigation du forum sur les pages d''assistance'
+      forum_nav_help: 'Lorsque cette option est activée, les pages d''assistance affichent également « Toutes les discussions », « Abonné » et « Étiquettes » au-dessus des filtres de tickets. Cette option est désactivée par défaut ; les pages d''assistance n''affichent donc que les tickets.'
       heading: Navigation
+      in_account_menu: 'Afficher le lien « Assistance » dans le menu du compte'
+      in_account_menu_help: 'Le menu situé sous votre avatar, à côté de « Profil » et « Paramètres ».'
+      in_sidebar: 'Afficher le lien « Assistance » dans la barre latérale du forum'
+      in_sidebar_help: 'Le lien qui figure aux côtés de « Toutes les discussions » et « Étiquettes ». Réservé aux membres dans tous les cas : les invités ne peuvent pas ouvrir un ticket.'
+      intro: 'Où apparaît le lien « Assistance » et ce la barre latérale affiche sur les pages d''assistance.'
     permissions:
       force_delete_tickets: 'Supprimer définitivement les tickets'
       handle_tickets: 'Gérer les tickets'
@@ -116,12 +123,12 @@ linkrobins-support:
   email:
     fallback_ticket: 'votre ticket'
     from_a_user: 'un utilisateur'
-    from_support: Support
+    from_support: Assistance
     new_appeal_subject: '[Recours] Nouveau ticket : {subject}'
     new_reply_body: '{name} a répondu à votre ticket :'
-    new_reply_subject: '[Support] Nouvelle réponse sur : {subject}'
+    new_reply_subject: '[Assistance] Nouvelle réponse sur : {subject}'
     new_ticket_body: 'Un nouveau {type} vient d''être ouvert par {name} :'
-    new_ticket_subject: '[Support] Nouveau ticket : {subject}'
+    new_ticket_subject: '[Assistance] Nouveau ticket : {subject}'
     open_ticket: 'Ouvrir le ticket'
     ticket_type_appeal: 'ticket de recours'
     ticket_type_general: ticket
@@ -206,13 +213,13 @@ linkrobins-support:
       new_ticket: 'Nouveau ticket'
       new_ticket_tooltip: 'Ouvrir un nouveau ticket'
       untitled: 'Sans titre'
-    nav: Support
+    nav: Assistance
     new_ticket: 'Nouveau ticket'
     notifications:
       new_appeal: '{name} a ouvert un nouveau recours'
       new_ticket: '{name} a ouvert un nouveau ticket'
       reply_from: '{name} a répondu à votre ticket'
-      reply_generic: 'Le support a répondu à votre ticket'
+      reply_generic: 'Le service assistance a répondu à votre ticket'
       someone: 'Un utilisateur'
     reply:
       deleted_notice: 'Cette réponse a été supprimée.'
