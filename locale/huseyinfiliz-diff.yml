@@ -4,7 +4,13 @@
 
 huseyinfiliz-diff:
   forum:
+    confirmDelete: 'Êtes-vous sûr de vouloir supprimer le contenu de cette modification de l''historique ?'
+    confirmRollback: 'Êtes-vous sûr de vouloir modifier votre message actuel ?'
+    createdInfo: '{username} a créé {ago}'
     deleteButton: '=> core.forum.post_controls.delete_button'
+    deleteErrorMessage: 'La suppression du contenu de la modification a échoué.'
+    deleteSuccessMessage: 'Les contenus de cette modification ont été supprimés.'
+    deletedInfo: '{username} a supprimé ce contenu {ago}'
     deletedText: (supprimé)
     differences:
       currentContent: '=> huseyinfiliz-diff.ref.currentContent'
@@ -12,7 +18,7 @@ huseyinfiliz-diff:
       revisionWithNumber: '=> huseyinfiliz-diff.ref.revisionWithNumber'
     editedInfo: '=> core.forum.post.edited_tooltip'
     editedText: '=> core.forum.post.edited_text'
-    emptyText: 'Pas de révision'
+    emptyText: 'Aucune révision'
     optionsButton: Options
     previewMode:
       currentContent: '=> huseyinfiliz-diff.ref.currentContent'
@@ -20,7 +26,19 @@ huseyinfiliz-diff:
       revisionWithNumber: '=> huseyinfiliz-diff.ref.revisionWithNumber'
     revertChangesButton: 'Annuler les modifications'
     revisions: '{revisionCount, plural, one {{revisionCount} révision} other {{revisionCount} révisions}}'
+    rollbackButton: 'Revenir à la révision {number}'
+    rollbackErrorMessage: 'L''annulation des modifications a échoué.'
+    rollbackSuccessMessage: 'Vos modifications ont été annulées.'
+    rollbackToOriginalButton: 'Revenir à la version d''origine'
     tooltips:
+      combined: Combiné
+      inline: 'Ligne par ligne'
+      mostRecent: 'le plus récent'
       originalContent: '=> huseyinfiliz-diff.ref.originalContent'
       preview: '=> core.forum.composer.preview_tooltip'
       revisionWithNumber: '=> huseyinfiliz-diff.ref.revisionWithNumber'
+      sideBySide: 'Côte à côte'
+  ref:
+    currentContent: 'contenu actuel'
+    originalContent: 'contenu original'
+    revisionWithNumber: 'révision {number}'

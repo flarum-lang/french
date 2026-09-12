@@ -69,6 +69,8 @@ linkrobins-support:
       appeal_bans: 'Recours contre les suspensions'
       categories: Catégories
       rate_limits: 'Limites de fréquence'
+    navigation:
+      heading: Navigation
     permissions:
       force_delete_tickets: 'Supprimer définitivement les tickets'
       handle_tickets: 'Gérer les tickets'
