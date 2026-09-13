@@ -26,6 +26,8 @@ linkrobins-support:
       view_banned_button: 'Afficher les utilisateurs dont le droit de déposer un recours a été suspendu'
     categories:
       appeal_badge: Recours
+      assignee_all_staff: 'Toute l''équipe'
+      column_assignee: 'Affecté à'
       column_name: Nom
       column_slug: 'Identifiant texte unique'
       column_tickets: Tickets
@@ -46,6 +48,7 @@ linkrobins-support:
       error_save: 'Impossible d''enregistrer la catégorie. Veuillez vérifier les champs et réessayer.'
       field_color: Couleur
       field_color_help: 'Couleur hexadécimale (p. ex. #3B82F6) utilisée pour le badge de la catégorie.'
+      field_default_assignee: 'Affecter les nouveaux tickets à'
       field_description: Description
       field_icon: Icône
       field_icon_help: 'Une classe Font Awesome, p. ex. fas fa-life-ring.'
