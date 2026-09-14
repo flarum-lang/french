@@ -3,6 +3,20 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 huseyinfiliz-diff:
+  admin:
+    settings:
+      charLevel: 'Au niveau des caractères'
+      detailLevel: 'Niveau de détail'
+      lineLevel: 'Au niveau des lignes'
+      mainPostOnly: 'Conserver uniquement les révisions du message principal'
+      neighborLines: 'Lignes adjacentes'
+      noneLevel: 'Aucun niveau'
+      onlyUnsigned: 'Seuls les <strong>entiers non signés</strong> sont autorisés !'
+      separateBlock: 'Afficher un séparateur entre les différents blocs Diff dans les moteurs de rendu HTML'
+      textFormatting: 'Activer la mise en forme du texte pour les aperçus'
+      title: 'Paramètres Diff'
+      usePoint: 'Utilisez le <strong>point</strong> comme séparateur décimal pour les valeurs à virgule flottante.'
+      wordLevel: 'Au niveau des mots'
   forum:
     confirmDelete: 'Êtes-vous sûr de vouloir supprimer le contenu de cette modification de l''historique ?'
     confirmRollback: 'Êtes-vous sûr de vouloir modifier votre message actuel ?'
@@ -16,14 +30,17 @@ huseyinfiliz-diff:
       currentContent: '=> huseyinfiliz-diff.ref.currentContent'
       originalContent: '=> huseyinfiliz-diff.ref.originalContent'
       revisionWithNumber: '=> huseyinfiliz-diff.ref.revisionWithNumber'
+      sentence: 'Vous consultez les différences entre {old} et {new}'
     editedInfo: '=> core.forum.post.edited_tooltip'
     editedText: '=> core.forum.post.edited_text'
     emptyText: 'Aucune révision'
+    noDiff: 'Aucune différence n''a été trouvée entre ces deux contenus.'
     optionsButton: Options
     previewMode:
       currentContent: '=> huseyinfiliz-diff.ref.currentContent'
       originalContent: '=> huseyinfiliz-diff.ref.originalContent'
       revisionWithNumber: '=> huseyinfiliz-diff.ref.revisionWithNumber'
+      sentence: 'Vous prévisualisez {content}'
     revertChangesButton: 'Annuler les modifications'
     revisions: '{revisionCount, plural, one {{revisionCount} révision} other {{revisionCount} révisions}}'
     rollbackButton: 'Revenir à la révision {number}'
