@@ -50,6 +50,7 @@ linkrobins-support:
       field_color_help: 'Couleur hexadécimale (p. ex. #3B82F6) utilisée pour le badge de la catégorie.'
       field_default_assignee: 'Affecter les nouveaux tickets à'
       field_default_assignee_error: 'Impossible de charger la liste du personnel. Le paramètre actuel reste inchangé.'
+      field_default_assignee_loading: 'Chargement de l''équipe…'
       field_default_assignee_unavailable: '{name} (ne fait plus partie de l''équipe)'
       field_description: Description
       field_icon: Icône
