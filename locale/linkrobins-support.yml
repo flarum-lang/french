@@ -49,6 +49,8 @@ linkrobins-support:
       field_color: Couleur
       field_color_help: 'Couleur hexadécimale (p. ex. #3B82F6) utilisée pour le badge de la catégorie.'
       field_default_assignee: 'Affecter les nouveaux tickets à'
+      field_default_assignee_error: 'Impossible de charger la liste du personnel. Le paramètre actuel reste inchangé.'
+      field_default_assignee_unavailable: '{name} (ne fait plus partie de l''équipe)'
       field_description: Description
       field_icon: Icône
       field_icon_help: 'Une classe Font Awesome, p. ex. fas fa-life-ring.'
@@ -103,9 +105,10 @@ linkrobins-support:
       description: 'Configurer les catégories et les limites de fréquence pour le système de tickets.'
       title: Support
   api:
-    assign_staff_only: 'Les tickets ne peuvent être attribués qu''à l''équipe.'
+    assign_staff_only: 'Les tickets ne peuvent être affectés qu''à l''équipe.'
     cannot_reply: 'Vous ne pouvez pas répondre à ce ticket.'
     category_required: 'Une catégorie est requise.'
+    default_assignee_staff_only: 'Une catégorie ne peut être affectée qu''à l''équipe.'
     login_required: 'Vous devez être connecté.'
     login_required_edit: 'Vous devez être connecté pour modifier une réponse.'
     login_required_reply: 'Vous devez être connecté pour répondre.'
@@ -124,6 +127,8 @@ linkrobins-support:
     ticket_required: 'Un ticket est requis.'
     ticket_soft_delete_first: 'Un ticket doit être supprimé temporairement avant de pouvoir être définitivement supprimé.'
   email:
+    assigned_body: '{name} vous a affecté ce ticket d''assistance.'
+    assigned_subject: 'Ticket qui vous a été affecté : {subject}'
     fallback_ticket: 'votre ticket'
     from_a_user: 'un utilisateur'
     from_support: Assistance
@@ -133,6 +138,8 @@ linkrobins-support:
     new_ticket_body: 'Un nouveau {type} vient d''être ouvert par {name} :'
     new_ticket_subject: '[Assistance] Nouveau ticket : {subject}'
     open_ticket: 'Ouvrir le ticket'
+    status_changed_body: 'Votre ticket d''assistance a été marqué {status}.'
+    status_changed_subject: '[{subject}] marqué comme {status}'
     ticket_type_appeal: 'ticket de recours'
     ticket_type_general: ticket
     view_ticket: 'Consulter le ticket'
@@ -219,11 +226,15 @@ linkrobins-support:
     nav: Assistance
     new_ticket: 'Nouveau ticket'
     notifications:
+      assigned: '{name} vous a affecté un ticket'
+      assigned_generic: 'Un ticket vous a été affecté'
       new_appeal: '{name} a ouvert un nouveau recours'
       new_ticket: '{name} a ouvert un nouveau ticket'
       reply_from: '{name} a répondu à votre ticket'
       reply_generic: 'Le service assistance a répondu à votre ticket'
       someone: 'Un utilisateur'
+      status_changed: 'Votre ticket a été marqué {status}'
+      status_changed_generic: 'Un ticket a été marqué {status}'
     reply:
       deleted_notice: 'Cette réponse a été supprimée.'
       discard_confirm: 'Vous avez des modifications non enregistrées. Souhaitez-vous les abandonner ?'
@@ -237,8 +248,10 @@ linkrobins-support:
       post_reply: 'Publier la réponse'
       posting: 'Publication en cours…'
     settings:
+      notify_assigned_label: 'Un ticket d''assistance m''a été affecté'
       notify_new_reply_label: 'Quelqu''un répond à mon ticket'
       notify_new_ticket_label: 'Un nouveau ticket est créé (par l''équipe)'
+      notify_status_changed_label: 'Le statut d''un ticket d''assistance change'
     show:
       assigned_to: 'Affecté à'
       cannot_reply: 'Vous ne pouvez pas répondre à ce ticket.'
