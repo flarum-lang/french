@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
 * [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
+* [`ffans/threadmarks`](https://github.com/FFans/threadmarks)
 * [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
 * [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
 * [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
