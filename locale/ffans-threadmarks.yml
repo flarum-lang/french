@@ -33,9 +33,16 @@ ffans-threadmarks:
       type_heading: '=> ffans-threadmarks.ref.type'
   forum:
     directory:
+      all_filter: Tous
+      close_a11y_label: 'Fermer le répertoire des signets'
+      discussion_filter: '=> ffans-threadmarks.ref.discussion'
       hide_button: Signets
+      personal_filter: '=> ffans-threadmarks.ref.mine'
       show_button: Signets
       title: '=> ffans-threadmarks.ref.threadmarks'
+    discussion_controls:
+      show_all_button: 'Afficher tous les messages'
+      show_threadmarks_button: 'Signets uniquement'
     manage_modal:
       add_button: Ajouter
       delete_button: '=> core.ref.delete'
@@ -51,8 +58,50 @@ ffans-threadmarks:
       type_label: '=> ffans-threadmarks.ref.type'
       type_placeholder: 'Choisir un type'
       unavailable_text: 'Aucun signet à gérer.'
+    post_controls:
+      manage_button: 'Gérer le signet'
+    scrubber:
+      cluster_a11y_label: '{count, plural, one {# signet} other {# signets}}'
+      open_directory_a11y_label: 'Ouvrir le répertoire complet des signets'
+      threadmark_a11y_label: 'Signet sur le message #{number}'
+    threadmark:
+      deleted_text: 'Ce contenu a été supprimé.'
+      edit_discussion_a11y_label: 'Modifier le signet de discussion sur le message #{number}'
+      edit_discussion_tooltip: 'Modifier le signet de discussion'
+      edit_personal_a11y_label: 'Modifier le signet personnel sur le message #{number}'
+      edit_personal_tooltip: 'Modifier le signet personnel'
+      mine_badge: '=> ffans-threadmarks.ref.mine'
+      personal_tooltip: 'Signet personnel, visible uniquement par vous'
     type_labels:
       chapter: Chapitre
       default: Signet
+      highlight: 'À la une'
       notice: Annonce
+      progress: Progrès
       update: 'Mise à jour'
+  lib:
+    gdpr:
+      anonymize_description: 'Supprime vos signets personnels et efface vos identifiants d''auteur/éditeur des signets de discussion.'
+      delete_description: 'Supprime vos signets personnels et efface vos identifiants d''auteur/éditeur des signets de discussion.'
+      export_description: 'Exporte tous vos signets personnels et vos signets de discussion que vous avez créés ou modifiés en dernier, sans le contenu des messages.'
+    type_form:
+      color_label: '=> core.ref.color'
+      icon_label: '=> core.ref.icon'
+      icon_placeholder: 'fa-solid fa-book'
+      key_label: '=> ffans-threadmarks.ref.key'
+      name_label: Nom
+    validation:
+      disabled_type: 'Ce type de signet est désactivé. Choisissez un autre type.'
+      duplicate_discussion: 'Ce message comporte déjà un signet de discussion. Modifiez plutôt celui qui existe déjà.'
+      duplicate_personal: 'Vous avez déjà un signet personnel sur ce message. Modifiez plutôt celui qui existe déjà.'
+      first_post: 'Les signets ne peuvent pas être ajoutés au premier message.'
+      invalid_discussion_post: 'Les signets de discussion ne peuvent concerner que les commentaires.'
+      invalid_personal_post: 'Les signets personnels ne peuvent concerner que les commentaires.'
+      type_in_use: 'Ce type est actuellement utilisé et ne peut pas être supprimé.'
+  ref:
+    discussion: Discussion
+    key: Clé
+    mine: 'À moi'
+    save: Enregistrer
+    threadmarks: Signets
+    type: Type

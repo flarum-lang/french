@@ -6,36 +6,65 @@ fof-links:
   admin:
     edit_link:
       delete_link_button: 'Supprimer le lien'
-      delete_link_confirmation: 'Êtes-vous sûr de vouloir supprimer ce lien ?'
+      delete_link_confirmation: 'Êtes-vous sûr de vouloir supprimer « {title} » ?'
       icon_additional_text: 'Si vous souhaitez utiliser une icône de marque, le préfixe est <code>fab fa-</code>.'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       internal_link: 'Est-ce un lien interne ?'
-      open_newtab: 'Ouvrir le lien dans un nouvel onglet'
+      open_newtab: 'Ouvrir dans un nouvel onglet'
+      options_label: Options
       submit_button: '=> core.ref.save_changes'
       title: '=> fof-links.ref.create_link'
+      title_child: 'Nouveau lien sous {parent}'
       title_label: '=> fof-links.ref.title'
       title_placeholder: '=> fof-links.ref.title'
+      type:
+        external:
+          help: 'Ouvre une adresse en dehors de ce forum.'
+          label: 'Va vers un autre site'
+        heading: 'Ce que fait ce lien'
+        internal:
+          help: 'S''ouvre sans recharger la page.'
+          label: 'Va à une page de ce forum'
+        label:
+          help: 'Affiché sous forme de libellé. Utilisez-le pour nommer un groupe de liens.'
+          label: 'Ne va nulle part'
       url_description: 'Laissez vide pour afficher comme un label.'
+      url_help:
+        external: 'L''adresse complète, incluant <code>https://</code>.'
+        internal: 'La partie de l''adresse située après {baseUrl}, commençant par une barre oblique.'
       url_label: '=> fof-links.ref.url'
       url_placeholder: '=> fof-links.ref.url'
-      use_rel_me: 'Ajoutez l''attribut <code>rel="me"</code> pour vérifier l''identité sur d''autres sites'
+      url_placeholder.external: 'https://exemple.fr'
+      url_placeholder.internal: /tags
+      use_rel_me: 'Ajoutez un attribut <code>rel="me"</code>'
+      use_rel_me_help: 'Permet au site vers lequel vous renvoyez de vérifier que ce forum est le vôtre.'
       visibility:
         guest-only:
-          help: 'Seul {guest} peut voir ce lien. L''autorisation ci-dessus doit être définie sur ''{everyone}''.'
-          label: 'Uniquement {guest} ?'
-        help: 'Par défaut, les liens ne sont visibles que par 1<code>{admin}</code> utilisateurs. Ajustez les permissions pour spécifier qui peut voir ce lien.'
-        help-disabled: 'Enregistrez le lien avant de modifier les paramètres de visibilité.'
-        label: 'Visibilité des liens'
+          help: 'Les utilisateurs connectés ne verront pas ce lien. L''autorisation ci-dessus doit être définie sur {everyone}.'
+          label: 'Afficher uniquement pour {guest}'
+        help: 'Un nouveau lien est visible uniquement par les utilisateurs {admin}. Ajustez les permissions pour élargir cela.'
+        help-disabled: 'Enregistrez le lien avant de choisir qui peut le voir.'
+        label: 'Qui peut le voir'
     links:
+      add_child_accessible_label: 'Ajouter un lien sous {title}'
+      audience_everyone: 'Visible par tous'
       create_button: '=> fof-links.ref.create_link'
+      description: 'Ceux-ci apparaissent dans la navigation de votre forum, dans l''ordre où ils sont listés ici.'
+      edit_accessible_label: 'Modifier {title}'
+      flag:
+        new_tab: 'Nouvel onglet'
+        rel_me: 'rel="me"'
       links: '=> fof-links.ref.links'
-      preconfigured: 'Les liens sur ce forum ont été préconfigurés et ne peuvent pas être modifiés ici.'
+      no_url: 'Aucun lien, affiché sous forme de libellé'
+      preconfigured: 'Les liens sur ce forum ont été préconfigurés dans le code et ne peuvent pas être modifiés ici.'
+      reorder_help: 'Faites glisser un lien par sa poignée pour le réorganiser, ou déposez-le sur un autre pour l''imbriquer en dessous. Lorsque la poignée est sélectionnée, les touches fléchées permettent d''effectuer la même action.'
+      reorder_loading: 'Préparation de la liste à réorganiser…'
     settings:
       show_icons_only_on_tablet: 'Afficher uniquement les icônes sur les écrans de tablettes'
   forum:
     header:
-      toggle_dropdown_accessible_label: 'Afficher le menu déroulant du lien'
+      toggle_dropdown_accessible_label: 'Afficher les liens sous {title}'
   ref:
     create_link: 'Créer un lien'
     links: Liens
