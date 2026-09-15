@@ -4,17 +4,32 @@
 
 huseyinfiliz-diff:
   admin:
+    permissions:
+      deleteEditHistory: 'Supprimer l''historique des modifications des autres utilisateurs'
+      rollbackEditHistory: 'Restaurer l''historique des modifications des autres utilisateurs'
+      selfDeleteEditHistory: 'Supprimer l''historique de ses propres modifications'
+      selfRollbackEditHistory: 'Restaurer l''historique de ses propres modifications'
+      viewEditHistory: 'Voir l''historique des modifications'
     settings:
+      archiveInfo: 'Gardez à l''esprit que vous pouvez désactiver ces deux options et exécuter la commande <code>php flarum diff:archive</code> pour archiver manuellement les anciennes révisions.'
+      archiveOlds: 'Archiver les anciennes révisions'
+      archiveOldsInfo: 'Si <strong>x ≥ A</strong>, les <strong>y=mx+b</strong> premières révisions du message seront stockées sous forme fusionnée et compressée. La valeur <strong>x</strong> correspond au nombre de révisions du message. Les valeurs flottantes de <strong>y</strong> seront arrondies à l''entier inférieur le plus proche.'
       charLevel: 'Au niveau des caractères'
+      dbOptimisation: 'Optimisation des bases de données'
       detailLevel: 'Niveau de détail'
       lineLevel: 'Au niveau des lignes'
       mainPostOnly: 'Conserver uniquement les révisions du message principal'
+      mergeThreshold: 'Seuil de fusion pour le moteur de rendu combiné'
+      mergeThresholdHelp: 'Cela détermine si un bloc de type « remplacer » doit être fusionné ou non en fonction du taux de modification du contenu, dont la valeur est comprise entre 0 et 1.'
       neighborLines: 'Lignes adjacentes'
+      neighborLinesHelp: 'Spécifiez le nombre de lignes adjacentes que vous souhaitez afficher.'
       noneLevel: 'Aucun niveau'
       onlyUnsigned: 'Seuls les <strong>entiers non signés</strong> sont autorisés !'
       separateBlock: 'Afficher un séparateur entre les différents blocs Diff dans les moteurs de rendu HTML'
       textFormatting: 'Activer la mise en forme du texte pour les aperçus'
       title: 'Paramètres Diff'
+      useCrons: 'Utiliser des tâches cron pour archiver les anciennes révisions'
+      useCronsHelp: 'Vous devez ajouter une tâche Cron sur votre serveur pour que cette option fonctionne. Elle s''exécutera chaque semaine, le dimanche à 2h du matin. Si vous désactivez cette option et activez celle ci-dessus, toutes les révisions du message seront analysées en vue de leur archivage lorsque le message correspondant sera modifié.'
       usePoint: 'Utilisez le <strong>point</strong> comme séparateur décimal pour les valeurs à virgule flottante.'
       wordLevel: 'Au niveau des mots'
   forum:
@@ -42,6 +57,7 @@ huseyinfiliz-diff:
       revisionWithNumber: '=> huseyinfiliz-diff.ref.revisionWithNumber'
       sentence: 'Vous prévisualisez {content}'
     revertChangesButton: 'Annuler les modifications'
+    revisionInfo: 'Modifié {revisionCount, plural, one {{revisionCount} fois} other {{revisionCount} fois}}, le plus récent en haut'
     revisions: '{revisionCount, plural, one {{revisionCount} révision} other {{revisionCount} révisions}}'
     rollbackButton: 'Revenir à la révision {number}'
     rollbackErrorMessage: 'L''annulation des modifications a échoué.'
