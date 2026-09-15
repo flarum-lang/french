@@ -53,15 +53,20 @@ fof-links:
       description: 'Ceux-ci apparaissent dans la navigation de votre forum, dans l''ordre où ils sont listés ici.'
       edit_accessible_label: 'Modifier {title}'
       flag:
+        guest_only: 'Invités uniquement'
         new_tab: 'Nouvel onglet'
         rel_me: 'rel="me"'
       links: '=> fof-links.ref.links'
+      moved: '{title} a été déplacé à la position {position} sur {total}.'
+      moved_under: '{title} a été déplacé sous {parent}, à la position {position} sur {total}.'
       no_url: 'Aucun lien, affiché sous forme de libellé'
       preconfigured: 'Les liens sur ce forum ont été préconfigurés dans le code et ne peuvent pas être modifiés ici.'
       reorder_help: 'Faites glisser un lien par sa poignée pour le réorganiser, ou déposez-le sur un autre pour l''imbriquer en dessous. Lorsque la poignée est sélectionnée, les touches fléchées permettent d''effectuer la même action.'
       reorder_loading: 'Préparation de la liste à réorganiser…'
     settings:
+      heading: Paramètres
       show_icons_only_on_tablet: 'Afficher uniquement les icônes sur les écrans de tablettes'
+      show_icons_only_on_tablet_help: 'Masque les titres des liens dont la largeur est comprise entre 768px et 991px, là où la navigation a le moins de place. Les titres restent toutefois annoncés par les lecteurs d''écran.'
   forum:
     header:
       toggle_dropdown_accessible_label: 'Afficher les liens sous {title}'
