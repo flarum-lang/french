@@ -50,6 +50,8 @@ fof-pwa:
         heading: Autre
         push_notif_preference_default_to_email_label: 'Définir les préférences de poussée par défaut vers l''envoi de courriel'
         push_notif_preference_default_to_email_text: 'Si cette option est activée, les notifications de poussée seront activées par défaut pour tous les types de notification pour lesquels les notifications par courriel sont activées par défaut. Si cette option est désactivée, les notifications de poussée seront désactivées par défaut pour les utilisateurs.'
+        push_notification_ttl_label: 'Durée de vie (TTL) des notifications push'
+        push_notification_ttl_text: 'Durée pendant laquelle les notifications push non envoyées doivent rester dans la file d''attente du service de notification push avant d''expirer (en secondes).'
         share_buttons_label: 'Activer les boutons de partage'
         share_buttons_text: 'Si cette option est activée, un bouton « Partager » sera ajouté aux discussions, aux messages et aux utilisateurs.'
         user_max_subscriptions_label: 'Nombre maximum d''abonnements push par utilisateur'
@@ -69,6 +71,9 @@ fof-pwa:
       possible_https_disabled: 'Votre site n’est peut-être pas exécuté en HTTPS. Vider votre cache (page du tableau de bord d''administration => bouton Outils) peut aider. Si tel est le cas, ignorez ce message. Si ce n’est pas le cas, gardez à l’esprit que HTTPS est nécessaire pour que les applications web progressives puissent fonctionner.'
       success: 'Aucun problème potentiel trouvé !'
       suggest_gmp: 'L’extension PHP gmp ne semble pas être activée sur votre serveur. Elle n’est pas absolument nécessaire, mais peut améliorer les performances et est recommandée. Certains hébergements partagés peuvent ne pas supporter cette fonctionnalité.'
+  api:
+    endpoint_host_not_allowed: 'Les notifications push n''ont pas pu être activées car l''hôte du service push « {host} » utilisé par votre navigateur n''est pas autorisé. Veuillez contacter l''administrateur du forum.'
+    endpoint_https_required: 'Les notifications push n''ont pas pu être activées car votre navigateur a fourni une URL de service push invalide « {url} ». Une URL HTTPS valide est requise.'
   forum:
     alerts:
       optin: 'Ce forum peut envoyer des notifications push sur cet appareil. Souhaitez-vous les activer ?'
