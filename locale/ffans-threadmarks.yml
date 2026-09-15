@@ -38,6 +38,7 @@ ffans-threadmarks:
       discussion_filter: '=> ffans-threadmarks.ref.discussion'
       hide_button: Signets
       personal_filter: '=> ffans-threadmarks.ref.mine'
+      scope_a11y_label: 'Filtrer les signets par portée'
       show_button: Signets
       title: '=> ffans-threadmarks.ref.threadmarks'
     discussion_controls:
@@ -54,6 +55,7 @@ ffans-threadmarks:
       note_placeholder: Facultatif
       personal_tab: Personnel
       save_button: '=> ffans-threadmarks.ref.save'
+      scope_a11y_label: 'Portée du signet'
       title: 'Signet · #{number}'
       type_label: '=> ffans-threadmarks.ref.type'
       type_placeholder: 'Choisir un type'

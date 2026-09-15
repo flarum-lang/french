@@ -61,6 +61,7 @@ fof-links:
       moved_under: '{title} a été déplacé sous {parent}, à la position {position} sur {total}.'
       no_url: 'Aucun lien, affiché sous forme de libellé'
       preconfigured: 'Les liens sur ce forum ont été préconfigurés dans le code et ne peuvent pas être modifiés ici.'
+      reorder_accessible_label: 'Réorganiser {title}. Utilisez les touches fléchées pour le déplacer vers le haut, vers le bas, dans le lien ci-dessus ou pour en sortir.'
       reorder_help: 'Faites glisser un lien par sa poignée pour le réorganiser, ou déposez-le sur un autre pour l''imbriquer en dessous. Lorsque la poignée est sélectionnée, les touches fléchées permettent d''effectuer la même action.'
       reorder_loading: 'Préparation de la liste à réorganiser…'
     settings:
