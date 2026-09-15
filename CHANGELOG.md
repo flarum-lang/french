@@ -22,6 +22,7 @@ CHANGELOG
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`fof/first-post-approval`](https://github.com/FriendsOfFlarum/first-post-approval)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
 * [`linkrobins/support`](https://github.com/linkrobins/support)
 
 
