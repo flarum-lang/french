@@ -97,8 +97,8 @@ ffans-threadmarks:
       duplicate_discussion: 'Ce message comporte déjà un signet de discussion. Modifiez plutôt celui qui existe déjà.'
       duplicate_personal: 'Vous avez déjà un signet personnel sur ce message. Modifiez plutôt celui qui existe déjà.'
       first_post: 'Les signets ne peuvent pas être ajoutés au premier message.'
-      invalid_discussion_post: 'Les signets de discussion ne peuvent concerner que les commentaires.'
-      invalid_personal_post: 'Les signets personnels ne peuvent concerner que les commentaires.'
+      invalid_discussion_post: 'Les signets de discussion ne peuvent cibler que les commentaires.'
+      invalid_personal_post: 'Les signets personnels ne peuvent cibler que les commentaires.'
       type_in_use: 'Ce type est actuellement utilisé et ne peut pas être supprimé.'
   ref:
     discussion: Discussion
