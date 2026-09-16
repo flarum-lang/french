@@ -59,9 +59,9 @@ ffans-threadmarks:
       title: 'Signet · #{number}'
       type_label: '=> ffans-threadmarks.ref.type'
       type_placeholder: 'Choisir un type'
-      unavailable_text: 'Aucun signet à gérer.'
+      unavailable_text: 'Aucun signet disponible à gérer.'
     post_controls:
-      manage_button: 'Gérer le signet'
+      manage_button: 'Gérer un signet'
     scrubber:
       cluster_a11y_label: '{count, plural, one {# signet} other {# signets}}'
       open_directory_a11y_label: 'Ouvrir le répertoire complet des signets'
