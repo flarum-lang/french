@@ -36,14 +36,17 @@ ffans-threadmarks:
       all_filter: Tous
       close_a11y_label: 'Fermer le répertoire des signets'
       discussion_filter: '=> ffans-threadmarks.ref.discussion'
-      hide_button: Signets
+      hide_button: '=> ffans-threadmarks.ref.threadmarks'
       personal_filter: '=> ffans-threadmarks.ref.mine'
       scope_a11y_label: 'Filtrer les signets par portée'
-      show_button: Signets
+      show_button: '=> ffans-threadmarks.ref.threadmarks'
+      show_button_a11y_label: 'Ouvrir le répertoire des signets'
       title: '=> ffans-threadmarks.ref.threadmarks'
     discussion_controls:
-      show_all_button: 'Afficher tous les messages'
-      show_threadmarks_button: 'Signets uniquement'
+      show_all_button: Messages
+      show_all_button_a11y_label: 'Afficher tous les messages'
+      show_threadmarks_button: '=> ffans-threadmarks.ref.threadmarks'
+      show_threadmarks_button_a11y_label: 'Afficher uniquement les messages marqués d''un signet'
     manage_modal:
       add_button: Ajouter
       delete_button: '=> core.ref.delete'
@@ -89,7 +92,7 @@ ffans-threadmarks:
     type_form:
       color_label: '=> core.ref.color'
       icon_label: '=> core.ref.icon'
-      icon_placeholder: 'fa-solid fa-book'
+      icon_placeholder: 'fas fa-bookmark'
       key_label: '=> ffans-threadmarks.ref.key'
       name_label: Nom
     validation:
