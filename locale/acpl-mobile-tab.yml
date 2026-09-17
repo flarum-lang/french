@@ -35,6 +35,7 @@ acpl-mobile-tab:
       new_discussion: 'Nouvelle discussion'
       notifications: Notifications
       profile: Profil
+      ramon-chat: Chat
       search: Rechercher
       session: Session
       tags: Étiquettes
