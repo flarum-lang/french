@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+5.0.12 (2026-09-17)
+-------------------
+
+**Prise en charge de nouvelles extensions**:
+
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
+* [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
+* [`ffans/threadmarks`](https://github.com/FFans/threadmarks)
+* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
+* [`ramon/backup`](https://github.com/ram0ng1/backup)
+* [`ramon/chat`](https://github.com/ram0ng1/chat)
+
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/first-post-approval`](https://github.com/FriendsOfFlarum/first-post-approval)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa)
+* [`linkrobins/support`](https://github.com/linkrobins/support)
+
+
+Journal de toutes les modifications : [v5.0.11...v5.0.12](https://github.com/flarum-lang/french/compare/v5.0.11...v5.0.12).
+
+
 5.0.11 (2026-09-10)
 -------------------
 
