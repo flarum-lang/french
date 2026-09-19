@@ -100,6 +100,6 @@ flarum-tags:
       title: '=> flarum-tags.ref.choose_tags'
   ref:
     choose_tags: 'Sélectionner les étiquettes'
-    choose_tags_placeholder: '{count, plural, one {Sélectionner 1 étiquette supplémentaire} other {Sélectionner # étiquettes supplémentaires}}'
+    choose_tags_placeholder: '{count, plural, one {Sélectionner # étiquette supplémentaire} other {Sélectionner # étiquettes supplémentaires}}'
     name: Nom
     tags: Étiquettes
