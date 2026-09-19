@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+5.0.13 (XXXX-XX-XX)
+-------------------
+
+**Mise à jour des traductions de certaines extensions**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`flarum/tags`](https://github.com/flarum/tags)
+
+
+Journal de toutes les modifications : [v5.0.12...v5.0.13](https://github.com/flarum-lang/french/compare/v5.0.12...v5.0.13).
+
+
 5.0.12 (2026-09-17)
 -------------------
 
