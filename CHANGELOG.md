@@ -5,13 +5,13 @@ CHANGELOG
 4.29.6 (XXXX-XX-XX)
 -------------------
 
-**Mise à jour des traductions de certaines extensions**:
+**Updated translations for extensions**:
 
-* [`flarum/tags`](https://github.com/flarum/tags)
-* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`flarum/tags`](https://github.com/flarum/tags) (1 changed)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (2 changed)
 
 
-Journal de toutes les modifications : [v4.29.5...v4.29.6](https://github.com/flarum-lang/french/compare/v4.29.5...v4.29.6).
+All changes: [v4.29.5...4.29.6](https://github.com/flarum-lang/french/compare/v4.29.5...4.29.6).
 
 
 4.29.5 (2026-09-12)
