@@ -5,13 +5,23 @@ CHANGELOG
 5.0.13 (XXXX-XX-XX)
 -------------------
 
-**Mise à jour des traductions de certaines extensions**:
+**Updated translations for extensions**:
 
-* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
-* [`flarum/tags`](https://github.com/flarum/tags)
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (13 added, 1 changed)
+* [`flarum/tags`](https://github.com/flarum/tags) (1 changed)
 
 
-Journal de toutes les modifications : [v5.0.12...v5.0.13](https://github.com/flarum-lang/french/compare/v5.0.12...v5.0.13).
+**Removed support for outdated extensions**:
+
+* [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
+* [`ramon/backup`](https://github.com/ram0ng1/backup)
+* [`ramon/chat`](https://github.com/ram0ng1/chat)
+
+
+All changes: [v5.0.12...5.0.13](https://github.com/flarum-lang/french/compare/v5.0.12...5.0.13).
 
 
 5.0.12 (2026-09-17)
