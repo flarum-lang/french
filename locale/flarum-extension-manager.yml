@@ -111,7 +111,7 @@ flarum-extension-manager:
         output_modal:
           cause_unknown: Inconnu
           command: 'Commande de Composer'
-          guessed_cause: Cause
+          guessed_cause: Raison
           output: Sortie
         refresh: 'Actualiser la liste des tâches'
         statuses:
@@ -140,7 +140,7 @@ flarum-extension-manager:
       updater_help: 'Vérifie les nouvelles mises à jour des extensions et de Flarum.'
       updater_title: 'Mises à jour'
     why_not_modal:
-      title: 'Pourquoi la mise à jour ne se fait-elle pas ?'
+      title: 'Pourquoi la mise à jour ne s''effectue-t-elle pas ?'
   validation:
     attributes:
       bearer: 'HTTP Bearer'

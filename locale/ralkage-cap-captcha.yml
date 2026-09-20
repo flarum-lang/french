@@ -5,7 +5,7 @@
 ralkage-cap-captcha:
   admin:
     settings:
-      api_endpoint_help: 'L''URL de votre instance Cap Standalone avec la clé du site, par exemple https://cap.exemple.com/votre-cle-du-site/'
+      api_endpoint_help: 'L''URL de votre instance Cap Standalone avec la clé du site, p. ex. : https://cap.exemple.com/votre-cle-du-site/'
       api_endpoint_label: 'Point de terminaison de l''API Cap'
       protect_login_help: 'Afficher le widget Cap sur le formulaire de connexion.'
       protect_login_label: 'Exiger un CAPTCHA lors de la connexion'

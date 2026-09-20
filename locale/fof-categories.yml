@@ -32,7 +32,7 @@ fof-categories:
       meta_description_text: 'Toutes les catégories'
       meta_title_text: '=> fof-categories.ref.categories'
     header:
-      back_to_categories_tooltip: 'Retour aux catégories'
+      back_to_categories_tooltip: 'Revenir aux catégories'
     index:
       categories_link: '=> fof-categories.ref.categories'
     last_discussion_widget:

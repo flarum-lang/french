@@ -163,7 +163,7 @@ fof-upload:
       shared_media: 'Média partagé'
       upload: Transférer
       upload_shared: Partagé
-      user_uploads: 'Transferts de l''utilisateur'
+      user_uploads: 'Médias de l''utilisateur'
     file_list:
       confirm_selection_btn: '{fileCount, plural, =0 {Aucun fichier sélectionné} one {Sélectionnez un fichier} other {Sélectionnez des fichiers}}'
       empty: 'Il n''y a aucun fichier à afficher.'

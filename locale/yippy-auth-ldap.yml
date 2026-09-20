@@ -10,7 +10,7 @@ yippy-auth-ldap:
         add: 'Ajouter un domaine'
         banner: 'Domaine {index} - [{isEnabled}]'
         data:
-          admin_dn: 'Nom distinctif (DN)'
+          admin_dn: 'Nom distinctif (ND)'
           admin_dn_help: 'Laisser vide pour une liaison anonyme'
           admin_password: 'Mot de passe'
           admin_password_help: 'Laisser vide pour une liaison anonyme'

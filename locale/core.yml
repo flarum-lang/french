@@ -113,8 +113,8 @@ core:
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       name_label: Nom
-      plural_placeholder: 'Pluriel (par exemple « modérateurs »)'
-      singular_placeholder: 'Singulier (par exemple « modérateur »)'
+      plural_placeholder: 'Pluriel (p. ex. « Modérateurs »)'
+      singular_placeholder: 'Singulier (p. ex. « Modérateur »)'
       submit_button: '=> core.ref.save_changes'
       title: 'Créer le groupe'
     edit_header:
@@ -374,7 +374,7 @@ core:
       title: 'Mot de passe oublié'
     header:
       admin_button: Administration
-      back_to_index_tooltip: 'Revenir à la liste de discussions'
+      back_to_index_tooltip: 'Revenir à la liste de discussion'
       locale_dropdown_accessible_label: 'Modifier la langue du forum'
       log_in_link: '=> core.ref.log_in'
       log_out_button: '=> core.ref.log_out'
@@ -399,7 +399,7 @@ core:
       newest_button: Nouveauté
       oldest_button: Ancienneté
       relevance_button: Pertinence
-      toggle_dropdown_accessible_label: 'Modifier le tri des listes de discussion'
+      toggle_dropdown_accessible_label: 'Modifier l''ordre d''affichage de la liste de discussion'
       top_button: Popularité
     log_in:
       forgot_password_link: 'Mot de passe oublié ?'

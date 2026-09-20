@@ -64,7 +64,7 @@ huseyinfiliz-notificationhub:
       notification_sent_message: 'Des notifications ont été envoyées aux utilisateurs {recipientsCount} !'
       notification_type_label: 'Type de notification'
       preview_all_members: 'Tous les membres'
-      preview_message_placeholder: 'Message de notification'
+      preview_message_placeholder: 'Message de notification...'
       preview_title: 'Prévisualisation de la notification'
       recipients_label: Destinataires
       recipients_placeholder: 'Saisissez un nom d''utilisateur ou un nom de groupe...'
