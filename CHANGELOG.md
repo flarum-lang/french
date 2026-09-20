@@ -14,7 +14,6 @@ CHANGELOG
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (1 changed)
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (13 added, 1 changed)
-* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup) (5 removed)
 * [`ekumanov/flarum-ext-inline-audio`](https://github.com/ekumanov/flarum-ext-inline-audio) (3 changed)
 * [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice) (2 changed)
 * [`flarum/tags`](https://github.com/flarum/tags) (1 changed)
