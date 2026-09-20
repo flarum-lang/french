@@ -28,6 +28,8 @@ acpl-mobile-tab:
     variants:
       empty_help: 'Faites glisser les éléments ici pour les ajouter à cette variante.'
       heading: 'Variantes de l''onglet « Mobile »'
+      help: 'Les variantes sont vérifiées de haut en bas. Les utilisateurs verront la première variante activée qu''ils sont autorisés à consulter. Placez les rôles les plus spécifiques en premier, par exemple : #1 les administrateurs, #2 les modérateurs, #3 les membres, #4 tout le monde.'
+      number: '#{number}'
   lib:
     item:
       all_discussions: Discussions
