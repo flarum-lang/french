@@ -14,7 +14,6 @@ CHANGELOG
 **Removed support for outdated extensions**:
 
 * [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
-* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
 * [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
 * [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
 * [`ramon/backup`](https://github.com/ram0ng1/backup)
