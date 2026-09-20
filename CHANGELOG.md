@@ -5,10 +5,50 @@ CHANGELOG
 4.29.6 (XXXX-XX-XX)
 -------------------
 
+**General changes**:
+
+* Updated Flarum core translations (4 changed).
+
+
+**Added support for new extensions**:
+
+* [`ffans/threadmarks`](https://github.com/FFans/threadmarks)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
+* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
+* [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
+
+
 **Updated translations for extensions**:
 
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup) (1 changed)
+* [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts) (1 changed)
+* [`ekumanov/flarum-ext-inline-audio`](https://github.com/ekumanov/flarum-ext-inline-audio) (1 changed)
+* [`ffans/geetest`](https://github.com/FFans/geetest) (1 changed)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (2 changed)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions) (1 changed)
 * [`flarum/tags`](https://github.com/flarum/tags) (1 changed)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (3 changed)
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories) (1 changed)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (2 changed)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification) (1 changed)
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors) (1 changed)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (1 changed)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective) (6 changed)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (1 changed)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (17 changed)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (1 changed)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub) (1 changed)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (1 changed)
+* [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification) (2 changed)
+* [`justoverclock/related-discussions`](https://flarum.org/extension/justoverclock/related-discussions) (1 changed)
+* [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox) (1 changed)
+* [`ralkage/flarum-ext-cap-captcha`](https://github.com/Ralkage/flarum-ext-cap-captcha) (1 changed)
+* [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector) (3 changed)
+* [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money) (2 changed)
+* [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar) (2 changed)
+* [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap) (1 changed)
 
 
 All changes: [v4.29.5...4.29.6](https://github.com/flarum-lang/french/compare/v4.29.5...4.29.6).
