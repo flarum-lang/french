@@ -5,10 +5,10 @@
 fof-online-users-widget:
   admin:
     permissions:
-      view_online_users_widget: 'Widget de visualisation des utilisateurs en ligne'
+      view_online_users_widget: 'Afficher le widget des utilisateurs en ligne'
     settings:
-      cache_ttl: 'Temps de mise en cache de la liste des utilisateurs (en secondes)'
-      last_seen_interval: 'Dernier intervalle de temps pour considérer un utilisateur comme étant en ligne (en minutes)'
+      cache_ttl: 'Durée de mise en cache de la liste des utilisateurs (en secondes)'
+      last_seen_interval: 'Intervalle depuis la dernière connexion pour considérer un utilisateur comme étant en ligne (en minutes)'
       max_users: 'Nombre maximal d''utilisateurs affichés'
   forum:
     widget:

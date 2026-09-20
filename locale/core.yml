@@ -94,16 +94,16 @@ core:
     announcements:
       about: 'Dernières actualités et annonces issues de la communauté officielle de Flarum sur discuss.flarum.org.'
       comments_label: '{count, plural, one {# commentaire} other {# commentaires}}'
-      description: 'Dernières actualités et annonces de l''équipe Flarum.'
+      description: 'Dernières actualités et annonces de l''équipe de Flarum.'
       empty: 'Aucune annonce trouvée.'
       hide: 'Masquer les annonces'
       load_error: 'Impossible de charger les annonces. Veuillez réessayer plus tard.'
-      read_more: 'Lire la suite'
+      read_more: 'En savoir plus'
       refresh: 'Actualiser les annonces'
       retry: Réessayer
       show: 'Afficher les annonces'
       title: Annonces
-      view_all: 'Toutes les annonces sur discuss.flarum.org'
+      view_all: 'Tout afficher sur discuss.flarum.org'
     appearance:
       allow_user_color_scheme_label: 'Permettre aux utilisateurs de choisir leur propre thème'
       color_scheme_label: 'Thème (par défaut)'

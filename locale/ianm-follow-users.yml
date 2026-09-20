@@ -67,7 +67,7 @@ ianm-follow-users:
       new_unfollower_text: '{username} a arrêté de vous suivre'
     profile_link: '=> ianm-follow-users.lib.following_link'
     profile_page:
-      no_followers: 'Il semble que vous n''ayez encore aucun abonné.'
+      no_followers: 'Il semble que vous n''ayez pas encore d''abonnés.'
       no_following: 'Il semble que vous ne suivez personne.'
     settings:
       block_follow: 'Empêcher les utilisateurs de me suivre'

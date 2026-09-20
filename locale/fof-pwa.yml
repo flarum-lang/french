@@ -17,7 +17,7 @@ fof-pwa:
       about:
         description_label: Description
         description_text: 'Vous pouvez définir la description sur la page « Essentiels » de votre tableau de bord d''administration.'
-        heading: 'A propos'
+        heading: 'À propos'
         long_name_label: 'Nom long'
         long_name_text: 'Le nom de l''application web affichée à l’utilisateur.'
         short_name_label: 'Nom court'

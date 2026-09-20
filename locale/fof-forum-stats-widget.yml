@@ -6,7 +6,7 @@ fof-forum-stats-widget:
   admin:
     settings:
       decimal_places:
-        help: 'Le nombre de décimales à afficher pour les grands nombres (0 à 2).'
+        help: 'Nombre de décimales à afficher pour les grands nombres (0 à 2).'
         label: Décimales
   forum:
     widget:

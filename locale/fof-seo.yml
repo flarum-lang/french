@@ -29,7 +29,7 @@ fof-seo:
         mode_main_title: 'Indexer uniquement le message principal (par défaut)'
         question: 'Voulez-vous activer cette fonctionnalité ?'
         switch_label: 'Explorer tous les messages (le rafraîchissement de la page est plus lent, mais les résultats de recherche seront meilleurs)'
-        title: 'Paramètres d''indexation des messages'
+        title: 'Paramètres d''exploration des messages'
       dofollow:
         add_placeholder: 'Autoriser un domaine'
         default_note: 'Le domaine que vous utilisez pour votre instance Flarum est ajouté à la liste par défaut.'
@@ -41,9 +41,9 @@ fof-seo:
       health:
         checks:
           crawl:
-            button: 'Vérifier les paramètres de message'
+            button: 'Revoir les paramètres de message'
             label: 'Vérifier les paramètres d''indexation des messages de discussion'
-            reason: 'Vous devrez vérifier ce paramètre pour valider.'
+            reason: 'Vous devrez revoir ce paramètre pour valider.'
           description:
             button: 'Mettre à jour la description'
             label: 'Vérifie si votre forum comporte une description'
@@ -183,7 +183,7 @@ fof-seo:
     meta_seo:
       auto_update:
         help: 'Lorsque cette option est activée, les balises meta de cet élément sont automatiquement mises à jour dès que l''objet est modifié.'
-        label: 'Mise à jour automatique des balises meta'
+        label: 'Mise à jour automatique des balises méta'
         switch: 'Mettre à jour l''objet du SEO en cas de modification'
       close:
         autofill_info: 'Cette modification annulera les modifications personnalisées et remplira les balises meta avec les données de l''élément.'
@@ -199,7 +199,7 @@ fof-seo:
       keywords:
         comma_note: 'Remarque : les mots-clés doivent être séparés par une virgule.'
         example: 'Exemple : flarum, développement web, forum, pommes, sécurité'
-        help: 'Saisissez un ou plusieurs mots-clés qui décrivent cet élément.'
+        help: 'Saisissez un ou plusieurs mots-clés qui décrivent cet élement.'
         label: Mots-clés
         placeholder: 'Ajouter quelques mots-clés'
       managed: Géré

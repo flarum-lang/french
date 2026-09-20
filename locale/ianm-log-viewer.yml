@@ -13,7 +13,7 @@ ianm-log-viewer:
       purge-days-help: 'Repose sur le fait que le planificateur Flarum est actif. Saisissez 0 pour désactiver cette fonctionnalité.'
     viewer:
       available_logs_heading: 'Fichiers disponibles'
-      confirm_delete: 'Êtes-vous sûr de vouloir supprimer ce fichier journal ? Cette action est irréversible.'
+      confirm_delete: 'Êtes-vous sûr de vouloir supprimer ce fichier journal ? Cette action ne peut pas être annulée.'
       delete_log: 'Supprimer le fichier journal'
       download_log: 'Télécharger le fichier journal'
       file_contents_heading: 'Contenu des fichiers'

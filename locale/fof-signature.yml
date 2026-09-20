@@ -31,8 +31,8 @@ fof-signature:
     editor:
       placeholder: 'Modifiez votre signature ici'
     errors:
-      max_char_limit_exceed: 'La limite maximale de caractères a été dépassée.'
-      max_image_count_exceed: 'Le nombre maximum d''images a été dépassé.'
+      max_char_limit_exceed: 'Limite maximale de caractères dépassée.'
+      max_image_count_exceed: 'Nombre maximal d''images dépassé.'
       remote_images_not_allowed: 'Les images distantes ne sont pas autorisées dans les signatures.'
       save_failed: 'Une erreur s''est produite lors de l''enregistrement de votre signature.'
     profile:
