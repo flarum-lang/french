@@ -115,18 +115,23 @@ datitisev-backup:
           label: 'Chemin de la cible'
       name_label: 'Nom de l''emplacement'
       sftp:
+        host: '=> datitisev-backup.admin.adapter-settings-modal.ftp.host'
         passphrase:
           description: 'La phrase secrète pour la clé privée, le cas échéant.'
           label: 'Phrase secrète'
+        password: '=> datitisev-backup.admin.adapter-settings-modal.ftp.password'
         port:
           description: 'Le port SFTP (22 par défaut).'
           label: Port
         private-key:
           description: 'Chemin d''accès (de préférence absolu) à une clé privée à utiliser lors de l''authentification de la connexion SFTP.'
           label: 'Clé privée'
+        root: '=> datitisev-backup.admin.adapter-settings-modal.ftp.root'
+        timeout: '=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout'
         use-agent:
           description: 'Utiliser l''agent SSH pour authentifier la connexion (désactivé par défaut).'
           toggle: 'Utiliser l''agent'
+        username: '=> datitisev-backup.admin.adapter-settings-modal.ftp.username'
       timestamp_help: "Spécifiez le format des horodatages dans les noms de fichiers de sauvegarde. La valeur par défaut est <code>U</code> (horodatage Unix). Utilise le <a>formatage de date PHP</a>. Les caractères non sécurisés du nom de fichier seront nettoyés. Le nom de fichier sera au format <code>{forum}-[horodatage formaté].zip</code>.\n"
       timestamp_label: 'Format de l''horodatage du nom de fichier'
       title: 'Configurer {adapter}'
