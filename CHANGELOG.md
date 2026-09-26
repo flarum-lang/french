@@ -2,6 +2,58 @@ CHANGELOG
 =========
 
 
+5.0.13 (XXXX-XX-XX)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations (3 changed).
+
+
+**Updated translations for extensions**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (1 changed)
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (21 added, 1 changed)
+* [`ekumanov/flarum-ext-inline-audio`](https://github.com/ekumanov/flarum-ext-inline-audio) (3 changed)
+* [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice) (2 changed)
+* [`flarum/tags`](https://github.com/flarum/tags) (1 changed)
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change) (4 changed)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (1 changed)
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories) (14 changed)
+* [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist) (2 changed)
+* [`fof/first-post-approval`](https://github.com/FriendsOfFlarum/first-post-approval) (1 changed)
+* [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget) (1 changed)
+* [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core) (3 changed)
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors) (3 changed)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts) (12 changed)
+* [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget) (3 changed)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (1 changed)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text) (6 changed)
+* [`fof/seo`](https://github.com/FriendsOfFlarum/seo) (5 changed)
+* [`fof/signature`](https://github.com/FriendsOfFlarum/signature) (2 changed)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap) (3 changed)
+* [`forumaker/magicread`](https://github.com/forumaker/magicread) (3 changed)
+* [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url) (1 changed)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub) (1 changed)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users) (1 changed)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer) (1 changed)
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha) (2 changed)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (93 added)
+* [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar) (2 changed)
+
+
+**Removed support for outdated extensions**:
+
+* [`datlechin/flarum-passkey`](https://github.com/datlechin/flarum-passkey)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind)
+* [`ramon/backup`](https://github.com/ram0ng1/backup)
+* [`ramon/chat`](https://github.com/ram0ng1/chat)
+
+
+All changes: [v5.0.12...5.0.13](https://github.com/flarum-lang/french/compare/v5.0.12...5.0.13).
+
+
 5.0.12 (2026-09-17)
 -------------------
 
