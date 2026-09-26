@@ -11,6 +11,7 @@ acpl-mobile-tab:
     edit_item:
       delete_button: Supprimer
       delete_item_confirmation: 'Êtes-vous sûr de vouloir supprimer cet élément ?'
+      help: 'Besoin de plus qu''un simple lien ? Consultez la <a>documentation destinée aux développeurs</a> pour en savoir plus sur les éléments et comportements personnalisés.'
       icon: Icône
       icon_help: 'Saisissez le nom de n''importe quelle classe d''icônes de <a>Font Awesome</a>, en incluant le préfixe <code>fas fa-</code>.'
       is_internal_checkbox: 'Est-ce un lien interne ?'
@@ -20,7 +21,18 @@ acpl-mobile-tab:
       open_new_tab_checkbox: 'Ouvrir le lien dans un nouvel onglet'
       path: Chemin
       submit_button: Enregistrer
+      type:
+        external:
+          help: 'Ouvre une adresse en dehors de ce forum.'
+          label: 'Va vers un autre site'
+        heading: 'Ce que fait ce lien'
+        internal:
+          help: 'S''ouvre sans recharger la page.'
+          label: 'Va à une page de ce forum'
       url: URL
+      url_help:
+        external: 'L''adresse complète, incluant <code>https://</code>.'
+        internal: 'La partie de l''adresse située après {baseUrl}, commençant par une barre oblique.'
     scroll_settings:
       threshold_help: 'Distance à parcourir à partir de la position actuelle pour basculer la visibilité.'
       threshold_label: 'Seuil de défilement (px)'
@@ -32,7 +44,7 @@ acpl-mobile-tab:
       empty_help: 'Faites glisser les éléments ici pour les ajouter à cette variante.'
       enabled: Activé
       heading: 'Variantes de l''onglet « Mobile »'
-      help: 'Les variantes sont vérifiées de haut en bas. Les utilisateurs verront la première variante activée qu''ils sont autorisés à consulter. Placez les rôles les plus spécifiques en premier, par exemple : #1 les administrateurs, #2 les modérateurs, #3 les membres, #4 tout le monde.'
+      help: 'Les variantes sont vérifiées de haut en bas. Les utilisateurs verront la première variante activée qu''ils sont autorisés à consulter. Placez les rôles les plus spécifiques en premier, par exemple : #1 les administrateurs, #2 les modérateurs, #3 les membres, #4 tout le monde. Laissez une variante vide pour masquer entièrement l''onglet pour les groupes sélectionnés.'
       number: '#{number}'
       reorder: 'Réorganiser la variante'
       visible_to: 'Visible pour'

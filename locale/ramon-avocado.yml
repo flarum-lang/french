@@ -4,6 +4,23 @@
 
 ramon-avocado:
   admin:
+    edit_tag:
+      svg_current: 'Ensemble d''icônes SVG'
+      svg_drop_hint: 'ou utilisez le bouton · jusqu''à {max} Ko'
+      svg_drop_title: 'Déposez un fichier .svg ici'
+      svg_invalid: 'Ce n''est pas un fichier SVG. Envoyez un fichier .svg valide.'
+      svg_label: 'Icône SVG'
+      svg_mono_help: 'Peindre l''icône avec la couleur actuelle, comme un glyphe Font Awesome. Désactiver cette option pour conserver les couleurs du SVG.'
+      svg_mono_title: 'Assortir la couleur du texte'
+      svg_remove_button: 'Supprimer le SVG'
+      svg_replace_button: Remplacer
+      svg_replace_hint: 'Déposez un autre fichier .svg pour le remplacer.'
+      svg_size_help: 'Augmentez la taille lorsque le dessin paraît petit à côté d''autres icônes — de nombreux fichiers SVG comportent un espace vide autour d''eux. Seul le dessin s''agrandit ; l''espace occupé par l''icône reste le même.'
+      svg_size_reset: Réinitialiser
+      svg_size_title: 'Taille de l''icône'
+      svg_text: 'Envoyez un fichier .svg. Une fois défini, il remplace l''icône Font Awesome ci-dessus et se comporte de la même manière partout où l''icône de l''étiquette est affichée.'
+      svg_too_large: 'Le fichier SVG est trop volumineux (maximum {max} Ko).'
+      svg_upload_button: 'Sélectionner un fichier'
     footer_settings:
       footer_company: 'Informations sur l''entreprise'
       footer_company_description: 'Description de l''entreprise'
@@ -31,6 +48,15 @@ ramon-avocado:
       cakeday_enabled_help: 'Afficher un 🎂 à côté du nom d''utilisateur à la date anniversaire de la création du compte (cartes de discussion, messages et carte d''utilisateur).'
       cakeday_enabled_label: 'Afficher le badge d''anniversaire de compte'
       categories_heading_label: 'Titre de la section « Catégories »'
+      changelog_description_label: 'Description de la page'
+      changelog_description_placeholder: 'Nouveautés, corrections et suppressions — version par version.'
+      changelog_enabled_help: 'Affiche une page /changelog qui transforme les étiquettes en produits et les discussions associées en versions. Nécessite l''extension « Tags ».'
+      changelog_enabled_label: 'Activer la page « Journal des modifications »'
+      changelog_tags_help: 'Chaque étiquette sélectionnée ici correspond à un journal des modifications distinct (Alega, Avocado, une autre extension…). Chaque discussion qu’elle contient correspond à une version, et les sous-étiquettes de cette étiquette représentent les types de modifications — Ajouté, Corrigé, Supprimé, Sécurité… —, avec une couleur et une icône propres à l''étiquette. Les autorisations de l''étiquette déterminent qui peut publier. Le fait de choisir un produit ici entraîne également la demande d’une image de couverture dans l’éditeur.'
+      changelog_tags_label: Produits
+      changelog_title_label: 'Titre de la page'
+      changelog_title_placeholder: 'Journal des modifications'
+      changelog_version_help: 'Chaque version dispose d''un champ « Version » dans le compositeur, à côté de l''image de couverture : saisissez-la telle que vous souhaitez qu''elle s''affiche, par exemple « v2.4.0 ». La couverture peut être soit une image importée, soit une bannière reprenant la couleur de l''étiquette. Les versions sans indication de numéro sont classées uniquement par date.'
       clock_format_12: '12 heures (2:30 PM)'
       clock_format_24: '24 heures (14:30)'
       clock_format_auto: 'Automatique (navigateur du visiteur)'
@@ -64,6 +90,12 @@ ramon-avocado:
       fixed_avatar_effect_help: 'Maintenir l''avatar de l''auteur en haut de la page lors de la lecture de longs commentaires sur ordinateur.'
       fixed_avatar_effect_label: 'Activer l''effet d''avatar fixe'
       following_heading_label: 'Titre des discussions suivies'
+      group_access: Accès
+      group_appearance: Apparence
+      group_community: Communauté
+      group_discussions: Discussions
+      group_home: 'Page d''accueil'
+      groups_aria: 'Groupes de paramètres'
       hero_deco_divider_help: 'Afficher une icône dans l''espace entre les deux icônes décoratives (p. ex. un symbole « vs » pour les sites sportifs).'
       hero_deco_divider_icon_help: 'Classe Font Awesome pour l''icône séparateur, p. ex. « fas fa-times » ou « fas fa-circle ».'
       hero_deco_divider_icon_label: 'Classe de l''icône séparateur'
@@ -104,20 +136,31 @@ ramon-avocado:
       post_cta_position_label: 'Position de l''invitation (après quel numéro de message)'
       presence_enabled_help: 'Indicateur en temps réel « N personnes lisent actuellement » dans le bandeau de la discussion, avec les avatars des lecteurs. Nécessite l''extension Realtime ; les utilisateurs ayant désactivé l''option « afficher en ligne » ne sont jamais listés.'
       presence_enabled_label: 'Afficher qui lit une discussion'
+      search_clear: 'Effacer la recherche'
+      search_empty: 'Aucun paramètre trouvé.'
+      search_placeholder: 'Rechercher des paramètres…'
       search_v1_help: 'Afficher le menu déroulant de recherche intégrée à la place de la fenêtre modale V2.'
       search_v1_label: 'Activer le style de la barre de recherche V1'
       section_auth: 'Connexion & Inscription'
       section_bookmarks: Favoris
       section_cakeday: Anniversaire
+      section_changelog: 'Journal des modifications'
       section_colored: Coloré
+      section_disc_hero_icon: 'Icône d''en-tête de discussion'
       section_discussion: 'Page de discussion'
       section_footer: 'Pied de page'
+      section_guests: Invités
       section_hero_image_tags: 'Image du bandeau des discussions'
+      section_home_banner: Bannière
+      section_home_categories: 'Catégories mises en avant'
       section_homepage: 'Page d''accueil'
       section_logo: Logo
+      section_online: 'Utilisateurs en ligne'
       section_posts: Messages
       section_presence: Présence
       section_search: Recherche
+      section_showcase: 'Vitrine / Portfolio'
+      section_tag_icon_svg: 'Icônes d''étiquette (SVG)'
       section_team: 'Page de l''équipe'
       section_titles_heading: 'Titres des sections'
       section_titles_help: 'Remplacer les titres des sections de la page d''accueil. Laisser un champ vide pour utiliser le titre par défaut du pack de langue.'
@@ -158,6 +201,10 @@ ramon-avocado:
       spinner_option_flarum: Flarum
       spinner_option_orbital: Orbital
       spinner_option_pl3: Pulsation
+      tag_icon_svg_help: 'Ajoute un champ SVG à la fenêtre modale « Modifier l''étiquette ». Une icône SVG remplace l''icône Font Awesome partout où l''icône de l''étiquette est affichée, incluant les types de journal des modifications. Les fichiers SVG sont nettoyés lors de l''enregistrement. Actualisez l''interface d''administration après l''avoir activée.'
+      tag_icon_svg_label: 'Autoriser SVG comme icône d''étiquette'
+      tag_icon_svg_standalone_notice: 'L''extension autonome « Icône d''étiquette SVG » est activée ; elle continue donc à gérer les icônes SVG et ce bouton n''a aucun effet. Désactivez cette extension pour laisser le thème prendre le relais — les icônes que vous avez déjà enregistrées seront conservées.'
+      tag_icon_svg_tags_notice: 'Cela nécessite l''extension « Tags », qui n''est pas activée.'
       tag_picker_placeholder: 'Sélectionner des étiquettes…'
       team_desc_label: 'Description de la page'
       team_desc_placeholder: 'Découvrez les personnes qui font vivre cette communauté.'
@@ -186,6 +233,8 @@ ramon-avocado:
     svg_forbidden_declaration: 'Le fichier SVG contient une déclaration DOCTYPE ou ENTITY non autorisée.'
     svg_invalid: 'Le fichier transféré doit être un fichier SVG valide.'
     svg_parse_failed: 'SVG invalide : impossible d''analyser le code XML.'
+    tag_icon_svg_invalid: 'L''icône SVG n''a pas pu être lue. Assurez-vous que le code SVG est valide.'
+    tag_icon_svg_too_large: 'L''icône SVG est trop volumineuse (maximum {max} Ko).'
     unsupported_image_type: 'Type d''image non pris en charge.'
   forum:
     actions:
@@ -224,6 +273,48 @@ ramon-avocado:
       aria: 'Anniversaire du compte'
       tooltip_plural: 'Anniversaire du compte — {years} ans ici aujourd''hui !'
       tooltip_singular: 'Anniversaire du compte — 1 an ici aujourd''hui !'
+    changelog:
+      all_products: 'Tous les produits'
+      all_types: 'Tous les types'
+      composer_body_placeholder: 'Écrire les notes de mise à jour…'
+      composer_submit: 'Publier la version'
+      composer_title: 'Nouvelle version'
+      composer_title_placeholder: 'Titre de la version…'
+      cover_auto: Automatique
+      cover_auto_help: 'De la couleur du produit au premier type de modification.'
+      cover_change: 'Couleur de la couverture'
+      cover_color: 'Couleur de l''étiquette pour la couverture'
+      cover_from_tags: 'À partir des étiquettes (sélectionnez-en une ou plusieurs)'
+      cover_off: 'Sans couverture (étiquette par défaut)'
+      cover_preset_ember: Braise
+      cover_preset_forest: Forêt
+      cover_preset_ocean: Océan
+      cover_preset_slate: Ardoise
+      cover_preset_sunset: 'Coucher de soleil'
+      cover_preset_violet: Violette
+      cover_presets: Préréglages
+      cover_tags_count: '{count, plural, one {# couleur d''étiquette} other {# couleurs d''étiquette}}'
+      cover_title: 'Couleur de la couverture'
+      description: 'Nouveautés, corrections et suppressions — version par version.'
+      edit_release: 'Modifier la version'
+      empty: 'Aucune version n''a encore été publiée.'
+      empty_filtered: 'Aucune version de ce type pour le moment.'
+      error: 'Impossible de charger le journal des modifications.'
+      hide_notes: 'Masquer les notes'
+      latest: Nouveauté
+      load_more: 'Charger plus'
+      new_release: 'Nouvelle version'
+      not_found: 'Produit introuvable.'
+      notes_failed: 'Impossible de charger les notes.'
+      notes_loading: 'Chargement des notes en cours…'
+      products_label: Produits
+      read_notes: 'Lire les notes'
+      replies: '{count, plural, one {# réponse} other {# réponses}}'
+      retry: Réessayer
+      title: 'Journal des modifications'
+      types_label: 'Filtrer par type'
+      version_label: Version
+      version_placeholder: 'Version (p. ex. v2.4.0)'
     discussion:
       hero_image_add: 'Ajouter une image'
       hero_image_remove: 'Supprimer l''image'
@@ -368,6 +459,11 @@ ramon-avocado:
       title: Recherche
     settings:
       notify_bookmark_reminder_label: 'Rappel des favoris'
+    support:
+      category_label: 'Catégorie de ticket'
+      category_placeholder: 'Choisir un catégorie'
+      new_ticket_heading: 'Nouveau ticket'
+      status_changed: 'a marqué le ticket comme'
     tag_picker:
       remove: 'Supprimer l''étiquette'
     tags:

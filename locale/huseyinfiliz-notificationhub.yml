@@ -35,7 +35,7 @@ huseyinfiliz-notificationhub:
         preview: Prévisualiser
         preview_placeholder: 'Nom du type de notification'
         sort_order: 'Ordre de tri'
-      no_data: 'Il n''y a pas encore de type de notification.'
+      no_data: 'Aucun type de notification pour le moment.'
       save: Enregistrer
     title:
       page_title: 'Types de notification'
