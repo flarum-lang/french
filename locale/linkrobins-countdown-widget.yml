@@ -5,6 +5,9 @@
 linkrobins-countdown-widget:
   admin:
     settings:
+      description_help: 'Facultatif. Petit texte affiché sous le titre. Utilisez-le pour indiquer une plage de dates, un lieu ou toute autre information complémentaire.'
+      description_label: Description
+      description_placeholder: 'Les portes ouvrent à 9 heures'
       done_message_help: 'Ce qui doit s''afficher lorsque le compte à rebours arrive à zéro. Si ce champs est vide, un émoji « fête » s''affiche par défaut.'
       done_message_label: 'Message de fin'
       done_message_placeholder: '🎉 C''est parti !'
