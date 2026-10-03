@@ -64,6 +64,8 @@ huseyinfiliz-awards:
       select_category: 'Sélectionner une catégorie'
       title: 'Gérer les nominés'
       vote_adjustment_title: 'Ajustement du vote'
+      website_url: 'Site internet / URL du lien'
+      website_url_help: 'URL externe pour ce nominé (doit commencer par http:// ou https://)'
     permissions:
       manage: 'Gérer les récompenses'
       view: 'Voir les récompenses'
@@ -112,6 +114,7 @@ huseyinfiliz-awards:
       no_categories: 'Aucune catégorie dans cette distinction pour le moment.'
       no_nominees: 'Aucun nominé dans cette catégorie pour le moment.'
     error:
+      already_voted: 'Vous avez déjà voté pour ce nominé.'
       cannot_delete_processed_suggestion: 'Seules les suggestions en attente peuvent être annulées.'
       not_available: 'Cette distinction n''est pas encore disponible.'
       other_not_allowed: 'Cette catégorie n''accepte pas les suggestions.'
@@ -142,6 +145,8 @@ huseyinfiliz-awards:
       all_categories: 'Toutes les catégories'
       categories: Catégories
       title: Récompenses
+    nominee:
+      open_link: 'Ouvrir le lien dans un nouvel onglet'
     notification:
       results_published: 'Les résultats du {awardName} ont été publiés !'
     other:

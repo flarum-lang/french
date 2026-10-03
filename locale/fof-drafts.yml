@@ -59,10 +59,11 @@ fof-drafts:
       unschedule_warning: 'Êtes-vous sûr de vouloir dé-planifier ce brouillon ?'
     user:
       settings:
-        draft_autosave_enable: 'Activer l''enregistrement automatique des brouillons ?'
+        draft_autosave_enable: 'Activer l''enregistrement automatique des brouillons'
         draft_autosave_interval_button: 'Intervalle de mise à jour'
         draft_autosave_interval_invalid: 'L''intervalle doit être un nombre entier supérieur à 4.'
         draft_autosave_interval_label: 'Intervalle de l''enregistrement automatique (en secondes)'
+        draft_autosave_interval_saved_message: 'L''intervalle d''enregistrement automatique a été mis à jour.'
         drafts_heading: Brouillons
   ref:
     schedule_draft: 'Planifier le brouillon'
