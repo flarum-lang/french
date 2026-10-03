@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+5.0.14 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`fof/mark-unread`](https://github.com/FriendsOfFlarum/mark-unread) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) (1 added, 1 changed, 100% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (3 added, 1 changed, 100% complete)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (4 added, 100% complete)
+
+
+All changes: [5.0.13...5.0.14](https://github.com/flarum-lang/french/compare/5.0.13...5.0.14).
+
+
 5.0.13 (2026-09-30)
 -------------------
 
