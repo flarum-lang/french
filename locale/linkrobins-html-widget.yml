@@ -5,9 +5,11 @@
 linkrobins-html-widget:
   admin:
     settings:
+      allowed_iframe_hosts_help: 'Facultatif : un hôte par ligne. Les iframes présentes dans le corps de la page ne sont conservées que si leur attribut « src » figure dans cette liste, p. ex. www.youtube.com ou *.vimeo.com pour tout sous-domaine. Laissez ce champ vide pour supprimer toutes les iframes. Seules les intégrations http et https sont autorisées, et cette restriction est appliquée par le navigateur ; considérez-la donc comme une mesure de prévention contre les erreurs plutôt que comme une barrière de sécurité.'
+      allowed_iframe_hosts_label: 'Hôtes iframe autorisés'
       background_help: 'Facultatif. La couleur d''arrière-plan du widget. Laissez ce champ vide pour que la couleur corresponde à celle de votre thème.'
       background_label: 'Couleur d''arrière-plan'
-      body_help: 'Le code HTML brut est nettoyé avant l''affichage : les balises de script, les gestionnaires d''événements et autres balises non sécurisés sont supprimés.'
+      body_help: 'Code HTML brut, nettoyé avant affichage -- les balises de script, les attributs de gestionnaires d''événements et les URL « javascript: » sont supprimés. Les iframes sont également supprimées, sauf si vous autorisez leur hôte ci-dessous.'
       body_label: 'Corps du HTML'
       icon_help: 'Classe FontAwesome à afficher à côté du titre (p. ex. fas fa-bullhorn). Si vous ne souhaitez pas d''icône, laissez ce champ vide.'
       icon_label: 'Classe d''icône'
