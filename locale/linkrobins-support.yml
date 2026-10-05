@@ -104,6 +104,14 @@ linkrobins-support:
       max_concurrent_appeals_help: 'Nombre de recours qu''un utilisateur peut ouvrir en même temps.'
       max_general_per_window: 'Nombre maximal de tickets par période'
       max_general_per_window_help: 'Nombre de tickets qu''un utilisateur peut ouvrir pendant la période indiquée ci-dessous.'
+    saved_replies:
+      edit_button: Modifier
+      empty: 'Aucune réponse enregistrée pour le moment.'
+      field_title: Titre
+      heading: 'Réponses enregistrées'
+      new_button: 'Nouvelle réponse enregistrée'
+      title_edit: 'Modifier la réponse enregistrée'
+      title_new: 'Nouvelle réponse enregistrée'
     settings:
       description: 'Configurer les catégories et les limites de fréquence pour le système de tickets.'
       title: Support

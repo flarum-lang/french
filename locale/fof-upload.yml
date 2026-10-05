@@ -78,6 +78,7 @@ fof-upload:
         toggle: Désactiver
       imgur:
         client_id: 'Identifiant client d''Imgur'
+        deprecated: 'Imgur ne délivre plus d''identifiants client API ; cet adaptateur est donc obsolète et sera supprimé dans une prochaine version. Veuillez transférer ces types de fichiers vers un autre adaptateur de stockage.'
         title: 'Paramètres de stockage des images d''Imgur'
         tos: 'Il est de votre responsabilité de vous assurer que les utilisateurs de votre forum adhèrent aux <a>conditions d''utilisation</a> d''Imgur'
       inspect-mime: 'Type MIME du fichier de test'
@@ -274,6 +275,7 @@ fof-upload:
         show_confirmation: 'Êtes-vous sûr de vouloir rendre « {fileName} » public ? Rendre un fichier public le rendra accessible à toute personne disposant d''une URL publique et toute personne pourra le partager à l''aide du gestionnaire de médias.'
         show_fail: 'Impossible de rendre le fichier « {fileName} » public'
         show_success: 'Fichier rendu public'
+      load_error: 'Impossible de charger les fichiers. Veuillez réessayer.'
       load_more_files_btn: 'Charger d''autres fichiers'
       loading: 'Chargement des fichiers…'
       modal_empty_desktop: 'Votre liste de fichiers est vide. Cliquez sur le bouton ou faites glisser un fichier ici pour le transférer.'

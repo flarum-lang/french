@@ -69,6 +69,10 @@ ramon-avocado:
       colored_border_style_none: Aucune
       colored_enabled_help: 'Appliquer la couleur de l''étiquette active ou de la discussion aux boutons principaux, aux liens et aux autres éléments visuels de l''interface à travers le forum.'
       colored_enabled_label: 'Activer les accents colorés'
+      composer_morph_help: 'Lors du passage en mode plein écran (et inversement), le compositeur s''agrandit jusqu''à occuper tout l''écran, à l''instar du compositeur de la page d''accueil. Sur mobile et lorsque l''option « Réduire les animations » est activée, Flarum conserve sa transition instantanée.'
+      composer_morph_label: 'Effet « plein écran » du compositeur'
+      composer_preview_help: 'Le compositeur dispose d’un bouton de prévisualisation qui remplace l’éditeur par le message mis en forme ; en mode plein écran, l''affichage est scindé entre l''éditeur et la prévisualisation en temps réel. La prévisualisation affichée par Flarum à la fin de la discussion lorsque vous répondez disparaît. Si cette option est désactivée, la prévisualisation par défaut de Flarum réapparaît.'
+      composer_preview_label: 'Prévisualisation dans le compositeur'
       custom_auth_modal_help: 'Afficher le design personnalisé du panneau latéral dans les fenêtres « Connexion », « Inscription » et « Mot de passe oublié ». Désactiver cette option pour utiliser la fenêtre par défaut de Flarum.'
       custom_auth_modal_label: 'Utiliser une fenêtre personnalisée pour la connexion / l''inscription'
       custom_default_avatar_help: 'Transférer une image d''avatar par défaut personnalisée pour les utilisateurs sans avatar.'
@@ -114,11 +118,24 @@ ramon-avocado:
       hero_image_tags_label: 'Étiquettes nécessitant une image pour le bandeau'
       hide_links_for_guests_help: 'Empêcher les invités de suivre les liens dans les messages. Lorsque l''on clique sur un lien, une invite de connexion ou d''inscription s''affiche à la place.'
       hide_links_for_guests_label: 'Masquer les liens pour les invités'
+      home_feed_count_help: 'Nombre de discussions affichées dans la liste de la page d''accueil. Cela s''applique également à la page « Abonnements ».'
+      home_feed_count_label: 'Nombre de discussions'
+      home_feed_sort_help: 'Classements de popularité en fonction des réponses, des « J''aime », du nombre de vues et de l''activité récente. L''activité la plus récente apparaît après la réponse la plus récente, comme dans la liste de discussion standard. Les discussions épinglées restent en haut de la liste dans les deux cas.'
+      home_feed_sort_label: Ordre
+      home_feed_sort_latest: 'Dernière activité'
+      home_feed_sort_popular: 'Discussions populaires'
+      link_icon_svg_help: 'Remplace le favicon dans les liens vers d''autres discussions du forum (#123). Il adopte la couleur du lien, ce qui lui permet de s''harmoniser avec les accents de couleur — seule la forme du SVG est utilisée.'
+      link_icon_svg_label: 'Icône de lien interne (SVG)'
       loading_spinner_style_label: 'Style de l''icône de chargement'
       logo_enabled_help: 'Afficher le logo personnalisé dans l''en-tête.'
       logo_enabled_label: 'Activer le logo personnalisé'
       logo_svg_help: 'Transférer un logo SVG personnalisé pour votre forum.'
       logo_svg_label: 'Logo SVG'
+      new_discussion_composer_default: 'Par défaut — s''ouvre à la place du champ, sans effet'
+      new_discussion_composer_floating: 'Flottant — le champ se déplace vers le bas de l''écran (redimensionnable, se réduit en bulle)'
+      new_discussion_composer_help: 'Comment le compositeur s''ouvre à partir du champ « Dites-le à tout le monde… » sur la page d''accueil et sur /discussions.'
+      new_discussion_composer_inline: 'En place, avec effet — le champ se transforme en compositeur'
+      new_discussion_composer_label: 'Compositeur pour les nouvelles discussions'
       popular_heading_label: 'Titre des discussions populaires'
       post_badge_position_below: 'Sous le nom d''utilisateur (ligne séparée)'
       post_badge_position_default: 'Par défaut Flarum (désactivé — disque au-dessus de l''avatar)'
@@ -136,6 +153,10 @@ ramon-avocado:
       post_cta_position_label: 'Position de l''invitation (après quel numéro de message)'
       presence_enabled_help: 'Indicateur en temps réel « N personnes lisent actuellement » dans le bandeau de la discussion, avec les avatars des lecteurs. Nécessite l''extension Realtime ; les utilisateurs ayant désactivé l''option « afficher en ligne » ne sont jamais listés.'
       presence_enabled_label: 'Afficher qui lit une discussion'
+      reply_dock_help: 'Affiche une bulle « Écrire une réponse… » en bas de l’écran tout au long de la discussion, alignée avec les messages. Les invités voient une invitation à se connecter. Lorsque cette option est désactivée, le compositeur et la zone de réponse à la fin de la discussion reprennent l’apparence par défaut de Flarum.'
+      reply_dock_label: 'Bulle de réponse flottante'
+      reply_to_header_help: 'Un message qui commence par une mention d''un autre message affiche la mention « En réponse à » avec l''avatar de l''auteur sous son nom, et la mention reste en début de texte. En passant la souris dessus, le message d''origine est mis en surbrillance ; en cliquant dessus, vous y accédez directement. Les mentions situées ailleurs dans le texte, les mentions d''utilisateurs et les citations restent inchangées.'
+      reply_to_header_label: 'Afficher « En réponse à » dans les réponses'
       search_clear: 'Effacer la recherche'
       search_empty: 'Aucun paramètre trouvé.'
       search_placeholder: 'Rechercher des paramètres…'
@@ -153,6 +174,8 @@ ramon-avocado:
       section_hero_image_tags: 'Image du bandeau des discussions'
       section_home_banner: Bannière
       section_home_categories: 'Catégories mises en avant'
+      section_home_composer: 'Nouvelle discussion'
+      section_home_feed: 'Liste de discussions'
       section_homepage: 'Page d''accueil'
       section_logo: Logo
       section_online: 'Utilisateurs en ligne'
@@ -315,6 +338,11 @@ ramon-avocado:
       types_label: 'Filtrer par type'
       version_label: Version
       version_placeholder: 'Version (p. ex. v2.4.0)'
+    composer:
+      guest_pill: 'Se connecter pour répondre'
+      hide_preview: 'Masquer la prévisualisation'
+      remove_reply: 'Supprimer la réponse'
+      resize_handle: 'Faites glisser pour redimensionner · tirez vers le bas pour réduire'
     discussion:
       hero_image_add: 'Ajouter une image'
       hero_image_remove: 'Supprimer l''image'
@@ -366,6 +394,7 @@ ramon-avocado:
       discussions: discussions
       filter_tags: 'Filtrer les étiquettes'
       following_heading: Abonné
+      latest_heading: 'Dernières discussions'
       like: 'J''aime'
       like_count_plural: '{count} « J''aime »'
       like_count_singular: '1 « J''aime »'
@@ -414,6 +443,10 @@ ramon-avocado:
       online: 'en ligne'
     post:
       copy_code: 'Copier le code'
+      gallery_count: '{count} photos'
+      gallery_next: 'Photos suivantes'
+      gallery_prev: 'Photos précédentes'
+      in_reply_to: 'En réponse à'
       op_badge: AO
     post_cta:
       or: ou
@@ -477,6 +510,10 @@ ramon-avocado:
       not_found: 'Étiquette introuvable.'
       other_tags_label: 'Autres étiquettes'
       title: Catégories
+    tags_modal:
+      cancel: Annuler
+      save: Enregistrer
+      title: 'Modifier les étiquettes'
     team:
       disabled: 'Cette page n''est pas disponible.'
       discussions: discussions
