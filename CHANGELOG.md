@@ -14,7 +14,10 @@ CHANGELOG
 
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) (1 added, 1 changed, 100% complete)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (3 added, 1 changed, 100% complete)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (2 added, 100% complete)
 * [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (4 added, 100% complete)
+* [`linkrobins/support`](https://github.com/linkrobins/support) (7 added, 68% complete)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (35 added, 100% complete)
 
 
 All changes: [5.0.13...5.0.14](https://github.com/flarum-lang/french/compare/5.0.13...5.0.14).
