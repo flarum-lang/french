@@ -193,6 +193,7 @@ fof-anti-spam:
       process_button: Procéder
       report_to_sfs_help: 'Les données de base de l''utilisateur (nom d''utilisateur, adresse de courriel, adresse IP) seront signalées à StopForumSpam. Cela empêchera l''utilisateur de s''inscrire sur d''autres forums utilisant le service StopForumSpam.'
       report_to_sfs_label: 'Signaler à StopForumSpam'
+      success: '{username} a été marqué comme indésirable.'
       title: 'Marquer {username} comme indésirable'
     user_controls:
       spammer_button: Indésirable
