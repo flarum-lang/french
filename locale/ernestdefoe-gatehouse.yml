@@ -4,9 +4,16 @@
 
 ernestdefoe-gatehouse:
   admin:
+    allow: 'Les laisser entrer automatiquement'
     allow_help: 'Un par ligne. Un domaine (uni-freiburg.de, incluant ses sous-domaines), un domaine exact (@staff.example.org), une terminaison (.edu), un caractère générique (*@example.com) ou une expression régulière entre barres obliques. Tous les autres sont mis en attente. Laissez ce champ vide pour approuver manuellement chaque nouveau membre.'
+    declined_message: 'Texte supplémentaire destiné aux membres dont l''inscription a été rejetée'
+    declined_message_help: 'Ce texte sera ajouté au courriel envoyé lorsque vous refusez une demande. Laissez ce champ vide pour utiliser la formulation par défaut.'
+    deny: 'Les refuser catégoriquement'
+    deny_help: 'Mêmes modèles. Ces adresses ne peuvent absolument pas s''inscrire, et le formulaire l''indique clairement.'
     enabled: 'Mettre en attente les nouvelles inscriptions pour approbation'
     enabled_help: 'Les membres existants ne sont jamais affectés. Les administrateurs qui ajoutent des membres manuellement ne sont jamais retenus.'
+    held_message: 'Texte supplémentaire destiné aux membres dont l''inscription est en attente d''approbation'
+    held_message_help: 'Ajoute au courriel la mention « Nous avons bien reçu votre inscription ». Précisez ce que vous attendez d''eux, par exemple : « veuillez répondre en indiquant votre numéro d''étudiant ».'
     messages_heading: Courriels
     queue:
       approve: Approuver
@@ -22,12 +29,31 @@ ernestdefoe-gatehouse:
       tab_pending: 'En attente'
     queue_heading: 'En attente d''approbation'
     reserved_usernames: 'Noms d''utilisateur réservés'
+    reserved_usernames_help: 'Un par ligne. Seuls les administrateurs peuvent s''inscrire avec ces identifiants, ou se renommer ainsi ultérieurement. La casse n''a pas d''importance. Utilisez * comme caractère générique (admin*, *modérateur*) ou une expression régulière entre barres obliques. Fonctionne que les inscriptions soient soumises à approbation ou non.'
     rules_heading: Règles
     usernames_heading: 'Noms d''utilisateur'
   email:
     admin_new:
       body: "{applicant} ({email}) s'est inscrit(e) et attend l'approbation.\n\nApprouver ou refuser sa demande ici :\n\n{url}\n"
+      subject: '{applicant} attend de pouvoir rejoindre {forum}'
+    approved:
+      body: "Votre compte {forum} a été approuvé. Vous pouvez désormais vous connecter :\n\n{url}\n"
+      subject: 'Bienvenue sur {forum} : votre compte a été approuvé'
+    approved_activate:
+      body: "Votre compte {forum} a été approuvé. Confirmez votre adresse courriel en cliquant sur ce lien et vous pourrez accéder au forum :\n\n{url}\n"
+      subject: 'Bienvenue sur {forum} : votre compte a été approuvé'
+    declined:
+      body: "Merci de l'intérêt que vous portez à {forum}. Votre compte n'a pas été validé ; vous ne pouvez donc pas vous connecter avec celui-ci.\n\n{message}\n"
+      subject: 'Votre compte {forum}'
+    held:
+      body: "Merci de vous être inscrit sur {forum}. Les nouveaux comptes sont approuvés manuellement ; un administrateur examinera donc le vôtre sous peu. Vous recevrez un autre e-mail dès que ce sera fait.\n\n{message}\n"
+      subject: 'Votre compte {forum} est en attente d''approbation'
   forum:
     notice_declined: 'Votre compte n''a pas été approuvé, il ne peut donc pas être utilisé sur ce forum.'
     notice_pending: 'Merci beaucoup pour votre inscription ! Un administrateur doit valider votre compte avant que vous puissiez publier des messages. Nous vous enverrons un e-mail dès que ce sera fait.'
     notification: '{name} s''est inscrit(e) et attend votre approbation'
+  lib:
+    refused: 'Les inscriptions à partir de cette adresse e-mail ne sont pas acceptées sur ce forum.'
+    signin_declined: 'Ce compte n''a pas été approuvé, il ne peut donc pas être utilisé sur ce forum.'
+    signin_pending: 'Votre compte est en attente d''approbation par un administrateur. Nous vous enverrons un e-mail dès qu''il sera prêt.'
+    username_reserved: 'Ce nom d''utilisateur n''est pas disponible. Veuillez en choisir un autre.'
