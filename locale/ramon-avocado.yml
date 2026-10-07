@@ -541,5 +541,7 @@ ramon-avocado:
       view_profile: 'Voir le profil'
     wiki:
       style_default: 'Par défaut'
+      style_default_help: 'Sommaire à droite, la mise en page propre au wiki.'
       style_label: Conception
       style_manual: Manuel
+      style_manual_help: 'Sommaire à gauche, grand titre et chapeau.'
