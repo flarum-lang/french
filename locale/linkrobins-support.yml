@@ -105,11 +105,17 @@ linkrobins-support:
       max_general_per_window: 'Nombre maximal de tickets par période'
       max_general_per_window_help: 'Nombre de tickets qu''un utilisateur peut ouvrir pendant la période indiquée ci-dessous.'
     saved_replies:
+      delete_button: Supprimer
       edit_button: Modifier
       empty: 'Aucune réponse enregistrée pour le moment.'
+      error_save: 'Impossible d''enregistrer la réponse enregistrée.'
+      field_content: Texte
+      field_position: Position
       field_title: Titre
       heading: 'Réponses enregistrées'
       new_button: 'Nouvelle réponse enregistrée'
+      submit_create: Créer
+      submit_update: 'Enregistrer les modifications'
       title_edit: 'Modifier la réponse enregistrée'
       title_new: 'Nouvelle réponse enregistrée'
     settings:
@@ -140,6 +146,7 @@ linkrobins-support:
   email:
     assigned_body: '{name} vous a affecté ce ticket d''assistance.'
     assigned_subject: 'Ticket qui vous a été affecté : {subject}'
+    confirmed_solved_body: '{name} a confirmé que son ticket était résolu et l''a clôturé.'
     fallback_ticket: 'votre ticket'
     from_a_user: 'un utilisateur'
     from_support: Assistance
@@ -149,7 +156,9 @@ linkrobins-support:
     new_ticket_body: 'Un nouveau {type} vient d''être ouvert par {name} :'
     new_ticket_subject: '[Assistance] Nouveau ticket : {subject}'
     open_ticket: 'Ouvrir le ticket'
+    reopened_by_owner_body: '{name} a réouvert le ticket.'
     status_changed_body: 'Votre ticket d''assistance a été marqué {status}.'
+    status_changed_body_generic: 'Un ticket d''assistance a été marqué comme {status}.'
     status_changed_subject: '[{subject}] marqué comme {status}'
     ticket_type_appeal: 'ticket de recours'
     ticket_type_general: ticket
