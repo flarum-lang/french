@@ -146,6 +146,7 @@ linkrobins-support:
   email:
     assigned_body: '{name} vous a affecté ce ticket d''assistance.'
     assigned_subject: 'Ticket qui vous a été affecté : {subject}'
+    awaiting_reminder_body: 'Notre équipe d''assistance attend votre réponse concernant ce ticket. Répondez dès que possible et nous reprendrons immédiatement le traitement de votre demande.'
     confirmed_solved_body: '{name} a confirmé que son ticket était résolu et l''a clôturé.'
     fallback_ticket: 'votre ticket'
     from_a_user: 'un utilisateur'
