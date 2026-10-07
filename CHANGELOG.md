@@ -20,7 +20,7 @@ CHANGELOG
 * [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (4 added, 100% complete)
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (2 added, 1 changed, 100% complete)
 * [`linkrobins/support`](https://github.com/linkrobins/support) (7 added, 68% complete)
-* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (38 added, 99% complete)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (40 added, 100% complete)
 
 
 All changes: [5.0.13...5.0.14](https://github.com/flarum-lang/french/compare/5.0.13...5.0.14).
