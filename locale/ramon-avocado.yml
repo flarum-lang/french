@@ -539,3 +539,7 @@ ramon-avocado:
       online: 'En ligne'
       posts: messages
       view_profile: 'Voir le profil'
+    wiki:
+      style_default: 'Par défaut'
+      style_label: Conception
+      style_manual: Manuel
