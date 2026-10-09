@@ -24,6 +24,12 @@ linkrobins-support:
       search_results_heading: 'Résultats de la recherche'
       unban_button: 'Lever l''interdiction de déposer un recours'
       view_banned_button: 'Afficher les utilisateurs dont le droit de déposer un recours a été suspendu'
+    auto_close:
+      days: 'Clôturer les tickets résolus après (jours)'
+      days_help: 'Le décompte commence à partir de la date de résolution du ticket ou de la dernière réponse, selon la date la plus récente. Définissez cette valeur sur 0 pour désactiver cette fonctionnalité. S''exécute une fois par heure et nécessite que le planificateur de Flarum (php flarum schedule:run) soit configuré dans cron.'
+      heading: 'Rappels et clôture automatique'
+      reminder_days: 'Rappeler au propriétaire après (jours)'
+      reminder_days_help: 'Lorsqu''un ticket est en attente d''une réponse de son propriétaire (« En attente de réponse ») depuis si longtemps sans aucune activité, celui-ci reçoit un rappel par notification et par e-mail. Une seule fois par période d''attente. Définissez cette valeur sur 0 pour désactiver cette fonctionnalité.'
     categories:
       appeal_badge: Recours
       assignee_all_staff: 'Toute l''équipe'
@@ -106,13 +112,18 @@ linkrobins-support:
       max_general_per_window_help: 'Nombre de tickets qu''un utilisateur peut ouvrir pendant la période indiquée ci-dessous.'
     saved_replies:
       delete_button: Supprimer
+      delete_confirm: 'Souhaitez-vous supprimer la réponse enregistrée « {name} » ?'
       edit_button: Modifier
       empty: 'Aucune réponse enregistrée pour le moment.'
       error_save: 'Impossible d''enregistrer la réponse enregistrée.'
       field_content: Texte
+      field_content_help: 'Inséré dans la réponse exactement tel qu''il a été écrit. Le Markdown et le BBCode fonctionnent comme dans n''importe quelle réponse.'
       field_position: Position
+      field_position_help: 'Facultatif. Les plus petits nombres viennent en premier ; les autres suivent par ordre alphabétique.'
       field_title: Titre
+      field_title_help: 'Ce que l''équipe sélectionne parmi la liste, par exemple « Nécessite l''URL de votre forum ».'
       heading: 'Réponses enregistrées'
+      intro: 'Réponses types que les membres de l''équipe peuvent insérer dans une réponse à un ticket depuis l''éditeur, puis modifier avant l''envoi. Seuls les membres de l''équipe peuvent les voir.'
       new_button: 'Nouvelle réponse enregistrée'
       submit_create: Créer
       submit_update: 'Enregistrer les modifications'
@@ -181,6 +192,9 @@ linkrobins-support:
       save_changes: 'Enregistrer les modifications'
       saving: 'Enregistrement en cours…'
       unassign: Désaffecter
+    assign:
+      load_failed: 'Impossible de charger l''équipe d''assistance.'
+      title: 'Affecter un ticket'
     common:
       date_at_time: '{date} à {time}'
       loading: 'Chargement en cours…'
@@ -236,19 +250,36 @@ linkrobins-support:
       upload: 'Impossible de transférer le fichier.'
       upload_no_files: 'Aucun fichier n''a été transféré. Veuillez réessayer.'
     index:
+      assigned_to: 'Affecté à {name}'
       deleted_badge: Supprimé
       empty: 'Aucun ticket à afficher.'
+      empty_assigned_to_me: 'Aucun ticket ouvert ne vous a été affecté.'
       empty_own: 'Aucun ticket pour le moment. Cliquez sur « Nouveau ticket » pour en ouvrir un.'
+      empty_status:
+        awaiting_response: 'Aucun ticket en attente de réponse.'
+        closed: 'Aucun ticket clôturé.'
+        in_progress: 'Aucun ticket en cours.'
+        open: 'Aucun ticket ouvert.'
+        resolved: 'Aucun ticket résolu.'
+      empty_unassigned: 'Tous les tickets ouverts ont été pris en charge.'
       filter_all: Tous
+      filter_assigned_to_me: 'Affecté à moi'
+      filter_unassigned: 'Non affecté'
       my_tickets: 'Mes tickets'
       new_ticket: 'Nouveau ticket'
       new_ticket_tooltip: 'Ouvrir un nouveau ticket'
+      no_results: 'Aucun ticket ne correspond à votre recherche.'
+      search_placeholder: 'Rechercher des tickets'
+      unassigned: 'Non affecté'
+      unread: 'Nouvelles réponses'
       untitled: 'Sans titre'
     nav: Assistance
     new_ticket: 'Nouveau ticket'
     notifications:
       assigned: '{name} vous a affecté un ticket'
       assigned_generic: 'Un ticket vous a été affecté'
+      awaiting_reminder: 'L''équipe d''assistance attend votre réponse'
+      confirmed_solved_by_owner: '{name} a confirmé que son ticket avait été résolu'
       new_appeal: '{name} a ouvert un nouveau recours'
       new_ticket: '{name} a ouvert un nouveau ticket'
       reopened_by_owner: '{name} a réouvert le ticket'
@@ -271,6 +302,7 @@ linkrobins-support:
       posting: 'Publication en cours…'
     settings:
       notify_assigned_label: 'Un ticket d''assistance m''a été affecté'
+      notify_awaiting_reminder_label: 'L''équipe d''assistance attend ma réponse depuis quelques jours'
       notify_new_reply_label: 'Quelqu''un répond à mon ticket'
       notify_new_ticket_label: 'Un nouveau ticket est créé (par l''équipe)'
       notify_status_changed_label: 'Le statut d''un ticket d''assistance change'
