@@ -16,10 +16,11 @@ CHANGELOG
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (1 added, 100% complete)
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) (1 added, 1 changed, 100% complete)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (3 added, 1 changed, 100% complete)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (6 changed, 100% complete)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (2 added, 100% complete)
 * [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (4 added, 100% complete)
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (2 added, 1 changed, 100% complete)
-* [`linkrobins/support`](https://github.com/linkrobins/support) (17 added, 71% complete)
+* [`linkrobins/support`](https://github.com/linkrobins/support) (46 added, 79% complete)
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado) (40 added, 100% complete)
 
 
