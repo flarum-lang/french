@@ -28,12 +28,13 @@ linkrobins-support:
       days: 'Clôturer les tickets résolus après (jours)'
       days_help: 'Le décompte commence à partir de la date de résolution du ticket ou de la dernière réponse, selon la date la plus récente. Définissez cette valeur sur 0 pour désactiver cette fonctionnalité. S''exécute une fois par heure et nécessite que le planificateur de Flarum (php flarum schedule:run) soit configuré dans cron.'
       heading: 'Rappels et clôture automatique'
+      intro: 'Fermer les tickets qui restent en statut « Résolu » sans aucune nouvelle activité. Une réponse de l''une ou l''autre des parties rouvre un ticket résolu ; cela clôture donc uniquement les tickets pour lesquels personne n''a donné suite. Personne n''est notifié ; l''historique du ticket indique qu''il a été fermé automatiquement, et le propriétaire peut toujours le rouvrir.'
       reminder_days: 'Rappeler au propriétaire après (jours)'
       reminder_days_help: 'Lorsqu''un ticket est en attente d''une réponse de son propriétaire (« En attente de réponse ») depuis si longtemps sans aucune activité, celui-ci reçoit un rappel par notification et par e-mail. Une seule fois par période d''attente. Définissez cette valeur sur 0 pour désactiver cette fonctionnalité.'
     categories:
       appeal_badge: Recours
       assignee_all_staff: 'Toute l''équipe'
-      column_assignee: 'Affecté à'
+      column_assignee: 'Attribué à'
       column_name: Nom
       column_slug: 'Identifiant texte unique'
       column_tickets: Tickets
@@ -54,7 +55,7 @@ linkrobins-support:
       error_save: 'Impossible d''enregistrer la catégorie. Veuillez vérifier les champs et réessayer.'
       field_color: Couleur
       field_color_help: 'Couleur hexadécimale (p. ex. #3B82F6) utilisée pour le badge de la catégorie.'
-      field_default_assignee: 'Affecter les nouveaux tickets à'
+      field_default_assignee: 'Attribuer les nouveaux tickets à'
       field_default_assignee_error: 'Impossible de charger la liste du personnel. Le paramètre actuel reste inchangé.'
       field_default_assignee_help: 'Les nouveaux tickets dans cette catégorie sont affectés à cette personne, et elle seule en est informée. Laissez l''option sur « Personne » pour informer tous les membres de l''équipe et laisser celui qui répond en premier prendre en charge le ticket.'
       field_default_assignee_loading: 'Chargement de l''équipe…'
@@ -155,9 +156,10 @@ linkrobins-support:
     ticket_required: 'Un ticket est requis.'
     ticket_soft_delete_first: 'Un ticket doit être supprimé temporairement avant de pouvoir être définitivement supprimé.'
   email:
-    assigned_body: '{name} vous a affecté ce ticket d''assistance.'
-    assigned_subject: 'Ticket qui vous a été affecté : {subject}'
+    assigned_body: '{name} vous a attribué ce ticket d''assistance.'
+    assigned_subject: 'Ticket qui vous a été attribué : {subject}'
     awaiting_reminder_body: 'Notre équipe d''assistance attend votre réponse concernant ce ticket. Répondez dès que possible et nous reprendrons immédiatement le traitement de votre demande.'
+    awaiting_reminder_subject: '[{subject}] Dans l''attente de votre réponse'
     confirmed_solved_body: '{name} a confirmé que son ticket était résolu et l''a clôturé.'
     fallback_ticket: 'votre ticket'
     from_a_user: 'un utilisateur'
@@ -194,7 +196,9 @@ linkrobins-support:
       unassign: Désaffecter
     assign:
       load_failed: 'Impossible de charger l''équipe d''assistance.'
-      title: 'Affecter un ticket'
+      title: 'Attribuer un ticket'
+      unassign: Désattribuer
+      you: (vous)
     common:
       date_at_time: '{date} à {time}'
       loading: 'Chargement en cours…'
@@ -235,6 +239,7 @@ linkrobins-support:
       delete_ticket_forever: 'Impossible de supprimer définitivement le ticket.'
       empty_body: 'Veuillez rédiger votre message avant de l''envoyer.'
       load_more_replies: 'Impossible de charger davantage de réponses.'
+      load_more_tickets: 'Impossible de charger plus de tickets.'
       load_ticket: 'Impossible de charger ce ticket. Il a peut-être été supprimé, ou vous ne disposez peut-être pas des autorisations nécessaires pour le consulter.'
       load_tickets: 'Impossible de charger les tickets.'
       post_reply: 'Impossible de publier la réponse.'
@@ -246,14 +251,27 @@ linkrobins-support:
       unknown: 'Erreur inconnue.'
       update_assignment: 'Impossible de mettre à jour l''affectation.'
       update_decision: 'Impossible de mettre à jour la décision de recours.'
+      update_priority: 'Impossible de mettre à jour la priorité.'
       update_status: 'Impossible de mettre à jour le status.'
       upload: 'Impossible de transférer le fichier.'
       upload_no_files: 'Aucun fichier n''a été transféré. Veuillez réessayer.'
+    event:
+      assigned: '{name} a attribué ce ticket à {assignee}'
+      assigned_no_actor: 'Attribué à {assignee}'
+      auto_closed: 'Clôturé automatiquement après une période d''inactivité'
+      claimed: '{name} a réclamé ce ticket'
+      deleted_user: 'un utilisateur supprimé'
+      reassigned: '{name} a réaffecté ce ticket de {from} à {to}'
+      reassigned_no_actor: 'Réaffecté de {from} à {to}'
+      status_changed: '{name} a modifié le statut de {from} à {to}'
+      status_changed_no_actor: 'Statut modifié de {from} à {to}'
+      unassigned: '{name} a désaffecté {assignee}'
+      unassigned_no_actor: '{assignee} a été désaffecté'
     index:
-      assigned_to: 'Affecté à {name}'
+      assigned_to: 'Attribué à {name}'
       deleted_badge: Supprimé
       empty: 'Aucun ticket à afficher.'
-      empty_assigned_to_me: 'Aucun ticket ouvert ne vous a été affecté.'
+      empty_assigned_to_me: 'Aucun ticket ouvert ne vous a été attribué.'
       empty_own: 'Aucun ticket pour le moment. Cliquez sur « Nouveau ticket » pour en ouvrir un.'
       empty_status:
         awaiting_response: 'Aucun ticket en attente de réponse.'
@@ -263,21 +281,21 @@ linkrobins-support:
         resolved: 'Aucun ticket résolu.'
       empty_unassigned: 'Tous les tickets ouverts ont été pris en charge.'
       filter_all: Tous
-      filter_assigned_to_me: 'Affecté à moi'
-      filter_unassigned: 'Non affecté'
+      filter_assigned_to_me: 'Attribué à moi'
+      filter_unassigned: 'Non attribué'
       my_tickets: 'Mes tickets'
       new_ticket: 'Nouveau ticket'
       new_ticket_tooltip: 'Ouvrir un nouveau ticket'
       no_results: 'Aucun ticket ne correspond à votre recherche.'
       search_placeholder: 'Rechercher des tickets'
-      unassigned: 'Non affecté'
+      unassigned: 'Non attribué'
       unread: 'Nouvelles réponses'
       untitled: 'Sans titre'
     nav: Assistance
     new_ticket: 'Nouveau ticket'
     notifications:
-      assigned: '{name} vous a affecté un ticket'
-      assigned_generic: 'Un ticket vous a été affecté'
+      assigned: '{name} vous a attribué un ticket'
+      assigned_generic: 'Un ticket vous a été attribué'
       awaiting_reminder: 'L''équipe d''assistance attend votre réponse'
       confirmed_solved_by_owner: '{name} a confirmé que son ticket avait été résolu'
       new_appeal: '{name} a ouvert un nouveau recours'
@@ -288,6 +306,9 @@ linkrobins-support:
       someone: 'Un utilisateur'
       status_changed: 'Votre ticket a été marqué {status}'
       status_changed_generic: 'Un ticket a été marqué {status}'
+    priority:
+      low: 'Faible priorité'
+      urgent: Urgent
     reply:
       deleted_notice: 'Cette réponse a été supprimée.'
       discard_confirm: 'Vous avez des modifications non enregistrées. Souhaitez-vous les abandonner ?'
@@ -300,25 +321,73 @@ linkrobins-support:
       placeholder: Répondre…
       post_reply: 'Publier la réponse'
       posting: 'Publication en cours…'
+      saved_replies: 'Réponses enregistrées'
     settings:
-      notify_assigned_label: 'Un ticket d''assistance m''a été affecté'
+      notify_assigned_label: 'Un ticket d''assistance m''a été attribué'
       notify_awaiting_reminder_label: 'L''équipe d''assistance attend ma réponse depuis quelques jours'
       notify_new_reply_label: 'Quelqu''un répond à mon ticket'
       notify_new_ticket_label: 'Un nouveau ticket est créé (par l''équipe)'
       notify_status_changed_label: 'Le statut d''un ticket d''assistance change'
     show:
       assigned_to: 'Affecté à'
+      assigned_to_name: 'Attribué à {name}'
       cannot_reply: 'Vous ne pouvez pas répondre à ce ticket.'
       closed_badge: 'Ticket clôturé'
       closed_notice: 'Ce ticket a été clôturé, il n''est plus possible d''y répondre.'
+      confirm_solved_no: 'Non, j''ai encore besoin d''aide'
+      confirm_solved_prompt: 'Ce ticket a été marqué comme « résolu ». Cela a-t-il résolu votre problème ?'
+      confirm_solved_yes: 'Oui, clôturez-le'
       decision: 'Décision :'
       deleted_badge: Supprimé
       opened_by: 'Ouvert par'
       title: Ticket
-      unassigned: 'Non affecté'
+      unassigned: 'Non attribué'
     staff:
+      change_decision: 'Modifier la décision relative au recours'
+      change_status: 'Modifier le statut'
       set_decision: 'Décision :'
       set_status: 'Définir le statut :'
+    stats:
+      auto: 'Clôturé automatiquement'
+      backlog: 'Nombre actuel de tickets'
+      by_staff: 'Clôturé par l''équipe'
+      closed: 'Tickets clôturés'
+      col_first: 'Premier à répondre'
+      col_first_time: 'Première réponse typique'
+      col_period: Période
+      col_replies: Réponses
+      col_tickets: Tickets
+      confirmed: 'Confirmé par le propriétaire'
+      days: '{count} jours'
+      endings: 'Comment les tickets résolus ont été clôturés'
+      first_response: 'Première réponse'
+      first_response_slow: 'Première réponse la plus lente'
+      footnote: 'L''historique des statuts est enregistré à partir de cette version ; ainsi, le délai de résolution et la manière dont les tickets ont été clôturés seront renseignés au fur et à mesure que de nouveaux tickets seront traités.'
+      hours: '{count} h'
+      legend_closed: Clôturé
+      legend_opened: Ouvert
+      load_failed: 'Impossible de charger les statistiques.'
+      median_note: 'typique (médiane) et dixième le plus lent'
+      minutes: '{count} min'
+      n_days: '{count} jours'
+      no_endings: 'Aucun clôture au cours de cette période.'
+      no_people: 'Aucune réponse de l''équipe au cours de cette période.'
+      older_3: 'Sur trois jours'
+      older_7: 'Sur 7 jours'
+      opened: 'Tickets ouverts'
+      people: 'Par un membre de l''équipe'
+      period_summary: '{period} : {opened} ouvert, {closed} clôturé'
+      range: Période
+      resolve_slow: 'Résolution la plus lente'
+      show_table: 'Afficher sous forme de tableau'
+      speed: 'Temps de réponse'
+      still_waiting: 'Toujours en attente de réponse'
+      time_to_resolve: 'Délai pour résoudre'
+      title: 'Statistiques d''assistance'
+      unassigned: 'Non attribué'
+      volume: 'Ouvert et clôturé'
+      waiting: 'En attente'
+      week_of: 'Semaine du {date}'
     status:
       awaiting_response: 'En attente'
       closed: Clôturé
@@ -327,8 +396,12 @@ linkrobins-support:
       resolved: Résolu
     submit_ticket: 'Envoyer le ticket'
     ticket:
+      assign: Attribuer…
       delete: 'Supprimer le ticket'
       mod_actions: 'Actions de modération des tickets'
+      priority_low: 'Marquer comme faible priorité'
+      priority_normal: 'Priorité normale'
+      priority_urgent: 'Marquer comme urgent'
       restore: 'Restaurer le ticket'
     user_controls:
       allow_appeals: 'Autoriser les recours'
