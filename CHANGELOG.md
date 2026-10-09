@@ -20,7 +20,7 @@ CHANGELOG
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (2 added, 100% complete)
 * [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (4 added, 100% complete)
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (2 added, 1 changed, 100% complete)
-* [`linkrobins/support`](https://github.com/linkrobins/support) (46 added, 79% complete)
+* [`linkrobins/support`](https://github.com/linkrobins/support) (116 added, 8 changed, 100% complete)
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado) (40 added, 100% complete)
 
 
