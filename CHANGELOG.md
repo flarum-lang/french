@@ -2,6 +2,42 @@ CHANGELOG
 =========
 
 
+5.0.14 (XXXX-XX-XX)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations (17 added).
+
+
+**Added support for new extensions**:
+
+* [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (100% complete)
+* [`flarum/deck`](https://github.com/flarum/deck) (100% complete)
+* [`fof/mark-unread`](https://github.com/FriendsOfFlarum/mark-unread) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/messages`](https://github.com/flarum/messages) (16 added, 2 changed, 96% complete)
+* [`flarum/realtime`](https://github.com/flarum/realtime) (2 added, 100% complete)
+* [`flarum/tags`](https://github.com/flarum/tags) (3 added, 1 changed, 100% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (1 added, 100% complete)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) (1 added, 1 changed, 100% complete)
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon) (1 changed, 100% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (3 added, 1 changed, 100% complete)
+* [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget) (1 added, 100% complete)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (6 changed, 100% complete)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (2 added, 100% complete)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (4 added, 100% complete)
+* [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (2 added, 1 changed, 100% complete)
+* [`linkrobins/support`](https://github.com/linkrobins/support) (117 added, 8 changed, 100% complete)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (40 added, 100% complete)
+
+
+All changes: [5.0.13...5.0.14](https://github.com/flarum-lang/french/compare/5.0.13...5.0.14).
+
+
 5.0.13 (2026-09-30)
 -------------------
 
