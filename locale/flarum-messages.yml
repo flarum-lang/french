@@ -2,17 +2,32 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-messages/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      dialog:
+        posted: 'A envoyé un message privé à {username}'
+        started: 'A commencé une conversation privée avec {username}'
+flarum-gdpr:
+  lib:
+    data:
+      messages:
+        anonymize_description: 'Les adresses à partir desquelles vos messages privés ont été envoyés sont supprimées. Les messages sont conservés.'
+        delete_description: 'Vos messages privés ont été supprimés.'
+        export_description: 'Vos messages privés, avec la date et l''heure d''envoi ainsi que l''adresse d''où ils proviennent.'
 flarum-messages:
   admin:
     permissions:
       delete_own_messages_label: 'Supprimer ses propres messages'
       send_messages_label: 'Envoyer des messages privés'
+      send_without_throttle_label: 'Envoyer des messages sans limitation de débit'
+      view_ips_label: 'Afficher les adresses IP des messages'
   email:
     message_received:
       html:
-        body: '{user_display_name} vous a envoyé un [nouveau message]({url}).'
+        body: "{user_display_name} vous a envoyé un [nouveau message]({url}).\n\nVous ne recevrez plus de courriels concernant cette conversation tant que vous ne l'aurez pas lue.\n"
       plain:
-        body: "{user_display_name} vous a envoyé un nouveau message.\n\n{url}\n\n---\n\n{content}\n"
+        body: "{user_display_name} vous a envoyé un nouveau message.\n\n{url}\n\n---\n\n{content}\n\n---\n\nVous ne recevrez plus de courriels concernant cette conversation tant que vous ne l'aurez pas lue.\n"
       subject: '{user_display_name} vous a envoyé un message'
   forum:
     composer:
@@ -24,7 +39,9 @@ flarum-messages:
     dialog_list:
       load_more_button: '=> core.ref.load_more'
       mark_as_read_tooltip: 'Marquer comme lue'
+      own_last_message_preview: 'Vous : {content}'
       title: Messages
+      unread_count_text: '{count} non lus'
       view_all: 'Afficher tous les messages'
     dialog_section:
       back_label: 'Revenir en arrière'
@@ -65,7 +82,11 @@ flarum-messages:
     notifications:
       message_received_text: '{user} vous a envoyé un message'
     recipient_selection_modal:
+      cannot_reply_text: 'Impossible de répondre aux messages'
       title: 'Sélectionnez les destinataires de ce message'
+    search_source:
+      conversation_with: 'Conversation avec {username}'
+      heading: Messages
     settings:
       notify_message_received_label: 'Quelqu''un m''a envoyé un message'
     user_controls:
@@ -74,3 +95,6 @@ flarum-messages:
   lib:
     dialog:
       title: 'Messagerie {username}'
+    no_other_members_message: 'Il n''y a personne d''autre dans cette conversation.'
+    recipient_cannot_reply_message: '{username} ne peut pas répondre aux messages.'
+    recipient_unavailable_message: '{username} ne peut pas recevoir de messages.'

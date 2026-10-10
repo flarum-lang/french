@@ -190,10 +190,16 @@ core:
     dashboard:
       clear_cache_button: 'Effacer le cache'
       clear_cache_modal:
+        chunks: 'Reconstruction des blocs fractionnés pour {frontend} ({count} modifié(s))'
         cleared: '{name} a été effacé'
         cleared_files: '{name} a été effacé ({count} fichiers)'
         empty: '{bundle} n''a rien à compiler'
+        failed: 'Impossible de reconstruire {step} : {message}'
+        rebuilt: '{bundle} a été reconstruit'
+        reload_button: Actualiser
+        rewritten: '{bundle} a été réécrit'
         title: 'Effacer le cache'
+        took: '{time} ms'
         unchanged: '{bundle} était déjà à jour'
         working: 'Reconstruction des ressources compilées. Cela peut prendre un certain temps sur les forums de grande taille.'
       description: 'Votre forum en un coup d''œil.'
@@ -399,6 +405,7 @@ core:
       delete_posts_forever_label: 'Supprimer définitivement les messages'
       delete_posts_label: 'Supprimer les messages'
       description: 'Configurez qui peut voir et faire quoi.'
+      edit_own_avatar_label: 'Modifier son avatar'
       edit_posts_label: 'Modifier les messages'
       edit_users_credentials_label: 'Modifier les identifiants de l''utilisateur'
       edit_users_groups_label: 'Modifier les groupes d''utilisateurs'
