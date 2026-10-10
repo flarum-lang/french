@@ -43,6 +43,7 @@ flarum-deck:
     column_types:
       all: 'Toutes les discussions'
       discussion: 'Une discussion'
+      filter: 'Filtres personnalisés'
       typing: 'Activité de saisie'
     discussion_controls:
       add_to_deck_button: 'Ajouter au deck'
