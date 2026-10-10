@@ -13,7 +13,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (100% complete)
-* [`flarum/deck`](https://github.com/flarum/deck) (80% complete)
+* [`flarum/deck`](https://github.com/flarum/deck) (85% complete)
 * [`fof/mark-unread`](https://github.com/FriendsOfFlarum/mark-unread) (100% complete)
 
 
@@ -30,7 +30,7 @@ CHANGELOG
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (2 added, 100% complete)
 * [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (4 added, 100% complete)
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (2 added, 1 changed, 100% complete)
-* [`linkrobins/support`](https://github.com/linkrobins/support) (116 added, 8 changed, 100% complete)
+* [`linkrobins/support`](https://github.com/linkrobins/support) (116 added, 8 changed, 99% complete)
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado) (40 added, 100% complete)
 
 
