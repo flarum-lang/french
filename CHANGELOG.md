@@ -7,7 +7,7 @@ CHANGELOG
 
 **General changes**:
 
-* Updated Flarum core translations (10 added).
+* Updated Flarum core translations (17 added).
 
 
 **Added support for new extensions**:
@@ -18,6 +18,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`flarum/messages`](https://github.com/flarum/messages) (15 added, 2 changed, 95% complete)
 * [`flarum/realtime`](https://github.com/flarum/realtime) (2 added, 100% complete)
 * [`flarum/tags`](https://github.com/flarum/tags) (3 added, 100% complete)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (1 added, 100% complete)
