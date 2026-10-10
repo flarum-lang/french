@@ -18,7 +18,10 @@ flarum-deck:
       back_button: Retour
       discussion_label: Discussion
       discussion_placeholder: 'Rechercher une discussion'
+      filter_help: 'Combinez les filtres de recherche, tels que « étiquette: », « auteur: », « est:non lue » ou « est:suivie ». Les mots simples ne sont pas pris en charge.'
+      filter_invalid_message: 'Utilisez uniquement des filtres, tels que « étiquette:support est:non lue ». Les mots simples ne sont pas pris en charge.'
       filter_label: Filtres
+      filter_placeholder: 'p. ex. étiquette:support est:non lue'
       group_invalid_message: 'Choisir un groupe.'
       group_label: Groupe
       in_deck_badge: 'Dans votre deck'
@@ -48,6 +51,7 @@ flarum-deck:
       discussion: 'Une discussion'
       filter: 'Filtres personnalisés'
       typing: 'Activité de saisie'
+      unread: 'Non lu'
     discussion_controls:
       add_to_deck_button: 'Ajouter au deck'
       added_message: 'Cette discussion est désormais une colonne dans votre deck.'

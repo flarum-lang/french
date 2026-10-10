@@ -264,6 +264,7 @@ linkrobins-support:
       reassigned: '{name} a réaffecté ce ticket de {from} à {to}'
       reassigned_no_actor: 'Réaffecté de {from} à {to}'
       status_changed: '{name} a modifié le statut de {from} à {to}'
+      status_changed_automatically: 'Le statut est passé automatiquement de {from} à {to}'
       status_changed_no_actor: 'Statut modifié de {from} à {to}'
       unassigned: '{name} a désaffecté {assignee}'
       unassigned_no_actor: '{assignee} a été désaffecté'

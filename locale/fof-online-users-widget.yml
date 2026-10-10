@@ -13,4 +13,5 @@ fof-online-users-widget:
   forum:
     widget:
       empty: 'Aucun utilisateur n''est actuellement en ligne.'
+      more: '{count, plural, one {# autre utilisateur en ligne} other {# autres utilisateurs en ligne}}'
       title: 'Utilisateurs en ligne'
