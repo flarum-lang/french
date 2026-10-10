@@ -35,13 +35,16 @@ flarum-deck:
       move_right_button: 'Déplacer vers la droite'
       move_to_bottom_row_button: 'Basculer vers la rangée inférieure'
       move_to_top_row_button: 'Basculer vers la rangée supérieure'
-      open_discussion_button: 'Ouvrir une discussion'
+      open_discussion_button: 'Ouvrir discussion'
       refresh_button: Actualiser
       remove_button: 'Supprimer la colonne'
       reset_width_button: 'Réinitialiser la largeur'
       resize_label: 'Redimensionner {title}'
     column_types:
       all: 'Toutes les discussions'
+      author: 'Discussions d''un membre'
+      author_posts: 'Messages d''un membre'
+      author_posts_title: 'Messages de {username}'
       discussion: 'Une discussion'
       filter: 'Filtres personnalisés'
       typing: 'Activité de saisie'
@@ -61,6 +64,7 @@ flarum-deck:
         hide_label: 'Masquer cette introduction'
         subtitle: 'Suivez toutes les conversations qui vous intéressent, côte à côte et en temps réel. Ajoutez des colonnes, faites-les glisser pour les positionner, puis organisez-les sur deux rangées maximum.'
       navigator_label: Colonnes
+      options_label: 'Options de deck'
       reset_button: 'Réinitialiser les colonnes'
       reset_confirmation: 'Voulez-vous remplacer vos colonnes par celles de la configuration par défaut ? Cette action est irréversible.'
       resize_rows_label: 'Redimensionner les lignes'
