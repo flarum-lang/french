@@ -69,6 +69,10 @@ flarum-tags:
       title: 'Sélectionnez les étiquettes de votre discussion'
     composer_discussion:
       choose_tags_link: '=> flarum-tags.ref.choose_tags'
+    deck:
+      column_label: Étiquette
+      tag_label: Étiquette
+      tag_placeholder: 'Rechercher une étiquette'
     discussion_controls:
       edit_tags_button: 'Modifier les étiquettes'
     header:

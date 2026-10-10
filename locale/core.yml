@@ -129,6 +129,8 @@ core:
       edit_css_button: 'Modifier le CSS personnalisé'
       edit_footer_button: '=> core.ref.custom_footer_title'
       edit_header_button: '=> core.ref.custom_header_title'
+      email_logo_heading: 'Logo du courriel'
+      email_logo_text: 'Transférez une image qui s''affichera en haut de vos courriels. Elle sera enregistrée dans un format compatible avec tous les clients de messagerie. Si vous n''en transférez pas, vos courriels afficheront une copie de votre logo. Si vos courriels affichent le titre du forum à la place de votre logo, transférez à nouveau votre logo.'
       enter_hex_message: 'Veuillez saisir un code de couleur hexadécimal.'
       favicon_heading: Favicon
       favicon_text: 'Transférez une image qui sera affichée comme icône de raccourci du forum.'
@@ -187,6 +189,13 @@ core:
       username_placeholder: '=> core.ref.username'
     dashboard:
       clear_cache_button: 'Effacer le cache'
+      clear_cache_modal:
+        cleared: '{name} a été effacé'
+        cleared_files: '{name} a été effacé ({count} fichiers)'
+        empty: '{bundle} n''a rien à compiler'
+        title: 'Effacer le cache'
+        unchanged: '{bundle} était déjà à jour'
+        working: 'Reconstruction des ressources compilées. Cela peut prendre un certain temps sur les forums de grande taille.'
       description: 'Votre forum en un coup d''œil.'
       info_button: 'Informations système'
       info_modal:
@@ -713,6 +722,7 @@ core:
       notify_discussion_renamed_label: 'Quelqu''un renomme une discussion que j''ai démarrée'
       privacy_disclose_online_label: 'Autoriser les autres à voir que je suis en ligne'
       privacy_heading: Confidentialité
+      reset_notifications_button: 'Réinitialiser les paramètres par défaut'
       title: '=> core.ref.settings'
     sign_up:
       dismiss_button: '=> core.ref.okay'
@@ -835,6 +845,8 @@ core:
         group:
           hint: 'noms de groupe au singulier ou au pluriel'
           key: groupe
+    group_selector:
+      placeholder: 'Choisir un groupe'
     index_sort:
       az_button: '=> core.ref.title_az'
       latest_button: '=> core.ref.latest'

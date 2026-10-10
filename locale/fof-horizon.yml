@@ -12,7 +12,7 @@ fof-horizon:
       mail_help: "Contrôlez le nombre de courriels envoyés simultanément. Chaque processus envoie un\ncourriel à la fois ; il s'agit donc du nombre de messages sortants simultanés.\nRéglez cette valeur en fonction de la limite de connexions simultanées imposée par votre fournisseur de messagerie afin de ne pas\nla dépasser. Laissez ce champ vide pour conserver la valeur par défaut (1).\n"
       mail_title: 'Livraison de courriel'
       memory_limit: 'Limite de mémoire du processus maître (Mo)'
-      memory_limit_help: "Limite de mémoire pour le processus maître de supervision d'Horizon. Horizon l'augmente\nautomatiquement pour atteindre le budget le plus élevé alloué aux processus, vous n'avez donc que rarement besoin\nde la définir manuellement.\n"
+      memory_limit_help: "Limite de mémoire pour le processus maître de supervision d'Horizon : si elle est dépassée, le\nmaître redémarre automatiquement. La mémoire de chaque worker est définie par son superviseur.\n"
       supervisor_help: "Horizon exécute vos processus de file d'attente selon des profils hiérarchisés (standard, rapide,\nlong, courriels). Le nombre de processus, la mémoire et les files d'attente sont configurés pour chaque\ndéploiement via les variables d'environnement REDIS_HORIZON_*, le fichier « config.php » (sous\nla clé « horizon ») ou l'extension Horizon dans extend.php — consultez le\nfichier README de l'extension. Redémarrez Horizon après avoir modifié la configuration des processus.\n"
       supervisor_title: 'Paramètres du processus'
       trim_completed: 'Ajuster les tâches terminées'

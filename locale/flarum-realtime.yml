@@ -5,6 +5,7 @@
 flarum-realtime:
   admin:
     permission:
+      view-all-typing: 'Voir qui est en train de taper n''importe où sur le forum'
       view-who-types: 'Voir qui est en train d''écrire'
     settings:
       index-typing-indicator: 'Indicateur de saisie dans la liste de discussion'
@@ -20,6 +21,7 @@ flarum-realtime:
       typing-indicator: 'Indicateur de saisie'
       typing-indicator-help: 'Lorsque cette option est activée, et sous réserve des permissions accordées, les utilisateurs peuvent voir le nombre d''autres utilisateurs qui sont en train d''écrire dans une discussion. Lorsqu''elle est désactivée, l''activité de saisie est supprimée à la fois de l''interface utilisateur et de la charge utile du websocket.'
   forum:
+    discussion-removed: 'Cette discussion a été supprimée.'
     index-typing:
       someone-typing: 'Quelqu''un est en train d''écrire dans cette discussion'
       someone-typing-tag: 'Quelqu''un est entrain d''écrire dans cette étiquette'
