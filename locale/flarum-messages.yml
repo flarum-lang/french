@@ -19,6 +19,7 @@ flarum-messages:
   admin:
     permissions:
       delete_own_messages_label: 'Supprimer ses propres messages'
+      message_users_without_permission_label: 'Envoyer des messages à des utilisateurs ne disposant pas de l''autorisation d''envoyer des messages'
       send_messages_label: 'Envoyer des messages privés'
       send_without_throttle_label: 'Envoyer des messages sans limitation de débit'
       view_ips_label: 'Afficher les adresses IP des messages'
