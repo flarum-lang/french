@@ -13,6 +13,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (100% complete)
+* [`flarum/deck`](https://github.com/flarum/deck) (53% complete)
 * [`fof/mark-unread`](https://github.com/FriendsOfFlarum/mark-unread) (100% complete)
 
 
