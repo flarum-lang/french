@@ -5,6 +5,11 @@ CHANGELOG
 5.0.14 (XXXX-XX-XX)
 -------------------
 
+**General changes**:
+
+* Updated Flarum core translations (10 added).
+
+
 **Added support for new extensions**:
 
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (100% complete)
@@ -13,8 +18,11 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`flarum/realtime`](https://github.com/flarum/realtime) (2 added, 100% complete)
+* [`flarum/tags`](https://github.com/flarum/tags) (3 added, 100% complete)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (1 added, 100% complete)
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) (1 added, 1 changed, 100% complete)
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon) (1 changed, 100% complete)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (3 added, 1 changed, 100% complete)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (6 changed, 100% complete)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (2 added, 100% complete)
