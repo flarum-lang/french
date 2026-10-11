@@ -99,3 +99,8 @@ flarum-messages:
     no_other_members_message: 'Il n''y a personne d''autre dans cette conversation.'
     recipient_cannot_reply_message: '{username} ne peut pas répondre aux messages.'
     recipient_unavailable_message: '{username} ne peut pas recevoir de messages.'
+flarum-statistics:
+  admin:
+    statistics:
+      dialog_replies_heading: 'Réponses MP'
+      dialogs_heading: 'MP démarré'

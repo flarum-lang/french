@@ -16,6 +16,9 @@ fof-oauth:
       disable_avatars_label: 'Désactiver les avatars du fournisseur'
       fullscreen_popup_help: 'Lorsque cette option est activée, la connexion OAuth s''ouvre dans une fenêtre contextuelle plein écran. Si cette option est activée, les paramètres de largeur et de hauteur seront ignorés.'
       fullscreen_popup_label: 'Utiliser une fenêtre contextuelle plein écran pour OAuth'
+      oauth_only_help: "Si cette option est activée, les membres ne peuvent plus se connecter, s'inscrire ou réinitialiser leur mot de passe à l'aide d'un mot de passe ; ils doivent utiliser les fournisseurs activés à la place. Les administrateurs conservent la connexion par mot de passe, via le lien « Connexion administrateur » dans la fenêtre modale de connexion. Les membres existants qui ne sont pas associés à un fournisseur sont associés à celui-ci lors de leur première connexion via ce fournisseur, à condition que ce dernier confirme la même adresse courriel ; toute autre personne devra faire appel à un administrateur. Cette option n'a aucun effet tant qu'aucun fournisseur n'est activé. Veillez à ce que l'option « Inscription » reste réglée sur « Ouverte » dans les autorisations, sinon les nouveaux membres ne pourront pas non plus s'inscrire via un fournisseur d'authentification.\n"
+      oauth_only_label: 'Autoriser uniquement la connexion et l''inscription via des fournisseurs OAuth'
+      oauth_only_sign_up_closed_warning: 'L''inscription est définie sur « Fermée » dans <a>Autorisations</a>. Flarum utilise également ce paramètre pour les inscriptions via des fournisseurs ; par conséquent, personne ne peut s''inscrire tant que cette option est activée.'
       only_icons_label: 'Afficher uniquement les icônes du bouton de connexion (disposition alternative)'
       popup_height_help: 'Définit la hauteur de la fenêtre contextuelle d''OAuth. Ce paramètre sera ignoré si l''option « Utiliser une fenêtre contextuelle plein écran pour OAuth » est activée.'
       popup_height_label: 'Hauteur de la fenêtre contextuelle d''OAuth'
@@ -73,7 +76,9 @@ fof-oauth:
       bad_verification_code: 'Jeton de vérification invalide ou expiré. Veuillez réessayer.'
       invalid_state: 'État invalide. Veuillez réessayer.'
     log_in:
+      admin_log_in_link: 'Se connecter en tant qu''administrateur'
       unverified_email_in_use: '{provider} n''a pas confirmé cette adresse de courriel ; nous ne pouvons donc pas l''utiliser pour vous connecter. Si vous possédez déjà un compte, connectez-vous ci-dessous, puis associez {provider} depuis les paramètres de votre compte.'
+      unverified_email_in_use_oauth_only: '{provider} n''a pas confirmé cette adresse de courriel ; nous ne pouvons donc pas l''utiliser pour vous connecter. Si vous possédez déjà un compte, connectez-vous ci-dessous, puis associez {provider} depuis les paramètres de votre compte.'
       with_button: 'Se connecter avec {provider}'
       with_discord_button: '=> fof-oauth.forum.log_in.with_button'
       with_facebook_button: '=> fof-oauth.forum.log_in.with_button'

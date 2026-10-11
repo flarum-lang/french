@@ -2,6 +2,20 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-polls/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      poll:
+        created: 'A créé le sondage {title}'
+        deleted: 'A supprimé le sondage {title}'
+        published: 'A publié le sondage {title}'
+        unpublished: 'A dépublié le sondage {title}'
+        updated: 'A mis à jour le sondage {title}'
+        voted: 'A voté au sondage {title}'
+      poll_group:
+        created: 'A créé le groupe de sondages {name}'
+        deleted: 'A supprimé le groupe de sondages {name}'
+        updated: 'A mis à jour le groupe de sondages {name}'
 fof-polls:
   admin:
     permissions:
@@ -102,6 +116,7 @@ fof-polls:
         label: 'Image de la réponse au sondage'
       public_poll_label: 'Autoriser les utilisateurs de voir qui a voté'
       question_placeholder: Question
+      settings_label: Vote
       submit: Envoyer
       subtitle_placeholder: 'Sous-titre ou description (facultatif)'
       tooltip:
@@ -154,7 +169,10 @@ fof-polls:
         add_title: 'Ajouter un groupe de sondages'
         delete: 'Supprimer le groupe de sondages'
         edit_title: 'Modifier le groupe de sondages'
+        error: 'Une erreur s''est produite lors de l''enregistrement du groupe de sondages. Veuillez contacter un administrateur.'
         groups_manager: 'Gestionnaire de groupes de sondages'
+        name_label: Nom
+        name_required: 'Un groupe de sondages doit avoir un nom.'
         save_changes: '=> core.ref.save_changes'
         success: 'Le groupe de sondages a été enregistré avec succès.'
         view_group: 'Voir le groupe de sondages'
