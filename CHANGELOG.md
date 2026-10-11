@@ -25,7 +25,7 @@ CHANGELOG
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (1 added, 100% complete)
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) (1 added, 1 changed, 100% complete)
 * [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon) (1 changed, 100% complete)
-* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (3 added, 1 changed, 100% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (3 added, 1 changed, 94% complete)
 * [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget) (1 added, 100% complete)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (6 changed, 100% complete)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (2 added, 100% complete)
