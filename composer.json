@@ -20,7 +20,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "5.x-dev"
+            "dev-master": "4.x-dev"
         },
         "flarum-extension": {
             "title": "French",
