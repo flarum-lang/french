@@ -19,15 +19,17 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`flarum/messages`](https://github.com/flarum/messages) (16 added, 2 changed, 96% complete)
+* [`flarum/messages`](https://github.com/flarum/messages) (18 added, 2 changed, 100% complete)
 * [`flarum/realtime`](https://github.com/flarum/realtime) (2 added, 100% complete)
 * [`flarum/tags`](https://github.com/flarum/tags) (3 added, 1 changed, 100% complete)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (1 added, 100% complete)
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) (1 added, 1 changed, 100% complete)
 * [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon) (1 changed, 100% complete)
-* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (3 added, 1 changed, 94% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (8 added, 1 changed, 100% complete)
 * [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget) (1 added, 100% complete)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (13 added, 100% complete)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (6 changed, 100% complete)
+* [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget) (1 added, 100% complete)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (2 added, 100% complete)
 * [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (4 added, 100% complete)
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (2 added, 1 changed, 100% complete)
