@@ -53,6 +53,8 @@ linkrobins-support:
       error_delete: 'Impossible de supprimer la catégorie.'
       error_load: 'Impossible de charger cette catégorie.'
       error_save: 'Impossible d''enregistrer la catégorie. Veuillez vérifier les champs et réessayer.'
+      field_allowed_groups: 'Groupes d''utilisateurs autorisés'
+      field_allowed_groups_help: 'Laissez ce champ vide pour autoriser tous les utilisateurs enregistrés autorisés par le type de ticket. Sélectionnez des groupes spécifiques pour limiter les utilisateurs autorisés à créer des tickets dans cette catégorie.'
       field_color: Couleur
       field_color_help: 'Couleur hexadécimale (p. ex. #3B82F6) utilisée pour le badge de la catégorie.'
       field_default_assignee: 'Attribuer les nouveaux tickets à'
@@ -72,6 +74,8 @@ linkrobins-support:
       field_slug: 'Identifiant texte unique'
       field_slug_help: 'Identifiant URL. Laissez ce champ vide pour que l''identifiant soit généré à partir du nom.'
       field_slug_placeholder: 'p. ex. facturation'
+      field_ticket_type: 'Type de ticket'
+      field_ticket_type_help: 'Détermine le flux de travail, les options de décision et les limites de fréquence pour les tickets de cette catégorie.'
       saving: 'Enregistrement en cours…'
       submit_create: 'Créer une catégorie'
       submit_update: 'Enregistrer les modifications'
@@ -133,10 +137,17 @@ linkrobins-support:
     settings:
       description: 'Configurer les catégories et les limites de fréquence pour le système de tickets.'
       title: Support
+    ticket_types:
+      appeal: 'Recours contre une suspension'
+      appeal_help: 'Les tickets ouverts dans cette catégorie sont traités comme des recours contre une suspension, avec des limites quant au nombre de recours autorisés.'
+      standard: 'Assistance standard'
+      standard_help: 'Tickets d''assistance standard pour les demandes d''informations générales, les signalements de bugs et l''aide relative aux comptes.'
   api:
     assign_staff_only: 'Les tickets ne peuvent être affectés qu''à l''équipe.'
     cannot_reply: 'Vous ne pouvez pas répondre à ce ticket.'
+    category_not_permitted: 'Votre compte n''est pas autorisé à créer des tickets dans cette catégorie.'
     category_required: 'Une catégorie est requise.'
+    decision_not_allowed: 'Les tickets de cette catégorie ne permettent pas de prendre cette décision.'
     default_assignee_staff_only: 'Une catégorie ne peut être affectée qu''à l''équipe.'
     login_required: 'Vous devez être connecté.'
     login_required_edit: 'Vous devez être connecté pour modifier une réponse.'
@@ -155,6 +166,7 @@ linkrobins-support:
     ticket_not_found: 'Ticket introuvable.'
     ticket_required: 'Un ticket est requis.'
     ticket_soft_delete_first: 'Un ticket doit être supprimé temporairement avant de pouvoir être définitivement supprimé.'
+    unknown_ticket_type: 'Ce type de ticket n''est pas disponible. Choisissez-en un dans la liste.'
   email:
     assigned_body: '{name} vous a attribué ce ticket d''assistance.'
     assigned_subject: 'Ticket qui vous a été attribué : {subject}'
@@ -250,7 +262,7 @@ linkrobins-support:
       submit_ticket: 'Impossible d''envoyer le ticket.'
       unknown: 'Erreur inconnue.'
       update_assignment: 'Impossible de mettre à jour l''affectation.'
-      update_decision: 'Impossible de mettre à jour la décision de recours.'
+      update_decision: 'Impossible de mettre à jour la décision.'
       update_priority: 'Impossible de mettre à jour la priorité.'
       update_status: 'Impossible de mettre à jour le status.'
       upload: 'Impossible de transférer le fichier.'
@@ -344,7 +356,7 @@ linkrobins-support:
       title: Ticket
       unassigned: 'Non attribué'
     staff:
-      change_decision: 'Modifier la décision relative au recours'
+      change_decision: 'Modifier la décision'
       change_status: 'Modifier le statut'
       set_decision: 'Décision :'
       set_status: 'Définir le statut :'

@@ -6,5 +6,6 @@ clarkwinkelmann-selective-mediaembed:
   admin:
     clearCache: 'Vider le cache maintenant'
     mustClearCache: 'Vous devez vider le cache après avoir enregistré les modifications !'
+    searchIndexTreeSites: Sites
     selectAll: 'Tout sélectionner'
     unselectAll: 'Tout désélectionner'

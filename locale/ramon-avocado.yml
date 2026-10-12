@@ -94,6 +94,14 @@ ramon-avocado:
       fixed_avatar_effect_help: 'Maintenir l''avatar de l''auteur en haut de la page lors de la lecture de longs commentaires sur ordinateur.'
       fixed_avatar_effect_label: 'Activer l''effet d''avatar fixe'
       following_heading_label: 'Titre des discussions suivies'
+      font_custom_family_help: 'Une liste de polices CSS, par exemple : Noto Sans, sans-serif. Le thème n''applique que le nom — vous devez charger vous-même le fichier de police (en-tête personnalisé ou CSS personnalisé). Chaque nom ne peut contenir que des lettres, des chiffres, des espaces, des tirets et des traits de soulignement ; tout autre caractère est ignoré.'
+      font_custom_family_label: 'Famille de polices personnalisée'
+      font_family_custom: Personnaliser…
+      font_family_dm_sans: 'DM Sans — thème par défaut'
+      font_family_help: 'La police utilisée sur l''ensemble du forum. DM Sans ne contient que des caractères latins : pour le vietnamien, le cyrillique ou le grec, sélectionnez « Inter » ou la police système ; pour le chinois, le japonais ou le coréen, utilisez la police système.'
+      font_family_inter: 'Inter — inclus avec le thème'
+      font_family_label: 'Police du forum'
+      font_family_system: 'Police système — aucun téléchargement nécessaire, couvre tous les scripts'
       group_access: Accès
       group_appearance: Apparence
       group_community: Communauté
@@ -169,6 +177,7 @@ ramon-avocado:
       section_colored: Coloré
       section_disc_hero_icon: 'Icône d''en-tête de discussion'
       section_discussion: 'Page de discussion'
+      section_font: Police
       section_footer: 'Pied de page'
       section_guests: Invités
       section_hero_image_tags: 'Image du bandeau des discussions'
@@ -352,6 +361,8 @@ ramon-avocado:
       participant_singular: participant
       post_plural: messages
       post_singular: message
+      view_plural: Vues
+      view_singular: Vue
     discussions:
       empty: 'Aucune discussion trouvée.'
       home: 'Retour à l''accueil'
@@ -426,6 +437,8 @@ ramon-avocado:
       today_time: 'Aujourd''hui, {time}'
       untitled: 'Sans titre'
       view: Voir
+      view_count_plural: '{count} vues'
+      view_count_singular: '1 vue'
       view_post: 'Voir le message'
       ws_update_plural: '{count} nouvelles discussions'
       ws_update_singular: '1 nouvelle discussion'

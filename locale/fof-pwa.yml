@@ -46,8 +46,25 @@ fof-pwa:
         reset_vapid_success: 'Les clés VAPID ont été réinitialisées avec succès. {count} abonnements ont été réinitialisés. Veuillez recharger la page pour voir un rapport de contrôle d''état mis à jour.'
         reset_vapid_text: 'Cela régénérera les clés VAPID et supprimera tous les abonnements existants à l''aide des clés VAPID actuelles.'
       other:
+        display_label: 'Mode d''affichage'
+        display_options:
+          browser: Navigateur
+          fullscreen: 'Mode plein écran'
+          minimal_ui: 'Interface utilisateur minimale'
+          standalone: Autonome
+        display_text: "Comment l'application s'ouvre lorsqu'elle est lancée à partir de son icône :\n\nAutonome : une fenêtre d'application distincte, sans la barre d'adresse du navigateur.\nInterface utilisateur minimale : similaire au mode « Autonome », avec des fonctions de navigation de base telles que « Retour » et « Actualiser ».\nPlein écran : utilise tout l'écran sans les commandes du navigateur.\nNavigateur : s'ouvre dans un onglet ou une fenêtre de navigateur classique.\n\nLes navigateurs peuvent recourir à une solution de secours si le mode sélectionné n'est pas pris en charge.\n"
         force_portrait_text: 'Forcer l''orientation en mode portrait'
         heading: Autre
+        orientation_label: Orientation
+        orientation_options:
+          any: 'N''importe laquelle'
+          landscape: Paysage
+          landscape_primary: 'Paysage (primaire)'
+          landscape_secondary: 'Paysage (secondaire)'
+          natural: Naturel
+          portrait: Portrait
+          portrait_primary: 'Portrait (primaire)'
+          portrait_secondary: 'Portrait (secondaire)'
         push_notif_preference_default_to_email_label: 'Définir les préférences de poussée par défaut vers l''envoi de courriel'
         push_notif_preference_default_to_email_text: 'Si cette option est activée, les notifications de poussée seront activées par défaut pour tous les types de notification pour lesquels les notifications par courriel sont activées par défaut. Si cette option est désactivée, les notifications de poussée seront désactivées par défaut pour les utilisateurs.'
         push_notification_ttl_label: 'Durée de vie (TTL) des notifications push'
@@ -57,7 +74,7 @@ fof-pwa:
         user_max_subscriptions_label: 'Nombre maximum d''abonnements push par utilisateur'
         user_max_subscriptions_text: 'Combien d''abonnements push chaque utilisateur peut-il avoir à la fois ? Lorsqu''un utilisateur reçoit une notification push, chaque abonnement entraîne un appel à l''API. Chaque abonnement correspond généralement à un navigateur utilisé par l''utilisateur.'
         window_controls_overlay_label: 'Activer la superposition des contrôles de fenêtre'
-        window_controls_overlay_text: "Si cette option est activée, les utilisateurs peuvent bénéficier d'une expérience plus immersive, similaire à celle d'une application native, grâce au masquage de la barre de titre native. L'application effective de la superposition des contrôles de fenêtre dépend des préférences de l'utilisateur et de la compatibilité du navigateur. Vous devez personnaliser votre barre de titre à l'aide de CSS/JS après avoir activé cette option ; sinon, les contrôles viendront se superposer aux éléments de la barre de navigation supérieure de votre forum et il sera pratiquement impossible de faire glisser la fenêtre, ce qui nuira à l'expérience utilisateur.\n\nVoir aussi : <compatibilitylink>Compatibilité du navigateur avec la superposition des contrôles de fenêtre</compatibilitylink> & <learnlink>À propos de la superposition des contrôles de fenêtre sur Microsoft Learn</learnlink>\n"
+        window_controls_overlay_text: "Lorsqu'il est utilisé avec un navigateur de bureau pris en charge, la superposition des contrôles de fenêtre prévaut sur le mode d'affichage sélectionné.\n\nSi cette option est activée, les utilisateurs peuvent bénéficier d'une expérience plus immersive, similaire à celle d'une application native, grâce au masquage de la barre de titre native. L'application effective de la superposition des contrôles de fenêtre dépend des préférences de l'utilisateur et de la compatibilité du navigateur. Vous devez personnaliser votre barre de titre à l'aide de CSS/JS après avoir activé cette option ; sinon, les contrôles viendront se superposer aux éléments de la barre de navigation supérieure de votre forum et il sera pratiquement impossible de faire glisser la fenêtre, ce qui nuira à l'expérience utilisateur.\n\nVoir aussi : <compatibilitylink>Compatibilité du navigateur avec la superposition des contrôles de fenêtre</compatibilitylink> & <learnlink>À propos de la superposition des contrôles de fenêtre sur Microsoft Learn</learnlink>\n"
       refreshed_message: 'La configuration de l''application web progressive a été actualisée.'
       status_check_heading: 'Vérification du statut'
       submit_button: 'Enregistrer les paramètres'
@@ -74,6 +91,7 @@ fof-pwa:
   api:
     endpoint_host_not_allowed: 'Les notifications push n''ont pas pu être activées car l''hôte du service push « {host} » utilisé par votre navigateur n''est pas autorisé. Veuillez contacter l''administrateur du forum.'
     endpoint_https_required: 'Les notifications push n''ont pas pu être activées car votre navigateur a fourni une URL de service push invalide « {url} ». Une URL HTTPS valide est requise.'
+    keys_invalid: 'Les notifications push n''ont pas pu être activées car votre navigateur a fourni des clés de chiffrement non valides. Veuillez réessayer d''activer les notifications.'
   forum:
     alerts:
       optin: 'Ce forum peut envoyer des notifications push sur cet appareil. Souhaitez-vous les activer ?'
