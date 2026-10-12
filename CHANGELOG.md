@@ -8,7 +8,14 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers) (100% complete)
-* [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (80% complete)
+* [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (16 added, 1 changed, 99% complete)
+* [`linkrobins/support`](https://github.com/linkrobins/support) (11 added, 2 changed, 100% complete)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (13 added, 100% complete)
 
 
 All changes: [5.0.14...5.0.15](https://github.com/flarum-lang/french/compare/5.0.14...5.0.15).
