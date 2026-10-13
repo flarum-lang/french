@@ -102,6 +102,7 @@ ramon-avocado:
       font_family_inter: 'Inter — inclus avec le thème'
       font_family_label: 'Police du forum'
       font_family_system: 'Police système — aucun téléchargement nécessaire, couvre tous les scripts'
+      footer_enabled_label: 'Activer le pied de page du thème'
       group_access: Accès
       group_appearance: Apparence
       group_community: Communauté
@@ -137,6 +138,8 @@ ramon-avocado:
       loading_spinner_style_label: 'Style de l''icône de chargement'
       logo_enabled_help: 'Afficher le logo personnalisé dans l''en-tête.'
       logo_enabled_label: 'Activer le logo personnalisé'
+      logo_offset_y_help: 'Décale le logo vers le haut (valeur négative) ou vers le bas (valeur positive) dans l''en-tête, dans une plage de -30 à 30. Pour les logos dont le dessin n''est pas centré dans le fichier.'
+      logo_offset_y_label: 'Ajustement vertical (px)'
       logo_svg_help: 'Transférer un logo SVG personnalisé pour votre forum.'
       logo_svg_label: 'Logo SVG'
       new_discussion_composer_default: 'Par défaut — s''ouvre à la place du champ, sans effet'
@@ -158,7 +161,7 @@ ramon-avocado:
       post_cta_position_4: 'Après le message #4'
       post_cta_position_5: 'Après le message #5'
       post_cta_position_help: 'Insérer la bannière d''invitation entre ce numéro de message et le suivant.'
-      post_cta_position_label: 'Position de l''invitation (après quel numéro de message)'
+      post_cta_position_label: 'Position de l''invitation'
       presence_enabled_help: 'Indicateur en temps réel « N personnes lisent actuellement » dans le bandeau de la discussion, avec les avatars des lecteurs. Nécessite l''extension Realtime ; les utilisateurs ayant désactivé l''option « afficher en ligne » ne sont jamais listés.'
       presence_enabled_label: 'Afficher qui lit une discussion'
       reply_dock_help: 'Affiche une bulle « Écrire une réponse… » en bas de l’écran tout au long de la discussion, alignée avec les messages. Les invités voient une invitation à se connecter. Lorsque cette option est désactivée, le compositeur et la zone de réponse à la fin de la discussion reprennent l’apparence par défaut de Flarum.'
@@ -179,6 +182,9 @@ ramon-avocado:
       section_discussion: 'Page de discussion'
       section_font: Police
       section_footer: 'Pied de page'
+      section_footer_contacts: 'Contacts et réseaux sociaux'
+      section_footer_links: Liens
+      section_footer_text: Texte
       section_guests: Invités
       section_hero_image_tags: 'Image du bandeau des discussions'
       section_home_banner: Bannière
@@ -201,14 +207,14 @@ ramon-avocado:
       show_action_icons_label: 'Afficher les icônes sur les boutons « J''aime » et « Répondre »'
       show_auth_buttons_help: 'Afficher les boutons « Se connecter » et « S''inscrire » dans le menu de navigation secondaire de l''en-tête pour les invités.'
       show_auth_buttons_label: 'Afficher les boutons « Se connecter » / « S''inscrire » dans l''en-tête pour les invités'
-      show_guest_cta_help: 'Affichez un message d''incitation à l''action pour les invités.'
-      show_guest_cta_label: 'Afficher l''appel à l''action pour les invités'
+      show_guest_cta_help: 'Affichez les boutons d''incitation à l''action dans la bannière principale de la page d''accueil, pour les invités.'
+      show_guest_cta_label: 'Afficher les boutons « Se connecter » / « S''inscrire » dans la bannière de la page d''accueil'
       show_online_count_help: 'Afficher le label « X en ligne » à côté des avatars des utilisateurs connectés.'
       show_online_count_label: 'Afficher le texte indiquant le nombre d''utilisateurs en ligne'
       show_online_users_help: 'Afficher le nombre d''utilisateurs actuellement connectés.'
       show_online_users_label: 'Afficher le nombre d''utilisateurs en ligne'
-      show_post_cta_help: 'Afficher une carte « Connexion / Inscription » après le premier message d''une discussion, visible uniquement par les invités.'
-      show_post_cta_label: 'Afficher l''invitation après le premier message pour les invités'
+      show_post_cta_help: 'Afficher une carte « Connexion / Inscription » entre les messages d''une discussion, visible uniquement par les invités.'
+      show_post_cta_label: 'Afficher l''invitation dans les discussions pour les invités'
       show_share_help: 'Ajoutez un bouton « Partager » à chaque message.'
       show_share_label: 'Afficher le bouton « Partager » sur les messages'
       showcase_count_help: 'Afficher entre 1 et 5 cartes de discussion dans la section vitrine.'
@@ -368,6 +374,10 @@ ramon-avocado:
       home: 'Retour à l''accueil'
       load_more: 'Charger plus'
       title: 'Toutes les discussions'
+    footer:
+      contacts: Contacts
+      navigation: Navigation
+      socials: 'Réseaux sociaux'
     header:
       back: Retour
       back_home: 'Retour à l''accueil'
@@ -558,3 +568,9 @@ ramon-avocado:
       style_label: Conception
       style_manual: Manuel
       style_manual_help: 'Sommaire à gauche, grand titre et chapeau.'
+  lib:
+    footer:
+      default_text: 'Propulsé par [Flarum](https://flarum.org).'
+      nav_discussions: 'Toutes les discussions'
+      nav_home: Accueil
+      nav_tags: Étiquettes
