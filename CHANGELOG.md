@@ -15,7 +15,7 @@ CHANGELOG
 
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (16 added, 1 changed, 99% complete)
 * [`linkrobins/support`](https://github.com/linkrobins/support) (11 added, 2 changed, 100% complete)
-* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (13 added, 92% complete)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (26 added, 5 changed, 94% complete)
 
 
 All changes: [5.0.14...5.0.15](https://github.com/flarum-lang/french/compare/5.0.14...5.0.15).
