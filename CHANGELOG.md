@@ -13,7 +13,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (12 added, 3 changed, 98% complete)
+* [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (13 added, 3 changed, 100% complete)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (3 added, 100% complete)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (5 added, 10 changed, 100% complete)
 * [`fof/categories`](https://github.com/FriendsOfFlarum/categories) (10 changed, 100% complete)
@@ -22,7 +22,7 @@ CHANGELOG
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (17 added, 1 changed, 100% complete)
 * [`ianm/html-head`](https://github.com/imorland/html-head) (3 added, 100% complete)
 * [`linkrobins/support`](https://github.com/linkrobins/support) (11 added, 2 changed, 100% complete)
-* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (26 added, 5 changed, 94% complete)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (51 added, 5 changed, 98% complete)
 * [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta) (4 added, 100% complete)
 
 
