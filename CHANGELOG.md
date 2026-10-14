@@ -22,7 +22,7 @@ CHANGELOG
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (17 added, 1 changed, 100% complete)
 * [`ianm/html-head`](https://github.com/imorland/html-head) (3 added, 100% complete)
 * [`linkrobins/support`](https://github.com/linkrobins/support) (11 added, 2 changed, 100% complete)
-* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (52 added, 5 changed, 99% complete)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (53 added, 6 changed, 99% complete)
 * [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta) (4 added, 100% complete)
 
 
