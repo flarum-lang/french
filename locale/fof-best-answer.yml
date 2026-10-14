@@ -27,17 +27,18 @@ fof-best-answer:
         advanced: Avancé
         general: Général
         reminders: Rappels
-        reminders_notice: 'Pour que les rappels puissent fonctionner, vous devez configurer correctement le planificateur de Flarum.'
+        reminders_notice: 'Les rappels invitent l''auteur d''une discussion à sélectionner la meilleure réponse. Ils sont envoyés par une tâche qui s''exécute toutes les heures ; il est donc nécessaire de configurer le planificateur de Flarum.'
         tags: 'Étiquettes de la meilleure réponse'
-      remind_tags_help: 'Sélectionnez, le cas échéant, les étiquettes pour lesquelles vous souhaitez envoyer des rappels. Les rappels ne seront envoyés que pour les discussions sous ces étiquettes.'
+      remind_tags_help: 'Seules les discussions associées à ces étiquettes font l''objet de rappels. Une discussion doit également figurer parmi les étiquettes activées.'
       remind_tags_label: 'Étiquettes de rappel'
-      schedule_log_output: 'Ajouter la sortie du planificateur au stockage des journaux'
+      schedule_log_output: 'Journaliser les exécutions des rappels'
+      schedule_log_output_help: 'Ajoute la sortie de chaque exécution au fichier storage/logs/fof-best-answer.log.'
       schedule_on_one_server: 'Utilisez la directive ''onOneServer ()'' pour le planificateur de tâches'
       schedule_on_one_server_help: 'Nécessite Redis/Memcache'
-      schedule_stop_overnight: 'Empêcher l''envoi de notifications de rappel pendant les heures creuses'
-      schedule_stop_overnight_help: '9h00 - 8h00 (heure du serveur)'
-      select_best_answer_reminder_days: 'Fréquence des rappels'
-      select_best_answer_reminder_days_help: 'Envoyer un rappel à l''auteur original après le nombre de jours configurable pour sélectionner une meilleure réponse, 0 = désactive les rappels.'
+      schedule_stop_overnight: 'Ne pas envoyer de rappels pendant la nuit'
+      schedule_stop_overnight_help: 'Les rappels ne sont envoyés qu''entre 08 h 00 et 21 h 00 CET.'
+      select_best_answer_reminder_days: 'Jours avant le rappel'
+      select_best_answer_reminder_days_help: 'Rappeler aux auteurs de sélectionner une « meilleure réponse » un certain nombre de jours après avoir démarré une discussion. Chaque discussion fait l''objet d''un rappel unique, et uniquement si son auteur est autorisé à sélectionner l''une de ses réponses. Les discussions démarrées plus de 7 jours auparavant sont ignorées. La valeur 0 désactive les rappels.'
       select_best_answer_tags_help: 'Sélectionnez, le cas échéant, les étiquettes à ajouter aux discussions lorsqu''une meilleure réponse est définie. Seules les étiquettes secondaires sont autorisées. Ces étiquettes seront supprimées si la meilleure réponse est supprimée.'
       select_best_answer_tags_label: 'Étiquettes pour les discussions avec meilleures réponses'
       show_filter_help: 'Pour les étiquettes avec lesquelles l''extension « Best Answers » est activée, décidez d''afficher l''option de filtre résolu/non résolu dans la liste des discussions'
@@ -49,9 +50,9 @@ fof-best-answer:
       use_alt_ui_help: 'Contrôles de la meilleure réponse dans le pied de page du message'
   email:
     body:
-      awarded: "Bonjour {recipient_display_name},\n\nBravo, {actor_display_name} vient de définir votre message comme la meilleure réponse pour la discussion : {discussion_title}. Merci pour votre aide.\n\nConsultez-le ici : {discussion_url}\n"
-      ba-set: "Bonjour {recipient_display_name},\n\n{actor_display_name} vient de définir une meilleure réponse pour la discussion : {discussion_title}, à laquelle vous avez participé.\n\nConsultez-la : {discussion_url}\n"
-      select: "Bonjour {recipient_display_name},\n\nNous venons juste vérifier ; vous devriez avoir déjà reçu de nombreuses réponses à votre question : {discussion_title}. Nous espérons que l'une d'entre elles vous a aidé à résoudre votre problème.\n\nSi tel était le cas, il serait appréciable pour les futurs membres de définir une meilleure réponse à votre question. Cela aidera les personnes ayant le même problème à trouver la réponse dont elles ont besoin, et c'est aussi une forme de remerciement aux membres qui vous ont aidé. Ils donnent leur temps bénévolement, il est donc encouragé de les inciter à continuer.\n\nVisitez la discussion ici : {discussion_url}, et sélectionnez le message le plus approprié comme meilleure réponse.\n\nMerci !\n"
+      awarded: "Bravo, {actor_display_name} vient de définir votre message comme la meilleure réponse pour la discussion : {discussion_title}. Merci pour votre aide.\n\nConsultez-le ici : {discussion_url}\n"
+      ba-set: "{actor_display_name} vient de définir une meilleure réponse pour la discussion : {discussion_title}, à laquelle vous avez participé.\n\nConsultez-la : {discussion_url}\n"
+      select: "Nous venons juste vérifier ; vous devriez avoir déjà reçu de nombreuses réponses à votre question : {discussion_title}. Nous espérons que l'une d'entre elles vous a aidé à résoudre votre problème.\n\nSi tel était le cas, il serait appréciable pour les futurs membres de définir une meilleure réponse à votre question. Cela aidera les personnes ayant le même problème à trouver la réponse dont elles ont besoin, et c'est aussi une forme de remerciement aux membres qui vous ont aidé. Ils donnent leur temps bénévolement, il est donc encouragé de les inciter à continuer.\n\nVisitez la discussion ici : {discussion_url}, et sélectionnez le message le plus approprié comme meilleure réponse.\n\nMerci !\n"
     subject:
       awarded: 'Votre message a été défini comme la meilleure réponse par {display_name}'
       ba-set: 'Une meilleure réponse a été définie par {display_name}'
@@ -62,6 +63,9 @@ fof-best-answer:
     best_answer_label: 'sélectionnée par <a>{username}</a> {time_set}'
     composer:
       titlePlaceholder: 'Titre de la question'
+    deck:
+      best_answers: 'Meilleures réponses'
+      unsolved_questions: 'Questions non résolues'
     discussion:
       jump_to_best_answer_button: 'Voir la meilleure réponse'
     errors:
@@ -90,6 +94,10 @@ fof-best-answer:
       best-answer-count: '{count, plural, one { {count} meilleure réponse} other {{count} meilleures réponses}}'
   lib:
     gambits:
+      qna:
+        key: question
+      solution:
+        key: solution
       solved-discussions:
         key: résolue
 fof-user-directory:

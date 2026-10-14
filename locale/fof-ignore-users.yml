@@ -10,6 +10,10 @@ fof-ignore-users:
     badge:
       discussion_label: 'Démarrée par un utilisateur ignoré'
       user_label: 'Utilisateur ignoré'
+    messages:
+      cannot_send_text: 'Vous ne pouvez pas envoyer de messages dans cette conversation.'
+    post:
+      toggle_label: 'Afficher ou masquer le message d''un utilisateur ignoré'
     profile_link: 'Utilisateurs ignorés'
     profile_page:
       no_ignored: 'Il semble que vous n''ignorez personne.'

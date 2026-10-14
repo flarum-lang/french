@@ -37,8 +37,11 @@ ianm-html-head:
       location_label: 'Injecter dans'
       meta:
         content_label: Contenu
+        name_help: 'Les éléments nommés « description », « viewport » ou « theme-color » remplacent la balise déjà générée par Flarum, au lieu d''en ajouter une deuxième.'
         name_label: 'name=""'
+        name_placeholder: 'Sélectionnez ou saisissez un nom'
         property_label: 'property="" (Open Graph)'
+        property_placeholder: 'Sélectionner ou saisissez une propriété'
         variant_label: Variante
       pages:
         admin: 'Panneau d''administration'

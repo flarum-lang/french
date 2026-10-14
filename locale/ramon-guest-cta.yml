@@ -5,6 +5,9 @@
 ramon-guest-cta:
   admin:
     settings:
+      cta_text_help: 'Remplace le message par défaut pour toutes les langues. Texte brut uniquement ; les sauts de ligne sont conservés. Laisser vide pour utiliser le message par défaut traduit.'
+      cta_text_label: 'Texte de l''invitation'
+      cta_text_placeholder: '=> ramon-guest-cta.forum.post_cta.text'
       hide_links_help: 'Empêcher les invités de cliquer sur les liens dans les messages. Lorsqu''ils cliquent sur un lien, une fenêtre de connexion ou d''inscription s''affiche à la place.'
       hide_links_label: 'Masquer les liens pour les invités'
       position_1: 'Après le message #1'
@@ -12,6 +15,7 @@ ramon-guest-cta:
       position_3: 'Après le message #3'
       position_4: 'Après le message #4'
       position_5: 'Après le message #5'
+      position_end: 'À la fin de la discussion'
       position_help: 'Insérer la bannière d''invitation entre ce numéro de message et le suivant.'
       position_label: 'Position de l''invitation (après quel numéro de message)'
       show_post_cta_help: 'Afficher une carte « Se connecter » / « S''inscrire » entre les messages d''une discussion, visible uniquement par les invités. Utiliser le paramètre de position pour choisir après combien de messages elle doit apparaitre.'
