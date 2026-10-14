@@ -123,6 +123,7 @@ ramon-avocado:
       footer_social_network: Réseau
       footer_social_other: 'Autre site'
       footer_social_url: Lien
+      footer_text_help: 'Chaque ligne est un paragraphe. Écrivez les liens sous la forme [libellé](adresse). Effacez le champ pour le masquer.'
       footer_text_label: 'Texte de pied de page'
       group_access: Accès
       group_appearance: Apparence
@@ -184,7 +185,7 @@ ramon-avocado:
       post_cta_position_4: 'Après le message #4'
       post_cta_position_5: 'Après le message #5'
       post_cta_position_end: 'À la fin de la discussion'
-      post_cta_position_help: 'Insérer la bannière d''invitation entre ce numéro de message et le suivant.'
+      post_cta_position_help: 'Après quelle message la carte apparaît, ou à la fin de la discussion.'
       post_cta_position_label: 'Position de l''invitation'
       post_cta_text_help: 'Texte affiché à côté des boutons « Se connecter » / « S''inscrire ». Vide : texte par défaut.'
       post_cta_text_label: 'Texte de l''invitation'
