@@ -6,16 +6,22 @@ ernestdefoe-gatehouse:
   admin:
     allow: 'Les laisser entrer automatiquement'
     allow_help: 'Un par ligne. Un domaine (uni-freiburg.de, incluant ses sous-domaines), un domaine exact (@staff.example.org), une terminaison (.edu), un caractère générique (*@example.com) ou une expression régulière entre barres obliques. Tous les autres sont mis en attente. Laissez ce champ vide pour approuver manuellement chaque nouveau membre.'
-    declined_message: 'Texte supplémentaire destiné aux membres dont l''inscription a été rejetée'
+    declined_message: 'Texte supplémentaire destiné aux candidats dont l''inscription a été rejetée'
     declined_message_help: 'Ce texte sera ajouté au courriel envoyé lorsque vous refusez une demande. Laissez ce champ vide pour utiliser la formulation par défaut.'
     deny: 'Les refuser catégoriquement'
     deny_help: 'Mêmes modèles. Ces adresses ne peuvent absolument pas s''inscrire, et le formulaire l''indique clairement.'
     enabled: 'Mettre en attente les nouvelles inscriptions pour approbation'
     enabled_help: 'Les membres existants ne sont jamais affectés. Les administrateurs qui ajoutent des membres manuellement ne sont jamais retenus.'
-    held_message: 'Texte supplémentaire destiné aux membres dont l''inscription est en attente d''approbation'
+    held_message: 'Texte supplémentaire destiné aux candidats dont l''inscription est en attente d''approbation'
     held_message_help: 'Ajoute au courriel la mention « Nous avons bien reçu votre inscription ». Précisez ce que vous attendez d''eux, par exemple : « veuillez répondre en indiquant votre numéro d''étudiant ».'
     messages_heading: Courriels
+    question: 'Poser une question aux candidats'
+    question_heading: 'Question d''inscription'
+    question_placeholder: 'Pourquoi souhaitez-vous nous rejoindre ?'
+    question_required: 'Les candidats doivent y répondre'
+    question_required_help: 'Seules les adresses en attente d''approbation doivent répondre. Les adresses de confiance ont directement accès et peuvent laisser ce champ vide.'
     queue:
+      answer: 'Leur réponse'
       approve: Approuver
       approved_by: 'Approuvé par {name}'
       decline: Refuser
@@ -34,7 +40,10 @@ ernestdefoe-gatehouse:
     usernames_heading: 'Noms d''utilisateur'
   email:
     admin_new:
-      body: "{applicant} ({email}) s'est inscrit(e) et attend l'approbation.\n\nApprouver ou refuser sa demande ici :\n\n{url}\n"
+      answer: 'Ils ont écrit :'
+      answer_to: 'Leur réponse à « {question} » :'
+      body: '{applicant} ({email}) s''est inscrit(e) et attend l''approbation.'
+      button: 'Les approuver ou les refuser'
       subject: '{applicant} attend de pouvoir rejoindre {forum}'
     approved:
       body: "Votre compte {forum} a été approuvé. Vous pouvez désormais vous connecter :\n\n{url}\n"
@@ -52,7 +61,10 @@ ernestdefoe-gatehouse:
     notice_declined: 'Votre compte n''a pas été approuvé, il ne peut donc pas être utilisé sur ce forum.'
     notice_pending: 'Merci beaucoup pour votre inscription ! Un administrateur doit valider votre compte avant que vous puissiez publier des messages. Nous vous enverrons un e-mail dès que ce sera fait.'
     notification: '{name} s''est inscrit(e) et attend votre approbation'
+    notify_applicant_label: 'Quelqu''un s''est inscrit et attend votre approbation'
+    optional: Facultatif
   lib:
+    reason_required: 'Veuillez répondre à cette question afin qu''un administrateur puisse valider votre compte.'
     refused: 'Les inscriptions à partir de cette adresse e-mail ne sont pas acceptées sur ce forum.'
     signin_declined: 'Ce compte n''a pas été approuvé, il ne peut donc pas être utilisé sur ce forum.'
     signin_pending: 'Votre compte est en attente d''approbation par un administrateur. Nous vous enverrons un e-mail dès qu''il sera prêt.'

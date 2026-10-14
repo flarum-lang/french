@@ -8,3 +8,4 @@ fof-forum-widgets-core:
     settings:
       prefer_data_with_initial_load: 'Préférer le chargement de toutes les données des widgets lors de la réponse initiale de la page.'
       prefer_data_with_initial_load_help: 'Au lieu de charger les données des widgets après le chargement initial de la page en envoyant des requêtes API, celles-ci seront (dans la mesure du possible) chargées dès le chargement initial.'
+    widget_tooltip: '{widget} — {extension}'

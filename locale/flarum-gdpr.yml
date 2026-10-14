@@ -159,3 +159,8 @@ flarum-gdpr:
       request_button: 'Demande d''archive'
       text: "Une archive au format .zip sera préparée pour vous. Une fois qu'elle sera prête, vous recevrez une notification avec un lien de téléchargement. Le lien restera actif pendant un jour.\n"
       title: 'Demande de données pour {username}'
+  views:
+    confirm_erasure:
+      submit_button: 'Confirmer la suppression'
+      text: 'Confirmez que vous souhaitez supprimer votre compte ainsi que les données qui y sont associées. Tant que votre demande n''a pas été traitée, vous pouvez toujours l''annuler depuis vos paramètres.'
+      title: 'Confirmer la suppression du compte'
