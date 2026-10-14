@@ -17,6 +17,7 @@ ernestdefoe-gatehouse:
     messages_heading: Courriels
     question: 'Poser une question aux candidats'
     question_heading: 'Question d''inscription'
+    question_help: 'Ces informations apparaît sur le formulaire d''inscription, et vous pouvez lire la réponse dans la file d''attente ci-dessus, ainsi que dans vos notifications et vos courriels.. Demandez tout ce qui peut vous aider à prendre une décision : pourquoi ils souhaitent rejoindre le groupe, leur numéro d''étudiant ou le nom de la personne qui les a invité. Laissez ce champ vide si vous ne souhaitez rien demander.'
     question_placeholder: 'Pourquoi souhaitez-vous nous rejoindre ?'
     question_required: 'Les candidats doivent y répondre'
     question_required_help: 'Seules les adresses en attente d''approbation doivent répondre. Les adresses de confiance ont directement accès et peuvent laisser ce champ vide.'

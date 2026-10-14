@@ -102,11 +102,32 @@ ramon-avocado:
       font_family_inter: 'Inter — inclus avec le thème'
       font_family_label: 'Police du forum'
       font_family_system: 'Police système — aucun téléchargement nécessaire, couvre tous les scripts'
+      footer_address_label: Adresse
+      footer_contact_help: 'Pour masquer un champ, laissez-le vide.'
+      footer_copyright_label: 'Droits d''auteur'
+      footer_email_label: Courriel
       footer_enabled_label: 'Activer le pied de page du thème'
+      footer_legal_label: 'Liens juridiques'
+      footer_links_help: 'L''adresse est soit un chemin d''accès au forum (/tags), soit une URL complète.'
+      footer_links_label: 'Liens de navigation'
+      footer_list_add: 'Ajouter un lien'
+      footer_list_down: Descendre
+      footer_list_label_placeholder: Libellé
+      footer_list_remove: Supprimer
+      footer_list_up: Monter
+      footer_list_url_placeholder: '/tags ou https://…'
+      footer_phone_label: Téléphone
+      footer_social_add: 'Ajouter un réseau'
+      footer_social_label: 'Réseaux sociaux'
+      footer_social_network: Réseau
+      footer_social_other: 'Autre site'
+      footer_social_url: Lien
+      footer_text_label: 'Texte de pied de page'
       group_access: Accès
       group_appearance: Apparence
       group_community: Communauté
       group_discussions: Discussions
+      group_footer: 'Pied de page'
       group_home: 'Page d''accueil'
       groups_aria: 'Groupes de paramètres'
       hero_deco_divider_help: 'Afficher une icône dans l''espace entre les deux icônes décoratives (p. ex. un symbole « vs » pour les sites sportifs).'
@@ -136,6 +157,7 @@ ramon-avocado:
       link_icon_svg_help: 'Remplace le favicon dans les liens vers d''autres discussions du forum (#123). Il adopte la couleur du lien, ce qui lui permet de s''harmoniser avec les accents de couleur — seule la forme du SVG est utilisée.'
       link_icon_svg_label: 'Icône de lien interne (SVG)'
       loading_spinner_style_label: 'Style de l''icône de chargement'
+      logo_colored_label: 'Peindre le logo aux couleurs du forum'
       logo_enabled_help: 'Afficher le logo personnalisé dans l''en-tête.'
       logo_enabled_label: 'Activer le logo personnalisé'
       logo_offset_y_help: 'Décale le logo vers le haut (valeur négative) ou vers le bas (valeur positive) dans l''en-tête, dans une plage de -30 à 30. Pour les logos dont le dessin n''est pas centré dans le fichier.'
@@ -160,8 +182,11 @@ ramon-avocado:
       post_cta_position_3: 'Après le message #3'
       post_cta_position_4: 'Après le message #4'
       post_cta_position_5: 'Après le message #5'
+      post_cta_position_end: 'À la fin de la discussion'
       post_cta_position_help: 'Insérer la bannière d''invitation entre ce numéro de message et le suivant.'
       post_cta_position_label: 'Position de l''invitation'
+      post_cta_text_help: 'Texte affiché à côté des boutons « Se connecter » / « S''inscrire ». Vide : texte par défaut.'
+      post_cta_text_label: 'Texte de l''invitation'
       presence_enabled_help: 'Indicateur en temps réel « N personnes lisent actuellement » dans le bandeau de la discussion, avec les avatars des lecteurs. Nécessite l''extension Realtime ; les utilisateurs ayant désactivé l''option « afficher en ligne » ne sont jamais listés.'
       presence_enabled_label: 'Afficher qui lit une discussion'
       reply_dock_help: 'Affiche une bulle « Écrire une réponse… » en bas de l’écran tout au long de la discussion, alignée avec les messages. Les invités voient une invitation à se connecter. Lorsque cette option est désactivée, le compositeur et la zone de réponse à la fin de la discussion reprennent l’apparence par défaut de Flarum.'
