@@ -13,7 +13,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (16 added, 1 changed, 99% complete)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (17 added, 1 changed, 100% complete)
 * [`linkrobins/support`](https://github.com/linkrobins/support) (11 added, 2 changed, 100% complete)
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado) (26 added, 5 changed, 94% complete)
 
