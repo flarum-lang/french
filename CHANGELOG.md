@@ -14,7 +14,8 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (1 changed, 100% complete)
-* [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (13 added, 3 changed, 100% complete)
+* [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references) (3 added, 100% complete)
+* [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (14 added, 3 changed, 100% complete)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (3 added, 100% complete)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (5 added, 10 changed, 100% complete)
 * [`fof/categories`](https://github.com/FriendsOfFlarum/categories) (10 changed, 100% complete)
@@ -23,7 +24,7 @@ CHANGELOG
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (17 added, 1 changed, 100% complete)
 * [`ianm/html-head`](https://github.com/imorland/html-head) (3 added, 100% complete)
 * [`linkrobins/support`](https://github.com/linkrobins/support) (11 added, 2 changed, 100% complete)
-* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (53 added, 6 changed, 99% complete)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (54 added, 6 changed, 99% complete)
 * [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta) (4 added, 100% complete)
 
 
