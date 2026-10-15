@@ -37,6 +37,7 @@ ernestdefoe-gatehouse:
     queue_heading: 'En attente d''approbation'
     reserved_usernames: 'Noms d''utilisateur réservés'
     reserved_usernames_help: 'Un par ligne. Seuls les administrateurs peuvent s''inscrire avec ces identifiants, ou se renommer ainsi ultérieurement. La casse n''a pas d''importance. Utilisez * comme caractère générique (admin*, *modérateur*) ou une expression régulière entre barres obliques. Fonctionne que les inscriptions soient soumises à approbation ou non.'
+    reserved_usernames_placeholder: "Administrateur*\nModérateur\nSupport\n*Officiel*"
     rules_heading: Règles
     usernames_heading: 'Noms d''utilisateur'
   email:

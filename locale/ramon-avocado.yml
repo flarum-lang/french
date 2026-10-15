@@ -104,6 +104,7 @@ ramon-avocado:
       font_family_system: 'Police système — aucun téléchargement nécessaire, couvre tous les scripts'
       footer_address_label: Adresse
       footer_contact_help: 'Pour masquer un champ, laissez-le vide.'
+      footer_copyright_help: '{year} devient l’année en cours et {title} le titre du forum. Effacer le champ pour le masquer.'
       footer_copyright_label: 'Droits d''auteur'
       footer_email_label: Courriel
       footer_enabled_help: 'Un simple pied de page centré à la fin de chaque page, contenant les informations des champs ci-dessous. Ceux-ci contiennent des textes par défaut ; si vous effacez un champ, la ligne correspondante disparaît. Ce code remplace le code HTML de la section « Modifier le pied de page personnalisé » de Flarum.'

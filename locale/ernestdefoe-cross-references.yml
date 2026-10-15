@@ -9,6 +9,10 @@ ernestdefoe-cross-references:
       create_backlinks_label: 'Créer des publications contenant des liens retour dans les discussions cibles'
       notify_author_help: 'Envoyer une alerte dans l''application à l''auteur de la discussion référencée. Les auteurs ne reçoivent jamais de notification pour leurs propres messages.'
       notify_author_label: 'Notifier l''auteur de la discussion cible'
+  api:
+    invalid_discussion_id: 'Identifiant de discussion invalide'
+    not_found: Introuvable
+    unexpected_error: 'Une erreur inattendue s''est produite.'
   forum:
     event_post:
       post_specific: ' (message spécifique)'
