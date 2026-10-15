@@ -13,6 +13,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (1 changed, 100% complete)
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (13 added, 3 changed, 100% complete)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (3 added, 100% complete)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (5 added, 10 changed, 100% complete)
