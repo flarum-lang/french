@@ -2,6 +2,11 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-github-sponsors/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      githubsponsor:
+        anonymize_description: '=> flarum-gdpr.lib.data.githubsponsor.delete_description'
 fof-github-sponsors:
   admin:
     account_types:
@@ -10,9 +15,9 @@ fof-github-sponsors:
     settings:
       account_type_help: 'Indiquez si vous effectuez le suivi des sponsors pour un compte utilisateur GitHub personnel ou pour un compte d''organisation.'
       account_type_label: 'Type de compte'
-      api_token_help: 'Créez un jeton d''accès personnel à l''adresse <a>https://github.com/settings/tokens/new</a> avec les champs d''application <code>user</code> et <code>read:org</code>. Ce jeton sert à récupérer vos informations de parrainage depuis GitHub.'
+      api_token_help: 'Créez un jeton d''accès personnel à l''adresse <a>https://github.com/settings/tokens/new</a> avec les champs <code>read:user</code>, <code>user:email</code> et <code>read:org</code>. Ce jeton sert à récupérer vos informations de parrainage depuis GitHub.'
       api_token_label: 'Jeton API'
-      group_help: 'Sélectionnez le groupe d''utilisateurs Flarum auquel les sponsors doivent être ajoutés. Les utilisateurs seront automatiquement ajoutés lorsqu''ils deviendront sponsors et supprimés lorsqu''ils cesseront de l''être.'
-      group_label: 'Groupe à attribuer'
+      group_help: 'Sélectionnez le groupe d''utilisateurs Flarum auquel les parrains mensuels actifs doivent être ajoutés. Les utilisateurs sont ajoutés lorsqu''ils commencent à parrainer mensuellement, puis transférés vers le groupe des parrainages ponctuels (si celui-ci est configuré) à la fin de leur parrainage mensuel.'
+      group_label: 'Groupe des parrains mensuels'
       login_help: 'Saisissez votre nom d''utilisateur GitHub (pour les comptes utilisateurs) ou le nom de votre organisation (pour les organisations). Il s''agit du compte dont les sponsors seront synchronisés.'
       login_label: Identifiant

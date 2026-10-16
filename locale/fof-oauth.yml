@@ -41,7 +41,7 @@ fof-oauth:
         gitlab:
           client_id_label: '=> fof-oauth.ref.settings.app_id'
           client_secret_label: '=> fof-oauth.ref.settings.app_secret'
-          description: 'Créez une application sur {link}. Donnez à l''application la portée <code>read_user</code>.'
+          description: 'Créez une application sur {link}. Donnez à l''application l''autorisation <code>read_user</code>.'
           domain_label: 'Domaine de GitLab'
         google:
           client_id_label: '=> fof-oauth.ref.settings.client_id'

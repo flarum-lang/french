@@ -162,6 +162,7 @@ ramon-avocado:
       link_icon_svg_help: 'Remplace le favicon dans les liens vers d''autres discussions du forum (#123). Il adopte la couleur du lien, ce qui lui permet de s''harmoniser avec les accents de couleur — seule la forme du SVG est utilisée.'
       link_icon_svg_label: 'Icône de lien interne (SVG)'
       loading_spinner_style_label: 'Style de l''icône de chargement'
+      logo_colored_help: 'Le SVG adopte la couleur principale au lieu des couleurs d''origine du fichier, et suit les accents colorés de chaque étiquette. Seule la forme du SVG est utilisée.'
       logo_colored_label: 'Peindre le logo aux couleurs du forum'
       logo_enabled_help: 'Afficher le logo personnalisé dans l''en-tête.'
       logo_enabled_label: 'Activer le logo personnalisé'

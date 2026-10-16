@@ -299,7 +299,7 @@ core:
     extension:
       abandoned_no_replacement: 'Cette extension n''est plus maintenue par son auteur et pourrait ne plus recevoir de mises à jour.'
       abandoned_with_replacement: 'Cette extension a été remplacée par {replacement}. Envisagez de migrer vers le paquet de remplacement.'
-      configure_scopes: 'Configurer Scopes'
+      configure_scopes: 'Configurer les champs d''application'
       confirm_purge: 'La purge supprime toutes les entrées de la base de données et les ressources liées à l''extension. Elle ne désinstallera pas l''extension ; cela doit être effectué depuis Composer. Êtes-vous sûr de vouloir continuer ?'
       database_driver_mismatch: 'Cette extension ne prend pas en charge le pilote de base de données que vous avez configuré.'
       deprecated: Obsolète
@@ -417,8 +417,8 @@ core:
       participate_heading: Participer
       post_without_throttle_label: 'Répondre plusieurs fois sans attendre'
       read_heading: Lire
-      remove_scope_confirmation: 'Êtes-vous sûr de vouloir supprimer la plage {scope} ?'
-      remove_scope_label: 'Supprimer la portée de {scope}'
+      remove_scope_confirmation: 'Êtes-vous sûr de vouloir supprimer le champ d''application {scope} ?'
+      remove_scope_label: 'Supprimer le champ d''application {scope}'
       rename_discussions_label: 'Renommer les discussions'
       reply_to_discussions_label: 'Répondre aux discussions'
       search_users_label: '=> core.ref.search_users'
