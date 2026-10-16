@@ -109,6 +109,7 @@ ramon-avocado:
       footer_email_label: Courriel
       footer_enabled_help: 'Un simple pied de page centré à la fin de chaque page, contenant les informations des champs ci-dessous. Ceux-ci contiennent des textes par défaut ; si vous effacez un champ, la ligne correspondante disparaît. Ce code remplace le code HTML de la section « Modifier le pied de page personnalisé » de Flarum.'
       footer_enabled_label: 'Activer le pied de page du thème'
+      footer_legal_help: 'S''affiche à côté de la mention de droits d''auteur, telles que les conditions d''utilisation et la politique de confidentialité.'
       footer_legal_label: 'Liens juridiques'
       footer_links_help: 'L''adresse est soit un chemin d''accès au forum (/tags), soit une URL complète.'
       footer_links_label: 'Liens de navigation'

@@ -27,7 +27,7 @@ fof-links:
           help: 'S''ouvre sans recharger la page.'
           label: 'Va à une page de ce forum'
         label:
-          help: 'Affiché sous forme de libellé. Utilisez-le pour nommer un groupe de liens.'
+          help: 'S''affiche sous forme de libellé. Utilisez-le pour nommer un groupe de liens.'
           label: 'Ne va nulle part'
       url_description: 'Laissez vide pour afficher comme un label.'
       url_help:
