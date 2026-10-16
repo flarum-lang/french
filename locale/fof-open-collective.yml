@@ -18,3 +18,15 @@ fof-open-collective:
       title: 'Open Collective de FriendsOfFlarum'
       use_legacy_api_key_help: "Si vous disposez d'une ancienne clé API, vous pouvez continuer à l'utiliser, mais il est recommandé de passer à un jeton personnel. Actuellement, les jetons personnels semblent fonctionner en mode clé API (c'est-à-dire avec l'en-tête « API-Key »), mais cela n'est pas documenté.\n"
       use_legacy_api_key_label: 'Utiliser la clé API de l''ancienne application'
+    status:
+      heading: 'État de la synchronisation'
+      last_failure: 'Échec de la dernière synchronisation {time} : {reason}'
+      last_success: 'Dernière synchronisation {time} : {backers} contributeurs, {changes} modifications.'
+      never_run: 'La synchronisation n''a pas encore été exécutée. Elle s''effectue toutes les heures via le planificateur de Flarum ; vérifiez donc que celui-ci est bien configuré.'
+      reasons:
+        unauthorized: 'Open Collective a rejeté le jeton. Il est possible qu''il ait expiré ou qu''il ait été révoqué.'
+      request_failed: 'Le test de connexion n''a pas pu être effectué.'
+      stale: 'La dernière synchronisation remonte à plus de deux heures. Vérifiez que le planificateur de Flarum fonctionne correctement.'
+      test_button: 'Test de connexion'
+      test_success: 'Connecté à {collective} en tant que {account}. {orders} contributions ont été trouvées, et les adresses courriels des contributeurs sont lisibles.'
+      test_success_no_orders: 'Connecté à {collective} en tant que {account}. Il n''y a pas encore de contributions ; il n''a donc pas été possible de vérifier l''accès par courriel.'
