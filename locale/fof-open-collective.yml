@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-open-collective/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      fof_open_collective:
+        recurring_started: '{username} est devenu un contributeur récurrent sur Open Collective. Groupes : {old_groups} → {new_groups}'
+        recurring_stopped: 'Le soutien récurrent de {username} sur Open Collective a pris fin. Groupes : {old_groups} → {new_groups}'
 fof-open-collective:
   admin:
     settings:
@@ -13,8 +19,8 @@ fof-open-collective:
       onetime_group_label: 'Groupe de contributeurs ponctuels (facultatif)'
       personal_token_help: 'Créez un jeton personnel sur <a>https://opencollective.com/applications</a>. Ce jeton sert à récupérer vos informations de contributeur auprès d''Open Collective.'
       personal_token_label: 'Jeton personnel'
-      slug_help: 'Saisissez le slug de votre collectif Open Collective (la partie après opencollective.com/ dans l''URL de votre collectif).'
-      slug_label: 'Identifiant texte unique collectif'
+      slug_help: 'Saisissez l’identifiant texte unique de votre collectif Open Collective (la partie après opencollective.com/ dans l''URL de votre collectif).'
+      slug_label: 'Identifiant texte unique du collectif'
       title: 'Open Collective de FriendsOfFlarum'
       use_legacy_api_key_help: "Si vous disposez d'une ancienne clé API, vous pouvez continuer à l'utiliser, mais il est recommandé de passer à un jeton personnel. Actuellement, les jetons personnels semblent fonctionner en mode clé API (c'est-à-dire avec l'en-tête « API-Key »), mais cela n'est pas documenté.\n"
       use_legacy_api_key_label: 'Utiliser la clé API de l''ancienne application'
@@ -24,6 +30,14 @@ fof-open-collective:
       last_success: 'Dernière synchronisation {time} : {backers} contributeurs, {changes} modifications.'
       never_run: 'La synchronisation n''a pas encore été exécutée. Elle s''effectue toutes les heures via le planificateur de Flarum ; vérifiez donc que celui-ci est bien configuré.'
       reasons:
+        configuration: 'Le jeton, l’identifiant texte unique du collectif ou les paramètres de groupe sont incomplets.'
+        emails_hidden: 'Le jeton ne peut pas lire les adresses courriel des contributeurs. Il a besoin de la portée « email ».'
+        forbidden: 'Le jeton ne dispose pas d''une portée requise. Il a besoin des portées « orders » et « email ».'
+        network: 'Impossible d''accéder à Open Collective.'
+        no_backers: 'Open Collective n''a renvoyé aucun contributeur ; rien n''a donc été modifié. Exécutez la synchronisation avec l''option --force si cela vous convient.'
+        not_found: 'Collectif introuvable. Vérifiez l’identifiant texte unique du collectif.'
+        other: 'Open Collective a renvoyé une réponse inattendue.'
+        rate_limited: 'La limite de requêtes d''Open Collective a été atteinte. La prochaine synchronisation effectuera une nouvelle tentative.'
         unauthorized: 'Open Collective a rejeté le jeton. Il est possible qu''il ait expiré ou qu''il ait été révoqué.'
       request_failed: 'Le test de connexion n''a pas pu être effectué.'
       stale: 'La dernière synchronisation remonte à plus de deux heures. Vérifiez que le planificateur de Flarum fonctionne correctement.'
