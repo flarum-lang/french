@@ -21,11 +21,12 @@ CHANGELOG
 * [`fof/categories`](https://github.com/FriendsOfFlarum/categories) (10 changed, 100% complete)
 * [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core) (1 added, 100% complete)
 * [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users) (2 added, 100% complete)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 changed, 100% complete)
 * [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective) (27 added, 3 changed, 100% complete)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (17 added, 1 changed, 100% complete)
 * [`ianm/html-head`](https://github.com/imorland/html-head) (3 added, 100% complete)
 * [`linkrobins/support`](https://github.com/linkrobins/support) (11 added, 2 changed, 100% complete)
-* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (55 added, 6 changed, 99% complete)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (56 added, 6 changed, 99% complete)
 * [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta) (4 added, 100% complete)
 
 
