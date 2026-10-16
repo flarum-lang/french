@@ -6,8 +6,19 @@ flarum-audit:
   lib:
     browser:
       fof_open_collective:
+        backing_ended: '{username} n''est plus contributeur sur Open Collective. Groupes : {old_groups} → {new_groups}'
+        groups_changed: 'La synchronisation Open Collective a modifié les groupes de {username}, passant de {old_groups} à {new_groups}'
+        membership_adopted: 'La synchronisation Open Collective a pris en charge l''adhésion de {username} aux groupes {new_groups}'
+        onetime_started: '{username} a effectué une contribution ponctuelle sur Open Collective. Groupes : {old_groups} → {new_groups}'
         recurring_started: '{username} est devenu un contributeur récurrent sur Open Collective. Groupes : {old_groups} → {new_groups}'
         recurring_stopped: 'Le soutien récurrent de {username} sur Open Collective a pris fin. Groupes : {old_groups} → {new_groups}'
+flarum-gdpr:
+  lib:
+    data:
+      opencollectivebacker:
+        anonymize_description: '=> flarum-gdpr.lib.data.opencollectivebacker.delete_description'
+        delete_description: 'Supprime l''enregistrement du membre en tant que contributeur sur Open Collective, de sorte que la synchronisation ne le prenne plus en compte, sans pour autant annoncer la fin de sa contribution.'
+        export_description: 'Exporte le statut de contributeur Open Collective du membre, la date de sa dernière modification, ainsi que les groupes que la synchronisation gère pour lui.'
 fof-open-collective:
   admin:
     settings:
@@ -17,7 +28,7 @@ fof-open-collective:
       group_label: 'Groupe des contributeurs réguliers'
       onetime_group_help: 'Sélectionnez le groupe d''utilisateurs Flarum auquel les contributeurs ponctuels doivent être ajoutés. Si ce paramètre n''est pas défini, les contributeurs ponctuels ne seront pas gérés. Lorsqu''un contributeur récurrent annule son abonnement, il sera déplacé vers ce groupe.'
       onetime_group_label: 'Groupe de contributeurs ponctuels (facultatif)'
-      personal_token_help: 'Créez un jeton personnel sur <a>https://opencollective.com/applications</a>. Ce jeton sert à récupérer vos informations de contributeur auprès d''Open Collective.'
+      personal_token_help: 'Créez un jeton personnel sur <a>https://opencollective.com/applications</a> avec les portées « orders » et « email », depuis un compte disposant des droits d''administration sur le collectif. Ce jeton sert à récupérer vos informations de contributeur auprès d''Open Collective.'
       personal_token_label: 'Jeton personnel'
       slug_help: 'Saisissez l’identifiant texte unique de votre collectif Open Collective (la partie après opencollective.com/ dans l''URL de votre collectif).'
       slug_label: 'Identifiant texte unique du collectif'

@@ -120,6 +120,7 @@ ramon-avocado:
       footer_list_url_placeholder: '/tags ou https://…'
       footer_phone_label: Téléphone
       footer_social_add: 'Ajouter un réseau'
+      footer_social_help: 'Choisissez le réseau et collez le lien — le pied de page affiche l''icône du réseau. Lorsque vous collez un lien, le réseau est sélectionné en fonction de son adresse.'
       footer_social_label: 'Réseaux sociaux'
       footer_social_network: Réseau
       footer_social_other: 'Autre site'
