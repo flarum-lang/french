@@ -5,6 +5,11 @@ CHANGELOG
 5.0.15 (XXXX-XX-XX)
 -------------------
 
+**General changes**:
+
+* Updated Flarum core translations (3 changed).
+
+
 **Added support for new extensions**:
 
 * [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers) (100% complete)
@@ -20,13 +25,15 @@ CHANGELOG
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (5 added, 10 changed, 100% complete)
 * [`fof/categories`](https://github.com/FriendsOfFlarum/categories) (10 changed, 100% complete)
 * [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core) (1 added, 100% complete)
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors) (1 added, 3 changed, 28% complete)
 * [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users) (2 added, 100% complete)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 changed, 100% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (1 changed, 100% complete)
 * [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective) (27 added, 3 changed, 100% complete)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (17 added, 1 changed, 100% complete)
 * [`ianm/html-head`](https://github.com/imorland/html-head) (3 added, 100% complete)
 * [`linkrobins/support`](https://github.com/linkrobins/support) (11 added, 2 changed, 100% complete)
-* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (56 added, 6 changed, 99% complete)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (57 added, 6 changed, 100% complete)
 * [`ramon/guest-cta`](https://github.com/ram0ng1/guest-cta) (4 added, 100% complete)
 
 
