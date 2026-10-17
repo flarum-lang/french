@@ -6,8 +6,8 @@ flarum-audit:
   lib:
     browser:
       fof_github_sponsors:
-        groups_changed: 'Les sponsors GitHub ont été synchronisés et les groupes de {username} ont été modifiés, passant de {old_groups} à {new_groups}'
-        membership_adopted: 'La synchronisation GitHub Sponsors a importé l''adhésion de {username} aux groupes {new_groups}'
+        groups_changed: 'La synchronisation GitHub Sponsors a modifié les groupes de {username}, passant de {old_groups} à {new_groups}'
+        membership_adopted: 'La synchronisation GitHub Sponsors a pris en charge l''adhésion de {username} aux groupes {new_groups}'
         onetime_started: '{username} est devenu un sponsor ponctuel sur GitHub. Groupes : {old_groups} → {new_groups}'
         recurring_started: '{username} est devenu un contributeur mensuel sur GitHub. Groupes : {old_groups} → {new_groups}'
         recurring_stopped: 'Le parrainage mensuel de {username} sur GitHub a pris fin. Groupes : {old_groups} → {new_groups}'
@@ -17,6 +17,8 @@ flarum-gdpr:
     data:
       githubsponsor:
         anonymize_description: '=> flarum-gdpr.lib.data.githubsponsor.delete_description'
+        delete_description: 'Supprime l''enregistrement du membre en tant que sponsor sur GitHub, de sorte que la synchronisation ne le prenne plus en compte, sans pour autant annoncer la fin de son parrainage.'
+        export_description: 'Exporte le statut de sponsor GitHub du membre, la date de sa dernière modification, ainsi que les groupes que la synchronisation gère pour lui.'
 fof-github-sponsors:
   admin:
     account_types:
