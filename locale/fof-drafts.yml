@@ -23,6 +23,8 @@ fof-drafts:
       schedule_log_output: 'Ajouter la sortie du planificateur au stockage des journaux d''évènements'
       schedule_on_one_server: 'Utiliser la directive ''onOneServer()'' pour le planificateur de tâches (nécessite Redis/Memcache)'
       title: 'Drafts de FoF'
+  api:
+    empty_draft_message: 'Il n''y a encore rien à enregistrer dans ce brouillon.'
   console:
     no_title_error: 'Brouillon non enregistré : le titre de la discussion est manquant.'
     scheduled_drafts_disabled: 'Les brouillons planifiés sont actuellement désactivés dans les paramètres.'

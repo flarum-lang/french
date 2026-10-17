@@ -2,6 +2,16 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-github-sponsors/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      fof_github_sponsors:
+        groups_changed: 'Les sponsors GitHub ont été synchronisés et les groupes de {username} ont été modifiés, passant de {old_groups} à {new_groups}'
+        membership_adopted: 'La synchronisation GitHub Sponsors a importé l''adhésion de {username} aux groupes {new_groups}'
+        onetime_started: '{username} est devenu un sponsor ponctuel sur GitHub. Groupes : {old_groups} → {new_groups}'
+        recurring_started: '{username} est devenu un contributeur mensuel sur GitHub. Groupes : {old_groups} → {new_groups}'
+        recurring_stopped: 'Le parrainage mensuel de {username} sur GitHub a pris fin. Groupes : {old_groups} → {new_groups}'
+        sponsorship_ended: '{username} n''est plus sponsor sur GitHub. Groupes : {old_groups} → {new_groups}'
 flarum-gdpr:
   lib:
     data:
@@ -17,7 +27,28 @@ fof-github-sponsors:
       account_type_label: 'Type de compte'
       api_token_help: 'Créez un jeton d''accès personnel à l''adresse <a>https://github.com/settings/tokens/new</a> avec les champs <code>read:user</code>, <code>user:email</code> et <code>read:org</code>. Ce jeton sert à récupérer vos informations de parrainage depuis GitHub.'
       api_token_label: 'Jeton API'
-      group_help: 'Sélectionnez le groupe d''utilisateurs Flarum auquel les parrains mensuels actifs doivent être ajoutés. Les utilisateurs sont ajoutés lorsqu''ils commencent à parrainer mensuellement, puis transférés vers le groupe des parrainages ponctuels (si celui-ci est configuré) à la fin de leur parrainage mensuel.'
-      group_label: 'Groupe des parrains mensuels'
+      group_help: 'Sélectionnez le groupe d''utilisateurs Flarum auquel les groupes mensuels actifs doivent être ajoutés. Les utilisateurs sont ajoutés lorsqu''ils commencent à parrainer mensuellement, puis transférés vers le groupe des parrainages ponctuels (si celui-ci est configuré) à la fin de leur parrainage mensuel.'
+      group_label: 'Groupe des sponsors mensuels'
       login_help: 'Saisissez votre nom d''utilisateur GitHub (pour les comptes utilisateurs) ou le nom de votre organisation (pour les organisations). Il s''agit du compte dont les sponsors seront synchronisés.'
       login_label: Identifiant
+      onetime_group_help: 'Sélectionnez le groupe d''utilisateurs Flarum auquel doivent être ajoutés les sponsors ponctuels ainsi que les anciens sponsors mensuels. Si aucun groupe n’est défini, ils ne seront pas pris en charge.'
+      onetime_group_label: 'Groupe des sponsors ponctuels (facultatif)'
+      onetime_group_none: Aucun
+    status:
+      heading: 'État de la synchronisation'
+      last_failure: 'Échec de la dernière synchronisation {time} : {reason}'
+      last_success: 'Dernière synchronisation {time} : {sponsors} sponsors, {changes} modifications.'
+      never_run: 'La synchronisation n''a pas encore été exécutée. Elle s''effectue toutes les heures via le planificateur de Flarum ; vérifiez donc que celui-ci est bien configuré.'
+      reasons:
+        configuration: 'Le jeton, le type de compte, l''identifiant ou les paramètres de groupe sont incomplets.'
+        forbidden: 'Le jeton ne dispose pas d''un champ d''application requis. Cela nécessite les champs « read:user », « user:email » et « read:org ».'
+        network: 'Impossible d''accéder à GitHub.'
+        no_sponsors: 'GitHub n''a renvoyé aucun contributeur ; rien n''a donc été modifié. Exécutez la synchronisation avec l''option --force si cela vous convient.'
+        not_found: 'Utilisateur ou organisation GitHub introuvable. Vérifiez le type de compte et l''identifiant.'
+        other: 'GitHub a renvoyé une réponse inattendue.'
+        rate_limited: 'La limite de requêtes de GitHub a été atteinte. La prochaine synchronisation effectuera une nouvelle tentative.'
+        unauthorized: 'GitHub a rejeté le jeton. Il est possible qu''il ait expiré ou qu''il ait été révoqué.'
+      request_failed: 'Le test de connexion n''a pas pu être effectué.'
+      stale: 'La dernière synchronisation remonte à plus de deux heures. Vérifiez que le planificateur de Flarum fonctionne correctement.'
+      test_button: 'Test de connexion'
+      test_success: 'Connecté à {maintainer} en tant que {account}. {sponsorships} parrainage(s) public(s) trouvé(s).'

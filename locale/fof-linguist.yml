@@ -73,8 +73,8 @@ fof-linguist:
       locale: 'Variable linguistique'
       locale-all: 'Pseudo-variable linguistique « Toutes »'
       override-existing: 'Remplacer mes traductions personnalisées existantes'
-      results: "L'importation est terminée. {imported} chaînes ont été importées et {identical} chaînes identiques ont été ignorées. La page va maintenant être actualisée pour afficher les nouvelles traductions.\n"
-      results-with-ignore: "L'importation est terminée. {imported} chaînes ont été importées, {ignored} chaînes existantes ont été ignorées et {identical} chaînes identiques ont été ignorées. La page va maintenant être actualisée pour afficher les nouvelles traductions.\n"
+      results: "L'importation est terminée. {imported} chaînes ont été importées et {identical} chaînes identiques et {empty} chaînes vides ont été ignorées. La page va maintenant être actualisée pour afficher les nouvelles traductions.\n"
+      results-with-ignore: "L'importation est terminée. {imported} chaînes ont été importées, {ignored} chaînes existantes ont été ignorées et {identical} chaînes identiques et {empty} chaînes vides ont été ignorées. La page va maintenant être actualisée pour afficher les nouvelles traductions.\n"
       submit: Importer
       title: Importer
     known-frontend:
@@ -99,3 +99,6 @@ fof-linguist:
       export: Exporter
       import: Importer
       strings: Traductions
+  api:
+    cannot_change_key_or_locale: 'La clé et l''environnement linguistique d''une traduction enregistrée ne peuvent pas être modifiés.'
+    invalid_icu_syntax: 'La traduction ne respecte pas la syntaxe des messages ICU, par exemple parce qu''une accolade n''est pas fermée.'

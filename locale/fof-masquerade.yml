@@ -8,6 +8,8 @@ flarum-audit:
       masquerade:
         field_created: 'A créé le champ de profil « {name} »'
         field_deleted: 'A supprimé le champ de profil « {name} »'
+        field_permanently_deleted: 'Champ de profil « {name} » définitivement supprimé'
+        field_restored: 'Champ de profil « {name} » restauré'
         field_updated: 'A mis à jour le champ de profil « {name} »'
         profile_updated: 'A mis à jour les champs du profil de {username}'
 flarum-gdpr:
@@ -21,15 +23,18 @@ fof-masquerade:
   admin:
     buttons:
       add-field: 'Créer un champ'
-      delete-field: 'Supprimer le champ'
+      delete-field: 'Déplacer vers la corbeille'
+      delete-field-permanently: 'Supprimer définitivement le champ « {field} »'
       edit-field: 'Enregistrer les modifications'
+      restore-field: 'Restaurer le champ « {field} »'
     fields:
       add: 'Ajouter le champ {field}'
       create: 'Créer un champ'
-      delete-confirmation: 'Êtes-vous sûr de vouloir supprimer le champ {field} ? Cette action est irréversible.'
+      delete-confirmation: 'Déplacer le champ « {field} » vers la corbeille ?'
+      delete-permanently-confirmation: 'Souhaitez-vous supprimer définitivement le champ « {field} » et toutes les réponses qui y sont enregistrées ? Cette action est irréversible.'
       description: 'Description du champ'
       description-help: "Une description facultative pour expliquer l'utilisation ou la nécessité de ce champ.\n"
-      edit: 'Modifier le champ {field}'
+      edit: 'Modifier le champ « {field} »'
       force-user-to-completion: 'Obliger l''utilisateur à compléter son profil'
       hide-empty-fields: 'Masquer les champs vides'
       icon: Icône
@@ -45,6 +50,7 @@ fof-masquerade:
       permissions-alert: 'Les paramètres d''autorisation seront disponibles lors de la modification du champ après sa création.'
       required: 'Marquer le champ comme obligatoire'
       title: Champs
+      trash: Corbeille
       type: Type
       validation: Validation
       validation-help: "Vérifiez les <a>règles de validation de Laravel</a> prises en charge. P. ex. : « string|min:5 » ou « url ».\n"

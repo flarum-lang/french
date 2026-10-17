@@ -8,7 +8,7 @@ flarum-audit:
       fof_open_collective:
         backing_ended: '{username} n''est plus contributeur sur Open Collective. Groupes : {old_groups} → {new_groups}'
         groups_changed: 'La synchronisation Open Collective a modifié les groupes de {username}, passant de {old_groups} à {new_groups}'
-        membership_adopted: 'La synchronisation Open Collective a pris en charge l''adhésion de {username} aux groupes {new_groups}'
+        membership_adopted: 'La synchronisation GitHub Sponsors a modifié les groupes de {username}, passant de {old_groups} à {new_groups}'
         onetime_started: '{username} a effectué une contribution ponctuelle sur Open Collective. Groupes : {old_groups} → {new_groups}'
         recurring_started: '{username} est devenu un contributeur récurrent sur Open Collective. Groupes : {old_groups} → {new_groups}'
         recurring_stopped: 'Le soutien récurrent de {username} sur Open Collective a pris fin. Groupes : {old_groups} → {new_groups}'
