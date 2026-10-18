@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+5.0.16 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (59% complete)
+
+
+All changes: [5.0.15...5.0.16](https://github.com/flarum-lang/french/compare/5.0.15...5.0.16).
+
+
 5.0.15 (2026-10-18)
 -------------------
 
