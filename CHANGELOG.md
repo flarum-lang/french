@@ -34,6 +34,7 @@ CHANGELOG
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (1 changed, 100% complete)
 * [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective) (27 added, 3 changed, 100% complete)
 * [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (17 added, 1 changed, 100% complete)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split) (2 added, 100% complete)
 * [`ianm/html-head`](https://github.com/imorland/html-head) (3 added, 100% complete)
 * [`linkrobins/support`](https://github.com/linkrobins/support) (11 added, 2 changed, 100% complete)
 * [`ramon/avocado`](https://github.com/ram0ng1/avocado) (57 added, 6 changed, 100% complete)
