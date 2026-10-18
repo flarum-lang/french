@@ -12,6 +12,10 @@ fof-split:
   admin:
     permissions:
       split_discussion_label: 'Séparer les messages des discussions'
+  api:
+    errors:
+      end_before_start: 'La séparation doit se terminer au point où elle commence, ou après.'
+      first_post: 'Le message d''ouverture d''une discussion ne peut pas être séparé.'
   forum:
     modal:
       new_discussion_label: 'Indiquez le titre de la nouvelle discussion'
