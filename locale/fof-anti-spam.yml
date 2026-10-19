@@ -128,6 +128,8 @@ fof-anti-spam:
         introduction: 'Lorsqu''un utilisateur est marqué comme indésirable, les modérateurs peuvent choisir parmi différentes actions pour traiter ce cas d''utilisation particulier. Ces paramètres vous autorisent à prédéfinir les actions que vous entreprendrez normalement, afin d''accélérer le processus, tout en autorisant des variations en cas de besoin.'
         move_discussions_to_tags_help: 'Ceci déplacera toutes les discussions commencées par cet utilisateur vers le(s) étiquette(s) que vous avez spécifié(s). Effacez la sélection de l''étiquette pour laisser les discussions dans leur(s) étiquette(s) d''origine. N''a aucun effet si l''option « Supprimer les discussions » est activée.'
         move_discussions_to_tags_label: 'Déplacer les discussions vers une ou plusieurs étiquettes'
+      sign_ups:
+        heading: 'Vérifications lors de l’inscription'
       stopforumspam:
         api_key_instructions_text: '<register>S''inscrire à StopForumSpam</register>. Ensuite, vous devrez <key>obtenir une clé API</key>.'
         api_key_label: 'Clé API'
@@ -176,6 +178,7 @@ fof-anti-spam:
       content_filter: 'Filtre de contenu'
       sign_ups: Inscriptions
       stopforumspam: StopForumSpam
+    unsaved_changes: 'Vous avez des modifications non enregistrées dans cet onglet. Voulez-vous quitter sans les enregistrer ?'
   forum:
     message:
       profile:
