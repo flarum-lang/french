@@ -130,6 +130,9 @@ fof-anti-spam:
         move_discussions_to_tags_label: 'Déplacer les discussions vers une ou plusieurs étiquettes'
       sign_ups:
         heading: 'Vérifications lors de l’inscription'
+        honeypot_heading: Honeypot
+        honeypot_label: 'Piéger les robots qui remplissent des formulaires'
+        introduction: 'Ce forum effectue lui-même ces vérifications lors de chaque inscription, sans rien transmettre à un service externe. Les recherches effectuées auprès de StopForumSpam disposent d''un onglet dédié.'
       stopforumspam:
         api_key_instructions_text: '<register>S''inscrire à StopForumSpam</register>. Ensuite, vous devrez <key>obtenir une clé API</key>.'
         api_key_label: 'Clé API'
