@@ -20,7 +20,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (3 added, 83% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (5 added, 84% complete)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (7 added, 100% complete)
 
 
