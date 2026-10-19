@@ -7,7 +7,10 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (100% complete)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (59% complete)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (65% complete)
+* [`ianm/gravatar`](https://github.com/imorland/gravatar) (100% complete)
 
 
 All changes: [5.0.15...5.0.16](https://github.com/flarum-lang/french/compare/5.0.15...5.0.16).
