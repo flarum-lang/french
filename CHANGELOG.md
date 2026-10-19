@@ -5,12 +5,23 @@ CHANGELOG
 5.0.16 (XXXX-XX-XX)
 -------------------
 
+**General changes**:
+
+* Updated Flarum core translations (3 added).
+
+
 **Added support for new extensions**:
 
 * [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (100% complete)
-* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (59% complete)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (100% complete)
 * [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (65% complete)
 * [`ianm/gravatar`](https://github.com/imorland/gravatar) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (3 added, 83% complete)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (7 added, 100% complete)
 
 
 All changes: [5.0.15...5.0.16](https://github.com/flarum-lang/french/compare/5.0.15...5.0.16).
