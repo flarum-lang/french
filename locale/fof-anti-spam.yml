@@ -172,6 +172,10 @@ fof-anti-spam:
       users_marked: 'Utilisateurs signalés comme spammeurs'
       view_all: 'Afficher les inscriptions bloquées'
       vs_last_week: 'Par rapport aux sept jours précédents'
+    tabs:
+      content_filter: 'Filtre de contenu'
+      sign_ups: Inscriptions
+      stopforumspam: StopForumSpam
   forum:
     message:
       profile:
