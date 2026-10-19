@@ -38,7 +38,11 @@ fof-anti-spam:
           blacklisted: 'Sur la liste noire'
           confidence: 'Seuil de confiance'
           deniedAsn: 'Réseau refusé'
+          formToken: 'Formulaire d''inscription altéré ou réutilisé'
           frequency: 'Seuil de signalement'
+          honeypot: 'A renseigné le champ masqué'
+          noForm: 'Non envoyé via le formulaire d''inscription'
+          tooFast: 'Envoyé plus vite qu''une personne ne pourrait le faire'
           torExit: 'Nœud de sortie Tor'
       filters:
         apply: Appliquer
@@ -56,7 +60,7 @@ fof-anti-spam:
         hint: 'Filtres :'
         no-matches: 'Aucune inscription bloquée ne correspond à cette recherche.'
         placeholder: 'Rechercher ou filtrer par clé:valeur'
-      help: "Cette page présente toutes les inscriptions qui ont été bloquées par le service StopForumSpam. Vous pouvez consulter les détails de chaque inscription et, si vous le souhaitez, supprimer l'inscription de la base de données.\n"
+      help: "Cette page présente toutes les inscriptions qui ont été bloquées, par StopForumSpam ou par le « honeypot » d'inscription. Vous pouvez consulter les détails de chaque inscription et, si vous le souhaitez, supprimer l'inscription de la base de données.\n"
       ip: 'Adresse IP'
       login-provider: 'Fournisseur d''accès'
       login-provider-data: 'Données du fournisseur de connexion'
@@ -131,8 +135,16 @@ fof-anti-spam:
       sign_ups:
         heading: 'Vérifications lors de l’inscription'
         honeypot_heading: Honeypot
+        honeypot_help: 'Ajoute un champ invisible aux utilisateurs dans le formulaire d''inscription et refuse les inscriptions qui le remplissent ou qui sont effectuées plus rapidement qu''une personne ne le pourrait. Il détecte les robots que StopForumSpam n''a pas encore identifiés, n''envoie aucune donnée hors du site et ne demande rien aux vrais utilisateurs.'
         honeypot_label: 'Piéger les robots qui remplissent des formulaires'
+        honeypot_min_seconds_help: 'Ce délai est calculé à partir du moment où la page a été affichée. Une personne qui lit le formulaire met plus de temps que cela ; un script, non.'
+        honeypot_min_seconds_label: 'Nombre minimum de secondes avant une inscription'
+        honeypot_strict_help: 'Refuse également les inscriptions d''invités envoyées sans le formulaire, comme c''est le cas avec les scripts qui effectuent des requêtes directement via l''API. Désactivez cette option si une application, une passerelle SSO ou un autre outil crée des comptes via l''API.'
+        honeypot_strict_label: 'Refuser les inscriptions qui ignorent le formulaire'
         introduction: 'Ce forum effectue lui-même ces vérifications lors de chaque inscription, sans rien transmettre à un service externe. Les recherches effectuées auprès de StopForumSpam disposent d''un onglet dédié.'
+        registration_throttle_help: 'Flarum limite la fréquence à laquelle une personne peut publier des messages, mais pas celle à laquelle elle peut créer des comptes. La valeur 0 désactive cette restriction. Gardez à l''esprit que les bureaux, les écoles et les réseaux mobiles partagent une même adresse entre de nombreuses personnes.'
+        registration_throttle_label: 'Nombre de secondes entre deux inscriptions provenant d''une même adresse'
+        throttle_heading: 'Limite de fréquence'
       stopforumspam:
         api_key_instructions_text: '<register>S''inscrire à StopForumSpam</register>. Ensuite, vous devrez <key>obtenir une clé API</key>.'
         api_key_label: 'Clé API'
@@ -150,7 +162,7 @@ fof-anti-spam:
         frequency_label: Seuil
         introduction: "Vérifie les inscriptions des nouveaux utilisateurs dans la base de données de <a>StopForumSpam</a>. Si les seuils de <code>confidence</code> ou de <code>fréquence</code> sont atteints, l'utilisateur sera empêché de finaliser son inscription sur votre forum.\n\nL'enregistrement SSO via <code>fof/oauth</code> et <code>fof/passport</code> est également pris en charge. D'autres fournisseurs SSO devraient fonctionner, mais n'ont pas été testés.\n"
         ip_label: 'Vérification de l''adresse IP'
-        lookup_failed: 'Impossible d''accéder à StopForumSpam (dernier échec : {when}). Les inscriptions sont autorisées sans vérification jusqu''à ce que le service soit rétabli.'
+        lookup_failed: 'Impossible d''accéder à StopForumSpam (premier échec : {when}). Les inscriptions sont autorisées sans vérification jusqu''à ce que le service soit rétabli.'
         max_listing_age_help: 'Une observation datant d''il y a plusieurs années ne nous apprend pas grand-chose sur la personne qui s''inscrit aujourd''hui. 0 conserve toutes les inscriptions, quelle que soit leur ancienneté. Les domaines et réseaux figurant sur la liste noire sont toujours pris en compte, indépendamment de cela.'
         max_listing_age_label: 'Ignorer les listes anciennes de plus de (en jours)'
         region_closest_label: 'Le plus proche'
@@ -160,7 +172,7 @@ fof-anti-spam:
         regional_endpoint_label: 'Accès géographique'
         registration_throttle_help: 'Flarum limite la fréquence à laquelle une personne peut publier des messages, mais pas celle à laquelle elle peut créer des comptes. La valeur 0 désactive cette restriction. Gardez à l''esprit que les bureaux, les écoles et les réseaux mobiles partagent une même adresse entre de nombreuses personnes.'
         registration_throttle_label: 'Nombre de secondes entre deux inscriptions provenant d''une même adresse'
-        report_blocked_registrations_help: 'Lorsqu''une inscription est bloquée par la fonction de consultation des inscriptions, la tentative est signalée à StopForumSpam afin de mieux confirmer l''activité indésirable. Une clé API StopForumSpam doit être définie (voir ci-dessous).'
+        report_blocked_registrations_help: 'Lorsque les données propres à StopForumSpam bloquent une inscription, cette tentative est signalée afin de pouvoir confirmer l''activité du spammeur. Les blocages provenant de Tor ou d''un réseau refusé ne sont jamais signalés, car il s''agit d''une règle de ce forum et non d''une preuve. Nécessite une clé API StopForumSpam (voir ci-dessus).'
         report_blocked_registrations_label: 'Signaler les inscriptions bloquées'
         sfs_lookup_help: 'Si cette option est activée, nous vérifierons la base de données de StopForumSpam lorsqu''un nouvel utilisateur s''inscrit sur votre forum. Si l''utilisateur est trouvé (nom d''utilisateur, adresse IP, adresse de courriel) et que ce point de données est activé et que le niveau de confiance de SFS atteint le niveau que vous avez défini, l''utilisateur ne pourra pas finaliser son inscription.'
         sfs_lookup_label: 'Consulter les inscriptions'
@@ -184,6 +196,9 @@ fof-anti-spam:
     unsaved_changes: 'Vous avez des modifications non enregistrées dans cet onglet. Voulez-vous quitter sans les enregistrer ?'
   forum:
     message:
+      honeypot:
+        refused: 'Nous n''avons pas pu finaliser votre inscription.'
+        reload: 'Une erreur s''est produite avec le formulaire d''inscription. Veuillez actualiser la page et réessayer.'
       profile:
         blocked: 'Cela ressemble à du spam, c''est pourquoi il n''a pas été enregistré. Veuillez supprimer tous les liens et coordonnées, puis réessayez.'
       stopforumspam:
