@@ -9,8 +9,15 @@ fof-mason:
       add-field: 'Ajouter un champ'
       delete-answer: 'Supprimer la réponse'
       delete-field: 'Supprimer le champ'
+      edit-answer: 'Modifier la réponse'
+      edit-answer-prompt: 'Modifie la réponse partout où elle est utilisée'
+      edit-field: Modifier
       new-field: 'Nouveau champ'
       save-field: 'Enregistrer les modifications du champ'
+      show-user-answers: '{count, plural, one {# réponse saisie par les utilisateurs} other {# réponses saisies par les utilisateurs}}'
+    field-list:
+      empty: 'Aucun champ pour le moment. Ajoutez-en un pour recueillir des informations structurées sur les nouvelles discussions.'
+      free-text: 'Texte libre'
     fields:
       description: 'Description du champ'
       description-help: "Une description facultative pour expliquer l'utilisation ou la nécessité de ce champ.\n"
@@ -56,11 +63,15 @@ fof-mason:
       settings: Paramètres
   forum:
     answers-modal:
+      compose-title: 'Détails de la discussion'
       edit-title: 'Modifier les champs pour {title}'
       save: 'Enregistrer les champs'
     answers:
       choose-option: 'Sélectionnez une option'
       no-option-selected: 'Aucune option sélectionnée'
+      required: 'Ce champ est requis.'
+    composer:
+      add-details: 'Ajouter des informations'
     discussion-controls:
       edit-answers: 'Modifier les champs'
     post-answers:

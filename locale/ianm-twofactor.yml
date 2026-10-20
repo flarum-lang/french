@@ -2,6 +2,17 @@
 # Use https://weblate.rob006.net/projects/flarum2/ianm-twofactor/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      group:
+        two_factor_not_required: 'A cessé d’exiger l’authentification à deux facteurs pour le groupe {name}'
+        two_factor_required: 'A exigé l''authentification à deux facteurs pour le groupe {name}'
+      user:
+        two_factor_backup_code_used: 'A utilisé un code de secours à deux facteurs pour {username} ({remaining} restant(s))'
+        two_factor_device_changed: 'A modifié l''appareil d''authentification à deux facteurs pour {username}'
+        two_factor_disabled: 'A désactivé l''authentification à deux facteurs pour {username}'
+        two_factor_enabled: 'A activé l''authentification à deux facteurs pour {username}'
 flarum-gdpr:
   lib:
     data:
@@ -47,6 +58,7 @@ ianm-twofactor:
       status_changed: 'Authentification à deux facteurs {type} pour votre compte'
   forum:
     log_in:
+      two_factor_incorrect_message: 'Le jeton A2F est incorrect. Veuillez réessayer.'
       two_factor_placeholder: 'Jeton A2F, p. ex. 123456'
       two_factor_required_message: 'Un jeton A2F valide est nécessaire pour continuer.'
     security:
@@ -94,6 +106,10 @@ ianm-twofactor:
     user_2fa:
       alert_message: 'Vous devez activer la fonction A2F pour continuer à accéder à votre compte.'
   views:
+    log_in:
+      two_factor_incorrect_message: 'Le jeton A2F est incorrect. Veuillez réessayer.'
+      two_factor_required_message: 'L''authentification à deux facteurs est activée sur ce compte. Saisissez le jeton fourni par votre application d''authentification ou un code de secours.'
+      two_factor_token_placeholder: 'Jeton A2F (si activé sur votre compte)'
     reset_password:
       two_factor_token_label: 'Jeton A2F'
     two_factor_token:
