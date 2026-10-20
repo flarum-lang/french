@@ -11,7 +11,9 @@ linkrobins-html-widget:
       background_label: 'Couleur d''arrière-plan'
       body_help: 'Code HTML brut, nettoyé avant affichage -- les balises de script, les attributs de gestionnaires d''événements et les URL « javascript: » sont supprimés. Les iframes sont également supprimées, sauf si vous autorisez leur hôte ci-dessous.'
       body_label: 'Corps du HTML'
+      description_help: 'Facultatif. Petit texte affiché sous le titre, pour un sous-titre court ou toute autre information complémentaire.'
       description_label: Description
+      description_placeholder: 'Lisez ceci avant de publier'
       icon_help: 'Classe FontAwesome à afficher à côté du titre (p. ex. fas fa-bullhorn). Si vous ne souhaitez pas d''icône, laissez ce champ vide.'
       icon_label: 'Classe d''icône'
       title_help: 'Facultatif. S''affiche au-dessus du texte. Si vous ne souhaitez pas d''en-tête, laissez ce champ vide.'

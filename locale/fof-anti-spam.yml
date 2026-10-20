@@ -8,7 +8,7 @@ flarum-audit:
       registration:
         blocked: 'A bloqué l''inscription pour {username} ({email}) depuis {ip}'
       user:
-        marked_as_spammer: 'A marqué {username} comme indésirable'
+        marked_as_spammer: 'A marqué {username} comme polluposteur'
 fof-anti-spam:
   admin:
     blocked_registrations:
@@ -77,7 +77,7 @@ fof-anti-spam:
       total: '{count, plural, one {# inscription bloquée} other {# inscriptions bloquées}}'
       username: 'Nom d''utilisateur'
     permissions:
-      spamblock_users_label: 'Marquer l''utilisateur comme indésirable'
+      spamblock_users_label: 'Marquer l''utilisateur comme polluposteur'
     settings:
       button: Paramètres
       content-filter:
@@ -104,6 +104,13 @@ fof-anti-spam:
         detectors_heading: 'Méthodes de détection'
         enabled_help: 'Lorsque cette option est activée, les publications et les discussions des nouveaux utilisateurs seront analysées afin de détecter tout indicateur de spam.'
         enabled_label: 'Activer le filtrage de contenu'
+        flag_account_choose_button: Sélectionner…
+        flag_account_default: 'Par défaut : le premier administrateur'
+        flag_account_help: 'Affiché comme l''auteur des signalements automatiques des messages indésirables dans la file d''attente de modération. Par défaut, c''est le premier administrateur qui les signale.'
+        flag_account_in_code: 'Cette valeur est définie dans le fichier extend.php via la fonction assignFlagsToModerator(), elle ne peut donc pas être modifiée ici.'
+        flag_account_label: 'Compte qui signale les messages indésirables'
+        flag_account_missing: 'Le compte sélectionné n''existe plus ; le premier administrateur va donc signaler les messages indésirables jusqu''à ce que vous en choisissiez un autre.'
+        flag_account_modal_title: 'Sélectionnez le compte qui signale les messages indésirables'
         flag_threshold_help: 'Le contenu dont le score de spam est égal ou supérieur à cette valeur sera signalé pour modération (nécessite l''extension flarum/flags).'
         flag_threshold_label: 'Seuil de l''indicateur (0-100)'
         heading: 'Filtre de contenu'
@@ -129,7 +136,7 @@ fof-anti-spam:
         delete_user_help: 'Cette option permet de supprimer définitivement l''utilisateur. S''il est désactivé, l''utilisateur sera suspendu.'
         delete_user_label: 'Supprimer l''utilisateur'
         heading: 'Actions de modération par défaut'
-        introduction: 'Lorsqu''un utilisateur est marqué comme indésirable, les modérateurs peuvent choisir parmi différentes actions pour traiter ce cas d''utilisation particulier. Ces paramètres vous autorisent à prédéfinir les actions que vous entreprendrez normalement, afin d''accélérer le processus, tout en autorisant des variations en cas de besoin.'
+        introduction: 'Lorsqu''un utilisateur est marqué comme polluposteur, les modérateurs peuvent choisir parmi différentes actions pour traiter ce cas d''utilisation particulier. Ces paramètres vous autorisent à prédéfinir les actions que vous entreprendrez normalement, afin d''accélérer le processus, tout en autorisant des variations en cas de besoin.'
         move_discussions_to_tags_help: 'Ceci déplacera toutes les discussions commencées par cet utilisateur vers le(s) étiquette(s) que vous avez spécifié(s). Effacez la sélection de l''étiquette pour laisser les discussions dans leur(s) étiquette(s) d''origine. N''a aucun effet si l''option « Supprimer les discussions » est activée.'
         move_discussions_to_tags_label: 'Déplacer les discussions vers une ou plusieurs étiquettes'
       sign_ups:
@@ -146,13 +153,15 @@ fof-anti-spam:
         registration_throttle_label: 'Nombre de secondes entre deux inscriptions provenant d''une même adresse'
         throttle_heading: 'Limite de fréquence'
       stopforumspam:
+        also_block_heading: 'Bloquer également'
         api_key_instructions_text: '<register>S''inscrire à StopForumSpam</register>. Ensuite, vous devrez <key>obtenir une clé API</key>.'
         api_key_label: 'Clé API'
-        api_key_text: 'Vous avez la possibilité de signaler les utilisateurs indésirables à StopForumSpam afin d''améliorer la qualité de la communauté.'
+        api_key_text: 'Vous avez la possibilité de signaler les polluposteurs à StopForumSpam afin d''améliorer la qualité de la communauté.'
         block_tor_exit_nodes_help: 'Lorsque cette option est activée, les inscriptions provenant de nœuds de sortie Tor connus seront automatiquement bloquées. Cela peut aider à empêcher les inscriptions anonymes de spam, mais peut également empêcher les utilisateurs légitimes qui utilisent Tor pour protéger leur vie privée.'
         block_tor_exit_nodes_label: 'Bloquer les nœuds de sortie Tor'
         blocked_asns_help: 'Une par ligne, ou séparées par des virgules. Les inscriptions provenant de ces réseaux sont systématiquement refusées, que l''adresse figure dans la liste ou non. StopForumSpam renvoie le numéro de réseau à chaque requête, et presque personne ne navigue sur un forum depuis un hébergeur. Accepte 31272 ou AS31272. Laissez ce champ vide pour enregistrer le réseau sans prendre de mesure.'
         blocked_asns_label: 'Numéros de système autonome (ASN) bloqués'
+        checks_heading: 'Ce qu''il faut vérifier'
         confidence_help: 'Le niveau de confiance est un indicateur raisonnablement bon que le champ testé entraînera une activité indésirable. Définissez votre niveau de confiance en pourcentage. Si le champ est égal ou supérieur à ce chiffre, l''inscription sera bloquée, indépendamment du test de « fréquence » ci-dessus.'
         confidence_label: Confiance
         email_hash_help: 'Transmettez un hachage MD5 de l''adresse de courriel si vous souhaitez ne pas transmettre l''adresse électronique elle-même. Cette méthode permet de contourner tous les contrôles de listes noires, de normalisation et de contournement de l''obscurcissement.'
@@ -172,11 +181,12 @@ fof-anti-spam:
         regional_endpoint_label: 'Accès géographique'
         registration_throttle_help: 'Flarum limite la fréquence à laquelle une personne peut publier des messages, mais pas celle à laquelle elle peut créer des comptes. La valeur 0 désactive cette restriction. Gardez à l''esprit que les bureaux, les écoles et les réseaux mobiles partagent une même adresse entre de nombreuses personnes.'
         registration_throttle_label: 'Nombre de secondes entre deux inscriptions provenant d''une même adresse'
-        report_blocked_registrations_help: 'Lorsque les données propres à StopForumSpam bloquent une inscription, cette tentative est signalée afin de pouvoir confirmer l''activité du spammeur. Les blocages provenant de Tor ou d''un réseau refusé ne sont jamais signalés, car il s''agit d''une règle de ce forum et non d''une preuve. Nécessite une clé API StopForumSpam (voir ci-dessus).'
+        report_blocked_registrations_help: 'Lorsque les données propres à StopForumSpam bloquent une inscription, cette tentative est signalée afin de pouvoir confirmer l''activité du polluposteur. Les blocages provenant de Tor ou d''un réseau refusé ne sont jamais signalés, car il s''agit d''une règle de ce forum et non d''une preuve. Nécessite une clé API StopForumSpam (voir ci-dessus).'
         report_blocked_registrations_label: 'Signaler les inscriptions bloquées'
         reporting_heading: Rapports
         sfs_lookup_help: 'Si cette option est activée, nous vérifierons la base de données de StopForumSpam lorsqu''un nouvel utilisateur s''inscrit sur votre forum. Si l''utilisateur est trouvé (nom d''utilisateur, adresse IP, adresse de courriel) et que ce point de données est activé et que le niveau de confiance de SFS atteint le niveau que vous avez défini, l''utilisateur ne pourra pas finaliser son inscription.'
         sfs_lookup_label: 'Consulter les inscriptions'
+        thresholds_heading: 'Quand bloquer'
         username_label: 'Vérification du nom d''utilisateur'
     statistics:
       awaiting_review: 'Signalements en attente de révision'
@@ -187,25 +197,28 @@ fof-anti-spam:
       this_week: '{count, plural, one {# cette semaine} other {# cette semaine}}'
       top_reason: 'Le plus fréquent : {reason} ({count, plural, one {# bloc} other {# blocs}})'
       total_label: Total
-      users_marked: 'Utilisateurs signalés comme spammeurs'
+      users_marked: 'Utilisateurs signalés comme polluposteurs'
       view_all: 'Afficher les inscriptions bloquées'
       vs_last_week: 'Par rapport aux sept jours précédents'
     tabs:
       content_filter: 'Filtre de contenu'
       sign_ups: Inscriptions
+      spammer_actions: 'Actions de modération'
       stopforumspam: StopForumSpam
     unsaved_changes: 'Vous avez des modifications non enregistrées dans cet onglet. Voulez-vous quitter sans les enregistrer ?'
   forum:
     message:
       honeypot:
         refused: 'Nous n''avons pas pu finaliser votre inscription.'
-        reload: 'Une erreur s''est produite avec le formulaire d''inscription. Veuillez actualiser la page et réessayer.'
+        reload: 'Une erreur s''est produite lors de l''utilisation du formulaire d''inscription. Veuillez actualiser la page et réessayer.'
       profile:
         blocked: 'Cela ressemble à du spam, c''est pourquoi il n''a pas été enregistré. Veuillez supprimer tous les liens et coordonnées, puis réessayez.'
       stopforumspam:
         blocked: 'Les détails de votre inscription ont été trouvés dans une base de données de prévention des utilisateurs indésirables, et votre inscription a donc été bloquée.'
     post:
       flagged_as_spam_text: 'Détection automatique des spams - score {score}'
+    sign_up:
+      trap_label: 'Laisser ce champ vide'
     spammer_modal:
       hard_delete_discussions_help: 'Cette option supprime définitivement toutes les discussions lancées par cet utilisateur. Lorsqu''elle est désactivée, les discussions sont masquées.'
       hard_delete_discussions_label: 'Supprimer les discussions'
@@ -213,13 +226,13 @@ fof-anti-spam:
       hard_delete_posts_label: 'Supprimer les messages'
       hard_delete_user_help: 'Cette option supprime définitivement l''utilisateur. S''il est désactivé, l''utilisateur sera suspendu.'
       hard_delete_user_label: 'Supprimer l''utilisateur'
-      intro: 'Lorsqu''un utilisateur est marqué comme indésirable, plusieurs actions sont entreprises, qui dépendent des extensions disponibles sur votre forum.'
+      intro: 'Lorsqu''un utilisateur est marqué comme polluposteur, plusieurs actions sont entreprises, qui dépendent des extensions disponibles sur votre forum.'
       move_discussions_tag_help: 'Ceci déplacera toutes les discussions commencées par cet utilisateur vers l''étiquette que vous avez spécifiée dans les paramètres du forum. Si cette option est désactivée, les discussions resteront dans leurs étiquettes actuelles.'
       move_discussions_tag_label: 'Déplacer les discussions vers l''étiquette de quarantaine'
       process_button: Procéder
       report_to_sfs_help: 'Les données de base de l''utilisateur (nom d''utilisateur, adresse de courriel, adresse IP) seront signalées à StopForumSpam. Cela empêchera l''utilisateur de s''inscrire sur d''autres forums utilisant le service StopForumSpam.'
       report_to_sfs_label: 'Signaler à StopForumSpam'
-      success: '{username} a été marqué comme indésirable.'
-      title: 'Marquer {username} comme indésirable'
+      success: '{username} a été marqué comme polluposteur.'
+      title: 'Marquer {username} comme polluposteur'
     user_controls:
-      spammer_button: Indésirable
+      spammer_button: Polluposteur

@@ -9,6 +9,9 @@ linkrobins-markdown-widget:
       background_label: 'Couleur d''arrière-plan'
       body_help: 'Markdown standard (version GitHub). Les titres, les listes, les liens, le code, les tableaux sont pris en charge. Le code HTML est autorisé mais nettoyé avant l''affichage : les balises de script, les gestionnaires d''événements et autres balises non sécurisés sont supprimés.'
       body_label: 'Corps du Markdown'
+      description_help: 'Facultatif. Petit texte affiché sous le titre, pour un sous-titre court ou toute autre information complémentaire.'
+      description_label: Description
+      description_placeholder: 'Lisez ceci avant de publier'
       icon_help: 'Classe FontAwesome à afficher à côté du titre (par ex. fab fa-markdown). Si vous ne souhaitez pas d''icône, laissez ce champ vide.'
       icon_label: 'Classe d''icône'
       title_help: 'Facultatif. S''affiche au-dessus du texte. Si vous ne souhaitez pas d''en-tête, laissez ce champ vide.'
