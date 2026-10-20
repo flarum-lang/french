@@ -18,7 +18,9 @@ flarum-audit:
 fof-mason:
   admin:
     answers:
+      help: "Les réponses suggérées sont proposées dans une liste déroulante, dans cet ordre. Toute modification apportée à une réponse est répercutée sur toutes les discussions où elle est utilisée.\n"
       suggest: Suggérer
+      unsuggest: 'Ne plus suggérer'
     buttons:
       add-answer: 'Ajouter une réponse'
       add-field: 'Ajouter un champ'
@@ -64,6 +66,7 @@ fof-mason:
       update-own-fields: 'Mettre à jour les champs de votre propre discussion'
     settings:
       column-count: 'Nombre de colonnes lors de l''affichage des champs'
+      fields-in-hero: 'Afficher les champs dans la bannière de la discussion plutôt qu’en dessous du premier message'
       fields-section-title: 'Titre de la section des champs personnalisés'
       fields-section-title-help: "Les utilisateurs verront ce texte au-dessus des champs personnalisés dans l'éditeur et dans la discussion.\n"
       fields-section-title-placeholder: 'Aucun titre ne sera affiché par défaut'
