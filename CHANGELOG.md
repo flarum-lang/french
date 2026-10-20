@@ -14,15 +14,16 @@ CHANGELOG
 
 * [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (100% complete)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (100% complete)
-* [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (65% complete)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (77% complete)
 * [`ianm/gravatar`](https://github.com/imorland/gravatar) (100% complete)
 
 
 **Updated translations for extensions**:
 
-* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (35 added, 12 changed, 99% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (36 added, 12 changed, 100% complete)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (7 added, 100% complete)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (1 added, 2 changed, 100% complete)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (10 added, 100% complete)
 * [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (3 added, 100% complete)
 * [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget) (3 added, 100% complete)
 
