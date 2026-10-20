@@ -2,8 +2,23 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-mason/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        mason_answers_changed: 'A modifié {keys} dans {discussion} de {old_value} à {new_value}'
+      mason_answer:
+        created: 'A ajouté la réponse {name} au champ personnalisé {key}'
+        deleted: 'A supprimé la réponse {name} du champ personnalisé {key}'
+        updated: 'A mis à jour la réponse {old_name} en {new_name} dans le champ personnalisé {key} ({keys})'
+      mason_field:
+        created: 'A créé le champ personnalisé {name}'
+        deleted: 'A supprimé le champ personnalisé {name}'
+        updated: 'A mis à jour le champ personnalisé {name} ({keys})'
 fof-mason:
   admin:
+    answers:
+      suggest: Suggérer
     buttons:
       add-answer: 'Ajouter une réponse'
       add-field: 'Ajouter un champ'
@@ -16,6 +31,7 @@ fof-mason:
       save-field: 'Enregistrer les modifications du champ'
       show-user-answers: '{count, plural, one {# réponse saisie par les utilisateurs} other {# réponses saisies par les utilisateurs}}'
     field-list:
+      dropdown: '{count, plural, =0 {Liste déroulante, aucune réponse pour le moment} one {Liste déroulante · # réponse} other {Liste déroulante · # réponses}}'
       empty: 'Aucun champ pour le moment. Ajoutez-en un pour recueillir des informations structurées sur les nouvelles discussions.'
       free-text: 'Texte libre'
     fields:
@@ -54,6 +70,7 @@ fof-mason:
       hide-empty-fields-section: 'Masquer le titre et les contrôles lorsque tous les champs sont vides et masqués'
       labels-as-placeholders: 'Afficher les libellés en tant que paramètres fictifs dans le formulaire'
       labels-as-placeholders-help: "Les champs utiliseront moins d'espace vertical et les icônes ne seront plus affichées. Cette option peut avoir un impact sur la simplicité d'utilisation, en particulier lors de la modification de champs existants.\n"
+      n-columns: '{count, plural, one {# colonne} other {# colonnes}}'
       tags-as-field: 'Afficher le sélecteur d''étiquettes comme un champ'
       tags-field-name: 'Libellé du champ d''étiquettes'
       tags-field-name-placeholder: '=> fof-mason.forum.tags.tags-label'
