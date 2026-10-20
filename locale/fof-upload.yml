@@ -162,11 +162,12 @@ fof-upload:
       title: Transférer
     permissions:
       access_shared_label: 'Accéder aux fichiers partagés dans le gestionnaire de médias'
-      delete_uploads_of_others_label: 'Supprimer les transferts des utilisateurs'
+      delete_own_uploads_label: 'Supprimer ses propres transferts'
+      delete_uploads_of_others_label: 'Masquer et supprimer les transferts des autres utilisateurs'
       download_label: 'Télécharger les fichiers'
       upload_label: 'Transférer les fichiers (autorisation de base, requise pour tous les transferts)'
       upload_mime_label: 'Transférer {label}'
-      upload_shared_label: 'Transférer des fichiers partagés'
+      upload_shared_label: 'Transférer, masquer et supprimer des fichiers partagés'
       view_user_uploads_label: 'Afficher les transferts des utilisateurs'
     shared-uploads:
       description: 'Transférez des fichiers qui peuvent être utilisés par tous les utilisateurs de votre forum.'
