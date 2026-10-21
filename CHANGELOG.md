@@ -30,11 +30,6 @@ CHANGELOG
 * [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget) (3 added, 100% complete)
 
 
-**Removed support for outdated extensions**:
-
-* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
-
-
 All changes: [5.0.15...5.0.16](https://github.com/flarum-lang/french/compare/5.0.15...5.0.16).
 
 
