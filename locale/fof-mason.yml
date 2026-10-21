@@ -15,6 +15,13 @@ flarum-audit:
         created: 'A créé le champ personnalisé {name}'
         deleted: 'A supprimé le champ personnalisé {name}'
         updated: 'A mis à jour le champ personnalisé {name} ({keys})'
+flarum-gdpr:
+  lib:
+    data:
+      masonanswers:
+        anonymize_description: 'Les réponses à votre champ personnalisé restent associées à vos discussions.'
+        delete_description: 'Les réponses du champ personnalisé sont supprimées des discussions que vous avez démarrées, et les réponses que vous avez saisies et qui ne sont utilisées dans aucune autre discussion sont supprimées.'
+        export_description: 'Les réponses du champ personnalisé dans les discussions que vous avez démarrées.'
 fof-mason:
   admin:
     answers:

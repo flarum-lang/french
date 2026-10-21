@@ -15,6 +15,9 @@ fof-geoip:
       access_key_label: 'Clé d''accès'
       allow_custom_flag_help: 'Lorsque cette option est activée, les utilisateurs peuvent choisir un drapeau de pays à afficher sur leurs messages via les paramètres de leur profil. Le drapeau sélectionné par l''utilisateur est visible par tous et prévaut sur le drapeau attribué en fonction de l''adresse IP. Cette fonctionnalité nécessite l''activation de l''option « Afficher le drapeau du pays pour chaque message ».'
       allow_custom_flag_label: 'Autoriser les utilisateurs à choisir un drapeau de pays personnalisé'
+      database_asn_label: 'Base de données ASN'
+      database_not_configured: 'Non configuré'
+      database_stale: 'obsolète, envisagez une mise à jour'
       error_code_prefix: 'Code :'
       error_prefix: 'Erreur :'
       general:
@@ -41,6 +44,7 @@ fof-geoip:
       service_ipsevenex_description: 'Rendez-vous sur <b>https://7x.ax</b> pour obtenir une clé API gratuite pour un maximum de 20 requêtes par minute. Des plans payants pour des limites d''utilisation plus élevées sont également disponibles.'
       service_ipsevenex_label: 'API de géolocalisation 7x'
       service_label: Service
+      setting_pinned: 'Défini par un prolongateur ; il n''est donc pas possible de le modifier ici.'
       show_flag_help: 'Sans divulguer l''adresse IP, afficher le drapeau du pays de l''adresse IP de l''auteur du message lorsque l''utilisateur choisit d''entrer dans le système par le biais de ses préférences.'
       show_flag_label: 'Afficher le drapeau du pays pour chaque message'
       status_error: '✗ Erreur'
@@ -50,10 +54,12 @@ fof-geoip:
         heading: 'Configuration du service de test'
         help: 'Testez la configuration de votre service de recherche d''adresses IP à l''aide d''une adresse IP d''exemple. Veillez à enregistrer vos paramètres avant de procéder au test.'
       test_button: 'Service de test'
+      test_databases_label: 'Bases de données consultées :'
       test_error: 'Une erreur s''est produite lors du test du service.'
       test_error_details_label: 'Informations sur l''erreur :'
       test_http_status_code_label: 'Code de statut HTTP :'
       test_ip_required: 'Veuillez saisir une adresse IP à tester.'
+      test_notice_label: 'Note :'
       test_processed_service_response_label: 'Réponse au service traité :'
       test_response_time_label: 'Temps de réponse :'
       test_result_title: 'Résultat du test'
@@ -96,13 +102,17 @@ fof-geoip:
     map_button_label: 'Informations sur l''adresse IP'
     map_modal:
       as: ASN
+      city: Ville
+      country: Pays
       country_code: 'Code pays'
+      dbip_attribution: 'Géolocalisation par IP via <a>DB-IP</a>'
       error: Erreur
       ip_address: 'Adresse IP'
       isp: FAI
       mobile: 'Réseau cellulaire'
       not_enough_data: 'Il n''y a pas assez de données pour dessiner une carte'
       organization: Organisation
+      region: Région
       threat_level: 'Niveau de menace'
       threat_types: 'Types de menaces'
       title: 'Informations sur l''adresse IP'

@@ -8,10 +8,10 @@ ianm-gravatar:
       defaults:
         helptext: "Que se passe-t-il lorsqu'une adresse de courriel n'a pas d'image Gravatar correspondante\_? Gravatar dispose d'un certain nombre d'options intégrées que vous pouvez utiliser par défaut. La plupart d'entre elles fonctionnent en prenant le hachage de l'adresse de courriel demandée et en l'utilisant pour générer une image thématique unique à cette adresse de courriel."
         identicon_label: "identicon\_: un motif géométrique basé sur le hachage de l'adresse de courriel"
-        monsterid_label: 'monsterid : un « monstre » généré avec différentes couleurs, visages, etc.'
+        monsterid_label: 'monsterid : un « monstre » généré avec différentes couleurs, visages, etc'
         mp_label: "mp\_: (personne-mystère) un simple contour silhouetté d'une personne, dans le style d'un dessin animé (ne varie pas selon le hachage de l'adresse de courriel)"
         retro_label: "retro\_: des visages pixellisés générés de manière impressionnante, style arcade 8 bits"
-        robohash_label: 'robohash : un robot généré avec différentes couleurs, visages, etc.'
+        robohash_label: 'robohash : un robot généré avec différentes couleurs, visages, etc'
         title: 'Valeurs par défaut'
         wavatar_label: 'wavatar : des visages générés avec des caractéristiques et des arrière-plans différents'
       force-default:
