@@ -15,6 +15,7 @@ ernestdefoe-gatehouse:
     held_message: 'Texte supplémentaire destiné aux candidats dont l''inscription est en attente d''approbation'
     held_message_help: 'Ajoute au courriel la mention « Nous avons bien reçu votre inscription ». Précisez ce que vous attendez d''eux, par exemple : « veuillez répondre en indiquant votre numéro d''étudiant ».'
     messages_heading: Courriels
+    permission_decide: 'Approuver ou refuser les candidats'
     question: 'Poser une question aux candidats'
     question_heading: 'Question d''inscription'
     question_help: 'Ces informations apparaît sur le formulaire d''inscription, et vous pouvez lire la réponse dans la file d''attente ci-dessus, ainsi que dans vos notifications et vos courriels.. Demandez tout ce qui peut vous aider à prendre une décision : pourquoi ils souhaitent rejoindre le groupe, leur numéro d''étudiant ou le nom de la personne qui les a invité. Laissez ce champ vide si vous ne souhaitez rien demander.'
@@ -57,17 +58,34 @@ ernestdefoe-gatehouse:
       body: "Merci de l'intérêt que vous portez à {forum}. Votre compte n'a pas été validé ; vous ne pouvez donc pas vous connecter avec celui-ci.\n\n{message}\n"
       subject: 'Votre compte {forum}'
     held:
-      body: "Merci de vous être inscrit sur {forum}. Les nouveaux comptes sont approuvés manuellement ; un administrateur examinera donc le vôtre sous peu. Vous recevrez un autre e-mail dès que ce sera fait.\n\n{message}\n"
+      body: "Merci de vous être inscrit sur {forum}. Les nouveaux comptes sont approuvés manuellement ; quelqu'un examinera donc le vôtre sous peu. Vous recevrez un autre e-mail dès que ce sera fait.\n\n{message}\n"
       subject: 'Votre compte {forum} est en attente d''approbation'
   forum:
+    applicants:
+      link: Candidats
+      not_allowed: 'Vous n’avez pas l’autorisation d’approuver les candidats.'
+      title: Candidats
     notice_declined: 'Votre compte n''a pas été approuvé, il ne peut donc pas être utilisé sur ce forum.'
-    notice_pending: 'Merci beaucoup pour votre inscription ! Un administrateur doit valider votre compte avant que vous puissiez publier des messages. Nous vous enverrons un e-mail dès que ce sera fait.'
+    notice_pending: 'Merci beaucoup pour votre inscription ! Votre compte doit être approuvé avant que vous puissiez publier des messages. Nous vous enverrons un courriel dès que ce sera fait.'
     notification: '{name} s''est inscrit(e) et attend votre approbation'
     notify_applicant_label: 'Quelqu''un s''est inscrit et attend votre approbation'
     optional: Facultatif
   lib:
-    reason_required: 'Veuillez répondre à cette question afin qu''un administrateur puisse valider votre compte.'
+    queue:
+      answer: 'Leur réponse'
+      approve: Approuver
+      approved_by: 'Approuvé par {name}'
+      decline: Refuser
+      declined_by: 'Refusé par {name}'
+      empty_approved: 'Personne n''a encore été approuvé par Gatehouse.'
+      empty_declined: 'Personne n''a été refusé.'
+      empty_pending: 'Personne n''attend.'
+      signed_up: 'S''est inscrit'
+      tab_approved: Approuvé
+      tab_declined: Refusé
+      tab_pending: 'En attente'
+    reason_required: 'Veuillez répondre à cette question afin que votre compte puisse être approuvé.'
     refused: 'Les inscriptions à partir de cette adresse e-mail ne sont pas acceptées sur ce forum.'
     signin_declined: 'Ce compte n''a pas été approuvé, il ne peut donc pas être utilisé sur ce forum.'
-    signin_pending: 'Votre compte est en attente d''approbation par un administrateur. Nous vous enverrons un e-mail dès qu''il sera prêt.'
+    signin_pending: 'Votre compte est en attente de validation. Nous vous enverrons un courriel dès qu''il sera prêt.'
     username_reserved: 'Ce nom d''utilisateur n''est pas disponible. Veuillez en choisir un autre.'
