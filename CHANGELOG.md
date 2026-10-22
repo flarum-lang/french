@@ -13,6 +13,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (100% complete)
+* [`fof/brevo-mail`](https://github.com/FriendsOfFlarum/brevo-mail) (100% complete)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (100% complete)
 * [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (100% complete)
 * [`ianm/gravatar`](https://github.com/imorland/gravatar) (100% complete)
