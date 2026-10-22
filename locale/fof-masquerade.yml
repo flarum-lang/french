@@ -23,8 +23,10 @@ fof-masquerade:
   admin:
     buttons:
       add-field: 'Créer un champ'
+      add-option: 'Ajouter une option'
       delete-field: 'Déplacer vers la corbeille'
       delete-field-permanently: 'Supprimer définitivement le champ « {field} »'
+      delete-option: 'Supprimer l''option'
       edit-field: 'Enregistrer les modifications'
       restore-field: 'Restaurer le champ « {field} »'
     fields:
