@@ -22,7 +22,8 @@ CHANGELOG
 
 * [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (16 added, 4 changed, 100% complete)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (36 added, 12 changed, 100% complete)
-* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) (10 added, 89% complete)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) (19 added, 100% complete)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (2 added, 100% complete)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (7 added, 100% complete)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (1 added, 2 changed, 100% complete)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (10 added, 100% complete)
