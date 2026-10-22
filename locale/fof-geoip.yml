@@ -53,7 +53,7 @@ fof-geoip:
       service_maxmind_description: 'Effectuez des recherches d''adresses dans des bases de données locales au format MaxMind (.mmdb) plutôt que d''appeler une API distante. Cette méthode fonctionne avec les éditions Lite de GeoLite2/GeoIP2 de MaxMind et de DB-IP. Les recherches sont instantanées, illimitées et ne sortent jamais de votre serveur, mais vous devez installer et mettre à jour vous-même les fichiers de base de données. Voir <b>https://github.com/FriendsOfFlarum/geoip </b> pour des exemples.'
       service_maxmind_label: 'Bases de données hors ligne (MaxMind / DB-IP)'
       service_unavailable: 'Le service de recherche sélectionné n''est pas utilisable ; par conséquent, aucune information IP n''est enregistrée. Pour les bases de données hors ligne, vérifiez qu''au moins un chemin d''accès à une base de données ci-dessous est défini et pointe vers un fichier .mmdb lisible.'
-      setting_pinned: 'Défini par un prolongateur ; il n''est donc pas possible de le modifier ici.'
+      setting_pinned: 'Défini par un prolongateur ; il ne peut donc pas être modifié ici.'
       show_flag_help: 'Sans divulguer l''adresse IP, afficher le drapeau du pays de l''adresse IP de l''auteur du message lorsque l''utilisateur choisit d''entrer dans le système par le biais de ses préférences.'
       show_flag_label: 'Afficher le drapeau du pays pour chaque message'
       status_error: '✗ Erreur'
