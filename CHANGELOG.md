@@ -21,7 +21,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (16 added, 4 changed, 100% complete)
+* [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (16 added, 12 changed, 100% complete)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (36 added, 12 changed, 100% complete)
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (26 added, 100% complete)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) (19 added, 100% complete)
