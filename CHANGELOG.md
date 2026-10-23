@@ -2,6 +2,40 @@ CHANGELOG
 =========
 
 
+5.0.16 (2026-10-23)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations (3 added).
+
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (100% complete)
+* [`fof/brevo-mail`](https://github.com/FriendsOfFlarum/brevo-mail) (100% complete)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (100% complete)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (100% complete)
+* [`ianm/gravatar`](https://github.com/imorland/gravatar) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (16 added, 12 changed, 100% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (36 added, 12 changed, 100% complete)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (26 added, 100% complete)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) (19 added, 100% complete)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (2 added, 100% complete)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (7 added, 100% complete)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (1 added, 2 changed, 100% complete)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (10 added, 100% complete)
+* [`linkrobins/html-widget`](https://github.com/linkrobins/html-widget) (3 added, 100% complete)
+* [`linkrobins/markdown-widget`](https://github.com/linkrobins/markdown-widget) (3 added, 100% complete)
+
+
+All changes: [5.0.15...5.0.16](https://github.com/flarum-lang/french/compare/5.0.15...5.0.16).
+
+
 5.0.15 (2026-10-18)
 -------------------
 
