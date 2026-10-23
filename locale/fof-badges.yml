@@ -245,6 +245,7 @@ fof-badges:
         description: 'Publier 50 réponses'
         name: 'Membre actif'
       anniversary:
+        description: 'Être membre pendant un an'
         name: Anniversaire
       conversation-starter:
         description: 'Démarrez votre première discussion'
@@ -256,6 +257,7 @@ fof-badges:
         description: 'Rédigez votre première réponse'
         name: 'Premier message'
       first-week:
+        description: 'Être membre pendant 7 jours'
         name: 'Première semaine'
       profile-picture:
         description: 'Transférer une photo de profil'
@@ -264,6 +266,7 @@ fof-badges:
         description: 'Publier 200 réponses'
         name: Prolifique
       regular:
+        description: 'Être membre pendant 30 jours'
         name: Régulier
       topic-starter:
         description: 'Démarrer 10 discussions'
