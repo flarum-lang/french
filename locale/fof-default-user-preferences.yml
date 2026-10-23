@@ -7,6 +7,8 @@ fof-default-user-preferences:
     settings:
       discloseOnline: 'Divulguer en ligne'
       discloseOnline-help: 'Lorsque cette option est activée, les nouveaux utilisateurs autoriseront les autres à voir lorsqu''ils sont en ligne. Les administrateurs et les autres utilisateurs disposant des autorisations nécessaires pourront toujours voir le statut en ligne, quel que soit ce paramètre.'
+      followAfterCreate: 'Suivre après avoir créé'
+      followAfterCreate-help: 'Lorsque cette option est activée, les nouveaux utilisateurs suivront automatiquement les discussions auxquelles ils auront créées.'
       followAfterReply: 'Suivre après avoir répondu'
       followAfterReply-help: 'Lorsque cette option est activée, les nouveaux utilisateurs suivront automatiquement les discussions auxquelles ils auront répondu ou qu''ils auront commentées.'
       groupMentioned: 'Envoi de courriel lors d''une mention de groupe'
