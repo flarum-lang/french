@@ -22,3 +22,4 @@ fof-prevent-necrobumping:
         cta_button: '=> core.ref.start_a_discussion'
         description: 'Demandez-vous si votre réponse apporte une valeur ajoutée ou si le sujet a déjà été résolu.'
         title: 'La dernière réponse à cette discussion date du {time}.'
+        undo: Annuler
