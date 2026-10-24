@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+4.29.7 (2026-10-24)
+-------------------
+
+**Added support for new extensions**:
+
+* [`fof/mark-unread`](https://github.com/FriendsOfFlarum/mark-unread) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories) (1 changed, 100% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (2 added, 1 changed, 98% complete)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub) (1 changed, 100% complete)
+
+
+All changes: [4.29.6...4.29.7](https://github.com/flarum-lang/french/compare/4.29.6...4.29.7).
+
+
 4.29.6 (2026-09-30)
 -------------------
 
