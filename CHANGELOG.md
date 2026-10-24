@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+5.0.17 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) (2 added, 100% complete)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping) (1 added, 93% complete)
+
+
+All changes: [5.0.16...5.0.17](https://github.com/flarum-lang/french/compare/5.0.16...5.0.17).
+
+
 5.0.16 (2026-10-23)
 -------------------
 
