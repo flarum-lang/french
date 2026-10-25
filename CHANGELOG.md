@@ -5,6 +5,11 @@ CHANGELOG
 5.0.17 (XXXX-XX-XX)
 -------------------
 
+**Added support for new extensions**:
+
+* [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion) (100% complete)
+
+
 **Updated translations for extensions**:
 
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) (2 added, 100% complete)
