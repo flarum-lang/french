@@ -4,5 +4,5 @@
 
 dashzeveg-custom-head:
   admin:
-    custom_head_help: 'Saisissez le code HTML personnalisé que vous souhaitez inclure dans la section <head> de vos pages de forum.'
+    custom_head_help: 'Saisissez le code HTML personnalisé que vous souhaitez inclure dans la section head de vos pages de forum.'
     custom_head_label: 'En-tête HTML personnalisé'
