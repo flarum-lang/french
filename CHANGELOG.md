@@ -8,6 +8,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion) (100% complete)
+* [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) (100% complete)
 
 
 **Updated translations for extensions**:
