@@ -11,6 +11,7 @@ michaelbelgium-discussion-views:
   admin:
     permissions:
       reset_views_label: 'Réinitialiser les vues de la discussion'
+      view_list_label: 'Afficher les listes de discussion (barre latérale + pied de page)'
       view_number_label: 'Afficher le compteur de vues de la discussion'
     settings:
       abbr_numbers_label: 'Abréger le nombre de vues'

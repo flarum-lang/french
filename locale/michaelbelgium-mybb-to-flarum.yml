@@ -28,6 +28,7 @@ michaelbelgium-mybb-to-flarum:
           debug_mode_label: 'Activer la journalisation'
           migrate_attachments_label: 'Migrer les pièces jointes'
           migrate_avatars_label: 'Migrer les avatars'
+          migrate_private_messages_label: 'Migrer les messages privés (nécessite flarum/messages)'
           migrate_soft_posts_label: 'Migrer les messages supprimés sans destruction'
           migrate_soft_threads_label: 'Migrer les discussions supprimées sans destruction'
           title: 'Autres options'
