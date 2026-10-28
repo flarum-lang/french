@@ -15,7 +15,10 @@ CHANGELOG
 
 * [`dashzeveg/flarum-custom-head`](https://github.com/dashzeveg/flarum-custom-head) (1 changed, 100% complete)
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) (2 added, 100% complete)
-* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping) (1 added, 93% complete)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping) (2 added, 100% complete)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text) (2 changed, 100% complete)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) (1 added, 100% complete)
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum) (1 added, 100% complete)
 
 
 All changes: [5.0.16...5.0.17](https://github.com/flarum-lang/french/compare/5.0.16...5.0.17).
