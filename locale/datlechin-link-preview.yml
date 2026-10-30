@@ -5,49 +5,49 @@
 datlechin-link-preview:
   admin:
     sections:
-      appearance_description: 'À quoi ressemble un aperçu et où l''on est redirigé lorsqu''on clique dessus.'
+      appearance_description: 'À quoi ressemblent les cartes d''aperçu et où s''ouvrent leurs liens.'
       appearance_label: Apparence
-      behaviour_description: 'Quels liens dans un message bénéficient d''un aperçu.'
+      behaviour_description: 'Sélectionner quels liens dans un message bénéficient d''un aperçu.'
       behaviour_label: Comportement
       external_api_description: 'Utilisez un service externe lorsque la récupération directe échoue (par exemple, sur les sites qui se protègent des robots).'
       external_api_label: 'API externe de secours'
-      filtering_description: "Quels sites peuvent être prévisualisés. Une entrée par ligne, ou séparées par des virgules. Un hôte prend également en compte ses sous-domaines, et « * » symbolise une partie d'un nom.\n"
+      filtering_description: "Sélectionnez les sites peuvent être prévisualisés. Saisissez un site par ligne ou séparez-les par des virgules. Un nom de domaine correspond également à ses sous-domaines, et le caractère * correspond à une partie d'un nom de domaine, par exemple *.example.com.\n"
       filtering_label: Filtrage
       general_description: 'Préférences d''affichage de base pour les aperçus des liens.'
       general_label: Général
-      performance_description: 'Comment les aperçus sont récupérés et combien de temps ils sont conservés.'
+      performance_description: 'Comment les aperçus sont chargés et pendant combien de temps ils sont mis en cache.'
       performance_label: Performance
       url_filtering_description: 'Contrôlez les URL qui génèrent des aperçus de liens.'
       url_filtering_label: 'Filtrage des URL'
     settings:
-      allowlist_help: 'Tant que ce champ n''est pas vide, seuls les liens correspondants sont prévisualisés.'
+      allowlist_help: 'Si cette option est activée, seuls les liens vers ces sites sont prévisualisés.'
       allowlist_label: 'Sites autorisés'
       allowlist_placeholder: 'docs.exemple.com, *.wikipedia.org'
       blacklist_help: 'Indiquez les domaines ou les URL qui ne doivent pas générer d''aperçus de liens. Utilisez des virgules pour séparer les entrées multiples.'
       blacklist_label: 'Liste noire de domaines'
       blacklist_placeholder: 'Exemples : facebook.com, twitter.com/page-spécifique'
-      blocklist_help: 'Jamais prévisualisés, même lorsque la liste des sites autorisés les laisse passer.'
+      blocklist_help: 'Les liens vers ces sites ne sont jamais prévisualisés, même s''ils figurent parmi les sites autorisés.'
       blocklist_label: 'Sites bloqués'
       blocklist_placeholder: 'exemple.com, news.exemple.org/sponsored'
-      cache_time_help: 'Durée pendant laquelle un aperçu est conservé avant que le site ne soit à nouveau lu. La valeur 0 désactive la mise en cache.'
+      cache_time_help: 'Durée pendant laquelle un aperçu est mis en cache avant que la page ne soit à nouveau chargée. Définissez cette valeur sur 0 pour désactiver la mise en cache.'
       cache_time_label: 'Durée du cache (en minutes)'
       convert_media_urls_help: 'Générer des aperçus pour les URL qui pointent vers des fichiers multimédias (images, vidéos, etc.).'
       convert_media_urls_label: 'Prévisualiser les URL des médias'
-      enable_batch_requests_help: "Une seule requête pour l'intégralité de la page, au lieu d'une par lien. Ne désactivez cette option que si un élément situé en amont du forum la rejette.\n"
+      enable_batch_requests_help: "Permet d'afficher les aperçus d'une page en une seule fois, au lieu d'effectuer une requête par lien. Ne désactivez cette option que si un proxy ou un pare-feu situé en amont de votre forum bloque ces requêtes.\n"
       enable_batch_requests_label: 'Récupérer les aperçus par lots'
       external_api_fallback_help: 'Lorsque la récupération directe échoue (par exemple sur les sites qui se protègent des robots comme Reuters), utilisez une API oEmbed externe pour récupérer les métadonnées du lien.'
       external_api_fallback_label: 'API externe de secours'
       external_api_url_help: 'Point de terminaison API oEmbed personnalisé. Laissez vide pour utiliser la valeur par défaut (API ouverte Iframely). L''URL sera ajoutée en tant que paramètre de requête.'
       external_api_url_label: 'URL de l''API externe'
-      google_favicon_fallback_help: "Utilisé lorsqu'un site offre aucune icône propre. Indique à Google les sites vers lesquels vos membres renvoient.\n"
+      google_favicon_fallback_help: "Utilise le service de favicon de Google lorsqu'un site ne dispose pas d'icône. Google peut ainsi identifier les sites vers lesquels vos utilisateurs créent des liens.\n"
       google_favicon_fallback_label: 'Recourir à Google pour les icônes de site'
-      max_previews_per_post_help: 'Les liens au-delà de ce nombre sont laissés sous forme de liens en texte brut.'
+      max_previews_per_post_help: 'Les liens après ce numéro s''affichent sous forme de liens simples.'
       max_previews_per_post_label: 'Nombre d''aperçus par message'
-      open_links_in_new_tab_help: 'Autres sites uniquement. Ici, une discussion s''ouvre toujours dans le même onglet.'
+      open_links_in_new_tab_help: 'Cela s''applique aux liens vers d''autres sites. Les liens vers ce forum s''ouvrent toujours dans le même onglet.'
       open_links_in_new_tab_label: 'Ouvrir les liens dans un nouvel onglet'
-      preview_internal_links_help: "Un lien vers une discussion, un membre, une étiquette ou la page d'accueil se transforme en une carte lue depuis la base de données ; rien n'est donc récupéré et personne ne voit plus ce qu’il pourrait déjà ouvrir.\n"
+      preview_internal_links_help: "Les liens vers les discussions, les utilisateurs, les étiquettes et les autres pages de ce forum sont prévisualisés à partir de la base de données. Les utilisateurs ne voient que ce qu'ils sont autorisés à voir.\n"
       preview_internal_links_label: 'Prévisualiser les liens vers ce forum'
-      skip_media_links_help: 'Pour les liens se terminant par un fichier image, audio ou vidéo. Ceux-ci sont déjà affichés par Flarum.'
+      skip_media_links_help: 'Ne pas prévisualiser les liens vers des fichiers image, audio et vidéo.'
       skip_media_links_label: 'Ignorer les liens vers les fichiers multimédias'
       use_google_favicons_help: 'Afficher les favicons des sites web en utilisant le service Favicon de Google pour améliorer la reconnaissance visuelle.'
       use_google_favicons_label: 'Afficher les icônes des sites'
@@ -62,6 +62,6 @@ datlechin-link-preview:
       posts: '{count, plural, one {# message} other {# messages}}'
       replies: '{count, plural, one {# réponse} other {# réponses}}'
     settings:
-      hide_link_previews_help: 'Afficher l''adresse brute au lieu d''une carte de prévisualisation dans chaque message que vous lisez.'
+      hide_link_previews_help: 'Afficher les liens sous forme de liens simples plutôt que sous forme de cartes d''aperçu.'
       hide_link_previews_label: 'Masquer les aperçus des liens'
     site_cannot_be_reached: 'Impossible de charger l''aperçu. Veuillez vérifier l''URL et réessayer.'
