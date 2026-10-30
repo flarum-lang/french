@@ -280,8 +280,15 @@ linkrobins-support:
       status_changed_no_actor: 'Statut modifié de {from} à {to}'
       unassigned: '{name} a désaffecté {assignee}'
       unassigned_no_actor: '{assignee} a été désaffecté'
+    guest:
+      compose_message: 'Se connecter pour ouvrir un ticket.'
+      log_in: 'Se connecter'
+      message: 'Se connecter pour consulter vos tickets.'
+      sign_up: 'S''inscrire'
+      ticket_message: 'Se connecter pour voir ce ticket.'
     index:
       assigned_to: 'Attribué à {name}'
+      back_to_desk: 'Retour à l''assistance'
       deleted_badge: Supprimé
       empty: 'Aucun ticket à afficher.'
       empty_assigned_to_me: 'Aucun ticket ouvert ne vous a été attribué.'
@@ -300,7 +307,14 @@ linkrobins-support:
       new_ticket: 'Nouveau ticket'
       new_ticket_tooltip: 'Ouvrir un nouveau ticket'
       no_results: 'Aucun ticket ne correspond à votre recherche.'
+      reset_search: 'Effacer la recherche'
+      search_all_tickets: 'Afficher tous les tickets correspondant à « {query} »'
       search_placeholder: 'Rechercher des tickets'
+      search_results_title: 'Résultats de recherche pour « {query} »'
+      search_tickets_title: 'Rechercher des tickets'
+      tickets: Tickets
+      tickets_found: '{count} ticket trouvé'
+      tickets_found_plural: '{count} tickets trouvés'
       unassigned: 'Non attribué'
       unread: 'Nouvelles réponses'
       untitled: 'Sans titre'
@@ -420,3 +434,46 @@ linkrobins-support:
       allow_appeals: 'Autoriser les recours'
       disallow_appeals: 'Ne pas autoriser les recours'
       toggle_failed: 'Impossible de mettre à jour le statut de l''utilisateur.'
+  lib:
+    gambits:
+      tickets:
+        assigned:
+          hint: 'moi ou personne'
+          key: attribué
+          options:
+            me: 'Attribué à moi'
+            none: 'Tickets non attribués'
+        author:
+          hint: 'nom d''utilisateur'
+          key: auteur
+        category:
+          hint: 'identifiant texte unique'
+          key: catégorie
+        mine:
+          hint: 'Tickets que j''ai créés'
+          key: 'À moi'
+        priority:
+          hint: 'urgent, normal ou faible'
+          key: priorité
+          levels:
+            low: 'Faible priorité'
+            normal: 'Priorité normale'
+            urgent: 'Priorité urgente'
+        status:
+          hint: 'ouvert, en cours, en attente de réponse, résolu ou clôturé'
+          key: statut
+          statuses:
+            awaiting_response: 'En attente'
+            closed: Clôturé
+            in_progress: 'En cours'
+            open: 'Tickets ouverts'
+            resolved: Résolu
+        type:
+          hint: 'standard ou appel'
+          key: type
+          types:
+            appeal: 'Tickets de recours contre une suspension'
+            standard: 'Tickets d''assistance standard'
+        unassigned:
+          hint: 'Tickets non attribués'
+          key: 'non attribué'
