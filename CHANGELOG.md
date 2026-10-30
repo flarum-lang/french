@@ -17,6 +17,7 @@ CHANGELOG
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) (2 added, 100% complete)
 * [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping) (2 added, 100% complete)
 * [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text) (2 changed, 100% complete)
+* [`linkrobins/support`](https://github.com/linkrobins/support) (41 added, 100% complete)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) (1 added, 100% complete)
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum) (1 added, 100% complete)
 
