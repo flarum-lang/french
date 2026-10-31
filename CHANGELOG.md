@@ -13,8 +13,9 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (6 added, 1 changed, 84% complete)
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (10 added, 3 changed, 96% complete)
 * [`dashzeveg/flarum-custom-head`](https://github.com/dashzeveg/flarum-custom-head) (1 changed, 100% complete)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) (33 added, 3 changed, 100% complete)
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) (14 changed, 100% complete)
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) (2 added, 100% complete)
 * [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping) (2 added, 100% complete)
