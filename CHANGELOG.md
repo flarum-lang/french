@@ -2,6 +2,32 @@ CHANGELOG
 =========
 
 
+5.0.17 (2026-10-31)
+-------------------
+
+**Added support for new extensions**:
+
+* [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion) (100% complete)
+* [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (10 added, 3 changed, 96% complete)
+* [`dashzeveg/flarum-custom-head`](https://github.com/dashzeveg/flarum-custom-head) (1 changed, 100% complete)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) (33 added, 3 changed, 100% complete)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) (14 changed, 100% complete)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) (2 added, 100% complete)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping) (2 added, 100% complete)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text) (2 changed, 100% complete)
+* [`linkrobins/support`](https://github.com/linkrobins/support) (41 added, 100% complete)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) (1 added, 100% complete)
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum) (1 added, 100% complete)
+
+
+All changes: [5.0.16...5.0.17](https://github.com/flarum-lang/french/compare/5.0.16...5.0.17).
+
+
 5.0.16 (2026-10-23)
 -------------------
 
