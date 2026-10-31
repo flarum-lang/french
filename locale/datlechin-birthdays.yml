@@ -5,22 +5,39 @@
 datlechin-birthdays:
   admin:
     permissions:
-      edit_own_birthday_label: 'Modifier son propre anniversaire'
-      view_birthday_label: 'Afficher l''anniversaire'
+      edit_own_birthday_label: 'Modifier sa propre date d''anniversaire'
+      view_birthday_label: 'Afficher les anniversaires'
     settings:
       date_format_help: 'Utilisez le format de date de <a>dayjs</a>. Laissez vide pour utiliser le format par défaut.'
       date_format_label: 'Format de date'
       date_none_year_label: 'Format de date sans année'
-      min_age_help: 'Âge minimum pour s''inscrire'
+      min_age_help: 'Les membres doivent avoir au moins cet âge. S''applique chaque fois qu''une date d''anniversaire est enregistrée. Définissez sur 0 pour exclure uniquement les dates futures.'
       min_age_label: 'Âge minimum'
       required_help: 'Vous devez activer l''option Saisir à l''inscription pour que cette option fonctionne'
       required_label: 'Saisie obligatoire des anniversaires'
       set_on_registration_label: 'Autoriser le paramétrage des anniversaires lors de l''inscription'
+      sign_up_help: 'Si le formulaire d''inscription demande la date d''anniversaire.'
+      sign_up_label: 'Date d''anniversaire lors de l''inscription'
+      sign_up_options:
+        'off': 'Ne pas demander'
+        optional: 'Demander, facultatif'
+        required: 'Demander, requis'
+    users:
+      birthday_column: '=> datlechin-birthdays.lib.birthday_label'
+      no_birthday: 'Non défini'
   api:
     birthday_required_message: 'Date de naissance requise.'
+    future_birthday_message: 'Votre anniversaire ne peut pas avoir lieu dans le futur.'
     invalid_age_message: 'Votre âge doit être d''au moins {minAge} ans.'
+    invalid_birthday_filter_message: 'Le filtre « anniversaire » accepte une date ou une plage allant jusqu''à {max} jours, par exemple 05/06/2026..11/06/2026.'
     invalid_dob_message: 'Date de naissance invalide'
+    min_age_message: 'Vous devez avoir au moins {age} ans.'
   forum:
+    badge:
+      birthday_tooltip: 'C''est son anniversaire aujourd''hui'
+    change_birthday:
+      submit_button: '=> core.ref.save_changes'
+      title: '=> datlechin-birthdays.forum.settings.change_birthday_button'
     change_dob:
       date_of_birth_text: '=> datlechin-birthdays.ref.date_of_birth'
       submit_button: '=> core.ref.save_changes'
@@ -28,18 +45,42 @@ datlechin-birthdays:
     edit_user:
       dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
     nav:
+      birthdays_link: '=> datlechin-birthdays.forum.page.title'
       nav_item: 'Anniversaires du jour'
+    notifications:
+      birthday_text: 'Joyeux anniversaire de la part de tous les membres de {forum} !'
     page:
       discussion_count: '{count, plural, one {Discussion : #} other {Discussions : #}}'
+      empty_text: 'Aucun anniversaire la semaine prochaine.'
+      load_more_button: '=> core.ref.load_more'
       post_count: '{count, plural, one {Message : #} other {Messages : #}}'
+      title: Anniversaires
+      today_heading: 'Aujourd''hui'
+      tomorrow_heading: Demain
+      turns_text: 'A {age} ans'
     settings:
+      add_birthday_button: 'Ajouter une date d''anniversaire'
+      change_birthday_button: 'Modifier la date d''anniversaire'
       change_dob_label: 'Modifier la date de naissance'
       dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
+      notify_birthday_label: 'Souhaite-moi un joyeux anniversaire'
+      show_age_label: 'Afficher mon âge sur mon profil'
+      show_birthday_label: 'Afficher ma date d''anniversaire sur mon profil'
       show_dob_date_label: 'Afficher le jour et le mois de naissance'
       show_dob_year_help: 'Cela autorisera les autres utilisateurs à voir votre âge.'
       show_dob_year_label: 'Afficher l''année de naissance'
     user:
       age_text: "Âge\_: {age}"
       birthday_text: 'Date d''anniversaire : {date}'
+    user_card:
+      age_text: "Âge\_: {age}"
+      birthday_and_age_text: 'Date d''anniversaire : {date}, âge : {age}'
+      birthday_text: 'Date d''anniversaire : {date}'
+  lib:
+    birthday_label: Anniversaire
+    datetime_formats:
+      birthday: 'D MMMM'
+      birthdayWithYear: LL
+      day: 'dddd, D MMMM'
   ref:
     date_of_birth: 'Date de naissance'

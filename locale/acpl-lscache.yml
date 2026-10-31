@@ -6,10 +6,10 @@ acpl-lscache:
   admin:
     cache_enabled_help: 'Consultez la <a>page d''informations</a> pour savoir comment tester le cache. Veuillez noter que lors de la désactivation du cache, toutes les entrées mises en cache pour ce site seront supprimées.'
     cache_enabled_label: 'Activer LSCache'
-    cache_exclude_help: 'Un modèle de chemin par ligne : <code>/private</code> correspond partiellement, <code>^/private$</code> correspond exactement. Les chaînes de requête sont ignorées. Les modifications ne purgent pas le cache existant ; vous pouvez, si vous le souhaitez, purger des URL spécifiques via l''interface en ligne de commande (CLI) ou l''intégralité du LSCache depuis le menu de gestion du cache dans l’administration.'
+    cache_exclude_help: 'Saisissez une expression régulière par ligne. <code>/private</code> correspond à tout chemin contenant /private ; <code>^/private$</code> correspond uniquement à /private. Les chaînes de requête sont ignorées. Les pages mises en cache existantes restent disponibles jusqu''à leur expiration ou leur purge. Pour appliquer immédiatement les exclusions, purgez les URL concernées via l''interface en ligne de commande (CLI) ou purgez toutes les entrées LSCache depuis le menu « Cache » de l''administration.'
     cache_exclude_label: 'Exclure les chemins d''accès de la mise en cache'
     clearing_cache_listener_label: 'Purger LSCache lorsque le cache Flarum est vidé'
-    drop_qs_help: "Cette fonction permet d'exclure des chaînes de requête spécifiques, telles que <code>fbclid</code> ou <code>utm*</code>, lors de la mise en cache. Cela permet d'éviter la mise en cache redondante de pages contenant des chaînes de requête « inutiles », telles que les codes UTM, qui sont utilisés pour le suivi mais n'affectent pas le contenu de la page. Cette option nécessite que LSWS v5.2.3 ou une version plus récente soit installé. Dressez la liste des chaînes de requête à supprimer, une par ligne. <a>En savoir plus sur l'abandon des chaînes de requête</a>.<br></br>\n⚠️ Ce paramètre modifie le fichier .htaccess.\n"
+    drop_qs_help: "Saisissez les noms des paramètres de requête à ignorer lors de la mise en cache, à raison d'un par ligne, par exemple <code>fbclid</code> ou <code>utm*</code>. Les URL qui ne diffèrent que par ces paramètres partagent la même page mise en cache. N'ignorez que les paramètres qui ne modifient pas le contenu de la page. Nécessite LSWS v5.2.3 ou une version plus récente. <a>En savoir plus sur la suppression des chaînes de requête</a>.<br></br>\n⚠️ Ce paramètre modifiera le fichier .htaccess.\n"
     drop_qs_label: 'Abandonner les chaînes de requête'
     permissions:
       purge: '=> acpl-lscache.ref.purge_cache'
@@ -18,8 +18,11 @@ acpl-lscache:
     purge_all: '=> acpl-lscache.ref.purge_cache'
     purge_modal:
       all_label: 'Toutes les pages mises en cache'
+      empty_list_error: 'Saisissez au moins un élément.'
       paths_help: 'Saisissez une URL ou un chemin d''accès par ligne, par exemple <code>{url}/t/general</code> ou <code>/t/general</code>.'
       paths_label: URL
+      submit_button: Purger
+      tags_help: 'Saisissez une balise LSCache par ligne, par exemple <code>discussion_123</code> ou <code>discussions</code>.'
       tags_label: 'Balise de cache'
       title: '=> acpl-lscache.ref.purge_cache'
       type_label: 'Purge par'
@@ -38,3 +41,8 @@ acpl-lscache:
     purge_success: 'A notifié le serveur LiteSpeed de purger les entrées de LSCache.'
   ref:
     purge_cache: 'Purger LSCache'
+flarum-audit:
+  lib:
+    browser:
+      acpl-lscache:
+        cache_purged: 'Cache LiteSpeed purgé'
