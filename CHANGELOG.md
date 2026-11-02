@@ -7,6 +7,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) (3% complete)
 * [`ramon/canela`](https://github.com/ram0ng1/canela) (0% complete)
 
 
