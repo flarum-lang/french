@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+5.0.18 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump) (100% complete)
+* [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) (3% complete)
+* [`ramon/canela`](https://github.com/ram0ng1/canela) (0% complete)
+
+
+All changes: [5.0.17...5.0.18](https://github.com/flarum-lang/french/compare/5.0.17...5.0.18).
+
+
 5.0.17 (2026-10-31)
 -------------------
 
