@@ -80,6 +80,7 @@ ernestdefoe-gatehouse:
       empty_approved: 'Personne n''a encore été approuvé par Gatehouse.'
       empty_declined: 'Personne n''a été refusé.'
       empty_pending: 'Personne n''attend.'
+      load_more: 'Charger plus'
       signed_up: 'S''est inscrit'
       tab_approved: Approuvé
       tab_declined: Refusé

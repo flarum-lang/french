@@ -292,6 +292,7 @@ ramon-avocado:
     discussion_not_found: 'Discussion introuvable.'
     file_not_readable: 'Le fichier transféré n''est pas lisible.'
     file_too_large: 'Le fichier est trop volumineux (max {max}).'
+    image_too_large: 'L''image est trop volumineuse (40 mégapixels maximum).'
     invalid_discussion_id: 'Identifiant de discussion invalide.'
     invalid_note: 'Note invalide.'
     invalid_reminder_date: 'Date de rappel invalide.'
@@ -304,6 +305,7 @@ ramon-avocado:
     svg_parse_failed: 'SVG invalide : impossible d''analyser le code XML.'
     tag_icon_svg_invalid: 'L''icône SVG n''a pas pu être lue. Assurez-vous que le code SVG est valide.'
     tag_icon_svg_too_large: 'L''icône SVG est trop volumineuse (maximum {max} Ko).'
+    too_many_reminders: 'Vous pouvez avoir jusqu’à {max} rappels en attente.'
     unsupported_image_type: 'Type d''image non pris en charge.'
   forum:
     actions:

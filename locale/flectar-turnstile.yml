@@ -14,7 +14,9 @@ flectar-turnstile:
   forum:
     error: 'Une erreur s''est produite lors de la vérification de votre identité humaine. Veuillez réessayer.'
     not_loaded_error: 'Échec du chargement de Cloudflare Turnstile. Veuillez actualiser la page et vérifier votre bloqueur de publicités.'
+    slow_error: 'Le défi de Turnstile prend plus de temps que prévu. Veuillez réessayer dans quelques instants.'
     validation_error: 'Veuillez relever le défi de Turnstile.'
+    verifying: 'Vérification que vous êtes bien un être humain...'
 validation:
   custom:
     turnstile:

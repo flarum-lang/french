@@ -234,6 +234,7 @@ linkrobins-support:
       submitting: 'Envoi en cours…'
       title: 'Nouveau ticket'
       title_appeal: 'Déposer un recours'
+      validation_failed: 'Échec de la validation. Veuillez vérifier votre saisie.'
     confirm:
       close_ticket: 'Clôturer ce ticket ? Il ne sera plus possible d''y répondre tant qu''il n''aura pas été rouvert.'
       delete_reply_forever: 'Supprimer définitivement cette réponse ? Cette action est irréversible.'

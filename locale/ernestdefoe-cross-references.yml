@@ -28,3 +28,4 @@ ernestdefoe-cross-references:
       capped_notice: 'Afficher les 50 plus récentes.'
       heading: 'Référencée dans {count, plural, one {# discussion} other {# discussions}}'
       load_error: 'Impossible de charger les références.'
+      mentions: '{count, plural, one {# mention} other {# mentions}}'

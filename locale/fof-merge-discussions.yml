@@ -20,7 +20,9 @@ fof-merge-discussions:
       deleting_failed: 'Échec de la suppression des discussions vides.'
       fixing_posts_number_failed: 'Échec de la correction des numéros de messages.'
       fixing_posts_number_meta_failed: 'Échec de la correction des numéros de messages.'
+      into_itself: 'Une discussion ne peut pas être fusionnée avec elle-même.'
       merging_failed: 'Échec de la fusion des discussions.'
+      redirecting_failed: 'Échec de la redirection des discussions fusionnées.'
       updating_failed: 'Échec de la mise à jour des informations de la discussion.'
   email:
     merged:
@@ -36,6 +38,7 @@ fof-merge-discussions:
       ordering_heading: 'Ordre de fusion'
       ordering_suffix_help: 'Les messages qui sont fusionnés dans la discussion restante seront ajoutés à la fin de la discussion'
       ordering_suffix_label: 'Ajouter les messages fusionnés à la fin de la discussion'
+      preview_truncated: 'Affichage des messages {from} à {to} sur {total}.'
       search_discussions_placeholder: 'Rechercher dans les discussions...'
       submit_button: '=> fof-merge-discussions.ref.merge'
       title: 'Fusionner les discussions'
