@@ -36,6 +36,9 @@ ramon-avocado:
       footer_social: 'Liens sociaux'
       footer_social_help_json: 'Configurez les liens vers les réseaux sociaux au format JSON. Utilisez les clés : facebook, twitter, linkedin, instagram, youtube.'
     loading: Chargement…
+    save_failed: 'Impossible d''enregistrer. Vérifiez votre connexion et réessayez.'
+    saved: Enregistré
+    saving: 'Enregistrement en cours…'
     search_tags: 'Rechercher des étiquettes…'
     settings:
       auth_image_help: 'Image d''arrière-plan affichée dans le panneau de droite des fenêtres de connexion, d''inscription et de réinitialisation du mot de passe.'
@@ -306,26 +309,27 @@ ramon-avocado:
     tag_icon_svg_invalid: 'L''icône SVG n''a pas pu être lue. Assurez-vous que le code SVG est valide.'
     tag_icon_svg_too_large: 'L''icône SVG est trop volumineuse (maximum {max} Ko).'
     too_many_reminders: 'Vous pouvez avoir jusqu’à {max} rappels en attente.'
-    unsupported_image_type: 'Type d''image non pris en charge.'
+    unsupported_image_type: 'Ce format n''est pas pris en charge. Veuillez transférer une image au format JPG, PNG, GIF ou WebP.'
   forum:
     actions:
       share: Partager
     back: Retour
     bookmarks:
-      edit: 'Modifier le favori'
-      empty: 'Vous n''avez encore enregistré aucune discussion.'
+      edit: 'Modifier l''élément enregistré'
+      empty: 'Rien n''a encore été enregistré. Appuyez sur l''icône de favori dans n''importe quelle discussion pour l''ajouter à vos favoris.'
       empty_posts: 'Vous n''avez encore ajouté aucun message à vos favoris.'
       guest_prompt: 'Connectez-vous pour enregistrer des discussions et les retrouver ici.'
       modal_cancel: Annuler
       modal_save: Enregistrer
-      modal_title: Favori
+      modal_title: 'Élément enregistré'
+      note_counter: '{count}/{max}'
       note_label: Note
       note_placeholder: 'Pourquoi enregistrez-vous ceci ? (facultatif)'
       reminder_am: Matin
       reminder_custom: 'Choisir une date et une heure'
       reminder_date_label: Date
       reminder_hour_label: Heure
-      reminder_invalid: 'Cette date et cette heure sont déjà passées. Choisissez un moment dans le futur.'
+      reminder_invalid: 'Ce moment est déjà passé. Choisis un moment à partir de maintenant.'
       reminder_invalid_date: 'Choisir une date pour le rappel.'
       reminder_label: 'Me rappeler'
       reminder_later: 'Plus tard dans la journée (dans 4 heures)'
@@ -334,12 +338,15 @@ ramon-avocado:
       reminder_none: 'Aucun rappel'
       reminder_pm: Après-midi
       reminder_tomorrow: 'Demain matin'
+      reminder_too_far: 'Les rappels peuvent être programmés jusqu''à un an à l''avance. Choisissez une date antérieure.'
       reminder_week: 'La semaine prochaine'
+      removed: 'Supprimé de la liste enregistrée.'
       save: Enregistrer
       title: Enregistré
-      toggle_error: 'Impossible de mettre à jour votre liste enregistrée. Veuillez réessayer.'
+      toggle_error: 'Impossible de mettre à jour votre liste enregistrée. Vérifiez votre connexion et réessayez.'
+      undo: Annuler
       unsave: 'Supprimer de la liste enregistrée'
-      update_error: 'Impossible de mettre à jour votre favori. Veuillez réessayer.'
+      update_error: 'Impossible d''enregistrer vos modifications. Vérifiez votre connexion et réessayez.'
     cakeday:
       aria: 'Anniversaire du compte'
       tooltip_plural: 'Anniversaire du compte — {years} ans ici aujourd''hui !'
@@ -387,14 +394,30 @@ ramon-avocado:
       version_label: Version
       version_placeholder: 'Version (p. ex. v2.4.0)'
     composer:
+      draft_failed: 'Impossible d''enregistrer le brouillon. Veuillez réessayer.'
       guest_pill: 'Se connecter pour répondre'
       hide_preview: 'Masquer la prévisualisation'
+      missing: 'Encore nécessaire : {items}'
+      missing_body: texte
+      missing_tags: étiquettes
+      missing_title: titre
+      publish_failed: 'Impossible de publier la discussion. Vérifiez votre connexion et réessayez.'
       remove_reply: 'Supprimer la réponse'
       resize_handle: 'Faites glisser pour redimensionner · tirez vers le bas pour réduire'
+    cover_image:
+      connection_problem: 'problème de connexion'
+      help: 'JPG, PNG, GIF ou WebP · jusqu''à 8 Mo'
+      remove_failed: 'Impossible de supprimer l''image. Vérifiez votre connexion et réessayez.'
+      too_large_bytes: 'Cette image est trop volumineuse. Choisissez-en une dont la taille ne dépasse pas {max}.'
+      too_large_pixels: 'Cette image contient trop de pixels. Choisissez-en une plus petite (40 mégapixels maximum).'
+      unreadable: 'Ce fichier n''a pas pu être lu en tant qu''image. Essayez un autre fichier.'
+      unsupported_type: 'Ce format d''image n''est pas pris en charge. Utilisez un fichier JPG, PNG, GIF ou WebP.'
+      upload_failed: 'Impossible de transférer l''image. Vérifiez votre connexion et réessayez.'
+      upload_failed_after_publish: 'Votre discussion a été publiée, mais l''image de couverture n''a pas été transférée ({reason}). Ajoutez-la à l''aide du bouton « Ajouter une image » situé en haut de la discussion.'
     discussion:
       hero_image_add: 'Ajouter une image'
       hero_image_remove: 'Supprimer l''image'
-      hero_image_remove_confirm: 'Supprimer l''image du bandeau de cette discussion ?'
+      hero_image_remove_confirm: 'Supprimer l''image de couverture de cette discussion ?'
       hero_image_replace: 'Remplacer l''image'
       participant_plural: participants
       participant_singular: participant
@@ -433,7 +456,7 @@ ramon-avocado:
       composer_body_placeholder: 'Partagez vos idées…'
       composer_close: Fermer
       composer_edit: Modifier
-      composer_hero_image_label: 'Image du bandeau (facultative)'
+      composer_hero_image_label: 'Image de couverture (facultative)'
       composer_hero_image_picked: 'Image sélectionnée'
       composer_hero_image_remove: 'Supprimer l''image'
       composer_hero_image_upload_failed: 'Impossible de transférer l''image du bandeau. Vous pouvez réessayer depuis la page de discussion.'
@@ -473,10 +496,10 @@ ramon-avocado:
       see_all: 'Tout afficher'
       see_other_replies: 'Voir les {count} autres réponses'
       see_other_reply_singular: 'Voir {count} autre réponse'
-      showcase_heading: Vitrine
+      showcase_heading: 'En vedette'
       sign_up: 'S''inscrire'
       sort_trending: Tendance
-      start_discussion: 'Dites à la communauté sur quoi vous travaillez…'
+      start_discussion: 'Démarrer une conversation…'
       today_time: 'Aujourd''hui, {time}'
       untitled: 'Sans titre'
       view: Voir
@@ -523,7 +546,7 @@ ramon-avocado:
       hero_sub: 'Rechercher des discussions, des messages et des membres'
       hero_title: 'Que recherchez-vous ?'
       no_discussions_filter: 'Aucune discussion ne correspond à ces filtres.'
-      no_discussions_query: 'Aucune discussion trouvée pour « {q} ».'
+      no_discussions_query: 'Aucune discussion avec « {q} ». Essayez d''autres mots ou effectuez une recherche dans les messages.'
       no_posts_found: 'Aucun message trouvé pour « {q} ».'
       no_posts_match: 'Aucun message ne correspond à ces filtres.'
       no_users_found: 'Aucun utilisateur trouvé pour « {q} ».'
