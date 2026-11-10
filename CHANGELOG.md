@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+5.0.19 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (1 added, 100% complete)
+* [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references) (1 added, 100% complete)
+* [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (1 added, 100% complete)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (2 added, 100% complete)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (3 added, 100% complete)
+* [`linkrobins/support`](https://github.com/linkrobins/support) (1 added, 100% complete)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (2 added, 100% complete)
+
+
+All changes: [5.0.18...5.0.19](https://github.com/flarum-lang/french/compare/5.0.18...5.0.19).
+
+
 5.0.18 (2026-11-09)
 -------------------
 
