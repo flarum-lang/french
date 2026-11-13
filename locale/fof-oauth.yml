@@ -12,7 +12,7 @@ fof-oauth:
         heading: Avancé
         log-oauth-errors-help: 'Si cette option est activée, les erreurs d''OAuth seront enregistrées dans le journal de Flarum. Cela peut aider à déboguer les problèmes d''OAuth mais peut aussi contenir des informations sensibles.'
         log-oauth-errors-label: 'Journaliser les erreurs d''OAuth'
-      disable_avatars_help: "Si cette option est activée, l'avatar de l'utilisateur ne sera pas mis à jour pour correspondre à l'avatar du fournisseur lors de l'inscription. Notez que cela n'affecte que les inscriptions futures et ne modifie pas l'avatar des utilisateurs existants.\n"
+      disable_avatars_help: "Par défaut, les membres qui s'inscrivent via un fournisseur reçoivent l'avatar de ce dernier, tout comme les membres qui n'ont pas d'avatar lorsqu'ils associent un fournisseur à leur compte. Si cette option est activée, les avatars des fournisseurs ne sont jamais utilisés. Les avatars dont disposent déjà les membres ne sont pas modifiés.\n"
       disable_avatars_label: 'Désactiver les avatars du fournisseur'
       fullscreen_popup_help: 'Lorsque cette option est activée, la connexion OAuth s''ouvre dans une fenêtre contextuelle plein écran. Si cette option est activée, les paramètres de largeur et de hauteur seront ignorés.'
       fullscreen_popup_label: 'Utiliser une fenêtre contextuelle plein écran pour OAuth'
@@ -34,6 +34,11 @@ fof-oauth:
           app_id_label: '=> fof-oauth.ref.settings.app_id'
           app_secret_label: '=> fof-oauth.ref.settings.app_secret'
           description: 'Créer une application sur {link}.'
+        flarum:
+          client_id_label: '=> fof-oauth.ref.settings.client_id'
+          client_secret_label: '=> fof-oauth.ref.settings.client_secret'
+          description: 'Permettre aux membres de se connecter avec leur compte sur un autre forum Flarum. Ce forum doit disposer de l’extension « OAuth Provider » ({link}). Dans sa page d’administration, ajoutez un client en utilisant l’URL de rappel ci-dessous, puis copiez ici son identifiant client et son secret.'
+          forum_url_label: 'URL du forum (par exemple https://discuss.example.com)'
         github:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
@@ -75,6 +80,7 @@ fof-oauth:
       already_linked: 'Ce compte est déjà associé à un autre utilisateur.'
       bad_verification_code: 'Jeton de vérification invalide ou expiré. Veuillez réessayer.'
       invalid_state: 'État invalide. Veuillez réessayer.'
+      provider_misconfigured: 'Cette méthode de connexion n''est pas configurée correctement. Veuillez contacter les administrateurs du forum.'
     log_in:
       admin_log_in_link: 'Se connecter en tant qu''administrateur'
       unverified_email_in_use: '{provider} n''a pas confirmé cette adresse de courriel ; nous ne pouvons donc pas l''utiliser pour vous connecter. Si vous possédez déjà un compte, connectez-vous ci-dessous, puis associez {provider} depuis les paramètres de votre compte.'
@@ -82,6 +88,7 @@ fof-oauth:
       with_button: 'Se connecter avec {provider}'
       with_discord_button: '=> fof-oauth.forum.log_in.with_button'
       with_facebook_button: '=> fof-oauth.forum.log_in.with_button'
+      with_flarum_button: '=> fof-oauth.forum.log_in.with_button'
       with_github_button: '=> fof-oauth.forum.log_in.with_button'
       with_gitlab_button: '=> fof-oauth.forum.log_in.with_button'
       with_google_button: '=> fof-oauth.forum.log_in.with_button'
@@ -90,6 +97,7 @@ fof-oauth:
     providers:
       discord: '=> fof-oauth.lib.providers.discord'
       facebook: '=> fof-oauth.lib.providers.facebook'
+      flarum: '=> fof-oauth.lib.providers.flarum'
       github: '=> fof-oauth.lib.providers.github'
       gitlab: '=> fof-oauth.lib.providers.gitlab'
       google: '=> fof-oauth.lib.providers.google'
@@ -117,6 +125,7 @@ fof-oauth:
     providers:
       discord: Discord
       facebook: Facebook
+      flarum: Flarum
       github: GitHub
       gitlab: GitLab
       google: Google
