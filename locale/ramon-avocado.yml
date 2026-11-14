@@ -292,12 +292,12 @@ ramon-avocado:
       user_card_enabled_help: 'Afficher un mini-profil de type Discourse (biographie, badges, statistiques, actions) lorsque l''on passe la souris sur les avatars et les noms d''utilisateur.'
       user_card_enabled_label: 'Activer la carte utilisateur au survol'
   api:
-    discussion_not_found: 'Discussion introuvable.'
+    discussion_not_found: 'Cette discussion n''existe plus ou vous n''y avez plus accès.'
     file_not_readable: 'Le fichier transféré n''est pas lisible.'
     file_too_large: 'Le fichier est trop volumineux (max {max}).'
     image_too_large: 'L''image est trop volumineuse (40 mégapixels maximum).'
-    invalid_discussion_id: 'Identifiant de discussion invalide.'
-    invalid_note: 'Note invalide.'
+    invalid_discussion_id: 'Cette discussion est introuvable. Actualisez la page et réessayez.'
+    invalid_note: 'Nous n''avons pas pu enregistrer cette note. Essayez de la rédiger à nouveau.'
     invalid_reminder_date: 'Date de rappel invalide.'
     no_file_uploaded: 'Aucun fichier n''a été transféré.'
     note_too_long: 'La note est trop longue.'
@@ -570,7 +570,7 @@ ramon-avocado:
       tip_suffix: ' pour filtrer par étiquette'
       title: Recherche
     settings:
-      notify_bookmark_reminder_label: 'Rappel des favoris'
+      notify_bookmark_reminder_label: 'Rappels des éléments enregistrés'
     support:
       category_label: 'Catégorie de ticket'
       category_placeholder: 'Choisir un catégorie'
