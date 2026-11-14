@@ -15,7 +15,7 @@ CHANGELOG
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (3 added, 100% complete)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (8 added, 1 changed, 100% complete)
 * [`linkrobins/support`](https://github.com/linkrobins/support) (1 added, 100% complete)
-* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (24 added, 16 changed, 100% complete)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (24 added, 23 changed, 100% complete)
 
 
 All changes: [5.0.18...5.0.19](https://github.com/flarum-lang/french/compare/5.0.18...5.0.19).
