@@ -1,20 +1,2 @@
-# Defining attributes per path
-# https://git-scm.com/docs/gitattributes
-
-# Automatically normalize line endings for all text-based files
-* text=auto
-
-# This attribute sets a specific line-ending style to be used in the working directory
-.*     text eol=lf
-*.js   text eol=lf
-*.json text eol=lf
-*.md   text eol=lf
-*.php  text eol=lf
-*.svg  text eol=lf
-*.yml  text eol=lf
-
-# Files and directories with this attribute won't be added to archive files
-.editorconfig  export-ignore
 .gitattributes export-ignore
-.gitignore     export-ignore
-README.md      export-ignore
+.gitignore export-ignore
