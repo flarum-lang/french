@@ -3,6 +3,23 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-masthead:
+  admin:
+    accent:
+      green: Vert
+      orange: Orange
+      primary: 'Couleur primaire de Flarum'
+      purple: Violet
+      red: Rouge
+    home:
+      label: 'Affichage de la page d''accueil'
+      list: 'Liste de discussions'
+      other: 'Autre page (sélectionnée dans Essentiels)'
+      portal: Portail
+    preset:
+      sunday: Dimanche
+    section:
+      footer: 'Pied de page'
+      home: 'Page d''accueil'
   forum:
     browse:
       last_post: 'Dernier : {title}'
@@ -26,4 +43,20 @@ ernestdefoe-masthead:
     top_posters:
       empty: 'Personne n''a encore posté cette semaine.'
     topic:
+      about: 'A propos de cette discussion'
+      copy_link: 'Copier le lien'
+      deleted_user: '[supprimé]'
       forum: Forum
+      jump_best: 'Aller vers la meilleure réponse'
+      jump_best_short: 'Meilleure réponse ›'
+      last_reply: 'Dernière réponse'
+      link_copied: 'Lien copié.'
+      more_in: 'Poursuivre dans {tag}'
+      participants_label: Participants
+      rail_best: 'Meilleure réponse'
+      rail_label: 'Messages dans cette discussion'
+      replies: Réponses
+      reply: Répondre
+      share: Partager
+      started: Démarré
+      views: Vues
