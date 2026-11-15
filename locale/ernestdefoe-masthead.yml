@@ -6,6 +6,7 @@ ernestdefoe-masthead:
   forum:
     compose: 'Nouvelle discussion'
     hero:
+      empty_tag_gone: 'Le tag sélectionné pour les sujets mis en avant n''existe plus. Sélectionnez en un autre, les visiteurs ne verront pas le bloc en attendant.'
       label: 'En avant'
     last_reply: 'Dernier message par {name} {time}'
     nav:
