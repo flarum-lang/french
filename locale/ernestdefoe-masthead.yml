@@ -25,3 +25,5 @@ ernestdefoe-masthead:
       home: Accueil
     top_posters:
       empty: 'Personne n''a encore posté cette semaine.'
+    topic:
+      forum: Forum
