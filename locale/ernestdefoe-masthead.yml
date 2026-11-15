@@ -4,10 +4,18 @@
 
 ernestdefoe-masthead:
   forum:
+    browse:
+      last_post: 'Dernier : {title}'
+      latest: 'dernier {time}'
     compose: 'Nouvelle discussion'
     hero:
       empty_tag_gone: 'Le tag sélectionné pour les sujets mis en avant n''existe plus. Sélectionnez en un autre, les visiteurs ne verront pas le bloc en attendant.'
       label: 'En avant'
     last_reply: 'Dernier message par {name} {time}'
+    latest:
+      empty_latest: 'Aucune discussion pour le moment. Soyez le premier à vous lancer.'
+      tab_latest: Dernier
+      tab_top: 'Top de la semaine'
+      title: 'Dernières discussions'
     nav:
       home: Accueil
