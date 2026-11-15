@@ -8,6 +8,10 @@ ernestdefoe-masthead:
       last_post: 'Dernier : {title}'
       latest: 'dernier {time}'
     compose: 'Nouvelle discussion'
+    footer:
+      powered_by: 'Propulsé par Flarum'
+    games:
+      at: '@ {team}'
     hero:
       empty_tag_gone: 'Le tag sélectionné pour les sujets mis en avant n''existe plus. Sélectionnez en un autre, les visiteurs ne verront pas le bloc en attendant.'
       label: 'En avant'
@@ -19,3 +23,5 @@ ernestdefoe-masthead:
       title: 'Dernières discussions'
     nav:
       home: Accueil
+    top_posters:
+      empty: 'Personne n''a encore posté cette semaine.'
