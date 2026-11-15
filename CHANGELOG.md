@@ -5,6 +5,11 @@ CHANGELOG
 5.0.19 (XXXX-XX-XX)
 -------------------
 
+**General changes**:
+
+* Updated Day.js translations.
+
+
 **Updated translations for extensions**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (1 added, 100% complete)
