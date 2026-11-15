@@ -10,6 +10,11 @@ CHANGELOG
 * Updated Day.js translations.
 
 
+**Added support for new extensions**:
+
+* [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (2% complete)
+
+
 **Updated translations for extensions**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (1 added, 100% complete)
