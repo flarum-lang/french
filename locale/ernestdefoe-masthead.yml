@@ -11,13 +11,20 @@ ernestdefoe-masthead:
       purple: Violet
       red: Rouge
     hero:
+      fill_label: '''re'
       source_latest: 'Discussions les plus récentes'
       style_overlay: 'Largeur pleine'
+      tag_label: Etiquette
+      tag_none: 'Sélectionner une étiquette'
+      tag_secondary: '{name} (secondaire)'
     home:
       label: 'Affichage de la page d''accueil'
       list: 'Liste de discussions'
       other: 'Autre page (sélectionnée dans Essentiels)'
       portal: Portail
+    pictures:
+      label: Images
+      'off': 'Aucune image'
     preset:
       sunday: Dimanche
     section:
