@@ -10,6 +10,9 @@ ernestdefoe-masthead:
       primary: 'Couleur primaire de Flarum'
       purple: Violet
       red: Rouge
+    hero:
+      source_latest: 'Discussions les plus récentes'
+      style_overlay: 'Largeur pleine'
     home:
       label: 'Affichage de la page d''accueil'
       list: 'Liste de discussions'
