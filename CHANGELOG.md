@@ -12,7 +12,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (30% complete)
+* [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (38% complete)
 
 
 **Updated translations for extensions**:
