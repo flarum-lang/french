@@ -10,6 +10,16 @@ ernestdefoe-masthead:
       primary: 'Couleur primaire de Flarum'
       purple: Violet
       red: Rouge
+    footer:
+      add: 'Ajouter un lien'
+      icon: Icône
+      icon_placeholder: 'Icône (optionnelle)'
+      label: 'Liens du pied de page'
+      name: Nom
+      powered_by_label: 'Afficher la mention "Propulsé par Flarum"'
+      remove: 'Supprimer le lien'
+      url: URL
+      url_placeholder: '/p/1-a-propos ou https://…'
     hero:
       fill_label: '''re'
       source_latest: 'Discussions les plus récentes'
@@ -30,6 +40,9 @@ ernestdefoe-masthead:
     section:
       footer: 'Pied de page'
       home: 'Page d''accueil'
+    topic:
+      polls_post: 'Dans le message'
+      polls_sidebar: 'Dans la barre latérale'
   forum:
     browse:
       last_post: 'Dernier : {title}'
@@ -40,7 +53,9 @@ ernestdefoe-masthead:
     games:
       at: '@ {team}'
     hero:
+      byline: 'Par {name}'
       empty_tag_gone: 'Le tag sélectionné pour les sujets mis en avant n''existe plus. Sélectionnez en un autre, les visiteurs ne verront pas le bloc en attendant.'
+      kicker_tag: 'En avant · {tag}'
       label: 'En avant'
     last_reply: 'Dernier message par {name} {time}'
     latest:
