@@ -26,6 +26,9 @@ fof-bookmarks:
       add: Favori
       remove: 'Ajouté aux favoris'
     page:
+      hero:
+        subtitle: 'Les discussions et les messages que vous avez enregistrés pour y revenir plus tard.'
+        title: Favoris
       link: Favoris
       tab:
         discussions: Discussions

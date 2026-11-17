@@ -26,11 +26,23 @@ forumaker-profile-cover:
     added:
       error: 'L''image n''a pas pu être transférée'
       success: 'La couverture de profil a été mise à jour'
+    cancel_crop: Annuler
+    choose_another: 'Choisir une autre image'
+    choose_image: 'Choisir une image'
     cover: Couverture
+    crop_error: 'L’image n’a pas pu être ouverte'
+    crop_existing: Recadrer
+    crop_instructions: 'Faites glisser un coin pour redimensionner le cadre'
+    crop_resize_ne: 'Redimensionner le cadre à partir du coin supérieur droit'
+    crop_resize_nw: 'Redimensionner le cadre à partir du coin supérieur gauche'
+    crop_resize_se: 'Redimensionner le cadre à partir du coin inférieur droit'
+    crop_resize_sw: 'Redimensionner le cadre à partir du coin inférieur gauche'
     edit_cover: 'Modifier la couverture'
-    notice: 'Taille maximale : {size}. Format recommandé — 21:9 et au moins 1600 × 400 pixels'
+    file_too_large: 'Le fichier est trop volumineux. Taille maximale : {size}'
+    notice: 'Taille maximale : {size}. Recommandé : 21:9, au moins 1600 × 400 pixels'
     position_label: 'Position de la couverture sur ordinateur'
     removed:
       error: 'Échec de la suppression de la couverture, veuillez réessayer'
       success: 'La couverture de profil a été supprimée'
+    save_cover: 'Enregistrer la couverture'
     save_position_button: 'Enregistrer la position'
