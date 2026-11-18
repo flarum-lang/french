@@ -33,6 +33,8 @@ huseyinfiliz-diff:
       usePoint: 'Utilisez le <strong>point</strong> comme séparateur décimal pour les valeurs à virgule flottante.'
       wordLevel: 'Au niveau des mots'
   forum:
+    composer:
+      editReasonLabel: 'Motif de la modification (facultatif)'
     confirmDelete: 'Êtes-vous sûr de vouloir supprimer le contenu de cette modification de l''historique ?'
     confirmRollback: 'Êtes-vous sûr de vouloir modifier votre message actuel ?'
     createdInfo: '{username} a créé {ago}'
@@ -46,6 +48,7 @@ huseyinfiliz-diff:
       originalContent: '=> huseyinfiliz-diff.ref.originalContent'
       revisionWithNumber: '=> huseyinfiliz-diff.ref.revisionWithNumber'
       sentence: 'Vous consultez les différences entre {old} et {new}'
+    editReason: 'Motif de la modification'
     editedInfo: '=> core.forum.post.edited_tooltip'
     editedText: '=> core.forum.post.edited_text'
     emptyText: 'Aucune révision'
