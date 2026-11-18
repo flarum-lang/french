@@ -2,6 +2,11 @@
 # Use https://weblate.rob006.net/projects/flarum2/huseyinfiliz-bump/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        manually_bumped: 'A remis manuellement en avant la discussion {discussion}'
 huseyinfiliz-bump:
   admin:
     absorber_bypass_groups_help: 'Les utilisateurs appartenant à ces groupes contourneront complètement le filtre et leurs messages relanceront systématiquement les discussions. Laissez ce champ vide si aucun groupe ne doit contourner le filtre.'

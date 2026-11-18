@@ -188,6 +188,7 @@ huseyinfiliz-awards:
       voted: '{count}/{total} catégories votées'
     results:
       full_results: 'Résultats complets'
+      no_votes: 'Aucun vote n''a encore été enregistré pour établir le classement.'
       percentage: '{percent}%'
       runner_up: Dauphin
       view_all: 'Voir tous les résultats'
