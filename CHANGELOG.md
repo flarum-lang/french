@@ -2,6 +2,38 @@ CHANGELOG
 =========
 
 
+5.0.19 (2026-11-18)
+-------------------
+
+**General changes**:
+
+* Updated Day.js translations.
+
+
+**Added support for new extensions**:
+
+* [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (38% complete)
+
+
+**Updated translations for extensions**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (1 added, 100% complete)
+* [`ernestdefoe/cross-references`](https://github.com/ernestdefoe/cross-references) (1 added, 100% complete)
+* [`ernestdefoe/gatehouse`](https://github.com/ernestdefoe/gatehouse) (1 added, 100% complete)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (2 added, 100% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (5 added, 5 changed, 100% complete)
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) (2 added, 100% complete)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (3 added, 100% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (8 added, 1 changed, 100% complete)
+* [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover) (13 added, 2 changed, 100% complete)
+* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) (4 added, 100% complete)
+* [`linkrobins/support`](https://github.com/linkrobins/support) (1 added, 100% complete)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (24 added, 23 changed, 100% complete)
+
+
+All changes: [5.0.18...5.0.19](https://github.com/flarum-lang/french/compare/5.0.18...5.0.19).
+
+
 5.0.18 (2026-11-09)
 -------------------
 
