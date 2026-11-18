@@ -26,6 +26,7 @@ huseyinfiliz-diff:
       noneLevel: 'Aucun niveau'
       onlyUnsigned: 'Seuls les <strong>entiers non signés</strong> sont autorisés !'
       separateBlock: 'Afficher un séparateur entre les différents blocs Diff dans les moteurs de rendu HTML'
+      showEditReason: 'Afficher le champ « Motif de modification » dans l''éditeur de message'
       textFormatting: 'Activer la mise en forme du texte pour les aperçus'
       title: 'Paramètres Diff'
       useCrons: 'Utiliser des tâches cron pour archiver les anciennes révisions'
@@ -35,6 +36,7 @@ huseyinfiliz-diff:
   forum:
     composer:
       editReasonLabel: 'Motif de la modification (facultatif)'
+      editReasonPlaceholder: 'Ajoutez un motif facultatif pour cette modification'
     confirmDelete: 'Êtes-vous sûr de vouloir supprimer le contenu de cette modification de l''historique ?'
     confirmRollback: 'Êtes-vous sûr de vouloir modifier votre message actuel ?'
     createdInfo: '{username} a créé {ago}'
