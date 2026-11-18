@@ -30,6 +30,7 @@ forumaker-profile-cover:
     choose_another: 'Choisir une autre image'
     choose_image: 'Choisir une image'
     cover: Couverture
+    crop_area: 'Zone de recadrage'
     crop_error: 'L’image n’a pas pu être ouverte'
     crop_existing: Recadrer
     crop_instructions: 'Faites glisser un coin pour redimensionner le cadre'
