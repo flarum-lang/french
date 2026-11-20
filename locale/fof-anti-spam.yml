@@ -95,10 +95,17 @@ fof-anti-spam:
         blocked_words_heading: 'Mots et expressions bloqués'
         blocked_words_help: 'Mots ou expressions à bloquer comme spam. Saisissez-les sur une ligne chacun. La casse n''est pas prise en compte et seuls les mots entiers sont pris en compte. Par exemple, « viagra » correspondra à « viagra », mais pas à « niagara ».'
         blocked_words_label: 'Mots ou expressions bloqués'
+        burst_minutes_label: 'En combien de minutes'
+        burst_post_count_help: "Dès qu'un nouveau compte a publié ce nombre de messages dans d'autres discussions au cours des minutes indiquées ci-dessous, chaque message supplémentaire est considéré comme du spam jusqu'à ce que le rythme de publication ralentisse. Cette règle s'applique uniquement aux nouveaux comptes, même lorsque tous les utilisateurs sont surveillés. Les messages publiés dans la discussion en cours ne sont pas pris en compte ; ainsi, une conversation au sein d'un fil de discussion n'est pas détectée. Les messages en attente de validation sont pris en compte, contrairement aux modifications. Si la valeur est 0, il n'y a pas de limite.\n"
+        burst_post_count_label: 'Nombre de messages autorisés sur une courte période'
         detect_emails_help: 'Signalez le contenu contenant des adresses de courriel.'
         detect_emails_label: 'Détecter les adresses de courriel'
+        detect_local_phones_help: "Prenez également en compte les numéros écrits sans indicatif pays, commençant par 0, tels que 0811-2506-6288 ou 020 7946 0958. Activez cette option si les messages indésirables sur votre forum mentionnent des numéros locaux. Ceux-ci sont plus difficiles à distinguer des dates et des numéros de référence que les numéros internationaux ; il faut donc s'attendre à ce que certains messages légitimes soient signalés par erreur. Cette fonctionnalité nécessite que la détection des numéros de téléphone soit activée.\n"
+        detect_local_phones_label: 'Détecter également les numéros de téléphone au format local'
         detect_phones_help: 'Signaler le contenu contenant des numéros de téléphone au format international.'
         detect_phones_label: 'Détecter les numéros de téléphone'
+        detect_repeats_help: "Signaler un message publié depuis un nouveau compte dont le contenu est identique à celui d'un de ses messages récents, sans tenir compte de la casse, des espaces, de la ponctuation ni de la mise en forme. Cela ne concerne que les nouveaux comptes, même lorsque tous les utilisateurs sont surveillés. Les messages de moins de 40 caractères peuvent être considérés comme des répétitions, et les messages supprimés par leur auteur ne sont pas pris en compte.\n"
+        detect_repeats_label: 'Détecter les messages répétés'
         detect_urls_help: 'Signalez le contenu contenant des URL qui ne figurent pas dans la liste blanche.'
         detect_urls_label: 'Détecter les URL'
         detectors_heading: 'Méthodes de détection'
@@ -127,6 +134,7 @@ fof-anti-spam:
         monitor_post_count_label: 'Surveiller les utilisateurs jusqu''au nombre de messages'
         monitor_window_held_only: 'Tous les utilisateurs étant déjà surveillés, les deux limites ci-dessous déterminent uniquement à quels comptes s''applique la restriction relative au domaine de messagerie.'
         no_action_extensions: 'Installez les extensions flarum/approval et/ou flarum/flags pour activer les actions de modération automatiques. Les spams détectés seront gérés via la file d''attente d''approbation et le système de signalements intégrés à Flarum.'
+        posting_rate_heading: 'Taux de publication'
         spam_threshold_help: 'Le contenu dont le score de spam est égal ou supérieur à cette valeur sera automatiquement refusé (nécessite l''extension flarum/approval).'
         spam_threshold_label: 'Seuil de spam (0-100)'
         system_user_id_help: 'L''identifiant utilisateur qui sera attribué en tant que créateur de signalements anti-spam automatiques. Il s''agit généralement d''un compte administrateur ou système. La valeur par défaut est l''identifiant utilisateur 1 si aucun autre n''est configuré.'
