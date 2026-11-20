@@ -7,6 +7,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (8 added, 100% complete)
 * [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (1 added, 100% complete)
 * [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump) (1 added, 100% complete)
 * [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest) (4 added, 90% complete)
