@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+4.29.8 (XXXX-XX-XX)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations (2 changed).
+* Updated Day.js translations.
+
+
+**Updated translations for extensions**:
+
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) (1 changed, 100% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (7 changed, 100% complete)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (26 added, 100% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (1 changed, 98% complete)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective) (2 changed, 100% complete)
+* [`ianm/gravatar`](https://github.com/imorland/gravatar) (2 changed, 100% complete)
+
+
+All changes: [4.29.7...4.29.8](https://github.com/flarum-lang/french/compare/4.29.7...4.29.8).
+
+
 4.29.7 (2026-10-24)
 -------------------
 
