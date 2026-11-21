@@ -2,6 +2,15 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-subscribed/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  email:
+    notification:
+      types:
+        discussionCreated: 'Nouvelles discussions'
+        postCreated: 'Nouveaux messages et réponses'
+        postFlagged: 'Messages récemment signalés'
+        postUnapproved: 'Messages en attente d''approbation'
+        userCreated: 'Inscriptions de nouveaux utilisateurs'
 fof-subscribed:
   admin:
     permission:
