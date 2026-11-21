@@ -8,10 +8,17 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (8 added, 100% complete)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (3 added, 100% complete)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) (1 added, 94% complete)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (3 added, 100% complete)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (1 added, 100% complete)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) (1 added, 100% complete)
 * [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed) (5 added, 100% complete)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (2 added, 100% complete)
 * [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (1 added, 100% complete)
 * [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump) (1 added, 100% complete)
 * [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest) (4 added, 90% complete)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users) (3 added, 100% complete)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (1 added, 100% complete)
 
 
