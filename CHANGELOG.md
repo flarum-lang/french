@@ -7,6 +7,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`ernestdefoe/masthead`](https://github.com/ernestdefoe/masthead) (4 added, 40% complete)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (8 added, 100% complete)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (3 added, 100% complete)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) (5 added, 100% complete)
@@ -17,7 +18,7 @@ CHANGELOG
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (2 added, 100% complete)
 * [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (1 added, 100% complete)
 * [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump) (1 added, 100% complete)
-* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest) (4 added, 7 changed, 90% complete)
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest) (7 added, 7 changed, 100% complete)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users) (3 added, 100% complete)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (1 added, 100% complete)
 
