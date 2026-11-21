@@ -2,6 +2,13 @@
 # Use https://weblate.rob006.net/projects/flarum2/ianm-follow-users/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  email:
+    notification:
+      types:
+        newDiscussionByUser: 'Nouvelles discussions des personnes que vous suivez'
+        newFollower: 'Nouveaux abonnés'
+        newPostByUser: 'Nouveaux messages des personnes que vous suivez'
 flarum-gdpr:
   lib:
     data:
