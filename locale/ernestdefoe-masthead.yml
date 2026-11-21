@@ -55,8 +55,10 @@ ernestdefoe-masthead:
     hero:
       byline: 'Par {name}'
       empty_tag_gone: 'Le tag sélectionné pour les sujets mis en avant n''existe plus. Sélectionnez en un autre, les visiteurs ne verront pas le bloc en attendant.'
+      kicker: Fonctionnalité
       kicker_tag: 'En avant · {tag}'
       label: 'En avant'
+      replies: '{count, plural, one {# réponse} other {# réponses}}'
     last_reply: 'Dernier message par {name} {time}'
     latest:
       empty_latest: 'Aucune discussion pour le moment. Soyez le premier à vous lancer.'
@@ -65,6 +67,8 @@ ernestdefoe-masthead:
       title: 'Dernières discussions'
     nav:
       home: Accueil
+    strip:
+      online: '{count, plural, one {# membre en ligne} other {# membres en ligne}}'
     top_posters:
       empty: 'Personne n''a encore posté cette semaine.'
     topic:
@@ -85,3 +89,4 @@ ernestdefoe-masthead:
       share: Partager
       started: Démarré
       views: Vues
+    views: '{count, plural, one {# vue} other {# vues}}'

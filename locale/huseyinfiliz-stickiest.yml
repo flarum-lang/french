@@ -8,7 +8,9 @@ flarum-audit:
       discussion:
         super_stickied: 'A marqué la discussion {discussion} comme super épinglée'
         super_unstickied: 'A supprimé le super épingle de la discussion {discussion}'
+        tag_stickied: 'A activé l’épinglage par étiquette pour la discussion {discussion}'
         tag_sticky_tags_changed: 'A modifié les étiquettes épinglées pour la discussion {discussion}'
+        tag_unstickied: 'A désactivé l’épinglage par étiquette pour la discussion {discussion}'
 huseyinfiliz-stickiest:
   admin:
     permissions:
@@ -33,7 +35,7 @@ huseyinfiliz-stickiest:
       sticky_tooltip: Épingle
       super_sticky_tooltip: '=> huseyinfiliz-stickiest.ref.super_sticky'
       super_tag_sticky_tooltip: '=> huseyinfiliz-stickiest.ref.super_tag_sticky'
-      tag_sticky_tooltip: 'Épingle sur étiquette'
+      tag_sticky_tooltip: 'Épingle Étiquette'
     discussion_controls:
       sticky_button: Épingle
     post_stream:
@@ -61,7 +63,7 @@ huseyinfiliz-stickiest:
       sticky_label: Épingle
       submit_button: 'Enregistrer les modifications'
       tag_sticky_help: 'Les discussions ne seront affichées et épinglées dans la partie supérieure que lors de la consultation d''une étiquette spécifique.'
-      tag_sticky_label: 'Épingle sur étiquette'
+      tag_sticky_label: 'Épingle Étiquette'
       title: 'Épingle : {title}'
   ref:
     sticky: '=> flarum-sticky.ref.sticky'
@@ -69,4 +71,5 @@ huseyinfiliz-stickiest:
     super_tag_sticky: 'Super étiquette épinglée'
     tag_sticky: 'Étiquette épinglée'
   validation:
+    invalid_tag_ids: 'Les identifiants des étiquettes épinglées doivent constituer une liste d''entiers positifs uniques.'
     unrelated_tags: 'Les étiquettes épinglées doivent appartenir à cette discussion.'
