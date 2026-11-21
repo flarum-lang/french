@@ -8,7 +8,7 @@ core:
       types:
         awardedBestAnswer: 'Vos messages ont été désignés comme « meilleure réponse »'
         bestAnswerInDiscussion: 'Les meilleures réponses dans les discussions auxquelles vous avez participé'
-        selectBestAnswer: 'Pensez à sélectionner la meilleure réponse dans vos discussions'
+        selectBestAnswer: 'Rappels pour sélectionner une meilleure réponse dans vos discussions'
 flarum-audit:
   lib:
     browser:

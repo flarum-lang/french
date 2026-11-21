@@ -15,7 +15,7 @@ huseyinfiliz-stickiest:
       stickiest_label: 'Discussions super épinglées'
       super_sticky_discussions_label: 'Discussions super épinglées'
       tag_sticky_discussions_label: 'Baliser les discussions épinglées'
-      tag_sticky_label: 'Baliser les discussions épinglées'
+      tag_sticky_label: 'Discussions épinglées à une étiquette'
     settings:
       badge_icon_label: 'Icône de badge super épinglé'
       badge_icon_text: '=> core.ref.icon_text'
@@ -23,17 +23,17 @@ huseyinfiliz-stickiest:
       display_tag_sticky_text: 'Elles seront traitées comme des discussions ordinaires et ne resteront pas dans la partie supérieure.'
       show_sticky_highlight_help: 'Lorsque cette option est activée, les discussions épinglées s''affichent avec une bordure gauche colorée et un fond teinté dans la liste des discussions.'
       show_sticky_highlight_label: 'Mettre en évidence les discussions épinglées'
-      show_tag_sticky_help: 'Lorsque cette option est désactivée, les discussions épinglées n''apparaissent que lorsque vous consultez cette étiquette spécifique.'
+      show_tag_sticky_help: 'Lorsque cette option est désactivée, les discussions épinglées associées à une étiquette n''apparaissent que lorsque vous consultez cette étiquette spécifique.'
       show_tag_sticky_label: 'Afficher les étiquettes épinglées dans toutes les discussions'
       stickiest_icon_help: 'Classe d''icône Font Awesome (p. ex. fas fa-star)'
-      stickiest_icon_label: 'Icône de badge super épinglé'
+      stickiest_icon_label: 'Icône de badge super épingle'
   forum:
     badge:
-      stickiest_tooltip: 'Super épinglée'
+      stickiest_tooltip: 'Super Épingle'
       sticky_tooltip: Épingle
       super_sticky_tooltip: '=> huseyinfiliz-stickiest.ref.super_sticky'
       super_tag_sticky_tooltip: '=> huseyinfiliz-stickiest.ref.super_tag_sticky'
-      tag_sticky_tooltip: 'Étiquette épinglée'
+      tag_sticky_tooltip: 'Épingle sur étiquette'
     discussion_controls:
       sticky_button: Épingle
     post_stream:
@@ -56,12 +56,12 @@ huseyinfiliz-stickiest:
     sticky_modal:
       select_tags: 'Sélectionner les étiquettes'
       stickiest_help: 'Les discussions super épinglées resteront dans la partie supérieure quoi qu''il arrive.'
-      stickiest_label: 'Super épinglée'
+      stickiest_label: 'Super Épingle'
       sticky_help: 'Les discussions épinglées resteront dans la partie supérieure de la liste de « Toutes les discussions » si elles ne sont pas lues. Lors de l''affichage d''une étiquette spécifique appartenant à la discussion, elles resteront en haut de la liste à tout moment.'
       sticky_label: Épingle
       submit_button: 'Enregistrer les modifications'
       tag_sticky_help: 'Les discussions ne seront affichées et épinglées dans la partie supérieure que lors de la consultation d''une étiquette spécifique.'
-      tag_sticky_label: 'Étiquette épinglée'
+      tag_sticky_label: 'Épingle sur étiquette'
       title: 'Épingle : {title}'
   ref:
     sticky: '=> flarum-sticky.ref.sticky'

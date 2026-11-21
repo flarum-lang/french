@@ -6,7 +6,11 @@ core:
   email:
     notification:
       types:
-        byobuMadePublic: 'Les discussions privées auxquelles vous participez sont rendues publiques'
+        byobuMadePublic: 'Discussions privées auxquelles vous participez qui sont rendues publiques'
+        byobuPrivateDiscussionAdded: 'Être ajouté à des discussions privées'
+        byobuPrivateDiscussionCreated: 'Nouvelles discussions privées où vous inclus'
+        byobuPrivateDiscussionReplied: 'Nouveaux messages dans les discussions privées auxquelles vous participez'
+        byobuRecipientRemoved: 'Destinataires qui quittent les discussions privées auxquelles vous participez'
 fof-byobu:
   admin:
     permission:
