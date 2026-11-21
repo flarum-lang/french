@@ -14,8 +14,8 @@ fof-open-collective:
       onetime_group_label: 'Groupe de contributeurs ponctuels (facultatif)'
       personal_token_help: 'Créez un jeton personnel sur <a>https://opencollective.com/applications</a>. Ce jeton sert à récupérer vos informations de contributeur auprès d''Open Collective.'
       personal_token_label: 'Jeton personnel'
-      slug_help: 'Saisissez le slug de votre collectif Open Collective (la partie après opencollective.com/ dans l''URL de votre collectif).'
-      slug_label: 'Identifiant texte unique collectif'
+      slug_help: 'Saisissez l’identifiant texte unique de votre collectif Open Collective (la partie après opencollective.com/ dans l''URL de votre collectif).'
+      slug_label: 'Identifiant texte unique du collectif'
       title: 'Open Collective de FriendsOfFlarum'
       use_legacy_api_key_help: "Si vous disposez d'une ancienne clé API, vous pouvez continuer à l'utiliser, mais il est recommandé de passer à un jeton personnel. Actuellement, les jetons personnels semblent fonctionner en mode clé API (c'est-à-dire avec l'en-tête « API-Key »), mais cela n'est pas documenté.\n"
       use_legacy_api_key_label: 'Utiliser la clé API de l''ancienne application'
