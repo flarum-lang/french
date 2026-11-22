@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+5.0.21 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`ernestdefoe/skylight`](https://github.com/ernestdefoe/skylight) (9% complete)
+
+
+**Updated translations for extensions**:
+
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) (1 changed, 100% complete)
+
+
+All changes: [5.0.20...5.0.21](https://github.com/flarum-lang/french/compare/5.0.20...5.0.21).
+
+
 5.0.20 (2026-11-21)
 -------------------
 
