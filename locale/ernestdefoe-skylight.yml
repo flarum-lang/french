@@ -3,13 +3,69 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-skylight:
+  forum:
+    studio:
+      open: Personnaliser
   lib:
+    accents:
+      coral: Corail
+      dawn: Aube
+      fern: Fougère
+      iris: Iris
+      lagoon: Lagune
+      slate: Ardoise
+    choices:
+      bg:
+        daylight: 'Plein jour'
+        dusk: Crépuscule
+        image: 'Photo {number}'
+        mist: Brume
+        plain: Uni
+      density:
+        comfortable: Confortable
+        compact: Compact
+      font:
+        inter: Inter
+        serif: Serif
+        system: Système
+      glass:
+        glass: Verre
+        solid: Solide
+      motion:
+        full: Complet
+        'off': Désactivé
+        reduced: Réduit
+      radius:
+        round: Rond
+        sharp: Aigu
+        soft: Doux
+      view:
+        cards: Cartes
+        compact: Compact
+        list: Liste
+    help:
+      hc: 'Texte gris plus foncé et bordures plus marquées.'
+      nudged: 'Cette couleur a été légèrement assombrie (ou éclaircie en mode sombre) afin que le texte reste lisible.'
+    labels:
+      bg: Arrière-plan
+      blur: Flou
+      custom_accent: 'N''importe quelle couleur'
+      density: Densité
+      font: Police
+      glass: Surfaces
+      hc: 'Plus de contraste'
+      motion: Mouvement
+      radius: Coins
+      rt: 'Réduire la transparence'
+      scale: Taille
     sections:
       accent: Nuance
       background: Arrière-plan
       corners: Coins
       density: Densité
       glass: Surfaces
+      motion: Mouvement
+      readability: Lisibilité
       shape: Forme
       text: Texte
       typeface: Police
