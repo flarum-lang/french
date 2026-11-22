@@ -7,7 +7,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`ernestdefoe/skylight`](https://github.com/ernestdefoe/skylight) (9% complete)
+* [`ernestdefoe/skylight`](https://github.com/ernestdefoe/skylight) (54% complete)
 
 
 **Updated translations for extensions**:
