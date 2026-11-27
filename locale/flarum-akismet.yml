@@ -12,6 +12,10 @@ flarum-akismet:
       title: 'Paramètres d''Akismet'
     permissions:
       bypass_akismet: 'Contourner Akismet'
+    sections:
+      spam_filtering:
+        description: 'Connectez votre compte Akismet et choisissez ce qu''il adviendra des messages marqués comme indésirables.'
+        label: 'Filtrage des indésirables'
   forum:
     post:
       akismet_flagged_text: 'Akismet a signalé ce message comme indésirable'

@@ -12,6 +12,13 @@ flarum-sticky:
   admin:
     permissions:
       sticky_discussions_label: 'Discussions épinglées'
+    sections:
+      excerpts:
+        description: 'Informations supplémentaires affichées pour les discussions épinglées non lues dans la liste de discussion.'
+        label: Extraits
+      pinning:
+        description: 'Où les discussions épinglées apparaissent sur la page « Toutes les discussions ».'
+        label: Épinglage
     settings:
       enable_display_excerpt: 'Afficher un extrait du premier message lorsqu''une discussion épinglée n''a pas été lue'
       only_sticky_unread_discussions_help: 'Sur la page de toutes les discussions, les discussions épinglées non lues sont affichées en haut, tandis que les discussions épinglées lues suivent l''ordre normal.'

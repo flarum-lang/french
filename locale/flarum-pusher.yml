@@ -16,6 +16,10 @@ flarum-pusher:
       server_hostname_help: 'Facultatif. Remplacez l''hôte auquel le client se connecte, pour un serveur auto-hébergé compatible avec Pusher (p.ex. soketi). Laissez ce champ vide pour utiliser le service hébergé par Pusher avec la grappe de serveurs ci-dessus.'
       server_hostname_label: 'Nom d''hôte du serveur'
       title: 'Paramètres de Pusher'
+    sections:
+      connection:
+        description: 'Les clés figurant sur la page « Clés de l''application » de votre application Pusher.'
+        label: Connexion
   forum:
     discussion_list:
       show_updates_text: '{count, plural, one {Afficher la discussion mise à jour} other {Afficher les # discussions mises à jour}}'

@@ -2,10 +2,21 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-mentions/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  email:
+    notification:
+      types:
+        groupMentioned: 'Mentions de vos groupes'
+        postMentioned: 'Réponses à vos messages'
+        userMentioned: 'Mentions de vous'
 flarum-mentions:
   admin:
     permissions:
       mention_groups_label: 'Mentionner les groupes'
+    sections:
+      format:
+        description: 'Quelle syntaxe les membres peuvent-ils utiliser pour mentionner un autre membre.'
+        label: 'Format de mention'
     settings:
       allow_username_format_label: 'Autoriser le format de mention du nom d''utilisateur (@utilisateur)'
       allow_username_format_text: "Le format actuel des mentions d'utilisateur est @\"Nom d'affichage\"#Identifiant.\nCe paramètre permet d'utiliser l'ancien format @\"Nom d'utilisateur\" qui sera néanmoins converti au nouveau format lors de l'enregistrement.\n"
@@ -44,6 +55,7 @@ flarum-mentions:
       user_mentioned_text: '{username} vous a mentionné'
     post:
       mentioned_by_more_text: '{count} réponses supplémentaires.'
+      mentioned_by_self_only_text: '{users} ont répondu à ceci.'
       mentioned_by_self_text: '{users} avez répondu à ça.'
       mentioned_by_text: '{users} a répondu à ça.'
       others_text: '=> core.ref.some_others'
