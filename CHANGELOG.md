@@ -14,7 +14,13 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`flarum/audit`](https://github.com/flarum/audit) (3 added, 97% complete)
+* [`flarum/audit`](https://github.com/flarum/audit) (6 added, 100% complete)
+* [`flarum/deck`](https://github.com/flarum/deck) (7 added, 100% complete)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr) (9 added, 100% complete)
+* [`flarum/likes`](https://github.com/flarum/likes) (2 added, 100% complete)
+* [`flarum/statistics`](https://github.com/flarum/statistics) (2 added, 100% complete)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions) (4 added, 100% complete)
+* [`flarum/tags`](https://github.com/flarum/tags) (7 added, 100% complete)
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) (1 changed, 100% complete)
 
 
