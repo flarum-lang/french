@@ -9,7 +9,7 @@ CHANGELOG
 
 * [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge) (100% complete)
 * [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) (100% complete)
-* [`ernestdefoe/skylight`](https://github.com/ernestdefoe/skylight) (87% complete)
+* [`ernestdefoe/skylight`](https://github.com/ernestdefoe/skylight) (88% complete)
 
 
 **Updated translations for extensions**:
