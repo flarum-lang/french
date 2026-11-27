@@ -4,12 +4,23 @@
 
 ernestdefoe-skylight:
   admin:
+    backgrounds:
+      help: 'Jusqu''à 4 de vos propres images. Les images de grande taille sont redimensionnées à 2400 px lorsque vous les transférez.'
+      title: 'Images d''arrière-plan'
     bespoke_notice: '« Bespoke » définit le style de ce forum, donc Skylight reste désactivé. Pour proposer les deux options, installez « Wardrobe » et permettez aux membres de choisir leur thème.'
     defaults:
       contrast_dark: 'Accent en mode sombre : {ratio}'
       contrast_light: 'Accent en mode clair : {ratio}'
       help: 'Ce que voient les visiteurs et les nouveaux membres. Les membres peuvent modifier ces paramètres via le bouton « Personnaliser ».'
       title: 'Paramètres par défaut du forum'
+    more:
+      auto_solid: 'Utiliser des panneaux opaques sur les téléphones à faible mémoire'
+      auto_solid_help: 'Les téléphones disposant de moins de 4 Go de mémoire, ou avec l''économiseur de données activé, utilisent des panneaux opaques. Les membres peuvent toujours choisir l’option « Verre ».'
+      multi_tag: 'Une seule couleur pour plusieurs étiquettes'
+      multi_tag_help: 'Une discussion dont les étiquettes ont des couleurs différentes utilise cette couleur plutôt que celle de sa première étiquette.'
+      tag_accent: 'Les étiquettes colorent la page'
+      tag_accent_help: 'À l''intérieur d''une étiquette, les boutons, les liens et les contours de sélection prennent la couleur de l''étiquette. Les couleurs trop claires pour être lisibles sont assombries.'
+      title: Plus
     permissions:
       use_studio: 'Personnaliser Skylight (accent, arrière-plan, mode d''affichage…)'
     presets:
@@ -23,7 +34,11 @@ ernestdefoe-skylight:
       readability_always: 'Les options « Réduire la transparence » et « Augmenter le contraste » sont toujours proposées.'
       title: 'Personnalisation pour les membres'
     thumbnail:
+      help: 'Les cartes affichent la vignette FoF Discussion Thumbnail de chaque discussion sur toute leur largeur supérieure.'
+      large: Grande
+      medium: Moyenne
       'off': Désactivé
+      small: Petite
       title: 'Images de cartes'
   forum:
     studio:
