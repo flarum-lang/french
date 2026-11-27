@@ -44,13 +44,13 @@ ianm-twofactor:
       logo_qr: 'Logo sur le code QR'
       logo_qr_help: 'Si un logo a été transféré, il sera intégré au code QR. Laissez vide pour utiliser le logo du forum.'
       tokens:
-        also_kill_developer_tokens: 'Mettre également fin aux jetons des développeurs'
-        also_kill_developer_tokens_help: 'Met également fin aux jetons d''accès des développeurs qui ont été inactifs pendant la période spécifiée.'
-        heading: 'Jetons d''accès'
-        help: 'Pour une sécurité accrue, vous pouvez gérer ici des comportements supplémentaires liés aux jetons d''accès.'
+        also_kill_developer_tokens: 'Supprimer les jetons de développeur inutilisés'
+        also_kill_developer_tokens_help: 'Supprimez les jetons d''accès développeur qui n''ont pas été utilisés depuis le nombre de jours indiqué ci-dessous. Les scripts et les intégrations qui en utilisent un cesseront de fonctionner.'
+        heading: 'Jetons de développeur'
+        help: 'La durée de validité de la connexion et de l''option « Se souvenir de moi » se définie sur la page « Avancé », dans la section « Sessions ». Les jetons de développeur n''y expirent jamais ; ils peuvent donc être supprimés ici.'
         kill_inactive_tokens: 'Mettre fin aux jetons inactifs'
-        kill_inactive_tokens_age_days: 'Délai d''expiration des jetons inactifs (en jours)'
-        kill_inactive_tokens_age_days_help: 'Le nombre de jours d''inactivité après lesquels les jetons d''accès seront supprimés.'
+        kill_inactive_tokens_age_days: 'Supprimer les jetons de développeur après (jours)'
+        kill_inactive_tokens_age_days_help: 'Nombre de jours pendant lesquels un jeton de développeur peut rester inutilisé avant d''être supprimé.'
         kill_inactive_tokens_help: 'Met fin automatiquement aux jetons d''accès qui ont été inactifs pendant une période de temps spécifiée.'
   email:
     body:
@@ -81,6 +81,7 @@ ianm-twofactor:
       confirm_disable_2fa_text_other_user: 'Êtes-vous sûr de vouloir désactiver l''authentification à deux facteurs pour {username} ? Cela supprimera tous les codes de sauvegarde et désactivera l''authentification à deux facteurs pour son compte.'
       confirm_disable_2fa_title: 'Confirmer la désactivation de l''authentification à deux facteurs'
       continue_button: Continuer
+      current_token_required: 'Saisissez un jeton depuis votre appareil actuel pour continuer.'
       device_changed_confirmation: 'Votre appareil d''authentification a été modifié avec succès.'
       disable_2fa_button: 'Désactiver l''A2F'
       enable_2fa_button: 'Activer l''A2F'
@@ -110,6 +111,11 @@ ianm-twofactor:
       verify_new_device_message: 'Saisissez maintenant un jeton à partir de votre nouvel appareil pour terminer la modification.'
     user_2fa:
       alert_message: 'Vous devez activer la fonction A2F pour continuer à accéder à votre compte.'
+  lib:
+    gambits:
+      users:
+        twofactor:
+          key: a2f
   views:
     log_in:
       two_factor_incorrect_message: 'Le jeton A2F est incorrect. Veuillez réessayer.'
@@ -121,3 +127,4 @@ ianm-twofactor:
       oauth_session_expired: 'La session OAuth a expiré. Veuillez vous reconnecter.'
       submit_button: 'Envoyer le jeton'
       title: 'Authentification à deux facteurs'
+      too_many_attempts_message: 'Trop de codes d''authentification à deux facteurs (A2F) incorrects. Veuillez patienter quelques minutes, puis réessayez.'

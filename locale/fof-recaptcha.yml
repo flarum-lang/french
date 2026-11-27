@@ -29,6 +29,8 @@ fof-recaptcha:
       submit_button: Envoyer
       success_message: 'Félicitations ! reCAPTCHA est configuré correctement.'
       title: 'Tester le reCAPTCHA'
+  api:
+    not_available_to_clients: 'Ce forum exige un reCAPTCHA pour les nouvelles discussions et les réponses ; celui-ci ne peut pas être validé en dehors des pages du forum, par exemple via l''API ou un client MCP. Veuillez plutôt publier votre message depuis le forum ou demander à un administrateur l''autorisation « {permission} ».'
   lib:
     error: 'Une erreur est survenue lors de la soumission de reCAPTCHA. Veuillez réessayer.'
     not_completed: 'Veuillez compléter la vérification reCAPTCHA avant de continuer.'

@@ -80,7 +80,23 @@ fof-pwa:
       status_check_heading: 'Vérification du statut'
       submit_button: 'Enregistrer les paramètres'
       text: 'Configurez votre site sous Flarum pour qu''il fonctionne comme une application web progressive ! Veuillez noter que cela ne place pas automatiquement votre site dans le magasin d''applications. Au lieu de cela, elle offre aux utilisateurs une option « Ajouter à l''écran d''accueil » pour votre site. Nous fournissons quelques vérifications d''état, mais la meilleure façon de le tester est d''essayer de l''installer vous-même (recherchez sur le Web des instructions pour installer les applications web progressives). Gardez à l''esprit que les invites « Installer cette application web progressive » sont contrôlées par les navigateurs et ne peuvent pas être déclenchées par les développeurs, les administrateurs ou les programmes. Envisagez d''inclure des instructions d''installation pour les applications web progressive dans la documentation de votre site.'
+    sections:
+      delivery:
+        label: Livraison
+      home_screen:
+        description: 'L''icône de l''application, l''arrière-plan de l''écran de démarrage et la couleur principale sont définis sur la <appearance>page Apparence</appearance>, tout comme le fait que le forum s''ouvre ou non sous forme d''application. Son nom correspond au titre du forum, et son nom abrégé est indiqué à côté sur la <basics>page Essentiels</basics>. Ce sont les navigateurs qui décident quand proposer l''installation de l''application ; pensez donc à indiquer aux membres comment l''ajouter à leur écran d''accueil.'
+        label: 'Écran d''accueil'
+      keys:
+        label: 'Clés VAPID'
+      sharing:
+        label: Partage
+      status:
+        description: 'Ce dont le forum a encore besoin pour pouvoir être installé en tant qu''application et envoyer des notifications push.'
+        label: Statut
+      troubleshooting:
+        label: Dépannage
     status:
+      check_failed: 'Les vérifications d''état n''ont pas pu être chargées. Actualisez la page pour réessayer.'
       config_no_https: 'L’URL dans votre fichier config.php n’utilise pas HTTPS. HTTPS est nécessaire pour que les applications web progressives puissent fonctionner.'
       key_gen_failed: 'La génération des clés nécessaires aux notifications poussées a échouée. Le message d''erreur complet est : {error}'
       no_logo: 'Vous devez transférer au moins un logo, d''une taille minimale de 144x144 pixels, pour que l''application web progressive puisse être installée.'
@@ -89,6 +105,9 @@ fof-pwa:
       possible_https_disabled: 'Votre site n’est peut-être pas exécuté en HTTPS. Vider votre cache (page du tableau de bord d''administration => bouton Outils) peut aider. Si tel est le cas, ignorez ce message. Si ce n’est pas le cas, gardez à l’esprit que HTTPS est nécessaire pour que les applications web progressives puissent fonctionner.'
       success: 'Aucun problème potentiel trouvé !'
       suggest_gmp: 'L’extension PHP gmp ne semble pas être activée sur votre serveur. Elle n’est pas absolument nécessaire, mais peut améliorer les performances et est recommandée. Certains hébergements partagés peuvent ne pas supporter cette fonctionnalité.'
+    tabs:
+      app: Application
+      push: 'Notifications push'
   api:
     endpoint_host_not_allowed: 'Les notifications push n''ont pas pu être activées car l''hôte du service push « {host} » utilisé par votre navigateur n''est pas autorisé. Veuillez contacter l''administrateur du forum.'
     endpoint_https_required: 'Les notifications push n''ont pas pu être activées car votre navigateur a fourni une URL de service push invalide « {url} ». Une URL HTTPS valide est requise.'

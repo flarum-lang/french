@@ -69,7 +69,7 @@ fof-byobu:
     hero:
       title: '=> fof-byobu.forum.nav.nav_item'
     input:
-      search_recipients: 'Rechercher un destinataire en saisissant ses trois premiers caractères…'
+      search_recipients: 'Rechercher un destinataire en saisissant le(s) premier(s) {count, plural, one {caractère} other {# caractères}}...'
     labels:
       recipients: '{count, plural, one {{count} destinataire} other {{count} destinataires}}'
     modal:

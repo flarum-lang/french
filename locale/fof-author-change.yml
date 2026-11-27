@@ -25,3 +25,4 @@ fof-author-change:
       no-results: 'Aucun résultat'
       placeholder: 'Rechercher des utilisateurs'
       type-more: 'Saisissez 3 caractères pour effectuer une recherche dans la base de données'
+      type-more-characters: 'Saisissez {count, plural, one {# caractère} other {# caractères}} pour effectuer une recherche dans la base de données'

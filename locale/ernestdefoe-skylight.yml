@@ -3,9 +3,54 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-skylight:
+  admin:
+    bespoke_notice: '« Bespoke » définit le style de ce forum, donc Skylight reste désactivé. Pour proposer les deux options, installez « Wardrobe » et permettez aux membres de choisir leur thème.'
+    defaults:
+      contrast_dark: 'Accent en mode sombre : {ratio}'
+      contrast_light: 'Accent en mode clair : {ratio}'
+      help: 'Ce que voient les visiteurs et les nouveaux membres. Les membres peuvent modifier ces paramètres via le bouton « Personnaliser ».'
+      title: 'Paramètres par défaut du forum'
+    permissions:
+      use_studio: 'Personnaliser Skylight (accent, arrière-plan, mode d''affichage…)'
+    presets:
+      help: 'Jusqu''à 6 couleurs supplémentaires pour la ligne d''accent, séparées par des virgules.'
+      replace: 'Remplacer les préréglages intégrés'
+      replace_help: 'Affichez uniquement vos couleurs dans la ligne d''accent, au lieu de les ajouter après les six couleurs de Skylight.'
+      title: 'Vos propres accents'
+    studio:
+      help: 'Les rubriques que les membres voient lorsqu''ils ouvrent « Personnaliser ». Une rubrique que vous désactivez reste dans vos paramètres par défaut.'
+      permission: 'Les utilisateurs autorisés à utiliser « Personnaliser » sont définis sur la page « Permissions » (Membres, par défaut).'
+      readability_always: 'Les options « Réduire la transparence » et « Augmenter le contraste » sont toujours proposées.'
+      title: 'Personnalisation pour les membres'
+    thumbnail:
+      title: 'Images de cartes'
   forum:
     studio:
+      done: Terminé
+      lead: 'Vous êtes le seul à voir ces modifications. Les autres utilisateurs conservent le style du forum.'
+      mode:
+        auto: Auto
+        dark: Sombre
+        label: Mode
+        light: Clair
       open: Personnaliser
+      reset: Réinitialiser
+      share:
+        apply: Utiliser
+        copied: 'Le code de votre style a été copié.'
+        copy: Copier
+        copy_failed: 'Votre navigateur n''a pas autorisé la copie. Sélectionnez le code et copiez-le vous-même.'
+        invalid: 'Code invalide. Il doit commencer par « SKY- » et se présenter sous la forme « SKY-127C86000000E200 ».'
+        label: 'Partagez votre style'
+        paste_label: 'Coller le code de style de quelqu''un'
+      shuffle: Aléatoire
+      title: 'Votre style'
+    views:
+      cards: Cartes
+      compact: Compact
+      label: 'Mode d''affichage de la liste des discussions'
+      list: Liste
+      view_count: '{count, plural, one {# vue} other {# vues}}'
   lib:
     accents:
       coral: Corail
@@ -35,17 +80,24 @@ ernestdefoe-skylight:
         full: Complet
         'off': Désactivé
         reduced: Réduit
+      night:
+        black: Noir
+        blue: Bleu
       radius:
         round: Rond
         sharp: Pointu
         soft: Doux
+      tags:
+        below: 'Sous le titre, toutes affichées'
+        beside: 'À côté du titre'
       view:
         cards: Cartes
         compact: Compact
         list: Liste
     help:
-      hc: 'Un texte gris plus foncé et des bordures plus marquées.'
+      hc: 'Texte gris, plus foncé et des bordures plus marquées.'
       nudged: 'Cette couleur a été légèrement assombrie (ou éclaircie en mode sombre) afin que le texte reste lisible.'
+      rt: 'Panneaux opaques, sans flou. Cette fonctionnalité est également activée par les paramètres de votre appareil.'
     labels:
       bg: Arrière-plan
       blur: Flou
@@ -53,13 +105,16 @@ ernestdefoe-skylight:
       density: Densité
       font: Police
       glass: Surfaces
-      hc: 'Plus de contraste'
+      hc: 'Augmenter le contraste'
       motion: Mouvement
+      night: Nuit
       radius: Coins
       rt: 'Réduire la transparence'
       scale: Taille
+      tags: Étiquettes
+      view: Vue
     sections:
-      accent: Nuance
+      accent: Accent
       background: Arrière-plan
       corners: Coins
       density: Densité
@@ -67,6 +122,7 @@ ernestdefoe-skylight:
       motion: Mouvement
       readability: Lisibilité
       shape: Forme
+      share: 'Codes de partage'
       text: Texte
       typeface: Police
       view: 'Liste de discussions'
