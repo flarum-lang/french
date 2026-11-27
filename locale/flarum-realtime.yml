@@ -7,6 +7,16 @@ flarum-realtime:
     permission:
       view-all-typing: 'Voir qui est en train de taper n''importe où sur le forum'
       view-who-types: 'Voir qui est en train d''écrire'
+    sections:
+      discussion-list:
+        description: 'Comment les nouvelles activités apparaissent-elles sur la liste de discussion lorsque celle-ci est ouverte.'
+        label: 'Liste de discussions'
+      notifications:
+        description: 'Comment s''affichent les notifications en temps réel.'
+        label: Notifications
+      typing:
+        description: 'Afficher aux membres quand quelqu''un d''autre est en train de rédiger une réponse.'
+        label: 'Indicateurs de saisie'
     settings:
       index-typing-indicator: 'Indicateur de saisie dans la liste de discussion'
       index-typing-indicator-help: 'Lorsque cette option est activée, une icône s''affiche dans la liste des discussions pour chaque discussion accessible au public dans laquelle quelqu''un est en train d''écrire un message. Aucun nom n''est affiché.'

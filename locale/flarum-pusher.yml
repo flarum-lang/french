@@ -20,6 +20,9 @@ flarum-pusher:
       connection:
         description: 'Les clés figurant sur la page « Clés de l''application » de votre application Pusher.'
         label: Connexion
+      server:
+        description: 'Nécessaire uniquement si vous utilisez votre propre serveur compatible avec Pusher au lieu de Pusher.'
+        label: 'Serveur personnalisé'
   forum:
     discussion_list:
       show_updates_text: '{count, plural, one {Afficher la discussion mise à jour} other {Afficher les # discussions mises à jour}}'

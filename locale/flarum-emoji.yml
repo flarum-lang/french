@@ -4,6 +4,10 @@
 
 flarum-emoji:
   admin:
+    sections:
+      images:
+        description: 'D''où proviennent les images d''émojis affichés dans les messages et dans le compositeur.'
+        label: 'Images d''émojis'
     settings:
       cdn_help: 'p. ex. : https://cdn.jsdelivr.net/gh/jdecked/twemoji@[version]/assets/, la version actuelle est : {version}'
       cdn_label: 'Adresse du miroir CDN'

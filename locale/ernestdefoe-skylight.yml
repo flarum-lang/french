@@ -37,14 +37,14 @@ ernestdefoe-skylight:
         reduced: Réduit
       radius:
         round: Rond
-        sharp: Aigu
+        sharp: Pointu
         soft: Doux
       view:
         cards: Cartes
         compact: Compact
         list: Liste
     help:
-      hc: 'Texte gris plus foncé et bordures plus marquées.'
+      hc: 'Un texte gris plus foncé et des bordures plus marquées.'
       nudged: 'Cette couleur a été légèrement assombrie (ou éclaircie en mode sombre) afin que le texte reste lisible.'
     labels:
       bg: Arrière-plan
@@ -69,4 +69,4 @@ ernestdefoe-skylight:
       shape: Forme
       text: Texte
       typeface: Police
-      view: 'Liste de discussion'
+      view: 'Liste de discussions'

@@ -2,10 +2,21 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-messages/fr/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  email:
+    notification:
+      types:
+        messageReceived: 'Messages qui vous ont été envoyés'
 flarum-audit:
   lib:
     browser:
       dialog:
+        group_posted: 'A envoyé un message privé au groupe {group_id}'
+        group_started: 'A démarré une conversation privée avec le groupe {group_id}'
+        message_deleted: 'A supprimé définitivement un message privé envoyé par {username}'
+        message_edited: 'A modifié un message privé envoyé par {username}'
+        message_hidden: 'A supprimé un message privé envoyé par {username}'
+        message_restored: 'A restauré un message privé envoyé par {username}'
         posted: 'A envoyé un message privé à {username}'
         started: 'A commencé une conversation privée avec {username}'
 flarum-gdpr:
@@ -18,13 +29,28 @@ flarum-gdpr:
 flarum-messages:
   admin:
     permissions:
+      delete_messages_forever_label: 'Supprimer définitivement les messages'
       delete_own_messages_label: 'Supprimer ses propres messages'
+      edit_own_messages_label: 'Modifier ses propres messages'
+      message_groups_label: 'Démarrer des conversations avec des groupes'
       message_users_without_permission_label: 'Envoyer des messages à des utilisateurs ne disposant pas de l''autorisation d''envoyer des messages'
       send_messages_label: 'Envoyer des messages privés'
       send_without_throttle_label: 'Envoyer des messages sans limitation de débit'
       view_ips_label: 'Afficher les adresses IP des messages'
+    sections:
+      groups:
+        description: 'Conversations démarrées avec plusieurs membres à la fois.'
+        label: 'Conversations de groupe'
+    settings:
+      allow_group_names_help: 'Les membres qui peuvent écrire dans une conversation de groupe peuvent lui attribuer un nom, que tous les participants verront à la place de la liste des membres. Désactiver cette option masque les noms déjà attribués.'
+      allow_group_names_label: 'Permettre aux membres de nommer les conversations de groupe'
+      max_recipients_help: 'Nombre de membres auxquels un message peut être envoyé. Si ce nombre est supérieur à un, une conversation de groupe est démarrée, s''il est égal à 1, les conversations de groupe sont désactivées. 50 au maximum.'
+      max_recipients_label: 'Destinataires par message'
+      recipient_groups_help: 'Les expéditeurs autorisés à démarrer des conversations avec des groupes peuvent sélectionner ces groupes. Par défaut, seuls les administrateurs disposent de cette autorisation. Désactiver un groupe ici ne le supprime pas des conversations existantes. Toute personne habilitée à gérer l''adhésion au groupe peut accorder l''accès à l''historique complet des conversations.'
+      recipient_groups_label: 'Groupes qui peuvent recevoir des messages'
   email:
     message_received:
+      group_subject: '{user_display_name} vous a envoyé un message, ainsi qu’à {count, plural, one {# un autre personne} other {# autres personnes}}'
       html:
         body: "{user_display_name} vous a envoyé un [nouveau message]({url}).\n\nVous ne recevrez plus de courriels concernant cette conversation tant que vous ne l'aurez pas lue.\n"
       plain:
@@ -36,8 +62,14 @@ flarum-messages:
       placeholder: 'Rédigez un message...'
       recipients: Destinataires
       submit_button: 'Envoyer le message'
+      title: 'Nouveau message'
       to: 'À :'
+    composer_edit:
+      discard_confirmation: '=> core.forum.composer_edit.discard_confirmation'
+      submit_button: '=> core.ref.save_changes'
+      title: 'Modifier le message'
     dialog_list:
+      group_last_message_preview: '{username} : {content}'
       load_more_button: '=> core.ref.load_more'
       mark_as_read_tooltip: 'Marquer comme lue'
       own_last_message_preview: 'Vous : {content}'
@@ -49,11 +81,15 @@ flarum-messages:
       cannot_reply_text: 'Cet utilisateur ne peut pas répondre'
       controls:
         details_button: Informations
+        leave_button: 'Quitter la conversation'
+        rename_button: 'Renommer une conversation'
       controls_toggle_label: 'Actions de contrôle de la conversation'
       details_modal:
         created_at: 'Date de création'
         recipients: Participants
         title: 'Détails de la conversation'
+      leave_confirmation: 'Quitter cette conversation ? Vous ne la verrez plus et ne serez plus informé(e) des nouveaux messages qui y sont publiés. Ce que vous avez écrit reste visible pour les autres.'
+      members_button: '{count, plural, one {# membre} other {# membres}}'
     header:
       dropdown_tooltip: Messages
     index:
@@ -62,9 +98,22 @@ flarum-messages:
       latest_button: Activité
       newest_button: Nouveauté
       oldest_button: Ancienneté
+    message:
+      deleted_text: 'Ce message a été supprimé.'
+      edited_text: '=> core.forum.post.edited_text'
+      edited_tooltip: '=> core.forum.post.edited_tooltip'
+      read_status:
+        read_by_everyone_tooltip: 'Lu par tout le monde'
+        read_by_some_tooltip: 'Lu par {count} sur {total}'
+        read_tooltip: Lu
+        sent_tooltip: Envoyé
     message_controls:
       delete_button: Supprimer
       delete_confirmation: 'Êtes-vous sûr de vouloir supprimer ce message ? Cette action est irréversible.'
+      delete_forever_button: '=> core.ref.delete_forever'
+      delete_forever_confirmation: 'Êtes-vous sûr de vouloir supprimer définitivement ce message ? Cette action est irréversible.'
+      edit_button: '=> core.ref.edit'
+      restore_button: '=> core.ref.restore'
     messages_page:
       cannot_send_message_button: 'Impossible d''envoyer un message'
       empty_text: 'Aucun nouveau message'
@@ -77,28 +126,48 @@ flarum-messages:
       stream:
         load_next_button: 'Charger les messages suivants'
         load_previous_button: 'Charger les messages précédents'
+        name_removed_text: '{username} a supprimé le nom de la conversation'
+        renamed_text: '{username} a nommé la conversation « {name} »'
         start_of_the_conversation: 'Début de la conversation'
         time_lapsed_text: '=> core.forum.post_stream.time_lapsed_text'
+        user_left_text: '{username} a quitté la conversation'
       title: Messages
     notifications:
+      message_liked_text: '{username} a aimé votre message'
       message_received_text: '{user} vous a envoyé un message'
+    read_by_modal:
+      title: 'Lu par'
     recipient_selection_modal:
       cannot_reply_text: 'Impossible de répondre aux messages'
+      groups_heading: Groupes
+      groups_help: 'Les membres actuels et futurs de ces groupes peuvent lire l''intégralité de la conversation. Jusqu''à 10 groupes.'
       title: 'Sélectionnez les destinataires de ce message'
+    rename_dialog_modal:
+      help_text: 'Tout le monde dans la conversation voit ce nom. Laisse ce champ vide pour afficher à la place la liste des participants.'
+      name_label: Nom
+      submit_button: Enregistrer
+      title: 'Renommer une conversation'
     search_source:
       conversation_with: 'Conversation avec {username}'
       heading: Messages
     settings:
+      notify_message_liked_label: 'Quelqu''un aime un de mes messages'
       notify_message_received_label: 'Quelqu''un m''a envoyé un message'
+      privacy_disclose_read_receipts_label: 'Indiquer aux autres quand j''ai lu leurs messages (et voir quand ils ont lu les miens)'
     user_controls:
       cannot_reply_text: 'Cet utilisateur ne peut pas répondre'
       send_message_button: 'Envoyer un message'
   lib:
     dialog:
+      group_title: '{names}{others, plural, =0 {} other { +#}}'
+      private_group_title: 'Conversation privée'
       title: 'Messagerie {username}'
+    groups_unavailable_message: 'Ces groupes ne peuvent pas recevoir de messages.'
     no_other_members_message: 'Il n''y a personne d''autre dans cette conversation.'
     recipient_cannot_reply_message: '{username} ne peut pas répondre aux messages.'
     recipient_unavailable_message: '{username} ne peut pas recevoir de messages.'
+    too_many_groups_message: 'Un message peut être envoyé à {count} groupes au maximum.'
+    too_many_recipients_message: '{count, plural, one {Un message ne peut être envoyé qu’à un seul membre.} other {Un message peut être envoyé à un maximum de # membres.}}'
 flarum-statistics:
   admin:
     statistics:
