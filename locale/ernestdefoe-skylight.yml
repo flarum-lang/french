@@ -23,6 +23,7 @@ ernestdefoe-skylight:
       readability_always: 'Les options « Réduire la transparence » et « Augmenter le contraste » sont toujours proposées.'
       title: 'Personnalisation pour les membres'
     thumbnail:
+      'off': Désactivé
       title: 'Images de cartes'
   forum:
     studio:
