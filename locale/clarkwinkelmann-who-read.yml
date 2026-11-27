@@ -43,3 +43,8 @@ clarkwinkelmann-who-read:
       last-read-at: '{username} a lu {ago}'
       last-read-at-behind: '{username} a lu pour la dernière fois {ago} et est derrière'
       last-read-at-up-to-date: '{username} a lu le dernier message {ago}'
+  lib:
+    gambits:
+      discussions:
+        readbyeveryone:
+          key: lupartoutlemonde

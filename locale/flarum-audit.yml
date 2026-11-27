@@ -16,6 +16,8 @@ flarum-audit:
       viewLimited: 'Voir le journal d''audit limité'
     settings:
       limitedIpAddress: 'Afficher l''adresse IP'
+    tabs:
+      log: Journal
   forum:
     link:
       actor-audit: 'Journal d''audit (utilisateur en tant qu''acteur)'
@@ -128,6 +130,8 @@ flarum-audit:
         bio_changed: 'A modifié la biographie de {username}'
         created: 'A créé le compte de {username}'
         deleted: 'A supprimé {username}'
+        email_bounced: 'Courriel envoyé à {username} rejeté : {reason}'
+        email_bounced_unmatched: 'Courriel envoyé à {email} rejeté (aucun compte correspondant) : {reason}'
         email_change_requested: 'A demandé à modifier l''adresse de courriel de {username} par {new_email}'
         email_changed: 'A modifié l''adresse de courriel de {username}, {old_email} par {new_email}'
         groups_changed: 'A modifié les groupes de {username}, {old_groups} par {new_groups}'
