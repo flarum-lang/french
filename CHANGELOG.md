@@ -9,7 +9,7 @@ CHANGELOG
 
 * [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge) (100% complete)
 * [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) (100% complete)
-* [`ernestdefoe/skylight`](https://github.com/ernestdefoe/skylight) (46% complete)
+* [`ernestdefoe/skylight`](https://github.com/ernestdefoe/skylight) (87% complete)
 
 
 **Updated translations for extensions**:
@@ -29,7 +29,14 @@ CHANGELOG
 * [`flarum/sticky`](https://github.com/flarum/sticky) (4 added, 100% complete)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions) (4 added, 100% complete)
 * [`flarum/tags`](https://github.com/flarum/tags) (7 added, 100% complete)
+* [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change) (1 added, 100% complete)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) (1 added, 100% complete)
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) (1 changed, 100% complete)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) (1 changed, 100% complete)
+* [`fof/pwa`](https://github.com/FriendsOfFlarum/pwa) (11 added, 100% complete)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha) (1 added, 100% complete)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer) (4 added, 100% complete)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (3 added, 6 changed, 100% complete)
 
 
 All changes: [5.0.20...5.0.21](https://github.com/flarum-lang/french/compare/5.0.20...5.0.21).
