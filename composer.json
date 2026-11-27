@@ -1,48 +1,41 @@
 {
-    "name": "flarum-lang/french",
-    "description": "French language pack to localize the Flarum forum software plus its official and third-party extensions.",
-    "type": "flarum-extension",
-    "keywords": ["extension", "flarum", "french", "locale", "translation"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Qiaeru",
-            "email": "qiaeru@duck.com",
-            "homepage": "https://www.qiaeru.com/"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/flarum-lang/french/issues",
-        "source": "https://github.com/flarum-lang/french",
-        "forum": "https://discuss.flarum.org/d/615"
-    },
-    "require": {
-        "flarum/core": "^2.0"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "4.x-dev"
-        },
-        "flarum-extension": {
-            "title": "French",
-            "category": "language",
-            "info": {
-                "website": "https://github.com/flarum-lang/french",
-                "support": "https://github.com/flarum-lang/french/issues"
-            },
-            "icon": {
-                "image": "icon.svg",
-                "backgroundColor": "#fff",
-                "backgroundSize": "cover",
-                "backgroundPosition": "center"
-            }
-        },
-        "flarum-locale": {
-            "code": "fr",
-            "title": "Français"
-        },
-        "extiverse": {
-            "discuss": "https://discuss.flarum.org/d/615"
-        }
-    }
+	"name": "flarum-lang/french",
+	"description": "French Language Pack for Flarum",
+	"type": "flarum-extension",
+	"keywords": [
+		"flarum-locale"
+	],
+	"homepage": "https://github.com/flarum-lang/french",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Wlork",
+			"homepage": "https://github.com/Wlork",
+			"role": "Maintainer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/flarum-lang/french/issues",
+		"forum": "https://discuss.flarum.org/d/615",
+		"source": "https://github.com/flarum-lang/french"
+	},
+	"require": {
+		"flarum/core": "^2.0"
+	},
+	"extra": {
+		"flarum-extension": {
+			"title": "French",
+			"category": "language",
+			"icon": {
+				"image": "icon.svg",
+				"backgroundColor": "#fff",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "fr",
+			"title": "Français"
+		}
+	}
 }
