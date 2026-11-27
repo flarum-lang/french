@@ -28,6 +28,8 @@ flarum-tags:
       delete_tag_confirmation: 'Êtes-vous sûr de vouloir supprimer cette étiquette ? Les discussions publiées sous cette étiquette ne seront pas supprimées.'
       description_label: Description
       hide_label: 'Masquer de la liste de toutes les discussions'
+      icon_image_label: '=> core.ref.icon_image'
+      icon_image_text: '=> core.ref.icon_image_text'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       name_label: '=> flarum-tags.ref.name'
@@ -43,8 +45,15 @@ flarum-tags:
       bypass_tag_counts_label: 'Contourner les restrictions des étiquettes'
       restrict_by_tag_heading: 'Restreindre par étiquette'
       tag_discussions_label: 'Ajouter des étiquettes aux discussions'
+    sections:
+      requirements:
+        description: 'Combien d''étiquettes sont requises pour chaque nouvelle discussion. Les membres disposant de l''autorisation « Contourner les exigences relatives aux étiquettes » peuvent publier des messages avec autant d''étiquettes qu''ils le souhaitent.'
+        label: 'Exigences relatives aux étiquettes'
     settings:
       button_text: '=> flarum-tags.ref.choose_tags'
+    tabs:
+      settings: '=> flarum-tags.admin.tags.settings_heading'
+      tags: '=> flarum-tags.ref.tags'
     tag_settings:
       range_separator_text: ' à '
       required_primary_heading: 'Limite du nombre d''étiquettes primaires'
@@ -60,6 +69,8 @@ flarum-tags:
       primary_heading: 'Étiquettes primaires'
       secondary_heading: 'Étiquettes secondaires'
       settings_heading: Paramètres
+  api:
+    cannot_change_is_primary_message: 'Pour définir une étiquette comme principale ou secondaire, il suffit de modifier l''ordre des étiquettes.'
   forum:
     all_tags:
       meta_description_text: 'Toutes les étiquettes'

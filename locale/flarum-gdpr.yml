@@ -50,6 +50,16 @@ flarum-gdpr:
       process_erasure: 'Traiter les demandes d''effacement'
       process_export_for_others: 'Demander et recevoir des exportations de données pour d''autres utilisateurs'
       see_anonymized_user_badges: 'Voir les badges d''utilisateur anonymes'
+    sections:
+      anonymization:
+        description: 'Comment les membres anonymisés sont-ils désignés une fois leurs données effacées.'
+        label: Anonymisation
+      erasure:
+        description: 'Quelles méthodes de suppression les membres peuvent-ils demander et laquelle est utilisée par défaut.'
+        label: 'Demandes de suppression'
+      overview:
+        description: 'Quelles données sont exportées et supprimées, y compris celles enregistrées par d''autres extensions.'
+        label: 'Vue d''ensemble des données'
     settings:
       allow_anonymization: 'Autoriser l''anonymisation pour les demandes d''effacement'
       allow_anonymization_help: 'Il s''agit de l''option par défaut, recommandée pour la plupart des communautés. Dans ce mode, les messages et les commentaires sont conservés autant que possible, conformément au RGPD, mais les informations permettant d''identifier l''utilisateur sont supprimées.'
@@ -141,6 +151,10 @@ flarum-gdpr:
       default_user_action: 'Aucune action, gérée par défaut par le traitement des données du tableau utilisateur.'
       discussions:
         export_description: 'Exporte toutes les discussions que l''utilisateur a démarrées. Les données sont limitées au titre et à la date de création.'
+      emailbounceevents:
+        anonymize_description: 'Supprime l''adresse courriel de l''historique des courriels en échec de l''utilisateur, tout en conservant des enregistrements anonymes à des fins statistiques.'
+        delete_description: 'Supprime l''historique des courriels en échec de l''utilisateur.'
+        export_description: 'Exporte l''historique des courriels en échec et des signalements de spam de l''utilisateur.'
       forum:
         export_description: 'Exporte le titre du forum, l''URL, le nom d''utilisateur, l''adresse de courriel et la date du jour.'
       no_action: 'Aucune action n''a été entreprise.'

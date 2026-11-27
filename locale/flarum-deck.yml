@@ -6,6 +6,10 @@ flarum-deck:
   admin:
     permissions:
       use_deck_label: 'Utiliser le deck'
+    sections:
+      columns:
+        description: 'Combien de colonnes les membres peuvent-ils ajouter à leur deck et à quelle fréquence ces colonnes sont-elles actualisées.'
+        label: Colonnes
     settings:
       max_columns_help: 'Chaque colonne est une requête distincte à chaque actualisation. Entre 1 et 12.'
       max_columns_label: 'Nombre maximal de colonnes par membre'
@@ -22,6 +26,7 @@ flarum-deck:
       filter_invalid_message: 'Utilisez uniquement des filtres, tels que « étiquette:support est:non lue ». Les mots simples ne sont pas pris en charge.'
       filter_label: Filtres
       filter_placeholder: 'p. ex. étiquette:support est:non lue'
+      filter_unknown_message: '{count, plural, one {{parts} n''est pas un filtre pour les discussions.} other {{parts} ne sont pas des filtres pour les discussions.}} Utilisez des filtres tels que « étiquette:support» ou «est:non lue ».'
       group_invalid_message: 'Choisir un groupe.'
       group_label: Groupe
       in_deck_badge: 'Dans votre deck'
@@ -34,6 +39,7 @@ flarum-deck:
     column:
       controls_label: 'Options de la colonne {title}'
       drag_handle_label: 'Faites glisser pour déplacer {title}'
+      edit_button: 'Modifier la colonne'
       move_left_button: 'Déplacer vers la gauche'
       move_right_button: 'Déplacer vers la droite'
       move_to_bottom_row_button: 'Basculer vers la rangée inférieure'
@@ -62,6 +68,10 @@ flarum-deck:
     discussion_controls:
       add_to_deck_button: 'Ajouter au deck'
       added_message: 'Cette discussion est désormais une colonne dans votre deck.'
+    edit_column:
+      name_label: Nom
+      submit_button: Enregistrer
+      title: 'Modifier la colonne'
     index:
       deck_link: Deck
     page:
