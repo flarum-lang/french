@@ -15,7 +15,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`flarum/akismet`](https://github.com/flarum/akismet) (2 added, 100% complete)
-* [`flarum/audit`](https://github.com/flarum/audit) (6 added, 100% complete)
+* [`flarum/audit`](https://github.com/flarum/audit) (6 added, 99% complete)
 * [`flarum/deck`](https://github.com/flarum/deck) (7 added, 100% complete)
 * [`flarum/emoji`](https://github.com/flarum/emoji) (2 added, 100% complete)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (9 added, 100% complete)
@@ -28,7 +28,7 @@ CHANGELOG
 * [`flarum/statistics`](https://github.com/flarum/statistics) (2 added, 100% complete)
 * [`flarum/sticky`](https://github.com/flarum/sticky) (4 added, 100% complete)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions) (4 added, 100% complete)
-* [`flarum/tags`](https://github.com/flarum/tags) (7 added, 100% complete)
+* [`flarum/tags`](https://github.com/flarum/tags) (7 added, 98% complete)
 * [`fof/author-change`](https://github.com/FriendsOfFlarum/author-change) (1 added, 100% complete)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) (1 added, 100% complete)
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) (1 changed, 100% complete)
